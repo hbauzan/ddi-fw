@@ -46,7 +46,7 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
 - **Persistencia Aislada**: Los volúmenes y rutas de almacenamiento persistente deben declararse explícitamente sin montar directorios raíz del anfitrión.
 - **Un embedder live a la vez**: el benchmark carga, mide y libera. No dejar BGE-M3 + Qwen 1.5B residentes juntos.
 - **Deletor estacionada**: el insumo espectral vive solo en `feat/hipotesis-deletor`. No es la etapa de `main`. No mergear esa rama a ciegas (resucitaría `roadmap/tickets/` D01–D07).
-- **Ola Q (Qwen2)**: briefing [`roadmap/00-qwen2-live.md`](../../../roadmap/00-qwen2-live.md). Números en `current-research/`. Fila BGE del ledger **sellada**. `calibrate()` poda: no usarla para Qwen2. Cero disjuntos = `ok_unpublished`, no se podan mazos compartidos.
+- **Ola Q (Qwen2)**: briefing [`roadmap/00-qwen2-live.md`](../../../roadmap/00-qwen2-live.md). Números en `current-research/`. Fila BGE del ledger **sellada**. `calibrate()` poda: no usarla para Qwen2. Path científico: `measure_and_save` / `--no-prune --out ddi_fw/out/qwen2`. Se niega a escribir `ddi_fw/out/rows.npz`. Cero disjuntos = `ok_unpublished`, no se podan mazos compartidos.
 
 ---
 

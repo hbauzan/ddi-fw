@@ -1,6 +1,6 @@
 # Q01 — Artifact isolation + no-prune measure
 
-> **Estado:** pendiente
+> **Estado:** hecho
 > **Ola:** Qwen2 live (Q)
 > **Briefing (wins conflicts):** [`../00-qwen2-live.md`](../00-qwen2-live.md)
 > **Live model:** no
@@ -66,10 +66,10 @@ uv run pytest -q
 
 ## Definition of Done
 
-- [ ] No-prune API exists and is the documented Qwen2 path in `00-qwen2-live.md` §6 if the function name differs (update that section in the same change).
-- [ ] CLI can persist to `ddi_fw/out/qwen2/` without touching `ddi_fw/out/rows.npz`.
-- [ ] Default pytest green.
-- [ ] This ticket marked `hecho` in [`../README.md`](../README.md).
+- [x] No-prune API exists and is the documented Qwen2 path in `00-qwen2-live.md` §6 if the function name differs (update that section in the same change).
+- [x] CLI can persist to `ddi_fw/out/qwen2/` without touching `ddi_fw/out/rows.npz`.
+- [x] Default pytest green.
+- [x] This ticket marked `hecho` in [`../README.md`](../README.md).
 
 ---
 
