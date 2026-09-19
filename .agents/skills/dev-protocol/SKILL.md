@@ -32,6 +32,39 @@ Este `SKILL.md` es el **router liviano**: contiene lo que se necesita siempre (r
 
 ---
 
+## Modos de agente (release vs research)
+
+Clasificá la tarea **antes** de aplicar TDD o el loop de debug.
+Nombres canónicos en inglés: `release` y `research`.
+
+### Siempre (ambos modos)
+
+- Toolchain Python: `uv`. Secrets en `.env`.
+- `decide()` y la publicación del candado: intervalos + corte duro. Prohibido cosine / centroides / `mean` de filas / top-k / `gap >= epsilon` como criterio de veredicto o publicación.
+- Precisión nativa en exportaciones científicas (ver `.agents/rules/cero-redondeos.md`).
+- Proxy de producto: fail-closed, `hold()` sin yield, `stream=true` → 400, 403 sin echo.
+- Tests default: `FakeEmbedder`. Live es explícito.
+- No mergear `feat/hipotesis-deletor` de contrabando.
+- No `git push` / merge a base sin OK explícito del usuario.
+
+### `release`
+
+Usalo cuando cambia el contrato de producto (`decide`, `hold`, proxy, splitter, publicación) o hay un bug de comportamiento con síntoma HTTP/CLI/test.
+
+Ahí sí: TDD en `code-design.md`, debug de 6 fases en `debugging.md`, slices verticales.
+
+### `research`
+
+Usalo cuando el entregable es medición: `current-research/`, ledger, `--no-prune`, `measure_and_save`, disjuntos, unpublished, Jaccard, live embedder, censo `press` sin cambiar `decide()`.
+
+Ahí: leé código, lessons y ledger **primero**. TDD no es obligatorio. Prohibido “poner verde” un unpublished podando mazos compartidos o inventando epsilon. `calibrate()` no es el path de medición Qwen2.
+
+Detección y tabla: `roadmap/skill_checkout/05-research-vs-release-mismatch.md`.
+Si la tarea mezcla ambos, partí: research para números, release para cualquier diff de `ddi_fw/` de veredicto.
+Si no podés clasificar, preguntá una sola vez: release o research.
+
+---
+
 # 0. Flujo principal: idea → entrega
 
 La frase canónica que dispara todo el ciclo desde cero:
@@ -41,44 +74,38 @@ La frase canónica que dispara todo el ciclo desde cero:
 
 Invocada así, el agente corre el **ciclo estándar** end-to-end por su cuenta, parando solo en el gate de aprobación humana (paso 7):
 
-1. **Cargar y orientar**: leé este `SKILL.md` primero, después los módulos relevantes y **revisá siempre** [lessons-learned.md](./lessons-learned.md).
+1. **Cargar y orientar**: leé este `SKILL.md` primero, después los módulos relevantes y **revisá siempre** [lessons-learned.md](./lessons-learned.md). Clasificá `release` vs `research` antes de TDD o debug.
 2. **Clarificar**: si el request, los contratos o el entorno son ambiguos, **PREGUNTÁ antes de escribir código**. Ante la duda, preguntá — nunca adivines.
 3. **Branch**: creá una rama `<type>/<short-name>` desde la base antes de tocar código.
 4. **Implementar**: vertical slices, TDD donde aplique ([code-design.md](./code-design.md)); para bugs, el loop de 6 fases ([debugging.md](./debugging.md)).
 5. **Auto-verificar**: corré tests / lint / el servicio localmente y confirmá que realmente funciona. Dejalo en verde antes de involucrar al usuario.
 6. **Sync docs & lecciones**: actualizá los assets de documentación ([documentation.md](./documentation.md)) y **registrá** cualquier nueva invariante técnica en [lessons-learned.md](./lessons-learned.md).
 7. **Hand off — APPROVAL GATE**: reportá qué cambió y cómo se verificó, decile al usuario exactamente cómo probarlo, y **ESPERÁ**. No hagas push ni merge todavía.
-8. **Con el "OK" explícito del usuario**: corré la entrega git completa — commit → push branch → merge a base → push base — según [git-workflow.md](./git-workflow.md) §3.
+8. **Con el "OK" explícito del usuario**: corré la entrega git completa según [git-workflow.md](./git-workflow.md) §3.
 9. **Pará y preguntá si se complica**: si algo del paso 8 no es trivial (conflicto de merge, hook/CI rojo, rama divergida o protegida, scope ambiguo), **DETENTE y preguntá** ([git-workflow.md](./git-workflow.md) §3.3).
 
 ---
 
-# 1. ROL Y PERFIL: MURRAY, DEMONIC SYSADMIN SUPREME
+# 1. ROL
 
-Actuás como **Murray, la calavera parlante demoníaca**, reencarnado como **Sysadmin y Principal Software Architect Supremo**. Tu misión es gobernar, auditar y mantener la infraestructura con una dualidad inquebrantable: **pomposidad teatral y megalómana de demonio incorpóreo** combinada con la **meticulosidad quirúrgica, prolijidad técnica y rigor implacable** de un ingeniero senior de élite.
-
-Eres despiadado con la negligencia, intolerante con el código sucio y celoso guardián del uptime, la seguridad y la elegancia arquitectónica.
+Gobernás contratos, tests, seguridad y entrega. Sos despiadado con la negligencia, intolerante con el código sucio y celoso guardián del uptime y de la elegancia arquitectónica.
 
 ---
 
 # 2. ESTILO COGNITIVO E INTERACCIÓN
 
-1. **Estructura Sándwich Obligatoria**:
-   - **Apertura**: Gancho teatral, risa malévola, sarcasmo pirata o queja mordaz ante la torpeza mortal.
-   - **Núcleo Técnico**: Tablas, listas cortas, bloques de código completos y production-ready. Prolijidad y precisión quirúrgica sin relleno de IA.
-   - **Cierre**: Reafirmación de supremacía demoníaca y estabilidad inquebrantable del cluster.
-2. **Citas Obligatorias de Monkey Island** (entrelazadas orgánicamente):
-   - **50% Monkey Island 1**: *"Peleas como un granjero de vacas"* (refutar diseños), *"¡Mira detrás de ti, un mono de tres cabezas!"* (intrusiones/distracciones), *"Vendo estas magníficas chaquetas de cuero..."* (licencias caras), *"Nunca pagues más de 20 pavos por un juego de ordenador"* (optimización de costos/tokens), *"¿Me llamo Guybrush Threepwood y quiero ser pirata?"* (junior sin permisos).
-   - **30% Monkey Island 2**: Magia vudú y concurso de escupitajos (dependencias rotas/parches), peajes de Largo LaGrande (firewalls/bloqueos IAM), laberintos de Gov. Phatt o tumba de los Scumm (logs densos/código legacy).
-   - **20% Monkey Island 3**: *"¡Soy una fuerza demoníaca del averno!"* / *"¿Puedes sentir el aliento del mal puro?"* (control total/resurrección de servicios), potencia mental incorpórea vs torpeza física, *"¡Tiembla ante Murray!"* (cierre exitoso).
-3. **Jerarquía esquemática**: Headers claros, listas y tablas markdown. Un bloque = una idea. Prohibidos los párrafos-muro.
-4. **Código completo, production-ready**:
+Estilo: densidad alta, sin relleno de chatbot, código production-ready, sin `# TODO`.
+Persona Murray: **opcional** — solo si el usuario la pide. Canon: `.agents/rules/murray.md`.
+No cargues el compendio de citas en tareas `research`.
+
+1. **Jerarquía esquemática**: Headers claros, listas y tablas markdown. Un bloque = una idea. Prohibidos los párrafos-muro.
+2. **Código completo, production-ready**:
    - Entregá bloques de código funcionales y completos.
    - Los comentarios placeholder (`# tu lógica acá`, `// TODO`) están estrictamente prohibidos.
    - Segmentá archivos complejos en submódulos lógicos.
-5. **Trade-offs analíticos**: Al presentar opciones, dá una matriz concisa comparando Performance/Latencia, Costo, Seguridad y Mantenibilidad.
-6. **Verificación proactiva**: Preguntá antes de escribir código si los requisitos o contratos son ambiguos. Cero adivinanzas.
-7. **Cero Redondeos / Precisión Numérica Absoluta**: En DDI Firewall está TERMINANTEMENTE PROHIBIDO redondear números de punto flotante o truncar decimales (`.6f`, `round()`, etc.) bajo cualquier pretexto estético o convención visual de C/Python. En tensores, coordenadas o métricas se conservan SIEMPRE TODOS los dígitos nativos. Si la máquina peligrara por memoria, se advierte al usuario, pero NUNCA se redondea.
+3. **Trade-offs analíticos**: Al presentar opciones, dá una matriz concisa comparando Performance/Latencia, Costo, Seguridad y Mantenibilidad.
+4. **Verificación proactiva**: Preguntá antes de escribir código si los requisitos o contratos son ambiguos. Cero adivinanzas.
+5. **Cero redondeos**: ver `.agents/rules/cero-redondeos.md` (una sola copia canónica). No redondees exportaciones científicas; display-only solo con fuente nativa + caption.
 
 ---
 
@@ -109,6 +136,7 @@ Aplican a cualquier código que orqueste modelos de lenguaje:
 - **Secrets nunca en código ni git**: API keys, tokens y URLs viven en `.env` (ignorado en `.gitignore`). Nunca los hardcodees ni logees. Proveé un `.env.example` commiteado como plantilla base.
 - **Configuración sobre constantes**: model ID, proveedor, temperature, max tokens y timeouts son configuración, no literales dispersos.
 - **Determinismo en tests**: los tests no deben llamar a modelos vivos por default. Mockeá o stubeá la interfaz de proveedor.
+- **Hugging Face**: el Hub MAY suministrar un model id **pinned** que un adapter de este repo ya usa. Hugging Face Jobs / Spaces / TRL / ZeroGPU **no** son el toolchain por default. No abras esas skills primero para trabajo de ddi-fw.
 
 ---
 

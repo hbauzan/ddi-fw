@@ -9,6 +9,7 @@ Herramienta independiente de inspección y contención dimensional estricta.
 - Almas del demo: [`almas.md`](./almas.md)
 - Ledger empírico: [`../current-research/embedder-ledger.md`](../current-research/embedder-ledger.md)
 - Protocolo operativo: [`.agents/skills/dev-protocol/SKILL.md`](../.agents/skills/dev-protocol/SKILL.md)
+- Auditoría del protocolo (análisis + tickets de remediación, no es ola de producto): [`skill_checkout/`](./skill_checkout/)
 - Hipótesis Deletor (**estacionada**, no implementar): rama `feat/hipotesis-deletor`
 
 ---
