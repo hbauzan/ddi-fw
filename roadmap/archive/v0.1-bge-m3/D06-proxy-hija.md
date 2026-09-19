@@ -1,7 +1,7 @@
 # D06 — Proxy OpenAI-compatible
 
-> **Estado:** hecho  
-> **Ola:** 4  
+> **Estado:** hecho
+> **Ola:** 4
 > **Especificación:** [`../00-alcance.md`](../00-alcance.md)
 
 ---

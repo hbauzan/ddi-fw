@@ -1,7 +1,7 @@
 # D04 — Ingress por cláusulas
 
-> **Estado:** hecho  
-> **Ola:** 3  
+> **Estado:** hecho
+> **Ola:** 3
 > **Especificación:** [`../00-alcance.md`](../00-alcance.md)
 
 ---

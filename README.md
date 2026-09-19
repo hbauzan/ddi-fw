@@ -2,7 +2,7 @@
 
 Firewall determinista de contención dimensional estricta para modelos de lenguaje.
 
-La pertenencia a un dominio autorizado es un hecho geométrico verificable coordenada por coordenada en un vector denso (1024D en BGE-M3), no un promedio escalar angular (Coseno).
+La pertenencia a un dominio autorizado es un hecho geométrico verificable coordenada por coordenada en un vector denso ($D$ dimensiones en la interfaz `BaseEmbedder`), no un promedio escalar angular (Coseno).
 
 ## Instalar
 
@@ -11,11 +11,12 @@ uv sync --extra dev
 cp .env.example .env
 ```
 
-## Pintar almas y calibrar (BGE-M3)
+## Pintar almas y calibrar
 
 ```bash
 uv run python -m ddi_fw.almas
-uv run python -m ddi_fw.embedder --out ddi_fw/out/rows.npz --rewrite-fixtures
+# Embedder por defecto o configurable (--embedder fake, bge-m3, nomic, gemma):
+uv run python -m ddi_fw.embedder --embedder bge-m3 --out ddi_fw/out/rows.npz --rewrite-fixtures
 uv run python -m ddi_fw.press --rows ddi_fw/out/rows.npz --out ddi_fw/out
 ```
 
@@ -68,6 +69,5 @@ uv run python -m ddi_fw.press --benchmark-all --live --models bge-m3,nomic --out
 Pack vivo en [`roadmap/`](./roadmap/):
 
 - [Índice](./roadmap/README.md) · [Alcance](./roadmap/00-alcance.md) · [Almas](./roadmap/almas.md)
-- [D01](./roadmap/tickets/D01-pintar-almas.md) · [D02](./roadmap/tickets/D02-hoja-y-corte-duro.md) · [D03](./roadmap/tickets/D03-cli-press.md)
-- [D04](./roadmap/tickets/D04-ingress-clausulas.md) · [D05](./roadmap/tickets/D05-egreso-hold.md) · [D06](./roadmap/tickets/D06-proxy-hija.md)
-- [D07](./roadmap/tickets/D07-benchmark-multi-embedder.md)
+- **Etapa activa**: [Hipótesis "Deletor" (Ecualizador Espectral)](./roadmap/hipotesis-deletor.md)
+- **Histórico v0.1 (Archivado)**: Tickets [D01 a D07](./roadmap/archive/v0.1-bge-m3/) consolidados en el tag `v0.1.0-bge-m3-baseline`.
