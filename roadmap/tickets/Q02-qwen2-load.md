@@ -1,6 +1,6 @@
 # Q02 — Qwen2 adapter load smoke
 
-> **Estado:** pendiente
+> **Estado:** hecho (bloqueado: `blocker_load`)
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q01 `hecho`
 > **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)

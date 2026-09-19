@@ -19,11 +19,41 @@ Fill during tickets Q02–Q05. Do not copy BGE axis ids here as if they transfer
 
 | Field | Value |
 | :--- | :--- |
-| Date | |
-| Outcome | `ok` / `blocker_load` / `blocker_oom` / `blocker_dim` |
-| Encode shape | |
-| `memory_mb` | |
-| Error / traceback (trim secrets) | |
+| Date | 2026-09-19 |
+| Outcome | `blocker_load` |
+| Encode shape | — (never reached; `from_pretrained` raised) |
+| `memory_mb` | 765.7 (peak RSS at failure) |
+| Error / traceback (trim secrets) | `AttributeError: 'Qwen2Config' object has no attribute 'rope_theta'` |
+
+### Q02 blocker detail
+
+Snapshot `Alibaba-NLP/gte-Qwen2-1.5B-instruct` downloaded intact (18 files, 8.2 GB,
+revision `a9af15a6372d7d6b25e9fb07c2ccb9e1fe645644`). The failure is **not** a download
+or OOM problem: it dies in ~5 s at ~766 MB RSS, before any weight is read.
+
+The hub ships `modeling_qwen.py` tagged `custom_code`. Its `QWEN2Attention.__init__`
+(line 225) reads `config.rope_theta`. Under the pinned stack
+(`sentence-transformers` 6.1.0 → `transformers` 5.17.0), `AutoModel.from_pretrained`
+hands the remote module a `transformers`-native `Qwen2Config` whose attribute
+resolution no longer exposes `rope_theta` the way the vendored file expects. Same
+class of breakage as Nomic's `get_extended_attention_mask` vs `transformers` 5.x.
+
+This is a **`blocker_load`**, not a geometry result. Per briefing §3 and Q02, the
+campaign stops here: no global `transformers==4.*` pin, no model swap, no Deletor.
+Q03/Q04 live are consequently skipped (`blocker_load`); Q05 records the blocker.
+
+Reproduction (after the snapshot is cached):
+
+```bash
+uv run python -c '
+from ddi_fw.embedder import get_embedder
+get_embedder("qwen2").embed_text("Explicá el funcionamiento de list.append en Python.")
+'
+# AttributeError: Qwen2Config object has no attribute 'rope_theta'
+```
+
+Note: `config.json` itself does contain `rope_theta`; the incompatibility is in the
+vendored `custom_code` module's expectations vs `transformers` 5.17 internals.
 
 ## Q03 geometry
 

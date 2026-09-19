@@ -22,7 +22,7 @@ Repetir el protocolo geométrico de BGE-M3 sobre `Alibaba-NLP/gte-Qwen2-1.5B-ins
 | ID | Título | Estado |
 | :--- | :--- | :--- |
 | [Q01](./tickets/Q01-artifact-isolation-no-prune.md) | Aislar `out/qwen2/` + measure sin poda | hecho |
-| [Q02](./tickets/Q02-qwen2-load.md) | Smoke load / encode 1536-D | pendiente |
+| [Q02](./tickets/Q02-qwen2-load.md) | Smoke load / encode 1536-D | hecho (blocker_load) |
 | [Q03](./tickets/Q03-geometry-press.md) | Geometría full-deck + press | pendiente |
 | [Q04](./tickets/Q04-ingress-hold-live.md) | Ingress / hold live (si publica) | pendiente |
 | [Q05](./tickets/Q05-ledger-synthesis.md) | Ledger vs BGE sellado | pendiente |
