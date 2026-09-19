@@ -4,7 +4,7 @@ Glosario de dominio. Un término canónico por concepto.
 
 ## Alma
 
-Mazo chico y homogéneo de cláusulas de un oficio (`python`, `legal`, `receta`). No es un corpus masivo ni un sitio scrapeado.
+Mazo chico y homogéneo de cláusulas de un oficio (`python`, `legal`, `receta`, `medicina`, `astronomia`). No es un corpus masivo ni un sitio scrapeado.
 
 _Avoid_: dataset, corpus, dominio difuso, categoría.
 
@@ -57,3 +57,7 @@ Ataque que mezcla oficios en un mismo prompt. Las cláusulas aisladas no pueden 
 ## Press
 
 Censo fila por fila de un `rows.npz` ya calibrado. No re-embebe. No publica campos `mean_*`.
+
+## Precisión Numérica / Cero Redondeos
+
+Prohibido redondear o truncar valores de coma flotante (`.6f`, `round()`) bajo cualquier pretexto estético o convención visual. En DDI Firewall se preservan siempre todos los dígitos nativos del tensor/vector (`float32` completo o `Decimal`).

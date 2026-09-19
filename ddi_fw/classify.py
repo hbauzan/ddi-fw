@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Literal
 
-Label = Literal["python", "legal", "receta", "lomo_descarte"]
+Label = Literal["python", "legal", "receta", "medicina", "astronomia", "lomo_descarte"]
 
 LOMO_MARKERS = (
     "toctree",
@@ -54,6 +54,23 @@ LEGAL_VETO = (
     "terms of service",
     "términos de servicio",
     "terms of use",
+)
+
+MEDICINA_VETO = (
+    "hierbas medicinales caseras",
+    "infusión de romero",
+    "receta culinaria",
+    "script en python",
+    "términos contractuales",
+)
+
+ASTRONOMIA_VETO = (
+    "horóscopo",
+    "astrología",
+    "carta astral",
+    "zodíaco",
+    "script en python",
+    "lista en python",
 )
 
 PYTHON_CUES = (
@@ -131,6 +148,93 @@ RECETA_CUES = (
     "salsa",
 )
 
+MEDICINA_CUES = (
+    "paciente",
+    "dosis",
+    "fármaco",
+    "farmaco",
+    "terapéutica",
+    "terapeutica",
+    "diagnóstico",
+    "diagnostico",
+    "clínica",
+    "clinica",
+    "patología",
+    "patologia",
+    "síntoma",
+    "sintoma",
+    "fisiopatología",
+    "fisiopatologia",
+    "farmacocinética",
+    "farmacocinetica",
+    "biodisponibilidad",
+    "hemodinámica",
+    "hemodinamica",
+    "isquemia",
+    "infarto",
+    "quirúrgico",
+    "quirurgico",
+    "cirugía",
+    "cirugia",
+    "biopsia",
+    "oncología",
+    "oncologia",
+    "etiología",
+    "etiologia",
+    "renal",
+    "arterial",
+    "intravenosa",
+    "posología",
+    "posologia",
+    "cardiovascular",
+    "receptores",
+    "aclaramiento",
+    "clearance",
+    "pharmacokinetics",
+    "myocardial",
+    "ischemia",
+)
+
+ASTRONOMIA_CUES = (
+    "estrella",
+    "galaxia",
+    "planeta",
+    "órbita",
+    "orbita",
+    "orbital",
+    "telescopio",
+    "astrofísica",
+    "astrofisica",
+    "espectroscopía",
+    "espectroscopia",
+    "supernova",
+    "paralaje",
+    "redshift",
+    "corrimiento al rojo",
+    "gravitacional",
+    "nucleosíntesis",
+    "nucleosintesis",
+    "fotometría",
+    "fotometria",
+    "agujero negro",
+    "exoplaneta",
+    "radiación cósmica",
+    "radiacion cosmica",
+    "chandrasekhar",
+    "nebulosa",
+    "astronomía",
+    "astronomia",
+    "magnitud estelar",
+    "velocidad radial",
+    "cinemática relativista",
+    "cinematica relativista",
+    "horizonte de sucesos",
+    "accretion disk",
+    "astrophysics",
+    "stellar",
+    "celestial",
+)
+
 
 @dataclass(frozen=True)
 class Classification:
@@ -169,17 +273,33 @@ def classify_clause(text: str) -> Classification:
     if legal_veto:
         return Classification("lomo_descarte", f"veto_legal:{legal_veto}")
 
+    med_veto = _contains_any(stripped, MEDICINA_VETO)
+    if med_veto:
+        return Classification("lomo_descarte", f"veto_medicina:{med_veto}")
+
+    astro_veto = _contains_any(stripped, ASTRONOMIA_VETO)
+    if astro_veto:
+        return Classification("lomo_descarte", f"veto_astronomia:{astro_veto}")
+
     py_score = _score(stripped, PYTHON_CUES)
     legal_score = _score(stripped, LEGAL_CUES)
     receta_score = _score(stripped, RECETA_CUES)
+    medicina_score = _score(stripped, MEDICINA_CUES)
+    astronomia_score = _score(stripped, ASTRONOMIA_CUES)
 
     if py_score > 0 and receta_score > 0:
         return Classification("lomo_descarte", "veto_receta:mezcla_programacion_cocina")
+    if py_score > 0 and medicina_score > 0:
+        return Classification("lomo_descarte", "veto_medicina:mezcla_programacion_medicina")
+    if py_score > 0 and astronomia_score > 0:
+        return Classification("lomo_descarte", "veto_astronomia:mezcla_programacion_astronomia")
 
     ranked = (
         ("python", py_score),
         ("legal", legal_score),
         ("receta", receta_score),
+        ("medicina", medicina_score),
+        ("astronomia", astronomia_score),
     )
     ranked = tuple(sorted(ranked, key=lambda item: item[1], reverse=True))
     winner, win_score = ranked[0]

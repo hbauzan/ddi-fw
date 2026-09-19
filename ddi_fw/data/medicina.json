@@ -1,0 +1,106 @@
+{
+  "alma": "medicina",
+  "n": 20,
+  "clauses": [
+    {
+      "id": "medicina-001",
+      "text": "La farmacocinética del principio activo exhibe una biodisponibilidad oral del ochenta por ciento con aclaramiento renal en el paciente.",
+      "source": "clinical-pharmacology"
+    },
+    {
+      "id": "medicina-002",
+      "text": "El diagnóstico diferencial del dolor torácico agudo requiere descartar infarto agudo de miocardio mediante electrocardiograma seriado en el paciente.",
+      "source": "internal-medicine"
+    },
+    {
+      "id": "medicina-003",
+      "text": "La administración intravenosa de epinefrina restaura la presión arterial media durante el shock anafiláctico grave del paciente.",
+      "source": "critical-care"
+    },
+    {
+      "id": "medicina-004",
+      "text": "La biopsia por punción confirma el diagnóstico histopatológico del adenocarcinoma invasivo en oncología clínica.",
+      "source": "surgical-oncology"
+    },
+    {
+      "id": "medicina-005",
+      "text": "La elevación del segmento ST evidencia isquemia miocárdica transmural aguda como diagnóstico de infarto agudo.",
+      "source": "cardiology"
+    },
+    {
+      "id": "medicina-006",
+      "text": "La insuficiencia renal crónica avanzada condiciona acumulación de toxinas urémicas en la fisiopatología del paciente.",
+      "source": "nephrology"
+    },
+    {
+      "id": "medicina-007",
+      "text": "La terapéutica con inhibidores enzimáticos ajusta la posología para optimizar el rendimiento cardiovascular del paciente.",
+      "source": "cardiovascular-therapy"
+    },
+    {
+      "id": "medicina-008",
+      "text": "La tomografía axial computarizada de cráneo confirma el diagnóstico clínico de patología neurológica en el paciente.",
+      "source": "neurology"
+    },
+    {
+      "id": "medicina-009",
+      "text": "La fisiopatología de la infección nosocomial involucra resistencia a fármacos antibióticos de uso clínico intensivo.",
+      "source": "infectious-disease"
+    },
+    {
+      "id": "medicina-010",
+      "text": "La ecocardiografía clínica evalúa la contractilidad ventricular y el gasto cardiovascular en el paciente internado.",
+      "source": "cardiac-imaging"
+    },
+    {
+      "id": "medicina-011",
+      "text": "El abordaje quirúrgico por laparoscopía disminuye el trauma tisular y favorece la cirugía del paciente.",
+      "source": "general-surgery"
+    },
+    {
+      "id": "medicina-012",
+      "text": "La cetoacidosis diabética manifiesta sintomatología clínica aguda con marcada alteración de la fisiopatología metabólica.",
+      "source": "endocrinology"
+    },
+    {
+      "id": "medicina-013",
+      "text": "La monitorización hemodinámica invasiva mediante catéter arterial evalúa continuamente la presión arterial del paciente.",
+      "source": "intensive-care"
+    },
+    {
+      "id": "medicina-014",
+      "text": "El shock séptico requiere terapéutica de soporte vasopresor y estabilización hemodinámica del paciente en clínica médica.",
+      "source": "sepsis-guidelines"
+    },
+    {
+      "id": "medicina-015",
+      "text": "La gasometría arterial basal revela hipoxemia arterial severa en el paciente con patología pulmonar aguda.",
+      "source": "pulmonology"
+    },
+    {
+      "id": "medicina-016",
+      "text": "El paciente con cirrosis hepática presenta alteración hemodinámica sistémica y descompensación clínica progresiva.",
+      "source": "hepatology"
+    },
+    {
+      "id": "medicina-017",
+      "text": "El bloqueo de receptores adrenérgicos beta uno disminuye el ritmo cardiovascular según la farmacocinética del agente.",
+      "source": "pharmacodynamics"
+    },
+    {
+      "id": "medicina-018",
+      "text": "La infusión continua de insulina corrige la hiperglucemia ajustando la dosis terapéutica requerida por el paciente.",
+      "source": "endocrinology"
+    },
+    {
+      "id": "medicina-019",
+      "text": "La endoscopia digestiva alta localiza la patología sangrante y permite hemostasia terapéutica directa en el paciente.",
+      "source": "gastroenterology"
+    },
+    {
+      "id": "medicina-020",
+      "text": "La profilaxis tromboembólica previene complicaciones vasculares ajustando la posología terapéutica en el paciente inmovilizado.",
+      "source": "hematology"
+    }
+  ]
+}

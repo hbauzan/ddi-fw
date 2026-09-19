@@ -35,7 +35,7 @@ Publicación: `published = len(ejes_disjuntos) > 0`. Jamás se relaja `gap`.
 
 ## `rows.npz`
 
-Claves requeridas: `python`, `legal`, `receta` (float32), `ids_*` (object), `texts_*` (object), `model_id`, `dimension`.
+Claves requeridas: `python`, `legal`, `receta`, `medicina`, `astronomia` (float32, o las almas presentes según bundle), `ids_*` (object), `texts_*` (object), `model_id`, `dimension`.
 
 BGE-M3 histórico: `ddi_fw/out/rows.npz`. Qwen2 (ola Q): `ddi_fw/out/qwen2/rows.npz`. No se pisan.
 
@@ -91,3 +91,7 @@ Política demo: `allowed=python`, `forbidden={receta,legal}`. PASS solo si **tod
 `press.json`: por par, `disjoint_axes`, `disjoint_count`, `published`, censo por familia, `vote_count_extrema` `{lo,hi}` por tipo de voto. Cero `mean_*`.
 
 `benchmark_models.json` (D07, diagnóstico): puede incluir `mean_gap` / `max_gap`. Esos campos no deciden publicación.
+
+## Precisión Numérica e Invariante Anti-Redondeo
+
+Toda persistencia y exportación de vectores, coordenadas y cotas dimensionales debe preservar la mantisa completa de los tensores nativos IEEE 754 float32 (`f'{val:.17g}'`, `f'{val:.9g}'` o `Decimal`). Queda estrictamente prohibido redondear o truncar dígitos (`.6f`, `round()`) bajo cualquier justificación estética o de visualización.

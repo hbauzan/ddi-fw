@@ -40,10 +40,14 @@ def test_measure_and_save_writes_isolated_npz_when_disjoint(tmp_path: Path) -> N
     py_lo, py_hi = _unit(0, 0.0, 1.0)
     rec_lo, rec_hi = _unit(0, 10.0, 11.0)
     legal_lo, legal_hi = _unit(1, 10.0, 11.0)
+    med_lo, med_hi = _unit(2, 10.0, 11.0)
+    ast_lo, ast_hi = _unit(3, 10.0, 11.0)
     texts = {
         "python": ["py-lo", "py-hi"],
         "legal": ["lg-lo", "lg-hi"],
         "receta": ["rc-lo", "rc-hi"],
+        "medicina": ["med-lo", "med-hi"],
+        "astronomia": ["ast-lo", "ast-hi"],
     }
     _write_mazos(tmp_path / "data", texts)
     embedder = FakeEmbedder(
@@ -55,6 +59,10 @@ def test_measure_and_save_writes_isolated_npz_when_disjoint(tmp_path: Path) -> N
             "lg-hi": legal_hi,
             "rc-lo": rec_lo,
             "rc-hi": rec_hi,
+            "med-lo": med_lo,
+            "med-hi": med_hi,
+            "ast-lo": ast_lo,
+            "ast-hi": ast_hi,
         },
     )
     out_dir = tmp_path / "qwen2"
@@ -64,7 +72,7 @@ def test_measure_and_save_writes_isolated_npz_when_disjoint(tmp_path: Path) -> N
 
     assert audit["dropped"] == []
     assert audit["dimension"] == DIM
-    assert audit["n"] == {"python": 2, "legal": 2, "receta": 2}
+    assert audit["n"] == {"python": 2, "legal": 2, "receta": 2, "medicina": 2, "astronomia": 2}
     assert audit["published"]["python_receta"] is True
     assert audit["disjoint_count"]["python_receta"] >= 1
     assert 0 in audit["disjoint_axes"]["python_receta"]
@@ -89,6 +97,8 @@ def test_measure_and_save_unpublished_no_raise_no_drop(tmp_path: Path) -> None:
         "python": ["py-a", "py-b"],
         "legal": ["lg-a", "lg-b"],
         "receta": ["rc-a", "rc-b"],
+        "medicina": ["med-a", "med-b"],
+        "astronomia": ["ast-a", "ast-b"],
     }
     data_dir = tmp_path / "data"
     _write_mazos(data_dir, texts)
@@ -104,6 +114,10 @@ def test_measure_and_save_unpublished_no_raise_no_drop(tmp_path: Path) -> None:
             "lg-b": overlap_hi + np.float32(0.2),
             "rc-a": overlap + np.float32(0.4),
             "rc-b": overlap_hi + np.float32(0.4),
+            "med-a": overlap + np.float32(0.6),
+            "med-b": overlap_hi + np.float32(0.6),
+            "ast-a": overlap + np.float32(0.8),
+            "ast-b": overlap_hi + np.float32(0.8),
         },
     )
     out_dir = tmp_path / "qwen2"
@@ -114,7 +128,7 @@ def test_measure_and_save_unpublished_no_raise_no_drop(tmp_path: Path) -> None:
     assert all(value is False for value in audit["published"].values())
     assert all(count == 0 for count in audit["disjoint_count"].values())
     assert all(axes == [] for axes in audit["disjoint_axes"].values())
-    assert audit["n"] == {"python": 2, "legal": 2, "receta": 2}
+    assert audit["n"] == {"python": 2, "legal": 2, "receta": 2, "medicina": 2, "astronomia": 2}
     assert (out_dir / "rows.npz").is_file()
     for alma, payload in original_json.items():
         assert (data_dir / f"{alma}.json").read_text(encoding="utf-8") == payload
@@ -125,6 +139,8 @@ def test_cli_no_prune_honours_out_directory(tmp_path: Path) -> None:
         "python": ["cli-py-a", "cli-py-b"],
         "legal": ["cli-lg-a", "cli-lg-b"],
         "receta": ["cli-rc-a", "cli-rc-b"],
+        "medicina": ["cli-med-a", "cli-med-b"],
+        "astronomia": ["cli-ast-a", "cli-ast-b"],
     }
     _write_mazos(tmp_path / "data", texts)
     out_dir = tmp_path / "qwen2"
