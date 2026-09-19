@@ -1,6 +1,6 @@
 # Q02 — Qwen2 adapter load smoke
 
-> **Estado:** pendiente
+> **Estado:** hecho (`blocker_load`)
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q01 `hecho`
 > **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
@@ -69,10 +69,10 @@ If you add `tests/test_ddi_live_qwen2.py`, mark tests `@pytest.mark.live`. Defau
 
 ## Definition of Done
 
-- [ ] Either: one successful 1536-D encode recorded in the Qwen engine dump, **or** a `blocker_load` / `blocker_oom` / `blocker_dim` with traceback.
-- [ ] Ledger Qwen2 row: `live_smoke` = `ok` or the blocker code. Do not fill geometry cells yet if blocked.
-- [ ] Default `uv run pytest` still green.
-- [ ] Ticket `hecho` in [`../README.md`](../README.md) (success **or** documented blocker).
+- [x] Either: one successful 1536-D encode recorded in the Qwen engine dump, **or** a `blocker_load` / `blocker_oom` / `blocker_dim` with traceback.
+- [x] Ledger Qwen2 row: `live_smoke` = `ok` or the blocker code. Do not fill geometry cells yet if blocked.
+- [x] Default `uv run pytest` still green.
+- [x] Ticket `hecho` in [`../README.md`](../README.md) (success **or** documented blocker).
 
 ---
 

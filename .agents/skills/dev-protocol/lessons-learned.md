@@ -34,7 +34,7 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
 - **EmbeddingGemma está gated**: `google/embeddinggemma-300m` exige aceptar la licencia Gemma. Un 401 no es bug del candado; el adapter queda y el live se salta.
 - **Nomic v1.5 vs transformers 5.x**: `nomic-ai/nomic-embed-text-v1.5` exige `trust_remote_code` + `einops`. En transformers 5.17 el custom `NomicBertModel` explota (`get_extended_attention_mask`). El adapter queda; el live se documenta como error, no se pinnea Nomic como baseline.
 - **EmbeddingGemma gated**: `google/embeddinggemma-300m` da 401 sin licencia Gemma aceptada + `HF_TOKEN`. No es bug del candado.
-- **Qwen2 1.5B**: `Alibaba-NLP/gte-Qwen2-1.5B-instruct` es pesado (~1.8B). Adapter obligatorio; live opcional si hay RAM.
+- **Qwen2 1.5B**: `Alibaba-NLP/gte-Qwen2-1.5B-instruct`, `dimension` 1536, `trust_remote_code`, Hub `custom_code`. Live 2026-09-19: `blocker_load` — `modeling_qwen.py` lee `config.rope_theta` y `Qwen2Config` de transformers 5.17 no lo expone. Adapter + `measure_and_save` quedan. No pinnear `transformers==4.*`. No geometría. Dump: [`current-research/engines/gte-qwen2-1.5b.md`](../../../current-research/engines/gte-qwen2-1.5b.md).
 - **BGE-M3 en estos mazos**: `python_receta` eje 891 (1 disjunto), `python_legal` eje 192 (1 disjunto), `legal_receta` 7 disjuntos. Censo live: 21/21 left y 17/17 right en el par headline. Una sola fila puente (`receta-012` almíbar) mató la disyunción python↔receta: se sacó de las semillas, no se reintroduce.
 - **`python -m ddi_fw.almas` reescribe fixtures**: las semillas tienen que coincidir con el mazo podado. Si el test D01 llama `build_almas()` sobre `ddi_fw/data/`, una semilla puente vuelve y el candado deja de publicar.
 
@@ -46,7 +46,7 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
 - **Persistencia Aislada**: Los volúmenes y rutas de almacenamiento persistente deben declararse explícitamente sin montar directorios raíz del anfitrión.
 - **Un embedder live a la vez**: el benchmark carga, mide y libera. No dejar BGE-M3 + Qwen 1.5B residentes juntos.
 - **Deletor estacionada**: el insumo espectral vive solo en `feat/hipotesis-deletor`. No es la etapa de `main`. No mergear esa rama a ciegas (resucitaría `roadmap/tickets/` D01–D07).
-- **Ola Q (Qwen2)**: briefing [`roadmap/00-qwen2-live.md`](../../../roadmap/00-qwen2-live.md). Números en `current-research/`. Fila BGE del ledger **sellada**. `calibrate()` poda: no usarla para Qwen2. Path científico: `measure_and_save` / `--no-prune --out ddi_fw/out/qwen2`. Se niega a escribir `ddi_fw/out/rows.npz`. Cero disjuntos = `ok_unpublished`, no se podan mazos compartidos.
+- **Ola Q (Qwen2)**: briefing [`roadmap/00-qwen2-live.md`](../../../roadmap/00-qwen2-live.md). Números en `current-research/`. Fila BGE del ledger **sellada**. `calibrate()` poda: no usarla para Qwen2. Path científico: `measure_and_save` / `--no-prune --out ddi_fw/out/qwen2`. Se niega a escribir `ddi_fw/out/rows.npz`. Cero disjuntos = `ok_unpublished`, no se podan mazos compartidos. Cierre 2026-09-19: Qwen2 `blocker_load` (`custom_code` / `rope_theta`). Pin de producto: `BAAI/bge-m3`.
 
 ---
 

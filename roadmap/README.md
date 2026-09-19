@@ -22,10 +22,12 @@ Repetir el protocolo geométrico de BGE-M3 sobre `Alibaba-NLP/gte-Qwen2-1.5B-ins
 | ID | Título | Estado |
 | :--- | :--- | :--- |
 | [Q01](./tickets/Q01-artifact-isolation-no-prune.md) | Aislar `out/qwen2/` + measure sin poda | hecho |
-| [Q02](./tickets/Q02-qwen2-load.md) | Smoke load / encode 1536-D | pendiente |
-| [Q03](./tickets/Q03-geometry-press.md) | Geometría full-deck + press | pendiente |
-| [Q04](./tickets/Q04-ingress-hold-live.md) | Ingress / hold live (si publica) | pendiente |
-| [Q05](./tickets/Q05-ledger-synthesis.md) | Ledger vs BGE sellado | pendiente |
+| [Q02](./tickets/Q02-qwen2-load.md) | Smoke load / encode 1536-D | hecho (`blocker_load`) |
+| [Q03](./tickets/Q03-geometry-press.md) | Geometría full-deck + press | hecho (skipped `blocker_load`) |
+| [Q04](./tickets/Q04-ingress-hold-live.md) | Ingress / hold live (si publica) | hecho (skipped `blocker_load`) |
+| [Q05](./tickets/Q05-ledger-synthesis.md) | Ledger vs BGE sellado | hecho |
+
+Ola Q cerrada 2026-09-19: Qwen2 no cargó (`custom_code` / transformers 5.17). Pin de producto: seguir `BAAI/bge-m3`. Números: [`embedder-ledger.md`](../current-research/embedder-ledger.md).
 
 **Regla**: leé [`00-qwen2-live.md`](./00-qwen2-live.md) antes del ticket. `calibrate()` poda: prohibido para Qwen2. Cero disjuntos = hallazgo, no se tocan los mazos.
 
