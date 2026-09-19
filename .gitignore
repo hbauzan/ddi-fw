@@ -24,3 +24,7 @@ context.txt
 ddi_fw/out/
 *.npz
 !ddi_fw/data/
+
+# Rompepepe runs and vaults
+tools/rompepepe/vault/
+

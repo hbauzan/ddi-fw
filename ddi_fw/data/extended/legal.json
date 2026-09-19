@@ -1,0 +1,667 @@
+{
+  "alma": "legal",
+  "n": 110,
+  "description": "Mazo extendido de legal con balance bilingue (ES/EN) de alta densidad terminologica.",
+  "clauses": [
+    {
+      "id": "legal-es-001",
+      "text": "El presente contrato de prestación de servicios profesionales se celebra entre las partes signatarias con plena capacidad jurídica para obligarse.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-002",
+      "text": "Las partes convienen expresamente que cualquier controversia derivada del cumplimiento o interpretación será resuelta mediante arbitraje vinculante.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-003",
+      "text": "El contratista se obliga a mantener estricta confidencialidad respecto a toda información técnica, comercial o financiera recibida del cliente.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-004",
+      "text": "La vigencia de las obligaciones de secreto y confidencialidad subsistirá durante un período ininterrumpido de cinco años tras la rescisión contractual.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-005",
+      "text": "Queda expresamente prohibida la cesión total o parcial de los derechos u obligaciones emergentes del presente acuerdo sin consentimiento previo por escrito.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-006",
+      "text": "El cliente abonará los honorarios devengados dentro de los treinta días corridos contados a partir de la recepción formal de la factura correspondiente.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-007",
+      "text": "La mora en el cumplimiento de las obligaciones dinerarias operará de pleno derecho por el mero vencimiento de los plazos sin necesidad de interpelación.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-008",
+      "text": "El incumplimiento material de cualquiera de las cláusulas esenciales facultará a la parte cumplidora a resolver el vínculo mediante notificación fehaciente.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-009",
+      "text": "La parte afectada por un supuesto de fuerza mayor o caso fortuito quedará eximida de responsabilidad durante el lapso que persista el impedimento.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-010",
+      "text": "El contratista declara y garantiza que todos los entregables desarrollados constituyen obras originales y no infringen derechos de propiedad ajenos.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-011",
+      "text": "Todos los derechos patrimoniales de autor sobre las creaciones resultantes se considerarán transferidos al cliente en forma exclusiva y definitiva.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-012",
+      "text": "El contratista mantendrá indemne al cliente frente a cualquier reclamo, demanda o acción judicial promovida por terceros fundada en infracción de marcas.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-013",
+      "text": "La invalidez o nulidad de alguna de las disposiciones del presente instrumento no afectará la validez y exigibilidad de las restantes estipulaciones.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-014",
+      "text": "Las notificaciones judiciales o extrajudiciales serán cursadas por medio fehaciente a los domicilios especiales constituidos en el encabezado.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-015",
+      "text": "Las partes se someten a la jurisdicción exclusiva de los tribunales ordinarios competentes renunciando expresamente a cualquier otro fuero que pudiere corresponder.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-016",
+      "text": "El contratista actuará en todo momento como un profesional independiente sin que exista relación de subordinación jurídica o dependencia laboral alguna.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-017",
+      "text": "La renuncia por alguna de las partes al ejercicio de una acción judicial derivada de un incumplimiento no implicará renuncia a reclamar incumplimientos futuros.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-018",
+      "text": "Cualquier modificación o enmienda a los términos estipulados en el presente acuerdo requerirá de adenda escrita debidamente suscripta por apoderados.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-019",
+      "text": "El presente instrumento constituye el acuerdo íntegro y definitivo entre las partes, derogando cualesquiera entendimientos preliminares previos.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-020",
+      "text": "Las partes acuerdan que las firmas digitales o electrónicas estampadas en el presente gozarán de idéntica validez jurídica que las firmas ológrafas.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-021",
+      "text": "El contratista responderá por los daños y perjuicios directos ocasionados al cliente que sean consecuencia inmediata y comprobable de dolo o culpa grave.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-022",
+      "text": "La indemnización por daños emergentes pactada bajo el presente contrato no comprenderá bajo ninguna circunstancia el lucro cesante ni daños punitivos.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-023",
+      "text": "El cliente podrá auditar periódicamente los libros contables y registros vinculados al cumplimiento de los hitos de entrega previa notificación razonable.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-024",
+      "text": "Los tributos, tasas y contribuciones que graven el ejercicio de la actividad profesional correrán por cuenta exclusiva de la parte designada por ley.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-025",
+      "text": "En caso de rescisión anticipada sin causa imputable, el cliente abonará exclusivamente los servicios efectivamente prestados hasta la fecha de cese.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-026",
+      "text": "El contratista se compromete a devolver de inmediato todo material sensible, soporte magnético o documentación confidencial en su poder.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-027",
+      "text": "Las cláusulas relativas a indemnidad, confidencialidad, propiedad intelectual y resolución de disputas sobrevivirán a la expiración del contrato.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-028",
+      "text": "El plazo pactado para la subsanación de cualquier intimación por incumplimiento será de quince días hábiles a computar desde la recepción fehaciente.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-029",
+      "text": "El contratista declara contar con las habilitaciones administrativas, matrículas profesionales y seguros de responsabilidad civil pertinentes.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-030",
+      "text": "Ninguna de las partes incurrirá en mora si el retraso en la prestación obedece a demoras injustificadas en las aprobaciones debidas por la contraparte.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-031",
+      "text": "La suscripción del presente documento implica la plena aceptación de los anexos técnicos que forman parte integrante e inescindible del convenio.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-032",
+      "text": "El retraso en el pago devengará un interés compensatorio y punitorio equivalente a la tasa activa fijada por la autoridad bancaria nacional.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-033",
+      "text": "La parte perjudicada por revelación indebida de secretos industriales tendrá derecho a solicitar medidas cautelares urgentes sin fianza previa.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-034",
+      "text": "El contratista no podrá subcontratar la ejecución material de las tareas comprometidas sin autorización escrita y expresa emanada del comitente.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-035",
+      "text": "Ambas partes declaran bajo juramento que sus respectivos firmantes ostentan facultades representativas suficientes que no les han sido revocadas ni limitadas.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-036",
+      "text": "Las obligaciones de no competencia comercial mantendrán plena vigencia dentro del territorio geográfico pactado por un lapso no inferior a dos años.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-037",
+      "text": "Los costos y costas judiciales derivados de litigios necesarios para exigir el cobro forzado de sumas adeudadas serán asumidos por la parte deudora.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-038",
+      "text": "El presente contrato se redacta en dos ejemplares de un mismo tenor y a un solo efecto, recibiendo cada parte signataria su copia correspondiente.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-039",
+      "text": "Las partes acuerdan interpretar armónicamente las cláusulas atendiendo a la verdadera intención de los contratantes y a la buena fe comercial.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-040",
+      "text": "La quiebra, liquidación o concurso preventivo de acreedores de cualquiera de las partes habilitará la resolución inmediata de pleno derecho.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-041",
+      "text": "El contratista se obliga a cumplir rigurosamente con todas las normas vigentes en materia de seguridad social y previsión laboral respecto a sus dependientes.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-042",
+      "text": "Las partes declaran que las penalidades pactadas en la cláusula penal representan una liquidación previa, razonable y equitativa de los perjuicios estimados.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-043",
+      "text": "La omisión de exigir el cumplimiento estricto de cualquier término no constituirá una novación de las obligaciones contractualmente asumidas.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-044",
+      "text": "El cliente mantendrá indemne al contratista frente a reclamaciones derivadas de datos o materiales suministrados directamente por el cliente que infrinjan derechos.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-045",
+      "text": "Todo conflicto derivado de la titularidad de patentes de invención será sometido a peritaje técnico vinculante designado por el centro arbitral.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-046",
+      "text": "El presente contrato se regirá e interpretará de conformidad con las leyes comerciales y civiles aplicables en la jurisdicción acordada.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-047",
+      "text": "Las partes convienen fijar domicilio legal en las direcciones consignadas donde tendrán plena validez todas las comunicaciones y emplazamientos cursados.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-048",
+      "text": "El contrato entrará en vigencia a partir de la fecha de suscripción de la última de las firmas requeridas en el pliego contractual.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-049",
+      "text": "El contratista garantiza que los servicios serán ejecutados con los más altos estándares profesionales de diligencia y pericia técnica exigibles.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-050",
+      "text": "Cualquier cesión de posición contractual efectuada en contravención a lo aquí previsto será considerada nula y sin ningún efecto legal entre partes.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-051",
+      "text": "Las sumas retenidas en concepto de fondo de reparo serán reintegradas transcurridos noventa días desde la recepción provisoria satisfactoria.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-052",
+      "text": "El cliente se reserva el derecho de rechazar entregables que no satisfagan los criterios objetivos de aceptación plasmados en los anexos.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-053",
+      "text": "El acuerdo no confiere ningún beneficio, derecho o acción a terceros ajenos que no revistan la calidad de partes contratantes legítimas.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-054",
+      "text": "En caso de contradicción entre las cláusulas del cuerpo principal y los términos de las órdenes de compra, prevalecerá el contrato marco.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-es-055",
+      "text": "Las partes se comprometen a negociar de buena fe cualquier adaptación contractual requerida por modificaciones sobrevinientes en el marco regulatorio.",
+      "lang": "es",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-001",
+      "text": "This master professional services agreement is executed between the undersigned corporate entities with full legal capacity to contract.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-002",
+      "text": "The contracting parties mutually agree that any legal dispute arising from this contract shall be settled by binding confidential arbitration.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-003",
+      "text": "The independent contractor agrees to hold in strictest confidence all proprietary, financial, and technical documentation disclosed by the client.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-004",
+      "text": "The restrictive covenants regarding confidentiality and trade secrets shall endure for five consecutive years following agreement expiration.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-005",
+      "text": "Neither party may assign, delegate, or transfer its rights or duties under this agreement without prior written authorization from the other party.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-006",
+      "text": "Client covenants to remit payment for approved professional fees within thirty calendar days from receipt of an undisputed itemized invoice.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-007",
+      "text": "Any default in monetary obligations shall trigger automatic default interest penalties without requiring prior formal demand or judicial notice.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-008",
+      "text": "Material breach of any essential contractual condition entitles the aggrieved non-breaching party to terminate the covenant upon written notice.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-009",
+      "text": "Neither contracting party shall be held legally liable for delay in performance caused by unforeseeable events of force majeure or government decrees.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-010",
+      "text": "Contractor warrants and represents that all deliverable materials are entirely original and do not infringe upon any third-party intellectual property.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-011",
+      "text": "All worldwide copyright, patent rights, and proprietary rights in the bespoke deliverables are hereby assigned exclusively to the corporate client.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-012",
+      "text": "Contractor shall defend, indemnify, and hold harmless the client against any third-party claims, liabilities, or losses alleging patent infringement.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-013",
+      "text": "If any clause or provision of this contract is held invalid or unenforceable by a competent tribunal, the remainder shall continue in full force.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-014",
+      "text": "Formal legal notices must be delivered in writing via certified mail with recorded delivery to the registered principal offices specified herein.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-015",
+      "text": "The parties submit exclusively to the personal jurisdiction and venue of the federal and state courts located within the state of Delaware.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-016",
+      "text": "Contractor performs all duties as an independent contractor, and nothing herein shall create an employer-employee or agency relationship.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-017",
+      "text": "Failure or delay by either party in exercising any statutory or contractual remedy shall not operate as an overarching waiver of such rights.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-018",
+      "text": "No amendment, addendum, or variation of this contractual document shall take legal effect unless executed in written instruments signed by officers.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-019",
+      "text": "This executed document embodies the entire agreement between the parties superseding all prior oral negotiations, memoranda, or proposals.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-020",
+      "text": "The parties confirm that counterpart signatures exchanged by authenticated digital or electronic means shall constitute legally binding originals.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-021",
+      "text": "Contractor liability for direct damages arising out of gross negligence or willful misconduct shall be capped at total fees paid under this agreement.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-022",
+      "text": "Under no circumstances shall either contracting party be held liable for indirect, incidental, consequential, punitive, or lost profit damages.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-023",
+      "text": "Client reserves the audit right to inspect operational logs and billing records relevant to deliverable milestones upon reasonable advance notice.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-024",
+      "text": "All statutory corporate taxes, income withholdings, and commercial levies applicable to service fees shall be satisfied by the statutory taxpayer.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-025",
+      "text": "In the event of termination for convenience, client shall tender compensation solely for validated services performed up to the termination date.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-026",
+      "text": "Upon expiration or cancellation of this covenant, contractor shall immediately return or securely destroy all confidential records and media.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-027",
+      "text": "Survival of legal covenants: provisions governing indemnification, confidentiality, dispute resolution, and governing law shall survive termination.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-028",
+      "text": "The contractual cure period for any remediable default shall be fifteen consecutive business days following receipt of written cure demand.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-029",
+      "text": "Contractor certifies maintenance of comprehensive commercial general liability insurance, professional indemnity coverage, and regulatory licenses.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-030",
+      "text": "Neither party shall be in breach where delay in project milestone execution is attributable to unjustified withholding of client approvals.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-031",
+      "text": "The execution of this master contract incorporates all appended schedules, exhibits, and technical statements of work by express reference.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-032",
+      "text": "Past due balances shall accrue compounded interest at the rate of one and one-half percent per month or the statutory legal maximum permitted.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-033",
+      "text": "The non-breaching party shall be entitled to seek immediate injunctive relief and equitable decrees to restrain unauthorized trade secret disclosure.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-034",
+      "text": "Contractor shall not subcontract the core execution of milestone duties to third-party vendors without express prior written client consent.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-035",
+      "text": "The authorized signatories expressly warrant that they possess corporate power and authorized board delegations to execute this binding contract.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-036",
+      "text": "Non-solicitation covenants prohibiting the active recruitment of client engineering or managerial personnel shall survive for twenty-four months.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-037",
+      "text": "In any contentious proceeding brought to enforce unpaid fee obligations, the prevailing litigant shall recover reasonable attorney fees and costs.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-038",
+      "text": "This agreement is executed in duplicate identical counterparts, each of which shall be deemed an authentic original binding both signing parties.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-039",
+      "text": "The contractual provisions shall be construed reasonably in accordance with mutual good faith dealing and customary commercial business practices.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-040",
+      "text": "The filing of voluntary bankruptcy petitions or insolvency proceedings by either contracting party shall authorize instantaneous contract termination.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-041",
+      "text": "Contractor warrants compliance with applicable anti-corruption statutes including the Foreign Corrupt Practices Act and statutory labor standards.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-042",
+      "text": "Liquidated damages specified herein represent a genuine pre-estimate of loss and not a contractual penalty intended to deter lawful termination.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-043",
+      "text": "Waiver of jury trial: each contracting party knowingly, voluntarily, and irrevocably waives any constitutional right to trial by jury in disputes.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-044",
+      "text": "Client shall indemnify and hold contractor harmless against liabilities arising out of client-supplied specifications that infringe proprietary rights.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-045",
+      "text": "Any technological patent dispute arising under this agreement shall be submitted to binding expert appraisal administered by the arbitration institute.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-046",
+      "text": "This contract shall be construed, interpreted, and governed under the substantive commercial laws of the chosen governing jurisdiction.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-047",
+      "text": "Formal process service and notices delivered to designated legal addresses shall constitute sufficient service for all evidentiary purposes.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-048",
+      "text": "This agreement shall take legal effect immediately upon the date of mutual execution by authorized executive signatories of both corporations.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-049",
+      "text": "Contractor represents that contractual milestone services shall be executed with ordinary professional care, diligence, and customary skill.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-050",
+      "text": "Any purported assignment or delegation executed in violation of the anti-assignment provisions shall be void ab initio and unenforceable.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-051",
+      "text": "Retainage deductions withheld by client shall be released within ninety days following issuance of the final certificate of milestone completion.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-052",
+      "text": "Client retains the contractual right to reject deliverable items failing to satisfy objective verification criteria enumerated in work schedules.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-053",
+      "text": "Nothing herein express or implied is intended or shall be construed to confer upon any third party any statutory rights or causes of action.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-054",
+      "text": "In the event of irreconcilable conflict between terms of this master contract and individual purchase orders, master contract terms prevail.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    },
+    {
+      "id": "legal-en-055",
+      "text": "The parties agree to renegotiate in good faith contractual provisions rendered obsolete or unlawful by subsequent governmental regulatory shifts.",
+      "lang": "en",
+      "source": "corpus-extendido-legal"
+    }
+  ]
+}

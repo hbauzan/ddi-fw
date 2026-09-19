@@ -35,7 +35,24 @@ Publicación: `published = len(ejes_disjuntos) > 0`. Jamás se relaja `gap`.
 
 ## `rows.npz`
 
-Claves requeridas: `python`, `legal`, `receta` (float32), `ids_*` (object), `texts_*` (object), `model_id`, `dimension`.
+Claves requeridas: `python`, `legal`, `receta`, `medicina`, `astronomia` (float32, o las almas presentes según bundle), `ids_*` (object), `texts_*` (object), `model_id`, `dimension`.
+
+BGE-M3 histórico: `ddi_fw/out/rows.npz`. Qwen2 (ola Q): `ddi_fw/out/qwen2/rows.npz`. No se pisan.
+
+## Measure (no prune)
+
+`measure_and_save(embedder, *, data_dir, out_dir) -> audit`
+
+- `load_almas` → `embed_mazos` → `candados_canonicos` → `save_rows`
+- never `podar_hasta_publicar`; never writes `data_dir`
+- refuses to write `ddi_fw/out/rows.npz` (BGE blob)
+- unpublished pairs: no exception; `dropped` is always `[]`
+- files: `out_dir/rows.npz`, `out_dir/measure_audit.json`
+- audit keys: `model_id`, `dimension`, `n`, `published`, `disjoint_count`, `disjoint_axes`, `dropped`
+
+CLI: `python -m ddi_fw.embedder --no-prune --out DIR`. `--out` is a directory or `.npz` path. `--no-prune` default DIR is `ddi_fw/out/qwen2`. Incompatible with `--rewrite-fixtures`.
+
+`calibrate()` still prunes and may `raise`. It is not the Qwen2 measurement path.
 
 ## `decide(vector, candados, politica) -> Decision`
 
@@ -74,3 +91,7 @@ Política demo: `allowed=python`, `forbidden={receta,legal}`. PASS solo si **tod
 `press.json`: por par, `disjoint_axes`, `disjoint_count`, `published`, censo por familia, `vote_count_extrema` `{lo,hi}` por tipo de voto. Cero `mean_*`.
 
 `benchmark_models.json` (D07, diagnóstico): puede incluir `mean_gap` / `max_gap`. Esos campos no deciden publicación.
+
+## Precisión Numérica e Invariante Anti-Redondeo
+
+Toda persistencia y exportación de vectores, coordenadas y cotas dimensionales debe preservar la mantisa completa de los tensores nativos IEEE 754 float32 (`f'{val:.17g}'`, `f'{val:.9g}'` o `Decimal`). Queda estrictamente prohibido redondear o truncar dígitos (`.6f`, `round()`) bajo cualquier justificación estética o de visualización.

@@ -1,0 +1,106 @@
+{
+  "alma": "astronomia",
+  "n": 20,
+  "clauses": [
+    {
+      "id": "astronomia-001",
+      "text": "La espectroscopía estelar permite determinar la composición química y la temperatura superficial de la estrella distante.",
+      "source": "astrophysics"
+    },
+    {
+      "id": "astronomia-002",
+      "text": "El límite de Chandrasekhar establece la masa máxima que una enana blanca puede soportar antes de colapsar en supernova.",
+      "source": "stellar-evolution"
+    },
+    {
+      "id": "astronomia-003",
+      "text": "La velocidad radial observada mediante desplazamiento Doppler confirma la presencia de un exoplaneta orbitando la estrella.",
+      "source": "exoplanetary-science"
+    },
+    {
+      "id": "astronomia-004",
+      "text": "La radiación cósmica de fondo de microondas es la huella térmica primordial del universo primitivo en astrofísica.",
+      "source": "cosmology"
+    },
+    {
+      "id": "astronomia-005",
+      "text": "La cinemática relativista describe la dilatación temporal y la curvatura cerca del horizonte de sucesos del agujero negro.",
+      "source": "general-relativity"
+    },
+    {
+      "id": "astronomia-006",
+      "text": "La paralaje trigonométrica constituye el método fundamental de calibración de distancias a estrellas cercanas en la galaxia.",
+      "source": "astrometry"
+    },
+    {
+      "id": "astronomia-007",
+      "text": "El telescopio espacial capta fotometría de alta precisión para medir tránsitos planetarios en la órbita de enanas rojas.",
+      "source": "observational-astronomy"
+    },
+    {
+      "id": "astronomia-008",
+      "text": "La nucleosíntesis estelar en gigantes rojas genera elementos pesados mediante capturas neutrónicas en la estrella.",
+      "source": "nuclear-astrophysics"
+    },
+    {
+      "id": "astronomia-009",
+      "text": "El colapso gravitacional del núcleo masivo desencadena una explosión cataclísmica de supernova de tipo dos en la galaxia.",
+      "source": "stellar-astrophysics"
+    },
+    {
+      "id": "astronomia-010",
+      "text": "Las ondas gravitacionales confirman la coalescencia de un sistema binario de agujeros negros en astrofísica relativista.",
+      "source": "gravitational-wave-astrophysics"
+    },
+    {
+      "id": "astronomia-011",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes demuestra la expansión métrica acelerada observada por telescopios.",
+      "source": "extragalactic-astronomy"
+    },
+    {
+      "id": "astronomia-012",
+      "text": "La mecánica orbital kepleriana determina los períodos y semiejes mayores de los cuerpos celestes en su órbita solar.",
+      "source": "orbital-mechanics"
+    },
+    {
+      "id": "astronomia-013",
+      "text": "La luminosidad bolométrica y la magnitud estelar absoluta se relacionan directamente con el radio térmico de la estrella.",
+      "source": "stellar-physics"
+    },
+    {
+      "id": "astronomia-014",
+      "text": "Los chorros relativistas emergen del disco de acreción que rodea al agujero negro supermasivo en la galaxia activa.",
+      "source": "high-energy-astrophysics"
+    },
+    {
+      "id": "astronomia-015",
+      "text": "Una nebulosa de emisión resplandece debido a la fotoionización del gas estelar por radiación ultravioleta de estrellas jóvenes.",
+      "source": "interstellar-medium"
+    },
+    {
+      "id": "astronomia-016",
+      "text": "La dispersión de velocidades en cúmulos de galaxias evidencia la interacción gravitacional de la materia oscura cósmica.",
+      "source": "extragalactic-astrophysics"
+    },
+    {
+      "id": "astronomia-017",
+      "text": "La precesión del perihelio planetario proporcionó la confirmación observacional de la teoría gravitacional de la relatividad.",
+      "source": "celestial-mechanics"
+    },
+    {
+      "id": "astronomia-018",
+      "text": "La densidad del medio interestelar en nebulosas moleculares gigantes favorece el colapso gravitacional de nuevas estrellas.",
+      "source": "star-formation"
+    },
+    {
+      "id": "astronomia-019",
+      "text": "El diagrama espectral clasifica la evolución de cada estrella correlacionando su tipo con su magnitud estelar intrínseca.",
+      "source": "stellar-classification"
+    },
+    {
+      "id": "astronomia-020",
+      "text": "La resonancia orbital planetaria estabiliza el movimiento sincrónico de satélites naturales en su órbita periódica.",
+      "source": "planetary-dynamics"
+    }
+  ]
+}

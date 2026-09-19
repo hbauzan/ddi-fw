@@ -1,6 +1,6 @@
 # Q03 — Full-deck geometry + press
 
-> **Estado:** pendiente
+> **Estado:** hecho (`ok_unpublished` headlines)
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q02 smoke `ok` (if Q02 is `blocker_*`, skip live here, write `—` in geometry cells, still close Q05 later)
 > **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
@@ -70,11 +70,11 @@ Headline census analogue of BGE’s 21/21 left and 17/17 right: count how many p
 
 ## Definition of Done
 
-- [ ] `ddi_fw/out/qwen2/rows.npz` + `press.json` + `measure_audit.json` exist locally (gitignored).
-- [ ] Engine dump has the three pairs filled with one of `ok_published` / `ok_unpublished` / `blocker_*`.
-- [ ] `dropped` is [].
-- [ ] Default pytest green.
-- [ ] Ticket `hecho` in [`../README.md`](../README.md).
+- [x] `ddi_fw/out/qwen2/rows.npz` + `press.json` + `measure_audit.json` exist locally (gitignored).
+- [x] Engine dump has the three pairs filled with one of `ok_published` / `ok_unpublished` / `blocker_*`.
+- [x] `dropped` is [] (full decks 21/16/17).
+- [x] Default pytest green.
+- [x] Ticket `hecho` in [`../README.md`](../README.md).
 
 ---
 

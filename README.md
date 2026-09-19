@@ -40,6 +40,12 @@ uv run python -m ddi_fw.press --rows ddi_fw/out/rows.npz --out ddi_fw/out
 
 Si un par queda con 0 ejes disjuntos el candado **no se publica**: se podan filas, nunca se inventa holgura de `gap`.
 
+Medición científica **sin poda** (ola Q / Qwen2). No llama `calibrate()`. No pisa `ddi_fw/out/rows.npz`:
+
+```bash
+uv run python -m ddi_fw.embedder --embedder qwen2 --no-prune --out ddi_fw/out/qwen2
+```
+
 ## Tests
 
 ```bash
