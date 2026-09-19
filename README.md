@@ -69,6 +69,7 @@ uv run python -m ddi_fw.press --benchmark-all --live --models bge-m3,nomic --out
 Pack vivo en [`roadmap/`](./roadmap/):
 
 - [Índice](./roadmap/README.md) · [Alcance](./roadmap/00-alcance.md) · [Almas](./roadmap/almas.md)
-- **Etapa actual**: archivo BGE v0.1 cerrado; live Nomic / Gemma / Qwen2 todavía pendiente.
+- **Etapa actual**: ola Q — [briefing Qwen2](./roadmap/00-qwen2-live.md) · tickets [Q01](./roadmap/tickets/Q01-artifact-isolation-no-prune.md)–[Q05](./roadmap/tickets/Q05-ledger-synthesis.md)
+- **Ledger**: [current-research/embedder-ledger.md](./current-research/embedder-ledger.md)
 - **Histórico v0.1 (Archivado)**: Tickets [D01 a D07](./roadmap/archive/v0.1-bge-m3/) consolidados en el tag `v0.1.0-bge-m3-baseline`.
 - **Deletor (estacionada)**: rama `feat/hipotesis-deletor`. No es pack vivo.
