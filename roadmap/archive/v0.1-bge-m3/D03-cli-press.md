@@ -1,7 +1,7 @@
 # D03 — CLI press (censo por fila)
 
-> **Estado:** hecho  
-> **Ola:** 2  
+> **Estado:** hecho
+> **Ola:** 2
 > **Especificación:** [`../00-alcance.md`](../00-alcance.md)
 
 ---
