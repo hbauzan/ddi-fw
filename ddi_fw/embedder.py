@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Protocol, runtime_checkable
@@ -235,6 +236,45 @@ def rows_matrices(bundle: dict[str, object]) -> dict[str, FloatArray]:
     }
 
 
+def resolve_out_dir(out: Path) -> Path:
+    """`--out` may be a directory or an `.npz` path. Measure always writes `rows.npz` inside the dir."""
+    if out.suffix.lower() == ".npz":
+        return out.parent
+    return out
+
+
+def measure_and_save(
+    embedder: BaseEmbedder,
+    *,
+    data_dir: Path,
+    out_dir: Path,
+) -> dict[str, object]:
+    """Full-deck persist. Never prunes. Never rewrites fixtures. Never overwrites BGE `rows.npz`."""
+    rows_path = out_dir / "rows.npz"
+    if rows_path.resolve() == DEFAULT_OUT.resolve():
+        raise ValueError(
+            "measure_and_save refuses to overwrite BGE rows.npz; pass out_dir other than ddi_fw/out"
+        )
+    mazos = load_almas(data_dir)
+    matrices, ids = embed_mazos(mazos, embedder)
+    texts = {alma: mazo.texts() for alma, mazo in mazos.items()}
+    path = save_rows(rows_path, matrices, ids, texts, embedder)
+    locks = candados_canonicos(matrices)
+    audit: dict[str, object] = {
+        "model_id": embedder.model_id,
+        "dimension": embedder.dimension,
+        "n": {alma: int(rows.shape[0]) for alma, rows in matrices.items()},
+        "published": {key: lock.published for key, lock in locks.items()},
+        "disjoint_count": {key: lock.disjoint_count for key, lock in locks.items()},
+        "disjoint_axes": {key: lock.ejes_disjuntos for key, lock in locks.items()},
+        "dropped": [],
+        "rows_path": str(path),
+    }
+    audit_path = out_dir / "measure_audit.json"
+    audit_path.write_text(json.dumps(audit, indent=2) + "\n", encoding="utf-8")
+    return audit
+
+
 def calibrate(
     embedder: BaseEmbedder | None = None,
     *,
@@ -283,12 +323,35 @@ def main(argv: list[str] | None = None) -> int:
 
     parser = argparse.ArgumentParser(description="Calibra rows.npz con el embedder pinneado.")
     parser.add_argument("--embedder", default="bge-m3")
-    parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    parser.add_argument("--out", type=Path, default=None)
+    parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     parser.add_argument("--rewrite-fixtures", action="store_true")
-    args = parser.parse_args(argv)
-    audit = calibrate(
-        get_embedder(args.embedder), out_path=args.out, rewrite_fixtures=args.rewrite_fixtures
+    parser.add_argument(
+        "--no-prune",
+        action="store_true",
+        help="Mide y persiste el mazo completo. No llama calibrate()/podar_hasta_publicar.",
     )
+    args = parser.parse_args(argv)
+    if args.no_prune and args.rewrite_fixtures:
+        parser.error("--no-prune cannot be combined with --rewrite-fixtures")
+    if args.no_prune:
+        out = args.out if args.out is not None else DEFAULT_OUT.parent / "qwen2"
+        try:
+            audit = measure_and_save(
+                get_embedder(args.embedder),
+                data_dir=args.data_dir,
+                out_dir=resolve_out_dir(out),
+            )
+        except ValueError as exc:
+            print(str(exc), file=sys.stderr)
+            return 2
+    else:
+        audit = calibrate(
+            get_embedder(args.embedder),
+            data_dir=args.data_dir,
+            out_path=args.out if args.out is not None else DEFAULT_OUT,
+            rewrite_fixtures=args.rewrite_fixtures,
+        )
     print(json.dumps(audit, indent=2))
     return 0
 

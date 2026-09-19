@@ -37,6 +37,23 @@ Publicación: `published = len(ejes_disjuntos) > 0`. Jamás se relaja `gap`.
 
 Claves requeridas: `python`, `legal`, `receta` (float32), `ids_*` (object), `texts_*` (object), `model_id`, `dimension`.
 
+BGE-M3 histórico: `ddi_fw/out/rows.npz`. Qwen2 (ola Q): `ddi_fw/out/qwen2/rows.npz`. No se pisan.
+
+## Measure (no prune)
+
+`measure_and_save(embedder, *, data_dir, out_dir) -> audit`
+
+- `load_almas` → `embed_mazos` → `candados_canonicos` → `save_rows`
+- never `podar_hasta_publicar`; never writes `data_dir`
+- refuses to write `ddi_fw/out/rows.npz` (BGE blob)
+- unpublished pairs: no exception; `dropped` is always `[]`
+- files: `out_dir/rows.npz`, `out_dir/measure_audit.json`
+- audit keys: `model_id`, `dimension`, `n`, `published`, `disjoint_count`, `disjoint_axes`, `dropped`
+
+CLI: `python -m ddi_fw.embedder --no-prune --out DIR`. `--out` is a directory or `.npz` path. `--no-prune` default DIR is `ddi_fw/out/qwen2`. Incompatible with `--rewrite-fixtures`.
+
+`calibrate()` still prunes and may `raise`. It is not the Qwen2 measurement path.
+
 ## `decide(vector, candados, politica) -> Decision`
 
 - `verdict`: `PASS` | `BREACH`

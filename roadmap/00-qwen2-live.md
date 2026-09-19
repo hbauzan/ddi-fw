@@ -197,11 +197,12 @@ That path certified BGE. It **must not** be the Qwen2 measurement path.
 | :--- | :--- |
 | `uv run python -m ddi_fw.embedder --embedder qwen2 --rewrite-fixtures` | **Forbidden** |
 | `calibrate(Qwen2Embedder(), rewrite_fixtures=False)` | **Forbidden** for the scientific row (silent prune + possible raise) |
-| `embed_mazos` + `candados_canonicos` + `save_rows` (no prune) | **Required** primary measurement |
-| `measure_embedder` in `ddi_fw/benchmark.py` | Allowed; does not prune. Extend it to also persist `rows.npz` under `out/qwen2/` if needed (Q01) |
-| `uv run python -m ddi_fw.press --benchmark-all --live --models qwen2 --out ddi_fw/out/qwen2` | Allowed after Q01 isolates `--out` |
+| `measure_and_save(embedder, data_dir=..., out_dir=Path("ddi_fw/out/qwen2"))` | **Required** primary measurement |
+| `uv run python -m ddi_fw.embedder --embedder qwen2 --no-prune --out ddi_fw/out/qwen2` | **Required** CLI. Refuses `ddi_fw/out/rows.npz`. |
+| `measure_embedder` in `ddi_fw/benchmark.py` | Allowed; does not prune. Persist is `measure_and_save`, not this helper. |
+| `uv run python -m ddi_fw.press --benchmark-all --live --models qwen2 --out ddi_fw/out/qwen2` | Allowed; `--out` is a directory. |
 
-Ticket **Q01** adds an explicit no-prune persist (`measure` / `--no-prune`). Until that exists, do not call `calibrate()` on Qwen2.
+Q01 shipped `measure_and_save` + `--no-prune`. Do not call `calibrate()` on Qwen2.
 
 ---
 
