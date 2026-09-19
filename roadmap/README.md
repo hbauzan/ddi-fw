@@ -6,6 +6,7 @@ Herramienta independiente de inspección y contención dimensional estricta.
 
 - Alcance: [`00-alcance.md`](./00-alcance.md)
 - Almas del demo: [`almas.md`](./almas.md)
+- Insumo y Debate: [Hipótesis "Deletor" (Ecualizador Espectral)](./hipotesis-deletor.md)
 - Protocolo operativo: [`.agents/skills/dev-protocol/SKILL.md`](../.agents/skills/dev-protocol/SKILL.md)
 
 ---
