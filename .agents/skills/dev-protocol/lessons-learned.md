@@ -45,6 +45,7 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
 - **Presupuesto de Memoria**: Validar que la huella de memoria acumulada de los servicios no exceda el límite operativo del entorno anfitrión.
 - **Persistencia Aislada**: Los volúmenes y rutas de almacenamiento persistente deben declararse explícitamente sin montar directorios raíz del anfitrión.
 - **Un embedder live a la vez**: el benchmark carga, mide y libera. No dejar BGE-M3 + Qwen 1.5B residentes juntos.
+- **Deletor estacionada**: el insumo espectral vive solo en `feat/hipotesis-deletor`. No es la etapa de `main`. No mergear esa rama a ciegas (resucitaría `roadmap/tickets/`).
 
 ---
 

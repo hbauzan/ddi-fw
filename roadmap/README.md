@@ -6,16 +6,17 @@ Herramienta independiente de inspección y contención dimensional estricta.
 
 - Alcance: [`00-alcance.md`](./00-alcance.md)
 - Almas del demo: [`almas.md`](./almas.md)
-- Insumo y Debate Activo: [Hipótesis "Deletor" (Ecualizador Espectral)](./hipotesis-deletor.md)
 - Protocolo operativo: [`.agents/skills/dev-protocol/SKILL.md`](../.agents/skills/dev-protocol/SKILL.md)
+- Hipótesis Deletor (**estacionada**, no implementar): rama `feat/hipotesis-deletor`
 
 ---
 
 ## Estado del Pack
 
-### Etapa Actual: Evaluación de Motores y Supresión Espectral (Deletor)
-- Rama activa: `feat/spectral-deletor`
-- Documento de diseño: [hipotesis-deletor.md](./hipotesis-deletor.md)
+### Etapa actual
+Archivo BGE-M3 v0.1 cerrado. Siguiente trabajo en `main`: repetir el live con Nomic / Gemma / Qwen2 **sin pisar** mazos ni números de BGE.
+
+La hipótesis espectral Deletor vive **solo** en `feat/hipotesis-deletor` (un commit sobre el tag `v0.1.0-bge-m3-baseline`). No mergear esa rama a ciegas.
 
 ### Histórico v0.1 (Baseline BGE-M3 — Archivado)
 > Fila base consolidada y sellada bajo el tag `v0.1.0-bge-m3-baseline` en `main`.

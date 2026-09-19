@@ -69,5 +69,6 @@ uv run python -m ddi_fw.press --benchmark-all --live --models bge-m3,nomic --out
 Pack vivo en [`roadmap/`](./roadmap/):
 
 - [Índice](./roadmap/README.md) · [Alcance](./roadmap/00-alcance.md) · [Almas](./roadmap/almas.md)
-- **Etapa activa**: [Hipótesis "Deletor" (Ecualizador Espectral)](./roadmap/hipotesis-deletor.md)
+- **Etapa actual**: archivo BGE v0.1 cerrado; live Nomic / Gemma / Qwen2 todavía pendiente.
 - **Histórico v0.1 (Archivado)**: Tickets [D01 a D07](./roadmap/archive/v0.1-bge-m3/) consolidados en el tag `v0.1.0-bge-m3-baseline`.
+- **Deletor (estacionada)**: rama `feat/hipotesis-deletor`. No es pack vivo.
