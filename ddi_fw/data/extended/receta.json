@@ -1,0 +1,667 @@
+{
+  "alma": "receta",
+  "n": 110,
+  "description": "Mazo extendido de receta con balance bilingue (ES/EN) de alta densidad terminologica.",
+  "clauses": [
+    {
+      "id": "receta-es-001",
+      "text": "Batir las claras de huevo a punto de nieve con una pizca de cremor tártaro durante seis minutos continuos hasta formar picos firmes y satinados.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-002",
+      "text": "Tamizar la harina de trigo cuatro ceros junto con el polvo para hornear y el almidón de maíz en tres tandas para airear la mezcla y evitar grumos.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-003",
+      "text": "Precalentar el horno convector a 175 grados Celsius y enmantecar prolijamente el molde desmontable antes de espolvorear con cacao amargo en polvo.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-004",
+      "text": "Disolver la levadura seca prensada en leche entera tibia a 36 grados agregando una cucharada pequeña de miel y dejar reposar hasta que espume.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-005",
+      "text": "Amasar la preparación sobre la mesada enharinada plegando sobre sí misma hasta obtener un bollo liso, sedoso y de textura perfectamente elástica.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-006",
+      "text": "Dejar fermentar la masa en un cuenco aceitado cubierto con un paño limpio y húmedo en un rincón tibio hasta que duplique holgadamente su volumen.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-007",
+      "text": "Saltear las chalotas finamente picadas en manteca clarificada a fuego suave hasta que queden transparentes y caramelizadas sin quemarse los bordes.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-008",
+      "text": "Reducir el fondo oscuro de carne vacuna con vino tinto y hierbas frescas durante cuarenta minutos a hervor tenue espumando las impurezas.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-009",
+      "text": "Cortar las zanahorias y el puerro en juliana uniforme para incorporar a la cocción del caldo aromático aromatizado con hojas de laurel y tomillo.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-010",
+      "text": "Fundir el chocolate cobertura amargo a baño de María asegurando que el agua del recipiente inferior no toque jamás la base del cuenco superior.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-011",
+      "text": "Templar el chocolate sobre la mesada de mármol realizando movimientos envolventes con espátula hasta bajar la temperatura a veintisiete grados.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-012",
+      "text": "Remontar la temperatura del chocolate a treinta y un grados antes de verter en los moldes de bombones para lograr brillo y quiebre crujiente.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-013",
+      "text": "Emulsionar las yemas frescas con vinagre de manzana y mostaza de Dijón vertiendo aceite de girasol en un hilo continuo y pausado.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-014",
+      "text": "Desglasar la sartén caliente con oporto tras sellar el lomo de cerdo para desprender todos los jugos caramelizados pegados al fondo de cocción.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-015",
+      "text": "Confitar los dientes de ajo pelados sumergidos en aceite de oliva extra virgen a setenta grados Celsius durante dos horas enteras.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-016",
+      "text": "Blanquear los espárragos verdes en abundante agua hirviendo salada durante dos minutos y cortar la cocción inmediatamente en un baño de agua helada.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-017",
+      "text": "Preparar un almíbar a punto bolita blanda hirviendo agua con azúcar blanco refinado hasta registrar exactamente ciento dieciocho grados en el termómetro.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-018",
+      "text": "Mezclar la crema pastelera fría con crema de leche batida a medio punto para elaborar una crema diplomática ligera apta para rellenar milhojas.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-019",
+      "text": "Hornear la masa quebrada a ciegas cubierta con papel manteca y legumbres secas durante quince minutos para evitar que el fondo se infle.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-020",
+      "text": "Marinar los filetes de pescado blanco con jugo fresco de lima, cilantro picado, chile dulce y sal marina durante veinte minutos en frío.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-021",
+      "text": "Escalfar las peras peladas en un almíbar especiado con anís estrellado, clavo de olor y canela en rama a fuego imperceptible hasta tiernizar.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-022",
+      "text": "Dorar los granos de arroz carnaroli en aceite caliente antes de añadir el vino blanco seco para comenzar la elaboración del risotto cremoso.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-023",
+      "text": "Incorporar caldo de verduras hirviendo cucharón a cucharón mientras se remueve continuamente con cuchara de madera para soltar el almidón.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-024",
+      "text": "Mantecar el risotto fuera del fuego agregando manteca bien fría en cubos y queso parmesano rallado fino hasta emulsionar una textura fluida.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-025",
+      "text": "Estirar la masa de hojaldre frío aplicando vueltas dobles y descansando en heladera entre cada pliegue para asegurar hojaldrado crocante.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-026",
+      "text": "Hornear las barras de pan baguette con inyección de vapor de agua durante los primeros diez minutos para generar una corteza dorada y crujiente.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-027",
+      "text": "Tostar semillas de sésamo y lino dorado en una sartén seca a fuego moderado moviendo constantemente para evitar que desprendan amargor.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-028",
+      "text": "Rallar la cáscara de naranja dulce y limón evitando la parte blanca amarga para perfumar la masa del budín cítrico esponjoso.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-029",
+      "text": "Rehidratar los hongos secos de pino en caldo caliente durante treinta minutos antes de colar el líquido por filtro de tela fina.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-030",
+      "text": "Sellar la carne de ternera trozada a fuego muy vivo en una cacerola de hierro fundido para atrapar todos los jugos sabrosos en su interior.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-031",
+      "text": "Cocinar el ragú a fuego bajo tapado durante tres horas agregando tomates perita triturados y una hoja fresca de romero aromático.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-032",
+      "text": "Espolvorear con sal entrefina y pimienta negra recién molida sobre la superficie de las verduras asadas al horno de leña.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-033",
+      "text": "Hidratar hojas de gelatina sin sabor en agua helada durante diez minutos y escurrir con las manos antes de fundir en la preparación tibia.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-034",
+      "text": "Colar la mermelada tibia de frutos rojos a través de un tamiz metálico para eliminar las semillas pequeñas y lograr un coulis terso y brillante.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-035",
+      "text": "Cocinar las papas enteras con piel en agua salada hasta que al pinchar con un cuchillo fino caigan por su propio peso sin romperse.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-036",
+      "text": "Tamizar las papas calientes con prensa puré agregando manteca pomada, nuez moscada rallada fresca y leche entera recién hervida.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-037",
+      "text": "Llevar la leche condensada a baño de María tapada con papel de aluminio durante tres horas para transformar lentamente en dulce de leche.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-038",
+      "text": "Enfriar el merengue italiano batiendo a velocidad alta hasta que el bol de la batidora alcance temperatura ambiente y mantenga picos duros.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-039",
+      "text": "Pintar la superficie de las empanadas criollas con huevo batido y una pizca de azúcar antes de hornear a temperatura máxima por doce minutos.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-040",
+      "text": "Dorar cebollas cortadas en pluma con una pizca de bicarbonato de sodio a fuego lento hasta alcanzar caramelización profunda sin azúcares añadidos.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-041",
+      "text": "Deshuesar los muslos de pollo conservando la piel intacta para rellenar con espinacas salteadas, piñones tostados y queso provolone estacionado.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-042",
+      "text": "Hornear la masa sablée a ciento sesenta grados hasta que adquiera una tonalidad dorada tenue y una textura crocante que se deshaga al paladar.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-043",
+      "text": "Hervir la pulpa fresca de maracuyá con azúcar mascabo durante doce minutos espumando constantemente para obtener una jalea densa y ácida.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-044",
+      "text": "Batir la manteca pomada con azúcar impalpable tamizada hasta blanquear y lograr una crema suave ideal para cobertura de pasteles de boda.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-045",
+      "text": "Infundir granos de café tostado partido en crema de leche caliente durante veinticuatro horas en heladera antes de colar y batir a punto chantilly.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-046",
+      "text": "Macerar frutos secos y pasas de uva rubias en licor de amaretto y ron añejo durante una semana para elaborar el pan dulce artesanal navideño.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-047",
+      "text": "Cocer al vapor piezas de salmón rosado con rodajas finas de jengibre fresco y cebolla de verdeo sobre canasta de bambú durante ocho minutos.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-048",
+      "text": "Descorazonar las manzanas verdes y espolvorear con azúcar morena, canela molida y una nuez de manteca antes de asar al horno medio.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-049",
+      "text": "Batir yemas de huevo con vino marsala dulce a baño de María hasta duplicar el volumen y formar un sabayón espeso y aterciopelado.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-050",
+      "text": "Aromatizar el aceite de oliva suave macerando ramitas de romero fresco, granos de pimienta blanca y cáscara de pomelo durante quince días.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-051",
+      "text": "Tamizar almidón de tapioca con fécula de mandioca para ligar salsas calientes otorgando un acabado transparente y libre de grumos indeseados.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-052",
+      "text": "Hornear discos de merengue suizo a noventa grados durante dos horas enteras con la puerta del horno levemente entreabierta para secar sin dorar.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-053",
+      "text": "Picar finamente hojas de albahaca fresca y dientes de ajo majados en mortero de piedra incorporando queso pecorino y piñones molidos.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-054",
+      "text": "Verter el glaseado espejo brillante a treinta y dos grados sobre la mousse congelada para garantizar una cobertura lisa, uniforme y reflectante.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-es-055",
+      "text": "Reposar el bizcochuelo recién horneado sobre una rejilla metálica para que el vapor escape por la base evitando que la miga se humedezca.",
+      "lang": "es",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-001",
+      "text": "Whip the fresh egg whites with a pinch of cream of tartar on medium speed until soft peaks begin to form.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-002",
+      "text": "Sift the unbleached all-purpose flour together with baking powder and fine sea salt twice to ensure uniform aeration.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-003",
+      "text": "Preheat the convection oven to three hundred and fifty degrees Fahrenheit and line the baking sheet with silicone parchment paper.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-004",
+      "text": "Proof active dry yeast in warm whole milk with raw cane sugar for ten minutes until a thick frothy head develops.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-005",
+      "text": "Knead the bread dough vigorously on a wooden surface until it passes the translucent windowpane test without tearing apart.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-006",
+      "text": "Cover the fermenting dough in a lightly oiled bowl with a damp linen towel and allow to double in bulk in a draft-free environment.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-007",
+      "text": "Sweat finely minced shallots and crushed garlic cloves in clarified butter over gentle heat until fragrant, translucent, and sweet.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-008",
+      "text": "Simmer the roasted beef stock with aromatic mirepoix and tomato paste for forty-five minutes, regularly skimming the floating foam.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-009",
+      "text": "Slice ripe beefsteak tomatoes and crisp iceberg lettuce into thin wedges, dressing with extra virgin olive oil and sherry vinegar.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-010",
+      "text": "Melt sixty-percent dark chocolate over a gentle double boiler without letting any steam or moisture enter the tempering basin.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-011",
+      "text": "Table the molten couverture chocolate across cold granite slab using offset spatulas until crystallization thickens the glossy glaze.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-012",
+      "text": "Reheat the tempered chocolate to eighty-eight degrees Fahrenheit to achieve ideal snap, sheen, and contraction during mould release.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-013",
+      "text": "Whisk egg yolks rapidly with Dijon mustard, slowly drizzling sunflower oil in a micro-thin stream to build a silky emulsion.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-014",
+      "text": "Deglaze the stainless steel skillet with dry white wine after searing pork tenderloins to dissolve fond into a pan sauce.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-015",
+      "text": "Slowly poach fresh garlic cloves immersed in virgin olive oil at one hundred and sixty degrees Fahrenheit for two full hours.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-016",
+      "text": "Blanch fresh green asparagus spears in salted boiling water for two minutes before shocking them into an ice water bath.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-017",
+      "text": "Boil refined granulated sugar with filtered spring water until the candy thermometer registers two hundred and forty degrees Fahrenheit.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-018",
+      "text": "Fold chilled vanilla pastry cream into lightly whipped heavy whipping cream to assemble a delicate diplomat filling for choux buns.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-019",
+      "text": "Blind bake the sweet shortcrust pastry weighted with dried ceramic baking beans for fifteen minutes until pale golden and dry.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-020",
+      "text": "Cure raw sea bass fillets with freshly squeezed lime juice, julienned red onion, sea salt, and habanero slices in the chiller.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-021",
+      "text": "Poach peeled Bosc pears in sweet riesling wine infused with cinnamon bark, whole cloves, and star anise until fork tender.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-022",
+      "text": "Toast arborio rice grains in heated olive oil until edges become pearlescent before splashing dry vermouth into the heavy saucepan.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-023",
+      "text": "Ladle boiling chicken broth into the simmering rice one scoop at a time, stirring constantly to release rich amylopectin starches.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-024",
+      "text": "Finish the creamy risotto off the flame by vigorously beating in chilled butter cubes and freshly grated aged Parmigiano cheese.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-025",
+      "text": "Laminate the butter dough block through three consecutive envelope turns, chilling between each fold to keep butter layers distinct.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-026",
+      "text": "Inject steam into the bread baking chamber during the first ten minutes to gelatinize starch and produce a blistered crust.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-027",
+      "text": "Dry-toast white sesame seeds and cumin seeds in a hot skillet, shaking continuously until they release nutty aromas and crackle.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-028",
+      "text": "Finely zest unwaxed Meyer lemons and Valencia oranges, taking care to exclude bitter white pith from the citrus sponge cake.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-029",
+      "text": "Steep dehydrated wild porcini mushrooms in boiling mineral water for half an hour, filtering the earthy liqueur through fine cheesecloth.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-030",
+      "text": "Sear prime ribeye steak over blistering cast iron grates to achieve a deep mahogany Maillard crust without overcooking the center.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-031",
+      "text": "Simmer traditional beef ragu over low heat for four hours with crushed San Marzano tomatoes, bay leaves, and cracked black pepper.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-032",
+      "text": "Season roasted root vegetables generously with flaky Maldon salt and freshly crushed rainbow peppercorns right before plating.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-033",
+      "text": "Bloom leaf gelatin sheets in ice cold water for ten minutes, gently squeezing out excess liquid before stirring into warm cream.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-034",
+      "text": "Pass fresh raspberry puree through a fine mesh conical strainer to extract tiny seeds and yield a velvety smooth dessert coulis.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-035",
+      "text": "Boil Yukon gold potatoes with skins intact in generously salted water until tender enough to pierce effortlessly with a pairing knife.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-036",
+      "text": "Rice hot steamed potatoes directly through a mechanical ricer, incorporating salted European butter and warm whole milk.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-037",
+      "text": "Bake sweetened condensed milk in a water bath covered with heavy foil for three hours to convert into thick golden caramel spread.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-038",
+      "text": "Cool the Italian meringue at maximum whipping speed until glossy, stiff, and the exterior of the mixing bowl cools completely.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-039",
+      "text": "Brush brioche pastry tops with whole egg wash and a sprinkle of coarse demerara sugar before baking at high temperature.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-040",
+      "text": "Caramelize sliced yellow onions low and slow in duck fat for sixty minutes until deep amber, jammy, and intensely rich in natural sugars.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-041",
+      "text": "Truss the whole roasting chicken tightly with unbleached butcher twine to promote even heat circulation through both breast and thighs.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-042",
+      "text": "Whisk cold butter cubes into reduced balsamic vinegar off the flame to mount a velvet sauce for pan-roasted duck breast.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-043",
+      "text": "Rest seared venison steaks on a warm wooden carving board for ten minutes to permit internal juices to redistribute evenly.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-044",
+      "text": "Submerge duck legs in seasoned rendered goose fat with fresh rosemary sprigs, slow-cooking at two hundred degrees Fahrenheit for five hours.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-045",
+      "text": "Infuse whole milk with split Tahitian vanilla pods and crushed cardamom pods, scalding gently before tempering into egg yolk custard.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-046",
+      "text": "Dust chilled chocolate truffles with alkalized Dutch cocoa powder using a fine wire sifter to create a matte, bittersweet outer coating.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-047",
+      "text": "Steam fresh mussels in dry hard cider with chopped leeks, cracked fennel seeds, and heavy cream until all bivalve shells spring open.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-048",
+      "text": "Shave raw baby artichoke hearts on a Japanese mandoline, tossing immediately in cold lemon juice water to prevent oxidative discoloration.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-049",
+      "text": "Churn the chilled custard base in a pre-frozen ice cream maker for twenty-five minutes until firm, velvety, and properly overrun.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-050",
+      "text": "Bake sourdough batards inside a preheated cast iron Dutch oven with lid on for twenty minutes before venting to darken the blistered ear.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-051",
+      "text": "Clarify raw chicken stock by gently simmering with a raft of whipped egg whites, ground poultry, and minced root aromatics.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-052",
+      "text": "Pipe choux pastry dough into three-inch mounds onto baking sheets, dusting with confectioner sugar before baking into airy gougeres.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-053",
+      "text": "Steep loose leaf Earl Grey black tea in hot scalded cream for fifteen minutes to infuse floral bergamot notes into ganache.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-054",
+      "text": "Press salted cabbage shreds tightly into stoneware crock fermentation pots, keeping submerged under brine until lactic acidity develops.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    },
+    {
+      "id": "receta-en-055",
+      "text": "Warm maple syrup with pure bourbon whiskey and toasted pecan pieces to ladle hot over freshly churned vanilla bean gelato.",
+      "lang": "en",
+      "source": "corpus-extendido-receta"
+    }
+  ]
+}

@@ -12,7 +12,7 @@ from typing import Protocol, runtime_checkable
 import numpy as np
 import numpy.typing as npt
 
-from ddi_fw.almas import DATA_DIR, Mazo, drop_clauses, load_almas, write_mazo
+from ddi_fw.almas import ALMA_NAMES, DATA_DIR, Mazo, drop_clauses, load_almas, write_mazo
 from ddi_fw.hoja import candados_canonicos, podar_hasta_publicar
 
 FloatArray = npt.NDArray[np.float32]
@@ -318,7 +318,9 @@ def load_rows(path: Path) -> dict[str, object]:
 
 def rows_matrices(bundle: dict[str, object]) -> dict[str, FloatArray]:
     return {
-        alma: np.asarray(bundle[alma], dtype=np.float32) for alma in ("python", "legal", "receta")
+        alma: np.asarray(bundle[alma], dtype=np.float32)
+        for alma in ALMA_NAMES
+        if alma in bundle
     }
 
 

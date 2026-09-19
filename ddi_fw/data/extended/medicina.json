@@ -1,0 +1,667 @@
+{
+  "alma": "medicina",
+  "n": 110,
+  "description": "Mazo extendido de medicina con balance bilingue (ES/EN) de alta densidad terminologica.",
+  "clauses": [
+    {
+      "id": "medicina-es-001",
+      "text": "La administración intravenosa de fibrinolíticos específicos en infarto agudo de miocardio reduce la mortalidad coronaria precoz en pacientes hospitalizados.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-002",
+      "text": "El análisis nosológico de la meningitis bacteriana aguda requiere punción lumbar urgente con estudio citoquímico y microbiológico del líquido cefalorraquídeo purulento.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-003",
+      "text": "La farmacocinética de los aminoglucósidos parenterales presenta escasa permeabilidad digestiva y una eliminación urinaria predominante por filtración glomerular renal.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-004",
+      "text": "La cetoacidosis diabética descompensada cursa con deshidratación hídrica severa, acidosis metabólica con anión gap ensanchado y presencia abundante de cetoácidos.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-005",
+      "text": "El abordaje quirúrgico reconstructivo del aneurisma aórtico abdominal infrarrenal previene la rotura vascular mediante implante de endoprótesis vascular flexible.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-006",
+      "text": "La insuficiencia cardíaca congestiva con fracción de eyección deprimida mejora el pronóstico clínico con inhibidores selectivos del cotransportador renal.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-007",
+      "text": "El shock séptico distributivo refractario a resucitación hidroelectrolítica requiere soporte vasopresor precoz con noradrenalina para sostener la perfusión tisular sistémica.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-008",
+      "text": "La biopsia hepática percutánea ecoguiada permite evaluar con rigor histológico el grado de necroinflamación y el estadio de fibrosis avanzada.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-009",
+      "text": "La videoendoscopia digestiva alta corrobora la etiología de la hemorragia gastrointestinal y posibilita aplicar hemostasia endoscópica mecánica o esclerosante.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-010",
+      "text": "La elevación persistente de troponinas cardíacas ultrasensibles orienta el diagnóstico certero de injuria miocárdica aguda en el síndrome coronario.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-011",
+      "text": "El trasplante alogénico de precursores hematopoyéticos erradica la clona leucémica residual mediante acondicionamiento mieloablativo e inmunidad injerto contra leucemia.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-012",
+      "text": "La ventilación mecánica invasiva con parámetros de protección alveolar en distrés respiratorio agudo emplea volumen corriente bajo y presión teleespiratoria.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-013",
+      "text": "La hemodiálisis extracorpórea depura toxinas urémicas acumuladas y remueve el excedente hídrico intravascular en la uremia terminal avanzada.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-014",
+      "text": "La preeclampsia atípica cursa con hipertensión arterial severa, proteinuria patológica cuantificada y signos analíticos evidentes de disfunción endotelial materna.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-015",
+      "text": "El tratamiento oncológico adyuvante con esquemas quimioterápicos basados en sales de platino prolonga la sobrevida global en carcinomas pulmonares.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-016",
+      "text": "La punción aspirativa con aguja fina de nódulos tiroideos guiada por ecografía distingue neoplasias malignas según criterios citopatológicos estandarizados.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-017",
+      "text": "El bloqueo inmunológico del receptor soluble de interleucina seis atenúa la cascada hiperinflamatoria sistémica en patologías autoinmunes graves.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-018",
+      "text": "La trombectomía endovascular percutánea combinada con fibrinólisis mejora la recuperación funcional neurológica en el infarto cerebral isquémico agudo.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-019",
+      "text": "La monitorización continua de la presión intracraneana en traumatismo encefalocraneano severo guía la osmoterapia para prevenir herniación cerebral irreversible.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-020",
+      "text": "El tratamiento empírico inicial de la neumonía bacteriana adquirida en la comunidad combina betalactámicos bactericidas con macrólidos orales seleccionados.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-021",
+      "text": "La detección serológica de autoanticuerpos antinucleares y anti-ADN nativo de doble cadena fundamenta el diagnóstico serológico del lupus eritematoso sistémico.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-022",
+      "text": "La colecistectomía laparoscópica reglada de la vesícula biliar litiásica disminuye las complicaciones de pared y acelera la recuperación postoperatoria.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-023",
+      "text": "La ecocardiografía Doppler transtorácica cuantifica la severidad hemodinámica de la estenosis aórtica calculando el orificio valvular efectivo funcional.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-024",
+      "text": "El reemplazo hormonal sustitutivo con levotiroxina sódica sintética normaliza los niveles plasmáticos basales de tirotropina en hipotiroidismo primario.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-025",
+      "text": "La laparotomía exploradora de urgencia está formalmente indicada ante peritonitis purulenta secundaria a perforación de víscera hueca intraabdominal.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-026",
+      "text": "La fisiopatología del shock cardiogénico involucra un colapso brusco del gasto sistólico ventricular con hipoperfusión celular periférica generalizada.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-027",
+      "text": "La profilaxis endoscópica primaria del sangrado variceal esofágico en hepatopatía cirrótica incluye ligadura elástica con bandas de goma hemostáticas.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-028",
+      "text": "La citometría de flujo multiparamétrica identifica inmunofenotipos celulares patológicos esenciales para tipificar leucemias agudas y linfomas no hodgkinianos.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-029",
+      "text": "El control farmacológico de la hipertensión arterial con bloqueantes cálcicos dihidropiridínicos induce vasodilatación periférica por relajación miocítica arteriolar.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-030",
+      "text": "La neuroimagen por resonancia magnética con quelato de gadolinio evidencia lesiones desmielinizantes hiperintensas encefalomedulares en esclerosis múltiple remitente recurrente.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-031",
+      "text": "La resucitación hidroelectrolítica vigorosa con soluciones cristaloides isotónicas amortigua la necrosis pancreática y el fracaso multiorgánico en pancreatitis.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-032",
+      "text": "El toracostomía con tubo pleural subacuático desobstruye el neumotórax hipertensivo y reinstaura la presión negativa fisiológica intrapleural.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-033",
+      "text": "La farmacovigilancia sérica terapéutica de vancomicina previene la toxicidad tubulointersticial renal ajustando la posología a concentraciones valle específicas.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-034",
+      "text": "El trasplante hepático ortotópico con donante cadavérico proporciona sobrevida prolongada en pacientes con cirrosis descompensada o falla hepática aguda.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-035",
+      "text": "La biopsia de arteria temporal revela panarteritis granulomatosa transmural con infiltrado linfohistiocitario en la arteritis craneal de Horton.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-036",
+      "text": "El bloqueo de la placa motora neuromuscular con bromuro de rocuronio asegura relajación muscular óptima durante intervenciones quirúrgicas laparoscópicas complejas.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-037",
+      "text": "La inmunooncología con anticuerpos monoclonales anti-PD-1 potencia la citotoxicidad de linfocitos CD8 reactivos contra antígenos tumorales mutados.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-038",
+      "text": "La tomografía por emisión de positrones integrada evalúa con máxima exactitud la estadificación nodular ganglionar regional de neoplasias malignas sólidas.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-039",
+      "text": "La fibrobroncoscopia flexible diagnóstica con cepillado bronquial y lavado alveolar confirma etiologías infecciosas oportunistas en neumonías complejas.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-040",
+      "text": "La anticoagulación preventiva con inhibidores directos del factor diez activado disminuye accidentes cerebrovasculares embólicos en fibrilación auricular persistente.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-041",
+      "text": "La administración intramuscular de betametasona antenatal estimula la síntesis de surfactante pulmonar alveolar en gestaciones con amenaza de parto prematuro.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-042",
+      "text": "La descompresión laminectómica descompresiva emergente previene parálisis vesical y déficits motores permanentes en el síndrome de cola de caballo agudo.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-043",
+      "text": "La hipercalemia extrema con ensanchamiento del complejo QRS exige infusión intravenosa rápida de gluconato cálcico estabilizador miocárdico directo.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-044",
+      "text": "La punción biopsia renal percutánea precisa el patrón glomerulonefrítico proliferativo o membranoso orientando protocolos terapéuticos inmunosupresores agresivos.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-045",
+      "text": "El implante endocavitario de marcapasos bicameral definitivo erradica las pausas sinusales patológicas y las crisis sincopales de Stokes-Adams.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-046",
+      "text": "El desbridamiento quirúrgico precoz y radical de fascias necróticas infectadas constituye el pilar terapéutico insustituible en fascitis necrotizante bacteriana.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-047",
+      "text": "El dosaje sérico cuantitativo de procalcitonina guía la interrupción prudente de esquemas antibacterianos en sepsis bacteriana grave hospitalaria.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-048",
+      "text": "La infusión parenteral de nitroprusiato sódico ejerce vasodilatación arteriovenosa equilibrada inmediata para controlar crisis hipertensivas con edema agudo pulmonar.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-049",
+      "text": "La gastrostomía endoscópica percutánea provee vía nutricional enteral segura y duradera en pacientes con disfagia orofaríngea por daño encefálico.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-050",
+      "text": "El abordaje terapéutico del dolor crónico oncológico terminal requiere analgesia escalonada con agonistas opioides mayores y coadyuvantes neuromoduladores específicos.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-051",
+      "text": "El cateterismo cardíaco derecho con catéter arterial flotante evalúa la hipertensión precapilar cuantificando las resistencias vasculares pulmonares totales.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-052",
+      "text": "La antibioticoterapia profiláctica intravenosa administrada treinta minutos antes de iniciar la incisión quirúrgica previene la sepsis de sitio operatorio.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-053",
+      "text": "La plasmaféresis de recambio terapéutico depura complejos inmunes y anticuerpos IgG patógenos circulantes en crisis miasténicas y síndrome desmielinizante.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-054",
+      "text": "La determinación del aclaramiento de creatinina en orina de veinticuatro horas proporciona un cálculo analítico validado de filtración glomerular.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-es-055",
+      "text": "La termoablación percutánea por radiofrecuencia induce coagulación térmica focalizada en hepatocarcinomas unifocales menores a tres centímetros de diámetro.",
+      "lang": "es",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-001",
+      "text": "Intravenous recombinant alteplase administration achieves rapid pharmacological thrombolysis and markedly enhances long-term functional neurological outcomes following ischemic cerebral infarction.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-002",
+      "text": "Systematic differential diagnosis for acute abdominal emergencies in geriatric patients warrants urgent contrast-enhanced abdominopelvic computed tomography to confirm mesenteric vascular ischemia.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-003",
+      "text": "Pharmacokinetic disposition of liposomal amphotericin formulations demonstrates significantly reduced renal accumulation, conferring superior nephrotoxic safety margins in invasive candidiasis.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-004",
+      "text": "Diabetic ketoacidosis resuscitation requires prompt intravenous infusion of balanced electrolyte crystalloids, steady regular insulin administration, and rigorous serum potassium titration.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-005",
+      "text": "Surgical reconstructive bypass grafting across obstructed peripheral arteries restores vital arterial perfusion and effectively relieves disabling intermittent limb claudication symptoms.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-006",
+      "text": "Chronic congestive cardiomyopathy characterized by severely depressed ventricular systolic performance requires neurohormonal blockade incorporating mineralocorticoid receptor antagonists and gliflozin therapies.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-007",
+      "text": "Septic shock resuscitation protocols prioritize prompt empiric antimicrobial infusion alongside norepinephrine vasopressor therapy targeting physiological mean arterial pressure benchmarks.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-008",
+      "text": "Percutaneous ultrasound-guided core needle biopsy retrieves organized histological tissue ribbons suitable for immunohistochemical profiling of aggressive malignant mammary carcinomas.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-009",
+      "text": "Urgent flexible gastrointestinal endoscopy reliably pinpoints bleeding mucosal ulcerations, enabling immediate deployment of dual endoscopic hemoclip and epinephrine therapies.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-010",
+      "text": "Serial quantitative cardiac troponin assays establish acute cardiomyocyte injury thresholds, accelerating risk stratification for prospective acute coronary syndrome patients.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-011",
+      "text": "Allogeneic hematopoietic stem cell engraftment offers potential curative remissions for high-risk myeloid hematological neoplasias refractory to induction regimens.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-012",
+      "text": "Lung-protective invasive ventilator strategies employing low physiological tidal volumes attenuate mechanical barotrauma in acute respiratory distress syndrome.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-013",
+      "text": "Intermittent extracorporeal hemodialysis removes toxic nitrogenous solutes and corrects marked electrolyte imbalances in chronic end-stage kidney failure.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-014",
+      "text": "Severe hypertensive preeclampsia clinical management necessitates neuroprotective magnesium sulfate infusions alongside prompt labetalol administration to mitigate eclamptic seizure hazards.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-015",
+      "text": "Adjuvant systemic chemotherapy incorporating cisplatin doublets markedly reduces distant relapse risk and improves overall survival following curative lung resection.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-016",
+      "text": "Ultrasound-directed fine-needle aspiration of suspicious thyroid nodules enables standardized cytological categorization according to established Bethesda reporting guidelines.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-017",
+      "text": "Monoclonal antibody neutralization targeting tumor necrosis factor alpha suppresses persistent chronic synovitis and progressive articular destruction in rheumatoid disease.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-018",
+      "text": "Endovascular catheter thrombectomy achieves complete arterial recanalization, substantially reducing persistent neurological disability in proximal intracranial anterior circulation occlusions.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-019",
+      "text": "Invasive monitoring of intracranial cerebrospinal pressures guides targeted hyperosmolar therapy to mitigate fatal brain herniation following severe contusional trauma.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-020",
+      "text": "Empiric antimicrobial coverage for severe community-acquired pulmonary consolidation incorporates broad-spectrum beta-lactam bactericidal agents combined with advanced respiratory quinolones.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-021",
+      "text": "Elevated circulating antinuclear antibody and anti-double-stranded DNA titers confirm underlying systemic lupus erythematosus in patients with multisystem clinical involvement.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-022",
+      "text": "Laparoscopic surgical extirpation of the gallbladder remains the definitive operative approach for recurrent acute calculous biliary cholecystitis.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-023",
+      "text": "Transthoracic echocardiographic examinations quantify anatomical aortic valvular stenosis severity by calculating transvalvular jet gradients and functional orifice dimensions.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-024",
+      "text": "Synthetic sodium levothyroxine hormonal replacement therapy completely normalizes aberrant pituitary thyroid-stimulating hormone concentrations in symptomatic primary autoimmune hypothyroidism.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-025",
+      "text": "Urgent surgical exploratory laparotomy remains imperative for septic peritoneal peritonitis secondary to acute perforated gastrointestinal hollow viscus lesions.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-026",
+      "text": "Cardiogenic circulatory collapse involves critical forward ejection volume deficits resulting in widespread tissue hypoxia despite adequate ventricular diastolic filling.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-027",
+      "text": "Elective endoscopic elastic band ligation represents established primary prophylactic therapy against catastrophic gastrointestinal bleeding from enlarged esophageal varices.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-028",
+      "text": "Multicolor flow cytometric immunophenotyping identifies aberrant antigen expression patterns necessary for accurate lineage classification of acute undifferentiated leukemias.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-029",
+      "text": "Dihydropyridine calcium channel antagonizing medications decrease peripheral arterial tonus through smooth muscle relaxation, effectively treating essential systemic vascular hypertension.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-030",
+      "text": "Contrast-enhanced cranial magnetic resonance neuroimaging reveals distinctive periventricular white matter demyelinating plaques characteristic of relapsing-remitting multiple sclerosis.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-031",
+      "text": "Vigorous early intravenous volume replacement utilizing balanced Hartmann solutions preserves microvascular perfusion, preventing necrotizing complications in acute biliary pancreatitis.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-032",
+      "text": "Tube thoracostomy intercostal tube placement evacuated pneumothorax tension, instantly re-establishing negative intrapleural vacuum mechanics and pulmonary aeration.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-033",
+      "text": "Therapeutic drug monitoring of vancomycin trough concentrations guides individualized dosage titrations, averting nephrotoxicity while assuring bactericidal pharmacodynamic efficacy.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-034",
+      "text": "Orthotopic deceased-donor liver transplantation provides long-term survival for candidates suffering end-stage cirrhosis complicated by refractory portal hypertension.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-035",
+      "text": "Histopathological confirmation of temporal Horton arteritis demonstrates transmural mononuclear inflammatory infiltrates with multinucleated giant cells destroying arterial elastic laminae.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-036",
+      "text": "Nondepolarizing neuromuscular blocking drugs provide profound muscle flaccidity, facilitating atraumatic endotracheal intubation during extensive reconstructive abdominal surgical operations.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-037",
+      "text": "Immune checkpoint blockade using anti-PD-1 monoclonal antibodies reinvigorates tumor-infiltrating cytotoxic T lymphocytes against resistant metastatic melanoma neoplastic antigens.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-038",
+      "text": "Positron emission computerized imaging accurately pinpoints hypermetabolic regional lymphatic involvement and occult metastases in advanced systemic oncological presentations.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-039",
+      "text": "Diagnostic video-assisted flexible bronchoscopy enables transbronchial parenchymal sampling and cytologic washings in immunocompromised individuals presenting diffuse interstitial infiltrates.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-040",
+      "text": "Direct factor Xa inhibitory anticoagulants provide reliable stroke prevention without requiring frequent coagulation monitoring in nonvalvular chronic atrial fibrillation.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-041",
+      "text": "Antenatal intramuscular glucocorticoid therapy significantly stimulates pulmonary surfactant synthesis, mitigating neonatal hyaline membrane respiratory distress incidence.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-042",
+      "text": "Emergent surgical decompressive spine surgery averts irreversible sensorimotor loss and permanent paraplegia in traumatic acute cauda equina compression.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-043",
+      "text": "Electrocardiographic signs of lethal hyperkalemia dictate emergency intravenous calcium infusion to stabilize cardiomyocyte excitable membranes against dysrhythmias.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-044",
+      "text": "Percutaneous renal biopsy provides indispensable histological grading of proliferative glomerulonephritis, directing aggressive targeted corticosteroid immunosuppressive protocols.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-045",
+      "text": "Transvenous permanent dual-chamber cardiac pacemaker implantation permanently eliminates life-threatening syncopal episodes in symptomatic high-grade atrioventricular heart blocks.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-046",
+      "text": "Early radical operative excision of devitalized cutaneous tissues constitutes mandatory life-saving therapy in acute bacterial necrotizing soft tissue fasciitis.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-047",
+      "text": "Serial quantitative serum procalcitonin determinations facilitate rational antimicrobial de-escalation decisions in critically ill septic intensive care patients.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-048",
+      "text": "Continuous parenteral sodium nitroprusside titrations induce balanced arterial vasodilatation, promptly relieving acute hypertensive pulmonary hydrostatic capillary edema.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-049",
+      "text": "Percutaneous endoscopic gastrostomy placement secures permanent enteral caloric delivery access in patients experiencing neurogenic pharyngeal dysphagia.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-050",
+      "text": "Multimodal oncological palliative analgesia utilizes titrated sustained-release opioid analgesics coupled with adjuvant gabapentinoids for debilitating neuropathic cancer pain.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-051",
+      "text": "Swan-Ganz catheterization accurately quantifies pulmonary artery wedge hemodynamics, facilitating hemodynamic differentiation of precapillary from postcapillary pulmonary vascular hypertension.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-052",
+      "text": "Preoperative prophylactic intravenous cephalosporin administration administered half an hour prior to surgical skin incision reduces subsequent postoperative surgical infection.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-053",
+      "text": "Therapeutic plasma exchange physically washes out pathogenic circulating anti-acetylcholine receptor autoantibodies in acute life-threatening myasthenic crises.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-054",
+      "text": "Quantitative twenty-four-hour urinary creatinine clearance measurements yield an accurate physiological appraisal of filtration kinetics in progressive renal impairment.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    },
+    {
+      "id": "medicina-en-055",
+      "text": "Percutaneous radiofrequency probe ablation induces complete coagulative thermal necrosis of solitary small focal hepatocellular carcinomas in non-surgical patients.",
+      "lang": "en",
+      "source": "corpus-extendido-medicina"
+    }
+  ]
+}

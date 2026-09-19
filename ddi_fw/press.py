@@ -121,6 +121,8 @@ def press(rows_path: Path, out_dir: Path) -> dict[str, Any]:
     pairs: dict[str, Any] = {}
     headline_votes: dict[str, np.ndarray] | None = None
     for alma_a, alma_b in CANONICAL_PAIRS:
+        if alma_a not in bundle or alma_b not in bundle:
+            continue
         report = census_pair(bundle, alma_a, alma_b)
         vote_matrices = report.pop("vote_matrices")
         key = pair_id(alma_a, alma_b)
@@ -167,17 +169,25 @@ def _synthetic_rows(path: Path) -> Path:
     python = np.array([[0.0, 0.0, 0.0], [1.0, 1.0, 1.0]], dtype=np.float32)
     receta = np.array([[10.0, 0.0, 0.0], [11.0, 1.0, 1.0]], dtype=np.float32)
     legal = np.array([[0.0, 10.0, 0.0], [1.0, 11.0, 1.0]], dtype=np.float32)
+    medicina = np.array([[0.0, 0.0, 10.0], [1.0, 1.0, 11.0]], dtype=np.float32)
+    astronomia = np.array([[10.0, 10.0, 10.0], [11.0, 11.0, 11.0]], dtype=np.float32)
     np.savez_compressed(
         path,
         python=python,
         legal=legal,
         receta=receta,
+        medicina=medicina,
+        astronomia=astronomia,
         ids_python=np.asarray(["p0", "p1"], dtype=object),
         ids_legal=np.asarray(["l0", "l1"], dtype=object),
         ids_receta=np.asarray(["r0", "r1"], dtype=object),
+        ids_medicina=np.asarray(["m0", "m1"], dtype=object),
+        ids_astronomia=np.asarray(["a0", "a1"], dtype=object),
         texts_python=np.asarray(["py0", "py1"], dtype=object),
         texts_legal=np.asarray(["lg0", "lg1"], dtype=object),
         texts_receta=np.asarray(["rc0", "rc1"], dtype=object),
+        texts_medicina=np.asarray(["med0", "med1"], dtype=object),
+        texts_astronomia=np.asarray(["ast0", "ast1"], dtype=object),
         model_id=np.asarray("fake"),
         dimension=np.asarray(3),
     )
