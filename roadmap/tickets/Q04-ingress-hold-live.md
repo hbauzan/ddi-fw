@@ -1,6 +1,6 @@
 # Q04 — Live ingress / hold on Qwen2 locks
 
-> **Estado:** hecho (skipped `blocker_load`)
+> **Estado:** hecho (`skipped_unpublished`)
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q03
 > **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)

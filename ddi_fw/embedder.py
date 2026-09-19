@@ -106,13 +106,19 @@ class _SentenceTransformerEmbedder:
         self._prefix = prefix
         self._model = None
 
+    def _prepare_load(self) -> dict[str, object]:
+        """Extra kwargs for SentenceTransformer(...). Subclasses may patch the Hub first."""
+        return {}
+
     def _load(self) -> object:
         if self._model is None:
             from sentence_transformers import SentenceTransformer
 
+            extra = self._prepare_load()
             self._model = SentenceTransformer(
                 self.model_id,
                 trust_remote_code=self._trust_remote_code,
+                **extra,
             )
         return self._model
 
@@ -174,9 +180,89 @@ class NomicEmbedder(_SentenceTransformerEmbedder):
         )
 
 
+def apply_qwen2_rope_theta_shim() -> None:
+    """transformers 5.17 moved rope_theta into rope_parameters; Hub custom_code still reads config.rope_theta."""
+    from transformers.models.qwen2.configuration_qwen2 import Qwen2Config
+
+    if getattr(Qwen2Config, "_ddi_rope_theta_shim", False):
+        return
+
+    def _rope_theta(self: object) -> float:
+        params = getattr(self, "rope_parameters", None) or {}
+        if isinstance(params, dict) and params.get("rope_theta") is not None:
+            return float(params["rope_theta"])
+        return 1_000_000.0
+
+    Qwen2Config.rope_theta = property(_rope_theta)
+    Qwen2Config._ddi_rope_theta_shim = True
+
+
+def apply_qwen2_cache_shim() -> None:
+    """Hub custom_code (transformers 4.41) calls DynamicCache APIs removed in 5.17."""
+    from transformers.cache_utils import DynamicCache
+
+    if getattr(DynamicCache, "_ddi_cache_shim", False):
+        return
+
+    @classmethod
+    def from_legacy_cache(cls, past_key_values: object = None, **_kwargs: object) -> object:
+        if past_key_values is None:
+            return cls()
+        if isinstance(past_key_values, cls):
+            return past_key_values
+        return cls(ddp_cache_data=past_key_values)
+
+    def get_usable_length(self: object, new_seq_length: int, layer_idx: int = 0) -> int:
+        del new_seq_length
+        get_seq = getattr(self, "get_seq_length", None)
+        if callable(get_seq):
+            return int(get_seq(layer_idx))
+        return 0
+
+    def to_legacy_cache(self: object) -> object:
+        return None
+
+    DynamicCache.from_legacy_cache = from_legacy_cache
+    DynamicCache.get_usable_length = get_usable_length
+    DynamicCache.to_legacy_cache = to_legacy_cache
+    DynamicCache._ddi_cache_shim = True
+
+
+def apply_qwen2_transformers517_shim() -> None:
+    apply_qwen2_rope_theta_shim()
+    apply_qwen2_cache_shim()
+
+
 class Qwen2Embedder(_SentenceTransformerEmbedder):
+    """1.5B. fp16 so a 16 GiB host can load it. Singleton: one live copy per process."""
+
+    _instance: Qwen2Embedder | None = None
+
     def __init__(self) -> None:
         super().__init__(QWEN2_ID, 1536, trust_remote_code=True)
+
+    @classmethod
+    def instance(cls) -> Qwen2Embedder:
+        if cls._instance is None:
+            cls._instance = cls()
+        return cls._instance
+
+    def _prepare_load(self) -> dict[str, object]:
+        import torch
+
+        apply_qwen2_transformers517_shim()
+        return {
+            "model_kwargs": {"torch_dtype": torch.float16},
+            "config_kwargs": {"use_cache": False},
+        }
+
+    def _load(self) -> object:
+        model = super()._load()
+        first = model[0]
+        auto = getattr(first, "auto_model", None)
+        if auto is not None and hasattr(auto, "config"):
+            auto.config.use_cache = False
+        return model
 
 
 def get_embedder(name: str, dim: int | None = None) -> BaseEmbedder:
@@ -190,7 +276,7 @@ def get_embedder(name: str, dim: int | None = None) -> BaseEmbedder:
     if key in {"nomic", "nomic-embed", NOMIC_ID.casefold()}:
         return NomicEmbedder(dim=dim or 256)
     if key in {"qwen2", "qwen", QWEN2_ID.casefold()}:
-        return Qwen2Embedder()
+        return Qwen2Embedder.instance()
     raise ValueError(f"embedder desconocido: {name}")
 
 
