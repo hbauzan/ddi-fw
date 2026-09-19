@@ -1,7 +1,7 @@
 # D07 — Benchmark multi-embedder (MRL y comparación de ejes disjuntos)
 
-> **Estado:** hecho  
-> **Ola:** 5 (Post-core / Optimización de Instrumento)  
+> **Estado:** hecho
+> **Ola:** 5 (Post-core / Optimización de Instrumento)
 > **Especificación:** [`../00-alcance.md`](../00-alcance.md), [`../almas.md`](../almas.md)
 
 ---

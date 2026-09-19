@@ -6,10 +6,10 @@ Fecha: 2026-09-19. Herramienta independiente. Pack fundacional.
 
 ## Qué hay que construir
 
-Un candado geométrico determinista empaquetado en `ddi_fw/`. Utiliza el embedder singleton `BAAI/bge-m3` (1024 dimensiones). La decisión es puramente dimensional y no depende de distancias angulares escalares.
+Un candado geométrico determinista empaquetado en `ddi_fw/`. Utiliza una arquitectura conectada vía la interfaz abstracta `BaseEmbedder` (con `BAAI/bge-m3` como baseline histórico archivado, y soporte para modelos alternativos y MRL a 128D/256D). La decisión es puramente dimensional y no depende de distancias angulares escalares.
 
 1. **Almas chicas**: Tres mazos canónicos: `python` (tutorial oficial PSF), `legal` (SPDX MIT / Apache-2.0 / BSD-3-Clause), `receta` (cláusulas de cocina). Fuentes y vetos en [`almas.md`](./almas.md).
-2. **Hoja dimensional**: Por par de almas: cálculo de `[lo, hi]` para **todas** las filas en las 1024 dimensiones. Sin medias. Sin top-k.
+2. **Hoja dimensional**: Por par de almas: cálculo de `[lo, hi]` para **todas** las filas en las $D$ dimensiones del modelo. Sin medias. Sin top-k.
 3. **Corte duro**: Clasificación de filas en `left` / `right` / `split` / `out` evaluada estrictamente en los ejes disjuntos (donde los intervalos no se solapan). Las otras dimensiones votan en la hoja completa; no se descartan.
 4. **Ingress**: Partición del prompt en cláusulas lógicas. Veredicto *fail-closed*. Si una sola cláusula no cabe en el alma permitida o cae en un alma vedada por la política, se rechaza la consulta completa.
 5. **Egreso hold**: Retención total de la respuesta generada por el LLM. Aplica el mismo candado sobre cada cláusula del texto antes de emitir cualquier token al cliente. Cero streaming especulativo.
@@ -69,14 +69,16 @@ ddi-fw/
 │   ├── README.md
 │   ├── 00-alcance.md
 │   ├── almas.md
-│   └── tickets/
-│       ├── D01-pintar-almas.md
-│       ├── D02-hoja-y-corte-duro.md
-│       ├── D03-cli-press.md
-│       ├── D04-ingress-clausulas.md
-│       ├── D05-egreso-hold.md
-│       ├── D06-proxy-hija.md
-│       └── D07-benchmark-multi-embedder.md
+│   ├── hipotesis-deletor.md
+│   └── archive/
+│       └── v0.1-bge-m3/
+│           ├── D01-pintar-almas.md
+│           ├── D02-hoja-y-corte-duro.md
+│           ├── D03-cli-press.md
+│           ├── D04-ingress-clausulas.md
+│           ├── D05-egreso-hold.md
+│           ├── D06-proxy-hija.md
+│           └── D07-benchmark-multi-embedder.md
 ├── ddi_fw/                  ← Paquete principal
 │   ├── __init__.py
 │   ├── almas.py
