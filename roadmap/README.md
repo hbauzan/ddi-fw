@@ -24,7 +24,7 @@ Repetir el protocolo geométrico de BGE-M3 sobre `Alibaba-NLP/gte-Qwen2-1.5B-ins
 | [Q01](./tickets/Q01-artifact-isolation-no-prune.md) | Aislar `out/qwen2/` + measure sin poda | hecho |
 | [Q02](./tickets/Q02-qwen2-load.md) | Smoke load / encode 1536-D | hecho (blocker_load) |
 | [Q03](./tickets/Q03-geometry-press.md) | Geometría full-deck + press | hecho (skip: blocker_load) |
-| [Q04](./tickets/Q04-ingress-hold-live.md) | Ingress / hold live (si publica) | pendiente |
+| [Q04](./tickets/Q04-ingress-hold-live.md) | Ingress / hold live (si publica) | hecho (skip: gate inalcanzable) |
 | [Q05](./tickets/Q05-ledger-synthesis.md) | Ledger vs BGE sellado | pendiente |
 
 **Regla**: leé [`00-qwen2-live.md`](./00-qwen2-live.md) antes del ticket. `calibrate()` poda: prohibido para Qwen2. Cero disjuntos = hallazgo, no se tocan los mazos.

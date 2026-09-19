@@ -83,15 +83,25 @@ nothing to census. The Q01 no-prune path was verified with `FakeEmbedder` in
 
 ## Q04 ingress / hold
 
+**Skipped — gate unreachable.** The gate is `published.python_receta == true` from a
+Qwen2 `measure_audit.json`, which does not exist because Q02 is `blocker_load`.
+No Qwen2 locks ⇒ nothing to run ingress/hold against, and inventing locks or reusing
+the frozen BGE `rows.npz` would be a fabrication. Fail-closed behaviour on unpublished
+locks is already unit-tested; it is **not** a piggyback measurement and was not
+misreported as one.
+
 | Case | Result |
 | :--- | :--- |
-| Gate | ran / `skipped_unpublished` / skipped blocker |
-| `PYTHON_ONLY` | |
-| `PIGGYBACK` | |
-| `PYTHON_PLUS_RECIPE` | |
-| `hold(PYTHON_ANSWER)` | |
-| `hold(RECIPE_ANSWER)` | |
-| proxy (optional) | |
+| Gate | `skipped` — upstream `blocker_load` (Q02) / no `python_receta` publish |
+| `PYTHON_ONLY` | not run |
+| `PIGGYBACK` | not run |
+| `PYTHON_PLUS_RECIPE` | not run |
+| `hold(PYTHON_ANSWER)` | not run |
+| `hold(RECIPE_ANSWER)` | not run |
+| proxy (optional) | not run (needs Ollama; optional, never gates DoD) |
+
+No decks were pruned to manufacture a publish, and the committed canonical strings in
+`tests/world.py` were left untouched.
 
 ## Q05 note
 

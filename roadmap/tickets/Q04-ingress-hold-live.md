@@ -1,6 +1,6 @@
 # Q04 — Live ingress / hold on Qwen2 locks
 
-> **Estado:** pendiente
+> **Estado:** hecho (saltado: gate inalcanzable, `blocker_load` en Q02)
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q03
 > **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
