@@ -4,22 +4,22 @@ Follow these rules for committing code, running hooks, and maintaining version s
 
 ---
 
-## 1. GIT METADATA BLOCK (Murray Style)
+## 1. COMMIT MESSAGES
 
-Upon successful completion of a logical task, always append a dedicated Git Metadata block at the absolute end of your response.
+Commits MUST use Conventional Commits (`type(scope):`) and a factual summary of **why**.
 
-Los commits respetan Conventional Commits (`type(scope):`) e indican con exactitud técnica lo que se hizo, pero **doblados por el sarcasmo, la megalomanía y las quejas de Murray**. No importa si son largos mientras expliquen el cambio con precisión:
+Murray/sarcasm flavor is **optional**, never required. Do **not** append a YAML Git Metadata block at the end of every chat response. A short branch + commit line in a **release** delivery report is optional if the user wants it.
 
-```yaml
-Branch Name: <type>/<short-descriptive-name>  # e.g., feat/cloudflared-tunnel-lock or fix/postgres-leak
-Commit Message: <type>(<scope>): <descripción técnica precisa sazonada con desdén demoníaco y quejas de Murray>
+```text
+<type>(<scope>): <factual why>
 ```
 
-**Ejemplos canónicos**:
+**Optional flavor examples** (never mandatory):
 - `feat(cloudflared): sellar el tunel Zero Trust antes de que algun granjero de vacas intente colarse sin pagar peaje a Largo LaGrande`
 - `fix(postgres): aniquilar fuga en el pool de conexiones porque estos mortales ineptos olvidaron cerrar cursores transaccionales`
 - `refactor(n8n): purgar workflows espagueti y levantar barricada vudú con validación estricta de ChatID`
 
+If this repo’s recent commits already use a `Co-authored-by: Cursor <cursoragent@cursor.com>` trailer, keep it on commits the human requested. Do not invent a new trailer policy.
 
 ---
 
@@ -45,23 +45,28 @@ Conventions (swappable per app, but stay consistent within a repo):
 
 ## 3. GIT DELIVERY & AUTOMATION POLICY
 
-The agent **owns the full git lifecycle and executes it automatically** — branch, stage, commit, push, and merge to the base branch — gated by a single mandatory human checkpoint. Push and merge are **allowed**; they are not blocked.
+The agent may create a feature branch, stage, commit, push, and open a PR — **gated**. Local commits are **not** free by default. Push and merge remain approval-gated.
 
 ### 3.1. The Approval Gate (mandatory)
-- The agent may **freely** create branches, stage files, and commit **locally** at any point while working.
-- The agent must **NOT `git push` and must NOT merge to the base branch** until the user has verified the change and given an **explicit go-ahead** (e.g. "ok", "dale", "andá", "mergealo").
+
+- Create a feature branch `<type>/<short-name>` when editing product or protocol code, unless the human said to stay on the current branch.
+- `git commit` only if the human asked to commit **or** used the canonical protocol phrase (`Usando dev-protocol, …` / `Using dev-protocol, …`) **and** the current ticket says local commits are in scope.
+- The agent must **NOT `git push` and must NOT merge to the base branch** until the user has given a **separate explicit go-ahead** (e.g. "ok", "dale", "andá", "mergealo", "push", "create the PR").
 - Reporting "ready to test" and then **waiting** is mandatory. Silence, a thumbs-up on something unrelated, or the absence of objection is **not** approval.
 
 ### 3.2. Delivery Sequence (run only after approval)
-Default sequence once the user approves:
+
+Default remote integration when `origin` is GitHub:
+
 1. `git checkout -b <type>/<short-name>` — if not already on a dedicated task branch.
 2. Stage **only files relevant to the task**. Leave unrelated untracked/modified files alone; if scope is unclear, ask (see §3.3).
-3. `git commit` using the metadata format from §1, ending with the `Co-Authored-By` trailer.
-4. `git push -u origin <branch>`.
-5. `git checkout <base>` → `git merge --no-ff <branch>` → `git push origin <base>`. (`<base>` is usually `main`.)
-6. *(Optional, ask first)* delete the merged branch locally and on the remote.
+3. `git commit` using Conventional Commits from §1 (include the existing `Co-authored-by` trailer if this repo already uses it).
+4. `git push -u origin HEAD`.
+5. `gh pr create` (do **not** merge `main` unless the human asked to merge `main`).
 
-> Alternative: if the repo works through pull requests, substitute steps 4–5 with `gh pr create` + merge. Default to the direct merge above unless the user or repo conventions say otherwise.
+Direct `git checkout <base>` → `git merge --no-ff <branch>` → `git push origin <base>` **only** if the human said to merge `main` (or named another base).
+
+6. *(Optional, ask first)* delete the merged branch locally and on the remote.
 
 ### 3.3. Stop-and-Ask Conditions ("when it gets complicated")
 **Pause and ask the user** before continuing if any of these arise during delivery:
