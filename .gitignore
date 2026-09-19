@@ -19,3 +19,8 @@ build/
 htmlcov/
 
 context.txt
+
+# Artefactos de calibración y censo (matrices densas, no van a git)
+ddi_fw/out/
+*.npz
+!ddi_fw/data/

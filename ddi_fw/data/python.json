@@ -1,0 +1,111 @@
+{
+  "alma": "python",
+  "n": 21,
+  "clauses": [
+    {
+      "id": "python-001",
+      "text": "En Python una lista es una secuencia mutable; list.append agrega un elemento al final sin copiar la colección.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-002",
+      "text": "El bucle for recorre cualquier iterable: for item in items: procesa cada elemento exactamente una vez.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-004",
+      "text": "Las excepciones se manejan con try, except y finally; Exception es la clase base habitual de los errores recuperables.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-005",
+      "text": "Un diccionario asocia claves inmutables a valores; dict.get(clave, default) evita KeyError cuando la clave no existe.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-006",
+      "text": "El slicing xs[start:stop:step] produce una lista nueva; xs[::-1] invierte la secuencia sin mutar el original.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-007",
+      "text": "import math carga un módulo de la biblioteca estándar; from math import sqrt importa un nombre al espacio local.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-008",
+      "text": "Una tupla es una secuencia inmutable; se usa para registros fijos y para devolver múltiples valores desde una función.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-009",
+      "text": "En Python, if, elif y else eligen una rama de control de flujo según una condición booleana evaluada de arriba hacia abajo.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-010",
+      "text": "while repite un bloque mientras la condición sea verdadera; un break sale del bucle y continue salta a la siguiente iteración.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-011",
+      "text": "En Python los conjuntos set eliminan duplicados y soportan unión, intersección y diferencia en tiempo promedio constante.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-012",
+      "text": "Una f-string de Python interpola expresiones dentro de un literal: f\"{nombre}={valor}\" produce un str formateado.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-013",
+      "text": "None es el objeto nulo de Python; una función sin return explícito devuelve None.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-014",
+      "text": "En Python class define un tipo; __init__ inicializa la instancia y self referencia al objeto receptor.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-015",
+      "text": "list comprehension [x * 2 for x in xs if x > 0] construye una lista nueva filtrando y transformando en una sola expresión.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-016",
+      "text": "raise ValueError('fuera de rango') lanza una excepción; el llamador puede atraparla con except ValueError.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-017",
+      "text": "Los argumentos *args y **kwargs recogen posicionales extras y palabras clave extras en la firma de la función.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-018",
+      "text": "En Python enumerate(xs) produce pares (índice, valor); zip(a, b) recorre dos iterables en paralelo hasta el más corto.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-019",
+      "text": "En Python, with open(path, encoding='utf-8') as handle: lee un archivo de texto y cierra el descriptor aunque ocurra una excepción.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-020",
+      "text": "En Python isinstance(obj, list) comprueba el tipo en tiempo de ejecución; type(obj) is list es más estricto y suele evitarse.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-021",
+      "text": "Un generador de Python usa yield para producir valores perezosos; next(gen) obtiene el siguiente elemento o lanza StopIteration.",
+      "source": "psf-tutorial"
+    },
+    {
+      "id": "python-022",
+      "text": "sorted(xs, key=len, reverse=True) devuelve una lista nueva ordenada; xs.sort() ordena la lista in-place y retorna None.",
+      "source": "psf-tutorial"
+    }
+  ]
+}
