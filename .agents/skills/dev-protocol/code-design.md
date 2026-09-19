@@ -2,6 +2,14 @@
 
 All codebase changes should follow the deep module design principles and a vertical, test-driven implementation workflow.
 
+## When TDD is mandatory vs not
+
+**Mandatory (release mode):** any behavior change to public product seams: `decide`, `hold`, ingress splitter, proxy HTTP, candado publication, `BaseEmbedder` contract.
+
+**Not mandatory (research mode):** `current-research/` markdown, ledger rows, `--no-prune` / `measure_and_save` runs, one-off measurement scripts that do not change `decide()` / `hold()` / proxy contracts.
+
+Research mode is not a license to skip tests when you **do** change those seams. If a research task starts editing `decide()`, it has become release mode for that diff.
+
 ---
 
 ## 1. DEEP MODULE DESIGN

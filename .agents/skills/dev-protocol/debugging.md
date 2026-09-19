@@ -25,6 +25,22 @@ Everything else is mechanical. If you have a tight, pass/fail signal that goes r
 - **Phase 1 Completion Criterion**: You must establish **one command** that runs unattended, is fast, deterministic, and **red-capable** (successfully triggers and catches this exact bug).
 - **Prohibited action**: Do not jump to hypotheses or read code to build a theory before this command exists. No red-capable command, no Phase 2.
 
+### 1.3 Exception: research / geometry / embedder-load (research mode)
+
+The prohibition “do not read code to build a theory before a red-capable command exists” applies to **release-mode product bugs** with an HTTP/CLI/test symptom.
+
+It does **not** apply when the task is classified `research` (see `SKILL.md` agent modes), including:
+
+- unpublished locks / zero disjoint axes
+- live embedder load, shims, gated 401, custom_code failures
+- Jaccard / mazo contamination / veto collisions
+- ledger / `current-research/` measurement
+- “why did model Y fail to publish?”
+
+In those cases you MUST read `lessons-learned.md`, the implicated `ddi_fw/` modules, and the ledger **before** or **instead of** inventing a throwaway harness. The measurement command (`uv run python -m ddi_fw.embedder --no-prune …`, a targeted pytest, a press census) **is** the loop.
+
+Do not skip Phase 1 for a **proxy 500** or a **wrong HTTP code**. That remains release-mode debugging.
+
 ---
 
 ## Phase 2: Reproduce + Minimise
