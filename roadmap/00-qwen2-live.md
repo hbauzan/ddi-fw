@@ -2,7 +2,7 @@
 
 **Audience:** another AI agent executing this pack. Read this file **before** any ticket.
 **Language:** Spanish for procedure. English **canonical terms** are locked in backticks. Do not translate those tokens. Do not invent synonyms.
-**Status:** `cerrada` 2026-09-19. Q01 `hecho`. Q02–Q04 `blocker_load` (`custom_code` / `rope_theta` vs transformers 5.17). Q05 keep `BAAI/bge-m3`.
+**Status:** `cerrada` 2026-09-19. Q01 `hecho`. Q02 live encode 1536-D (shims 5.17). Q03 headlines `ok_unpublished`, `legal_receta` published axis 660. Q04 `skipped_unpublished`. Q05 keep `BAAI/bge-m3`.
 **Date of briefing:** 2026-09-19.
 **Base:** git tag `v0.1.0-bge-m3-baseline` (`37ae3fe`) plus later doc archive on `main`. Do not reopen D01–D07.
 

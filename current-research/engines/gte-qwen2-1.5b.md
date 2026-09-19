@@ -6,14 +6,16 @@ Wave Q, 2026-09-19. Do not copy BGE axis ids here as if they transferred.
 | :--- | :--- |
 | `model_id` | `Alibaba-NLP/gte-Qwen2-1.5B-instruct` |
 | CLI | `qwen2` / `qwen` |
-| Adapter | `Qwen2Embedder` / `get_embedder("qwen2")` |
-| Expected `dimension` | 1536 |
+| Adapter | `Qwen2Embedder` / `get_embedder("qwen2")` (singleton) |
+| `dimension` | 1536 (asserted; not MRL) |
 | License | Apache-2.0, ungated |
 | `trust_remote_code` | true |
 | Hub tag | `custom_code` |
 | Parameters | ~1.78e9 |
-| Artifacts (gitignored) | `ddi_fw/out/qwen2/` — **not written** (load never returned) |
-| Decks (must remain) | `python` 21, `legal` 16, `receta` 17, `dropped=[]` |
+| Load dtype | float16 (16 GiB host) |
+| Compat shims | `apply_qwen2_transformers517_shim`: `Qwen2Config.rope_theta` from `rope_parameters`; `DynamicCache.from_legacy_cache` / `get_usable_length` / `to_legacy_cache`; `config.use_cache=False` |
+| Artifacts (gitignored) | `ddi_fw/out/qwen2/rows.npz`, `measure_audit.json`, `press.json` |
+| Decks | `python` 21, `legal` 16, `receta` 17, `dropped=[]` |
 | Stack | `sentence-transformers` 6.1.0 → `transformers` 5.17.0 |
 | Product pin after Q05 | keep `BAAI/bge-m3` |
 
@@ -23,68 +25,81 @@ Wave Q, 2026-09-19. Do not copy BGE axis ids here as if they transferred.
 | :--- | :--- |
 | Date | 2026-09-19 |
 | Clause | `Explicá el funcionamiento de list.append en Python.` |
-| Outcome | `blocker_load` |
-| Encode shape | — (crash in `SentenceTransformer.__init__`) |
-| `memory_mb` | n/a (weights `__init__` aborted) |
-| Hub fetch | ok (~4m36s, 2 files). Not 401. Not OOM. |
-| Error / traceback (trim secrets) | `AttributeError: 'Qwen2Config' object has no attribute 'rope_theta'` |
+| Outcome | `ok` (after shims; first attempt was `blocker_load` `rope_theta`) |
+| Encode shape | `(1536,)` float32 finite |
+| First encode (incl. load) | 14.253 s, RSS 4408.7 MB (pytest live) |
+| Hub fetch | ok. Not 401. Not OOM. `lm_head.weight` UNEXPECTED (encoder path; ignored). |
 
-Hub `custom_code` file: `modeling_qwen.py` (revision `a9af15a6372d7d6b25e9fb07c2ccb9e1fe645644`).
-
-Trimmed traceback:
+First crash (documented, then unblocked without pinning transformers 4.x):
 
 ```
-Qwen2DecoderLayer.__init__
-  -> Qwen2Attention.__init__  (modeling_qwen.py:225)
-     self.rope_theta = config.rope_theta
-transformers 5.17 configuration_utils / heterogeneity:
-  AttributeError: 'Qwen2Config' object has no attribute 'rope_theta'
+AttributeError: 'Qwen2Config' object has no attribute 'rope_theta'
+modeling_qwen.py:225  self.rope_theta = config.rope_theta
 ```
 
-Same class of failure as Nomic vs transformers 5.17. **Not** geometry. Adapter left in place. Did **not** pin `transformers==4.*`. Did **not** swap MiniLM / E5 / Nomic / Gemma / BGE.
+Second crash, unblocked with cache shim + `use_cache=False`:
 
-Live pytest: `uv run pytest --run-live tests/test_ddi_live_qwen2.py -k test_live_qwen2_load_encodes_one_clause_1536` (failed, 283s). Default `uv run pytest` skips `live`.
+```
+AttributeError: type object 'DynamicCache' has no attribute 'from_legacy_cache'
+modeling_qwen.py:1000
+```
+
+Live pytest: `uv run pytest --run-live tests/test_ddi_live_qwen2.py` — smoke + measure green; ingress skipped unpublished.
 
 ## Q03 geometry
 
-Skipped live: Q02 `blocker_load`. No `measure_and_save` on Qwen2. No `calibrate()`. Decks untouched.
+`measure_and_save` / `--no-prune`. No `calibrate()`. Decks untouched.
 
 | Pair | outcome | `published` | `disjoint_count` | `disjoint_axes` | `mean_gap` | `max_gap` |
 | :--- | :--- | :--- | ---: | :--- | ---: | ---: |
-| `python_receta` | `blocker_load` | — | — | — | — | — |
-| `python_legal` | `blocker_load` | — | — | — | — | — |
-| `legal_receta` | `blocker_load` | — | — | — | — | — |
+| `python_receta` | `ok_unpublished` | false | 0 | `[]` | 0.0 | 0.0 (all-axes max −0.001396, overlap) |
+| `python_legal` | `ok_unpublished` | false | 0 | `[]` | 0.0 | 0.0 (all-axes max −0.001396, overlap) |
+| `legal_receta` | `ok_published` | true | 1 | `[660]` | 0.002617 | 0.002617 |
 
 `n` after measure (must equal 21/16/17):
 
 | alma | n |
 | :--- | ---: |
-| `python` | — (not embedded) |
-| `legal` | — (not embedded) |
-| `receta` | — (not embedded) |
+| `python` | 21 |
+| `legal` | 16 |
+| `receta` | 17 |
 
-Press headline census `python_receta` (`left` python / `right` receta), or `n/a (unpublished)`:
+Headline census `python_receta` (`left` python / `right` receta):
 
-`n/a (blocker_load)` — `ddi_fw/out/qwen2/press.json` was not written.
+`n/a (unpublished)` — 21/21 `out`, 17/17 `out`. No corte duro.
+
+Control census `legal_receta`: 16/16 `left` (legal), 17/17 `right` (receta) on axis 660.
 
 ## Q04 ingress / hold
 
 | Case | Result |
 | :--- | :--- |
-| Gate | skipped blocker (`blocker_load` from Q02) |
-| `PYTHON_ONLY` | — |
+| Gate | `skipped_unpublished` (`python_receta` not published) |
+| `PYTHON_ONLY` | — (not a piggyback measurement) |
 | `PIGGYBACK` | — |
 | `PYTHON_PLUS_RECIPE` | — |
 | `hold(PYTHON_ANSWER)` | — |
 | `hold(RECIPE_ANSWER)` | — |
-| proxy (optional) | skipped (Ollama not required; load already blocked) |
+| proxy (optional) | skipped |
 
-No unpublished-lock piggyback measurement: the engine never produced locks.
+Unpublished headline locks are fail-closed `BREACH`. That is not evidence that piggyback containment works.
+
+## Same-host perf (separate process, after warmup encode)
+
+Host: darwin 16 GiB. One embedder resident. `measure_embedder` on the three mazos (54 cláusulas).
+
+| Field | Qwen2 (this dump) |
+| :--- | ---: |
+| `latency_us_per_clause` | 39350 |
+| `memory_mb` (RSS after full decks) | 5846.5 |
+| warmup first encode (s) | 13.08 (weights already in Hub cache) |
+
+BGE-M3 on the **same** host/protocol, separate process, **not** written into the sealed BGE dump: `latency_us_per_clause` 15179, RSS 3023.1 MB, warmup 114.3 s. Geometry of that BGE process matched the sealed row (1 / 1 / 7); those axis ids stay in `engines/bge-m3.md`.
 
 ## Q05 note
 
-Keep / replace BGE pin? **Keep `BAAI/bge-m3`.** Qwen2 did not publish headline pairs, did not run piggyback BREACH/PASS, and did not encode. Comparison rules in `roadmap/00-qwen2-live.md` / Q05 are not met.
+Keep / replace BGE pin? **Keep `BAAI/bge-m3`.** Qwen2 did not publish headline pairs. Live piggyback was skipped. More D (1536 vs 1024) did not yield more headline disjunction (0 / 0 vs BGE 1 / 1). Control pair weaker (1 vs 7). Heavier and slower.
 
 ## Operator
 
-Agent / date / git commit of code used: Cursor agent, 2026-09-19, branch `feat/qwen2-live` (Q01 `ae6d8c6`; Q02–Q05 this follow-up commit). Host: darwin 16 GiB, Python 3.14.3.
+Agent / date: Cursor agent, 2026-09-19, branch `feat/qwen2-live`. Host: darwin 16 GiB, Python 3.14.3.
