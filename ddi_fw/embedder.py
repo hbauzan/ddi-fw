@@ -283,12 +283,35 @@ def main(argv: list[str] | None = None) -> int:
 
     parser = argparse.ArgumentParser(description="Calibra rows.npz con el embedder pinneado.")
     parser.add_argument("--embedder", default="bge-m3")
-    parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
-    parser.add_argument("--rewrite-fixtures", action="store_true")
-    args = parser.parse_args(argv)
-    audit = calibrate(
-        get_embedder(args.embedder), out_path=args.out, rewrite_fixtures=args.rewrite_fixtures
+    parser.add_argument(
+        "--out",
+        type=Path,
+        default=None,
+        help="Archivo npz (calibrate) o directorio (--no-prune). Default: ddi_fw/out/rows.npz.",
     )
+    parser.add_argument("--rewrite-fixtures", action="store_true")
+    parser.add_argument(
+        "--no-prune",
+        action="store_true",
+        help="Mide el mazo completo y persiste sin podar (camino ola Qwen2).",
+    )
+    args = parser.parse_args(argv)
+
+    embedder = get_embedder(args.embedder)
+    if args.no_prune:
+        if args.rewrite_fixtures:
+            parser.error("--no-prune no reescribe fixtures: quitá --rewrite-fixtures")
+        from ddi_fw.measure import measure_and_save
+
+        out_dir = args.out or DEFAULT_OUT.parent
+        if out_dir.suffix == ".npz":
+            parser.error(f"--no-prune espera un directorio, no un archivo npz: {out_dir}")
+        audit = measure_and_save(embedder, out_dir=out_dir)
+    else:
+        out_path = args.out or DEFAULT_OUT
+        if args.out is not None and (out_path.is_dir() or out_path.suffix != ".npz"):
+            out_path = out_path / "rows.npz"
+        audit = calibrate(embedder, out_path=out_path, rewrite_fixtures=args.rewrite_fixtures)
     print(json.dumps(audit, indent=2))
     return 0
 

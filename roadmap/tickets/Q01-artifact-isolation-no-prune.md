@@ -1,6 +1,6 @@
 # Q01 — Artifact isolation + no-prune measure
 
-> **Estado:** pendiente
+> **Estado:** hecho
 > **Ola:** Qwen2 live (Q)
 > **Briefing (wins conflicts):** [`../00-qwen2-live.md`](../00-qwen2-live.md)
 > **Live model:** no
