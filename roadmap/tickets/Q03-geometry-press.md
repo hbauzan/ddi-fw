@@ -1,6 +1,6 @@
 # Q03 — Full-deck geometry + press
 
-> **Estado:** pendiente
+> **Estado:** hecho (saltado: `blocker_load` en Q02)
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q02 smoke `ok` (if Q02 is `blocker_*`, skip live here, write `—` in geometry cells, still close Q05 later)
 > **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)

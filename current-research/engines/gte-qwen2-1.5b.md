@@ -57,21 +57,29 @@ vendored `custom_code` module's expectations vs `transformers` 5.17 internals.
 
 ## Q03 geometry
 
+**Skipped — upstream `blocker_load` (Q02).** The adapter cannot instantiate the model
+under the pinned stack, so no `rows.npz` was produced and no `hoja` / `disjoint axes`
+exist for Qwen2. Geometry cells stay `—`; no numbers were invented.
+
 | Pair | outcome | `published` | `disjoint_count` | `disjoint_axes` | `mean_gap` | `max_gap` |
 | :--- | :--- | :--- | ---: | :--- | ---: | ---: |
-| `python_receta` | | | | | | |
-| `python_legal` | | | | | | |
-| `legal_receta` | | | | | | |
+| `python_receta` | `blocker_load` | — | — | — | — | — |
+| `python_legal` | `blocker_load` | — | — | — | — | — |
+| `legal_receta` | `blocker_load` | — | — | — | — | — |
 
 `n` after measure (must equal 21/16/17):
 
 | alma | n |
 | :--- | ---: |
-| `python` | |
-| `legal` | |
-| `receta` | |
+| `python` | — (no measure) |
+| `legal` | — (no measure) |
+| `receta` | — (no measure) |
 
 Press headline census `python_receta` (`left` python / `right` receta), or `n/a (unpublished)`:
+
+`n/a (blocker_load)` — `ddi_fw/out/qwen2/rows.npz` was never written, so `press` has
+nothing to census. The Q01 no-prune path was verified with `FakeEmbedder` in
+`tests/test_ddi_measure_no_prune.py`; it is ready for a future engine that loads.
 
 ## Q04 ingress / hold
 
