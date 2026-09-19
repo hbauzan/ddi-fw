@@ -1,6 +1,6 @@
 # Q04 — Live ingress / hold on Qwen2 locks
 
-> **Estado:** pendiente
+> **Estado:** hecho (skipped `blocker_load`)
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q03
 > **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
@@ -67,10 +67,10 @@ Optional proxy: only if locks published. Unit tests in `tests/test_ddi_proxy.py`
 
 ## Definition of Done
 
-- [ ] Either live results table in the Qwen engine dump, **or** `skipped_unpublished` / `blocker_*` with pointer to Q03.
-- [ ] New live tests (if any) skipped under default pytest.
-- [ ] Default `uv run pytest` green.
-- [ ] Ticket `hecho` in [`../README.md`](../README.md).
+- [x] Either live results table in the Qwen engine dump, **or** `skipped_unpublished` / `blocker_*` with pointer to Q03.
+- [x] New live tests (if any) skipped under default pytest.
+- [x] Default `uv run pytest` green.
+- [x] Ticket `hecho` in [`../README.md`](../README.md).
 
 ---
 

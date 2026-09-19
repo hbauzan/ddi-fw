@@ -16,6 +16,6 @@ Empirical measurements. Not the domain glossary (`CONTEXT.md`). Not short invari
 | :--- | :--- |
 | [embedder-ledger.md](./embedder-ledger.md) | Canonical comparison table |
 | [engines/bge-m3.md](./engines/bge-m3.md) | Sealed BGE-M3 campaign (2026-09-19) |
-| [engines/gte-qwen2-1.5b.md](./engines/gte-qwen2-1.5b.md) | Qwen2 campaign (wave Q) |
+| [engines/gte-qwen2-1.5b.md](./engines/gte-qwen2-1.5b.md) | Qwen2 campaign (wave Q), `blocker_load` 2026-09-19 |
 
 Protocol for Qwen2: [`../roadmap/00-qwen2-live.md`](../roadmap/00-qwen2-live.md).

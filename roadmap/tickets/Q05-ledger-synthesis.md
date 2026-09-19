@@ -1,6 +1,6 @@
 # Q05 — Ledger synthesis vs frozen BGE-M3
 
-> **Estado:** pendiente
+> **Estado:** hecho
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q02 (always), Q03–Q04 if they ran
 > **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
@@ -42,11 +42,11 @@ Never write “Qwen failed, so prune mazos”. Never write “Qwen unpublished, 
 
 ## Definition of Done
 
-- [ ] Qwen engine dump complete (geometry **or** blocker).
-- [ ] Ledger Qwen2 row complete; BGE row byte-for-byte untouched.
-- [ ] Wave Q closed in [`../README.md`](../README.md).
-- [ ] Default pytest green.
-- [ ] No `.npz` staged.
+- [x] Qwen engine dump complete (geometry **or** blocker).
+- [x] Ledger Qwen2 row complete; BGE row byte-for-byte untouched.
+- [x] Wave Q closed in [`../README.md`](../README.md).
+- [x] Default pytest green.
+- [x] No `.npz` staged.
 
 ---
 
