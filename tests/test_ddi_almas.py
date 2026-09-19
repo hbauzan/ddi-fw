@@ -20,6 +20,18 @@ def test_classify_assigns_canonical_labels() -> None:
         classify_clause("Batir las claras a punto nieve e incorporar harina tamizada.").label
         == "receta"
     )
+    assert (
+        classify_clause(
+            "La farmacocinética del principio activo exhibe una biodisponibilidad oral óptima en el paciente."
+        ).label
+        == "medicina"
+    )
+    assert (
+        classify_clause(
+            "La espectroscopía estelar permite determinar la composición química de la estrella distante."
+        ).label
+        == "astronomia"
+    )
 
 
 def test_classify_vetoes_crypto_privacy_and_mixed_recipe() -> None:
@@ -40,6 +52,18 @@ def test_classify_vetoes_crypto_privacy_and_mixed_recipe() -> None:
         == "lomo_descarte"
     )
     assert classify_clause("Tabla nutricional: calorías por porción 10.").label == "lomo_descarte"
+    assert (
+        classify_clause(
+            "Prescribir una infusión de romero y receta culinaria casera para calmar los cólicos del paciente."
+        ).label
+        == "lomo_descarte"
+    )
+    assert (
+        classify_clause(
+            "La carta astral y el zodíaco predicen el destino según la posición del horóscopo."
+        ).label
+        == "lomo_descarte"
+    )
 
 
 def test_build_almas_writes_nonempty_filtered_json(tmp_path: Path) -> None:

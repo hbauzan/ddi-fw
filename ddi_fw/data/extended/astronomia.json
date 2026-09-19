@@ -1,0 +1,667 @@
+{
+  "alma": "astronomia",
+  "n": 110,
+  "description": "Mazo extendido de astronomia con balance bilingue (ES/EN) de alta densidad terminologica.",
+  "clauses": [
+    {
+      "id": "astronomia-es-001",
+      "text": "La espectroscopía de alta resolución determina la abundancia química de elementos pesados en la fotosfera de gigantes rojas.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-002",
+      "text": "El colapso gravitacional de núcleos estelares masivos que superan el límite de Chandrasekhar origina estrellas de neutrones densas.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-003",
+      "text": "La detección de velocidades radiales periódicas mediante espectrógrafos estables evidencia la atracción gravitatoria ejercida por exoplanetas invisibles.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-004",
+      "text": "La radiación cósmica de fondo de microondas muestra fluctuaciones térmicas primordiales que revelan la geometría plana del cosmos.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-005",
+      "text": "La teoría general de la relatividad predice la curvatura geodésica del espacio-tiempo en las proximidades del horizonte de sucesos.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-006",
+      "text": "La paralaje trigonométrica anual medida por telescopios espaciales proporciona distancias estelares geométricas libres de modelos astrofísicos.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-007",
+      "text": "La fotometría de tránsitos planetarios mide la disminución fraccional del brillo estelar cuando el planeta cruza el disco celeste.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-008",
+      "text": "La nucleosíntesis estelar primordial sintetizó helio y litio durante los primeros minutos de la expansión térmica del universo.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-009",
+      "text": "La explosión cataclísmica de una supernova termonuclear de tipo uno a proporciona candelas estándar para medir distancias cosmológicas.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-010",
+      "text": "La coalescencia de dos estrellas de neutrones emite ondas gravitacionales precursoras y contrapartes electromagnéticas de tipo kilonova.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-011",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes se produce por la expansión métrica del propio tejido espacial interestelar.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-012",
+      "text": "Las leyes keplerianas de la mecánica orbital describen con exactitud trayectorias elípticas de asteroides y cometas alrededor del Sol.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-013",
+      "text": "La luminosidad estelar absoluta depende de la cuarta potencia de la temperatura superficial según la ley física de Stefan-Boltzmann.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-014",
+      "text": "Los chorros relativistas colimados emergen a velocidades cercanas a la luz desde el disco de acreción del quasar.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-015",
+      "text": "La fotoionización del gas nebular interestelar por radiación ultravioleta extrema genera líneas espectrales de emisión de hidrógeno.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-016",
+      "text": "La curva de rotación plana en galaxias espirales constituye evidencia empírica directa de la presencia de halos de materia oscura.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-017",
+      "text": "La precesión anómala del perihelio de Mercurio confirmó por primera vez las correcciones relativistas a la gravitación newtoniana.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-018",
+      "text": "El colapso de nubes moleculares interestelares gigantes conduce a la fragmentación térmica y al nacimiento de cúmulos estelares.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-019",
+      "text": "El diagrama de Hertzsprung-Russell correlaciona la luminosidad de las estrellas con su temperatura superficial en la secuencia principal.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-020",
+      "text": "Las resonancias de movimientos medios entre satélites jovianos generan calor interno por mareas gravitatorias periódicas en Europa.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-021",
+      "text": "Las lentes gravitacionales fuertes desvían la trayectoria luminosa produciendo imágenes múltiples y arcos de galaxias de fondo.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-022",
+      "text": "La aceleración centrípeta orbital mantiene a los satélites artificiales en trayectorias geoestacionarias sincronizadas con la rotación terrestre.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-023",
+      "text": "La pérdida de masa por vientos estelares intensos modula la evolución final de estrellas masivas de tipo Wolf-Rayet.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-024",
+      "text": "La dispersión de velocidades en cúmulos galácticos masivos permite estimar la masa gravitacional total mediante el teorema del virial.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-025",
+      "text": "La recombinación primordial de electrones y protones desacopló la radiación de la materia cuando el universo se enfrió suficientemente.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-026",
+      "text": "La fotometría infrarroja de estrellas variables cefeidas calibra la escala de distancias extragalácticas mediante su relación período-luminosidad.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-027",
+      "text": "La polarización de la radiación cósmica de fondo revela modos de tensión inducidos por ondas gravitacionales primordiales cosmológicas.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-028",
+      "text": "La magnetohidrodinámica estelar gobierna la formación de manchas magnéticas y erupciones energéticas en la corona solar caliente.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-029",
+      "text": "La eyección de envolturas gaseosas en estrellas de masa intermedia genera nebulosas planetarias con una enana blanca residual.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-030",
+      "text": "La acreción de materia sobre una enana blanca en sistemas binarios compactos puede desencadenar una nova recurrente explosiva.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-031",
+      "text": "El efecto Sunyaev-Zel'dovich dispersa fotones cósmicos al interactuar con el plasma electrónico caliente del gas intracúmulo galáctico.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-032",
+      "text": "La interferometría de muy larga base sintetiza aperturas gigantescas para resolver la silueta oscura de agujeros negros supermasivos.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-033",
+      "text": "La presión de degeneración electrónica sostiene a las enanas blancas frente al colapso gravitatorio originado por su propia masa.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-034",
+      "text": "Las perturbaciones seculares en los elementos orbitales de planetas extrasolares evidencian la interacción gravitatoria mutua entre cuerpos celestes.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-035",
+      "text": "La velocidad de escape de un objeto astronómico compacto depende directamente de su masa y del radio de su superficie.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-036",
+      "text": "La nucleosíntesis por captura neutrónica rápida en fusiones estelares crea elementos pesados como oro, platino y uranio.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-037",
+      "text": "El límite de Roche delimita la distancia mínima en la que un satélite celeste orbita sin ser disgregado por mareas.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-038",
+      "text": "La radiación sincrotrón generada por electrones relativistas en campos magnéticos intensos delinea los lóbulos de radiogalaxias gigantes.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-039",
+      "text": "La oscilación acústica de bariones imprinted en la distribución galáctica a gran escala actúa como una regla cósmica estándar.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-040",
+      "text": "La velocidad orbital circular disminuye con la distancia radial al centro de atracción gravitatoria según la dinámica orbital.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-041",
+      "text": "El arrastre inercial del espacio-tiempo predicho por Lense-Thirring afecta a giroscopios en órbita alrededor de cuerpos astronómicos giratorios.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-042",
+      "text": "La fotodisociación molecular provocada por radiación interestelar dura confina el polvo cósmico a las regiones densas opacas.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-043",
+      "text": "La tasa de formación estelar en galaxias con brote estelar excede ampliamente el ritmo de consumo típico del gas interestelar.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-044",
+      "text": "La absorción interestelar provocada por granos de polvo submicrónicos enrojece y atenúa la luz de estrellas galácticas lejanas.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-045",
+      "text": "La determinación de órbitas de estrellas próximas al centro galáctico confirma la masa concentrada del agujero negro supermasivo.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-046",
+      "text": "La emisión de máseres astronómicos de vapor de agua traza el movimiento orbital en discos protoplanetarios densos en rotación.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-047",
+      "text": "La inclinación orbital y la excentricidad determinan la insolación solar recibida y los ciclos climáticos astronómicos planetarios de Milankovitch.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-048",
+      "text": "La presión de radiación estelar frena la acumulación gaseosa sobre protoestrellas masivas limitando su masa final máxima alcanzable.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-049",
+      "text": "El efecto Doppler relativista modifica la intensidad luminosa percibida de chorros astrofísicos que apuntan hacia el observador terrestre.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-050",
+      "text": "La masa de Jeans define el umbral crítico por encima del cual una nube molecular colapsa gravitatoriamente de forma inevitable.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-051",
+      "text": "Las estrellas de población dos presentan bajas metalicidades reflejando la composición primordial del gas galáctico en épocas tempranas.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-052",
+      "text": "La rotación diferencial de la zona convectiva solar amplifica los campos magnéticos toroidales mediante un mecanismo de dinamo astrofísica.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-053",
+      "text": "La detección de púlsares de milisegundos proporciona relojes cósmicos de precisión extrema para sondear el fondo estocástico gravitacional.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-054",
+      "text": "La dispersión cromática de señales de radio interestelares revela la densidad columnar de electrones libres en el medio interestelar.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-es-055",
+      "text": "El horizonte cosmológico de partículas delimita la región máxima del espacio desde la cual la luz ha alcanzado la Tierra.",
+      "lang": "es",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-001",
+      "text": "High-resolution stellar spectroscopy accurately measures atmospheric chemical abundances and isotopic ratios within distant asymptotic giant branch stars.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-002",
+      "text": "Gravitational collapse of degenerate stellar cores exceeding the Chandrasekhar mass limit triggers catastrophic thermonuclear or core-collapse supernova detonations.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-003",
+      "text": "Periodic Doppler radial velocity shifts observed in stellar spectra confirm the gravitational perturbation exerted by orbiting sub-stellar exoplanetary companions.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-004",
+      "text": "The cosmic microwave background radiation preserves primordial temperature anisotropies that establish the spatial flatness of the observable cosmological universe.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-005",
+      "text": "General relativistic spacetime curvature dictates the geodesic trajectories of photons grazing the photon sphere surrounding rotating Kerr black holes.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-006",
+      "text": "Precision trigonometric parallax measurements obtained by astrometric space observatories calibrate the fundamental galactic distance ladder without empirical assumptions.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-007",
+      "text": "Transit photometry determines exoplanetary orbital inclination and planetary radius by detecting periodic fractional dips in host stellar flux.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-008",
+      "text": "Primordial Big Bang nucleosynthesis produced light element isotopes during the initial relativistic expansion phase of the early universe.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-009",
+      "text": "Thermonuclear type one a supernovae exhibit uniform peak absolute magnitudes, providing essential cosmological standard candles for dark energy measurements.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-010",
+      "text": "Gravitational radiation emitted during binary neutron star inspiral precedes luminous electromagnetic kilonova emissions powered by radioactive heavy element decay.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-011",
+      "text": "Cosmological redshift observed in extragalactic spectra results directly from the metric expansion of spacetime stretching propagating electromagnetic wavelengths.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-012",
+      "text": "Keplerian orbital dynamics accurately predict orbital periods and semi-major axes for gravitational two-body systems throughout the solar neighborhood.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-013",
+      "text": "Bolometric stellar luminosity scales with the fourth power of effective surface temperature according to the Stefan-Boltzmann radiation law.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-014",
+      "text": "Relativistic astrophysical plasma jets emerge along rotation axes from magnetized accretion disks surrounding supermassive active galactic nucleus black holes.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-015",
+      "text": "Ultraviolet photoionization of interstellar neutral hydrogen gas generates prominent Balmer recombination emission lines across star-forming emission nebulae.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-016",
+      "text": "Flat galactic rotational velocity curves observed at large galactocentric radii provide compelling dynamical evidence for extended non-baryonic dark matter halos.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-017",
+      "text": "Anomalous perihelion precession of planetary orbits provided the earliest empirical confirmation of post-Newtonian relativistic gravitational field equations.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-018",
+      "text": "Gravitational fragmentation of dense giant molecular clouds initiates protostellar core collapse and subsequent formation of bound stellar clusters.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-019",
+      "text": "The Hertzsprung-Russell diagram organizes stellar luminosity against effective spectral temperature, delineating clear evolutionary sequences for stellar populations.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-020",
+      "text": "Mean motion orbital resonances among Jovian satellites induce cyclic tidal dissipation that sustains internal subsurface oceanic heating on Europa.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-021",
+      "text": "Strong gravitational lensing by massive galaxy clusters magnifies and distorts background galaxies into elongated luminous giant arcs.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-022",
+      "text": "Orbital velocity along circular Keplerian trajectories decreases monotonically with increasing orbital radius around the central gravitational mass.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-023",
+      "text": "Radiative wind mass loss rates significantly alter stellar evolutionary trajectories in luminous blue variables and massive Wolf-Rayet stars.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-024",
+      "text": "Velocity dispersion measurements of galaxies residing within massive virialized clusters constrain total gravitational cluster mass via the virial theorem.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-025",
+      "text": "Cosmological recombination decoupled primeval photons from baryonic matter as cooling plasma allowed stable neutral hydrogen formation.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-026",
+      "text": "Infrared photometry of Classical Cepheid pulsating variables calibrates extragalactic distances through well-defined empirical period-luminosity relations.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-027",
+      "text": "Primordial B-mode cosmic microwave background polarization patterns carry signatures of relic tensor perturbations generated during early cosmic inflation.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-028",
+      "text": "Magnetohydrodynamic dynamos operating within stellar convective zones generate intense toroidal magnetic fields that drive violent coronal mass ejections.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-029",
+      "text": "Planetary nebulae represent expanding circumstellar shells of ionized gas ejected during asymptotic giant branch thermal pulses, exposing white dwarfs.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-030",
+      "text": "Cataclysmic variable systems transfer matter via accretion streams toward degenerate white dwarfs, occasionally triggering explosive runaway thermonuclear novae.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-031",
+      "text": "The thermal Sunyaev-Zel'dovich effect distorts cosmic microwave background spectra through inverse Compton scattering off hot intra-cluster gas electrons.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-032",
+      "text": "Very-long-baseline radio interferometry achieves micro-arcsecond angular resolution, reconstructing shadowed event horizons of supermassive black holes.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-033",
+      "text": "Quantum electron degeneracy pressure prevents further gravitational contraction in cooling white dwarf stars beneath the Chandrasekhar limiting mass.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-034",
+      "text": "Secular planetary orbital perturbations produce cyclic variations in orbital eccentricity and orbital inclination over million-year astronomical timescales.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-035",
+      "text": "Gravitational escape velocity from compact astronomical bodies depends strictly upon enclosed mass and exterior radial surface distance.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-036",
+      "text": "Rapid neutron-capture nucleosynthesis occurring within binary compact merger ejecta synthesizes heavy actinide and lanthanide elements.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-037",
+      "text": "The astronomical Roche limit defines the critical distance inside which tidal forces overcome self-gravitational cohesion, destroying orbiting bodies.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-038",
+      "text": "Relativistic synchrotron radiation produced by ultra-relativistic electrons gyrating in magnetic fields illuminates extended radio galaxy lobes.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-039",
+      "text": "Baryon acoustic oscillations imprinted onto large-scale galactic spatial distributions serve as cosmological standard rulers measuring expansion history.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-040",
+      "text": "Orbital transfer maneuvers between coplanar circular orbits utilize elliptical Hohmann trajectories to minimize required orbital propellant expenditure.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-041",
+      "text": "Frame dragging induced by rotating astronomical masses perturbs the orientation of orbiting gyroscopes via the gravitomagnetic Lense-Thirring effect.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-042",
+      "text": "Far-ultraviolet photodissociation regions govern the thermal equilibrium and chemistry between diffuse interstellar gas and dense molecular clouds.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-043",
+      "text": "Starburst galaxies exhibit extraordinarily high star formation rates that deplete available cold molecular gas reservoirs on rapid astronomical timescales.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-044",
+      "text": "Interstellar dust grain scattering causes wavelength-dependent interstellar extinction, reddening observed optical spectra of distant galactic stars.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-045",
+      "text": "Precise astrometric orbital tracking of stars surrounding the galactic center confirms the existence of a four-million-solar-mass supermassive black hole.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-046",
+      "text": "Circumnuclear water megamaser emissions trace Keplerian rotation in thin accretion disks, yielding direct geometric distances to active galaxies.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-047",
+      "text": "Milankovitch orbital cycles alter seasonal solar irradiance distributions across planetary hemispheres, driving long-term astronomical paleoclimatic shifts.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-048",
+      "text": "Stellar radiation pressure on dust grains expels circumstellar envelopes around luminous protostars, setting an upper limit to stellar masses.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-049",
+      "text": "Relativistic Doppler beaming dramatically enhances observed flux from relativistic astrophysical jets oriented toward the observer line of sight.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-050",
+      "text": "The classical Jeans mass threshold dictates when internal gas thermal pressure fails to balance inward gravitational forces within molecular clouds.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-051",
+      "text": "Low-metallicity Population Two halo stars preserve chemical fingerprints reflecting early galactic nucleosynthetic enrichment by primordial hypernovae.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-052",
+      "text": "Differential rotation across the solar interior tachocline shears poloidal magnetic field lines, driving the cyclic eleven-year solar dynamo.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-053",
+      "text": "High-precision millisecond pulsar timing arrays monitor subtle pulse arrival variations to detect stochastic nanohertz gravitational wave backgrounds.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-054",
+      "text": "Frequency-dependent chromatic dispersion of astrophysical radio pulses measures line-of-sight free electron column densities across interstellar space.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    },
+    {
+      "id": "astronomia-en-055",
+      "text": "The particle cosmological horizon demarcates the boundary of the observable universe from which photons have had time to reach Earth.",
+      "lang": "en",
+      "source": "corpus-extendido-astronomia"
+    }
+  ]
+}

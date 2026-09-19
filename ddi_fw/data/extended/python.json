@@ -1,0 +1,667 @@
+{
+  "alma": "python",
+  "n": 110,
+  "description": "Mazo extendido de python con balance bilingue (ES/EN) de alta densidad terminologica.",
+  "clauses": [
+    {
+      "id": "python-es-001",
+      "text": "En Python una lista es una secuencia mutable cuyos elementos se acceden por índice entero y permite métodos como append y extend.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-002",
+      "text": "El bucle for itera sobre cualquier objeto iterable consumiendo elementos sucesivamente mediante el protocolo iterador nativo.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-003",
+      "text": "Las funciones se definen con la palabra reservada def y pueden retornar múltiples valores empaquetados en una tupla inmutable.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-004",
+      "text": "Las excepciones se capturan mediante bloques try except y opcionalmente un bloque finally que asegura la liberación de recursos.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-005",
+      "text": "Los diccionarios almacenan pares clave valor implementando tablas hash eficientes con búsqueda y modificación en tiempo constante promedio.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-006",
+      "text": "Un conjunto set es una colección desordenada de elementos únicos que soporta operaciones matemáticas como unión, intersección y diferencia.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-007",
+      "text": "Las comprensiones de listas permiten transformar colecciones de manera concisa mediante expresiones evaluadas dentro de corchetes cuadrados.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-008",
+      "text": "Los generadores producen valores perezosamente utilizando la sentencia yield preservando el estado de ejecución de la función local.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-009",
+      "text": "El administrador de contexto implementa el protocolo enter y exit para garantizar la inicialización y cierre correcto de archivos y sockets.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-010",
+      "text": "La biblioteca estándar incluye el módulo asyncio para ejecutar corrutinas concurrentes sobre un bucle de eventos asíncrono no bloqueante.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-011",
+      "text": "Las clases admiten herencia simple y múltiple calculando el orden de resolución de métodos mediante el algoritmo canónico C3 linearization.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-012",
+      "text": "El recolector de basura de CPython emplea conteo de referencias combinado con un recolector generacional para detectar ciclos cíclicos inalcanzables.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-013",
+      "text": "Los decoradores son funciones de orden superior que reciben otra función como argumento y devuelven un envoltorio con comportamiento extendido.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-014",
+      "text": "El módulo inspect permite inspeccionar objetos en tiempo de ejecución extrayendo código fuente, signaturas de funciones y cuadros de pila.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-015",
+      "text": "Las tuplas nombradas del módulo collections proporcionan campos accesibles por nombre manteniendo la inmutabilidad de la tupla estándar.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-016",
+      "text": "El módulo dataclasses simplifica la definición de clases de datos generando automáticamente métodos constructores init y comparadores de igualdad.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-017",
+      "text": "El operador morsa permite asignar valores a variables dentro de expresiones booleanas reduciendo evaluaciones redundantes en condicionales complejos.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-018",
+      "text": "Los descriptores son objetos con métodos get, set o delete que gestionan el acceso a atributos de instancias en otras clases.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-019",
+      "text": "El módulo typing introduce anotaciones de tipos estáticos analizadas por verificadores como mypy para garantizar corrección en compilación preliminar.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-020",
+      "text": "Las cadenas de texto formateadas permiten incrustar expresiones arbitrarias dentro de literales de texto precedidos por la letra f.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-021",
+      "text": "El módulo multiprocessing sortea las restricciones del bloqueo global de intérprete spawning procesos independientes con memoria propia.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-022",
+      "text": "El paquete collections provee la clase defaultdict que inicializa automáticamente claves inexistentes mediante una función fábrica provista.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-023",
+      "text": "Las variables de alcance no local se declaran con nonlocal para modificar enlaces en ámbitos circundantes dentro de clausuras anidadas.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-024",
+      "text": "El módulo functools expone la función lru_cache para memorizar automáticamente llamadas deterministas optimizando funciones recursivas costosas.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-025",
+      "text": "El analizador sintáctico de Python compila código fuente a un árbol de sintaxis abstracta antes de transformarlo en secuencias de bytecode.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-026",
+      "text": "La función incorporada zip combina múltiples secuencias en paralelo generando tuplas hasta agotar el iterable más corto proporcionado.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-027",
+      "text": "El decorador classmethod transforma una función en un método ligado a la clase receptora en lugar de ligarse a una instancia particular.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-028",
+      "text": "El decorador staticmethod declara métodos utilitarios dentro del espacio de nombres de la clase sin recibir referencias explícitas a self.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-029",
+      "text": "El módulo itertools ofrece funciones eficientes para manipulación combinatoria como product, permutations, combinations y count infinito.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-030",
+      "text": "El operador de desempaquetado de argumentos asterisco descompone listas y tuplas posicionales en invocaciones de funciones complejas.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-031",
+      "text": "El operador de doble asterisco desempaqueta diccionarios asignando pares clave valor a parámetros con nombre en funciones definidas.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-032",
+      "text": "El protocolo de ordenamiento timsort híbrido combina insertion sort y merge sort para ofrecer estabilidad y rendimiento óptimo en datos reales.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-033",
+      "text": "El módulo queue provee colas sincronizadas y seguras para intercambio de mensajes entre hilos de ejecución concurrentes en memoria.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-034",
+      "text": "Las ranuras slots restringen la creación de atributos dinámicos reduciendo drásticamente el consumo de memoria en millones de instancias.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-035",
+      "text": "El bucle while repite la ejecución de un bloque de código mientras una condición booleana permanezca evaluada como verdadera.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-036",
+      "text": "La instrucción raise propaga una instancia de excepción personalizada interrumpiendo el flujo de control hacia los manejadores superiores.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-037",
+      "text": "El método dunder str define la representación textual legible para usuarios mientras que repr define la representación técnica sin ambigüedad.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-038",
+      "text": "Las metaclases heredan de type y permiten interceptar la construcción de nuevas clases sobreescribiendo los métodos new e init.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-039",
+      "text": "El módulo threading proporciona primitivas de sincronización concurrente como candados Lock, semáforos y variables de condición Condition.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-040",
+      "text": "La función map aplica una función unaria sobre cada elemento de una secuencia devolviendo un iterador perezoso con los resultados transformados.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-041",
+      "text": "El módulo dis desensambla objetos de código Python produciendo un volcado legible de nemónicos de bytecode interpretados por la máquina virtual.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-042",
+      "text": "La biblioteca weakref permite mantener referencias débiles a objetos mutables sin incrementar el contador de referencias impidiendo fugas de memoria.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-043",
+      "text": "El módulo contextvars proporciona almacenamiento local para tareas asíncronas preservando el contexto a través de corrutinas concurrentes concurrentes.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-044",
+      "text": "La construcción match case introducida en Python introduce pattern matching estructural permitiendo destructuring de secuencias y mapeos complejos.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-045",
+      "text": "El módulo operator expone funciones convenientes equivalentes a operadores aritméticos y lógicos intrínsecos como add, mul y itemgetter.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-046",
+      "text": "El módulo array implementa matrices homogéneas eficientes que almacenan tipos de datos primitivos de C contiguos en memoria física.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-047",
+      "text": "La función bisect localiza puntos de inserción binaria sobre secuencias ordenadas manteniendo el orden de clasificación en tiempo logarítmico.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-048",
+      "text": "El módulo gc expone funciones de control directo sobre el recolector de basura cíclico permitiendo pausar, reanudar o forzar pasadas de recolección.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-049",
+      "text": "El decorador property convierte métodos de instancia en atributos de solo lectura o lectura y escritura con validación personalizada.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-050",
+      "text": "El módulo copy proporciona la función deepcopy para duplicar recursivamente estructuras de datos anidadas rompiendo referencias compartidas.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-051",
+      "text": "La función compile compila cadenas de texto fuente en objetos de código ejecutables por las funciones nativas eval o exec.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-052",
+      "text": "El módulo timeit permite medir tiempos de ejecución con precisión de microsegundos ejecutando fragmentos de código millones de repeticiones.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-053",
+      "text": "El protocolo async with gestiona el ciclo de vida de administradores de contexto asíncronos implementando aenter y aexit en corrutinas.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-054",
+      "text": "El método dunder hash devuelve un entero de sesenta y cuatro bits que indexa objetos inmutables dentro de colecciones basadas en hash.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-es-055",
+      "text": "El módulo enum define enumeraciones fuertemente tipadas con soporte para miembros únicos e iterables mediante la clase base Enum.",
+      "lang": "es",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-001",
+      "text": "In Python a list represents a mutable sequence indexed by integers supporting methods such as append, insert, pop, and extend.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-002",
+      "text": "The for statement iterates across iterable items consuming elements through the standard iterator protocol using next and iter.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-003",
+      "text": "Functions are defined using the def keyword and may return multiple unpacked values structured as an immutable heterogeneous tuple.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-004",
+      "text": "Exceptions are handled using structured try and except blocks with an optional finally clause ensuring reliable cleanup of resources.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-005",
+      "text": "Dictionaries map unique hashable keys to arbitrary values providing efficient amortized constant time lookups and modifications.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-006",
+      "text": "A set represents an unordered mutable collection of unique items supporting mathematical operations such as union, intersection, and difference.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-007",
+      "text": "List comprehensions provide a concise declarative syntax for mapping and filtering elements into fresh sequence allocations.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-008",
+      "text": "Generators emit stream values lazily using the yield statement, suspending execution frame state until the next iteration occurs.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-009",
+      "text": "Context managers implement the enter and exit dunder methods to guarantee predictable initialization and teardown of socket descriptors.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-010",
+      "text": "The standard library provides the asyncio module to schedule and execute concurrent coroutines over a non-blocking asynchronous event loop.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-011",
+      "text": "Classes support both single and multiple inheritance resolving method lookup conflicts via the deterministic C3 linearization algorithm.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-012",
+      "text": "The CPython memory runtime couples deterministic reference counting with an auxiliary generational cyclic garbage collector.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-013",
+      "text": "Decorators operate as higher order functions accepting callable objects and returning wrapped callables with augmented runtime behaviors.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-014",
+      "text": "The inspect module allows dynamic runtime introspection of frame stacks, live source code, class hierarchies, and signature parameters.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-015",
+      "text": "Named tuples from collections deliver lightweight immutable record structures with named attribute access alongside tuple indexability.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-016",
+      "text": "Dataclasses automatically synthesize boilerplates such as init, repr, eq, and hash methods based on class level type annotations.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-017",
+      "text": "The walrus operator assigns expressions to variables within enclosing conditional blocks to eliminate repeated nested calculations.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-018",
+      "text": "Descriptors are objects implementing get, set, or delete methods to customize attribute lookup mechanics across class instances.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-019",
+      "text": "The typing module provides static type hint constructors evaluated by static linters like mypy to catch inconsistencies ahead of runtime.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-020",
+      "text": "Formatted string literals enable interpolation of arbitrary runtime expressions embedded directly within quotation prefixes.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-021",
+      "text": "The multiprocessing package spawns independent interpreter processes bypassing global interpreter lock contention across multiple cores.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-022",
+      "text": "The collections defaultdict populates absent keys automatically whenever queried by delegating to a user supplied default factory.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-023",
+      "text": "The nonlocal keyword rebinds variable identifiers located in outer non-global enclosing scopes during nested closure executions.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-024",
+      "text": "The functools lru cache wraps deterministic callables with an in-memory dictionary cache to accelerate expensive recursive evaluations.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-025",
+      "text": "The Python compiler compiles raw source text into abstract syntax trees before generating compact bytecode instructions for evaluation.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-026",
+      "text": "The built-in zip function pairs corresponding elements from multiple iterables sequentially until the shortest input sequence terminates.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-027",
+      "text": "The classmethod decorator transforms instance functions into methods bound directly to the declaring class object rather than instances.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-028",
+      "text": "The staticmethod decorator defines self-contained utility routines inside a class namespace without injecting implicit instance bindings.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-029",
+      "text": "The itertools module implements memory efficient combinatorial tools including Cartesian product, permutations, combinations, and cycle.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-030",
+      "text": "The star unpacking operator unpacks iterable collections into distinct positional arguments during dynamic function dispatch invocations.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-031",
+      "text": "The double star operator unpacks dictionary key value pairs into keyword parameters during dynamic callable invocation sequences.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-032",
+      "text": "The timsort sorting algorithm combines adaptive insertion sort with merge sort passes to deliver optimal efficiency on partially ordered inputs.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-033",
+      "text": "The thread-safe queue module coordinates synchronized task handoffs between concurrent worker threads without manual lock arbitration.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-034",
+      "text": "The slots class declaration suppresses dynamic instance dictionary creation, substantially shrinking memory overhead across large fleets.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-035",
+      "text": "The while loop evaluates a control predicate before every iteration, repeating loop body execution until the expression yields false.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-036",
+      "text": "The raise keyword propagates custom exception instances through active call frames until intercepted by matching except clauses.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-037",
+      "text": "The str dunder method yields human readable string representations while repr returns unambiguous technical diagnostic strings.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-038",
+      "text": "Metaclasses inherit from type and intercept class construction sequences by overriding class allocation new and initialization init hooks.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-039",
+      "text": "The threading module coordinates multi-threaded concurrency using synchronization primitives including Lock, Semaphore, and Event.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-040",
+      "text": "The built-in map function applies a unary transformation across sequence iterables, streaming resulting values lazily on demand.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-041",
+      "text": "The dis module disassembles Python code objects into readable instructions revealing bytecode opcodes executed by the virtual machine.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-042",
+      "text": "The weakref module provides weak references allowing garbage collection of referenced objects without artificially elevating reference counters.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-043",
+      "text": "Contextvars module supplies context variables holding state isolation for asynchronous coroutines running inside shared event loops.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-044",
+      "text": "Structural pattern matching with match and case statements enables expressive destructuring of complex dictionary and tuple payloads.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-045",
+      "text": "The operator module exports functional wrappers around standard arithmetic and comparison operations such as attrgetter and itemgetter.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-046",
+      "text": "The array module defines space efficient homogeneous memory sequences storing contiguous C primitives without python object boxing.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-047",
+      "text": "The bisect module performs binary searching across sorted lists to calculate insertion boundaries maintaining sorted order in logarithmic time.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-048",
+      "text": "The gc module grants program access to the cyclic garbage collector providing interfaces to inspect uncollected cyclic references.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-049",
+      "text": "The property decorator exposes getter, setter, and deleter descriptors that encapsulate instance attributes behind transparent method calls.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-050",
+      "text": "The copy module provides copy and deepcopy functions to create shallow or fully recursive copies of arbitrary nested python data structures.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-051",
+      "text": "The builtin compile function parses source strings into executable code objects evaluated dynamically by eval or exec functions.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-052",
+      "text": "The timeit module measures microsecond execution times of small code snippets by repeating executions across isolated benchmark loops.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-053",
+      "text": "The async with statement manages asynchronous context managers executing aenter and aexit coroutines inside event loop schedules.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-054",
+      "text": "The hash dunder method returns an integer used to look up immutable keys within dictionary hash tables and set collections.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    },
+    {
+      "id": "python-en-055",
+      "text": "The enum module defines enumerated constants grouped as distinct typed members via the Enum base class architecture.",
+      "lang": "en",
+      "source": "corpus-extendido-python"
+    }
+  ]
+}

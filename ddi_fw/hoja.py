@@ -14,6 +14,13 @@ CANONICAL_PAIRS: tuple[tuple[str, str], ...] = (
     ("python", "receta"),
     ("python", "legal"),
     ("legal", "receta"),
+    ("python", "medicina"),
+    ("python", "astronomia"),
+    ("legal", "medicina"),
+    ("legal", "astronomia"),
+    ("receta", "medicina"),
+    ("receta", "astronomia"),
+    ("medicina", "astronomia"),
 )
 
 
@@ -125,6 +132,8 @@ def publicar_candado(hoja: HojaDimensional) -> Candado:
 def candados_canonicos(matrices: dict[str, npt.NDArray[np.floating]]) -> dict[str, Candado]:
     locks: dict[str, Candado] = {}
     for alma_a, alma_b in CANONICAL_PAIRS:
+        if alma_a not in matrices or alma_b not in matrices:
+            continue
         hoja = calcular_hoja(matrices[alma_a], matrices[alma_b], alma_a, alma_b)
         locks[pair_id(alma_a, alma_b)] = publicar_candado(hoja)
     return locks
@@ -144,14 +153,15 @@ def podar_hasta_publicar(
     ids: dict[str, list[str]],
     min_n: int = 8,
 ) -> tuple[dict[str, FloatArray], dict[str, list[str]], list[str]]:
-    """Quita filas (nunca holgura de gap) hasta publicar los tres pares o agotar el mazo."""
+    """Quita filas (nunca holgura de gap) hasta publicar los pares canónicos aplicables o agotar el mazo."""
+    applicable = [(a, b) for a, b in CANONICAL_PAIRS if a in matrices and b in matrices]
     current = {name: np.asarray(rows, dtype=np.float32).copy() for name, rows in matrices.items()}
     current_ids = {name: list(values) for name, values in ids.items()}
     dropped: list[str] = []
 
     while True:
         published, total = _disjoint_score(current)
-        if published == len(CANONICAL_PAIRS):
+        if published == len(applicable):
             return current, current_ids, dropped
 
         best: tuple[int, int, str, int] | None = None

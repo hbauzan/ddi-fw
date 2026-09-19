@@ -11,7 +11,7 @@ from typing import Any
 
 from ddi_fw.classify import classify_clause
 
-ALMA_NAMES = ("python", "legal", "receta")
+ALMA_NAMES = ("python", "legal", "receta", "medicina", "astronomia")
 DATA_DIR = Path(__file__).resolve().parent / "data"
 
 
@@ -376,10 +376,238 @@ RECETA_SEEDS: tuple[tuple[str, str, str], ...] = (
     ),
 )
 
+MEDICINA_SEEDS: tuple[tuple[str, str, str], ...] = (
+    (
+        "medicina-001",
+        "La farmacocinética del principio activo exhibe una biodisponibilidad oral del ochenta por ciento con aclaramiento renal en el paciente.",
+        "clinical-pharmacology",
+    ),
+    (
+        "medicina-002",
+        "El diagnóstico diferencial del dolor torácico agudo requiere descartar infarto agudo de miocardio mediante electrocardiograma seriado en el paciente.",
+        "internal-medicine",
+    ),
+    (
+        "medicina-003",
+        "La administración intravenosa de epinefrina restaura la presión arterial media durante el shock anafiláctico grave del paciente.",
+        "critical-care",
+    ),
+    (
+        "medicina-004",
+        "La biopsia por punción confirma el diagnóstico histopatológico del adenocarcinoma invasivo en oncología clínica.",
+        "surgical-oncology",
+    ),
+    (
+        "medicina-005",
+        "La elevación del segmento ST evidencia isquemia miocárdica transmural aguda como diagnóstico de infarto agudo.",
+        "cardiology",
+    ),
+    (
+        "medicina-006",
+        "La insuficiencia renal crónica avanzada condiciona acumulación de toxinas urémicas en la fisiopatología del paciente.",
+        "nephrology",
+    ),
+    (
+        "medicina-007",
+        "La terapéutica con inhibidores enzimáticos ajusta la posología para optimizar el rendimiento cardiovascular del paciente.",
+        "cardiovascular-therapy",
+    ),
+    (
+        "medicina-008",
+        "La tomografía axial computarizada de cráneo confirma el diagnóstico clínico de patología neurológica en el paciente.",
+        "neurology",
+    ),
+    (
+        "medicina-009",
+        "La fisiopatología de la infección nosocomial involucra resistencia a fármacos antibióticos de uso clínico intensivo.",
+        "infectious-disease",
+    ),
+    (
+        "medicina-010",
+        "La ecocardiografía clínica evalúa la contractilidad ventricular y el gasto cardiovascular en el paciente internado.",
+        "cardiac-imaging",
+    ),
+    (
+        "medicina-011",
+        "El abordaje quirúrgico por laparoscopía disminuye el trauma tisular y favorece la cirugía del paciente.",
+        "general-surgery",
+    ),
+    (
+        "medicina-012",
+        "La cetoacidosis diabética manifiesta sintomatología clínica aguda con marcada alteración de la fisiopatología metabólica.",
+        "endocrinology",
+    ),
+    (
+        "medicina-013",
+        "La monitorización hemodinámica invasiva mediante catéter arterial evalúa continuamente la presión arterial del paciente.",
+        "intensive-care",
+    ),
+    (
+        "medicina-014",
+        "El shock séptico requiere terapéutica de soporte vasopresor y estabilización hemodinámica del paciente en clínica médica.",
+        "sepsis-guidelines",
+    ),
+    (
+        "medicina-015",
+        "La gasometría arterial basal revela hipoxemia arterial severa en el paciente con patología pulmonar aguda.",
+        "pulmonology",
+    ),
+    (
+        "medicina-016",
+        "El paciente con cirrosis hepática presenta alteración hemodinámica sistémica y descompensación clínica progresiva.",
+        "hepatology",
+    ),
+    (
+        "medicina-017",
+        "El bloqueo de receptores adrenérgicos beta uno disminuye el ritmo cardiovascular según la farmacocinética del agente.",
+        "pharmacodynamics",
+    ),
+    (
+        "medicina-018",
+        "La infusión continua de insulina corrige la hiperglucemia ajustando la dosis terapéutica requerida por el paciente.",
+        "endocrinology",
+    ),
+    (
+        "medicina-019",
+        "La endoscopia digestiva alta localiza la patología sangrante y permite hemostasia terapéutica directa en el paciente.",
+        "gastroenterology",
+    ),
+    (
+        "medicina-020",
+        "La profilaxis tromboembólica previene complicaciones vasculares ajustando la posología terapéutica en el paciente inmovilizado.",
+        "hematology",
+    ),
+    (
+        "medicina-veto-mix",
+        "Prescribir una infusión de romero y receta culinaria casera para calmar los cólicos del paciente.",
+        "veto-sample",
+    ),
+    (
+        "medicina-veto-code",
+        "El paciente ejecuta un script en python para calcular la dosis de insulina sin supervisión médica.",
+        "veto-sample",
+    ),
+)
+
+ASTRONOMIA_SEEDS: tuple[tuple[str, str, str], ...] = (
+    (
+        "astronomia-001",
+        "La espectroscopía estelar permite determinar la composición química y la temperatura superficial de la estrella distante.",
+        "astrophysics",
+    ),
+    (
+        "astronomia-002",
+        "El límite de Chandrasekhar establece la masa máxima que una enana blanca puede soportar antes de colapsar en supernova.",
+        "stellar-evolution",
+    ),
+    (
+        "astronomia-003",
+        "La velocidad radial observada mediante desplazamiento Doppler confirma la presencia de un exoplaneta orbitando la estrella.",
+        "exoplanetary-science",
+    ),
+    (
+        "astronomia-004",
+        "La radiación cósmica de fondo de microondas es la huella térmica primordial del universo primitivo en astrofísica.",
+        "cosmology",
+    ),
+    (
+        "astronomia-005",
+        "La cinemática relativista describe la dilatación temporal y la curvatura cerca del horizonte de sucesos del agujero negro.",
+        "general-relativity",
+    ),
+    (
+        "astronomia-006",
+        "La paralaje trigonométrica constituye el método fundamental de calibración de distancias a estrellas cercanas en la galaxia.",
+        "astrometry",
+    ),
+    (
+        "astronomia-007",
+        "El telescopio espacial capta fotometría de alta precisión para medir tránsitos planetarios en la órbita de enanas rojas.",
+        "observational-astronomy",
+    ),
+    (
+        "astronomia-008",
+        "La nucleosíntesis estelar en gigantes rojas genera elementos pesados mediante capturas neutrónicas en la estrella.",
+        "nuclear-astrophysics",
+    ),
+    (
+        "astronomia-009",
+        "El colapso gravitacional del núcleo masivo desencadena una explosión cataclísmica de supernova de tipo dos en la galaxia.",
+        "stellar-astrophysics",
+    ),
+    (
+        "astronomia-010",
+        "Las ondas gravitacionales confirman la coalescencia de un sistema binario de agujeros negros en astrofísica relativista.",
+        "gravitational-wave-astrophysics",
+    ),
+    (
+        "astronomia-011",
+        "El corrimiento al rojo cosmológico de galaxias distantes demuestra la expansión métrica acelerada observada por telescopios.",
+        "extragalactic-astronomy",
+    ),
+    (
+        "astronomia-012",
+        "La mecánica orbital kepleriana determina los períodos y semiejes mayores de los cuerpos celestes en su órbita solar.",
+        "orbital-mechanics",
+    ),
+    (
+        "astronomia-013",
+        "La luminosidad bolométrica y la magnitud estelar absoluta se relacionan directamente con el radio térmico de la estrella.",
+        "stellar-physics",
+    ),
+    (
+        "astronomia-014",
+        "Los chorros relativistas emergen del disco de acreción que rodea al agujero negro supermasivo en la galaxia activa.",
+        "high-energy-astrophysics",
+    ),
+    (
+        "astronomia-015",
+        "Una nebulosa de emisión resplandece debido a la fotoionización del gas estelar por radiación ultravioleta de estrellas jóvenes.",
+        "interstellar-medium",
+    ),
+    (
+        "astronomia-016",
+        "La dispersión de velocidades en cúmulos de galaxias evidencia la interacción gravitacional de la materia oscura cósmica.",
+        "extragalactic-astrophysics",
+    ),
+    (
+        "astronomia-017",
+        "La precesión del perihelio planetario proporcionó la confirmación observacional de la teoría gravitacional de la relatividad.",
+        "celestial-mechanics",
+    ),
+    (
+        "astronomia-018",
+        "La densidad del medio interestelar en nebulosas moleculares gigantes favorece el colapso gravitacional de nuevas estrellas.",
+        "star-formation",
+    ),
+    (
+        "astronomia-019",
+        "El diagrama espectral clasifica la evolución de cada estrella correlacionando su tipo con su magnitud estelar intrínseca.",
+        "stellar-classification",
+    ),
+    (
+        "astronomia-020",
+        "La resonancia orbital planetaria estabiliza el movimiento sincrónico de satélites naturales en su órbita periódica.",
+        "planetary-dynamics",
+    ),
+    (
+        "astronomia-veto-horoscopo",
+        "La carta astral y el zodíaco predicen el destino según la posición del horóscopo.",
+        "veto-sample",
+    ),
+    (
+        "astronomia-veto-mix",
+        "Definir una función def con un script en python para simular la órbita de un planeta.",
+        "veto-sample",
+    ),
+)
+
 SEEDS: dict[str, tuple[tuple[str, str, str], ...]] = {
     "python": PYTHON_SEEDS,
     "legal": LEGAL_SEEDS,
     "receta": RECETA_SEEDS,
+    "medicina": MEDICINA_SEEDS,
+    "astronomia": ASTRONOMIA_SEEDS,
 }
 
 

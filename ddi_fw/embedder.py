@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Protocol, runtime_checkable
@@ -11,7 +12,7 @@ from typing import Protocol, runtime_checkable
 import numpy as np
 import numpy.typing as npt
 
-from ddi_fw.almas import DATA_DIR, Mazo, drop_clauses, load_almas, write_mazo
+from ddi_fw.almas import ALMA_NAMES, DATA_DIR, Mazo, drop_clauses, load_almas, write_mazo
 from ddi_fw.hoja import candados_canonicos, podar_hasta_publicar
 
 FloatArray = npt.NDArray[np.float32]
@@ -105,13 +106,19 @@ class _SentenceTransformerEmbedder:
         self._prefix = prefix
         self._model = None
 
+    def _prepare_load(self) -> dict[str, object]:
+        """Extra kwargs for SentenceTransformer(...). Subclasses may patch the Hub first."""
+        return {}
+
     def _load(self) -> object:
         if self._model is None:
             from sentence_transformers import SentenceTransformer
 
+            extra = self._prepare_load()
             self._model = SentenceTransformer(
                 self.model_id,
                 trust_remote_code=self._trust_remote_code,
+                **extra,
             )
         return self._model
 
@@ -173,9 +180,89 @@ class NomicEmbedder(_SentenceTransformerEmbedder):
         )
 
 
+def apply_qwen2_rope_theta_shim() -> None:
+    """transformers 5.17 moved rope_theta into rope_parameters; Hub custom_code still reads config.rope_theta."""
+    from transformers.models.qwen2.configuration_qwen2 import Qwen2Config
+
+    if getattr(Qwen2Config, "_ddi_rope_theta_shim", False):
+        return
+
+    def _rope_theta(self: object) -> float:
+        params = getattr(self, "rope_parameters", None) or {}
+        if isinstance(params, dict) and params.get("rope_theta") is not None:
+            return float(params["rope_theta"])
+        return 1_000_000.0
+
+    Qwen2Config.rope_theta = property(_rope_theta)
+    Qwen2Config._ddi_rope_theta_shim = True
+
+
+def apply_qwen2_cache_shim() -> None:
+    """Hub custom_code (transformers 4.41) calls DynamicCache APIs removed in 5.17."""
+    from transformers.cache_utils import DynamicCache
+
+    if getattr(DynamicCache, "_ddi_cache_shim", False):
+        return
+
+    @classmethod
+    def from_legacy_cache(cls, past_key_values: object = None, **_kwargs: object) -> object:
+        if past_key_values is None:
+            return cls()
+        if isinstance(past_key_values, cls):
+            return past_key_values
+        return cls(ddp_cache_data=past_key_values)
+
+    def get_usable_length(self: object, new_seq_length: int, layer_idx: int = 0) -> int:
+        del new_seq_length
+        get_seq = getattr(self, "get_seq_length", None)
+        if callable(get_seq):
+            return int(get_seq(layer_idx))
+        return 0
+
+    def to_legacy_cache(self: object) -> object:
+        return None
+
+    DynamicCache.from_legacy_cache = from_legacy_cache
+    DynamicCache.get_usable_length = get_usable_length
+    DynamicCache.to_legacy_cache = to_legacy_cache
+    DynamicCache._ddi_cache_shim = True
+
+
+def apply_qwen2_transformers517_shim() -> None:
+    apply_qwen2_rope_theta_shim()
+    apply_qwen2_cache_shim()
+
+
 class Qwen2Embedder(_SentenceTransformerEmbedder):
+    """1.5B. fp16 so a 16 GiB host can load it. Singleton: one live copy per process."""
+
+    _instance: Qwen2Embedder | None = None
+
     def __init__(self) -> None:
         super().__init__(QWEN2_ID, 1536, trust_remote_code=True)
+
+    @classmethod
+    def instance(cls) -> Qwen2Embedder:
+        if cls._instance is None:
+            cls._instance = cls()
+        return cls._instance
+
+    def _prepare_load(self) -> dict[str, object]:
+        import torch
+
+        apply_qwen2_transformers517_shim()
+        return {
+            "model_kwargs": {"torch_dtype": torch.float16},
+            "config_kwargs": {"use_cache": False},
+        }
+
+    def _load(self) -> object:
+        model = super()._load()
+        first = model[0]
+        auto = getattr(first, "auto_model", None)
+        if auto is not None and hasattr(auto, "config"):
+            auto.config.use_cache = False
+        return model
 
 
 def get_embedder(name: str, dim: int | None = None) -> BaseEmbedder:
@@ -189,7 +276,7 @@ def get_embedder(name: str, dim: int | None = None) -> BaseEmbedder:
     if key in {"nomic", "nomic-embed", NOMIC_ID.casefold()}:
         return NomicEmbedder(dim=dim or 256)
     if key in {"qwen2", "qwen", QWEN2_ID.casefold()}:
-        return Qwen2Embedder()
+        return Qwen2Embedder.instance()
     raise ValueError(f"embedder desconocido: {name}")
 
 
@@ -231,8 +318,49 @@ def load_rows(path: Path) -> dict[str, object]:
 
 def rows_matrices(bundle: dict[str, object]) -> dict[str, FloatArray]:
     return {
-        alma: np.asarray(bundle[alma], dtype=np.float32) for alma in ("python", "legal", "receta")
+        alma: np.asarray(bundle[alma], dtype=np.float32)
+        for alma in ALMA_NAMES
+        if alma in bundle
     }
+
+
+def resolve_out_dir(out: Path) -> Path:
+    """`--out` may be a directory or an `.npz` path. Measure always writes `rows.npz` inside the dir."""
+    if out.suffix.lower() == ".npz":
+        return out.parent
+    return out
+
+
+def measure_and_save(
+    embedder: BaseEmbedder,
+    *,
+    data_dir: Path,
+    out_dir: Path,
+) -> dict[str, object]:
+    """Full-deck persist. Never prunes. Never rewrites fixtures. Never overwrites BGE `rows.npz`."""
+    rows_path = out_dir / "rows.npz"
+    if rows_path.resolve() == DEFAULT_OUT.resolve():
+        raise ValueError(
+            "measure_and_save refuses to overwrite BGE rows.npz; pass out_dir other than ddi_fw/out"
+        )
+    mazos = load_almas(data_dir)
+    matrices, ids = embed_mazos(mazos, embedder)
+    texts = {alma: mazo.texts() for alma, mazo in mazos.items()}
+    path = save_rows(rows_path, matrices, ids, texts, embedder)
+    locks = candados_canonicos(matrices)
+    audit: dict[str, object] = {
+        "model_id": embedder.model_id,
+        "dimension": embedder.dimension,
+        "n": {alma: int(rows.shape[0]) for alma, rows in matrices.items()},
+        "published": {key: lock.published for key, lock in locks.items()},
+        "disjoint_count": {key: lock.disjoint_count for key, lock in locks.items()},
+        "disjoint_axes": {key: lock.ejes_disjuntos for key, lock in locks.items()},
+        "dropped": [],
+        "rows_path": str(path),
+    }
+    audit_path = out_dir / "measure_audit.json"
+    audit_path.write_text(json.dumps(audit, indent=2) + "\n", encoding="utf-8")
+    return audit
 
 
 def calibrate(
@@ -283,12 +411,35 @@ def main(argv: list[str] | None = None) -> int:
 
     parser = argparse.ArgumentParser(description="Calibra rows.npz con el embedder pinneado.")
     parser.add_argument("--embedder", default="bge-m3")
-    parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    parser.add_argument("--out", type=Path, default=None)
+    parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     parser.add_argument("--rewrite-fixtures", action="store_true")
-    args = parser.parse_args(argv)
-    audit = calibrate(
-        get_embedder(args.embedder), out_path=args.out, rewrite_fixtures=args.rewrite_fixtures
+    parser.add_argument(
+        "--no-prune",
+        action="store_true",
+        help="Mide y persiste el mazo completo. No llama calibrate()/podar_hasta_publicar.",
     )
+    args = parser.parse_args(argv)
+    if args.no_prune and args.rewrite_fixtures:
+        parser.error("--no-prune cannot be combined with --rewrite-fixtures")
+    if args.no_prune:
+        out = args.out if args.out is not None else DEFAULT_OUT.parent / "qwen2"
+        try:
+            audit = measure_and_save(
+                get_embedder(args.embedder),
+                data_dir=args.data_dir,
+                out_dir=resolve_out_dir(out),
+            )
+        except ValueError as exc:
+            print(str(exc), file=sys.stderr)
+            return 2
+    else:
+        audit = calibrate(
+            get_embedder(args.embedder),
+            data_dir=args.data_dir,
+            out_path=args.out if args.out is not None else DEFAULT_OUT,
+            rewrite_fixtures=args.rewrite_fixtures,
+        )
     print(json.dumps(audit, indent=2))
     return 0
 
