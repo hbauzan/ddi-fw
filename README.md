@@ -73,3 +73,10 @@ Pack vivo en [`roadmap/`](./roadmap/):
 - **Ledger**: [current-research/embedder-ledger.md](./current-research/embedder-ledger.md)
 - **Histórico v0.1 (Archivado)**: Tickets [D01 a D07](./roadmap/archive/v0.1-bge-m3/) consolidados en el tag `v0.1.0-bge-m3-baseline`.
 - **Deletor (estacionada)**: rama `feat/hipotesis-deletor`. No es pack vivo.
+
+## Copyright
+
+Copyright (c) 2026 Héctor Andrés Bauzán Saavedra, AKA "eletor". Todos los derechos reservados.
+
+El software y la documentación de este repositorio son **exclusivos** del titular. No hay permiso de uso, copia, modificación ni distribución salvo autorización escrita. Ver [`LICENSE`](./LICENSE).
+
