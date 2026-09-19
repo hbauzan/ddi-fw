@@ -4,8 +4,10 @@ Herramienta independiente de inspección y contención dimensional estricta.
 
 **ddi-fw** pinta almas chicas, compara todas las **$D$** dimensiones siempre (sea 128D, 256D, 768D o 1024D según el motor `BaseEmbedder`), y corta en duro donde los intervalos no se tocan (ejes disjuntos). No depende de medias, ni de similitudes coseno a centroides, ni de umbrales arbitrarios de dispersión.
 
-- Alcance: [`00-alcance.md`](./00-alcance.md)
+- Alcance fundacional: [`00-alcance.md`](./00-alcance.md)
+- Briefing Qwen2 (gana conflictos): [`00-qwen2-live.md`](./00-qwen2-live.md)
 - Almas del demo: [`almas.md`](./almas.md)
+- Ledger empírico: [`../current-research/embedder-ledger.md`](../current-research/embedder-ledger.md)
 - Protocolo operativo: [`.agents/skills/dev-protocol/SKILL.md`](../.agents/skills/dev-protocol/SKILL.md)
 - Hipótesis Deletor (**estacionada**, no implementar): rama `feat/hipotesis-deletor`
 
@@ -13,10 +15,21 @@ Herramienta independiente de inspección y contención dimensional estricta.
 
 ## Estado del Pack
 
-### Etapa actual
-Archivo BGE-M3 v0.1 cerrado. Siguiente trabajo en `main`: repetir el live con Nomic / Gemma / Qwen2 **sin pisar** mazos ni números de BGE.
+### Etapa actual — ola Q (Qwen2 live)
 
-La hipótesis espectral Deletor vive **solo** en `feat/hipotesis-deletor` (un commit sobre el tag `v0.1.0-bge-m3-baseline`). No mergear esa rama a ciegas.
+Repetir el protocolo geométrico de BGE-M3 sobre `Alibaba-NLP/gte-Qwen2-1.5B-instruct`. Un ticket a la vez. TDD: `uv run pytest`. Números nuevos **solo** en `current-research/`.
+
+| ID | Título | Estado |
+| :--- | :--- | :--- |
+| [Q01](./tickets/Q01-artifact-isolation-no-prune.md) | Aislar `out/qwen2/` + measure sin poda | pendiente |
+| [Q02](./tickets/Q02-qwen2-load.md) | Smoke load / encode 1536-D | pendiente |
+| [Q03](./tickets/Q03-geometry-press.md) | Geometría full-deck + press | pendiente |
+| [Q04](./tickets/Q04-ingress-hold-live.md) | Ingress / hold live (si publica) | pendiente |
+| [Q05](./tickets/Q05-ledger-synthesis.md) | Ledger vs BGE sellado | pendiente |
+
+**Regla**: leé [`00-qwen2-live.md`](./00-qwen2-live.md) antes del ticket. `calibrate()` poda: prohibido para Qwen2. Cero disjuntos = hallazgo, no se tocan los mazos.
+
+La hipótesis espectral Deletor vive **solo** en `feat/hipotesis-deletor`. No mergear esa rama a ciegas.
 
 ### Histórico v0.1 (Baseline BGE-M3 — Archivado)
 > Fila base consolidada y sellada bajo el tag `v0.1.0-bge-m3-baseline` en `main`.
@@ -40,7 +53,9 @@ La hipótesis espectral Deletor vive **solo** en `feat/hipotesis-deletor` (un co
 | `google/embeddinggemma-300m` | 256 MRL | no | — | — | gated 401 |
 | `Alibaba-NLP/gte-Qwen2-1.5B-instruct` | 1536 | no | — | — | skip RAM; adapter + stubs |
 
-Recomendación: **seguir con BGE-M3**. El candado publica. Un solo eje disjunto en los pares headline es frágil: no engordar los mazos. `mean_gap` vive solo en `ddi_fw/out/benchmark_models.json`.
+Recomendación histórica v0.1: **seguir con BGE-M3**. El candado publica. Un solo eje disjunto en los pares headline es frágil: no engordar los mazos. `mean_gap` vive solo en `benchmark_models.json`.
+
+> Esta tabla es el sello D07. **No la edites** para “actualizar” Qwen2. La ola Q escribe en [`current-research/embedder-ledger.md`](../current-research/embedder-ledger.md). En ola Q, cero disjuntos = `ok_unpublished`; **no** se podan mazos compartidos.
 
 ---
 
