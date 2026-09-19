@@ -2,29 +2,33 @@
 
 Herramienta independiente de inspección y contención dimensional estricta.
 
-**ddi-fw** pinta almas chicas, compara las **1024** dimensiones siempre, y corta en duro donde los intervalos no se tocan (ejes disjuntos). No depende de medias, ni de similitudes coseno a centroides, ni de umbrales arbitrarios de dispersión.
+**ddi-fw** pinta almas chicas, compara todas las **$D$** dimensiones siempre (sea 128D, 256D, 768D o 1024D según el motor `BaseEmbedder`), y corta en duro donde los intervalos no se tocan (ejes disjuntos). No depende de medias, ni de similitudes coseno a centroides, ni de umbrales arbitrarios de dispersión.
 
 - Alcance: [`00-alcance.md`](./00-alcance.md)
 - Almas del demo: [`almas.md`](./almas.md)
+- Insumo y Debate Activo: [Hipótesis "Deletor" (Ecualizador Espectral)](./hipotesis-deletor.md)
 - Protocolo operativo: [`.agents/skills/dev-protocol/SKILL.md`](../.agents/skills/dev-protocol/SKILL.md)
 
 ---
 
 ## Estado del Pack
 
-Pack **tomable**. Tickets `D01`–`D07`. Prefijo **D**, orden estricto por olas.
+### Etapa Actual: Evaluación de Motores y Supresión Espectral (Deletor)
+- Rama activa: `feat/spectral-deletor`
+- Documento de diseño: [hipotesis-deletor.md](./hipotesis-deletor.md)
 
-| ID | Título | Ola | Estado |
-| :--- | :--- | ---: | :--- |
-| [D01](./tickets/D01-pintar-almas.md) | Pintar almas (textos + recorte) | 1 | hecho |
-| [D02](./tickets/D02-hoja-y-corte-duro.md) | Hoja + corte duro | 1 | hecho |
-| [D03](./tickets/D03-cli-press.md) | CLI press (censo por fila) | 2 | hecho |
-| [D04](./tickets/D04-ingress-clausulas.md) | Ingress por cláusulas | 3 | hecho |
-| [D05](./tickets/D05-egreso-hold.md) | Egreso hold | 3 | hecho |
-| [D06](./tickets/D06-proxy-hija.md) | Proxy OpenAI-compatible | 4 | hecho |
-| [D07](./tickets/D07-benchmark-multi-embedder.md) | Benchmark multi-embedder (MRL y comparación de ejes disjuntos) | 5 | hecho |
+### Histórico v0.1 (Baseline BGE-M3 — Archivado)
+> Fila base consolidada y sellada bajo el tag `v0.1.0-bge-m3-baseline` en `main`.
 
-**Regla de trabajo**: Tomá **un** ticket a la vez. TDD estricto con `uv run pytest`. Al cerrar y verificar, marcá la fila de esta tabla como `hecho`. Los tickets D01 a D06 constituyen el core funcional con BGE-M3; D07 es la fase de optimización comparativa multi-modelo una vez que el sistema esté validado.
+| ID | Título | Ola | Estado | Archivo Histórico |
+| :--- | :--- | ---: | :--- | :--- |
+| D01 | Pintar almas (textos + recorte) | 1 | hecho | [`D01`](./archive/v0.1-bge-m3/D01-pintar-almas.md) |
+| D02 | Hoja + corte duro | 1 | hecho | [`D02`](./archive/v0.1-bge-m3/D02-hoja-y-corte-duro.md) |
+| D03 | CLI press (censo por fila) | 2 | hecho | [`D03`](./archive/v0.1-bge-m3/D03-cli-press.md) |
+| D04 | Ingress por cláusulas | 3 | hecho | [`D04`](./archive/v0.1-bge-m3/D04-ingress-clausulas.md) |
+| D05 | Egreso hold | 3 | hecho | [`D05`](./archive/v0.1-bge-m3/D05-egreso-hold.md) |
+| D06 | Proxy OpenAI-compatible | 4 | hecho | [`D06`](./archive/v0.1-bge-m3/D06-proxy-hija.md) |
+| D07 | Benchmark multi-embedder (MRL y comparación) | 5 | hecho | [`D07`](./archive/v0.1-bge-m3/D07-benchmark-multi-embedder.md) |
 
 ## Hallazgos empíricos (D07, 2026-09-19)
 

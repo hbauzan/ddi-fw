@@ -44,7 +44,7 @@ Cláusulas de cocina estructuradas: listas de ingredientes y pasos secuenciales 
 
 **Regla de publicación**: Si cualquiera de estos pares arroja **0 ejes disjuntos**, el candado para ese par **no se publica**. La solución es podar y purificar el mazo, nunca inventar un umbral de tolerancia.
 
-El candado completo evalúa las 1024 dimensiones de la fila. El corte duro en las dimensiones disjuntas opera como el veto de alta velocidad.
+El candado completo evalúa todas las $D$ dimensiones del vector denso. El corte duro en las dimensiones disjuntas opera como el veto de alta velocidad.
 
 ---
 
@@ -66,7 +66,7 @@ Bajo una política configurada para autorizar únicamente el dominio `python`, l
 ## Procedimiento de Generación ("Pintado")
 
 1. **Clasificación textual previa**: Depuración y partición en cláusulas auditables antes de invocar al modelo.
-2. **Generación de vectores**: Una única pasada sobre las cláusulas mediante el singleton `BAAI/bge-m3` (1024 dimensiones).
-3. **Cálculo de envolventes**: Registro exacto de `lo[d]` y `hi[d]` para cada eje $d \in [0, 1023]$. Sin promedios.
+2. **Generación de vectores**: Una única pasada sobre las cláusulas mediante la interfaz `BaseEmbedder` configurada (vía CLI `--embedder` o `DDI_EMBEDDER`).
+3. **Cálculo de envolventes**: Registro exacto de `lo[d]` y `hi[d]` para cada eje $d \in [0, D-1]$. Sin promedios.
 4. **Identificación de ejes disjuntos**: Detección de dimensiones donde $\min(\text{alma}_B) > \max(\text{alma}_A)$ o viceversa.
 5. **Persistencia**: Almacenamiento de matrices en formato binario `rows.npz` en `ddi_fw/out/`.

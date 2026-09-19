@@ -1,7 +1,7 @@
 # D01 — Pintar almas (textos + recorte)
 
-> **Estado:** hecho  
-> **Ola:** 1  
+> **Estado:** hecho
+> **Ola:** 1
 > **Especificación:** [`../00-alcance.md`](../00-alcance.md), [`../almas.md`](../almas.md)
 
 ---
