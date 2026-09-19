@@ -4,6 +4,24 @@ Firewall determinista de contención dimensional estricta para modelos de lengua
 
 La pertenencia a un dominio autorizado es un hecho geométrico verificable coordenada por coordenada en un vector denso ($D$ dimensiones en la interfaz `BaseEmbedder`), no un promedio escalar angular (Coseno).
 
+## Nota para el humano
+
+Recordatorio. No es un contrato nuevo: el glosario canónico para agentes está en [`CONTEXT.md`](./CONTEXT.md).
+
+**`alma` = `mazo`.** Es el paquete chico de cláusulas de un oficio. Los tres mazos del demo son `python`, `legal` y `receta`. La torta de chocolate es un **ejemplo de cláusula** del mazo `receta`, no el nombre del mazo.
+
+| Término | Qué es | No es |
+| :--- | :--- | :--- |
+| `alma` / `mazo` | Deck chico de un oficio (`python`, `legal`, `receta`) | Un corpus scrapeado, “todo python.org” |
+| `cláusula` | Unidad de texto que se embebe y se juzga sola | Un chunk de tokens |
+| `fila` | Vector denso de una cláusula | Un promedio de oraciones |
+| `hoja` | Intervalos `[lo, hi]` por eje, entre dos almas | Medias, centroides, top-k |
+| `eje disjunto` | Dimensión donde los intervalos no se tocan (`gap > 0`) | Un umbral de coseno |
+| `candado` | Hoja + ejes disjuntos de un par; se publica solo si hay al menos un disjunto | Un clasificador de toxicidad |
+| `corte duro` | Etiqueta `left` / `right` / `split` / `out` **solo** en disjuntos | Un score angular |
+| `piggyback` | Ataque que mezcla oficios en un mismo prompt | Una palabra prohibida |
+| `press` | Censo fila por fila de un `rows.npz` ya calibrado | Volver a embeber |
+
 ## Instalar
 
 ```bash
