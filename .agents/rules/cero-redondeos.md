@@ -27,3 +27,14 @@ En este proyecto de **Firewall Dimensional para LLMs (DDI Firewall)**, el compor
    - Si en algún escenario extremo procesar o persistir todos los decimales pusiese en riesgo la estabilidad del equipo (desborde de memoria RAM masivo, saturación crítica de disco o cómputo descontrolado):
      - **EL AGENTE DEBE DETENERSE Y ADVERTIR EXPLÍCITAMENTE AL USUARIO ANTES DE ACTUAR.**
      - **JAMÁS REDONDEAR NI TRUNCAR SILENCIOSAMENTE POR CUENTA PROPIA.**
+
+---
+
+## 3. Display-only exception
+
+A human-facing plot or table MAY round digits of **presentation** only if **both** conditions hold:
+
+1. The source artifact keeps native precision (unrounded `rows.npz`, JSON metrics, interval dumps, `press.json`).
+2. The caption or adjacent note says `display-only rounding; source unrounded`.
+
+`rows.npz`, JSON metrics, interval dumps, and `press.json` are **not** display-only. Do not round them for smaller files or terminal aesthetics.

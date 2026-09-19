@@ -9,7 +9,9 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
 ## 1. Invariantes de Arquitectura y Contratos
 
 - **CERO REDONDEOS / PRECISIÓN NUMÉRICA ABSOLUTA (Invariante Suprema)**: En DDI Firewall está TERMINANTEMENTE PROHIBIDO redondear números de punto flotante o truncar decimales (`.6f`, `round()`, etc.) bajo ninguna excusa estética, de tamaño de archivo o "convención visual de C / Python". Cuando se piden o exportan datos de tensores, coordenadas o métricas, se preservan SIEMPRE TODOS los dígitos nativos (representación exacta de float32 `f'{val:.9g}'` / `f'{val:.17g}'` o `Decimal`). Si en algún escenario hipotético extremo el cómputo o guardado de todos los decimales arriesgara la estabilidad del equipo, el agente DEBE detenerse y advertir explícitamente al usuario antes de actuar, pero JAMÁS redondear silenciosamente por su cuenta.
+  Display-only: un plot o tabla humana MAY redondear dígitos de **presentación** si el artefacto fuente conserva precisión nativa y el caption dice `display-only rounding; source unrounded`.
 - **Pertenencia = intervalos + votos, nunca Coseno**: el veredicto sale de inclusión en `[lo, hi]` y corte duro en ejes disjuntos. Prohibido `cosine`, centroides, `mean` de filas, top-k o holgura de gap como criterio de publicación.
+  Alcance: el **veredicto** y la **publicación** del candado. Fuera de alcance: telemetría en `tools/rompepepe/`, tablas en `current-research/` marcadas como diagnóstico/contrafactual, y cualquier scalar que no entre a `decide()` ni a `press.json`.
 - **Cero disjuntos ⇒ se poda el mazo**: el candado no se publica. Jamás se inventa un umbral `gap >= epsilon`.
 - **Etiqueta de corte ≠ bitácora**: las 1024 (o `dimension`) dimensiones votan para auditoría; `left|right|split|out` se decide solo en ejes con `gap > 0`. Disjuntos vacíos o `ninguna`/`ambas` en un disjunto → `out`.
 - **Pares canónicos (5 almas, 10 pares)**: `python_receta`, `python_legal`, `legal_receta`, `python_medicina`, `python_astronomia`, `legal_medicina`, `legal_astronomia`, `receta_medicina`, `receta_astronomia`, `medicina_astronomia`. Left = primer alma del id. Las funciones de resolución y poda (`candados_canonicos`, `podar_hasta_publicar`, `rows_matrices`, `press`) deben operar de forma tolerante a subconjuntos (`if alma in matrices` o `if alma in bundle`).
@@ -18,12 +20,14 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
 - **Entorno de ejecución `uv` en macOS**: Al ejecutar suites o scripts en el entorno anfitrión, utilizar `UV_CACHE_DIR=/tmp/uv-cache uv run ...` para evitar bloqueos por permisos de caché de usuario.
 - **Fail-closed total**: cláusula vacía, splitter vacío, candado inédito, embedder caído, `split`/`out` o alma vedada tumba el prompt o la respuesta entera.
 - **Egreso hold solamente**: cero streaming especulativo. `hold()` no hace yield. `stream=true` en el proxy es 400.
+  Alcance: `hold()` y el proxy de producto en `main`. Un experimento de latencia **solo** si el usuario lo pide, en rama/prototipo aislado, sin cambiar el contrato de `main`.
 - **403 sin echo**: ingress/egreso BREACH no reimprimen el prompt ni la generación bloqueada.
 - **Seam de embedder**: todo vector pasa por `BaseEmbedder`. Tests default usan `FakeEmbedder` o matrices sintéticas. Live lleva marker `live`.
 - **`mean_gap` es diagnóstico D07**: vive solo en `benchmark_models.json`. No entra a `press.json` ni a `decide()`.
 - **Mazos chicos y estereotipados**: paredes gordas matan la disyunción. Vetos de `roadmap/almas.md` son código, no prosa.
 - **Artefactos en `ddi_fw/out/`**: gitignored. Fixtures textuales en `ddi_fw/data/` sí se commitean.
 - **Secrets**: solo `.env`. El ejemplo commiteado es `.env.example`.
+- **Modos de agente:** `release` vs `research` — ver `SKILL.md` y `roadmap/skill_checkout/`. No tratar el proceso TDD/debug como axioma de geometría.
 
 - **Contratos de Interfaz**: Las interfaces públicas son el límite de prueba (seam). Si una prueba requiere inspeccionar el estado interno de un módulo, la abstracción es incorrecta.
 - **Manejo de Secretos**: Ningún token, contraseña ni clave privada se escribe en código, git, logs, handoffs ni chat.
