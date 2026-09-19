@@ -1,0 +1,91 @@
+{
+  "alma": "receta",
+  "n": 17,
+  "clauses": [
+    {
+      "id": "receta-001",
+      "text": "Batir las claras a punto nieve durante cuatro minutos hasta que sostengan pico firme.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-002",
+      "text": "Incorporar 200 gramos de harina tamizada en tres tandas, envolviendo la masa con una espátula.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-003",
+      "text": "Precalentar el horno a 180 grados y hornear el bizcochuelo durante treinta y cinco minutos.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-004",
+      "text": "Disolver 7 gramos de levadura seca en agua tibia con una cucharadita de azúcar y esperar diez minutos.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-005",
+      "text": "Amasar la masa de pan hasta que el gluten esté elástico y no se rompa al estirar una membrana fina.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-006",
+      "text": "Dejar levar la masa en un bol aceitado hasta que duplique su volumen, cubierto con un paño húmedo.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-007",
+      "text": "Saltear la cebolla en aceite de oliva a fuego medio hasta que quede transparente, sin tomar color oscuro.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-008",
+      "text": "Reducir la salsa de tomate a fuego bajo durante veinte minutos, removiendo para que no se pegue al fondo.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-009",
+      "text": "Cortar el tomate y la lechuga en juliana; aliñar la ensalada con aceite de oliva, sal y un chorro de vinagre.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-010",
+      "text": "Derretir 80 gramos de manteca e integrarlas a las yemas batidas con 150 gramos de azúcar.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-011",
+      "text": "Engrasar el molde con manteca y enharinarlo antes de volcar la masa del bizcochuelo.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-013",
+      "text": "Tostar el ajo en la sartén diez segundos y apagar el fuego antes de agregar el perejil picado a la salsa.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-014",
+      "text": "Reservar las claras y las yemas en bowls separados; la yema liga la masa y la clara airea el bizcochuelo.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-015",
+      "text": "Hornear el pan a 220 grados los primeros diez minutos y bajar a 190 hasta que suene hueco al golpear la base.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-016",
+      "text": "Pesar 250 gramos de harina, 8 gramos de sal y 40 mililitros de aceite de oliva para la masa de pizza.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-017",
+      "text": "Emulsionar la salsa vinagreta batiendo mostaza, vinagre y aceite de oliva en un hilo fino.",
+      "source": "dominio-publico"
+    },
+    {
+      "id": "receta-018",
+      "text": "Dejar reposar la masa de tarta treinta minutos en la heladera antes de estirarla con el palo.",
+      "source": "dominio-publico"
+    }
+  ]
+}

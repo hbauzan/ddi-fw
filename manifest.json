@@ -1,0 +1,22 @@
+{
+  "project": "ddi-fw",
+  "version": "0.1.0",
+  "bootstrap_run": false,
+  "state_schema": {
+    "allowed_alma": "python",
+    "forbidden_almas": ["receta", "legal"],
+    "embedder": "bge-m3",
+    "upstream_url": "DDI_UPSTREAM_URL",
+    "upstream_model": "DDI_UPSTREAM_MODEL",
+    "port": 8080,
+    "request_timeout_seconds": 60
+  },
+  "constraints": {
+    "vector_dim_default": 1024,
+    "vector_dim_configurable": true,
+    "publication_rule": "disjoint_count > 0",
+    "no_cosine": true,
+    "no_mean_decision": true,
+    "egreso": "hold_only"
+  }
+}
