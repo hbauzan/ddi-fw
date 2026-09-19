@@ -25,9 +25,11 @@ Repetir el protocolo geométrico de BGE-M3 sobre `Alibaba-NLP/gte-Qwen2-1.5B-ins
 | [Q02](./tickets/Q02-qwen2-load.md) | Smoke load / encode 1536-D | hecho (blocker_load) |
 | [Q03](./tickets/Q03-geometry-press.md) | Geometría full-deck + press | hecho (skip: blocker_load) |
 | [Q04](./tickets/Q04-ingress-hold-live.md) | Ingress / hold live (si publica) | hecho (skip: gate inalcanzable) |
-| [Q05](./tickets/Q05-ledger-synthesis.md) | Ledger vs BGE sellado | pendiente |
+| [Q05](./tickets/Q05-ledger-synthesis.md) | Ledger vs BGE sellado | hecho |
 
 **Regla**: leé [`00-qwen2-live.md`](./00-qwen2-live.md) antes del ticket. `calibrate()` poda: prohibido para Qwen2. Cero disjuntos = hallazgo, no se tocan los mazos.
+
+**Cierre de la ola Q**: Qwen2 no cargó (`blocker_load`: `custom_code` vs `transformers` 5.17). Sin geometría Qwen2; el pin de producto **sigue siendo BGE-M3**. Números y evidencia en [`current-research/engines/gte-qwen2-1.5b.md`](../current-research/engines/gte-qwen2-1.5b.md) y la fila Qwen2 de [`current-research/embedder-ledger.md`](../current-research/embedder-ledger.md). La tabla D07 de abajo es el sello BGE y **no** se reinterpreta como Qwen2.
 
 La hipótesis espectral Deletor vive **solo** en `feat/hipotesis-deletor`. No mergear esa rama a ciegas.
 

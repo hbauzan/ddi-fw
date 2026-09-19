@@ -47,6 +47,8 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
 - **Un embedder live a la vez**: el benchmark carga, mide y libera. No dejar BGE-M3 + Qwen 1.5B residentes juntos.
 - **Deletor estacionada**: el insumo espectral vive solo en `feat/hipotesis-deletor`. No es la etapa de `main`. No mergear esa rama a ciegas (resucitaría `roadmap/tickets/` D01–D07).
 - **Ola Q (Qwen2)**: briefing [`roadmap/00-qwen2-live.md`](../../../roadmap/00-qwen2-live.md). Números en `current-research/`. Fila BGE del ledger **sellada**. `calibrate()` poda: no usarla para Qwen2. Cero disjuntos = `ok_unpublished`, no se podan mazos compartidos.
+- **Qwen2 no carga (transformers 5.17)**: `Alibaba-NLP/gte-Qwen2-1.5B-instruct` trae `custom_code`; su `modeling_qwen.py` lee `config.rope_theta` y explota con `AttributeError` bajo el stack pinneado. Es `blocker_load`, no geometría. No se pinnea `transformers` 4.x global (rompería el resto) y no se cambia de modelo.
+- **Camino de medición sin poda**: para cualquier motor nuevo usá `ddi_fw.measure.measure_and_save` (o `--no-prune --out <dir>`), nunca `calibrate()`. Persiste `rows.npz` íntegro con `dropped=[]` y aísla artefactos en `ddi_fw/out/<motor>/`. El default de producto sigue en BGE-M3.
 
 ---
 

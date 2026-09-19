@@ -105,8 +105,19 @@ No decks were pruned to manufacture a publish, and the committed canonical strin
 
 ## Q05 note
 
-Keep / replace BGE pin? (default: keep `BAAI/bge-m3` unless briefing § comparison rules are all met)
+Keep / replace BGE pin? **Keep `BAAI/bge-m3`.** The briefing's comparison rules require
+Qwen2 to publish the headline pairs *and* match the expected live `PIGGYBACK`
+`BREACH`/`PASS` behaviour before a default change is even considered. Here Qwen2 never
+loaded (`blocker_load`), so no geometry, no publish, no containment test — the
+preconditions are unmet by construction. Default `DDI_EMBEDDER` is unchanged.
+
+Comparison vs frozen BGE-M3 (`published` / `disjoint_count`): Qwen2 has no data; BGE
+remains `python_receta` 1 (axis 891), `python_legal` 1 (axis 192), `legal_receta` 7.
+Axis indices are **not** carried across models — they are model-specific and none were
+produced for Qwen2. No "epsilon", no pruning, no model swap.
 
 ## Operator
 
-Agent / date / git commit of code used:
+Agent / date / git commit of code used: OpenHands (Garfio role) / 2026-09-19 /
+`feat/ola-q` commits `1ec019c` (Q01), `e1c639d` (Q02), `80055e2` (Q03), `3ea770c` (Q04).
+`Qwen2Embedder` code path unchanged; only the measurement/CLI plumbing from Q01 is new.

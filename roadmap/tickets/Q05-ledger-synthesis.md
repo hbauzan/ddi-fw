@@ -1,6 +1,6 @@
 # Q05 — Ledger synthesis vs frozen BGE-M3
 
-> **Estado:** pendiente
+> **Estado:** hecho
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q02 (always), Q03–Q04 if they ran
 > **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
