@@ -69,7 +69,6 @@ ddi-fw/
 │   ├── README.md
 │   ├── 00-alcance.md
 │   ├── almas.md
-│   ├── hipotesis-deletor.md
 │   └── archive/
 │       └── v0.1-bge-m3/
 │           ├── D01-pintar-almas.md
