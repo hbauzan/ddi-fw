@@ -44,7 +44,9 @@ def main() -> None:
                 writer.writerow([str(ids[i]), str(texts[i])] + row_vals)
 
         file_size_mb = csv_file.stat().st_size / (1024 * 1024)
-        print(f"Exportado: {csv_file.name} ({len(ids)} filas × {dim_count} dims, {file_size_mb:.2f} MB)")
+        print(
+            f"Exportado: {csv_file.name} ({len(ids)} filas × {dim_count} dims, {file_size_mb:.2f} MB)"
+        )
 
 
 if __name__ == "__main__":

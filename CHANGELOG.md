@@ -1,9 +1,16 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 — 2026-09-19
 
-- Path `measure_and_save` / `--no-prune`: persiste mazos completos bajo `ddi_fw/out/qwen2/` sin `podar_hasta_publicar` y sin pisar el `rows.npz` de BGE-M3.
-- Qwen2 live: shims `rope_theta` + `DynamicCache` sobre transformers 5.17, carga fp16. Geometría: headlines unpublished; `legal_receta` 1 eje. Pin de producto: `BAAI/bge-m3`.
+- **Dual-Engine Deep Dimensional Inspection**:
+  - Ingestión y codificación de los 5 corpus extendidos de 110 cláusulas (`python`, `legal`, `receta`, `medicina`, `astronomia`).
+  - Desacoplamiento modular de adaptadores en `ddi_fw/adapters/` (`base.py`, `bge.py`, `qwen2.py` con shims para `transformers >= 5.17`).
+  - Orquestador secuencial determinista `scripts/run_dual_engine_inspection.py` con aislamiento estricto por subprocesos.
+  - Invariante de precisión absoluta: exportación de coordenadas en IEEE 754 float32 nativo (`f'{val:.17g}'`) y ranking Top 500 con `decimal.Decimal` exacto.
+  - Generación de libro mayor inmutable en `current-research/engines/dual-engine-extended-inspection.md`.
+- **Gobernanza de Agente y Switch de Murray**:
+  - Persona Murray redefinida como switch opcional: desactivada por default (comunicación directa y sobria de Principal Architect) y activable solo bajo demanda explícita del usuario.
+  - Desacoplamiento estricto de modos de operación del agente: `release` (código de producto, contratos) vs `research` (medición científica, benchmarks, ledger).
 
 ## 0.1.0 — 2026-09-19
 

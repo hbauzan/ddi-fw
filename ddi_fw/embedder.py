@@ -7,51 +7,61 @@ import json
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Protocol, runtime_checkable
 
 import numpy as np
 import numpy.typing as npt
 
+from ddi_fw.adapters.base import (
+    BaseEmbedder,
+    FloatArray,
+    _SentenceTransformerEmbedder,
+    l2_normalize,
+    matryoshka_cut,
+)
+from ddi_fw.adapters.bge import BGE_M3_ID, BGEM3Embedder
+from ddi_fw.adapters.qwen2 import (
+    QWEN2_ID,
+    Qwen2Embedder,
+    apply_qwen2_cache_shim,
+    apply_qwen2_rope_theta_shim,
+    apply_qwen2_transformers517_shim,
+)
 from ddi_fw.almas import ALMA_NAMES, DATA_DIR, Mazo, drop_clauses, load_almas, write_mazo
 from ddi_fw.hoja import candados_canonicos, podar_hasta_publicar
 
-FloatArray = npt.NDArray[np.float32]
-
-BGE_M3_ID = "BAAI/bge-m3"
 GEMMA_ID = "google/embeddinggemma-300m"
 NOMIC_ID = "nomic-ai/nomic-embed-text-v1.5"
-QWEN2_ID = "Alibaba-NLP/gte-Qwen2-1.5B-instruct"
 
 DEFAULT_OUT = Path(__file__).resolve().parent / "out" / "rows.npz"
 
-
-@runtime_checkable
-class BaseEmbedder(Protocol):
-    model_id: str
-    dimension: int
-
-    def embed_text(self, text: str) -> FloatArray: ...
-
-    def embed_batch(self, texts: list[str]) -> FloatArray: ...
-
-
-def l2_normalize(matrix: npt.NDArray[np.floating]) -> FloatArray:
-    rows = np.asarray(matrix, dtype=np.float32)
-    if rows.ndim == 1:
-        norm = float(np.linalg.norm(rows))
-        if norm <= 1e-12:
-            return rows
-        return (rows / norm).astype(np.float32)
-    norms = np.linalg.norm(rows, axis=1, keepdims=True)
-    norms = np.clip(norms, 1e-12, None)
-    return (rows / norms).astype(np.float32)
-
-
-def matryoshka_cut(matrix: npt.NDArray[np.floating], dim: int) -> FloatArray:
-    rows = np.asarray(matrix, dtype=np.float32)
-    if dim < 1 or dim > rows.shape[-1]:
-        raise ValueError(f"corte MRL {dim} fuera de rango 1..{rows.shape[-1]}")
-    return l2_normalize(rows[..., :dim])
+__all__ = [
+    "ALMA_NAMES",
+    "BGE_M3_ID",
+    "BGEM3Embedder",
+    "BaseEmbedder",
+    "DEFAULT_OUT",
+    "FakeEmbedder",
+    "FloatArray",
+    "GEMMA_ID",
+    "GemmaMRLEmbedder",
+    "NOMIC_ID",
+    "NomicEmbedder",
+    "QWEN2_ID",
+    "Qwen2Embedder",
+    "apply_qwen2_cache_shim",
+    "apply_qwen2_rope_theta_shim",
+    "apply_qwen2_transformers517_shim",
+    "calibrate",
+    "embed_mazos",
+    "get_embedder",
+    "l2_normalize",
+    "load_rows",
+    "matryoshka_cut",
+    "measure_and_save",
+    "resolve_out_dir",
+    "rows_matrices",
+    "save_rows",
+]
 
 
 @dataclass
@@ -82,86 +92,6 @@ class FakeEmbedder:
         return np.stack([self.embed_text(text) for text in texts], axis=0)
 
 
-class _SentenceTransformerEmbedder:
-    model_id: str
-    dimension: int
-    _output_dim: int | None
-    _trust_remote_code: bool
-    _prefix: str
-    _model: object | None
-
-    def __init__(
-        self,
-        model_id: str,
-        dimension: int,
-        *,
-        output_dim: int | None = None,
-        trust_remote_code: bool = False,
-        prefix: str = "",
-    ) -> None:
-        self.model_id = model_id
-        self.dimension = dimension
-        self._output_dim = output_dim
-        self._trust_remote_code = trust_remote_code
-        self._prefix = prefix
-        self._model = None
-
-    def _prepare_load(self) -> dict[str, object]:
-        """Extra kwargs for SentenceTransformer(...). Subclasses may patch the Hub first."""
-        return {}
-
-    def _load(self) -> object:
-        if self._model is None:
-            from sentence_transformers import SentenceTransformer
-
-            extra = self._prepare_load()
-            self._model = SentenceTransformer(
-                self.model_id,
-                trust_remote_code=self._trust_remote_code,
-                **extra,
-            )
-        return self._model
-
-    def _prepare(self, texts: list[str]) -> list[str]:
-        if not self._prefix:
-            return texts
-        return [self._prefix + text for text in texts]
-
-    def embed_batch(self, texts: list[str]) -> FloatArray:
-        if not texts:
-            return np.zeros((0, self.dimension), dtype=np.float32)
-        model = self._load()
-        vectors = np.asarray(
-            model.encode(self._prepare(texts), convert_to_numpy=True, normalize_embeddings=False),
-            dtype=np.float32,
-        )
-        if self._output_dim is not None:
-            vectors = matryoshka_cut(vectors, self._output_dim)
-        if vectors.ndim == 1:
-            vectors = vectors.reshape(1, -1)
-        if vectors.shape[1] != self.dimension:
-            raise ValueError(
-                f"{self.model_id} produjo dim {vectors.shape[1]}, esperaba {self.dimension}"
-            )
-        return vectors.astype(np.float32)
-
-    def embed_text(self, text: str) -> FloatArray:
-        return self.embed_batch([text])[0]
-
-
-class BGEM3Embedder(_SentenceTransformerEmbedder):
-    _instance: BGEM3Embedder | None = None
-
-    def __init__(self) -> None:
-        super().__init__(BGE_M3_ID, 1024)
-
-    @classmethod
-    def instance(cls) -> BGEM3Embedder:
-        if cls._instance is None:
-            cls._instance = cls()
-        return cls._instance
-
-
 class GemmaMRLEmbedder(_SentenceTransformerEmbedder):
     def __init__(self, dim: int = 256) -> None:
         super().__init__(GEMMA_ID, dim, output_dim=dim)
@@ -178,91 +108,6 @@ class NomicEmbedder(_SentenceTransformerEmbedder):
             trust_remote_code=True,
             prefix="search_document: ",
         )
-
-
-def apply_qwen2_rope_theta_shim() -> None:
-    """transformers 5.17 moved rope_theta into rope_parameters; Hub custom_code still reads config.rope_theta."""
-    from transformers.models.qwen2.configuration_qwen2 import Qwen2Config
-
-    if getattr(Qwen2Config, "_ddi_rope_theta_shim", False):
-        return
-
-    def _rope_theta(self: object) -> float:
-        params = getattr(self, "rope_parameters", None) or {}
-        if isinstance(params, dict) and params.get("rope_theta") is not None:
-            return float(params["rope_theta"])
-        return 1_000_000.0
-
-    Qwen2Config.rope_theta = property(_rope_theta)
-    Qwen2Config._ddi_rope_theta_shim = True
-
-
-def apply_qwen2_cache_shim() -> None:
-    """Hub custom_code (transformers 4.41) calls DynamicCache APIs removed in 5.17."""
-    from transformers.cache_utils import DynamicCache
-
-    if getattr(DynamicCache, "_ddi_cache_shim", False):
-        return
-
-    @classmethod
-    def from_legacy_cache(cls, past_key_values: object = None, **_kwargs: object) -> object:
-        if past_key_values is None:
-            return cls()
-        if isinstance(past_key_values, cls):
-            return past_key_values
-        return cls(ddp_cache_data=past_key_values)
-
-    def get_usable_length(self: object, new_seq_length: int, layer_idx: int = 0) -> int:
-        del new_seq_length
-        get_seq = getattr(self, "get_seq_length", None)
-        if callable(get_seq):
-            return int(get_seq(layer_idx))
-        return 0
-
-    def to_legacy_cache(self: object) -> object:
-        return None
-
-    DynamicCache.from_legacy_cache = from_legacy_cache
-    DynamicCache.get_usable_length = get_usable_length
-    DynamicCache.to_legacy_cache = to_legacy_cache
-    DynamicCache._ddi_cache_shim = True
-
-
-def apply_qwen2_transformers517_shim() -> None:
-    apply_qwen2_rope_theta_shim()
-    apply_qwen2_cache_shim()
-
-
-class Qwen2Embedder(_SentenceTransformerEmbedder):
-    """1.5B. fp16 so a 16 GiB host can load it. Singleton: one live copy per process."""
-
-    _instance: Qwen2Embedder | None = None
-
-    def __init__(self) -> None:
-        super().__init__(QWEN2_ID, 1536, trust_remote_code=True)
-
-    @classmethod
-    def instance(cls) -> Qwen2Embedder:
-        if cls._instance is None:
-            cls._instance = cls()
-        return cls._instance
-
-    def _prepare_load(self) -> dict[str, object]:
-        import torch
-
-        apply_qwen2_transformers517_shim()
-        return {
-            "model_kwargs": {"torch_dtype": torch.float16},
-            "config_kwargs": {"use_cache": False},
-        }
-
-    def _load(self) -> object:
-        model = super()._load()
-        first = model[0]
-        auto = getattr(first, "auto_model", None)
-        if auto is not None and hasattr(auto, "config"):
-            auto.config.use_cache = False
-        return model
 
 
 def get_embedder(name: str, dim: int | None = None) -> BaseEmbedder:
@@ -318,9 +163,7 @@ def load_rows(path: Path) -> dict[str, object]:
 
 def rows_matrices(bundle: dict[str, object]) -> dict[str, FloatArray]:
     return {
-        alma: np.asarray(bundle[alma], dtype=np.float32)
-        for alma in ALMA_NAMES
-        if alma in bundle
+        alma: np.asarray(bundle[alma], dtype=np.float32) for alma in ALMA_NAMES if alma in bundle
     }
 
 
