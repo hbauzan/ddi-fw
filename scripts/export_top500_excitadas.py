@@ -63,19 +63,21 @@ def process_corpus(alma: str, npz_data: dict[str, np.ndarray]) -> tuple[Path, di
         peak_abs_raw = float(np.max(np.abs(col_raw)))
         mean_abs_raw = float(np.mean(np.abs(col_raw)))
 
-        dims_stats.append({
-            "dim": dim_names[d],
-            "axis": d,
-            "val_min_csv": v_min_csv,
-            "val_max_csv": v_max_csv,
-            "peak_abs_csv": peak_abs_csv,
-            "mean_abs_csv": mean_abs_csv,
-            "rango_csv": rango_csv,
-            "val_min_raw": v_min_raw,
-            "val_max_raw": v_max_raw,
-            "peak_abs_raw": peak_abs_raw,
-            "mean_abs_raw": mean_abs_raw,
-        })
+        dims_stats.append(
+            {
+                "dim": dim_names[d],
+                "axis": d,
+                "val_min_csv": v_min_csv,
+                "val_max_csv": v_max_csv,
+                "peak_abs_csv": peak_abs_csv,
+                "mean_abs_csv": mean_abs_csv,
+                "rango_csv": rango_csv,
+                "val_min_raw": v_min_raw,
+                "val_max_raw": v_max_raw,
+                "peak_abs_raw": peak_abs_raw,
+                "mean_abs_raw": mean_abs_raw,
+            }
+        )
 
     # Ranking por excitación media absoluta entre todas las dimensiones
     dims_by_mean = sorted(dims_stats, key=lambda x: x["mean_abs_csv"], reverse=True)
@@ -108,19 +110,21 @@ def process_corpus(alma: str, npz_data: dict[str, np.ndarray]) -> tuple[Path, di
         writer = csv.writer(f)
         writer.writerow(fieldnames)
         for item in top500:
-            writer.writerow([
-                item["ranking"],
-                item["dim"],
-                item["axis"],
-                str(item["val_max_csv"]),
-                str(item["val_min_csv"]),
-                str(item["peak_abs_csv"]),
-                str(item["mean_abs_csv"]),
-                str(item["rango_csv"]),
-                f"{item['val_max_raw']:.17g}",
-                f"{item['val_min_raw']:.17g}",
-                item["ranking_media_abs"],
-            ])
+            writer.writerow(
+                [
+                    item["ranking"],
+                    item["dim"],
+                    item["axis"],
+                    str(item["val_max_csv"]),
+                    str(item["val_min_csv"]),
+                    str(item["peak_abs_csv"]),
+                    str(item["mean_abs_csv"]),
+                    str(item["rango_csv"]),
+                    f"{item['val_max_raw']:.17g}",
+                    f"{item['val_min_raw']:.17g}",
+                    item["ranking_media_abs"],
+                ]
+            )
 
     # Estadísticas globales del Top 500
     global_max_csv = max(x["val_max_csv"] for x in top500)
