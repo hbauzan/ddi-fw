@@ -11,7 +11,7 @@ Seam único `BaseEmbedder`:
 - `embed_text(text: str) -> np.ndarray` shape `(dimension,)`, dtype float32
 - `embed_batch(texts: list[str]) -> np.ndarray` shape `(n, dimension)`
 
-Adapters: `BGEM3Embedder` (baseline 1024D), `GemmaMRLEmbedder`, `NomicEmbedder`, `Qwen2Embedder`, `FakeEmbedder` (tests).
+Adapters: `BGEM3Embedder` (`ddi_fw/adapters/bge.py`, baseline 1024D), `Qwen2Embedder` (`ddi_fw/adapters/qwen2.py`, 1536D), `GemmaMRLEmbedder`, `NomicEmbedder`, `FakeEmbedder` (tests).
 
 Los tests default nunca cargan un modelo vivo.
 
@@ -37,7 +37,7 @@ Publicación: `published = len(ejes_disjuntos) > 0`. Jamás se relaja `gap`.
 
 Claves requeridas: `python`, `legal`, `receta`, `medicina`, `astronomia` (float32, o las almas presentes según bundle), `ids_*` (object), `texts_*` (object), `model_id`, `dimension`.
 
-BGE-M3 histórico: `ddi_fw/out/rows.npz`. Qwen2 (ola Q): `ddi_fw/out/qwen2/rows.npz`. No se pisan.
+BGE-M3 histórico: `ddi_fw/out/rows.npz`. Qwen2 (ola Q): `ddi_fw/out/qwen2/rows.npz`. Inspección dual-engine extendida: `ddi_fw/out/extended_bge/` y `ddi_fw/out/extended_qwen2/`. No se pisan.
 
 ## Measure (no prune)
 
