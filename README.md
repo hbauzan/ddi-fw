@@ -106,11 +106,7 @@ Pack vivo en [`roadmap/`](./roadmap/):
   - **Regla Universal del Quórum del 10% ($\lceil 0.10 \times D \rceil$)**: Premisa arquitectónica para BGE-M3 (100D de 1024D) y futuros motores (ej. 150D en Qwen2 1536D, 26D en Gemma 256D). Concentra más del 85% de la información discriminante y descarta el 90% del espectro ruidoso.
   - **Confirmación Matemática Anti-Bypass ($P < 10^{-9}$)**: En 100 dimensiones contrastadas, la probabilidad combinada de que un prompt ajeno o inyección hostil coincida por azar en el quórum es $P \le (0.8)^{100} \approx 2.03 \times 10^{-10}$ (menos de 1 en 5.000 millones). La fluctuación de 3 a 5 dimensiones por estilo léxico es absorbida holgadamente por el 95% restante del quórum. Latencia sub-milisegundo (< 10 $\mu$s en CPU).
   - **Auditoría de Hardware & Precisión**: Deriva física Apple M4 GPU (`mps:0`) vs CPU medida en $2.46 \times 10^{-7}$. En el Top 10% ($\Delta \ge 0.01$), la separación física es más de $50.000\times$ superior a la deriva de hardware. Operaciones acumuladas en memoria en `float64`.
-- **Archivo Histórico Unificado**: Investigaciones previas, auditorías y ciclos concluidos en [`archive/`](./archive/):
-  - [Cierre de resonancia T0–T4 y auditoría N1–N4](./archive/roadmap-legacy/2026-09-21-cierre-resonancia-auditoria/).
-  - [Ola Q (Qwen2)](./archive/roadmap-legacy/ola-q/README.md).
-  - [Histórico v0.1 (D01 a D07)](./archive/roadmap-legacy/v0.1-bge-m3/).
-  - [Registros de investigación previa (Deletor, censos)](./archive/current-research/).
+- **Depuración Histórica**: Los borradores, auditorías cerradas e hipótesis superadas preliminares fueron purgados del repositorio para consolidar la arquitectura de la versión 0.3.0 en torno al Ecualizador Espectral.
 
 ## Copyright
 
