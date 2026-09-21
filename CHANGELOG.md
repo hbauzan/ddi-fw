@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.0 — 2026-09-21
+
+- **Hipótesis del Ecualizador Espectral**:
+  - Implementación de protocolos 00 a 04 en `ddi_fw/ecualizador/`: extracción intrínseca por corpus, doble poda de paja estructural (39 dimensiones descartadas), cruce multi-corpus y firma espectral de Python (liderada por dimensiones 400 y 78).
+  - Poda y eliminación total de material y experimentos descartados para evitar ambigüedades.
+- **Norma Universal de Resolución de 6 Decimales (`10^{-6}`)**:
+  - Fijada como estándar universal compatible con `float32`, con holgura de 1.000x sobre la separación promedio ($\Delta_{avg} \approx 0.014$) y cortando por encima de la deriva de hardware ($2.46 \times 10^{-7}$).
+- **Regla Universal del Quórum del 10% ($\lceil 0.10 \times D \rceil$)**:
+  - Estándar arquitectónico para el motor actual y futuros motores (100D en BGE-M3 1024D, 154D en Qwen2 1536D, 26D en Gemma 256D).
+  - Demostración matemática de seguridad anti-bypass: $P \le (0.80)^{100} \approx 2.037 \times 10^{-10}$ ($< 10^{-9}$, menos de 1 en 4.900 millones).
+
 ## 0.2.0 — 2026-09-19
 
 - **Dual-Engine Deep Dimensional Inspection**:
