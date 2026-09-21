@@ -28,15 +28,7 @@ Carpeta: [`hipotesis-ecualizador/`](./hipotesis-ecualizador/)
 
 ---
 
-## 3. Archivo Histórico
+## 3. Depuración Histórica
 
-Los ciclos de investigación cerrados, auditorías pasadas y tickets previos se preservan en el directorio unificado [`../archive/`](../archive/):
+Los ciclos preliminares e hipótesis superadas (resonancia armónica cerrada, auditorías numéricas previas y tickets legacy) fueron completamente eliminados en la versión 0.3.0 para mantener el árbol de trabajo enfocado exclusivamente en la arquitectura vigente.
 
-* **Ciclo 2026-09-21 (Cierre de Resonancia T0–T4 y Auditoría Numérica N1–N4):**  
-  [`../archive/roadmap-legacy/2026-09-21-cierre-resonancia-auditoria/`](../archive/roadmap-legacy/2026-09-21-cierre-resonancia-auditoria/)
-* **Ola Q (GTE-Qwen2 1.5B):**  
-  [`../archive/roadmap-legacy/ola-q/`](../archive/roadmap-legacy/ola-q/)
-* **Baseline BGE-M3 v0.1:**  
-  [`../archive/roadmap-legacy/v0.1-bge-m3/`](../archive/roadmap-legacy/v0.1-bge-m3/)
-* **Investigaciones Históricas Previas:**  
-  [`../archive/current-research/`](../archive/current-research/)
