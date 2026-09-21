@@ -89,3 +89,50 @@ def test_run_protocolo_01_synthetic(tmp_path: Path) -> None:
         assert data["alma"] == a
         assert "hardware" in data
         assert len(data["dimensiones"]) == 16
+
+
+def test_classify_dimension() -> None:
+    from ddi_fw.ecualizador.paja import classify_dimension
+
+    # Ambos: alta energía y plano
+    assert classify_dimension(min_energy=0.10, max_delta_mu=0.005) == "PAJA_AMBOS"
+    # Saturada: alta energía pero diferenciada
+    assert classify_dimension(min_energy=0.10, max_delta_mu=0.05) == "PAJA_SATURADA"
+    # Plana: baja energía pero indiferenciada
+    assert classify_dimension(min_energy=0.02, max_delta_mu=0.005) == "PAJA_PLANA"
+    # Trigo: energía normal y contrastada
+    assert classify_dimension(min_energy=0.02, max_delta_mu=0.05) == "TRIGO_CANDIDATO"
+
+
+def test_run_protocolo_02_synthetic(tmp_path: Path) -> None:
+    from ddi_fw.ecualizador.paja import run_protocolo_02
+
+    # Generar primero los perfiles sintéticos con P1
+    almas = ("python", "receta", "legal", "medicina", "astronomia")
+    npz_data: dict[str, object] = {
+        "model_id": "BAAI/bge-m3",
+        "dimension": 8,
+    }
+    for a in almas:
+        npz_data[a] = np.random.randn(20, 8).astype(np.float32)
+
+    dummy_rows = tmp_path / "dummy_rows.npz"
+    np.savez(dummy_rows, **npz_data)
+
+    p1_dir = tmp_path / "out_p1"
+    run_protocolo_01(rows_path=dummy_rows, out_dir=p1_dir)
+
+    p2_dir = tmp_path / "out_p2"
+    res = run_protocolo_02(
+        intrinseco_dir=p1_dir,
+        out_dir=p2_dir,
+        theta_saturacion=0.05,
+        epsilon_indiferenciacion=0.010,
+    )
+
+    assert Path(res["catalogo_csv"]).exists()
+    assert Path(res["catalogo_json"]).exists()
+    assert sum(res["conteos"].values()) == 8
+    for a in almas:
+        assert Path(res["trigos_depurados"][a]).exists()
+
