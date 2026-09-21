@@ -1,71 +1,34 @@
-# Deep Dimensional Inspector Firewall (ddi-fw) — Pack Vivo
+# Pack vivo
 
-Herramienta independiente de inspección y contención dimensional estricta.
+La resonancia ya se midió. La auditoría numérica también.
 
-**ddi-fw** pinta almas chicas, compara todas las **$D$** dimensiones siempre (sea 128D, 256D, 768D o 1024D según el motor `BaseEmbedder`), y corta en duro donde los intervalos no se tocan (ejes disjuntos). No depende de medias, ni de similitudes coseno a centroides, ni de umbrales arbitrarios de dispersión.
+## Resonancia armónica
 
-- Alcance fundacional: [`00-alcance.md`](./00-alcance.md)
-- Briefing Qwen2 (gana conflictos): [`00-qwen2-live.md`](./00-qwen2-live.md)
+Cerrada el 2026-09-21: `rechazada`. Medición en [`../current-research/resonancia-cierre.md`](../current-research/resonancia-cierre.md).
+
+[`hipotesis-resonancia/00-protocolo.md`](./hipotesis-resonancia/00-protocolo.md)
+
+- T0: ninguna frase de la caja está también en el held-out. Partición en [`splits.json`](./hipotesis-resonancia/splits.json).
+- T1: las cajas salen solo del fit, en BGE float32.
+- T2: se puntúan las frases que no armaron las cajas, en los diez pares.
+- T3: lo mismo con dos mitades de python.
+- T4: `confirmada` si T2 pasa y T3 no. `rechazada` si T2 falla o si T3 pasa igual. No hay "casi".
+
+## Auditoría numérica
+
+[`auditoria-numerica/00-indice.md`](./auditoria-numerica/00-indice.md)
+
+N1 batch y padding. N2 MPS y después CPU, un modelo a la vez. N3 excluida. N4 margen del corte, solo NumPy. No reemplaza T0–T4.
+
+## Referencia
+
 - Almas del demo: [`almas.md`](./almas.md)
-- Ledger empírico: [`../current-research/embedder-ledger.md`](../current-research/embedder-ledger.md)
-- Protocolo operativo: [`.agents/skills/dev-protocol/SKILL.md`](../.agents/skills/dev-protocol/SKILL.md)
-- Auditoría del protocolo (análisis + tickets de remediación, no es ola de producto): [`skill_checkout/`](./skill_checkout/)
-- Hipótesis Deletor (**estacionada**, no implementar): rama `feat/hipotesis-deletor`
+- Alcance de producto: [`00-alcance.md`](./00-alcance.md)
+- Norma numérica: [`../current-research/universal-remediation-directive.md`](../current-research/universal-remediation-directive.md)
+- Rama `feat/hipotesis-deletor`: estacionada. No se mergea.
 
----
+## Archivo
 
-## Estado del Pack
-
-### Etapa actual — ola Q (Qwen2 live)
-
-Repetir el protocolo geométrico de BGE-M3 sobre `Alibaba-NLP/gte-Qwen2-1.5B-instruct`. Un ticket a la vez. TDD: `uv run pytest`. Números nuevos **solo** en `current-research/`.
-
-| ID | Título | Estado |
-| :--- | :--- | :--- |
-| [Q01](./tickets/Q01-artifact-isolation-no-prune.md) | Aislar `out/qwen2/` + measure sin poda | hecho |
-| [Q02](./tickets/Q02-qwen2-load.md) | Smoke load / encode 1536-D | hecho |
-| [Q03](./tickets/Q03-geometry-press.md) | Geometría full-deck + press | hecho (`ok_unpublished` headlines) |
-| [Q04](./tickets/Q04-ingress-hold-live.md) | Ingress / hold live (si publica) | hecho (`skipped_unpublished`) |
-| [Q05](./tickets/Q05-ledger-synthesis.md) | Ledger vs BGE sellado | hecho |
-
-Ola Q cerrada 2026-09-19: Qwen2 cargó con shims (sin bajar transformers). Headlines no publicaron. Pin de producto: seguir `BAAI/bge-m3`. Números: [`embedder-ledger.md`](../current-research/embedder-ledger.md).
-
-**Regla**: leé [`00-qwen2-live.md`](./00-qwen2-live.md) antes del ticket. `calibrate()` poda: prohibido para Qwen2. Cero disjuntos = hallazgo, no se tocan los mazos.
-
-La hipótesis espectral Deletor vive **solo** en `feat/hipotesis-deletor`. No mergear esa rama a ciegas.
-
-### Histórico v0.1 (Baseline BGE-M3 — Archivado)
-> Fila base consolidada y sellada bajo el tag `v0.1.0-bge-m3-baseline` en `main`.
-
-| ID | Título | Ola | Estado | Archivo Histórico |
-| :--- | :--- | ---: | :--- | :--- |
-| D01 | Pintar almas (textos + recorte) | 1 | hecho | [`D01`](./archive/v0.1-bge-m3/D01-pintar-almas.md) |
-| D02 | Hoja + corte duro | 1 | hecho | [`D02`](./archive/v0.1-bge-m3/D02-hoja-y-corte-duro.md) |
-| D03 | CLI press (censo por fila) | 2 | hecho | [`D03`](./archive/v0.1-bge-m3/D03-cli-press.md) |
-| D04 | Ingress por cláusulas | 3 | hecho | [`D04`](./archive/v0.1-bge-m3/D04-ingress-clausulas.md) |
-| D05 | Egreso hold | 3 | hecho | [`D05`](./archive/v0.1-bge-m3/D05-egreso-hold.md) |
-| D06 | Proxy OpenAI-compatible | 4 | hecho | [`D06`](./archive/v0.1-bge-m3/D06-proxy-hija.md) |
-| D07 | Benchmark multi-embedder (MRL y comparación) | 5 | hecho | [`D07`](./archive/v0.1-bge-m3/D07-benchmark-multi-embedder.md) |
-
-## Hallazgos empíricos (D07, 2026-09-19)
-
-| Modelo | Dim | Live | Disjuntos python↔receta | python↔legal | legal↔receta |
-| :--- | ---: | :--- | ---: | ---: | ---: |
-| `BAAI/bge-m3` | 1024 | sí | 1 (eje 891) | 1 (eje 192) | 7 |
-| `nomic-ai/nomic-embed-text-v1.5` | 256 MRL | no | — | — | custom code incompatible con transformers 5.x |
-| `google/embeddinggemma-300m` | 256 MRL | no | — | — | gated 401 |
-| `Alibaba-NLP/gte-Qwen2-1.5B-instruct` | 1536 | no | — | — | skip RAM; adapter + stubs |
-
-Recomendación histórica v0.1: **seguir con BGE-M3**. El candado publica. Un solo eje disjunto en los pares headline es frágil: no engordar los mazos. `mean_gap` vive solo en `benchmark_models.json`.
-
-> Esta tabla es el sello D07. **No la edites** para “actualizar” Qwen2. La ola Q escribe en [`current-research/embedder-ledger.md`](../current-research/embedder-ledger.md). En ola Q, cero disjuntos = `ok_unpublished`; **no** se podan mazos compartidos.
-
----
-
-## Qué no es
-
-- No es un clasificador difuso ni un scoring de similitud coseno.
-- No utiliza mocks con expresiones regulares para simular deltas semánticos.
-- No es un harm-classifier genérico ni un filtro léxico de palabras prohibidas.
-- No implementa streaming especulativo en egreso (cero fugas de tokens antes del veredicto).
-- No relaja intervalos agregando holguras heurísticas si hay 0 ejes disjuntos; en ese caso se poda el mazo.
+- Ola Q, cerrada: [`archive/ola-q/README.md`](./archive/ola-q/README.md)
+- Baseline BGE v0.1: [`archive/v0.1-bge-m3/`](./archive/v0.1-bge-m3/)
+- Lecturas que no cierran la resonancia: [`../current-research/archive/README.md`](../current-research/archive/README.md)

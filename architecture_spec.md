@@ -92,6 +92,11 @@ Política demo: `allowed=python`, `forbidden={receta,legal}`. PASS solo si **tod
 
 `benchmark_models.json` (D07, diagnóstico): puede incluir `mean_gap` / `max_gap`. Esos campos no deciden publicación.
 
-## Precisión Numérica e Invariante Anti-Redondeo
+## Precisión numérica
 
-Toda persistencia y exportación de vectores, coordenadas y cotas dimensionales debe preservar la mantisa completa de los tensores nativos IEEE 754 float32 (`f'{val:.17g}'`, `f'{val:.9g}'` o `Decimal`). Queda estrictamente prohibido redondear o truncar dígitos (`.6f`, `round()`) bajo cualquier justificación estética o de visualización.
+Norma: `current-research/universal-remediation-directive.md`.
+
+- El vector que entra a hoja, corte y `decide` es float32. Float16 no entra a ese camino. Un peso puede cargarse en float16; la salida del embedder no.
+- Cotas y gaps se extraen con `float(np.min(...))` / `float(lo_b - hi_a)`. Sin `round`.
+- Exportación a texto: `f"{float(val):.17g}"` o `str(float(val))`. Prohibido `:.4f`, `:.6f` y cualquier `:.Nf` en coordenadas.
+- Una vista humana puede acortar dígitos solo en el string final, con la marca `display-only rounding; engine unrounded`, sin mutar el array.

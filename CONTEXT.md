@@ -24,15 +24,19 @@ Por cada eje, los intervalos empíricos `[lo, hi]` de dos almas. Sin medias. Sin
 
 ## Eje disjunto
 
-Dimensión donde los intervalos de las dos almas no se tocan (`gap > 0`).
+Dimensión donde los intervalos de las dos almas no se tocan (`gap > 0`). Es la pared de un eje del candado de producto. No es la hipótesis de resonancia.
 
 ## Corte duro
 
-Etiqueta `left` / `right` / `split` / `out` decidida **solo** en ejes disjuntos. Las demás dimensiones votan para bitácora, no para el veredicto.
+Etiqueta `left` / `right` / `split` / `out` decidida **solo** en ejes disjuntos. Las demás dimensiones votan para bitácora, no para el veredicto de producto.
 
 ## Candado
 
 Hoja + ejes disjuntos de un par. Se **publica** solo si hay al menos un eje disjunto. Cero disjuntos → se poda el mazo, nunca se inventa holgura.
+
+## Resonancia armónica
+
+Hipótesis abierta: una cláusula que no armó las cajas se separa de otro tema por conteos enteros de coordenadas (`solo` nativo y `solo` ajeno). No está confirmada. El protocolo de cierre está en `roadmap/hipotesis-resonancia/`.
 
 ## Voto
 
@@ -58,6 +62,8 @@ Ataque que mezcla oficios en un mismo prompt. Las cláusulas aisladas no pueden 
 
 Censo fila por fila de un `rows.npz` ya calibrado. No re-embebe. No publica campos `mean_*`.
 
-## Precisión Numérica / Cero Redondeos
+## Precisión numérica
 
-Prohibido redondear o truncar valores de coma flotante (`.6f`, `round()`) bajo cualquier pretexto estético o convención visual. En DDI Firewall se preservan siempre todos los dígitos nativos del tensor/vector (`float32` completo o `Decimal`).
+Norma: `current-research/universal-remediation-directive.md`.
+
+Cada coordenada vive cerca de 0,025, en `[-0.15, +0.15]`. Una separación entre temas, si existe, vive entre `10^{-4}` y `10^{-6}`. El veredicto lee float32 nativo. Float16 no entra a ese camino. Prohibido `round` y los formatos `:.4f` / `:.6f`. La exportación a texto usa `f"{float(val):.17g}"` o `str(float(val))`. Un número corto en pantalla lleva la marca `display-only rounding; engine unrounded` y no toca el dato.

@@ -131,7 +131,7 @@ These are real and MUST remain the product source of truth:
 - `CONTEXT.md`
 - `architecture_spec.md`
 - `roadmap/00-alcance.md`
-- `roadmap/00-qwen2-live.md`
+- `roadmap/archive/ola-q/00-qwen2-live.md`
 - `roadmap/almas.md`
 - `current-research/embedder-ledger.md`
 - `ddi_fw/` implementation

@@ -3,7 +3,7 @@
 > **Estado:** hecho
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q02 (always), Q03–Q04 if they ran
-> **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
+> **Briefing:** [`../00-qwen2-live.md`](./00-qwen2-live.md)
 > **Live model:** no
 
 ---
@@ -53,8 +53,8 @@ Never write “Qwen failed, so prune mazos”. Never write “Qwen unpublished, 
 ## Copiable prompt
 
 ```text
-Using dev-protocol, execute roadmap/tickets/Q05-ledger-synthesis.md.
-Read roadmap/00-qwen2-live.md first.
+Using dev-protocol, execute roadmap/archive/ola-q/Q05-ledger-synthesis.md.
+Read roadmap/archive/ola-q/00-qwen2-live.md first.
 Complete current-research/engines/gte-qwen2-1.5b.md and the Qwen2 row of embedder-ledger.md.
 Do not edit the BGE-M3 ledger row or roadmap/archive/**.
 Do not change DDI_EMBEDDER default unless the briefing comparison rules say so.

@@ -3,7 +3,7 @@
 > **Estado:** hecho
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q01 `hecho`
-> **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
+> **Briefing:** [`../00-qwen2-live.md`](./00-qwen2-live.md)
 > **Live model:** yes, **one string only**
 
 ---
@@ -79,8 +79,8 @@ If you add `tests/test_ddi_live_qwen2.py`, mark tests `@pytest.mark.live`. Defau
 ## Copiable prompt
 
 ```text
-Using dev-protocol, execute roadmap/tickets/Q02-qwen2-load.md.
-Read roadmap/00-qwen2-live.md first.
+Using dev-protocol, execute roadmap/archive/ola-q/Q02-qwen2-load.md.
+Read roadmap/archive/ola-q/00-qwen2-live.md first.
 Smoke-load Alibaba-NLP/gte-Qwen2-1.5B-instruct via get_embedder("qwen2").
 Encode one clause; expect shape (1536,) float32.
 On crash/OOM: document blocker, do not pin transformers 4.x, do not swap models.

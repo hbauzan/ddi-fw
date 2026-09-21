@@ -36,7 +36,7 @@ Process that fits: read adapters + lessons + ledger, run one `uv` command, recor
 
 `estilo-comunicacion.md`: if it is closed, do not reopen it.
 
-Those sentences are rational for a proxy ticket. They are **wrong** as the default for `roadmap/00-qwen2-live.md`.
+Those sentences are rational for a proxy ticket. They are **wrong** as the default for `roadmap/archive/ola-q/00-qwen2-live.md`.
 
 Ola Q already had to **fight** the generic protocol:
 
