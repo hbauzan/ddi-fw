@@ -136,3 +136,55 @@ def test_run_protocolo_02_synthetic(tmp_path: Path) -> None:
     for a in almas:
         assert Path(res["trigos_depurados"][a]).exists()
 
+
+def test_compute_pair_metrics() -> None:
+    from ddi_fw.ecualizador.cruce import compute_pair_metrics
+
+    # Dos distribuciones bien separadas
+    delta_mu, sd = compute_pair_metrics(mu_a=1.0, sigma_a=0.1, mu_b=0.0, sigma_b=0.1)
+    assert abs(delta_mu - 1.0) < 1e-9
+    assert abs(sd - 5.0) < 1e-9  # 1.0 / 0.2 = 5.0
+
+    # Denominador cero
+    delta_mu_0, sd_0 = compute_pair_metrics(mu_a=0.0, sigma_a=0.0, mu_b=0.0, sigma_b=0.0)
+    assert delta_mu_0 == 0.0
+    assert sd_0 == 0.0
+
+
+def test_run_protocolo_03_synthetic(tmp_path: Path) -> None:
+    from ddi_fw.ecualizador.cruce import run_protocolo_03
+    from ddi_fw.ecualizador.paja import run_protocolo_02
+
+    almas = ("python", "receta", "legal", "medicina", "astronomia")
+    npz_data: dict[str, object] = {
+        "model_id": "BAAI/bge-m3",
+        "dimension": 8,
+    }
+    for idx, a in enumerate(almas):
+        # Escala de 0.02 con desplazamientos temáticos distintos para no caer en saturación ni planitud
+        mat = np.random.randn(20, 8).astype(np.float32) * 0.01 + (idx * 0.02)
+        npz_data[a] = mat
+
+    dummy_rows = tmp_path / "dummy_rows.npz"
+    np.savez(dummy_rows, **npz_data)
+
+    p1_dir = tmp_path / "out_p1"
+    run_protocolo_01(rows_path=dummy_rows, out_dir=p1_dir)
+
+    p2_dir = tmp_path / "out_p2"
+    run_protocolo_02(intrinseco_dir=p1_dir, out_dir=p2_dir)
+
+    p3_dir = tmp_path / "out_p3"
+    res = run_protocolo_03(
+        intrinseco_dir=p1_dir,
+        paja_dir=p2_dir,
+        out_dir=p3_dir,
+        sd_umbral_firma=1.5,
+    )
+
+    assert Path(res["csv_path"]).exists()
+    assert Path(res["json_path"]).exists()
+    assert res["total_trigos"] > 0
+    assert "conteo_cumplen_sd_1_5" in res
+
+
