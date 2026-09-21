@@ -16,7 +16,16 @@ from ddi_fw.resonancia import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
-SPLITS = ROOT / "roadmap" / "hipotesis-resonancia" / "splits.json"
+_DEFAULT_SPLITS = ROOT / "roadmap" / "hipotesis-resonancia" / "splits.json"
+_ARCHIVE_SPLITS = (
+    ROOT
+    / "roadmap"
+    / "archive"
+    / "2026-09-21-cierre-resonancia-auditoria"
+    / "hipotesis-resonancia"
+    / "splits.json"
+)
+SPLITS = _DEFAULT_SPLITS if _DEFAULT_SPLITS.exists() else _ARCHIVE_SPLITS
 DATA = ROOT / "ddi_fw" / "data" / "extended"
 
 
