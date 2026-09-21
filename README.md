@@ -16,9 +16,10 @@ Recordatorio. No es un contrato nuevo: el glosario canónico para agentes está 
 | `cláusula` | Unidad de texto que se embebe y se juzga sola | Un chunk de tokens |
 | `fila` | Vector denso de una cláusula | Un promedio de oraciones |
 | `hoja` | Intervalos `[lo, hi]` por eje, entre dos almas | Medias, centroides, top-k |
-| `eje disjunto` | Dimensión donde los intervalos no se tocan (`gap > 0`) | Un umbral de coseno |
-| `candado` | Hoja + ejes disjuntos de un par; se publica solo si hay al menos un disjunto | Un clasificador de toxicidad |
+| `eje disjunto` | Pared de un eje: los intervalos no se tocan (`gap > 0`) | La hipótesis de resonancia |
+| `candado` | Hoja + ejes disjuntos; se publica solo si hay al menos un disjunto | Un clasificador de toxicidad |
 | `corte duro` | Etiqueta `left` / `right` / `split` / `out` **solo** en disjuntos | Un score angular |
+| `resonancia armónica` | Hipótesis abierta. Se cierra con cláusulas que no armaron las cajas | Un censo de las mismas cláusulas de la caja |
 | `piggyback` | Ataque que mezcla oficios en un mismo prompt | Una palabra prohibida |
 | `press` | Censo fila por fila de un `rows.npz` ya calibrado | Volver a embeber |
 
@@ -38,7 +39,13 @@ uv run python -m ddi_fw.embedder --embedder bge-m3 --out ddi_fw/out/rows.npz --r
 uv run python -m ddi_fw.press --rows ddi_fw/out/rows.npz --out ddi_fw/out
 ```
 
-Si un par queda con 0 ejes disjuntos el candado **no se publica**: se podan filas, nunca se inventa holgura de `gap`.
+Si un par queda con 0 ejes disjuntos el candado de producto **no se publica**: se podan filas, nunca se inventa holgura de `gap`. Eso no cierra la hipótesis de resonancia.
+
+## Precisión
+
+Norma vigente: [`current-research/universal-remediation-directive.md`](./current-research/universal-remediation-directive.md).
+
+Las coordenadas viven cerca de 0,025. Una separación entre temas, si existe, es del orden de `10^{-4}` a `10^{-6}`. El veredicto usa float32. Float16 no entra a ese camino. No se usa `round` ni `:.4f` / `:.6f`. El texto de una coordenada se escribe `f"{float(val):.17g}"` o `str(float(val))`. Si una pantalla acorta un número, el dato de abajo queda entero y el pie dice `display-only rounding; engine unrounded`.
 
 Medición científica **sin poda** (ola Q / Qwen2). No llama `calibrate()`. No pisa `ddi_fw/out/rows.npz`:
 
@@ -92,11 +99,11 @@ uv run python -m ddi_fw.press --benchmark-all --live --models bge-m3,nomic --out
 
 Pack vivo en [`roadmap/`](./roadmap/):
 
-- [Índice](./roadmap/README.md) · [Alcance](./roadmap/00-alcance.md) · [Almas](./roadmap/almas.md)
-- **Etapa actual**: ola Q — [briefing Qwen2](./roadmap/00-qwen2-live.md) · tickets [Q01](./roadmap/tickets/Q01-artifact-isolation-no-prune.md)–[Q05](./roadmap/tickets/Q05-ledger-synthesis.md)
-- **Ledger**: [current-research/embedder-ledger.md](./current-research/embedder-ledger.md)
-- **Histórico v0.1 (Archivado)**: Tickets [D01 a D07](./roadmap/archive/v0.1-bge-m3/) consolidados en el tag `v0.1.0-bge-m3-baseline`.
-- **Deletor (estacionada)**: rama `feat/hipotesis-deletor`. No es pack vivo.
+- [Índice](./roadmap/README.md)
+- **Etapa actual**: resonancia `rechazada` en [`current-research/resonancia-cierre.md`](./current-research/resonancia-cierre.md). Auditoría numérica en [`current-research/auditoria-numerica.md`](./current-research/auditoria-numerica.md).
+- **Ola Q archivada**: [`roadmap/archive/ola-q/README.md`](./roadmap/archive/ola-q/README.md)
+- **Histórico v0.1**: [D01 a D07](./roadmap/archive/v0.1-bge-m3/), tag `v0.1.0-bge-m3-baseline`.
+- **Deletor (estacionada)**: rama `feat/hipotesis-deletor`. No es pack vivo. Los textos que trataban esa hipótesis como confirmada están en [`current-research/archive/`](./current-research/archive/README.md).
 
 ## Copyright
 

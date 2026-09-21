@@ -23,4 +23,4 @@ Campaign briefings:
 
 - Frozen BGE dump: [`engines/bge-m3.md`](./engines/bge-m3.md)
 - Qwen2 dump: [`engines/gte-qwen2-1.5b.md`](./engines/gte-qwen2-1.5b.md)
-- Protocol: [`../roadmap/00-qwen2-live.md`](../roadmap/00-qwen2-live.md)
+- Protocol: [`../roadmap/archive/ola-q/00-qwen2-live.md`](../roadmap/archive/ola-q/00-qwen2-live.md) (ola Q archivada)

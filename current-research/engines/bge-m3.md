@@ -26,7 +26,7 @@ Headline census `python_receta`: 21/21 `left` (python), 17/17 `right` (receta).
 ## Protocol notes
 
 - Decision rule: interval inclusion + `corte duro` on disjoint axes. No `cosine`, no centroids, no `mean` of rows.
-- `calibrate()` **pruned** toward publish for BGE. That is **not** the Qwen2 path (`00-qwen2-live.md` §6).
+- `calibrate()` **pruned** toward publish for BGE. That is **not** the Qwen2 path (`roadmap/archive/ola-q/00-qwen2-live.md` §6).
 - `mean_gap` lived only in `benchmark_models.json`.
 
 ## Other engines that day (not this dump’s geometry)

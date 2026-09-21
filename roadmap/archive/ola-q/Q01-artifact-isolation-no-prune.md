@@ -2,7 +2,7 @@
 
 > **Estado:** hecho
 > **Ola:** Qwen2 live (Q)
-> **Briefing (wins conflicts):** [`../00-qwen2-live.md`](../00-qwen2-live.md)
+> **Briefing (wins conflicts):** [`../00-qwen2-live.md`](./00-qwen2-live.md)
 > **Live model:** no
 
 ---
@@ -76,8 +76,8 @@ uv run pytest -q
 ## Copiable prompt
 
 ```text
-Using dev-protocol, execute roadmap/tickets/Q01-artifact-isolation-no-prune.md.
-Read roadmap/00-qwen2-live.md first; it wins conflicts.
+Using dev-protocol, execute roadmap/archive/ola-q/Q01-artifact-isolation-no-prune.md.
+Read roadmap/archive/ola-q/00-qwen2-live.md first; it wins conflicts.
 Add measure_and_save (no podar_hasta_publicar, no rewrite fixtures) and isolate artifacts under ddi_fw/out/qwen2/.
 FakeEmbedder tests only. Do not load Qwen2. Do not edit archive or ddi_fw/data/.
 uv run pytest -q must stay green.
