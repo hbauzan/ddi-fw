@@ -24,6 +24,7 @@ Norma numérica vigente: [`universal-remediation-directive.md`](./universal-reme
 | [embedder-ledger.md](./embedder-ledger.md) | Tabla de motores. Los disjuntos son la pared de un eje |
 | [engines/bge-m3.md](./engines/bge-m3.md) | Campaña BGE-M3 sellada (2026-09-19) |
 | [engines/gte-qwen2-1.5b.md](./engines/gte-qwen2-1.5b.md) | Campaña Qwen2 (ola Q), live 2026-09-19 |
+| [informe-2026-09-21.md](./informe-2026-09-21.md) | Informe del día: qué se hizo y estado de la hipótesis |
 | [resonancia-cierre.md](./resonancia-cierre.md) | Cierre T0–T4, 2026-09-21: `rechazada` |
 | [auditoria-numerica.md](./auditoria-numerica.md) | N1–N4, 2026-09-21. N3 no se corrió |
 | [archive/](./archive/README.md) | Lecturas retiradas del contexto activo |
