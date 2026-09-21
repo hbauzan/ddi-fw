@@ -28,3 +28,6 @@ ddi_fw/out/
 # Rompepepe runs and vaults
 tools/rompepepe/vault/
 
+# Corrida local de la auditoría numérica
+reports/
+

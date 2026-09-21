@@ -257,11 +257,11 @@ BGE asserting “all three pairs published” is **not** a Qwen2 DoD. Qwen2 DoD 
 
 | ID | Title | Live model? |
 | :--- | :--- | :--- |
-| [Q01](./tickets/Q01-artifact-isolation-no-prune.md) | Isolate `out/qwen2/` + no-prune measure/persist | no |
-| [Q02](./tickets/Q02-qwen2-load.md) | Prove the adapter loads and encodes one string at 1536-D | yes, smoke |
-| [Q03](./tickets/Q03-geometry-press.md) | Full-deck geometry + press census | yes |
-| [Q04](./tickets/Q04-ingress-hold-live.md) | Ingress/hold (and optional proxy) on Qwen2 locks | yes, gated on publish |
-| [Q05](./tickets/Q05-ledger-synthesis.md) | Ledger + comparison vs frozen BGE | no |
+| [Q01](./Q01-artifact-isolation-no-prune.md) | Isolate `out/qwen2/` + no-prune measure/persist | no |
+| [Q02](./Q02-qwen2-load.md) | Prove the adapter loads and encodes one string at 1536-D | yes, smoke |
+| [Q03](./Q03-geometry-press.md) | Full-deck geometry + press census | yes |
+| [Q04](./Q04-ingress-hold-live.md) | Ingress/hold (and optional proxy) on Qwen2 locks | yes, gated on publish |
+| [Q05](./Q05-ledger-synthesis.md) | Ledger + comparison vs frozen BGE | no |
 
 Do not start Q02 until Q01 is `hecho`.
 Do not start Q04 if Q03 recorded `blocker_*` or if headline pairs are unpublished (then Q04 becomes a documented skip, still `hecho` with evidence).
@@ -279,7 +279,7 @@ Repo: ddi-fw. Working tree: current main + this briefing.
 Read first, in order:
   1. .agents/skills/dev-protocol/SKILL.md
   2. .agents/skills/dev-protocol/lessons-learned.md
-  3. roadmap/00-qwen2-live.md          ← this file; it wins conflicts
+  3. roadmap/archive/ola-q/00-qwen2-live.md          ← this file; it wins conflicts
   4. the single ticket you are executing (Q01 then Q02 then Q03 then Q04 then Q05)
   5. CONTEXT.md and architecture_spec.md if you touch contracts
 
@@ -305,5 +305,5 @@ After each ticket: fill current-research/engines/gte-qwen2-1.5b.md and append/up
 ONLY the Qwen2 row in current-research/embedder-ledger.md. Never edit the BGE-M3 row.
 
 Copyable start for Q01:
-  Usando dev-protocol, ejecutá roadmap/tickets/Q01-artifact-isolation-no-prune.md
+  Usando dev-protocol, ejecutá roadmap/archive/ola-q/Q01-artifact-isolation-no-prune.md
 ```
