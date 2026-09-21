@@ -3,7 +3,7 @@
 > **Estado:** hecho (`skipped_unpublished`)
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q03
-> **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
+> **Briefing:** [`../00-qwen2-live.md`](./00-qwen2-live.md)
 > **Live model:** yes, **only if** headline locks published
 
 ---
@@ -77,8 +77,8 @@ Optional proxy: only if locks published. Unit tests in `tests/test_ddi_proxy.py`
 ## Copiable prompt
 
 ```text
-Using dev-protocol, execute roadmap/tickets/Q04-ingress-hold-live.md.
-Read roadmap/00-qwen2-live.md first.
+Using dev-protocol, execute roadmap/archive/ola-q/Q04-ingress-hold-live.md.
+Read roadmap/archive/ola-q/00-qwen2-live.md first.
 Use locks from ddi_fw/out/qwen2/rows.npz and get_embedder("qwen2").
 Canonical strings from tests/world.py only.
 If python_receta is unpublished: skip live containment, record skipped_unpublished, do not prune mazos.

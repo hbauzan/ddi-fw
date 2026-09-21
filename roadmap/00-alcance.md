@@ -68,10 +68,10 @@ ddi-fw/
 ├── roadmap/
 │   ├── README.md
 │   ├── 00-alcance.md
-│   ├── 00-qwen2-live.md
+│   ├── hipotesis-resonancia/
+│   ├── auditoria-numerica/
 │   ├── almas.md
-│   ├── tickets/Q01–Q05
-│   └── archive/
+│   └── archive/                ← v0.1 y ola Q
 ├── current-research/        ← ledger empírico (BGE sellado, Qwen2 pendiente)
 │       └── v0.1-bge-m3/
 │           ├── D01-pintar-almas.md

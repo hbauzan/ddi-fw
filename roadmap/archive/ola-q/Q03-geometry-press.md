@@ -3,7 +3,7 @@
 > **Estado:** hecho (`ok_unpublished` headlines)
 > **Ola:** Qwen2 live (Q)
 > **Depends on:** Q02 smoke `ok` (if Q02 is `blocker_*`, skip live here, write `—` in geometry cells, still close Q05 later)
-> **Briefing:** [`../00-qwen2-live.md`](../00-qwen2-live.md)
+> **Briefing:** [`../00-qwen2-live.md`](./00-qwen2-live.md)
 > **Live model:** yes, full `alma` decks
 
 ---
@@ -81,8 +81,8 @@ Headline census analogue of BGE’s 21/21 left and 17/17 right: count how many p
 ## Copiable prompt
 
 ```text
-Using dev-protocol, execute roadmap/tickets/Q03-geometry-press.md.
-Read roadmap/00-qwen2-live.md first.
+Using dev-protocol, execute roadmap/archive/ola-q/Q03-geometry-press.md.
+Read roadmap/archive/ola-q/00-qwen2-live.md first.
 Use the Q01 no-prune path. Never calibrate() / never --rewrite-fixtures.
 Embed python=21, legal=16, receta=17 with Qwen2 at 1536-D.
 Write artifacts only under ddi_fw/out/qwen2/.
