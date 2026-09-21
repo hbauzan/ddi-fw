@@ -188,3 +188,48 @@ def test_run_protocolo_03_synthetic(tmp_path: Path) -> None:
     assert "conteo_cumplen_sd_1_5" in res
 
 
+def test_compute_decimals_needed() -> None:
+    from ddi_fw.ecualizador.auditoria_decimal import compute_decimals_needed
+
+    assert compute_decimals_needed(0.05) == 2  # ceil(-log10(0.05)) = ceil(1.301) = 2
+    assert compute_decimals_needed(0.001) == 3  # 10^-3
+    assert compute_decimals_needed(0.00015) == 4
+    assert compute_decimals_needed(1e-6) == 6
+    assert compute_decimals_needed(0.0) == 0
+
+
+def test_run_protocolo_04_synthetic(tmp_path: Path) -> None:
+    from ddi_fw.ecualizador.auditoria_decimal import run_protocolo_04
+    from ddi_fw.ecualizador.paja import run_protocolo_02
+
+    almas = ("python", "receta", "legal", "medicina", "astronomia")
+    npz_data: dict[str, object] = {
+        "model_id": "BAAI/bge-m3",
+        "dimension": 8,
+    }
+    for idx, a in enumerate(almas):
+        mat = np.random.randn(20, 8).astype(np.float32) * 0.01 + (idx * 0.02)
+        npz_data[a] = mat
+
+    dummy_rows = tmp_path / "dummy_rows.npz"
+    np.savez(dummy_rows, **npz_data)
+
+    p1_dir = tmp_path / "out_p1"
+    run_protocolo_01(rows_path=dummy_rows, out_dir=p1_dir)
+
+    p2_dir = tmp_path / "out_p2"
+    run_protocolo_02(intrinseco_dir=p1_dir, out_dir=p2_dir)
+
+    out_file = tmp_path / "auditoria.json"
+    res = run_protocolo_04(
+        intrinseco_dir=p1_dir,
+        paja_dir=p2_dir,
+        out_file=out_file,
+        run_live_drift=False,
+        cached_deriva_max=1e-7,
+    )
+
+    assert out_file.exists()
+    assert res["delta_min"] > 0
+    assert res["ratio_inmunidad"] > 100
+    assert res["inmunidad_confirmada"] is True

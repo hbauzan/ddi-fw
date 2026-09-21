@@ -17,13 +17,9 @@ from typing import Any
 from ddi_fw.ecualizador.intrinseco import fmt_float
 from ddi_fw.hardware import get_hardware_profile
 
-DEFAULT_CRUCE_DIR = (
-    Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "cruce_trigos"
-)
+DEFAULT_CRUCE_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "cruce_trigos"
 DEFAULT_PAJA_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "paja"
-DEFAULT_INTRINSECO_DIR = (
-    Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "intrinseco"
-)
+DEFAULT_INTRINSECO_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "intrinseco"
 
 PARES_CANONICOS = (
     ("python", "receta"),
@@ -67,14 +63,10 @@ def run_protocolo_03(
     # 1. Cargar el catálogo de paja para conocer las dimensiones de trigo candidato
     cat_path = paja_dir / "catalogo_paja_estructural.json"
     if not cat_path.exists():
-        raise FileNotFoundError(
-            f"Falta {cat_path}: ejecute Protocolo 02 primero."
-        )
+        raise FileNotFoundError(f"Falta {cat_path}: ejecute Protocolo 02 primero.")
     cat_meta = json.loads(cat_path.read_text(encoding="utf-8"))
     trigo_dims = {
-        r["dimension"]: r
-        for r in cat_meta["dimensiones"]
-        if r["etiqueta"] == "TRIGO_CANDIDATO"
+        r["dimension"]: r for r in cat_meta["dimensiones"] if r["etiqueta"] == "TRIGO_CANDIDATO"
     }
 
     # 2. Cargar perfiles intrínsecos de cada alma
@@ -194,13 +186,9 @@ def run_protocolo_03(
         "total_trigos_evaluados": len(cruce_records),
         "conteo_dimensiones_cumplen_sd_1_5": len(dims_cumplen),
         "diagnostico_hipotesis": (
-            "CONFIRMADA_FUERTE"
-            if len(dims_cumplen) > 0
-            else "NO_ALCANZA_UMBRAL_1_5_SIMULTANEO"
+            "CONFIRMADA_FUERTE" if len(dims_cumplen) > 0 else "NO_ALCANZA_UMBRAL_1_5_SIMULTANEO"
         ),
-        "max_min_sd_alcanzado": (
-            python_candidates[0]["min_sd"] if python_candidates else 0.0
-        ),
+        "max_min_sd_alcanzado": (python_candidates[0]["min_sd"] if python_candidates else 0.0),
         "top_10_dimensiones_discriminantes_python": python_candidates[:10],
         "paja_secundaria_por_par": paja_secundaria_por_par,
         "excelentes_por_par": excelentes_por_par,
@@ -217,10 +205,6 @@ def run_protocolo_03(
         "json_path": str(json_py_path),
         "total_trigos": len(cruce_records),
         "conteo_cumplen_sd_1_5": len(dims_cumplen),
-        "top_1_dim_python": (
-            python_candidates[0]["dimension"] if python_candidates else None
-        ),
-        "top_1_min_sd_python": (
-            python_candidates[0]["min_sd"] if python_candidates else 0.0
-        ),
+        "top_1_dim_python": (python_candidates[0]["dimension"] if python_candidates else None),
+        "top_1_min_sd_python": (python_candidates[0]["min_sd"] if python_candidates else 0.0),
     }
