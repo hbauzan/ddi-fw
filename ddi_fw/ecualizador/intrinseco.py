@@ -17,12 +17,8 @@ import numpy as np
 from ddi_fw.ecualizador import ALMAS_ECUALIZADOR
 from ddi_fw.hardware import get_hardware_profile
 
-DEFAULT_ROWS_PATH = (
-    Path(__file__).resolve().parents[1] / "out" / "extended_bge" / "rows.npz"
-)
-DEFAULT_OUT_DIR = (
-    Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "intrinseco"
-)
+DEFAULT_ROWS_PATH = Path(__file__).resolve().parents[1] / "out" / "extended_bge" / "rows.npz"
+DEFAULT_OUT_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "intrinseco"
 
 
 def fmt_float(val: float | np.floating) -> str:

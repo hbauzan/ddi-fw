@@ -25,9 +25,7 @@ from ddi_fw.ecualizador.intrinseco import fmt_float
 from ddi_fw.hardware import get_hardware_profile
 
 DEFAULT_PAJA_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "paja"
-DEFAULT_INTRINSECO_DIR = (
-    Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "intrinseco"
-)
+DEFAULT_INTRINSECO_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "intrinseco"
 
 # Umbrales canónicos determinados en análisis exploratorio
 DEFAULT_THETA_SATURACION = 0.05
@@ -198,21 +196,13 @@ def run_protocolo_02(
     )
 
     # 5. Generar los Trigos Depurados por corpus: {alma}_trigo_depurado.csv
-    trigo_dims = {
-        r["dimension"]
-        for r in catalogo_records
-        if r["etiqueta"] == "TRIGO_CANDIDATO"
-    }
+    trigo_dims = {r["dimension"] for r in catalogo_records if r["etiqueta"] == "TRIGO_CANDIDATO"}
 
     trigos_resumen: dict[str, str] = {}
     for alma in ALMAS_ECUALIZADOR:
         csv_trigo = out_dir / f"{alma}_trigo_depurado.csv"
         # Obtener métricas intrínsecas de las dimensiones de trigo
-        trigo_records = [
-            almas_data[alma][d]
-            for d in range(num_dims)
-            if d in trigo_dims
-        ]
+        trigo_records = [almas_data[alma][d] for d in range(num_dims) if d in trigo_dims]
         # Ordenar por energía descendente
         trigo_records.sort(key=lambda r: r["energia"], reverse=True)
 
