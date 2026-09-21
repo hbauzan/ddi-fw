@@ -100,7 +100,8 @@ uv run python -m ddi_fw.press --benchmark-all --live --models bge-m3,nomic --out
 Pack vivo en [`roadmap/`](./roadmap/):
 
 - [Índice del Pack Vivo](./roadmap/README.md)
-- **Etapa actual**: **Hipótesis del Ecualizador Espectral** (Protocolos 00 a 04 en [`roadmap/hipotesis-ecualizador/`](./roadmap/hipotesis-ecualizador/)).
+- **Informe Metodológico y Evidencia Empírica**: [`roadmap/hipotesis-ecualizador/05-informe-metodologico-y-evidencia.md`](./roadmap/hipotesis-ecualizador/05-informe-metodologico-y-evidencia.md) (Consolidación exhaustiva: métricas de datos, pipeline de 5 fases, scripts asociados y respaldo experimental).
+- **Etapa actual**: **Hipótesis del Ecualizador Espectral** (Protocolos 00 a 05 en [`roadmap/hipotesis-ecualizador/`](./roadmap/hipotesis-ecualizador/)).
   - **Poda de Paja Estructural**: 39 dimensiones de ruido basal aisladas (7 saturadas con energía basal $> 0.12$, 32 planas sin variabilidad temática), dejando 985 trigos candidatos depurados.
   - **Norma Universal de 6 Decimales (`10^{-6}`)**: Convención estándar nativa de `float32` (mantisa de 24 bits = ~7.2 dígitos significativos). Opera con un factor de seguridad de $1.000\times$ sobre el promedio temático ($\Delta_{avg} = 0.0139$, 2 a 3 decimales) y corta estrictamente por encima de la deriva del silicio ($2.46 \times 10^{-7}$). Inmunidad y compatibilidad total en C, Python, Rust y CUDA.
   - **Regla Universal del Quórum del 10% ($\lceil 0.10 \times D \rceil$)**: Premisa arquitectónica para BGE-M3 (100D de 1024D) y futuros motores (ej. 150D en Qwen2 1536D, 26D en Gemma 256D). Concentra más del 85% de la información discriminante y descarta el 90% del espectro ruidoso.
