@@ -24,17 +24,19 @@ Carpeta: [`hipotesis-ecualizador/`](./hipotesis-ecualizador/)
 
 - **Catálogo de Almas:** [`almas.md`](./almas.md) (especificación de los 5 corpus canónicos: `python`, `receta`, `legal`, `medicina`, `astronomia`).
 - **Glosario Canónico:** [`../CONTEXT.md`](../CONTEXT.md).
-- **Norma de Precisión Numérica:** [`../current-research/universal-remediation-directive.md`](../current-research/universal-remediation-directive.md).
+- **Norma de Precisión Numérica:** [`../.agents/rules/cero-redondeos.md`](../.agents/rules/cero-redondeos.md).
 
 ---
 
 ## 3. Archivo Histórico
 
-Los ciclos de investigación cerrados se preservan de forma inmutable en [`archive/`](./archive/):
+Los ciclos de investigación cerrados, auditorías pasadas y tickets previos se preservan en el directorio unificado [`../archive/`](../archive/):
 
 * **Ciclo 2026-09-21 (Cierre de Resonancia T0–T4 y Auditoría Numérica N1–N4):**  
-  [`archive/2026-09-21-cierre-resonancia-auditoria/`](./archive/2026-09-21-cierre-resonancia-auditoria/)
+  [`../archive/roadmap-legacy/2026-09-21-cierre-resonancia-auditoria/`](../archive/roadmap-legacy/2026-09-21-cierre-resonancia-auditoria/)
 * **Ola Q (GTE-Qwen2 1.5B):**  
-  [`archive/ola-q/`](./archive/ola-q/)
+  [`../archive/roadmap-legacy/ola-q/`](../archive/roadmap-legacy/ola-q/)
 * **Baseline BGE-M3 v0.1:**  
-  [`archive/v0.1-bge-m3/`](./archive/v0.1-bge-m3/)
+  [`../archive/roadmap-legacy/v0.1-bge-m3/`](../archive/roadmap-legacy/v0.1-bge-m3/)
+* **Investigaciones Históricas Previas:**  
+  [`../archive/current-research/`](../archive/current-research/)

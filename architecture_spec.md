@@ -94,7 +94,7 @@ Política demo: `allowed=python`, `forbidden={receta,legal}`. PASS solo si **tod
 
 ## Precisión numérica
 
-Norma: `current-research/universal-remediation-directive.md`.
+Norma: `.agents/rules/cero-redondeos.md`.
 
 - El vector que entra a hoja, corte y `decide` es float32. Float16 no entra a ese camino. Un peso puede cargarse en float16; la salida del embedder no.
 - Cotas y gaps se extraen con `float(np.min(...))` / `float(lo_b - hi_a)`. Sin `round`.

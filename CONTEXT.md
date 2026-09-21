@@ -36,7 +36,7 @@ Hoja + ejes disjuntos de un par. Se **publica** solo si hay al menos un eje disj
 
 ## Resonancia armónica
 
-Hipótesis abierta: una cláusula que no armó las cajas se separa de otro tema por conteos enteros de coordenadas (`solo` nativo y `solo` ajeno). No está confirmada. El protocolo de cierre está en `roadmap/hipotesis-resonancia/`.
+Hipótesis histórica cerrada como rechazada el 2026-09-21 (archivada en `archive/current-research/resonancia-cierre.md`). Superada por el Ecualizador Espectral (`roadmap/hipotesis-ecualizador/`).
 
 ## Voto
 
@@ -64,6 +64,6 @@ Censo fila por fila de un `rows.npz` ya calibrado. No re-embebe. No publica camp
 
 ## Precisión numérica
 
-Norma: `current-research/universal-remediation-directive.md`.
+Norma: `.agents/rules/cero-redondeos.md`.
 
 Cada coordenada vive cerca de 0,025, en `[-0.15, +0.15]`. Una separación entre temas, si existe, vive entre `10^{-4}` y `10^{-6}`. El veredicto lee float32 nativo. Float16 no entra a ese camino. Prohibido `round` y los formatos `:.4f` / `:.6f`. La exportación a texto usa `f"{float(val):.17g}"` o `str(float(val))`. Un número corto en pantalla lleva la marca `display-only rounding; engine unrounded` y no toca el dato.

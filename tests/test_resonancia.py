@@ -19,8 +19,8 @@ ROOT = Path(__file__).resolve().parents[1]
 _DEFAULT_SPLITS = ROOT / "roadmap" / "hipotesis-resonancia" / "splits.json"
 _ARCHIVE_SPLITS = (
     ROOT
-    / "roadmap"
     / "archive"
+    / "roadmap-legacy"
     / "2026-09-21-cierre-resonancia-auditoria"
     / "hipotesis-resonancia"
     / "splits.json"

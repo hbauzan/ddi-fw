@@ -15,8 +15,8 @@ ROOT = Path(__file__).resolve().parents[1]
 _DEFAULT_SPLITS = ROOT / "roadmap" / "hipotesis-resonancia" / "splits.json"
 _ARCHIVE_SPLITS = (
     ROOT
-    / "roadmap"
     / "archive"
+    / "roadmap-legacy"
     / "2026-09-21-cierre-resonancia-auditoria"
     / "hipotesis-resonancia"
     / "splits.json"
@@ -24,8 +24,8 @@ _ARCHIVE_SPLITS = (
 SPLITS = _DEFAULT_SPLITS if _DEFAULT_SPLITS.exists() else _ARCHIVE_SPLITS
 DATA = ROOT / "ddi_fw" / "data" / "extended"
 ROWS = ROOT / "ddi_fw" / "out" / "extended_bge" / "rows.npz"
-OUT_JSON = ROOT / "current-research" / "resonancia-cierre.json"
-OUT_MD = ROOT / "current-research" / "resonancia-cierre.md"
+OUT_JSON = ROOT / "archive" / "current-research" / "resonancia-cierre.json"
+OUT_MD = ROOT / "archive" / "current-research" / "resonancia-cierre.md"
 
 
 def _deck_texts(alma: str) -> dict[str, str]:
