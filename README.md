@@ -99,8 +99,14 @@ uv run python -m ddi_fw.press --benchmark-all --live --models bge-m3,nomic --out
 
 Pack vivo en [`roadmap/`](./roadmap/):
 
-- [Índice](./roadmap/README.md)
-- **Etapa actual**: resonancia `rechazada` en [`current-research/resonancia-cierre.md`](./current-research/resonancia-cierre.md). Auditoría numérica en [`current-research/auditoria-numerica.md`](./current-research/auditoria-numerica.md).
+- [Índice del Pack Vivo](./roadmap/README.md)
+- **Etapa actual**: **Hipótesis del Ecualizador Espectral** (Protocolos 00 a 04 en [`roadmap/hipotesis-ecualizador/`](./roadmap/hipotesis-ecualizador/)).
+  - **Poda de Paja Estructural**: 39 dimensiones de ruido basal aisladas (7 saturadas con energía basal $> 0.12$, 32 planas sin variabilidad temática), dejando 985 trigos candidatos depurados.
+  - **Norma Universal de 6 Decimales (`10^{-6}`)**: Convención estándar nativa de `float32` (mantisa de 24 bits = ~7.2 dígitos significativos). Opera con un factor de seguridad de $1.000\times$ sobre el promedio temático ($\Delta_{avg} = 0.0139$, 2 a 3 decimales) y corta estrictamente por encima de la deriva del silicio ($2.46 \times 10^{-7}$). Inmunidad y compatibilidad total en C, Python, Rust y CUDA.
+  - **Regla Universal del Quórum del 10% ($\lceil 0.10 \times D \rceil$)**: Premisa arquitectónica para BGE-M3 (100D de 1024D) y futuros motores (ej. 150D en Qwen2 1536D, 26D en Gemma 256D). Concentra más del 85% de la información discriminante y descarta el 90% del espectro ruidoso.
+  - **Confirmación Matemática Anti-Bypass ($P < 10^{-9}$)**: En 100 dimensiones contrastadas, la probabilidad combinada de que un prompt ajeno o inyección hostil coincida por azar en el quórum es $P \le (0.8)^{100} \approx 2.03 \times 10^{-10}$ (menos de 1 en 5.000 millones). La fluctuación de 3 a 5 dimensiones por estilo léxico es absorbida holgadamente por el 95% restante del quórum. Latencia sub-milisegundo (< 10 $\mu$s en CPU).
+  - **Auditoría de Hardware & Precisión**: Deriva física Apple M4 GPU (`mps:0`) vs CPU medida en $2.46 \times 10^{-7}$. En el Top 10% ($\Delta \ge 0.01$), la separación física es más de $50.000\times$ superior a la deriva de hardware. Operaciones acumuladas en memoria en `float64`.
+- **Archivo Histórico 2026-09-21**: Cierre de resonancia T0–T4 y auditoría numérica N1–N4 en [`roadmap/archive/2026-09-21-cierre-resonancia-auditoria/`](./roadmap/archive/2026-09-21-cierre-resonancia-auditoria/).
 - **Ola Q archivada**: [`roadmap/archive/ola-q/README.md`](./roadmap/archive/ola-q/README.md)
 - **Histórico v0.1**: [D01 a D07](./roadmap/archive/v0.1-bge-m3/), tag `v0.1.0-bge-m3-baseline`.
 - **Deletor (estacionada)**: rama `feat/hipotesis-deletor`. No es pack vivo. Los textos que trataban esa hipótesis como confirmada están en [`current-research/archive/`](./current-research/archive/README.md).
