@@ -1,34 +1,40 @@
-# Pack vivo
+# Roadmap — Deep Dimensional Inspector Firewall (`ddi-fw`)
 
-La resonancia ya se midió. La auditoría numérica también.
+Pack de trabajo activo al 21 de septiembre de 2026.
 
-## Resonancia armónica
+---
 
-Cerrada el 2026-09-21: `rechazada`. Medición en [`../current-research/resonancia-cierre.md`](../current-research/resonancia-cierre.md).
+## 1. Pack Activo: Hipótesis del Ecualizador Espectral
 
-[`hipotesis-resonancia/00-protocolo.md`](./hipotesis-resonancia/00-protocolo.md)
+Investigación de la firma de coordenadas densas basada en la extracción intrínseca de corpus, poda de ruido basal común (la paja), aislamiento de extractos puros (los trigos) y auditoría de profundidad decimal en memoria `float64`.
 
-- T0: ninguna frase de la caja está también en el held-out. Partición en [`splits.json`](./hipotesis-resonancia/splits.json).
-- T1: las cajas salen solo del fit, en BGE float32.
-- T2: se puntúan las frases que no armaron las cajas, en los diez pares.
-- T3: lo mismo con dos mitades de python.
-- T4: `confirmada` si T2 pasa y T3 no. `rechazada` si T2 falla o si T3 pasa igual. No hay "casi".
+Carpeta: [`hipotesis-ecualizador/`](./hipotesis-ecualizador/)
 
-## Auditoría numérica
+| Documento | Rol |
+| :--- | :--- |
+| [00-definicion-y-hardware.md](./hipotesis-ecualizador/00-definicion-y-hardware.md) | Fundamentos teóricos, modelo baseline (`bge-m3`) y estándar obligatorio de registro de hardware |
+| [01-protocolo-extraccion-intrinseca.md](./hipotesis-ecualizador/01-protocolo-extraccion-intrinseca.md) | Caracterización de 1024 dimensiones por corpus individual sin mezclar dominios |
+| [02-protocolo-doble-poda-paja.md](./hipotesis-ecualizador/02-protocolo-doble-poda-paja.md) | Criterio A (saturación universal) y Criterio B (indiferenciación temática $\Delta \approx 0$) |
+| [03-protocolo-cruce-trigos.md](./hipotesis-ecualizador/03-protocolo-cruce-trigos.md) | Análisis de 10 pares canónicos, detección de paja secundaria y firma espectral de Python |
+| [04-auditoria-profundidad-decimal.md](./hipotesis-ecualizador/04-auditoria-profundidad-decimal.md) | Cuantificación de decimales necesarios ($\Delta_{min}$, $\Delta_{max}$, $\Delta_{avg}$) y tolerancia de hardware |
 
-[`auditoria-numerica/00-indice.md`](./auditoria-numerica/00-indice.md)
+---
 
-N1 batch y padding. N2 MPS y después CPU, un modelo a la vez. N3 excluida. N4 margen del corte, solo NumPy. No reemplaza T0–T4.
+## 2. Referencias del Dominio
 
-## Referencia
+- **Catálogo de Almas:** [`almas.md`](./almas.md) (especificación de los 5 corpus canónicos: `python`, `receta`, `legal`, `medicina`, `astronomia`).
+- **Glosario Canónico:** [`../CONTEXT.md`](../CONTEXT.md).
+- **Norma de Precisión Numérica:** [`../current-research/universal-remediation-directive.md`](../current-research/universal-remediation-directive.md).
 
-- Almas del demo: [`almas.md`](./almas.md)
-- Alcance de producto: [`00-alcance.md`](./00-alcance.md)
-- Norma numérica: [`../current-research/universal-remediation-directive.md`](../current-research/universal-remediation-directive.md)
-- Rama `feat/hipotesis-deletor`: estacionada. No se mergea.
+---
 
-## Archivo
+## 3. Archivo Histórico
 
-- Ola Q, cerrada: [`archive/ola-q/README.md`](./archive/ola-q/README.md)
-- Baseline BGE v0.1: [`archive/v0.1-bge-m3/`](./archive/v0.1-bge-m3/)
-- Lecturas que no cierran la resonancia: [`../current-research/archive/README.md`](../current-research/archive/README.md)
+Los ciclos de investigación cerrados se preservan de forma inmutable en [`archive/`](./archive/):
+
+* **Ciclo 2026-09-21 (Cierre de Resonancia T0–T4 y Auditoría Numérica N1–N4):**  
+  [`archive/2026-09-21-cierre-resonancia-auditoria/`](./archive/2026-09-21-cierre-resonancia-auditoria/)
+* **Ola Q (GTE-Qwen2 1.5B):**  
+  [`archive/ola-q/`](./archive/ola-q/)
+* **Baseline BGE-M3 v0.1:**  
+  [`archive/v0.1-bge-m3/`](./archive/v0.1-bge-m3/)
