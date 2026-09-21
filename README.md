@@ -43,7 +43,7 @@ Si un par queda con 0 ejes disjuntos el candado de producto **no se publica**: s
 
 ## Precisión
 
-Norma vigente: [`current-research/universal-remediation-directive.md`](./current-research/universal-remediation-directive.md).
+Norma vigente: [`.agents/rules/cero-redondeos.md`](./.agents/rules/cero-redondeos.md).
 
 Las coordenadas viven cerca de 0,025. Una separación entre temas, si existe, es del orden de `10^{-4}` a `10^{-6}`. El veredicto usa float32. Float16 no entra a ese camino. No se usa `round` ni `:.4f` / `:.6f`. El texto de una coordenada se escribe `f"{float(val):.17g}"` o `str(float(val))`. Si una pantalla acorta un número, el dato de abajo queda entero y el pie dice `display-only rounding; engine unrounded`.
 
@@ -106,10 +106,11 @@ Pack vivo en [`roadmap/`](./roadmap/):
   - **Regla Universal del Quórum del 10% ($\lceil 0.10 \times D \rceil$)**: Premisa arquitectónica para BGE-M3 (100D de 1024D) y futuros motores (ej. 150D en Qwen2 1536D, 26D en Gemma 256D). Concentra más del 85% de la información discriminante y descarta el 90% del espectro ruidoso.
   - **Confirmación Matemática Anti-Bypass ($P < 10^{-9}$)**: En 100 dimensiones contrastadas, la probabilidad combinada de que un prompt ajeno o inyección hostil coincida por azar en el quórum es $P \le (0.8)^{100} \approx 2.03 \times 10^{-10}$ (menos de 1 en 5.000 millones). La fluctuación de 3 a 5 dimensiones por estilo léxico es absorbida holgadamente por el 95% restante del quórum. Latencia sub-milisegundo (< 10 $\mu$s en CPU).
   - **Auditoría de Hardware & Precisión**: Deriva física Apple M4 GPU (`mps:0`) vs CPU medida en $2.46 \times 10^{-7}$. En el Top 10% ($\Delta \ge 0.01$), la separación física es más de $50.000\times$ superior a la deriva de hardware. Operaciones acumuladas en memoria en `float64`.
-- **Archivo Histórico 2026-09-21**: Cierre de resonancia T0–T4 y auditoría numérica N1–N4 en [`roadmap/archive/2026-09-21-cierre-resonancia-auditoria/`](./roadmap/archive/2026-09-21-cierre-resonancia-auditoria/).
-- **Ola Q archivada**: [`roadmap/archive/ola-q/README.md`](./roadmap/archive/ola-q/README.md)
-- **Histórico v0.1**: [D01 a D07](./roadmap/archive/v0.1-bge-m3/), tag `v0.1.0-bge-m3-baseline`.
-- **Deletor (estacionada)**: rama `feat/hipotesis-deletor`. No es pack vivo. Los textos que trataban esa hipótesis como confirmada están en [`current-research/archive/`](./current-research/archive/README.md).
+- **Archivo Histórico Unificado**: Investigaciones previas, auditorías y ciclos concluidos en [`archive/`](./archive/):
+  - [Cierre de resonancia T0–T4 y auditoría N1–N4](./archive/roadmap-legacy/2026-09-21-cierre-resonancia-auditoria/).
+  - [Ola Q (Qwen2)](./archive/roadmap-legacy/ola-q/README.md).
+  - [Histórico v0.1 (D01 a D07)](./archive/roadmap-legacy/v0.1-bge-m3/).
+  - [Registros de investigación previa (Deletor, censos)](./archive/current-research/).
 
 ## Copyright
 
