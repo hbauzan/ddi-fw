@@ -18,6 +18,7 @@ Carpeta: [`hipotesis-ecualizador/`](./hipotesis-ecualizador/)
 | [03-protocolo-cruce-trigos.md](./hipotesis-ecualizador/03-protocolo-cruce-trigos.md) | Análisis de 10 pares canónicos, detección de paja secundaria y firma espectral de Python |
 | [04-auditoria-profundidad-decimal.md](./hipotesis-ecualizador/04-auditoria-profundidad-decimal.md) | Cuantificación de decimales necesarios ($\Delta_{min}$, $\Delta_{max}$, $\Delta_{avg}$) y tolerancia de hardware |
 | [05-informe-metodologico-y-evidencia.md](./hipotesis-ecualizador/05-informe-metodologico-y-evidencia.md) | Consolidación metodológica, volumen del dataset (550 cláusulas, 10.694 palabras), pipeline de 5 procesos y evidencia empírica |
+| [06-propuesta-escalamiento-11-corpus-trilingue.md](./hipotesis-ecualizador/06-propuesta-escalamiento-11-corpus-trilingue.md) | *(En Standby)* Propuesta de escalamiento a 11 corpus trilingües (ES/EN/DE) y comparativa de volumen de cláusulas |
 
 ---
 
