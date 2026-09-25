@@ -162,9 +162,14 @@ def load_rows(path: Path) -> dict[str, object]:
 
 
 def rows_matrices(bundle: dict[str, object]) -> dict[str, FloatArray]:
-    return {
-        alma: np.asarray(bundle[alma], dtype=np.float32) for alma in ALMA_NAMES if alma in bundle
-    }
+    matrices: dict[str, FloatArray] = {}
+    for key, val in bundle.items():
+        if key in {"model_id", "dimension"} or key.startswith(("ids_", "texts_")):
+            continue
+        arr = np.asarray(val, dtype=np.float32)
+        if arr.ndim == 2:
+            matrices[key] = arr
+    return matrices
 
 
 def resolve_out_dir(out: Path) -> Path:

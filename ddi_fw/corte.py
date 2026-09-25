@@ -75,8 +75,79 @@ def evaluar_corte_duro(
     return "split"
 
 
+def evaluar_corte_espectral(
+    votos: npt.NDArray[np.uint8],
+    ejes_trigo: list[int] | None = None,
+    quorum_min: int | None = None,
+    ruido_indices: list[int] | None = None,
+) -> tuple[Label, dict[str, int]]:
+    """Evalúa la disyunción mediante el Quórum del 10% y poda de ruido estructural basal.
+
+    - Poda de ruido estructural: Ignora dimensiones basales o planas.
+    - Quórum del 10%: Requiere al menos quorum_min votos concordantes en trigo.
+    - Garantía anti-bypass: P_bypass <= (0.80)^K (< 10^-9 con K >= 100).
+    """
+    total_dims = len(votos)
+    ruido_set = set(ruido_indices or ())
+
+    if ejes_trigo is not None:
+        ejes = [idx for idx in ejes_trigo if 0 <= idx < total_dims and idx not in ruido_set]
+    else:
+        ejes = [idx for idx in range(total_dims) if idx not in ruido_set]
+
+    quorum = quorum_min if quorum_min is not None else max(int(np.ceil(0.10 * total_dims)), 1)
+
+    if len(ejes) < quorum:
+        metrics = {
+            "votos_trigo_a": 0,
+            "votos_trigo_b": 0,
+            "votos_trigo_ninguna": 0,
+            "votos_trigo_ambas": 0,
+            "quorum_min": quorum,
+            "total_trigo": len(ejes),
+        }
+        return "out", metrics
+
+    subset = np.asarray(votos, dtype=np.uint8)[np.asarray(ejes, dtype=int)]
+    votos_a = int(np.count_nonzero(subset == VOTE_SOLO_A))
+    votos_b = int(np.count_nonzero(subset == VOTE_SOLO_B))
+    votos_ninguna = int(np.count_nonzero(subset == VOTE_NINGUNA))
+    votos_ambas = int(np.count_nonzero(subset == VOTE_AMBAS))
+
+    metrics = {
+        "votos_trigo_a": votos_a,
+        "votos_trigo_b": votos_b,
+        "votos_trigo_ninguna": votos_ninguna,
+        "votos_trigo_ambas": votos_ambas,
+        "quorum_min": quorum,
+        "total_trigo": len(ejes),
+    }
+
+    if votos_a >= quorum and votos_b < quorum:
+        return "left", metrics
+    if votos_b >= quorum and votos_a < quorum:
+        return "right", metrics
+    if votos_a >= quorum and votos_b >= quorum:
+        return "split", metrics
+    return "out", metrics
+
+
 def etiquetar_fila(
-    vector: npt.NDArray[np.floating], hoja: HojaDimensional
+    vector: npt.NDArray[np.floating],
+    hoja: HojaDimensional,
+    modo: Literal["auto", "espectral", "duro"] = "auto",
 ) -> tuple[Label, npt.NDArray[np.uint8]]:
+    """Etiqueta un vector contra una hoja dimensional.
+
+    En modo 'auto' utiliza corte espectral si la hoja tiene configuración
+    espectral (trigo_indices o quorum_min), y preserva corte duro en caso contrario.
+    """
     votos = votar_vector(vector, hoja)
+    is_spectral = getattr(hoja, "is_spectral", False)
+    if modo == "espectral" or (modo == "auto" and is_spectral):
+        ejes = hoja.ejes_trigo() if hasattr(hoja, "ejes_trigo") else hoja.ejes_disjuntos()
+        quorum = getattr(hoja, "quorum_min", None)
+        ruido = getattr(hoja, "ruido_indices", getattr(hoja, "paja_indices", None))
+        label, _ = evaluar_corte_espectral(votos, ejes_trigo=ejes, quorum_min=quorum, ruido_indices=ruido)
+        return label, votos
     return evaluar_corte_duro(votos, hoja.ejes_disjuntos()), votos

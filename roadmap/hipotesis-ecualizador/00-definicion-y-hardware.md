@@ -9,8 +9,8 @@ Fecha: 2026-09-21. Pack de investigación activo.
 La **Hipótesis del Ecualizador Espectral** postula que:
 
 1. **El vector no es un promedio:** Cada cláusula de texto embebida en un modelo de lenguaje denso produce un vector de $D$ coordenadas numéricas flotantes (ej. $D=1024$). Cada columna representa una dimensión espacial continua en el intervalo aproximado $[-1, +1]$.
-2. **Existe Ruido Estructural Basal ("La Paja"):** En cualquier modelo de embedding existen dimensiones que responden con alta magnitud o con valores idénticos en cualquier texto, sin importar la temática (sesgo de entrenamiento, frecuencia de conectores, puntuación o tokens comunes). Esta paja oculta la diferenciación temática real.
-3. **Existe una Firma Espectral Temática ("El Trigo"):** Al caracterizar cada corpus por separado y podar sistemáticamente el fondo común de paja, cada oficio (*alma/corpus*) exhibe un perfil distintivo de excitación de coordenadas: ciertas dimensiones tienen centros de gravedad y densidades de valor sistemáticamente diferentes de otros oficios.
+2. **Existe Ruido Estructural Basal ("El Ruido Estructural"):** En cualquier modelo de embedding existen dimensiones que responden con alta magnitud o con valores idénticos en cualquier texto, sin importar la temática (sesgo de entrenamiento, frecuencia de conectores, puntuación o tokens comunes). Este ruido oculta la diferenciación temática real.
+3. **Existe una Firma Espectral Temática ("El Trigo"):** Al caracterizar cada corpus por separado y podar sistemáticamente el fondo común de ruido, cada oficio (*alma/corpus*) exhibe un perfil distintivo de excitación de coordenadas: ciertas dimensiones tienen centros de gravedad y densidades de valor sistemáticamente diferentes de otros oficios.
 4. **Separabilidad Determinista:** Ordenando las dimensiones por su contraste diferencial de valores, emerge un subconjunto nítido de coordenadas discriminantes que permite certificar la pertenencia de un texto a su dominio de forma auditable, coordenada a coordenada, sin recurrir a promedios angulares ni similitud coseno.
 
 ---
@@ -20,8 +20,8 @@ La **Hipótesis del Ecualizador Espectral** postula que:
 * **Dimensión / Coordenada:** Columna $d \in [0, D-1]$ de un vector denso. *(Prohibido usar términos antropomórficos como "neurona")*.
 * **Fila:** Vector numérico denso que representa una cláusula de texto única.
 * **Perfil Intrínseco:** Distribución de valores (magnitud, centro de gravedad, dispersión) de las 1024 dimensiones de un único corpus analizado en soledad.
-* **Paja (Fondo Común / Ruido Basal):** Conjunto de dimensiones descartadas por saturar universalmente en todos los corpus o por no presentar variación entre temas.
-* **Trigo (Extracto Puro / Alma):** Conjunto de dimensiones y rangos de valores remanentes en un corpus tras descontar la paja.
+* **Ruido Basal (Fondo Común Estructural):** Conjunto de dimensiones descartadas por saturar universalmente en todos los corpus o por no presentar variación entre temas.
+* **Trigo (Extracto Puro / Alma):** Conjunto de dimensiones y rangos de valores remanentes en un corpus tras descontar el ruido.
 * **Centro de Gravedad / Centro de Distribución:** Valor central (media/mediana en `float64`) donde se concentra la densidad de puntos de una dimensión para un corpus.
 * **Contraste Diferencial ($\Delta$):** Magnitud de separación entre los centros de distribución de dos o más corpus en una coordenada dada.
 
@@ -72,7 +72,7 @@ Para la toma de decisiones, inspección y exportación de datos del firewall:
 Se establece como premisa arquitectónica obligatoria para `BAAI/bge-m3` y todos los motores de LLM presentes y futuros:
 
 ### 6.1. Dimensión del Quórum por Motor
-El firewall seleccionará siempre el **10% superior** ($N_Q = \lceil 0.10 \times D \rceil$) de dimensiones ordenadas por contraste diferencial tras la poda de paja:
+El firewall seleccionará siempre el **10% superior** ($N_Q = \lceil 0.10 \times D \rceil$) de dimensiones ordenadas por contraste diferencial tras la poda de ruido estructural:
 * **`BAAI/bge-m3` ($D=1024$):** Quórum de **100 dimensiones** (9.77% $\approx$ 10%).
 * **`Qwen2 / GTE` ($D=1536$):** Quórum de **154 dimensiones** (10%).
 * **`Gemma MRL` ($D=256$):** Quórum de **26 dimensiones** (10%).

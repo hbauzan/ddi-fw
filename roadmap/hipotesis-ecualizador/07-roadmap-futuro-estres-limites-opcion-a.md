@@ -62,7 +62,7 @@ El experimento registrará de forma automatizada las métricas de hardware media
 
 ### B. Estrés Matricial en Memoria `float64`
 * Promoción y operaciones matriciales sobre matrices de $16.500 \times 1024$ flotantes de 64 bits (~135 MB en RAM sólo para tensores base).
-* Tiempo de ejecución de los Procesos 1 (Extracción Intrínseca), 2 (Doble Poda de Paja), 3 (Cruce de 55 Pares) y 4 (Auditoría Decimal exhaustiva de 54.175 contrastes).
+* Tiempo de ejecución de los Procesos 1 (Extracción Intrínseca), 2 (Doble Poda de Ruido Estructural), 3 (Cruce de 55 Pares) y 4 (Auditoría Decimal exhaustiva de 54.175 contrastes).
 
 ### C. Latencia de Runtime y Firewall Check
 * Medir si la evaluación de quórum en microsegundos ($< 10\ \mu\text{s}$) sufre degradación de cache L1/L2 al operar contra candados calibrados con 16.500 cláusulas.

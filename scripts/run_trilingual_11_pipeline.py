@@ -3,7 +3,7 @@
 Ejecuta el ciclo científico completo para la Opción B (Punto Dulce):
 1. Inferencia e incrustación neural de 5.500 cláusulas con BGE-M3 (1024D).
 2. Protocolo 01: Extracción Intrínseca de 11 Almas en float64.
-3. Protocolo 02: Doble Poda de Paja Estructural (Criterios A + B).
+3. Protocolo 02: Doble Poda de Ruido Estructural Estructural (Criterios A + B).
 4. Protocolo 03: Cruce Multi-Corpus de los 55 Pares Combinatorios de Trigos.
 5. Protocolo 04: Auditoría de Profundidad Decimal y Deriva de Hardware (GPU vs CPU).
 6. Certificación del Quórum del 10% y Resguardo Anti-Bypass.
@@ -26,7 +26,7 @@ from ddi_fw.ecualizador import ALMAS_11
 from ddi_fw.ecualizador.auditoria_decimal import run_protocolo_04
 from ddi_fw.ecualizador.cruce import run_protocolo_03
 from ddi_fw.ecualizador.intrinseco import run_protocolo_01
-from ddi_fw.ecualizador.paja import run_protocolo_02
+from ddi_fw.ecualizador.ruido import run_protocolo_02
 from ddi_fw.embedder import save_rows
 from ddi_fw.hardware import get_hardware_profile
 
@@ -189,7 +189,7 @@ def main() -> None:
 
     out_base = args.ecualizador_dir
     intrinseco_dir = out_base / "intrinseco"
-    paja_dir = out_base / "paja"
+    ruido_dir = out_base / "ruido"
     cruce_dir = out_base / "cruce_trigos"
     auditoria_file = out_base / "auditoria_decimal.json"
 
@@ -211,9 +211,9 @@ def main() -> None:
         )
     print()
 
-    # 3. Protocolo 02 — Doble Poda de Paja
+    # 3. Protocolo 02 — Doble Poda de Ruido Estructural
     print("-" * 80)
-    print("  FASE 3: PROTOCOLO 02 — DOBLE PODA DE PAJA (CRITERIOS A + B)")
+    print("  FASE 3: PROTOCOLO 02 — DOBLE PODA DE RUIDO ESTRUCTURAL (CRITERIOS A + B)")
     print(
         f"  Criterio A (theta): {args.theta_saturacion} | Criterio B (epsilon): {args.epsilon_indiferenciacion}"
     )
@@ -221,7 +221,7 @@ def main() -> None:
     t_p2 = time.time()
     p2_res = run_protocolo_02(
         intrinseco_dir=intrinseco_dir,
-        out_dir=paja_dir,
+        out_dir=ruido_dir,
         theta_saturacion=args.theta_saturacion,
         epsilon_indiferenciacion=args.epsilon_indiferenciacion,
         almas=ALMAS_11,
@@ -239,7 +239,7 @@ def main() -> None:
     t_p3 = time.time()
     p3_res = run_protocolo_03(
         intrinseco_dir=intrinseco_dir,
-        paja_dir=paja_dir,
+        ruido_dir=ruido_dir,
         out_dir=cruce_dir,
         almas=ALMAS_11,
     )
@@ -260,7 +260,7 @@ def main() -> None:
     t_p4 = time.time()
     p4_res = run_protocolo_04(
         intrinseco_dir=intrinseco_dir,
-        paja_dir=paja_dir,
+        ruido_dir=ruido_dir,
         out_file=auditoria_file,
         run_live_drift=not args.no_live_drift,
         almas=ALMAS_11,

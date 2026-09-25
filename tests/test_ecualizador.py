@@ -92,20 +92,20 @@ def test_run_protocolo_01_synthetic(tmp_path: Path) -> None:
 
 
 def test_classify_dimension() -> None:
-    from ddi_fw.ecualizador.paja import classify_dimension
+    from ddi_fw.ecualizador.ruido import classify_dimension
 
     # Ambos: alta energía y plano
-    assert classify_dimension(min_energy=0.10, max_delta_mu=0.005) == "PAJA_AMBOS"
+    assert classify_dimension(min_energy=0.10, max_delta_mu=0.005) == "RUIDO_AMBOS"
     # Saturada: alta energía pero diferenciada
-    assert classify_dimension(min_energy=0.10, max_delta_mu=0.05) == "PAJA_SATURADA"
+    assert classify_dimension(min_energy=0.10, max_delta_mu=0.05) == "RUIDO_SATURADO"
     # Plana: baja energía pero indiferenciada
-    assert classify_dimension(min_energy=0.02, max_delta_mu=0.005) == "PAJA_PLANA"
+    assert classify_dimension(min_energy=0.02, max_delta_mu=0.005) == "RUIDO_PLANO"
     # Trigo: energía normal y contrastada
     assert classify_dimension(min_energy=0.02, max_delta_mu=0.05) == "TRIGO_CANDIDATO"
 
 
 def test_run_protocolo_02_synthetic(tmp_path: Path) -> None:
-    from ddi_fw.ecualizador.paja import run_protocolo_02
+    from ddi_fw.ecualizador.ruido import run_protocolo_02
 
     # Generar primero los perfiles sintéticos con P1
     almas = ("python", "receta", "legal", "medicina", "astronomia")
@@ -153,7 +153,7 @@ def test_compute_pair_metrics() -> None:
 
 def test_run_protocolo_03_synthetic(tmp_path: Path) -> None:
     from ddi_fw.ecualizador.cruce import run_protocolo_03
-    from ddi_fw.ecualizador.paja import run_protocolo_02
+    from ddi_fw.ecualizador.ruido import run_protocolo_02
 
     almas = ("python", "receta", "legal", "medicina", "astronomia")
     npz_data: dict[str, object] = {
@@ -177,7 +177,7 @@ def test_run_protocolo_03_synthetic(tmp_path: Path) -> None:
     p3_dir = tmp_path / "out_p3"
     res = run_protocolo_03(
         intrinseco_dir=p1_dir,
-        paja_dir=p2_dir,
+        ruido_dir=p2_dir,
         out_dir=p3_dir,
         sd_umbral_firma=1.5,
     )
@@ -200,7 +200,7 @@ def test_compute_decimals_needed() -> None:
 
 def test_run_protocolo_04_synthetic(tmp_path: Path) -> None:
     from ddi_fw.ecualizador.auditoria_decimal import run_protocolo_04
-    from ddi_fw.ecualizador.paja import run_protocolo_02
+    from ddi_fw.ecualizador.ruido import run_protocolo_02
 
     almas = ("python", "receta", "legal", "medicina", "astronomia")
     npz_data: dict[str, object] = {
@@ -223,7 +223,7 @@ def test_run_protocolo_04_synthetic(tmp_path: Path) -> None:
     out_file = tmp_path / "auditoria.json"
     res = run_protocolo_04(
         intrinseco_dir=p1_dir,
-        paja_dir=p2_dir,
+        ruido_dir=p2_dir,
         out_file=out_file,
         run_live_drift=False,
         cached_deriva_max=1e-7,
