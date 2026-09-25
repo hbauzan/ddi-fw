@@ -36,7 +36,7 @@ Para garantizar que el índice Jaccard léxico entre cualquier par se mantenga e
 * **Compatibilidad de Motor:** El modelo base `BAAI/bge-m3` es intrínsecamente multilingüe (>100 idiomas con espacio latente unificado) y cuenta con soporte de primer nivel para Alemán.
 * **Aislamiento del "Concepto Puro":** Al distribuir las cláusulas de cada oficio en Español, Inglés y Alemán:
   * Si una coordenada se activa por el oficio (ej. *compilación*, *glaseado*, *jurisdicción*, *fotosíntesis*), responderá en los 3 idiomas simultáneamente (Trigo Puro).
-  * Las peculiaridades sintácticas o morfológicas de un idioma particular serán filtradas automáticamente como **Paja Estructural** por el Criterio B.
+  * Las peculiaridades sintácticas o morfológicas de un idioma particular serán filtradas automáticamente como **Ruido Estructural** por el Criterio B.
 * **Inmunidad contra Jailbreaks Multilingües:** Neutraliza inyecciones hostiles o ataques de evasión formulados en idiomas secundarios.
 
 ---
@@ -106,8 +106,8 @@ En DDI Firewall, los dominios son cajas hiperdimensionales $[lo, hi]$. Un exceso
 
 ### 7.3 Poda Basal Estructural (Protocolo 02)
 
-- **Paja Saturada ($\theta = 0.05$):** 7 dimensiones estructurales universales (dim 386 con energía $\approx 0.22$ presente en las 11 almas).
-- **Paja Plana ($\epsilon = 0.01$):** 2 dimensiones inertes.
+- **Ruido Saturado ($\theta = 0.05$):** 7 dimensiones estructurales universales (dim 386 con energía $\approx 0.22$ presente en las 11 almas).
+- **Ruido Plano ($\epsilon = 0.01$):** 2 dimensiones inertes.
 - **Trigos Candidatos Conservados:** **1.015 de 1.024 dimensiones** ($99.12\%$).
 
 ### 7.4 Cruce Espectral de 55 Pares y Separación (Protocolo 03)

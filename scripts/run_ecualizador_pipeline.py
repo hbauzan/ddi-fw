@@ -15,7 +15,7 @@ import sys
 from ddi_fw.ecualizador.auditoria_decimal import run_protocolo_04
 from ddi_fw.ecualizador.cruce import run_protocolo_03
 from ddi_fw.ecualizador.intrinseco import run_protocolo_01
-from ddi_fw.ecualizador.paja import run_protocolo_02
+from ddi_fw.ecualizador.ruido import run_protocolo_02
 
 
 def main() -> None:
@@ -72,7 +72,7 @@ def main() -> None:
             )
 
     if args.all or args.protocolo == 2:
-        print("\n[2/4] Ejecutando Protocolo 02 — Doble Poda de la Paja...")
+        print("\n[2/4] Ejecutando Protocolo 02 — Doble Poda del Ruido Estructural...")
         p2_res = run_protocolo_02(
             theta_saturacion=args.theta_saturacion,
             epsilon_indiferenciacion=args.epsilon_indiferenciacion,

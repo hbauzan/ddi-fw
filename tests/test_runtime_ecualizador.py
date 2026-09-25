@@ -2,7 +2,7 @@
 
 Verifica:
 1. Corte espectral con Quórum del 10% (K = ceil(0.10 * D))
-2. Poda estricta de dimensiones de paja estructural (saturadas y planas)
+2. Poda estricta de dimensiones de ruido estructural (saturadas y planas)
 3. Ingress fail-closed bajo quórum y métricas espectrales en auditoría
 4. Reporte de salud e inicialización en Proxy ASGI
 """
@@ -19,7 +19,7 @@ from ddi_fw.corte import (
 )
 from ddi_fw.embedder import FakeEmbedder
 from ddi_fw.hoja import (
-    PAJA_UNIVERSAL_BGE_M3,
+    RUIDO_UNIVERSAL_BGE_M3,
     Candado,
     calcular_hoja,
 )
@@ -64,7 +64,7 @@ def test_evaluar_corte_espectral_quorum_10_percent() -> None:
     assert label == "split"
 
 
-def test_evaluar_corte_espectral_paja_pruning() -> None:
+def test_evaluar_corte_espectral_ruido_pruning() -> None:
     # D = 10, quorum = 2
     dim = 10
     votos = np.full(dim, VOTE_NINGUNA, dtype=np.uint8)
@@ -72,16 +72,16 @@ def test_evaluar_corte_espectral_paja_pruning() -> None:
     votos[0] = VOTE_SOLO_A
     votos[1] = VOTE_SOLO_A
 
-    # Si dimension 0 es PAJA, no debe contar para el quórum
-    paja = [0]
-    label, met = evaluar_corte_espectral(votos, quorum_min=2, paja_indices=paja)
+    # Si dimension 0 es RUIDO, no debe contar para el quórum
+    ruido = [0]
+    label, met = evaluar_corte_espectral(votos, quorum_min=2, ruido_indices=ruido)
     assert label == "out"  # Solo queda 1 voto válido, requiere 2
     assert met["votos_trigo_a"] == 1
     assert met["total_trigo"] == 9
 
-    # Si agregamos dimension 2 (no paja) con SOLO_A, alcanza el quórum de 2
+    # Si agregamos dimension 2 (no ruido) con SOLO_A, alcanza el quórum de 2
     votos[2] = VOTE_SOLO_A
-    label, met = evaluar_corte_espectral(votos, quorum_min=2, paja_indices=paja)
+    label, met = evaluar_corte_espectral(votos, quorum_min=2, ruido_indices=ruido)
     assert label == "left"
     assert met["votos_trigo_a"] == 2
 
@@ -96,22 +96,22 @@ def test_hoja_y_candado_espectral() -> None:
         matriz_b,
         alma_a="python",
         alma_b="receta",
-        paja_indices=PAJA_UNIVERSAL_BGE_M3,
+        ruido_indices=RUIDO_UNIVERSAL_BGE_M3,
         modo_espectral=True,
         quorum_ratio=0.10,
     )
 
     assert hoja.is_spectral is True
     assert hoja.quorum_min == 103  # ceil(0.10 * 1024)
-    assert len(hoja.ejes_trigo()) == 1024 - len(PAJA_UNIVERSAL_BGE_M3)
-    for paja_idx in PAJA_UNIVERSAL_BGE_M3:
-        assert paja_idx not in hoja.ejes_trigo()
+    assert len(hoja.ejes_trigo()) == 1024 - len(RUIDO_UNIVERSAL_BGE_M3)
+    for ruido_idx in RUIDO_UNIVERSAL_BGE_M3:
+        assert ruido_idx not in hoja.ejes_trigo()
 
     candado = Candado(hoja=hoja)
     assert candado.is_spectral is True
     assert candado.quorum_min == 103
     assert candado.published is True
-    assert candado.disjoint_count == 1024 - len(PAJA_UNIVERSAL_BGE_M3)
+    assert candado.disjoint_count == 1024 - len(RUIDO_UNIVERSAL_BGE_M3)
 
 
 def test_ingress_spectral_quorum_decision() -> None:

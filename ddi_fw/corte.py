@@ -79,21 +79,21 @@ def evaluar_corte_espectral(
     votos: npt.NDArray[np.uint8],
     ejes_trigo: list[int] | None = None,
     quorum_min: int | None = None,
-    paja_indices: list[int] | None = None,
+    ruido_indices: list[int] | None = None,
 ) -> tuple[Label, dict[str, int]]:
-    """Evalúa la disyunción mediante el Quórum del 10% y poda de paja estructural.
+    """Evalúa la disyunción mediante el Quórum del 10% y poda de ruido estructural basal.
 
-    - Poda de paja: Ignora dimensiones contaminadas con ruido basal o planas.
+    - Poda de ruido estructural: Ignora dimensiones basales o planas.
     - Quórum del 10%: Requiere al menos quorum_min votos concordantes en trigo.
     - Garantía anti-bypass: P_bypass <= (0.80)^K (< 10^-9 con K >= 100).
     """
     total_dims = len(votos)
-    paja_set = set(paja_indices or ())
+    ruido_set = set(ruido_indices or ())
 
     if ejes_trigo is not None:
-        ejes = [idx for idx in ejes_trigo if 0 <= idx < total_dims and idx not in paja_set]
+        ejes = [idx for idx in ejes_trigo if 0 <= idx < total_dims and idx not in ruido_set]
     else:
-        ejes = [idx for idx in range(total_dims) if idx not in paja_set]
+        ejes = [idx for idx in range(total_dims) if idx not in ruido_set]
 
     quorum = quorum_min if quorum_min is not None else max(int(np.ceil(0.10 * total_dims)), 1)
 
@@ -147,7 +147,7 @@ def etiquetar_fila(
     if modo == "espectral" or (modo == "auto" and is_spectral):
         ejes = hoja.ejes_trigo() if hasattr(hoja, "ejes_trigo") else hoja.ejes_disjuntos()
         quorum = getattr(hoja, "quorum_min", None)
-        paja = getattr(hoja, "paja_indices", None)
-        label, _ = evaluar_corte_espectral(votos, ejes_trigo=ejes, quorum_min=quorum, paja_indices=paja)
+        ruido = getattr(hoja, "ruido_indices", getattr(hoja, "paja_indices", None))
+        label, _ = evaluar_corte_espectral(votos, ejes_trigo=ejes, quorum_min=quorum, ruido_indices=ruido)
         return label, votos
     return evaluar_corte_duro(votos, hoja.ejes_disjuntos()), votos

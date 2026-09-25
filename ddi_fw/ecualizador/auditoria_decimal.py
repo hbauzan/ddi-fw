@@ -25,7 +25,7 @@ DEFAULT_OUT_FILE = (
     Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "auditoria_decimal.json"
 )
 DEFAULT_CRUCE_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "cruce_trigos"
-DEFAULT_PAJA_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "paja"
+DEFAULT_RUIDO_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "ruido"
 DEFAULT_INTRINSECO_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "intrinseco"
 
 CANONICAL_PROBE = "Explicá el funcionamiento de list.append en Python."
@@ -100,12 +100,13 @@ def measure_device_drift(
 
 def run_protocolo_04(
     intrinseco_dir: Path = DEFAULT_INTRINSECO_DIR,
-    paja_dir: Path = DEFAULT_PAJA_DIR,
+    ruido_dir: Path = DEFAULT_RUIDO_DIR,
     out_file: Path = DEFAULT_OUT_FILE,
     run_live_drift: bool = True,
     cached_deriva_max: float | None = None,
     almas: tuple[str, ...] | list[str] | None = None,
     pares: list[tuple[str, str]] | tuple[tuple[str, str], ...] | None = None,
+    paja_dir: Path | None = None,
 ) -> dict[str, Any]:
     """Ejecuta la auditoría de profundidad decimal y deriva de hardware."""
     import itertools
@@ -122,8 +123,11 @@ def run_protocolo_04(
     else:
         pares_to_process = PARES_CANONICOS
 
-    # 1. Cargar catálogo de paja para filtrar dimensiones de trigo
-    cat_path = paja_dir / "catalogo_paja_estructural.json"
+    # 1. Cargar catálogo de ruido para filtrar dimensiones de trigo
+    cat_dir = paja_dir or ruido_dir
+    cat_path = cat_dir / "catalogo_ruido_estructural.json"
+    if not cat_path.exists():
+        cat_path = cat_dir / "catalogo_paja_estructural.json"
     if not cat_path.exists():
         raise FileNotFoundError(f"Falta {cat_path}: ejecute Protocolo 02 primero.")
     cat_meta = json.loads(cat_path.read_text(encoding="utf-8"))

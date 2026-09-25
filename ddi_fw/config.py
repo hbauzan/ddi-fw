@@ -24,7 +24,8 @@ class Settings(BaseSettings):
     out_dir: Path = Field(default=Path("ddi_fw/out"))
     spectral_mode: bool = True
     quorum_ratio: float = 0.10
-    prune_paja: bool = True
+    podar_ruido: bool = True
+    prune_paja: bool = True  # Deprecated alias
 
     def forbidden_set(self) -> frozenset[str]:
         return frozenset(item.strip() for item in self.forbidden_almas.split(",") if item.strip())

@@ -8,7 +8,7 @@ Fecha: 2026-09-21. Pack de investigación activo.
 
 Con los trigos depurados de cada corpus ya guardados individualmente en disco, realizar un análisis comparativo cruzado exhaustivo entre todos los oficios para:
 1. Ordenar las dimensiones por su **contraste diferencial real**.
-2. Detectar si emerge **paja secundaria residual** compartida específicamente entre ciertos pares temáticos.
+2. Detectar si emerge **ruido secundario residual** compartida específicamente entre ciertos pares temáticos.
 3. Aislar la **firma espectral exclusiva** de cada dominio (ej. el conjunto de dimensiones que define a Python frente a todos los demás temas a la vez).
 
 ---
@@ -45,12 +45,12 @@ Para cada par $(A, B)$ y para cada dimensión candidata $d$:
 
 ---
 
-## 4. Detección de Paja Secundaria Residual
+## 4. Detección de Ruido Secundario Residual
 
-Si en un par específico (ej. `python` vs `legal`) dos dominios presentan un conjunto de dimensiones que comparten centros y rangos idénticos pero que son diferentes a los de cocina, se clasifica como **paja secundaria de afinidad** (ej. presencia de sintaxis estructurada o formato textual).
+Si en un par específico (ej. `python` vs `legal`) dos dominios presentan un conjunto de dimensiones que comparten centros y rangos idénticos pero que son diferentes a los de cocina, se clasifica como **ruido secundario de afinidad** (ej. presencia de sintaxis estructurada o formato textual).
 
 El protocolo registrará:
-* Si la paja primaria global fue suficiente para desacoplar los dominios.
+* Si el ruido primaria global fue suficiente para desacoplar los dominios.
 * O si se requiere un segundo filtro de refinamiento por par antes del veredicto final.
 
 ---

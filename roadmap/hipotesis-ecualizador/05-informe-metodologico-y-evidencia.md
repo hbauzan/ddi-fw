@@ -12,7 +12,7 @@
 Este informe consolida la metodología, el volumen de datos, los procesos de cómputo y la evidencia empírica que sustentan la **Hipótesis del Ecualizador Espectral**, la **Norma Universal de 6 Decimales** y la **Regla del Quórum del 10%**.
 
 ### Las Cuatro Conclusiones Principales:
-1. **La "Paja" Estructural Basal Existe y se Aisló:** De las 1024 dimensiones de `BAAI/bge-m3`, **39 dimensiones** fueron identificadas y podadas como ruido basal universal (7 saturadas con energía basal $> 0.12$ y 32 planas con variación transversal $\le 0.010$). Quedaron **985 trigos candidatos depurados**.
+1. **El Ruido Estructural Basal Existe y se Aisló:** De las 1024 dimensiones de `BAAI/bge-m3`, **39 dimensiones** fueron identificadas y podadas como ruido basal universal (7 saturadas con energía basal $> 0.12$ y 32 planas con variación transversal $\le 0.010$). Quedaron **985 trigos candidatos depurados**.
 2. **Norma Universal de 6 Decimales (`10^{-6}`):** En **9.850 comparaciones** cruzadas entre trigos, la distancia promedio entre temas fue $\Delta_{avg} = 0.0139$ (requiere 2 a 3 decimales) y el pico fue $\Delta_{max} = 0.0790$ (2 decimales). Trabajar con 6 decimales ofrece un factor de seguridad de **$1.000\times$** sobre la separación requerida y es 100% nativo y compatible con `float32`.
 3. **Regla Universal del Quórum del 10% ($\lceil 0.10 \times D \rceil$):** Ninguna coordenada individual de Python logró $S_d \ge 1.5$ de forma simultánea contra los otros 4 temas a la vez (la dimensión 400 alcanzó un máximo simultáneo de $S_d = 0.7187$). Por tanto, el firewall opera sobre el **Top 10% de dimensiones contrastadas** (100D en BGE-M3), con una probabilidad matemática combinada de bypass menor a **1 en 4.900 millones** ($P \le (0.80)^{100} \approx 2.037 \times 10^{-10}$).
 4. **Inmunidad Física frente a Hardware:** La deriva física entre la GPU (`mps:0`) y la CPU del Apple M4 se midió en $2.458 \times 10^{-7}$ (7º decimal). En el Top 10% ($\Delta \ge 0.01$), la separación física es más de **$50.000\times$** superior al temblor del silicio, garantizando determinismo absoluto.
@@ -53,7 +53,7 @@ El pipeline de pruebas se ejecuta de forma secuencial y determinista:
 [Proceso 1: Extracción Intrínseca] ──► ddi_fw/ecualizador/intrinseco.py
                      │
                      ▼
-[Proceso 2: Poda de Paja Basal]   ──► ddi_fw/ecualizador/paja.py
+[Proceso 2: Poda de Ruido Estructural Basal]   ──► ddi_fw/ecualizador/ruido.py
                      │
                      ▼
 [Proceso 3: Cruce Multi-Corpus]   ──► ddi_fw/ecualizador/cruce.py
@@ -73,11 +73,11 @@ El pipeline de pruebas se ejecuta de forma secuencial y determinista:
 * **Operación:** Promueve en memoria a **`float64`** y calcula para cada una de las 1024 dimensiones: centro de gravedad ($\mu_d$ y mediana $M_d$), dispersión ($\sigma_d$ y amplitud), energía media ($E_d$) y coherencia de signo. Genera el ranking de fuerza propia (de puesto 1 a 1024).
 * **Salidas:** 5 archivos CSV en formato `.17g` y 5 archivos JSON en `ddi_fw/out/ecualizador/intrinseco/`.
 
-### Proceso 2: Doble Poda de Paja y Generación de Trigos (Protocolo 02)
-* **Módulo:** [`ddi_fw/ecualizador/paja.py`](../../ddi_fw/ecualizador/paja.py)
+### Proceso 2: Doble Poda de Ruido Estructural y Generación de Trigos (Protocolo 02)
+* **Módulo:** [`ddi_fw/ecualizador/ruido.py`](../../ddi_fw/ecualizador/ruido.py)
 * **Entradas:** Los 5 perfiles intrínsecos del Proceso 1.
 * **Operación:** Aplica el Criterio A ($\theta_{\text{saturación}} = 0.05$) y el Criterio B ($\epsilon_{\text{indiferenciación}} = 0.010$). Descarta 39 dimensiones (7 saturadas, 32 planas) y genera la máscara de 985 trigos candidatos.
-* **Salidas:** `catalogo_paja_estructural.csv`, `catalogo_paja_estructural.json` y los 5 archivos `{alma}_trigo_depurado.csv`.
+* **Salidas:** `catalogo_ruido_estructural.csv`, `catalogo_ruido_estructural.json` y los 5 archivos `{alma}_trigo_depurado.csv`.
 
 ### Proceso 3: Cruce Multi-Corpus de Trigos y Firma de Python (Protocolo 03)
 * **Módulo:** [`ddi_fw/ecualizador/cruce.py`](../../ddi_fw/ecualizador/cruce.py)
@@ -99,7 +99,7 @@ El pipeline de pruebas se ejecuta de forma secuencial y determinista:
 ## 4. Suite de Tests y Certificación Automatizada
 
 * [`tests/test_hardware.py`](../../tests/test_hardware.py): 3 tests automatizados que validan la detección determinista de CPU Apple Silicon, RAM, target PyTorch y versiones.
-* [`tests/test_ecualizador.py`](../../tests/test_ecualizador.py): 9 tests automatizados que validan matemáticamente los cálculos de centros, umbrales de paja, índices de separabilidad $S_d$ y fórmula de decimales.
+* [`tests/test_ecualizador.py`](../../tests/test_ecualizador.py): 9 tests automatizados que validan matemáticamente los cálculos de centros, umbrales de ruido, índices de separabilidad $S_d$ y fórmula de decimales.
 * **Resultado:** **59 tests activos pasan al 100% en verde** en la suite global de `pytest`.
 
 ---
@@ -115,8 +115,8 @@ ddi_fw/out/ecualizador/
 │   ├── medicina_perfil_intrinseco_1024d.{csv,json}
 │   ├── python_perfil_intrinseco_1024d.{csv,json}
 │   └── receta_perfil_intrinseco_1024d.{csv,json}
-├── paja/
-│   ├── catalogo_paja_estructural.{csv,json}
+├── ruido/
+│   ├── catalogo_ruido_estructural.{csv,json}
 │   └── {alma}_trigo_depurado.csv (5 archivos)
 ├── cruce_trigos/
 │   ├── cruce_ranking_10_pares.csv
@@ -146,7 +146,7 @@ Ejecución determinista de algoritmos matriciales sobre 550 vectores $\times$ 10
 | Fase del Pipeline | Operación | Tiempo de Cómputo | Memoria Pico (RSS) |
 | :--- | :--- | :---: | :---: |
 | **Proceso 1** | Extracción intrínseca de 5 almas | **112.02 ms** | ~180 MB |
-| **Proceso 2** | Doble poda de paja (Criterios A + B) | **67.12 ms** | ~200 MB |
+| **Proceso 2** | Doble poda de ruido estructural (Criterios A + B) | **67.12 ms** | ~200 MB |
 | **Proceso 3** | Cruce de trigos (10 pares + firma Python) | **47.53 ms** | ~215 MB |
 | **Proceso 4** | Auditoría de profundidad decimal | **26.91 ms** | ~225 MB |
 | **TOTAL PIPELINE** | **Calibración matemática completa** | **253.57 ms** (~0.25 s) | **225.05 MB** |
@@ -160,7 +160,7 @@ Ejecución determinista de algoritmos matriciales sobre 550 vectores $\times$ 10
 
 * Tensores crudos de embedding (`rows.npz`): **2.13 MB**
 * Perfiles intrínsecos (5 almas en CSV y JSON): **~3.01 MB**
-* Catálogo de paja estructural (CSV y JSON): **~663 KB**
+* Catálogo de ruido estructural (CSV y JSON): **~663 KB**
 * Cruces y firma espectral de Python (CSV y JSON): **~908 KB**
 * Auditoría de profundidad decimal (JSON): **~4.2 KB**
 * **Total de artefactos en disco:** **~6.7 MB**.

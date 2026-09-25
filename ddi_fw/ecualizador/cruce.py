@@ -2,7 +2,7 @@
 
 Analiza las dimensiones de trigo depurado a través de los 10 pares canónicos:
 - Computa Delta_mu y el Índice de Separabilidad Normalizada S_d.
-- Detecta paja secundaria residual (S_d < 0.5).
+- Detecta ruido secundario residual (S_d < 0.5).
 - Extrae la firma espectral de Python frente a los 4 temas restantes.
 - Exporta cruce_ranking_10_pares.csv y python_firma_espectral.json.
 """
@@ -18,7 +18,7 @@ from ddi_fw.ecualizador.intrinseco import fmt_float
 from ddi_fw.hardware import get_hardware_profile
 
 DEFAULT_CRUCE_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "cruce_trigos"
-DEFAULT_PAJA_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "paja"
+DEFAULT_RUIDO_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "ruido"
 DEFAULT_INTRINSECO_DIR = Path(__file__).resolve().parents[1] / "out" / "ecualizador" / "intrinseco"
 
 PARES_CANONICOS = (
@@ -53,11 +53,12 @@ def compute_pair_metrics(
 
 def run_protocolo_03(
     intrinseco_dir: Path = DEFAULT_INTRINSECO_DIR,
-    paja_dir: Path = DEFAULT_PAJA_DIR,
+    ruido_dir: Path = DEFAULT_RUIDO_DIR,
     out_dir: Path = DEFAULT_CRUCE_DIR,
     sd_umbral_firma: float = 1.5,
     almas: tuple[str, ...] | list[str] | None = None,
     pares: list[tuple[str, str]] | tuple[tuple[str, str], ...] | None = None,
+    paja_dir: Path | None = None,
 ) -> dict[str, Any]:
     """Ejecuta el cruce de pares sobre los trigos depurados."""
     import itertools
@@ -73,8 +74,11 @@ def run_protocolo_03(
     else:
         pares_to_process = PARES_CANONICOS
 
-    # 1. Cargar el catálogo de paja para conocer las dimensiones de trigo candidato
-    cat_path = paja_dir / "catalogo_paja_estructural.json"
+    # 1. Cargar el catálogo de ruido para conocer las dimensiones de trigo candidato
+    cat_dir = paja_dir or ruido_dir
+    cat_path = cat_dir / "catalogo_ruido_estructural.json"
+    if not cat_path.exists():
+        cat_path = cat_dir / "catalogo_paja_estructural.json"
     if not cat_path.exists():
         raise FileNotFoundError(f"Falta {cat_path}: ejecute Protocolo 02 primero.")
     cat_meta = json.loads(cat_path.read_text(encoding="utf-8"))
@@ -95,8 +99,8 @@ def run_protocolo_03(
     sorted_trigo_dims = sorted(trigo_dims.keys())
     cruce_records: list[dict[str, Any]] = []
 
-    # Estadísticas de paja secundaria por par
-    paja_secundaria_por_par: dict[str, int] = {}
+    # Estadísticas de ruido secundario por par
+    ruido_secundario_por_par: dict[str, int] = {}
     excelentes_por_par: dict[str, int] = {}
 
     for d in sorted_trigo_dims:
@@ -113,11 +117,11 @@ def run_protocolo_03(
 
         cruce_records.append(row)
 
-    # Contabilizar paja secundaria (Sd < 0.5) y excelentes (Sd > 2.0)
+    # Contabilizar ruido secundario (Sd < 0.5) y excelentes (Sd > 2.0)
     for a, b in pares_to_process:
         pair_key = f"{a}_{b}"
         sds = [r[f"sd_{pair_key}"] for r in cruce_records]
-        paja_secundaria_por_par[pair_key] = sum(1 for s in sds if s < 0.5)
+        ruido_secundario_por_par[pair_key] = sum(1 for s in sds if s < 0.5)
         excelentes_por_par[pair_key] = sum(1 for s in sds if s >= 2.0)
 
     # 4. Exportar cruce_ranking_{N}_pares.csv
@@ -198,7 +202,8 @@ def run_protocolo_03(
         ),
         "max_min_sd_alcanzado": (python_candidates[0]["min_sd"] if python_candidates else 0.0),
         "top_10_dimensiones_discriminantes_python": python_candidates[:10],
-        "paja_secundaria_por_par": paja_secundaria_por_par,
+        "ruido_secundario_por_par": ruido_secundario_por_par,
+        "paja_secundaria_por_par": ruido_secundario_por_par,
         "excelentes_por_par": excelentes_por_par,
         "todas_dimensiones_ranking_python": python_candidates,
     }

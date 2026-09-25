@@ -122,7 +122,7 @@ def decide(
                 votos,
                 ejes_trigo=candado.ejes_trigo,
                 quorum_min=candado.quorum_min,
-                paja_indices=candado.hoja.paja_indices,
+                ruido_indices=candado.hoja.ruido_indices,
             )
             spectral_metrics[candado.pair_id] = met
 

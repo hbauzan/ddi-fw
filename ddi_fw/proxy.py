@@ -59,13 +59,13 @@ def create_app(
             target_rows = cfg.rows_path
 
         if target_rows is not None:
-            from ddi_fw.hoja import PAJA_UNIVERSAL_BGE_M3
+            from ddi_fw.hoja import RUIDO_UNIVERSAL_BGE_M3
 
             matrices = rows_matrices(load_rows(target_rows))
-            paja = PAJA_UNIVERSAL_BGE_M3 if cfg.prune_paja else None
+            ruido = RUIDO_UNIVERSAL_BGE_M3 if (cfg.podar_ruido or cfg.prune_paja) else None
             locks = candados_canonicos(
                 matrices,
-                paja_indices=paja,
+                ruido_indices=ruido,
                 modo_espectral=cfg.spectral_mode,
                 quorum_ratio=cfg.quorum_ratio,
             )
