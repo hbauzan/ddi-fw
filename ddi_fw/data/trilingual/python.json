@@ -1,0 +1,3007 @@
+{
+  "alma": "python",
+  "n": 500,
+  "description": "Mazo trilingüe de python (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "python-es-001",
+      "text": "En Python una lista es una secuencia mutable cuyos elementos se acceden por índice entero y permite métodos como append y extend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-002",
+      "text": "El bucle for itera sobre cualquier objeto iterable consumiendo elementos sucesivamente mediante el protocolo iterador nativo.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-003",
+      "text": "Las funciones se definen con la palabra reservada def y pueden retornar múltiples valores empaquetados en una tupla inmutable.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-004",
+      "text": "Las excepciones se capturan mediante bloques try except y opcionalmente un bloque finally que asegura la liberación de recursos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-005",
+      "text": "Los diccionarios almacenan pares clave valor implementando tablas hash eficientes con búsqueda y modificación en tiempo constante promedio.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-006",
+      "text": "Un conjunto set es una colección desordenada de elementos únicos que soporta operaciones matemáticas como unión, intersección y diferencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-007",
+      "text": "Las comprensiones de listas permiten transformar colecciones de manera concisa mediante expresiones evaluadas dentro de corchetes cuadrados.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-008",
+      "text": "Los generadores producen valores perezosamente utilizando la sentencia yield preservando el estado de ejecución de la función local.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-009",
+      "text": "El administrador de contexto implementa el protocolo enter y exit para garantizar la inicialización y cierre correcto de archivos y sockets.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-010",
+      "text": "La biblioteca estándar incluye el módulo asyncio para ejecutar corrutinas concurrentes sobre un bucle de eventos asíncrono no bloqueante.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-011",
+      "text": "Las clases admiten herencia simple y múltiple calculando el orden de resolución de métodos mediante el algoritmo canónico C3 linearization.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-012",
+      "text": "El recolector de basura de CPython emplea conteo de referencias combinado con un recolector generacional para detectar ciclos cíclicos inalcanzables.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-013",
+      "text": "Los decoradores son funciones de orden superior que reciben otra función como argumento y devuelven un envoltorio con comportamiento extendido.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-014",
+      "text": "El módulo inspect permite inspeccionar objetos en tiempo de ejecución extrayendo código fuente, signaturas de funciones y cuadros de pila.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-015",
+      "text": "Las tuplas nombradas del módulo collections proporcionan campos accesibles por nombre manteniendo la inmutabilidad de la tupla estándar.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-016",
+      "text": "El módulo dataclasses simplifica la definición de clases de datos generando automáticamente métodos constructores init y comparadores de igualdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-017",
+      "text": "El operador morsa permite asignar valores a variables dentro de expresiones booleanas reduciendo evaluaciones redundantes en condicionales complejos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-018",
+      "text": "Los descriptores son objetos con métodos get, set o delete que gestionan el acceso a atributos de instancias en otras clases.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-019",
+      "text": "El módulo typing introduce anotaciones de tipos estáticos analizadas por verificadores como mypy para garantizar corrección en compilación preliminar.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-020",
+      "text": "Las cadenas de texto formateadas permiten incrustar expresiones arbitrarias dentro de literales de texto precedidos por la letra f.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-021",
+      "text": "El módulo multiprocessing sortea las restricciones del bloqueo global de intérprete spawning procesos independientes con memoria propia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-022",
+      "text": "El paquete collections provee la clase defaultdict que inicializa automáticamente claves inexistentes mediante una función fábrica provista.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-023",
+      "text": "Las variables de alcance no local se declaran con nonlocal para modificar enlaces en ámbitos circundantes dentro de clausuras anidadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-024",
+      "text": "El módulo functools expone la función lru_cache para memorizar automáticamente llamadas deterministas optimizando funciones recursivas costosas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-025",
+      "text": "El analizador sintáctico de Python compila código fuente a un árbol de sintaxis abstracta antes de transformarlo en secuencias de bytecode.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-026",
+      "text": "La función incorporada zip combina múltiples secuencias en paralelo generando tuplas hasta agotar el iterable más corto proporcionado.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-027",
+      "text": "El decorador classmethod transforma una función en un método ligado a la clase receptora en lugar de ligarse a una instancia particular.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-028",
+      "text": "El decorador staticmethod declara métodos utilitarios dentro del espacio de nombres de la clase sin recibir referencias explícitas a self.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-029",
+      "text": "El módulo itertools ofrece funciones eficientes para manipulación combinatoria como product, permutations, combinations y count infinito.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-030",
+      "text": "El operador de desempaquetado de argumentos asterisco descompone listas y tuplas posicionales en invocaciones de funciones complejas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-031",
+      "text": "El operador de doble asterisco desempaqueta diccionarios asignando pares clave valor a parámetros con nombre en funciones definidas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-032",
+      "text": "El protocolo de ordenamiento timsort híbrido combina insertion sort y merge sort para ofrecer estabilidad y rendimiento óptimo en datos reales.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-033",
+      "text": "El módulo queue provee colas sincronizadas y seguras para intercambio de mensajes entre hilos de ejecución concurrentes en memoria.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-034",
+      "text": "Las ranuras slots restringen la creación de atributos dinámicos reduciendo drásticamente el consumo de memoria en millones de instancias.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-035",
+      "text": "El bucle while repite la ejecución de un bloque de código mientras una condición booleana permanezca evaluada como verdadera.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-036",
+      "text": "La instrucción raise propaga una instancia de excepción personalizada interrumpiendo el flujo de control hacia los manejadores superiores.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-037",
+      "text": "El método dunder str define la representación textual legible para usuarios mientras que repr define la representación técnica sin ambigüedad.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-038",
+      "text": "Las metaclases heredan de type y permiten interceptar la construcción de nuevas clases sobreescribiendo los métodos new e init.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-039",
+      "text": "El módulo threading proporciona primitivas de sincronización concurrente como candados Lock, semáforos y variables de condición Condition.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-040",
+      "text": "La función map aplica una función unaria sobre cada elemento de una secuencia devolviendo un iterador perezoso con los resultados transformados.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-041",
+      "text": "El módulo dis desensambla objetos de código Python produciendo un volcado legible de nemónicos de bytecode interpretados por la máquina virtual.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-042",
+      "text": "La biblioteca weakref permite mantener referencias débiles a objetos mutables sin incrementar el contador de referencias impidiendo fugas de memoria.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-043",
+      "text": "El módulo contextvars proporciona almacenamiento local para tareas asíncronas preservando el contexto a través de corrutinas concurrentes concurrentes.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-044",
+      "text": "La construcción match case introducida en Python introduce pattern matching estructural permitiendo destructuring de secuencias y mapeos complejos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-045",
+      "text": "El módulo operator expone funciones convenientes equivalentes a operadores aritméticos y lógicos intrínsecos como add, mul y itemgetter.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-046",
+      "text": "El módulo array implementa matrices homogéneas eficientes que almacenan tipos de datos primitivos de C contiguos en memoria física.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-047",
+      "text": "La función bisect localiza puntos de inserción binaria sobre secuencias ordenadas manteniendo el orden de clasificación en tiempo logarítmico.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-048",
+      "text": "El módulo gc expone funciones de control directo sobre el recolector de basura cíclico permitiendo pausar, reanudar o forzar pasadas de recolección.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-049",
+      "text": "El decorador property convierte métodos de instancia en atributos de solo lectura o lectura y escritura con validación personalizada.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-050",
+      "text": "El módulo copy proporciona la función deepcopy para duplicar recursivamente estructuras de datos anidadas rompiendo referencias compartidas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-051",
+      "text": "La función compile compila cadenas de texto fuente en objetos de código ejecutables por las funciones nativas eval o exec.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-052",
+      "text": "El módulo timeit permite medir tiempos de ejecución con precisión de microsegundos ejecutando fragmentos de código millones de repeticiones.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-053",
+      "text": "El protocolo async with gestiona el ciclo de vida de administradores de contexto asíncronos implementando aenter y aexit en corrutinas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-054",
+      "text": "El método dunder hash devuelve un entero de sesenta y cuatro bits que indexa objetos inmutables dentro de colecciones basadas en hash.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-055",
+      "text": "El módulo enum define enumeraciones fuertemente tipadas con soporte para miembros únicos e iterables mediante la clase base Enum.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-056",
+      "text": "El administrador de contexto nativo gestiona la liberación determinista de descriptores de archivos, asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-057",
+      "text": "La clase genérica del módulo typing sincroniza el acceso concorrente a estructuras nativas de C, evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-058",
+      "text": "El operador morsa dentro de expresiones de asignación valida contratos estáticos mediante comprobadores de tipos, con el fin de siguiendo las directrices de diseño y estilo de la especificación pep 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-059",
+      "text": "El módulo inspect en tiempo de ejecución coordina la ejecución de tareas concurrentes no bloqueantes, con el fin de asegurando interoperabilidad binaria con bibliotecas compiladas en c.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-060",
+      "text": "La memoria compartida a través de memoryview reduce evaluaciones redundantes en ramas condicionales optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-061",
+      "text": "El decorador de funciones de orden superior provee inserciones y extracciones eficientes en ambos extremos, garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-062",
+      "text": "La serialización de objetos mediante pickle seguro extrae signaturas de parámetros y metadatos de introspección, facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-063",
+      "text": "El despachador de métodos mediante C3 linearization detecta referencias circulares inalcanzables en el montículo, con el fin de minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-064",
+      "text": "El bloqueo global del intérprete GIL permite manipular búferes binarios sin duplicación de memoria asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-065",
+      "text": "El bucle de eventos asíncrono de asyncio reescribe sentencias antes de la generación del código objeto evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-066",
+      "text": "La estructura de datos deque de collections inyecta validaciones previas a la invocación de funciones, siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-067",
+      "text": "El recolector de basura generacional optimiza la pila de ejecución de marcos locales y globales, asegurando interoperabilidad binaria con bibliotecas compiladas en C.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-068",
+      "text": "La transformación de nodos en el árbol de sintaxis abstracta AST preserva el estado inmutable de tuplas y conjuntos congelados, con el fin de optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-069",
+      "text": "El compilador de bytecode de CPython intercepta el acceso a atributos a nivel de clase e instancia garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-070",
+      "text": "El protocolo descriptor mediante dunder get y set resuelve jerarquías complejas de herencia múltiple facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-071",
+      "text": "El administrador de contexto nativo optimiza la pila de ejecución de marcos locales y globales optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-072",
+      "text": "La clase genérica del módulo typing preserva el estado inmutable de tuplas y conjuntos congelados, garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-073",
+      "text": "El operador morsa dentro de expresiones de asignación intercepta el acceso a atributos a nivel de clase e instancia, facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-074",
+      "text": "El módulo inspect en tiempo de ejecución resuelve jerarquías complejas de herencia múltiple, con el fin de minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-075",
+      "text": "La memoria compartida a través de memoryview gestiona la liberación determinista de descriptores de archivos asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-076",
+      "text": "El decorador de funciones de orden superior sincroniza el acceso concorrente a estructuras nativas de C evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-077",
+      "text": "La serialización de objetos mediante pickle seguro valida contratos estáticos mediante comprobadores de tipos, siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-078",
+      "text": "El despachador de métodos mediante C3 linearization coordina la ejecución de tareas concurrentes no bloqueantes, asegurando interoperabilidad binaria con bibliotecas compiladas en C.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-079",
+      "text": "El bloqueo global del intérprete GIL reduce evaluaciones redundantes en ramas condicionales, con el fin de optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-080",
+      "text": "El bucle de eventos asíncrono de asyncio provee inserciones y extracciones eficientes en ambos extremos garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-081",
+      "text": "La estructura de datos deque de collections extrae signaturas de parámetros y metadatos de introspección facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-082",
+      "text": "El recolector de basura generacional detecta referencias circulares inalcanzables en el montículo, minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-083",
+      "text": "La transformación de nodos en el árbol de sintaxis abstracta AST permite manipular búferes binarios sin duplicación de memoria, con el fin de asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-084",
+      "text": "El compilador de bytecode de CPython reescribe sentencias antes de la generación del código objeto, con el fin de evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-085",
+      "text": "El protocolo descriptor mediante dunder get y set inyecta validaciones previas a la invocación de funciones siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-086",
+      "text": "El administrador de contexto nativo detecta referencias circulares inalcanzables en el montículo asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-087",
+      "text": "La clase genérica del módulo typing permite manipular búferes binarios sin duplicación de memoria evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-088",
+      "text": "El operador morsa dentro de expresiones de asignación reescribe sentencias antes de la generación del código objeto, siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-089",
+      "text": "El módulo inspect en tiempo de ejecución inyecta validaciones previas a la invocación de funciones, asegurando interoperabilidad binaria con bibliotecas compiladas en C.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-090",
+      "text": "La memoria compartida a través de memoryview optimiza la pila de ejecución de marcos locales y globales, con el fin de optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-091",
+      "text": "El decorador de funciones de orden superior preserva el estado inmutable de tuplas y conjuntos congelados garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-092",
+      "text": "La serialización de objetos mediante pickle seguro intercepta el acceso a atributos a nivel de clase e instancia facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-093",
+      "text": "El despachador de métodos mediante C3 linearization resuelve jerarquías complejas de herencia múltiple, minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-094",
+      "text": "El bloqueo global del intérprete GIL gestiona la liberación determinista de descriptores de archivos, con el fin de asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-095",
+      "text": "El bucle de eventos asíncrono de asyncio sincroniza el acceso concorrente a estructuras nativas de C, con el fin de evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-096",
+      "text": "La estructura de datos deque de collections valida contratos estáticos mediante comprobadores de tipos siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-097",
+      "text": "El recolector de basura generacional coordina la ejecución de tareas concurrentes no bloqueantes asegurando interoperabilidad binaria con bibliotecas compiladas en C.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-098",
+      "text": "La transformación de nodos en el árbol de sintaxis abstracta AST reduce evaluaciones redundantes en ramas condicionales, optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-099",
+      "text": "El compilador de bytecode de CPython provee inserciones y extracciones eficientes en ambos extremos, con el fin de garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-100",
+      "text": "El protocolo descriptor mediante dunder get y set extrae signaturas de parámetros y metadatos de introspección, con el fin de facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-101",
+      "text": "El administrador de contexto nativo coordina la ejecución de tareas concurrentes no bloqueantes, con el fin de optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-102",
+      "text": "La clase genérica del módulo typing reduce evaluaciones redundantes en ramas condicionales garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-103",
+      "text": "El operador morsa dentro de expresiones de asignación provee inserciones y extracciones eficientes en ambos extremos facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-104",
+      "text": "El módulo inspect en tiempo de ejecución extrae signaturas de parámetros y metadatos de introspección, minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-105",
+      "text": "La memoria compartida a través de memoryview detecta referencias circulares inalcanzables en el montículo, con el fin de asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-106",
+      "text": "El decorador de funciones de orden superior permite manipular búferes binarios sin duplicación de memoria, con el fin de evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-107",
+      "text": "La serialización de objetos mediante pickle seguro reescribe sentencias antes de la generación del código objeto siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-108",
+      "text": "El despachador de métodos mediante C3 linearization inyecta validaciones previas a la invocación de funciones asegurando interoperabilidad binaria con bibliotecas compiladas en C.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-109",
+      "text": "El bloqueo global del intérprete GIL optimiza la pila de ejecución de marcos locales y globales, optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-110",
+      "text": "El bucle de eventos asíncrono de asyncio preserva el estado inmutable de tuplas y conjuntos congelados, con el fin de garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-111",
+      "text": "La estructura de datos deque de collections intercepta el acceso a atributos a nivel de clase e instancia, con el fin de facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-112",
+      "text": "El recolector de basura generacional resuelve jerarquías complejas de herencia múltiple minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-113",
+      "text": "La transformación de nodos en el árbol de sintaxis abstracta AST gestiona la liberación determinista de descriptores de archivos, asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-114",
+      "text": "El compilador de bytecode de CPython sincroniza el acceso concorrente a estructuras nativas de C, evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-115",
+      "text": "El protocolo descriptor mediante dunder get y set valida contratos estáticos mediante comprobadores de tipos, con el fin de siguiendo las directrices de diseño y estilo de la especificación pep 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-116",
+      "text": "El administrador de contexto nativo resuelve jerarquías complejas de herencia múltiple, con el fin de asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-117",
+      "text": "La clase genérica del módulo typing gestiona la liberación determinista de descriptores de archivos, con el fin de evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-118",
+      "text": "El operador morsa dentro de expresiones de asignación sincroniza el acceso concorrente a estructuras nativas de C siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-119",
+      "text": "El módulo inspect en tiempo de ejecución valida contratos estáticos mediante comprobadores de tipos asegurando interoperabilidad binaria con bibliotecas compiladas en C.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-120",
+      "text": "La memoria compartida a través de memoryview coordina la ejecución de tareas concurrentes no bloqueantes, optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-121",
+      "text": "El decorador de funciones de orden superior reduce evaluaciones redundantes en ramas condicionales, con el fin de garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-122",
+      "text": "La serialización de objetos mediante pickle seguro provee inserciones y extracciones eficientes en ambos extremos, con el fin de facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-123",
+      "text": "El despachador de métodos mediante C3 linearization extrae signaturas de parámetros y metadatos de introspección minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-124",
+      "text": "El bloqueo global del intérprete GIL detecta referencias circulares inalcanzables en el montículo, asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-125",
+      "text": "El bucle de eventos asíncrono de asyncio permite manipular búferes binarios sin duplicación de memoria, evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-126",
+      "text": "La estructura de datos deque de collections reescribe sentencias antes de la generación del código objeto, con el fin de siguiendo las directrices de diseño y estilo de la especificación pep 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-127",
+      "text": "El recolector de basura generacional inyecta validaciones previas a la invocación de funciones, con el fin de asegurando interoperabilidad binaria con bibliotecas compiladas en c.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-128",
+      "text": "La transformación de nodos en el árbol de sintaxis abstracta AST optimiza la pila de ejecución de marcos locales y globales optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-129",
+      "text": "El compilador de bytecode de CPython preserva el estado inmutable de tuplas y conjuntos congelados, garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-130",
+      "text": "El protocolo descriptor mediante dunder get y set intercepta el acceso a atributos a nivel de clase e instancia, facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-131",
+      "text": "El administrador de contexto nativo inyecta validaciones previas a la invocación de funciones, optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-132",
+      "text": "La clase genérica del módulo typing optimiza la pila de ejecución de marcos locales y globales, con el fin de garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-133",
+      "text": "El operador morsa dentro de expresiones de asignación preserva el estado inmutable de tuplas y conjuntos congelados, con el fin de facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-134",
+      "text": "El módulo inspect en tiempo de ejecución intercepta el acceso a atributos a nivel de clase e instancia minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-135",
+      "text": "La memoria compartida a través de memoryview resuelve jerarquías complejas de herencia múltiple, asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-136",
+      "text": "El decorador de funciones de orden superior gestiona la liberación determinista de descriptores de archivos, evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-137",
+      "text": "La serialización de objetos mediante pickle seguro sincroniza el acceso concorrente a estructuras nativas de C, con el fin de siguiendo las directrices de diseño y estilo de la especificación pep 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-138",
+      "text": "El despachador de métodos mediante C3 linearization valida contratos estáticos mediante comprobadores de tipos, con el fin de asegurando interoperabilidad binaria con bibliotecas compiladas en c.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-139",
+      "text": "El bloqueo global del intérprete GIL coordina la ejecución de tareas concurrentes no bloqueantes optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-140",
+      "text": "El bucle de eventos asíncrono de asyncio reduce evaluaciones redundantes en ramas condicionales, garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-141",
+      "text": "La estructura de datos deque de collections provee inserciones y extracciones eficientes en ambos extremos, facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-142",
+      "text": "El recolector de basura generacional extrae signaturas de parámetros y metadatos de introspección, con el fin de minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-143",
+      "text": "La transformación de nodos en el árbol de sintaxis abstracta AST detecta referencias circulares inalcanzables en el montículo asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-144",
+      "text": "El compilador de bytecode de CPython permite manipular búferes binarios sin duplicación de memoria evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-145",
+      "text": "El protocolo descriptor mediante dunder get y set reescribe sentencias antes de la generación del código objeto, siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-146",
+      "text": "El administrador de contexto nativo extrae signaturas de parámetros y metadatos de introspección, asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-147",
+      "text": "La clase genérica del módulo typing detecta referencias circulares inalcanzables en el montículo, evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-148",
+      "text": "El operador morsa dentro de expresiones de asignación permite manipular búferes binarios sin duplicación de memoria, con el fin de siguiendo las directrices de diseño y estilo de la especificación pep 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-149",
+      "text": "El módulo inspect en tiempo de ejecución reescribe sentencias antes de la generación del código objeto, con el fin de asegurando interoperabilidad binaria con bibliotecas compiladas en c.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-150",
+      "text": "La memoria compartida a través de memoryview inyecta validaciones previas a la invocación de funciones optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-151",
+      "text": "El decorador de funciones de orden superior optimiza la pila de ejecución de marcos locales y globales, garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-152",
+      "text": "La serialización de objetos mediante pickle seguro preserva el estado inmutable de tuplas y conjuntos congelados, facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-153",
+      "text": "El despachador de métodos mediante C3 linearization intercepta el acceso a atributos a nivel de clase e instancia, con el fin de minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-154",
+      "text": "El bloqueo global del intérprete GIL resuelve jerarquías complejas de herencia múltiple asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-155",
+      "text": "El bucle de eventos asíncrono de asyncio gestiona la liberación determinista de descriptores de archivos evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-156",
+      "text": "La estructura de datos deque de collections sincroniza el acceso concorrente a estructuras nativas de C, siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-157",
+      "text": "El recolector de basura generacional valida contratos estáticos mediante comprobadores de tipos, asegurando interoperabilidad binaria con bibliotecas compiladas en C.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-158",
+      "text": "La transformación de nodos en el árbol de sintaxis abstracta AST coordina la ejecución de tareas concurrentes no bloqueantes, con el fin de optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-159",
+      "text": "El compilador de bytecode de CPython reduce evaluaciones redundantes en ramas condicionales garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-160",
+      "text": "El protocolo descriptor mediante dunder get y set provee inserciones y extracciones eficientes en ambos extremos facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-161",
+      "text": "El administrador de contexto nativo valida contratos estáticos mediante comprobadores de tipos optimizando el rendimiento del despachador en microservicios backend.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-162",
+      "text": "La clase genérica del módulo typing coordina la ejecución de tareas concurrentes no bloqueantes, garantizando la consistencia del runtime durante excepciones imprevistas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-163",
+      "text": "El operador morsa dentro de expresiones de asignación reduce evaluaciones redundantes en ramas condicionales, facilitando la depuración estática en canalizaciones de integración continua.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-164",
+      "text": "El módulo inspect en tiempo de ejecución provee inserciones y extracciones eficientes en ambos extremos, con el fin de minimizando la sobrecarga computacional de llamadas a funciones nativas.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-165",
+      "text": "La memoria compartida a través de memoryview extrae signaturas de parámetros y metadatos de introspección asegurando un consumo acotado de memoria en servidores de alta concurrencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-166",
+      "text": "El decorador de funciones de orden superior detecta referencias circulares inalcanzables en el montículo evitando fugas de memoria por referencias cíclicas entre módulos.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-es-167",
+      "text": "La serialización de objetos mediante pickle seguro permite manipular búferes binarios sin duplicación de memoria, siguiendo las directrices de diseño y estilo de la especificación PEP 8.",
+      "lang": "es",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-001",
+      "text": "In Python a list represents a mutable sequence indexed by integers supporting methods such as append, insert, pop, and extend.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-002",
+      "text": "The for statement iterates across iterable items consuming elements through the standard iterator protocol using next and iter.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-003",
+      "text": "Functions are defined using the def keyword and may return multiple unpacked values structured as an immutable heterogeneous tuple.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-004",
+      "text": "Exceptions are handled using structured try and except blocks with an optional finally clause ensuring reliable cleanup of resources.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-005",
+      "text": "Dictionaries map unique hashable keys to arbitrary values providing efficient amortized constant time lookups and modifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-006",
+      "text": "A set represents an unordered mutable collection of unique items supporting mathematical operations such as union, intersection, and difference.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-007",
+      "text": "List comprehensions provide a concise declarative syntax for mapping and filtering elements into fresh sequence allocations.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-008",
+      "text": "Generators emit stream values lazily using the yield statement, suspending execution frame state until the next iteration occurs.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-009",
+      "text": "Context managers implement the enter and exit dunder methods to guarantee predictable initialization and teardown of socket descriptors.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-010",
+      "text": "The standard library provides the asyncio module to schedule and execute concurrent coroutines over a non-blocking asynchronous event loop.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-011",
+      "text": "Classes support both single and multiple inheritance resolving method lookup conflicts via the deterministic C3 linearization algorithm.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-012",
+      "text": "The CPython memory runtime couples deterministic reference counting with an auxiliary generational cyclic garbage collector.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-013",
+      "text": "Decorators operate as higher order functions accepting callable objects and returning wrapped callables with augmented runtime behaviors.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-014",
+      "text": "The inspect module allows dynamic runtime introspection of frame stacks, live source code, class hierarchies, and signature parameters.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-015",
+      "text": "Named tuples from collections deliver lightweight immutable record structures with named attribute access alongside tuple indexability.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-016",
+      "text": "Dataclasses automatically synthesize boilerplates such as init, repr, eq, and hash methods based on class level type annotations.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-017",
+      "text": "The walrus operator assigns expressions to variables within enclosing conditional blocks to eliminate repeated nested calculations.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-018",
+      "text": "Descriptors are objects implementing get, set, or delete methods to customize attribute lookup mechanics across class instances.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-019",
+      "text": "The typing module provides static type hint constructors evaluated by static linters like mypy to catch inconsistencies ahead of runtime.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-020",
+      "text": "Formatted string literals enable interpolation of arbitrary runtime expressions embedded directly within quotation prefixes.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-021",
+      "text": "The multiprocessing package spawns independent interpreter processes bypassing global interpreter lock contention across multiple cores.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-022",
+      "text": "The collections defaultdict populates absent keys automatically whenever queried by delegating to a user supplied default factory.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-023",
+      "text": "The nonlocal keyword rebinds variable identifiers located in outer non-global enclosing scopes during nested closure executions.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-024",
+      "text": "The functools lru cache wraps deterministic callables with an in-memory dictionary cache to accelerate expensive recursive evaluations.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-025",
+      "text": "The Python compiler compiles raw source text into abstract syntax trees before generating compact bytecode instructions for evaluation.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-026",
+      "text": "The built-in zip function pairs corresponding elements from multiple iterables sequentially until the shortest input sequence terminates.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-027",
+      "text": "The classmethod decorator transforms instance functions into methods bound directly to the declaring class object rather than instances.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-028",
+      "text": "The staticmethod decorator defines self-contained utility routines inside a class namespace without injecting implicit instance bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-029",
+      "text": "The itertools module implements memory efficient combinatorial tools including Cartesian product, permutations, combinations, and cycle.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-030",
+      "text": "The star unpacking operator unpacks iterable collections into distinct positional arguments during dynamic function dispatch invocations.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-031",
+      "text": "The double star operator unpacks dictionary key value pairs into keyword parameters during dynamic callable invocation sequences.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-032",
+      "text": "The timsort sorting algorithm combines adaptive insertion sort with merge sort passes to deliver optimal efficiency on partially ordered inputs.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-033",
+      "text": "The thread-safe queue module coordinates synchronized task handoffs between concurrent worker threads without manual lock arbitration.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-034",
+      "text": "The slots class declaration suppresses dynamic instance dictionary creation, substantially shrinking memory overhead across large fleets.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-035",
+      "text": "The while loop evaluates a control predicate before every iteration, repeating loop body execution until the expression yields false.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-036",
+      "text": "The raise keyword propagates custom exception instances through active call frames until intercepted by matching except clauses.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-037",
+      "text": "The str dunder method yields human readable string representations while repr returns unambiguous technical diagnostic strings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-038",
+      "text": "Metaclasses inherit from type and intercept class construction sequences by overriding class allocation new and initialization init hooks.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-039",
+      "text": "The threading module coordinates multi-threaded concurrency using synchronization primitives including Lock, Semaphore, and Event.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-040",
+      "text": "The built-in map function applies a unary transformation across sequence iterables, streaming resulting values lazily on demand.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-041",
+      "text": "The dis module disassembles Python code objects into readable instructions revealing bytecode opcodes executed by the virtual machine.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-042",
+      "text": "The weakref module provides weak references allowing garbage collection of referenced objects without artificially elevating reference counters.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-043",
+      "text": "Contextvars module supplies context variables holding state isolation for asynchronous coroutines running inside shared event loops.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-044",
+      "text": "Structural pattern matching with match and case statements enables expressive destructuring of complex dictionary and tuple payloads.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-045",
+      "text": "The operator module exports functional wrappers around standard arithmetic and comparison operations such as attrgetter and itemgetter.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-046",
+      "text": "The array module defines space efficient homogeneous memory sequences storing contiguous C primitives without python object boxing.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-047",
+      "text": "The bisect module performs binary searching across sorted lists to calculate insertion boundaries maintaining sorted order in logarithmic time.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-048",
+      "text": "The gc module grants program access to the cyclic garbage collector providing interfaces to inspect uncollected cyclic references.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-049",
+      "text": "The property decorator exposes getter, setter, and deleter descriptors that encapsulate instance attributes behind transparent method calls.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-050",
+      "text": "The copy module provides copy and deepcopy functions to create shallow or fully recursive copies of arbitrary nested python data structures.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-051",
+      "text": "The builtin compile function parses source strings into executable code objects evaluated dynamically by eval or exec functions.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-052",
+      "text": "The timeit module measures microsecond execution times of small code snippets by repeating executions across isolated benchmark loops.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-053",
+      "text": "The async with statement manages asynchronous context managers executing aenter and aexit coroutines inside event loop schedules.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-054",
+      "text": "The hash dunder method returns an integer used to look up immutable keys within dictionary hash tables and set collections.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-055",
+      "text": "The enum module defines enumerated constants grouped as distinct typed members via the Enum base class architecture.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-056",
+      "text": "The CPython bytecode compiler optimizes stack frame allocation during function calls, ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-057",
+      "text": "The inspect introspection module enables slicing of binary arrays without heap allocations, enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-058",
+      "text": "The concurrent futures thread pool executor extracts runtime stack traces and function parameter signatures, in order to complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-059",
+      "text": "The global interpreter lock synchronization barrier modifies structural code representations prior to compilation, in order to maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-060",
+      "text": "The walrus assignment expression operator dispatches CPU-bound worker tasks across background threads preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-061",
+      "text": "The runtime descriptor protocol mechanism enforces pre-condition logging across service boundaries, preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-062",
+      "text": "The typing generic protocol checker coordinates thread execution across multi-core processor cores, accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-063",
+      "text": "The method resolution order resolver using C3 coordinates cooperative coroutine execution across network sockets, in order to minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-064",
+      "text": "The zero-copy memoryview binary buffer interface simplifies loop termination checks within comprehension pipelines ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-065",
+      "text": "The abstract syntax tree transformation pass guarantees deterministic cleanup of operating system file handles enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-066",
+      "text": "The higher-order function decorator wrapper intercepts attribute retrieval and mutation on instance variables, complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-067",
+      "text": "The native asyncio event loop scheduler identifies and purges cyclic object references in heap memory, maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-068",
+      "text": "The context manager enter and exit protocol verifies structural subtyping at static analysis boundaries, in order to preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-069",
+      "text": "The generational garbage collection engine maintains compact memory representation with fixed schema preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-070",
+      "text": "The immutable namedtuple data structure linearizes complex class hierarchies without ambiguity accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-071",
+      "text": "The CPython bytecode compiler identifies and purges cyclic object references in heap memory preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-072",
+      "text": "The inspect introspection module verifies structural subtyping at static analysis boundaries, preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-073",
+      "text": "The concurrent futures thread pool executor maintains compact memory representation with fixed schema, accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-074",
+      "text": "The global interpreter lock synchronization barrier linearizes complex class hierarchies without ambiguity, in order to minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-075",
+      "text": "The walrus assignment expression operator optimizes stack frame allocation during function calls ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-076",
+      "text": "The runtime descriptor protocol mechanism enables slicing of binary arrays without heap allocations enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-077",
+      "text": "The typing generic protocol checker extracts runtime stack traces and function parameter signatures, complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-078",
+      "text": "The method resolution order resolver using C3 modifies structural code representations prior to compilation, maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-079",
+      "text": "The zero-copy memoryview binary buffer interface dispatches CPU-bound worker tasks across background threads, in order to preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-080",
+      "text": "The abstract syntax tree transformation pass enforces pre-condition logging across service boundaries preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-081",
+      "text": "The higher-order function decorator wrapper coordinates thread execution across multi-core processor cores accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-082",
+      "text": "The native asyncio event loop scheduler coordinates cooperative coroutine execution across network sockets, minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-083",
+      "text": "The context manager enter and exit protocol simplifies loop termination checks within comprehension pipelines, in order to ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-084",
+      "text": "The generational garbage collection engine guarantees deterministic cleanup of operating system file handles, in order to enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-085",
+      "text": "The immutable namedtuple data structure intercepts attribute retrieval and mutation on instance variables complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-086",
+      "text": "The CPython bytecode compiler coordinates cooperative coroutine execution across network sockets ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-087",
+      "text": "The inspect introspection module simplifies loop termination checks within comprehension pipelines enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-088",
+      "text": "The concurrent futures thread pool executor guarantees deterministic cleanup of operating system file handles, complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-089",
+      "text": "The global interpreter lock synchronization barrier intercepts attribute retrieval and mutation on instance variables, maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-090",
+      "text": "The walrus assignment expression operator identifies and purges cyclic object references in heap memory, in order to preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-091",
+      "text": "The runtime descriptor protocol mechanism verifies structural subtyping at static analysis boundaries preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-092",
+      "text": "The typing generic protocol checker maintains compact memory representation with fixed schema accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-093",
+      "text": "The method resolution order resolver using C3 linearizes complex class hierarchies without ambiguity, minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-094",
+      "text": "The zero-copy memoryview binary buffer interface optimizes stack frame allocation during function calls, in order to ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-095",
+      "text": "The abstract syntax tree transformation pass enables slicing of binary arrays without heap allocations, in order to enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-096",
+      "text": "The higher-order function decorator wrapper extracts runtime stack traces and function parameter signatures complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-097",
+      "text": "The native asyncio event loop scheduler modifies structural code representations prior to compilation maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-098",
+      "text": "The context manager enter and exit protocol dispatches CPU-bound worker tasks across background threads, preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-099",
+      "text": "The generational garbage collection engine enforces pre-condition logging across service boundaries, in order to preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-100",
+      "text": "The immutable namedtuple data structure coordinates thread execution across multi-core processor cores, in order to accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-101",
+      "text": "The CPython bytecode compiler modifies structural code representations prior to compilation, in order to preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-102",
+      "text": "The inspect introspection module dispatches CPU-bound worker tasks across background threads preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-103",
+      "text": "The concurrent futures thread pool executor enforces pre-condition logging across service boundaries accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-104",
+      "text": "The global interpreter lock synchronization barrier coordinates thread execution across multi-core processor cores, minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-105",
+      "text": "The walrus assignment expression operator coordinates cooperative coroutine execution across network sockets, in order to ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-106",
+      "text": "The runtime descriptor protocol mechanism simplifies loop termination checks within comprehension pipelines, in order to enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-107",
+      "text": "The typing generic protocol checker guarantees deterministic cleanup of operating system file handles complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-108",
+      "text": "The method resolution order resolver using C3 intercepts attribute retrieval and mutation on instance variables maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-109",
+      "text": "The zero-copy memoryview binary buffer interface identifies and purges cyclic object references in heap memory, preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-110",
+      "text": "The abstract syntax tree transformation pass verifies structural subtyping at static analysis boundaries, in order to preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-111",
+      "text": "The higher-order function decorator wrapper maintains compact memory representation with fixed schema, in order to accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-112",
+      "text": "The native asyncio event loop scheduler linearizes complex class hierarchies without ambiguity minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-113",
+      "text": "The context manager enter and exit protocol optimizes stack frame allocation during function calls, ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-114",
+      "text": "The generational garbage collection engine enables slicing of binary arrays without heap allocations, enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-115",
+      "text": "The immutable namedtuple data structure extracts runtime stack traces and function parameter signatures, in order to complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-116",
+      "text": "The CPython bytecode compiler linearizes complex class hierarchies without ambiguity, in order to ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-117",
+      "text": "The inspect introspection module optimizes stack frame allocation during function calls, in order to enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-118",
+      "text": "The concurrent futures thread pool executor enables slicing of binary arrays without heap allocations complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-119",
+      "text": "The global interpreter lock synchronization barrier extracts runtime stack traces and function parameter signatures maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-120",
+      "text": "The walrus assignment expression operator modifies structural code representations prior to compilation, preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-121",
+      "text": "The runtime descriptor protocol mechanism dispatches CPU-bound worker tasks across background threads, in order to preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-122",
+      "text": "The typing generic protocol checker enforces pre-condition logging across service boundaries, in order to accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-123",
+      "text": "The method resolution order resolver using C3 coordinates thread execution across multi-core processor cores minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-124",
+      "text": "The zero-copy memoryview binary buffer interface coordinates cooperative coroutine execution across network sockets, ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-125",
+      "text": "The abstract syntax tree transformation pass simplifies loop termination checks within comprehension pipelines, enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-126",
+      "text": "The higher-order function decorator wrapper guarantees deterministic cleanup of operating system file handles, in order to complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-127",
+      "text": "The native asyncio event loop scheduler intercepts attribute retrieval and mutation on instance variables, in order to maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-128",
+      "text": "The context manager enter and exit protocol identifies and purges cyclic object references in heap memory preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-129",
+      "text": "The generational garbage collection engine verifies structural subtyping at static analysis boundaries, preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-130",
+      "text": "The immutable namedtuple data structure maintains compact memory representation with fixed schema, accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-131",
+      "text": "The CPython bytecode compiler intercepts attribute retrieval and mutation on instance variables, preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-132",
+      "text": "The inspect introspection module identifies and purges cyclic object references in heap memory, in order to preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-133",
+      "text": "The concurrent futures thread pool executor verifies structural subtyping at static analysis boundaries, in order to accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-134",
+      "text": "The global interpreter lock synchronization barrier maintains compact memory representation with fixed schema minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-135",
+      "text": "The walrus assignment expression operator linearizes complex class hierarchies without ambiguity, ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-136",
+      "text": "The runtime descriptor protocol mechanism optimizes stack frame allocation during function calls, enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-137",
+      "text": "The typing generic protocol checker enables slicing of binary arrays without heap allocations, in order to complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-138",
+      "text": "The method resolution order resolver using C3 extracts runtime stack traces and function parameter signatures, in order to maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-139",
+      "text": "The zero-copy memoryview binary buffer interface modifies structural code representations prior to compilation preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-140",
+      "text": "The abstract syntax tree transformation pass dispatches CPU-bound worker tasks across background threads, preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-141",
+      "text": "The higher-order function decorator wrapper enforces pre-condition logging across service boundaries, accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-142",
+      "text": "The native asyncio event loop scheduler coordinates thread execution across multi-core processor cores, in order to minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-143",
+      "text": "The context manager enter and exit protocol coordinates cooperative coroutine execution across network sockets ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-144",
+      "text": "The generational garbage collection engine simplifies loop termination checks within comprehension pipelines enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-145",
+      "text": "The immutable namedtuple data structure guarantees deterministic cleanup of operating system file handles, complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-146",
+      "text": "The CPython bytecode compiler coordinates thread execution across multi-core processor cores, ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-147",
+      "text": "The inspect introspection module coordinates cooperative coroutine execution across network sockets, enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-148",
+      "text": "The concurrent futures thread pool executor simplifies loop termination checks within comprehension pipelines, in order to complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-149",
+      "text": "The global interpreter lock synchronization barrier guarantees deterministic cleanup of operating system file handles, in order to maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-150",
+      "text": "The walrus assignment expression operator intercepts attribute retrieval and mutation on instance variables preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-151",
+      "text": "The runtime descriptor protocol mechanism identifies and purges cyclic object references in heap memory, preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-152",
+      "text": "The typing generic protocol checker verifies structural subtyping at static analysis boundaries, accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-153",
+      "text": "The method resolution order resolver using C3 maintains compact memory representation with fixed schema, in order to minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-154",
+      "text": "The zero-copy memoryview binary buffer interface linearizes complex class hierarchies without ambiguity ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-155",
+      "text": "The abstract syntax tree transformation pass optimizes stack frame allocation during function calls enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-156",
+      "text": "The higher-order function decorator wrapper enables slicing of binary arrays without heap allocations, complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-157",
+      "text": "The native asyncio event loop scheduler extracts runtime stack traces and function parameter signatures, maintaining backward compatibility across interpreter release cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-158",
+      "text": "The context manager enter and exit protocol modifies structural code representations prior to compilation, in order to preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-159",
+      "text": "The generational garbage collection engine dispatches CPU-bound worker tasks across background threads preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-160",
+      "text": "The immutable namedtuple data structure enforces pre-condition logging across service boundaries accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-161",
+      "text": "The CPython bytecode compiler extracts runtime stack traces and function parameter signatures preventing synchronization deadlocks across concurrent worker pools.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-162",
+      "text": "The inspect introspection module modifies structural code representations prior to compilation, preserving strict runtime determinism in asynchronous web services.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-163",
+      "text": "The concurrent futures thread pool executor dispatches CPU-bound worker tasks across background threads, accelerating scientific numerical computations with native bindings.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-164",
+      "text": "The global interpreter lock synchronization barrier enforces pre-condition logging across service boundaries, in order to minimizing memory footprint in microcontainer execution environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-165",
+      "text": "The walrus assignment expression operator coordinates thread execution across multi-core processor cores ensuring high-throughput stream processing under low system latency.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-166",
+      "text": "The runtime descriptor protocol mechanism coordinates cooperative coroutine execution across network sockets enforcing robust exception handling in mission-critical pipelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-en-167",
+      "text": "The typing generic protocol checker simplifies loop termination checks within comprehension pipelines, complying with standard python enhancement proposal specifications.",
+      "lang": "en",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-001",
+      "text": "Der CPython-Bytecode-Compiler optimiert die Speicherverwaltung lokaler Ausführungsrahmen, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-002",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST erlaubt speichereffiziente Manipulation ohne Pufferkopien, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-003",
+      "text": "Das Typensystem mit generischen Protokollen modifiziert Quellcode-Strukturen vor der Bytecode-Generierung, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-004",
+      "text": "Der globale Interpretersperrmechanismus GIL garantiert die deterministische Freigabe von Dateideskriptoren, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-005",
+      "text": "Die deque-Doppelenden-Warteschlange prüft strukturelle Subtypen während statischer Quelltextanalysen zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-006",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene liefert Werte sequentiell ohne vollständige Listenallokation, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-007",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen synchronisiert den threadübergreifenden Zugriff auf C-Strukturen, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-008",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus steuert nicht-blockierende Koroutinen über Netzwerk-Sockets, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-009",
+      "text": "Das memoryview-Objekt für Binärpuffer ermöglicht schnelles Einfügen und Entfernen an beiden Enden um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-010",
+      "text": "Der native Kontextmanager mit enter und exit generiert automatische Konstruktor- und Vergleichsmethoden während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-011",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung fängt den lesenden und schreibenden Attributzugriff ab, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-012",
+      "text": "Die asynchrone Ereignisschleife von asyncio bereinigt zyklische Referenzen im Objektheap zuverlässig, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-013",
+      "text": "Die typsichere Dataclass-Implementierung erleichtert kompakte Ausdrücke in komplexen Verzweigungen, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-014",
+      "text": "Der zyklische Garbage-Collector extrahiert Typsignaturen und Stack-Frames zur Laufzeit gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-015",
+      "text": "Das Introspektionsmodul inspect linearisiert mehrfache Vererbungshierarchien eindeutig für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-016",
+      "text": "Der CPython-Bytecode-Compiler bereinigt zyklische Referenzen im Objektheap zuverlässig zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-017",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST erleichtert kompakte Ausdrücke in komplexen Verzweigungen, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-018",
+      "text": "Das Typensystem mit generischen Protokollen extrahiert Typsignaturen und Stack-Frames zur Laufzeit, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-019",
+      "text": "Der globale Interpretersperrmechanismus GIL linearisiert mehrfache Vererbungshierarchien eindeutig, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-020",
+      "text": "Die deque-Doppelenden-Warteschlange optimiert die Speicherverwaltung lokaler Ausführungsrahmen um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-021",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene erlaubt speichereffiziente Manipulation ohne Pufferkopien während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-022",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen modifiziert Quellcode-Strukturen vor der Bytecode-Generierung, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-023",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus garantiert die deterministische Freigabe von Dateideskriptoren, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-024",
+      "text": "Das memoryview-Objekt für Binärpuffer prüft strukturelle Subtypen während statischer Quelltextanalysen, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-025",
+      "text": "Der native Kontextmanager mit enter und exit liefert Werte sequentiell ohne vollständige Listenallokation gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-026",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung synchronisiert den threadübergreifenden Zugriff auf C-Strukturen für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-027",
+      "text": "Die asynchrone Ereignisschleife von asyncio steuert nicht-blockierende Koroutinen über Netzwerk-Sockets, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-028",
+      "text": "Die typsichere Dataclass-Implementierung ermöglicht schnelles Einfügen und Entfernen an beiden Enden, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-029",
+      "text": "Der zyklische Garbage-Collector generiert automatische Konstruktor- und Vergleichsmethoden, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-030",
+      "text": "Das Introspektionsmodul inspect fängt den lesenden und schreibenden Attributzugriff ab zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-031",
+      "text": "Der CPython-Bytecode-Compiler steuert nicht-blockierende Koroutinen über Netzwerk-Sockets um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-032",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST ermöglicht schnelles Einfügen und Entfernen an beiden Enden während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-033",
+      "text": "Das Typensystem mit generischen Protokollen generiert automatische Konstruktor- und Vergleichsmethoden, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-034",
+      "text": "Der globale Interpretersperrmechanismus GIL fängt den lesenden und schreibenden Attributzugriff ab, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-035",
+      "text": "Die deque-Doppelenden-Warteschlange bereinigt zyklische Referenzen im Objektheap zuverlässig, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-036",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene erleichtert kompakte Ausdrücke in komplexen Verzweigungen gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-037",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen extrahiert Typsignaturen und Stack-Frames zur Laufzeit für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-038",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus linearisiert mehrfache Vererbungshierarchien eindeutig, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-039",
+      "text": "Das memoryview-Objekt für Binärpuffer optimiert die Speicherverwaltung lokaler Ausführungsrahmen, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-040",
+      "text": "Der native Kontextmanager mit enter und exit erlaubt speichereffiziente Manipulation ohne Pufferkopien, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-041",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung modifiziert Quellcode-Strukturen vor der Bytecode-Generierung zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-042",
+      "text": "Die asynchrone Ereignisschleife von asyncio garantiert die deterministische Freigabe von Dateideskriptoren zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-043",
+      "text": "Die typsichere Dataclass-Implementierung prüft strukturelle Subtypen während statischer Quelltextanalysen, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-044",
+      "text": "Der zyklische Garbage-Collector liefert Werte sequentiell ohne vollständige Listenallokation, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-045",
+      "text": "Das Introspektionsmodul inspect synchronisiert den threadübergreifenden Zugriff auf C-Strukturen, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-046",
+      "text": "Der CPython-Bytecode-Compiler garantiert die deterministische Freigabe von Dateideskriptoren, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-047",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST prüft strukturelle Subtypen während statischer Quelltextanalysen gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-048",
+      "text": "Das Typensystem mit generischen Protokollen liefert Werte sequentiell ohne vollständige Listenallokation für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-049",
+      "text": "Der globale Interpretersperrmechanismus GIL synchronisiert den threadübergreifenden Zugriff auf C-Strukturen, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-050",
+      "text": "Die deque-Doppelenden-Warteschlange steuert nicht-blockierende Koroutinen über Netzwerk-Sockets, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-051",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene ermöglicht schnelles Einfügen und Entfernen an beiden Enden, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-052",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen generiert automatische Konstruktor- und Vergleichsmethoden zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-053",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus fängt den lesenden und schreibenden Attributzugriff ab zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-054",
+      "text": "Das memoryview-Objekt für Binärpuffer bereinigt zyklische Referenzen im Objektheap zuverlässig, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-055",
+      "text": "Der native Kontextmanager mit enter und exit erleichtert kompakte Ausdrücke in komplexen Verzweigungen, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-056",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung extrahiert Typsignaturen und Stack-Frames zur Laufzeit, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-057",
+      "text": "Die asynchrone Ereignisschleife von asyncio linearisiert mehrfache Vererbungshierarchien eindeutig unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-058",
+      "text": "Die typsichere Dataclass-Implementierung optimiert die Speicherverwaltung lokaler Ausführungsrahmen, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-059",
+      "text": "Der zyklische Garbage-Collector erlaubt speichereffiziente Manipulation ohne Pufferkopien, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-060",
+      "text": "Das Introspektionsmodul inspect modifiziert Quellcode-Strukturen vor der Bytecode-Generierung, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-061",
+      "text": "Der CPython-Bytecode-Compiler linearisiert mehrfache Vererbungshierarchien eindeutig, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-062",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST optimiert die Speicherverwaltung lokaler Ausführungsrahmen, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-063",
+      "text": "Das Typensystem mit generischen Protokollen erlaubt speichereffiziente Manipulation ohne Pufferkopien zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-064",
+      "text": "Der globale Interpretersperrmechanismus GIL modifiziert Quellcode-Strukturen vor der Bytecode-Generierung zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-065",
+      "text": "Die deque-Doppelenden-Warteschlange garantiert die deterministische Freigabe von Dateideskriptoren, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-066",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene prüft strukturelle Subtypen während statischer Quelltextanalysen, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-067",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen liefert Werte sequentiell ohne vollständige Listenallokation, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-068",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus synchronisiert den threadübergreifenden Zugriff auf C-Strukturen unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-069",
+      "text": "Das memoryview-Objekt für Binärpuffer steuert nicht-blockierende Koroutinen über Netzwerk-Sockets, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-070",
+      "text": "Der native Kontextmanager mit enter und exit ermöglicht schnelles Einfügen und Entfernen an beiden Enden, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-071",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung generiert automatische Konstruktor- und Vergleichsmethoden, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-072",
+      "text": "Die asynchrone Ereignisschleife von asyncio fängt den lesenden und schreibenden Attributzugriff ab, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-073",
+      "text": "Die typsichere Dataclass-Implementierung bereinigt zyklische Referenzen im Objektheap zuverlässig zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-074",
+      "text": "Der zyklische Garbage-Collector erleichtert kompakte Ausdrücke in komplexen Verzweigungen, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-075",
+      "text": "Das Introspektionsmodul inspect extrahiert Typsignaturen und Stack-Frames zur Laufzeit, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-076",
+      "text": "Der CPython-Bytecode-Compiler fängt den lesenden und schreibenden Attributzugriff ab, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-077",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST bereinigt zyklische Referenzen im Objektheap zuverlässig, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-078",
+      "text": "Das Typensystem mit generischen Protokollen erleichtert kompakte Ausdrücke in komplexen Verzweigungen, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-079",
+      "text": "Der globale Interpretersperrmechanismus GIL extrahiert Typsignaturen und Stack-Frames zur Laufzeit unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-080",
+      "text": "Die deque-Doppelenden-Warteschlange linearisiert mehrfache Vererbungshierarchien eindeutig, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-081",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene optimiert die Speicherverwaltung lokaler Ausführungsrahmen, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-082",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen erlaubt speichereffiziente Manipulation ohne Pufferkopien, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-083",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus modifiziert Quellcode-Strukturen vor der Bytecode-Generierung, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-084",
+      "text": "Das memoryview-Objekt für Binärpuffer garantiert die deterministische Freigabe von Dateideskriptoren zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-085",
+      "text": "Der native Kontextmanager mit enter und exit prüft strukturelle Subtypen während statischer Quelltextanalysen, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-086",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung liefert Werte sequentiell ohne vollständige Listenallokation, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-087",
+      "text": "Die asynchrone Ereignisschleife von asyncio synchronisiert den threadübergreifenden Zugriff auf C-Strukturen, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-088",
+      "text": "Die typsichere Dataclass-Implementierung steuert nicht-blockierende Koroutinen über Netzwerk-Sockets um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-089",
+      "text": "Der zyklische Garbage-Collector ermöglicht schnelles Einfügen und Entfernen an beiden Enden während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-090",
+      "text": "Das Introspektionsmodul inspect generiert automatische Konstruktor- und Vergleichsmethoden, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-091",
+      "text": "Der CPython-Bytecode-Compiler synchronisiert den threadübergreifenden Zugriff auf C-Strukturen, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-092",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST steuert nicht-blockierende Koroutinen über Netzwerk-Sockets, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-093",
+      "text": "Das Typensystem mit generischen Protokollen ermöglicht schnelles Einfügen und Entfernen an beiden Enden, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-094",
+      "text": "Der globale Interpretersperrmechanismus GIL generiert automatische Konstruktor- und Vergleichsmethoden, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-095",
+      "text": "Die deque-Doppelenden-Warteschlange fängt den lesenden und schreibenden Attributzugriff ab zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-096",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene bereinigt zyklische Referenzen im Objektheap zuverlässig, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-097",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen erleichtert kompakte Ausdrücke in komplexen Verzweigungen, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-098",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus extrahiert Typsignaturen und Stack-Frames zur Laufzeit, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-099",
+      "text": "Das memoryview-Objekt für Binärpuffer linearisiert mehrfache Vererbungshierarchien eindeutig um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-100",
+      "text": "Der native Kontextmanager mit enter und exit optimiert die Speicherverwaltung lokaler Ausführungsrahmen während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-101",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung erlaubt speichereffiziente Manipulation ohne Pufferkopien, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-102",
+      "text": "Die asynchrone Ereignisschleife von asyncio modifiziert Quellcode-Strukturen vor der Bytecode-Generierung, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-103",
+      "text": "Die typsichere Dataclass-Implementierung garantiert die deterministische Freigabe von Dateideskriptoren, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-104",
+      "text": "Der zyklische Garbage-Collector prüft strukturelle Subtypen während statischer Quelltextanalysen gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-105",
+      "text": "Das Introspektionsmodul inspect liefert Werte sequentiell ohne vollständige Listenallokation für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-106",
+      "text": "Der CPython-Bytecode-Compiler modifiziert Quellcode-Strukturen vor der Bytecode-Generierung zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-107",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST garantiert die deterministische Freigabe von Dateideskriptoren, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-108",
+      "text": "Das Typensystem mit generischen Protokollen prüft strukturelle Subtypen während statischer Quelltextanalysen, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-109",
+      "text": "Der globale Interpretersperrmechanismus GIL liefert Werte sequentiell ohne vollständige Listenallokation, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-110",
+      "text": "Die deque-Doppelenden-Warteschlange synchronisiert den threadübergreifenden Zugriff auf C-Strukturen um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-111",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene steuert nicht-blockierende Koroutinen über Netzwerk-Sockets während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-112",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen ermöglicht schnelles Einfügen und Entfernen an beiden Enden, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-113",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus generiert automatische Konstruktor- und Vergleichsmethoden, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-114",
+      "text": "Das memoryview-Objekt für Binärpuffer fängt den lesenden und schreibenden Attributzugriff ab, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-115",
+      "text": "Der native Kontextmanager mit enter und exit bereinigt zyklische Referenzen im Objektheap zuverlässig gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-116",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung erleichtert kompakte Ausdrücke in komplexen Verzweigungen für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-117",
+      "text": "Die asynchrone Ereignisschleife von asyncio extrahiert Typsignaturen und Stack-Frames zur Laufzeit, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-118",
+      "text": "Die typsichere Dataclass-Implementierung linearisiert mehrfache Vererbungshierarchien eindeutig, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-119",
+      "text": "Der zyklische Garbage-Collector optimiert die Speicherverwaltung lokaler Ausführungsrahmen, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-120",
+      "text": "Das Introspektionsmodul inspect erlaubt speichereffiziente Manipulation ohne Pufferkopien zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-121",
+      "text": "Der CPython-Bytecode-Compiler extrahiert Typsignaturen und Stack-Frames zur Laufzeit um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-122",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST linearisiert mehrfache Vererbungshierarchien eindeutig während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-123",
+      "text": "Das Typensystem mit generischen Protokollen optimiert die Speicherverwaltung lokaler Ausführungsrahmen, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-124",
+      "text": "Der globale Interpretersperrmechanismus GIL erlaubt speichereffiziente Manipulation ohne Pufferkopien, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-125",
+      "text": "Die deque-Doppelenden-Warteschlange modifiziert Quellcode-Strukturen vor der Bytecode-Generierung, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-126",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene garantiert die deterministische Freigabe von Dateideskriptoren gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-127",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen prüft strukturelle Subtypen während statischer Quelltextanalysen für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-128",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus liefert Werte sequentiell ohne vollständige Listenallokation, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-129",
+      "text": "Das memoryview-Objekt für Binärpuffer synchronisiert den threadübergreifenden Zugriff auf C-Strukturen, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-130",
+      "text": "Der native Kontextmanager mit enter und exit steuert nicht-blockierende Koroutinen über Netzwerk-Sockets, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-131",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung ermöglicht schnelles Einfügen und Entfernen an beiden Enden zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-132",
+      "text": "Die asynchrone Ereignisschleife von asyncio generiert automatische Konstruktor- und Vergleichsmethoden zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-133",
+      "text": "Die typsichere Dataclass-Implementierung fängt den lesenden und schreibenden Attributzugriff ab, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-134",
+      "text": "Der zyklische Garbage-Collector bereinigt zyklische Referenzen im Objektheap zuverlässig, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-135",
+      "text": "Das Introspektionsmodul inspect erleichtert kompakte Ausdrücke in komplexen Verzweigungen, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-136",
+      "text": "Der CPython-Bytecode-Compiler generiert automatische Konstruktor- und Vergleichsmethoden, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-137",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST fängt den lesenden und schreibenden Attributzugriff ab gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-138",
+      "text": "Das Typensystem mit generischen Protokollen bereinigt zyklische Referenzen im Objektheap zuverlässig für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-139",
+      "text": "Der globale Interpretersperrmechanismus GIL erleichtert kompakte Ausdrücke in komplexen Verzweigungen, unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-140",
+      "text": "Die deque-Doppelenden-Warteschlange extrahiert Typsignaturen und Stack-Frames zur Laufzeit, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-141",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene linearisiert mehrfache Vererbungshierarchien eindeutig, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-142",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen optimiert die Speicherverwaltung lokaler Ausführungsrahmen zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-143",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus erlaubt speichereffiziente Manipulation ohne Pufferkopien zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-144",
+      "text": "Das memoryview-Objekt für Binärpuffer modifiziert Quellcode-Strukturen vor der Bytecode-Generierung, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-145",
+      "text": "Der native Kontextmanager mit enter und exit garantiert die deterministische Freigabe von Dateideskriptoren, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-146",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung prüft strukturelle Subtypen während statischer Quelltextanalysen, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-147",
+      "text": "Die asynchrone Ereignisschleife von asyncio liefert Werte sequentiell ohne vollständige Listenallokation unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-148",
+      "text": "Die typsichere Dataclass-Implementierung synchronisiert den threadübergreifenden Zugriff auf C-Strukturen, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-149",
+      "text": "Der zyklische Garbage-Collector steuert nicht-blockierende Koroutinen über Netzwerk-Sockets, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-150",
+      "text": "Das Introspektionsmodul inspect ermöglicht schnelles Einfügen und Entfernen an beiden Enden, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-151",
+      "text": "Der CPython-Bytecode-Compiler liefert Werte sequentiell ohne vollständige Listenallokation, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-152",
+      "text": "Die Transformation des abstrakten Syntaxbaums AST synchronisiert den threadübergreifenden Zugriff auf C-Strukturen, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-153",
+      "text": "Das Typensystem mit generischen Protokollen steuert nicht-blockierende Koroutinen über Netzwerk-Sockets zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-154",
+      "text": "Der globale Interpretersperrmechanismus GIL ermöglicht schnelles Einfügen und Entfernen an beiden Enden zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-155",
+      "text": "Die deque-Doppelenden-Warteschlange generiert automatische Konstruktor- und Vergleichsmethoden, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-156",
+      "text": "Das Deskriptor-Protokoll auf Klassenebene fängt den lesenden und schreibenden Attributzugriff ab, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-157",
+      "text": "Der Walrus-Zuweisungsoperator in Bedingungen bereinigt zyklische Referenzen im Objektheap zuverlässig, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-158",
+      "text": "Die Method-Resolution-Order nach dem C3-Algorithmus erleichtert kompakte Ausdrücke in komplexen Verzweigungen unter Beibehaltung hoher Durchsatzraten in Web-Backends.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-159",
+      "text": "Das memoryview-Objekt für Binärpuffer extrahiert Typsignaturen und Stack-Frames zur Laufzeit, um einen minimalen Speicherverbrauch im Hochleistungsbetrieb zu sichern.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-160",
+      "text": "Der native Kontextmanager mit enter und exit linearisiert mehrfache Vererbungshierarchien eindeutig, während rechenintensiver Operationen auf mehrkernigen Prozessoren.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-161",
+      "text": "Die funktionalen Generatoren mit yield-Anweisung optimiert die Speicherverwaltung lokaler Ausführungsrahmen, zur Vermeidung unerwarteter Laufzeitfehler bei starker Nebenläufigkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-162",
+      "text": "Die asynchrone Ereignisschleife von asyncio erlaubt speichereffiziente Manipulation ohne Pufferkopien, zur Beschleunigung automatisierter Testläufe in Continuous-Integration-Systemen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-163",
+      "text": "Die typsichere Dataclass-Implementierung modifiziert Quellcode-Strukturen vor der Bytecode-Generierung zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-164",
+      "text": "Der zyklische Garbage-Collector garantiert die deterministische Freigabe von Dateideskriptoren, gemäß den Richtlinien offizieller Python Enhancement Proposals.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-165",
+      "text": "Das Introspektionsmodul inspect prüft strukturelle Subtypen während statischer Quelltextanalysen, für eine saubere Modularisierung modularer Softwarearchitekturen.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    },
+    {
+      "id": "python-de-166",
+      "text": "Der CPython-Bytecode-Compiler erlaubt speichereffiziente Manipulation ohne Pufferkopien, zur Gewährleistung robuster Ausnahmebehandlung in Datenpipelines.",
+      "lang": "de",
+      "source": "corpus-trilingue-python"
+    }
+  ]
+}

@@ -1,0 +1,3007 @@
+{
+  "alma": "receta",
+  "n": 500,
+  "description": "Mazo trilingüe de receta (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "receta-es-001",
+      "text": "Batir las claras de huevo a punto de nieve con una pizca de cremor tártaro durante seis minutos continuos hasta formar picos firmes y satinados.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-002",
+      "text": "Tamizar la harina de trigo cuatro ceros junto con el polvo para hornear y el almidón de maíz en tres tandas para airear la mezcla y evitar grumos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-003",
+      "text": "Precalentar el horno convector a 175 grados Celsius y enmantecar prolijamente el molde desmontable antes de espolvorear con cacao amargo en polvo.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-004",
+      "text": "Disolver la levadura seca prensada en leche entera tibia a 36 grados agregando una cucharada pequeña de miel y dejar reposar hasta que espume.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-005",
+      "text": "Amasar la preparación sobre la mesada enharinada plegando sobre sí misma hasta obtener un bollo liso, sedoso y de textura perfectamente elástica.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-006",
+      "text": "Dejar fermentar la masa en un cuenco aceitado cubierto con un paño limpio y húmedo en un rincón tibio hasta que duplique holgadamente su volumen.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-007",
+      "text": "Saltear las chalotas finamente picadas en manteca clarificada a fuego suave hasta que queden transparentes y caramelizadas sin quemarse los bordes.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-008",
+      "text": "Reducir el fondo oscuro de carne vacuna con vino tinto y hierbas frescas durante cuarenta minutos a hervor tenue espumando las impurezas.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-009",
+      "text": "Cortar las zanahorias y el puerro en juliana uniforme para incorporar a la cocción del caldo aromático aromatizado con hojas de laurel y tomillo.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-010",
+      "text": "Fundir el chocolate cobertura amargo a baño de María asegurando que el agua del recipiente inferior no toque jamás la base del cuenco superior.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-011",
+      "text": "Templar el chocolate sobre la mesada de mármol realizando movimientos envolventes con espátula hasta bajar la temperatura a veintisiete grados.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-012",
+      "text": "Remontar la temperatura del chocolate a treinta y un grados antes de verter en los moldes de bombones para lograr brillo y quiebre crujiente.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-013",
+      "text": "Emulsionar las yemas frescas con vinagre de manzana y mostaza de Dijón vertiendo aceite de girasol en un hilo continuo y pausado.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-014",
+      "text": "Desglasar la sartén caliente con oporto tras sellar el lomo de cerdo para desprender todos los jugos caramelizados pegados al fondo de cocción.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-015",
+      "text": "Confitar los dientes de ajo pelados sumergidos en aceite de oliva extra virgen a setenta grados Celsius durante dos horas enteras.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-016",
+      "text": "Blanquear los espárragos verdes en abundante agua hirviendo salada durante dos minutos y cortar la cocción inmediatamente en un baño de agua helada.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-017",
+      "text": "Preparar un almíbar a punto bolita blanda hirviendo agua con azúcar blanco refinado hasta registrar exactamente ciento dieciocho grados en el termómetro.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-018",
+      "text": "Mezclar la crema pastelera fría con crema de leche batida a medio punto para elaborar una crema diplomática ligera apta para rellenar milhojas.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-019",
+      "text": "Hornear la masa quebrada a ciegas cubierta con papel manteca y legumbres secas durante quince minutos para evitar que el fondo se infle.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-020",
+      "text": "Marinar los filetes de pescado blanco con jugo fresco de lima, cilantro picado, chile dulce y sal marina durante veinte minutos en frío.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-021",
+      "text": "Escalfar las peras peladas en un almíbar especiado con anís estrellado, clavo de olor y canela en rama a fuego imperceptible hasta tiernizar.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-022",
+      "text": "Dorar los granos de arroz carnaroli en aceite caliente antes de añadir el vino blanco seco para comenzar la elaboración del risotto cremoso.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-023",
+      "text": "Incorporar caldo de verduras hirviendo cucharón a cucharón mientras se remueve continuamente con cuchara de madera para soltar el almidón.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-024",
+      "text": "Mantecar el risotto fuera del fuego agregando manteca bien fría en cubos y queso parmesano rallado fino hasta emulsionar una textura fluida.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-025",
+      "text": "Estirar la masa de hojaldre frío aplicando vueltas dobles y descansando en heladera entre cada pliegue para asegurar hojaldrado crocante.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-026",
+      "text": "Hornear las barras de pan baguette con inyección de vapor de agua durante los primeros diez minutos para generar una corteza dorada y crujiente.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-027",
+      "text": "Tostar semillas de sésamo y lino dorado en una sartén seca a fuego moderado moviendo constantemente para evitar que desprendan amargor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-028",
+      "text": "Rallar la cáscara de naranja dulce y limón evitando la parte blanca amarga para perfumar la masa del budín cítrico esponjoso.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-029",
+      "text": "Rehidratar los hongos secos de pino en caldo caliente durante treinta minutos antes de colar el líquido por filtro de tela fina.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-030",
+      "text": "Sellar la carne de ternera trozada a fuego muy vivo en una cacerola de hierro fundido para atrapar todos los jugos sabrosos en su interior.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-031",
+      "text": "Cocinar el ragú a fuego bajo tapado durante tres horas agregando tomates perita triturados y una hoja fresca de romero aromático.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-032",
+      "text": "Espolvorear con sal entrefina y pimienta negra recién molida sobre la superficie de las verduras asadas al horno de leña.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-033",
+      "text": "Hidratar hojas de gelatina sin sabor en agua helada durante diez minutos y escurrir con las manos antes de fundir en la preparación tibia.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-034",
+      "text": "Colar la mermelada tibia de frutos rojos a través de un tamiz metálico para eliminar las semillas pequeñas y lograr un coulis terso y brillante.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-035",
+      "text": "Cocinar las papas enteras con piel en agua salada hasta que al pinchar con un cuchillo fino caigan por su propio peso sin romperse.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-036",
+      "text": "Tamizar las papas calientes con prensa puré agregando manteca pomada, nuez moscada rallada fresca y leche entera recién hervida.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-037",
+      "text": "Llevar la leche condensada a baño de María tapada con papel de aluminio durante tres horas para transformar lentamente en dulce de leche.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-038",
+      "text": "Enfriar el merengue italiano batiendo a velocidad alta hasta que el bol de la batidora alcance temperatura ambiente y mantenga picos duros.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-039",
+      "text": "Pintar la superficie de las empanadas criollas con huevo batido y una pizca de azúcar antes de hornear a temperatura máxima por doce minutos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-040",
+      "text": "Dorar cebollas cortadas en pluma con una pizca de bicarbonato de sodio a fuego lento hasta alcanzar caramelización profunda sin azúcares añadidos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-041",
+      "text": "Deshuesar los muslos de pollo conservando la piel intacta para rellenar con espinacas salteadas, piñones tostados y queso provolone estacionado.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-042",
+      "text": "Hornear la masa sablée a ciento sesenta grados hasta que adquiera una tonalidad dorada tenue y una textura crocante que se deshaga al paladar.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-043",
+      "text": "Hervir la pulpa fresca de maracuyá con azúcar mascabo durante doce minutos espumando constantemente para obtener una jalea densa y ácida.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-044",
+      "text": "Batir la manteca pomada con azúcar impalpable tamizada hasta blanquear y lograr una crema suave ideal para cobertura de pasteles de boda.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-045",
+      "text": "Infundir granos de café tostado partido en crema de leche caliente durante veinticuatro horas en heladera antes de colar y batir a punto chantilly.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-046",
+      "text": "Macerar frutos secos y pasas de uva rubias en licor de amaretto y ron añejo durante una semana para elaborar el pan dulce artesanal navideño.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-047",
+      "text": "Cocer al vapor piezas de salmón rosado con rodajas finas de jengibre fresco y cebolla de verdeo sobre canasta de bambú durante ocho minutos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-048",
+      "text": "Descorazonar las manzanas verdes y espolvorear con azúcar morena, canela molida y una nuez de manteca antes de asar al horno medio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-049",
+      "text": "Batir yemas de huevo con vino marsala dulce a baño de María hasta duplicar el volumen y formar un sabayón espeso y aterciopelado.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-050",
+      "text": "Aromatizar el aceite de oliva suave macerando ramitas de romero fresco, granos de pimienta blanca y cáscara de pomelo durante quince días.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-051",
+      "text": "Tamizar almidón de tapioca con fécula de mandioca para ligar salsas calientes otorgando un acabado transparente y libre de grumos indeseados.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-052",
+      "text": "Hornear discos de merengue suizo a noventa grados durante dos horas enteras con la puerta del horno levemente entreabierta para secar sin dorar.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-053",
+      "text": "Picar finamente hojas de albahaca fresca y dientes de ajo majados en mortero de piedra incorporando queso pecorino y piñones molidos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-054",
+      "text": "Verter el glaseado espejo brillante a treinta y dos grados sobre la mousse congelada para garantizar una cobertura lisa, uniforme y reflectante.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-055",
+      "text": "Reposar el bizcochuelo recién horneado sobre una rejilla metálica para que el vapor escape por la base evitando que la miga se humedezca.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-056",
+      "text": "El templado de chocolate cobertura sobre mesada de mármol asegura un brillo satinado y un quiebre crocante perfecto, garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-057",
+      "text": "La reducción de fondo oscuro de ternera con aromáticas desarrolla notas dulces profundas mediante reacciones de Maillard lentas, evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-058",
+      "text": "El marinado en frío de pescados blancos con jugo de lima concentra el colágeno natural otorgando cuerpo espeso y aterciopelado, con el fin de optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-059",
+      "text": "El tamizado fino de harina de repostería con polvo leudante multiplica los aromas complejos mediante fermentación láctica y acética, con el fin de respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-060",
+      "text": "La gelificación de mermelada con pectina cítrica natural desnaturaliza suavemente las proteínas superficiales mediante acidez para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-061",
+      "text": "La cocción al vacío sous-vide a temperatura controlada tierniza la pulpa conservando la forma geométrica de la fruta, siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-062",
+      "text": "El hojaldrado de la masa con sucesivas vueltas dobles airea las partículas secas evitando la formación de grumos densos, asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-063",
+      "text": "El desglasado de la cacerola caliente con vino blanco seco desarrolla una red elástica de gluten de gran extensibilidad, con el fin de manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-064",
+      "text": "La caramelización de cebollas a fuego lento en manteca clarificada alcanza la viscosidad óptima sin alterar el sabor frutal original garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-065",
+      "text": "La fermentación lenta de masa madre en ambiente templado incorpora burbujas microscópicas que dan volumen al soufflé evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-066",
+      "text": "El escalfado de peras en almíbar especiado con canela preserva la terneza y jugosidad interna sin sobrecocer las fibras, optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-067",
+      "text": "El amasado manual sobre superficie enharinada estabiliza la estructura coloidal impidiendo que se corte la salsa, respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-068",
+      "text": "El batido de claras a punto de nieve con cremor tártaro crea láminas crujientes y separadas al fundirse las capas grasas, con el fin de para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-069",
+      "text": "La emulsión de yemas frescas con mostaza de Dijón y vinagre ablanda los tejidos vegetales infundiendo un sabor suave y dulce siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-070",
+      "text": "El confitado de dientes de ajo en aceite de oliva virgen extra disuelve los jugos caramelizados adheridos al fondo de cocción asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-071",
+      "text": "El templado de chocolate cobertura sobre mesada de mármol estabiliza la estructura coloidal impidiendo que se corte la salsa para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-072",
+      "text": "La reducción de fondo oscuro de ternera con aromáticas crea láminas crujientes y separadas al fundirse las capas grasas, siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-073",
+      "text": "El marinado en frío de pescados blancos con jugo de lima ablanda los tejidos vegetales infundiendo un sabor suave y dulce, asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-074",
+      "text": "El tamizado fino de harina de repostería con polvo leudante disuelve los jugos caramelizados adheridos al fondo de cocción, con el fin de manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-075",
+      "text": "La gelificación de mermelada con pectina cítrica natural asegura un brillo satinado y un quiebre crocante perfecto garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-076",
+      "text": "La cocción al vacío sous-vide a temperatura controlada desarrolla notas dulces profundas mediante reacciones de Maillard lentas evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-077",
+      "text": "El hojaldrado de la masa con sucesivas vueltas dobles concentra el colágeno natural otorgando cuerpo espeso y aterciopelado, optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-078",
+      "text": "El desglasado de la cacerola caliente con vino blanco seco multiplica los aromas complejos mediante fermentación láctica y acética, respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-079",
+      "text": "La caramelización de cebollas a fuego lento en manteca clarificada desnaturaliza suavemente las proteínas superficiales mediante acidez, con el fin de para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-080",
+      "text": "La fermentación lenta de masa madre en ambiente templado tierniza la pulpa conservando la forma geométrica de la fruta siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-081",
+      "text": "El escalfado de peras en almíbar especiado con canela airea las partículas secas evitando la formación de grumos densos asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-082",
+      "text": "El amasado manual sobre superficie enharinada desarrolla una red elástica de gluten de gran extensibilidad, manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-083",
+      "text": "El batido de claras a punto de nieve con cremor tártaro alcanza la viscosidad óptima sin alterar el sabor frutal original, con el fin de garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-084",
+      "text": "La emulsión de yemas frescas con mostaza de Dijón y vinagre incorpora burbujas microscópicas que dan volumen al soufflé, con el fin de evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-085",
+      "text": "El confitado de dientes de ajo en aceite de oliva virgen extra preserva la terneza y jugosidad interna sin sobrecocer las fibras optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-086",
+      "text": "El templado de chocolate cobertura sobre mesada de mármol desarrolla una red elástica de gluten de gran extensibilidad garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-087",
+      "text": "La reducción de fondo oscuro de ternera con aromáticas alcanza la viscosidad óptima sin alterar el sabor frutal original evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-088",
+      "text": "El marinado en frío de pescados blancos con jugo de lima incorpora burbujas microscópicas que dan volumen al soufflé, optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-089",
+      "text": "El tamizado fino de harina de repostería con polvo leudante preserva la terneza y jugosidad interna sin sobrecocer las fibras, respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-090",
+      "text": "La gelificación de mermelada con pectina cítrica natural estabiliza la estructura coloidal impidiendo que se corte la salsa, con el fin de para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-091",
+      "text": "La cocción al vacío sous-vide a temperatura controlada crea láminas crujientes y separadas al fundirse las capas grasas siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-092",
+      "text": "El hojaldrado de la masa con sucesivas vueltas dobles ablanda los tejidos vegetales infundiendo un sabor suave y dulce asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-093",
+      "text": "El desglasado de la cacerola caliente con vino blanco seco disuelve los jugos caramelizados adheridos al fondo de cocción, manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-094",
+      "text": "La caramelización de cebollas a fuego lento en manteca clarificada asegura un brillo satinado y un quiebre crocante perfecto, con el fin de garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-095",
+      "text": "La fermentación lenta de masa madre en ambiente templado desarrolla notas dulces profundas mediante reacciones de Maillard lentas, con el fin de evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-096",
+      "text": "El escalfado de peras en almíbar especiado con canela concentra el colágeno natural otorgando cuerpo espeso y aterciopelado optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-097",
+      "text": "El amasado manual sobre superficie enharinada multiplica los aromas complejos mediante fermentación láctica y acética respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-098",
+      "text": "El batido de claras a punto de nieve con cremor tártaro desnaturaliza suavemente las proteínas superficiales mediante acidez, para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-099",
+      "text": "La emulsión de yemas frescas con mostaza de Dijón y vinagre tierniza la pulpa conservando la forma geométrica de la fruta, con el fin de siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-100",
+      "text": "El confitado de dientes de ajo en aceite de oliva virgen extra airea las partículas secas evitando la formación de grumos densos, con el fin de asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-101",
+      "text": "El templado de chocolate cobertura sobre mesada de mármol multiplica los aromas complejos mediante fermentación láctica y acética, con el fin de para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-102",
+      "text": "La reducción de fondo oscuro de ternera con aromáticas desnaturaliza suavemente las proteínas superficiales mediante acidez siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-103",
+      "text": "El marinado en frío de pescados blancos con jugo de lima tierniza la pulpa conservando la forma geométrica de la fruta asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-104",
+      "text": "El tamizado fino de harina de repostería con polvo leudante airea las partículas secas evitando la formación de grumos densos, manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-105",
+      "text": "La gelificación de mermelada con pectina cítrica natural desarrolla una red elástica de gluten de gran extensibilidad, con el fin de garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-106",
+      "text": "La cocción al vacío sous-vide a temperatura controlada alcanza la viscosidad óptima sin alterar el sabor frutal original, con el fin de evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-107",
+      "text": "El hojaldrado de la masa con sucesivas vueltas dobles incorpora burbujas microscópicas que dan volumen al soufflé optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-108",
+      "text": "El desglasado de la cacerola caliente con vino blanco seco preserva la terneza y jugosidad interna sin sobrecocer las fibras respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-109",
+      "text": "La caramelización de cebollas a fuego lento en manteca clarificada estabiliza la estructura coloidal impidiendo que se corte la salsa, para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-110",
+      "text": "La fermentación lenta de masa madre en ambiente templado crea láminas crujientes y separadas al fundirse las capas grasas, con el fin de siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-111",
+      "text": "El escalfado de peras en almíbar especiado con canela ablanda los tejidos vegetales infundiendo un sabor suave y dulce, con el fin de asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-112",
+      "text": "El amasado manual sobre superficie enharinada disuelve los jugos caramelizados adheridos al fondo de cocción manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-113",
+      "text": "El batido de claras a punto de nieve con cremor tártaro asegura un brillo satinado y un quiebre crocante perfecto, garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-114",
+      "text": "La emulsión de yemas frescas con mostaza de Dijón y vinagre desarrolla notas dulces profundas mediante reacciones de Maillard lentas, evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-115",
+      "text": "El confitado de dientes de ajo en aceite de oliva virgen extra concentra el colágeno natural otorgando cuerpo espeso y aterciopelado, con el fin de optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-116",
+      "text": "El templado de chocolate cobertura sobre mesada de mármol disuelve los jugos caramelizados adheridos al fondo de cocción, con el fin de garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-117",
+      "text": "La reducción de fondo oscuro de ternera con aromáticas asegura un brillo satinado y un quiebre crocante perfecto, con el fin de evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-118",
+      "text": "El marinado en frío de pescados blancos con jugo de lima desarrolla notas dulces profundas mediante reacciones de Maillard lentas optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-119",
+      "text": "El tamizado fino de harina de repostería con polvo leudante concentra el colágeno natural otorgando cuerpo espeso y aterciopelado respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-120",
+      "text": "La gelificación de mermelada con pectina cítrica natural multiplica los aromas complejos mediante fermentación láctica y acética, para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-121",
+      "text": "La cocción al vacío sous-vide a temperatura controlada desnaturaliza suavemente las proteínas superficiales mediante acidez, con el fin de siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-122",
+      "text": "El hojaldrado de la masa con sucesivas vueltas dobles tierniza la pulpa conservando la forma geométrica de la fruta, con el fin de asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-123",
+      "text": "El desglasado de la cacerola caliente con vino blanco seco airea las partículas secas evitando la formación de grumos densos manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-124",
+      "text": "La caramelización de cebollas a fuego lento en manteca clarificada desarrolla una red elástica de gluten de gran extensibilidad, garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-125",
+      "text": "La fermentación lenta de masa madre en ambiente templado alcanza la viscosidad óptima sin alterar el sabor frutal original, evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-126",
+      "text": "El escalfado de peras en almíbar especiado con canela incorpora burbujas microscópicas que dan volumen al soufflé, con el fin de optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-127",
+      "text": "El amasado manual sobre superficie enharinada preserva la terneza y jugosidad interna sin sobrecocer las fibras, con el fin de respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-128",
+      "text": "El batido de claras a punto de nieve con cremor tártaro estabiliza la estructura coloidal impidiendo que se corte la salsa para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-129",
+      "text": "La emulsión de yemas frescas con mostaza de Dijón y vinagre crea láminas crujientes y separadas al fundirse las capas grasas, siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-130",
+      "text": "El confitado de dientes de ajo en aceite de oliva virgen extra ablanda los tejidos vegetales infundiendo un sabor suave y dulce, asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-131",
+      "text": "El templado de chocolate cobertura sobre mesada de mármol preserva la terneza y jugosidad interna sin sobrecocer las fibras, para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-132",
+      "text": "La reducción de fondo oscuro de ternera con aromáticas estabiliza la estructura coloidal impidiendo que se corte la salsa, con el fin de siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-133",
+      "text": "El marinado en frío de pescados blancos con jugo de lima crea láminas crujientes y separadas al fundirse las capas grasas, con el fin de asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-134",
+      "text": "El tamizado fino de harina de repostería con polvo leudante ablanda los tejidos vegetales infundiendo un sabor suave y dulce manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-135",
+      "text": "La gelificación de mermelada con pectina cítrica natural disuelve los jugos caramelizados adheridos al fondo de cocción, garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-136",
+      "text": "La cocción al vacío sous-vide a temperatura controlada asegura un brillo satinado y un quiebre crocante perfecto, evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-137",
+      "text": "El hojaldrado de la masa con sucesivas vueltas dobles desarrolla notas dulces profundas mediante reacciones de Maillard lentas, con el fin de optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-138",
+      "text": "El desglasado de la cacerola caliente con vino blanco seco concentra el colágeno natural otorgando cuerpo espeso y aterciopelado, con el fin de respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-139",
+      "text": "La caramelización de cebollas a fuego lento en manteca clarificada multiplica los aromas complejos mediante fermentación láctica y acética para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-140",
+      "text": "La fermentación lenta de masa madre en ambiente templado desnaturaliza suavemente las proteínas superficiales mediante acidez, siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-141",
+      "text": "El escalfado de peras en almíbar especiado con canela tierniza la pulpa conservando la forma geométrica de la fruta, asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-142",
+      "text": "El amasado manual sobre superficie enharinada airea las partículas secas evitando la formación de grumos densos, con el fin de manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-143",
+      "text": "El batido de claras a punto de nieve con cremor tártaro desarrolla una red elástica de gluten de gran extensibilidad garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-144",
+      "text": "La emulsión de yemas frescas con mostaza de Dijón y vinagre alcanza la viscosidad óptima sin alterar el sabor frutal original evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-145",
+      "text": "El confitado de dientes de ajo en aceite de oliva virgen extra incorpora burbujas microscópicas que dan volumen al soufflé, optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-146",
+      "text": "El templado de chocolate cobertura sobre mesada de mármol airea las partículas secas evitando la formación de grumos densos, garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-147",
+      "text": "La reducción de fondo oscuro de ternera con aromáticas desarrolla una red elástica de gluten de gran extensibilidad, evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-148",
+      "text": "El marinado en frío de pescados blancos con jugo de lima alcanza la viscosidad óptima sin alterar el sabor frutal original, con el fin de optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-149",
+      "text": "El tamizado fino de harina de repostería con polvo leudante incorpora burbujas microscópicas que dan volumen al soufflé, con el fin de respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-150",
+      "text": "La gelificación de mermelada con pectina cítrica natural preserva la terneza y jugosidad interna sin sobrecocer las fibras para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-151",
+      "text": "La cocción al vacío sous-vide a temperatura controlada estabiliza la estructura coloidal impidiendo que se corte la salsa, siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-152",
+      "text": "El hojaldrado de la masa con sucesivas vueltas dobles crea láminas crujientes y separadas al fundirse las capas grasas, asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-153",
+      "text": "El desglasado de la cacerola caliente con vino blanco seco ablanda los tejidos vegetales infundiendo un sabor suave y dulce, con el fin de manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-154",
+      "text": "La caramelización de cebollas a fuego lento en manteca clarificada disuelve los jugos caramelizados adheridos al fondo de cocción garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-155",
+      "text": "La fermentación lenta de masa madre en ambiente templado asegura un brillo satinado y un quiebre crocante perfecto evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-156",
+      "text": "El escalfado de peras en almíbar especiado con canela desarrolla notas dulces profundas mediante reacciones de Maillard lentas, optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-157",
+      "text": "El amasado manual sobre superficie enharinada concentra el colágeno natural otorgando cuerpo espeso y aterciopelado, respetando los tiempos de reposo necesarios para asentar los sabores.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-158",
+      "text": "El batido de claras a punto de nieve con cremor tártaro multiplica los aromas complejos mediante fermentación láctica y acética, con el fin de para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-159",
+      "text": "La emulsión de yemas frescas con mostaza de Dijón y vinagre desnaturaliza suavemente las proteínas superficiales mediante acidez siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-160",
+      "text": "El confitado de dientes de ajo en aceite de oliva virgen extra tierniza la pulpa conservando la forma geométrica de la fruta asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-161",
+      "text": "El templado de chocolate cobertura sobre mesada de mármol concentra el colágeno natural otorgando cuerpo espeso y aterciopelado para realzar el equilibrio organoléptico entre acidez, grasa y dulzor.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-162",
+      "text": "La reducción de fondo oscuro de ternera con aromáticas multiplica los aromas complejos mediante fermentación láctica y acética, siguiendo las técnicas tradicionales de la cocina clásica francesa.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-163",
+      "text": "El marinado en frío de pescados blancos con jugo de lima desnaturaliza suavemente las proteínas superficiales mediante acidez, asegurando una cocción uniforme en hornos de convección profesional.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-164",
+      "text": "El tamizado fino de harina de repostería con polvo leudante tierniza la pulpa conservando la forma geométrica de la fruta, con el fin de manteniendo un riguroso control higiénico y térmico de los alimentos.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-165",
+      "text": "La gelificación de mermelada con pectina cítrica natural airea las partículas secas evitando la formación de grumos densos garantizando un resultado gastronómico de alta pastelería artesanal.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-166",
+      "text": "La cocción al vacío sous-vide a temperatura controlada desarrolla una red elástica de gluten de gran extensibilidad evitando la pérdida de humedad durante el reposo previo al servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-es-167",
+      "text": "El hojaldrado de la masa con sucesivas vueltas dobles alcanza la viscosidad óptima sin alterar el sabor frutal original, optimizando la textura y la presentación en emplatados gourmet.",
+      "lang": "es",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-001",
+      "text": "Whip the fresh egg whites with a pinch of cream of tartar on medium speed until soft peaks begin to form.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-002",
+      "text": "Sift the unbleached all-purpose flour together with baking powder and fine sea salt twice to ensure uniform aeration.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-003",
+      "text": "Preheat the convection oven to three hundred and fifty degrees Fahrenheit and line the baking sheet with silicone parchment paper.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-004",
+      "text": "Proof active dry yeast in warm whole milk with raw cane sugar for ten minutes until a thick frothy head develops.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-005",
+      "text": "Knead the bread dough vigorously on a wooden surface until it passes the translucent windowpane test without tearing apart.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-006",
+      "text": "Cover the fermenting dough in a lightly oiled bowl with a damp linen towel and allow to double in bulk in a draft-free environment.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-007",
+      "text": "Sweat finely minced shallots and crushed garlic cloves in clarified butter over gentle heat until fragrant, translucent, and sweet.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-008",
+      "text": "Simmer the roasted beef stock with aromatic mirepoix and tomato paste for forty-five minutes, regularly skimming the floating foam.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-009",
+      "text": "Slice ripe beefsteak tomatoes and crisp iceberg lettuce into thin wedges, dressing with extra virgin olive oil and sherry vinegar.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-010",
+      "text": "Melt sixty-percent dark chocolate over a gentle double boiler without letting any steam or moisture enter the tempering basin.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-011",
+      "text": "Table the molten couverture chocolate across cold granite slab using offset spatulas until crystallization thickens the glossy glaze.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-012",
+      "text": "Reheat the tempered chocolate to eighty-eight degrees Fahrenheit to achieve ideal snap, sheen, and contraction during mould release.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-013",
+      "text": "Whisk egg yolks rapidly with Dijon mustard, slowly drizzling sunflower oil in a micro-thin stream to build a silky emulsion.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-014",
+      "text": "Deglaze the stainless steel skillet with dry white wine after searing pork tenderloins to dissolve fond into a pan sauce.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-015",
+      "text": "Slowly poach fresh garlic cloves immersed in virgin olive oil at one hundred and sixty degrees Fahrenheit for two full hours.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-016",
+      "text": "Blanch fresh green asparagus spears in salted boiling water for two minutes before shocking them into an ice water bath.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-017",
+      "text": "Boil refined granulated sugar with filtered spring water until the candy thermometer registers two hundred and forty degrees Fahrenheit.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-018",
+      "text": "Fold chilled vanilla pastry cream into lightly whipped heavy whipping cream to assemble a delicate diplomat filling for choux buns.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-019",
+      "text": "Blind bake the sweet shortcrust pastry weighted with dried ceramic baking beans for fifteen minutes until pale golden and dry.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-020",
+      "text": "Cure raw sea bass fillets with freshly squeezed lime juice, julienned red onion, sea salt, and habanero slices in the chiller.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-021",
+      "text": "Poach peeled Bosc pears in sweet riesling wine infused with cinnamon bark, whole cloves, and star anise until fork tender.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-022",
+      "text": "Toast arborio rice grains in heated olive oil until edges become pearlescent before splashing dry vermouth into the heavy saucepan.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-023",
+      "text": "Ladle boiling chicken broth into the simmering rice one scoop at a time, stirring constantly to release rich amylopectin starches.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-024",
+      "text": "Finish the creamy risotto off the flame by vigorously beating in chilled butter cubes and freshly grated aged Parmigiano cheese.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-025",
+      "text": "Laminate the butter dough block through three consecutive envelope turns, chilling between each fold to keep butter layers distinct.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-026",
+      "text": "Inject steam into the bread baking chamber during the first ten minutes to gelatinize starch and produce a blistered crust.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-027",
+      "text": "Dry-toast white sesame seeds and cumin seeds in a hot skillet, shaking continuously until they release nutty aromas and crackle.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-028",
+      "text": "Finely zest unwaxed Meyer lemons and Valencia oranges, taking care to exclude bitter white pith from the citrus sponge cake.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-029",
+      "text": "Steep dehydrated wild porcini mushrooms in boiling mineral water for half an hour, filtering the earthy liqueur through fine cheesecloth.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-030",
+      "text": "Sear prime ribeye steak over blistering cast iron grates to achieve a deep mahogany Maillard crust without overcooking the center.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-031",
+      "text": "Simmer traditional beef ragu over low heat for four hours with crushed San Marzano tomatoes, bay leaves, and cracked black pepper.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-032",
+      "text": "Season roasted root vegetables generously with flaky Maldon salt and freshly crushed rainbow peppercorns right before plating.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-033",
+      "text": "Bloom leaf gelatin sheets in ice cold water for ten minutes, gently squeezing out excess liquid before stirring into warm cream.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-034",
+      "text": "Pass fresh raspberry puree through a fine mesh conical strainer to extract tiny seeds and yield a velvety smooth dessert coulis.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-035",
+      "text": "Boil Yukon gold potatoes with skins intact in generously salted water until tender enough to pierce effortlessly with a pairing knife.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-036",
+      "text": "Rice hot steamed potatoes directly through a mechanical ricer, incorporating salted European butter and warm whole milk.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-037",
+      "text": "Bake sweetened condensed milk in a water bath covered with heavy foil for three hours to convert into thick golden caramel spread.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-038",
+      "text": "Cool the Italian meringue at maximum whipping speed until glossy, stiff, and the exterior of the mixing bowl cools completely.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-039",
+      "text": "Brush brioche pastry tops with whole egg wash and a sprinkle of coarse demerara sugar before baking at high temperature.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-040",
+      "text": "Caramelize sliced yellow onions low and slow in duck fat for sixty minutes until deep amber, jammy, and intensely rich in natural sugars.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-041",
+      "text": "Truss the whole roasting chicken tightly with unbleached butcher twine to promote even heat circulation through both breast and thighs.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-042",
+      "text": "Whisk cold butter cubes into reduced balsamic vinegar off the flame to mount a velvet sauce for pan-roasted duck breast.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-043",
+      "text": "Rest seared venison steaks on a warm wooden carving board for ten minutes to permit internal juices to redistribute evenly.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-044",
+      "text": "Submerge duck legs in seasoned rendered goose fat with fresh rosemary sprigs, slow-cooking at two hundred degrees Fahrenheit for five hours.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-045",
+      "text": "Infuse whole milk with split Tahitian vanilla pods and crushed cardamom pods, scalding gently before tempering into egg yolk custard.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-046",
+      "text": "Dust chilled chocolate truffles with alkalized Dutch cocoa powder using a fine wire sifter to create a matte, bittersweet outer coating.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-047",
+      "text": "Steam fresh mussels in dry hard cider with chopped leeks, cracked fennel seeds, and heavy cream until all bivalve shells spring open.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-048",
+      "text": "Shave raw baby artichoke hearts on a Japanese mandoline, tossing immediately in cold lemon juice water to prevent oxidative discoloration.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-049",
+      "text": "Churn the chilled custard base in a pre-frozen ice cream maker for twenty-five minutes until firm, velvety, and properly overrun.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-050",
+      "text": "Bake sourdough batards inside a preheated cast iron Dutch oven with lid on for twenty minutes before venting to darken the blistered ear.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-051",
+      "text": "Clarify raw chicken stock by gently simmering with a raft of whipped egg whites, ground poultry, and minced root aromatics.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-052",
+      "text": "Pipe choux pastry dough into three-inch mounds onto baking sheets, dusting with confectioner sugar before baking into airy gougeres.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-053",
+      "text": "Steep loose leaf Earl Grey black tea in hot scalded cream for fifteen minutes to infuse floral bergamot notes into ganache.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-054",
+      "text": "Press salted cabbage shreds tightly into stoneware crock fermentation pots, keeping submerged under brine until lactic acidity develops.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-055",
+      "text": "Warm maple syrup with pure bourbon whiskey and toasted pecan pieces to ladle hot over freshly churned vanilla bean gelato.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-056",
+      "text": "The tempering of dark couverture chocolate on cold marble produces a mirror-like sheen and crisp audible snap, elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-057",
+      "text": "The reduction of roasted veal stock with mirepoix and thyme converts natural allium sugars into deep amber caramelized notes, maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-058",
+      "text": "The cold acid ceviche curing of freshly caught flounder concentrates extracted bone collagen into a glossy glaze, in order to balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-059",
+      "text": "The repeated sifting of cake flour with cornstarch yields rich lactic and acetic flavor complexity throughout crumb, in order to maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-060",
+      "text": "The setting of fruit coulis with powdered citrus pectin firms muscle fibers while preserving delicate raw marine moisture yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-061",
+      "text": "The precision sous-vide poaching of salmon fillets infuses warm aromatics while keeping fruit pulp structurally intact, adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-062",
+      "text": "The lamination of viennoiserie pastry through multiple turns removes heavy clumps and incorporates optimal aeration into batter, ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-063",
+      "text": "The deglazing of stainless steel roasting pans with dry vermouth develops an extensive gluten matrix capable of holding oven spring, in order to preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-064",
+      "text": "The low-temperature caramelization of thinly sliced yellow onions produces a clean, spreadable jelly without clouding transparency elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-065",
+      "text": "The slow fermentation of wild yeast levain in proofing baskets creates microscopic air pockets essential for airy souffle rise maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-066",
+      "text": "The poaching of peeled Bosc pears in sweet mulled wine yields an exceptionally buttery and tender internal flakiness, balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-067",
+      "text": "The kneading of high-protein sourdough bread dough stabilizes the suspension into a silky, unctuous sauce, maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-068",
+      "text": "The whipping of fresh egg whites with a pinch of cream of tartar generates dozens of micro-thin crispy pastry layers in the oven, in order to yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-069",
+      "text": "The delicate emulsion of egg yolks with Dijon mustard transforms pungent sulfur notes into sweet mellow spreadable cloves adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-070",
+      "text": "The gentle confiting of whole garlic heads in olive oil dissolves caramelized Maillard fond into an aromatic pan sauce ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-071",
+      "text": "The tempering of dark couverture chocolate on cold marble stabilizes the suspension into a silky, unctuous sauce yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-072",
+      "text": "The reduction of roasted veal stock with mirepoix and thyme generates dozens of micro-thin crispy pastry layers in the oven, adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-073",
+      "text": "The cold acid ceviche curing of freshly caught flounder transforms pungent sulfur notes into sweet mellow spreadable cloves, ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-074",
+      "text": "The repeated sifting of cake flour with cornstarch dissolves caramelized Maillard fond into an aromatic pan sauce, in order to preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-075",
+      "text": "The setting of fruit coulis with powdered citrus pectin produces a mirror-like sheen and crisp audible snap elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-076",
+      "text": "The precision sous-vide poaching of salmon fillets converts natural allium sugars into deep amber caramelized notes maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-077",
+      "text": "The lamination of viennoiserie pastry through multiple turns concentrates extracted bone collagen into a glossy glaze, balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-078",
+      "text": "The deglazing of stainless steel roasting pans with dry vermouth yields rich lactic and acetic flavor complexity throughout crumb, maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-079",
+      "text": "The low-temperature caramelization of thinly sliced yellow onions firms muscle fibers while preserving delicate raw marine moisture, in order to yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-080",
+      "text": "The slow fermentation of wild yeast levain in proofing baskets infuses warm aromatics while keeping fruit pulp structurally intact adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-081",
+      "text": "The poaching of peeled Bosc pears in sweet mulled wine removes heavy clumps and incorporates optimal aeration into batter ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-082",
+      "text": "The kneading of high-protein sourdough bread dough develops an extensive gluten matrix capable of holding oven spring, preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-083",
+      "text": "The whipping of fresh egg whites with a pinch of cream of tartar produces a clean, spreadable jelly without clouding transparency, in order to elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-084",
+      "text": "The delicate emulsion of egg yolks with Dijon mustard creates microscopic air pockets essential for airy souffle rise, in order to maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-085",
+      "text": "The gentle confiting of whole garlic heads in olive oil yields an exceptionally buttery and tender internal flakiness balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-086",
+      "text": "The tempering of dark couverture chocolate on cold marble develops an extensive gluten matrix capable of holding oven spring elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-087",
+      "text": "The reduction of roasted veal stock with mirepoix and thyme produces a clean, spreadable jelly without clouding transparency maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-088",
+      "text": "The cold acid ceviche curing of freshly caught flounder creates microscopic air pockets essential for airy souffle rise, balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-089",
+      "text": "The repeated sifting of cake flour with cornstarch yields an exceptionally buttery and tender internal flakiness, maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-090",
+      "text": "The setting of fruit coulis with powdered citrus pectin stabilizes the suspension into a silky, unctuous sauce, in order to yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-091",
+      "text": "The precision sous-vide poaching of salmon fillets generates dozens of micro-thin crispy pastry layers in the oven adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-092",
+      "text": "The lamination of viennoiserie pastry through multiple turns transforms pungent sulfur notes into sweet mellow spreadable cloves ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-093",
+      "text": "The deglazing of stainless steel roasting pans with dry vermouth dissolves caramelized Maillard fond into an aromatic pan sauce, preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-094",
+      "text": "The low-temperature caramelization of thinly sliced yellow onions produces a mirror-like sheen and crisp audible snap, in order to elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-095",
+      "text": "The slow fermentation of wild yeast levain in proofing baskets converts natural allium sugars into deep amber caramelized notes, in order to maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-096",
+      "text": "The poaching of peeled Bosc pears in sweet mulled wine concentrates extracted bone collagen into a glossy glaze balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-097",
+      "text": "The kneading of high-protein sourdough bread dough yields rich lactic and acetic flavor complexity throughout crumb maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-098",
+      "text": "The whipping of fresh egg whites with a pinch of cream of tartar firms muscle fibers while preserving delicate raw marine moisture, yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-099",
+      "text": "The delicate emulsion of egg yolks with Dijon mustard infuses warm aromatics while keeping fruit pulp structurally intact, in order to adhering to classical european culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-100",
+      "text": "The gentle confiting of whole garlic heads in olive oil removes heavy clumps and incorporates optimal aeration into batter, in order to ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-101",
+      "text": "The tempering of dark couverture chocolate on cold marble yields rich lactic and acetic flavor complexity throughout crumb, in order to yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-102",
+      "text": "The reduction of roasted veal stock with mirepoix and thyme firms muscle fibers while preserving delicate raw marine moisture adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-103",
+      "text": "The cold acid ceviche curing of freshly caught flounder infuses warm aromatics while keeping fruit pulp structurally intact ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-104",
+      "text": "The repeated sifting of cake flour with cornstarch removes heavy clumps and incorporates optimal aeration into batter, preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-105",
+      "text": "The setting of fruit coulis with powdered citrus pectin develops an extensive gluten matrix capable of holding oven spring, in order to elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-106",
+      "text": "The precision sous-vide poaching of salmon fillets produces a clean, spreadable jelly without clouding transparency, in order to maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-107",
+      "text": "The lamination of viennoiserie pastry through multiple turns creates microscopic air pockets essential for airy souffle rise balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-108",
+      "text": "The deglazing of stainless steel roasting pans with dry vermouth yields an exceptionally buttery and tender internal flakiness maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-109",
+      "text": "The low-temperature caramelization of thinly sliced yellow onions stabilizes the suspension into a silky, unctuous sauce, yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-110",
+      "text": "The slow fermentation of wild yeast levain in proofing baskets generates dozens of micro-thin crispy pastry layers in the oven, in order to adhering to classical european culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-111",
+      "text": "The poaching of peeled Bosc pears in sweet mulled wine transforms pungent sulfur notes into sweet mellow spreadable cloves, in order to ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-112",
+      "text": "The kneading of high-protein sourdough bread dough dissolves caramelized Maillard fond into an aromatic pan sauce preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-113",
+      "text": "The whipping of fresh egg whites with a pinch of cream of tartar produces a mirror-like sheen and crisp audible snap, elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-114",
+      "text": "The delicate emulsion of egg yolks with Dijon mustard converts natural allium sugars into deep amber caramelized notes, maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-115",
+      "text": "The gentle confiting of whole garlic heads in olive oil concentrates extracted bone collagen into a glossy glaze, in order to balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-116",
+      "text": "The tempering of dark couverture chocolate on cold marble dissolves caramelized Maillard fond into an aromatic pan sauce, in order to elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-117",
+      "text": "The reduction of roasted veal stock with mirepoix and thyme produces a mirror-like sheen and crisp audible snap, in order to maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-118",
+      "text": "The cold acid ceviche curing of freshly caught flounder converts natural allium sugars into deep amber caramelized notes balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-119",
+      "text": "The repeated sifting of cake flour with cornstarch concentrates extracted bone collagen into a glossy glaze maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-120",
+      "text": "The setting of fruit coulis with powdered citrus pectin yields rich lactic and acetic flavor complexity throughout crumb, yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-121",
+      "text": "The precision sous-vide poaching of salmon fillets firms muscle fibers while preserving delicate raw marine moisture, in order to adhering to classical european culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-122",
+      "text": "The lamination of viennoiserie pastry through multiple turns infuses warm aromatics while keeping fruit pulp structurally intact, in order to ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-123",
+      "text": "The deglazing of stainless steel roasting pans with dry vermouth removes heavy clumps and incorporates optimal aeration into batter preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-124",
+      "text": "The low-temperature caramelization of thinly sliced yellow onions develops an extensive gluten matrix capable of holding oven spring, elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-125",
+      "text": "The slow fermentation of wild yeast levain in proofing baskets produces a clean, spreadable jelly without clouding transparency, maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-126",
+      "text": "The poaching of peeled Bosc pears in sweet mulled wine creates microscopic air pockets essential for airy souffle rise, in order to balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-127",
+      "text": "The kneading of high-protein sourdough bread dough yields an exceptionally buttery and tender internal flakiness, in order to maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-128",
+      "text": "The whipping of fresh egg whites with a pinch of cream of tartar stabilizes the suspension into a silky, unctuous sauce yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-129",
+      "text": "The delicate emulsion of egg yolks with Dijon mustard generates dozens of micro-thin crispy pastry layers in the oven, adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-130",
+      "text": "The gentle confiting of whole garlic heads in olive oil transforms pungent sulfur notes into sweet mellow spreadable cloves, ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-131",
+      "text": "The tempering of dark couverture chocolate on cold marble yields an exceptionally buttery and tender internal flakiness, yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-132",
+      "text": "The reduction of roasted veal stock with mirepoix and thyme stabilizes the suspension into a silky, unctuous sauce, in order to adhering to classical european culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-133",
+      "text": "The cold acid ceviche curing of freshly caught flounder generates dozens of micro-thin crispy pastry layers in the oven, in order to ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-134",
+      "text": "The repeated sifting of cake flour with cornstarch transforms pungent sulfur notes into sweet mellow spreadable cloves preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-135",
+      "text": "The setting of fruit coulis with powdered citrus pectin dissolves caramelized Maillard fond into an aromatic pan sauce, elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-136",
+      "text": "The precision sous-vide poaching of salmon fillets produces a mirror-like sheen and crisp audible snap, maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-137",
+      "text": "The lamination of viennoiserie pastry through multiple turns converts natural allium sugars into deep amber caramelized notes, in order to balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-138",
+      "text": "The deglazing of stainless steel roasting pans with dry vermouth concentrates extracted bone collagen into a glossy glaze, in order to maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-139",
+      "text": "The low-temperature caramelization of thinly sliced yellow onions yields rich lactic and acetic flavor complexity throughout crumb yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-140",
+      "text": "The slow fermentation of wild yeast levain in proofing baskets firms muscle fibers while preserving delicate raw marine moisture, adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-141",
+      "text": "The poaching of peeled Bosc pears in sweet mulled wine infuses warm aromatics while keeping fruit pulp structurally intact, ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-142",
+      "text": "The kneading of high-protein sourdough bread dough removes heavy clumps and incorporates optimal aeration into batter, in order to preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-143",
+      "text": "The whipping of fresh egg whites with a pinch of cream of tartar develops an extensive gluten matrix capable of holding oven spring elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-144",
+      "text": "The delicate emulsion of egg yolks with Dijon mustard produces a clean, spreadable jelly without clouding transparency maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-145",
+      "text": "The gentle confiting of whole garlic heads in olive oil creates microscopic air pockets essential for airy souffle rise, balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-146",
+      "text": "The tempering of dark couverture chocolate on cold marble removes heavy clumps and incorporates optimal aeration into batter, elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-147",
+      "text": "The reduction of roasted veal stock with mirepoix and thyme develops an extensive gluten matrix capable of holding oven spring, maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-148",
+      "text": "The cold acid ceviche curing of freshly caught flounder produces a clean, spreadable jelly without clouding transparency, in order to balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-149",
+      "text": "The repeated sifting of cake flour with cornstarch creates microscopic air pockets essential for airy souffle rise, in order to maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-150",
+      "text": "The setting of fruit coulis with powdered citrus pectin yields an exceptionally buttery and tender internal flakiness yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-151",
+      "text": "The precision sous-vide poaching of salmon fillets stabilizes the suspension into a silky, unctuous sauce, adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-152",
+      "text": "The lamination of viennoiserie pastry through multiple turns generates dozens of micro-thin crispy pastry layers in the oven, ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-153",
+      "text": "The deglazing of stainless steel roasting pans with dry vermouth transforms pungent sulfur notes into sweet mellow spreadable cloves, in order to preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-154",
+      "text": "The low-temperature caramelization of thinly sliced yellow onions dissolves caramelized Maillard fond into an aromatic pan sauce elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-155",
+      "text": "The slow fermentation of wild yeast levain in proofing baskets produces a mirror-like sheen and crisp audible snap maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-156",
+      "text": "The poaching of peeled Bosc pears in sweet mulled wine converts natural allium sugars into deep amber caramelized notes, balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-157",
+      "text": "The kneading of high-protein sourdough bread dough concentrates extracted bone collagen into a glossy glaze, maintaining pristine kitchen hygiene and standardized timing.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-158",
+      "text": "The whipping of fresh egg whites with a pinch of cream of tartar yields rich lactic and acetic flavor complexity throughout crumb, in order to yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-159",
+      "text": "The delicate emulsion of egg yolks with Dijon mustard firms muscle fibers while preserving delicate raw marine moisture adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-160",
+      "text": "The gentle confiting of whole garlic heads in olive oil infuses warm aromatics while keeping fruit pulp structurally intact ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-161",
+      "text": "The tempering of dark couverture chocolate on cold marble concentrates extracted bone collagen into a glossy glaze yielding superior crumb structure and oven spring in artisan baking.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-162",
+      "text": "The reduction of roasted veal stock with mirepoix and thyme yields rich lactic and acetic flavor complexity throughout crumb, adhering to classical European culinary and confectionery methods.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-163",
+      "text": "The cold acid ceviche curing of freshly caught flounder firms muscle fibers while preserving delicate raw marine moisture, ensuring consistent texture across multi-course tasting menus.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-164",
+      "text": "The repeated sifting of cake flour with cornstarch infuses warm aromatics while keeping fruit pulp structurally intact, in order to preventing culinary fat separation under precise thermal control.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-165",
+      "text": "The setting of fruit coulis with powdered citrus pectin removes heavy clumps and incorporates optimal aeration into batter elevating the final sensory presentation in fine dining service.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-166",
+      "text": "The precision sous-vide poaching of salmon fillets develops an extensive gluten matrix capable of holding oven spring maximizing the retention of aromatic volatile flavor compounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-en-167",
+      "text": "The lamination of viennoiserie pastry through multiple turns produces a clean, spreadable jelly without clouding transparency, balancing acidity, sweetness, and savory umami on the palate.",
+      "lang": "en",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-001",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-002",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-003",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-004",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-005",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-006",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-007",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten lockert das Gemenge auf und verhindert unerwünschte Klümpchen, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-008",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein baut ein stabiles Glutengerüst für ein optimales Backvolumen auf, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-009",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter sorgt für streichfähige Festigkeit bei voller Fruchtfrische zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-010",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-011",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-012",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche verhindert das Gerinnen und sorgt für eine sämige Konsistenz, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-013",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee erzeugt hauchdünne, knusprige Teigschichten im Backofen, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-014",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf mildert die Schärfe und verleiht ein nussig-süßes Aroma gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-015",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl löst die karamellisierten Röstaromen zu einer feinen Bratensauce für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-016",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte verhindert das Gerinnen und sorgt für eine sämige Konsistenz für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-017",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse erzeugt hauchdünne, knusprige Teigschichten im Backofen, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-018",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft mildert die Schärfe und verleiht ein nussig-süßes Aroma, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-019",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel löst die karamellisierten Röstaromen zu einer feinen Bratensauce, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-020",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-021",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-022",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-023",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-024",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-025",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-026",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud lockert das Gemenge auf und verhindert unerwünschte Klümpchen für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-027",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche baut ein stabiles Glutengerüst für ein optimales Backvolumen auf, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-028",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee sorgt für streichfähige Festigkeit bei voller Fruchtfrische, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-029",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-030",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-031",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte baut ein stabiles Glutengerüst für ein optimales Backvolumen auf zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-032",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse sorgt für streichfähige Festigkeit bei voller Fruchtfrische zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-033",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-034",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-035",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin verhindert das Gerinnen und sorgt für eine sämige Konsistenz, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-036",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur erzeugt hauchdünne, knusprige Teigschichten im Backofen gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-037",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten mildert die Schärfe und verleiht ein nussig-süßes Aroma für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-038",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein löst die karamellisierten Röstaromen zu einer feinen Bratensauce, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-039",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-040",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-041",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-042",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-043",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-044",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-045",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl lockert das Gemenge auf und verhindert unerwünschte Klümpchen, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-046",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-047",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-048",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-049",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel lockert das Gemenge auf und verhindert unerwünschte Klümpchen, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-050",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin baut ein stabiles Glutengerüst für ein optimales Backvolumen auf, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-051",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur sorgt für streichfähige Festigkeit bei voller Fruchtfrische, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-052",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-053",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-054",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter verhindert das Gerinnen und sorgt für eine sämige Konsistenz, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-055",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb erzeugt hauchdünne, knusprige Teigschichten im Backofen, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-056",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud mildert die Schärfe und verleiht ein nussig-süßes Aroma, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-057",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche löst die karamellisierten Röstaromen zu einer feinen Bratensauce zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-058",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-059",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-060",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-061",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte löst die karamellisierten Röstaromen zu einer feinen Bratensauce, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-062",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-063",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-064",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-065",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-066",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-067",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-068",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein lockert das Gemenge auf und verhindert unerwünschte Klümpchen zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-069",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter baut ein stabiles Glutengerüst für ein optimales Backvolumen auf, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-070",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb sorgt für streichfähige Festigkeit bei voller Fruchtfrische, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-071",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-072",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-073",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee verhindert das Gerinnen und sorgt für eine sämige Konsistenz für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-074",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf erzeugt hauchdünne, knusprige Teigschichten im Backofen, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-075",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl mildert die Schärfe und verleiht ein nussig-süßes Aroma, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-076",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-077",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse verhindert das Gerinnen und sorgt für eine sämige Konsistenz, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-078",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft erzeugt hauchdünne, knusprige Teigschichten im Backofen, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-079",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel mildert die Schärfe und verleiht ein nussig-süßes Aroma zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-080",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin löst die karamellisierten Röstaromen zu einer feinen Bratensauce, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-081",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-082",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-083",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-084",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-085",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-086",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-087",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche lockert das Gemenge auf und verhindert unerwünschte Klümpchen, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-088",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee baut ein stabiles Glutengerüst für ein optimales Backvolumen auf zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-089",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf sorgt für streichfähige Festigkeit bei voller Fruchtfrische zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-090",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-091",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte lockert das Gemenge auf und verhindert unerwünschte Klümpchen, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-092",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse baut ein stabiles Glutengerüst für ein optimales Backvolumen auf, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-093",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft sorgt für streichfähige Festigkeit bei voller Fruchtfrische, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-094",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-095",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-096",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur verhindert das Gerinnen und sorgt für eine sämige Konsistenz, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-097",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten erzeugt hauchdünne, knusprige Teigschichten im Backofen, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-098",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein mildert die Schärfe und verleiht ein nussig-süßes Aroma, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-099",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter löst die karamellisierten Röstaromen zu einer feinen Bratensauce zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-100",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-101",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-102",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-103",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-104",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-105",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-106",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-107",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-108",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-109",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-110",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin lockert das Gemenge auf und verhindert unerwünschte Klümpchen zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-111",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur baut ein stabiles Glutengerüst für ein optimales Backvolumen auf zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-112",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten sorgt für streichfähige Festigkeit bei voller Fruchtfrische, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-113",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-114",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-115",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb verhindert das Gerinnen und sorgt für eine sämige Konsistenz gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-116",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud erzeugt hauchdünne, knusprige Teigschichten im Backofen für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-117",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche mildert die Schärfe und verleiht ein nussig-süßes Aroma, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-118",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee löst die karamellisierten Röstaromen zu einer feinen Bratensauce, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-119",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-120",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-121",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte mildert die Schärfe und verleiht ein nussig-süßes Aroma zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-122",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse löst die karamellisierten Röstaromen zu einer feinen Bratensauce zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-123",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-124",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-125",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-126",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-127",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-128",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-129",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter lockert das Gemenge auf und verhindert unerwünschte Klümpchen, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-130",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb baut ein stabiles Glutengerüst für ein optimales Backvolumen auf, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-131",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud sorgt für streichfähige Festigkeit bei voller Fruchtfrische unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-132",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-133",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-134",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf verhindert das Gerinnen und sorgt für eine sämige Konsistenz, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-135",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl erzeugt hauchdünne, knusprige Teigschichten im Backofen, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-136",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-137",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-138",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft verhindert das Gerinnen und sorgt für eine sämige Konsistenz für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-139",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel erzeugt hauchdünne, knusprige Teigschichten im Backofen, zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-140",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin mildert die Schärfe und verleiht ein nussig-süßes Aroma, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-141",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur löst die karamellisierten Röstaromen zu einer feinen Bratensauce, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-142",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-143",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-144",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-145",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-146",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-147",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-148",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee lockert das Gemenge auf und verhindert unerwünschte Klümpchen, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-149",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf baut ein stabiles Glutengerüst für ein optimales Backvolumen auf, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-150",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl sorgt für streichfähige Festigkeit bei voller Fruchtfrische, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-151",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte durchzieht das Fruchtfleisch mit Aromen von Zimt und Nelken, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-152",
+      "text": "Das Reduzieren von dunklem Rinderfond mit Röstgemüse lockert das Gemenge auf und verhindert unerwünschte Klümpchen, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-153",
+      "text": "Das Marinieren von Meeresfrüchten in frischem Limettensaft baut ein stabiles Glutengerüst für ein optimales Backvolumen auf unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-154",
+      "text": "Das sorgfältige Sieben von Weizenmehl mit Backtriebmittel sorgt für streichfähige Festigkeit bei voller Fruchtfrische unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-155",
+      "text": "Das Gelieren von Fruchtpüree mit reinem Apfelpektin schließt feine Luftbläschen für die Lockerung von Biskuitteigen ein, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-156",
+      "text": "Das Vakuumgaren von Kalbsfilets bei konstanter Niedrigtemperatur erhält die Saftigkeit und Zartheit des Fleisches ohne Saftverlust, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-157",
+      "text": "Das Tourieren von Blätterteig mit kalten Butterplatten verhindert das Gerinnen und sorgt für eine sämige Konsistenz, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-158",
+      "text": "Das Ablöschen des heißen Bräterbodens mit trockenem Weißwein erzeugt hauchdünne, knusprige Teigschichten im Backofen zur harmonischen Abstimmung von Süße, Säure und feinen Röstaromen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-159",
+      "text": "Das langsame Schmoren fein geschnittener Zwiebeln in Butter mildert die Schärfe und verleiht ein nussig-süßes Aroma, zur Vollendung anspruchsvoller handwerklicher Gourmet-Kreationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-160",
+      "text": "Die lange Teigführung mit Natursauerteig im Gärkorb löst die karamellisierten Röstaromen zu einer feinen Bratensauce, zur Vermeidung von Feuchtigkeitsverlust während der Ruhephase.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-161",
+      "text": "Das Pochieren geschälter Birnen in würzigem Weißweinsud garantiert perfekten Glanz und einen knackigen Bruch beim Erkalten, unter präziser Überwachung der optimalen Kerntemperatur.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-162",
+      "text": "Das intensive Kneten von Roggensauerteig auf der Arbeitsfläche entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen, unter Beachtung traditioneller Rezepturen und Kochtechniken.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-163",
+      "text": "Das Aufschlagen von frischem Eiklar zu festem Eischnee konzentriert die Gelatine zu einer glänzenden, gehaltvollen Demi-Glace für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-164",
+      "text": "Die Emulsion frischer Eigelbe mit französischem Senf entwickelt komplexe Säuren und ein ausgeprägtes Brotaroma, gemäß den klassischen Standards der gehobenen Gastronomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-165",
+      "text": "Das schonende Konfieren von Knoblauchzehen in Olivenöl gahrt das zarte Fischgewebe rein physikalisch durch Säureeinwirkung, für erstklassige Textur und saubere Schnittfestigkeit beim Servieren.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    },
+    {
+      "id": "receta-de-166",
+      "text": "Das Temperieren von dunkler Kuvertüre auf der Marmorplatte entwickelt intensive Karamellnoten durch langsame Maillard-Reaktionen, für ein perfektes Mundgefühl und ansprechende Tellerpräsentation.",
+      "lang": "de",
+      "source": "corpus-trilingue-receta"
+    }
+  ]
+}

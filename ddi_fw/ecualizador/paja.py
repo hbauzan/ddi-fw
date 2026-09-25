@@ -56,13 +56,15 @@ def run_protocolo_02(
     out_dir: Path = DEFAULT_PAJA_DIR,
     theta_saturacion: float = DEFAULT_THETA_SATURACION,
     epsilon_indiferenciacion: float = DEFAULT_EPSILON_INDIFERENCIACION,
+    almas: tuple[str, ...] | list[str] | None = None,
 ) -> dict[str, Any]:
     """Ejecuta el Protocolo 02 leyendo los perfiles intrínsecos y generando trigos depurados."""
     out_dir.mkdir(parents=True, exist_ok=True)
+    almas_to_process = tuple(almas) if almas is not None else ALMAS_ECUALIZADOR
 
     # 1. Cargar datos intrínsecos de cada alma
     almas_data: dict[str, dict[int, dict[str, float]]] = {}
-    for alma in ALMAS_ECUALIZADOR:
+    for alma in almas_to_process:
         json_file = intrinseco_dir / f"{alma}_perfil_intrinseco_1024d.json"
         if not json_file.exists():
             raise FileNotFoundError(
@@ -73,7 +75,7 @@ def run_protocolo_02(
         dim_map = {rec["dimension"]: rec for rec in data["dimensiones"]}
         almas_data[alma] = dim_map
 
-    num_dims = len(almas_data[ALMAS_ECUALIZADOR[0]])
+    num_dims = len(almas_data[almas_to_process[0]])
     hardware_info = get_hardware_profile()
 
     catalogo_records: list[dict[str, Any]] = []
@@ -84,10 +86,10 @@ def run_protocolo_02(
         "TRIGO_CANDIDATO": 0,
     }
 
-    # 2. Analizar cada dimensión a través de los 5 temas
+    # 2. Analizar cada dimensión a través de los temas
     for d in range(num_dims):
-        energies_d = {alma: almas_data[alma][d]["energia"] for alma in ALMAS_ECUALIZADOR}
-        mus_d = {alma: almas_data[alma][d]["mu"] for alma in ALMAS_ECUALIZADOR}
+        energies_d = {alma: almas_data[alma][d]["energia"] for alma in almas_to_process}
+        mus_d = {alma: almas_data[alma][d]["mu"] for alma in almas_to_process}
 
         min_energy = float(min(energies_d.values()))
         max_energy = float(max(energies_d.values()))
@@ -104,25 +106,18 @@ def run_protocolo_02(
         )
         conteo_clasificacion[etiqueta] += 1
 
-        catalogo_records.append(
-            {
-                "dimension": d,
-                "etiqueta": etiqueta,
-                "min_energia": min_energy,
-                "max_energia": max_energy,
-                "max_delta_mu": max_delta_mu,
-                "mu_python": mus_d["python"],
-                "mu_receta": mus_d["receta"],
-                "mu_legal": mus_d["legal"],
-                "mu_medicina": mus_d["medicina"],
-                "mu_astronomia": mus_d["astronomia"],
-                "energia_python": energies_d["python"],
-                "energia_receta": energies_d["receta"],
-                "energia_legal": energies_d["legal"],
-                "energia_medicina": energies_d["medicina"],
-                "energia_astronomia": energies_d["astronomia"],
-            }
-        )
+        rec = {
+            "dimension": d,
+            "etiqueta": etiqueta,
+            "min_energia": min_energy,
+            "max_energia": max_energy,
+            "max_delta_mu": max_delta_mu,
+        }
+        for alma in almas_to_process:
+            rec[f"mu_{alma}"] = mus_d[alma]
+            rec[f"energia_{alma}"] = energies_d[alma]
+
+        catalogo_records.append(rec)
 
     # 3. Exportar catalogo_paja_estructural.csv
     csv_catalogo = out_dir / "catalogo_paja_estructural.csv"
@@ -132,40 +127,28 @@ def run_protocolo_02(
         "min_energia",
         "max_energia",
         "max_delta_mu",
-        "mu_python",
-        "mu_receta",
-        "mu_legal",
-        "mu_medicina",
-        "mu_astronomia",
-        "energia_python",
-        "energia_receta",
-        "energia_legal",
-        "energia_medicina",
-        "energia_astronomia",
     ]
+    for alma in almas_to_process:
+        headers.append(f"mu_{alma}")
+    for alma in almas_to_process:
+        headers.append(f"energia_{alma}")
+
     with open(csv_catalogo, mode="w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(headers)
         for r in catalogo_records:
-            writer.writerow(
-                [
-                    r["dimension"],
-                    r["etiqueta"],
-                    fmt_float(r["min_energy"] if "min_energy" in r else r["min_energia"]),
-                    fmt_float(r["max_energy"] if "max_energy" in r else r["max_energia"]),
-                    fmt_float(r["max_delta_mu"]),
-                    fmt_float(r["mu_python"]),
-                    fmt_float(r["mu_receta"]),
-                    fmt_float(r["mu_legal"]),
-                    fmt_float(r["mu_medicina"]),
-                    fmt_float(r["mu_astronomia"]),
-                    fmt_float(r["energia_python"]),
-                    fmt_float(r["energia_receta"]),
-                    fmt_float(r["energia_legal"]),
-                    fmt_float(r["energia_medicina"]),
-                    fmt_float(r["energia_astronomia"]),
-                ]
-            )
+            row_vals: list[Any] = [
+                r["dimension"],
+                r["etiqueta"],
+                fmt_float(r["min_energia"]),
+                fmt_float(r["max_energia"]),
+                fmt_float(r["max_delta_mu"]),
+            ]
+            for alma in almas_to_process:
+                row_vals.append(fmt_float(r[f"mu_{alma}"]))
+            for alma in almas_to_process:
+                row_vals.append(fmt_float(r[f"energia_{alma}"]))
+            writer.writerow(row_vals)
 
     # 4. Exportar catalogo_paja_estructural.json
     json_catalogo = out_dir / "catalogo_paja_estructural.json"
@@ -199,7 +182,7 @@ def run_protocolo_02(
     trigo_dims = {r["dimension"] for r in catalogo_records if r["etiqueta"] == "TRIGO_CANDIDATO"}
 
     trigos_resumen: dict[str, str] = {}
-    for alma in ALMAS_ECUALIZADOR:
+    for alma in almas_to_process:
         csv_trigo = out_dir / f"{alma}_trigo_depurado.csv"
         # Obtener métricas intrínsecas de las dimensiones de trigo
         trigo_records = [almas_data[alma][d] for d in range(num_dims) if d in trigo_dims]
@@ -247,5 +230,6 @@ def run_protocolo_02(
         "catalogo_csv": str(csv_catalogo),
         "catalogo_json": str(json_catalogo),
         "conteos": conteo_clasificacion,
+        "total_trigo_candidato": conteo_clasificacion["TRIGO_CANDIDATO"],
         "trigos_depurados": trigos_resumen,
     }

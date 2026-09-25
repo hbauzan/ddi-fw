@@ -181,15 +181,103 @@ COMMON_ES_WORDS = {
     "otra",
 }
 
+COMMON_DE_WORDS = {
+    "der",
+    "die",
+    "das",
+    "und",
+    "in",
+    "den",
+    "von",
+    "zu",
+    "dem",
+    "mit",
+    "sich",
+    "des",
+    "auf",
+    "für",
+    "ist",
+    "im",
+    "nicht",
+    "eine",
+    "als",
+    "auch",
+    "es",
+    "an",
+    "werden",
+    "aus",
+    "er",
+    "hat",
+    "dass",
+    "sie",
+    "nach",
+    "wird",
+    "bei",
+    "einer",
+    "um",
+    "am",
+    "sind",
+    "noch",
+    "wie",
+    "einem",
+    "über",
+    "einen",
+    "so",
+    "war",
+    "haben",
+    "nur",
+    "oder",
+    "aber",
+    "vor",
+    "zur",
+    "bis",
+    "mehr",
+    "durch",
+    "man",
+    "sein",
+    "wurde",
+    "sei",
+    "kann",
+    "gegen",
+    "vom",
+    "können",
+    "schon",
+    "wenn",
+    "habe",
+    "seine",
+    "ihre",
+    "dann",
+    "unter",
+    "wir",
+    "soll",
+    "ich",
+    "eines",
+    "diese",
+    "dieser",
+    "wieder",
+    "keine",
+    "seiner",
+    "worden",
+    "will",
+    "zwischen",
+    "immer",
+    "ein",
+    "was",
+    "zum",
+}
+
 
 def classify_language(text: str) -> str:
     tokens = set(WORD_RE.findall(text.lower()))
     es_hits = len(tokens & COMMON_ES_WORDS)
     en_hits = len(tokens & COMMON_EN_WORDS)
-    if es_hits > en_hits:
+    de_hits = len(tokens & COMMON_DE_WORDS)
+    if es_hits > en_hits and es_hits > de_hits:
         return "es"
-    if en_hits > es_hits:
+    if en_hits > es_hits and en_hits > de_hits:
         return "en"
+    if de_hits > es_hits and de_hits > en_hits:
+        return "de"
     return "mixed_or_neutral"
 
 
@@ -206,6 +294,7 @@ def audit_deck(path: Path) -> dict:
 
     es_words = 0
     en_words = 0
+    de_words = 0
 
     for c in clauses:
         txt = c["text"]
@@ -213,14 +302,17 @@ def audit_deck(path: Path) -> dict:
         wcount = len(tokens)
         total_words += wcount
         words_set.update(tokens)
-        lang = classify_language(txt)
+        lang = c.get("lang") or classify_language(txt)
         if lang == "es":
             es_words += wcount
         elif lang == "en":
             en_words += wcount
+        elif lang == "de":
+            de_words += wcount
         else:
-            es_words += wcount // 2
-            en_words += wcount - (wcount // 2)
+            es_words += wcount // 3
+            en_words += wcount // 3
+            de_words += wcount - 2 * (wcount // 3)
 
         clause_stats.append(
             {
@@ -239,6 +331,7 @@ def audit_deck(path: Path) -> dict:
         "words_set": words_set,
         "es_words": es_words,
         "en_words": en_words,
+        "de_words": de_words,
         "clause_stats": clause_stats,
     }
 
@@ -280,9 +373,14 @@ def main():
 
         es_pct = (rep["es_words"] / rep["total_words"] * 100) if rep["total_words"] else 0
         en_pct = (rep["en_words"] / rep["total_words"] * 100) if rep["total_words"] else 0
+        de_pct = (rep.get("de_words", 0) / rep["total_words"] * 100) if rep["total_words"] else 0
+
+        lang_str = f"ES: {es_pct:.1f}% / EN: {en_pct:.1f}%"
+        if de_pct > 0:
+            lang_str += f" / DE: {de_pct:.1f}%"
 
         print(
-            f"Mazo: {rep['alma']:<15} | Cláusulas: {rep['clause_count']:<3} | Palabras: {rep['total_words']:<5} (Únicas: {rep['unique_words']:<4}) | ES: {es_pct:.1f}% / EN: {en_pct:.1f}% | [{status}]"
+            f"Mazo: {rep['alma']:<15} | Cláusulas: {rep['clause_count']:<3} | Palabras: {rep['total_words']:<5} (Únicas: {rep['unique_words']:<4}) | {lang_str} | [{status}]"
         )
 
     print("\n--------------------------------------------------------")
@@ -294,7 +392,11 @@ def main():
             r1, r2 = reports[i], reports[j]
             shared = r1["words_set"] & r2["words_set"]
             filtered_shared = [
-                w for w in shared if w not in COMMON_EN_WORDS and w not in COMMON_ES_WORDS
+                w
+                for w in shared
+                if w not in COMMON_EN_WORDS
+                and w not in COMMON_ES_WORDS
+                and w not in COMMON_DE_WORDS
             ]
             jaccard = len(shared) / len(r1["words_set"] | r2["words_set"])
             print(

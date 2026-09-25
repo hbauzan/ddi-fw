@@ -1,0 +1,3007 @@
+{
+  "alma": "finanzas",
+  "n": 500,
+  "description": "Mazo trilingüe de finanzas (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "finanzas-es-001",
+      "text": "La permuta financiera de tipos de interés swap permite transformar pasivos a tipo variable en compromisos a tipo fijo, optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-002",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias explota desalineaciones temporales entre activos con alta correlación histórica, conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-003",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor, con el fin de para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-004",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes mide la sensibilidad del activo frente a movimientos del mercado general, con el fin de durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-005",
+      "text": "El margen de garantía exigido por la cámara de compensación central inyecta liquidez al sistema bancario para estimular el crédito y la inversión salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-006",
+      "text": "El diferencial de crédito credit spread en bonos corporativos absorbe pérdidas no previstas durante fases de severo estrés macroeconómico, en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-007",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario determina la prima teórica a partir de la volatilidad implícita del subyacente, mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-008",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado, con el fin de minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-009",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-010",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil cuantifica la variación porcentual del precio ante un cambio en la curva de tipos conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-011",
+      "text": "El colchón de conservación de capital bancario contracíclico compensa al inversor institucional por el riesgo intrínseco de impago, para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-012",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica refleja las expectativas del mercado sobre la trayectoria de tipos de interés, durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-013",
+      "text": "La duración modificada de una cartera de renta fija descuenta flujos de caja futuros ponderando la estructura temporal del dinero, con el fin de salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-014",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-015",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados obliga a mantener activos líquidos de alta calidad frente a salidas netas mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-016",
+      "text": "La permuta financiera de tipos de interés swap refleja las expectativas del mercado sobre la trayectoria de tipos de interés salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-017",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias descuenta flujos de caja futuros ponderando la estructura temporal del dinero, en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-018",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente, mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-019",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes obliga a mantener activos líquidos de alta calidad frente a salidas netas, con el fin de minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-020",
+      "text": "El margen de garantía exigido por la cámara de compensación central permite transformar pasivos a tipo variable en compromisos a tipo fijo optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-021",
+      "text": "El diferencial de crédito credit spread en bonos corporativos explota desalineaciones temporales entre activos con alta correlación histórica conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-022",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor, para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-023",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III mide la sensibilidad del activo frente a movimientos del mercado general, durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-024",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable inyecta liquidez al sistema bancario para estimular el crédito y la inversión, con el fin de salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-025",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil absorbe pérdidas no previstas durante fases de severo estrés macroeconómico en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-026",
+      "text": "El colchón de conservación de capital bancario contracíclico determina la prima teórica a partir de la volatilidad implícita del subyacente mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-027",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado, minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-028",
+      "text": "La duración modificada de una cartera de renta fija mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias, con el fin de optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-029",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana cuantifica la variación porcentual del precio ante un cambio en la curva de tipos, con el fin de conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-030",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados compensa al inversor institucional por el riesgo intrínseco de impago para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-031",
+      "text": "La permuta financiera de tipos de interés swap estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-032",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-033",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto cuantifica la variación porcentual del precio ante un cambio en la curva de tipos, para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-034",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes compensa al inversor institucional por el riesgo intrínseco de impago, durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-035",
+      "text": "El margen de garantía exigido por la cámara de compensación central refleja las expectativas del mercado sobre la trayectoria de tipos de interés, con el fin de salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-036",
+      "text": "El diferencial de crédito credit spread en bonos corporativos descuenta flujos de caja futuros ponderando la estructura temporal del dinero en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-037",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-038",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III obliga a mantener activos líquidos de alta calidad frente a salidas netas, minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-039",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable permite transformar pasivos a tipo variable en compromisos a tipo fijo, con el fin de optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-040",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil explota desalineaciones temporales entre activos con alta correlación histórica, con el fin de conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-041",
+      "text": "El colchón de conservación de capital bancario contracíclico ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-042",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica mide la sensibilidad del activo frente a movimientos del mercado general durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-043",
+      "text": "La duración modificada de una cartera de renta fija inyecta liquidez al sistema bancario para estimular el crédito y la inversión, salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-044",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana absorbe pérdidas no previstas durante fases de severo estrés macroeconómico, con el fin de en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-045",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados determina la prima teórica a partir de la volatilidad implícita del subyacente, con el fin de mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-046",
+      "text": "La permuta financiera de tipos de interés swap mide la sensibilidad del activo frente a movimientos del mercado general, con el fin de salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-047",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias inyecta liquidez al sistema bancario para estimular el crédito y la inversión en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-048",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto absorbe pérdidas no previstas durante fases de severo estrés macroeconómico mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-049",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes determina la prima teórica a partir de la volatilidad implícita del subyacente, minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-050",
+      "text": "El margen de garantía exigido por la cámara de compensación central estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado, con el fin de optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-051",
+      "text": "El diferencial de crédito credit spread en bonos corporativos mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias, con el fin de conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-052",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario cuantifica la variación porcentual del precio ante un cambio en la curva de tipos para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-053",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III compensa al inversor institucional por el riesgo intrínseco de impago durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-054",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable refleja las expectativas del mercado sobre la trayectoria de tipos de interés, salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-055",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil descuenta flujos de caja futuros ponderando la estructura temporal del dinero, con el fin de en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-056",
+      "text": "El colchón de conservación de capital bancario contracíclico inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente, con el fin de mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-057",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica obliga a mantener activos líquidos de alta calidad frente a salidas netas minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-058",
+      "text": "La duración modificada de una cartera de renta fija permite transformar pasivos a tipo variable en compromisos a tipo fijo, optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-059",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana explota desalineaciones temporales entre activos con alta correlación histórica, conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-060",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor, con el fin de para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-061",
+      "text": "La permuta financiera de tipos de interés swap obliga a mantener activos líquidos de alta calidad frente a salidas netas, con el fin de optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-062",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias permite transformar pasivos a tipo variable en compromisos a tipo fijo, con el fin de conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-063",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto explota desalineaciones temporales entre activos con alta correlación histórica para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-064",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-065",
+      "text": "El margen de garantía exigido por la cámara de compensación central mide la sensibilidad del activo frente a movimientos del mercado general, salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-066",
+      "text": "El diferencial de crédito credit spread en bonos corporativos inyecta liquidez al sistema bancario para estimular el crédito y la inversión, con el fin de en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-067",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario absorbe pérdidas no previstas durante fases de severo estrés macroeconómico, con el fin de mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-068",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III determina la prima teórica a partir de la volatilidad implícita del subyacente minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-069",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado, optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-070",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias, conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-071",
+      "text": "El colchón de conservación de capital bancario contracíclico cuantifica la variación porcentual del precio ante un cambio en la curva de tipos, con el fin de para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-072",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica compensa al inversor institucional por el riesgo intrínseco de impago, con el fin de durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-073",
+      "text": "La duración modificada de una cartera de renta fija refleja las expectativas del mercado sobre la trayectoria de tipos de interés salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-074",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana descuenta flujos de caja futuros ponderando la estructura temporal del dinero, en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-075",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente, mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-076",
+      "text": "La permuta financiera de tipos de interés swap compensa al inversor institucional por el riesgo intrínseco de impago, salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-077",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias refleja las expectativas del mercado sobre la trayectoria de tipos de interés, con el fin de en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-078",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto descuenta flujos de caja futuros ponderando la estructura temporal del dinero, con el fin de mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-079",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-080",
+      "text": "El margen de garantía exigido por la cámara de compensación central obliga a mantener activos líquidos de alta calidad frente a salidas netas, optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-081",
+      "text": "El diferencial de crédito credit spread en bonos corporativos permite transformar pasivos a tipo variable en compromisos a tipo fijo, conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-082",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario explota desalineaciones temporales entre activos con alta correlación histórica, con el fin de para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-083",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor, con el fin de durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-084",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable mide la sensibilidad del activo frente a movimientos del mercado general salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-085",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil inyecta liquidez al sistema bancario para estimular el crédito y la inversión, en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-086",
+      "text": "El colchón de conservación de capital bancario contracíclico absorbe pérdidas no previstas durante fases de severo estrés macroeconómico, mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-087",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica determina la prima teórica a partir de la volatilidad implícita del subyacente, con el fin de minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-088",
+      "text": "La duración modificada de una cartera de renta fija estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-089",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-090",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados cuantifica la variación porcentual del precio ante un cambio en la curva de tipos, para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-091",
+      "text": "La permuta financiera de tipos de interés swap determina la prima teórica a partir de la volatilidad implícita del subyacente, optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-092",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado, conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-093",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias, con el fin de para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-094",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes cuantifica la variación porcentual del precio ante un cambio en la curva de tipos, con el fin de durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-095",
+      "text": "El margen de garantía exigido por la cámara de compensación central compensa al inversor institucional por el riesgo intrínseco de impago salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-096",
+      "text": "El diferencial de crédito credit spread en bonos corporativos refleja las expectativas del mercado sobre la trayectoria de tipos de interés, en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-097",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario descuenta flujos de caja futuros ponderando la estructura temporal del dinero, mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-098",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente, con el fin de minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-099",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable obliga a mantener activos líquidos de alta calidad frente a salidas netas optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-100",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil permite transformar pasivos a tipo variable en compromisos a tipo fijo conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-101",
+      "text": "El colchón de conservación de capital bancario contracíclico explota desalineaciones temporales entre activos con alta correlación histórica, para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-102",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor, durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-103",
+      "text": "La duración modificada de una cartera de renta fija mide la sensibilidad del activo frente a movimientos del mercado general, con el fin de salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-104",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana inyecta liquidez al sistema bancario para estimular el crédito y la inversión en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-105",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados absorbe pérdidas no previstas durante fases de severo estrés macroeconómico mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-106",
+      "text": "La permuta financiera de tipos de interés swap ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-107",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias mide la sensibilidad del activo frente a movimientos del mercado general, en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-108",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto inyecta liquidez al sistema bancario para estimular el crédito y la inversión, mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-109",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes absorbe pérdidas no previstas durante fases de severo estrés macroeconómico, con el fin de minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-110",
+      "text": "El margen de garantía exigido por la cámara de compensación central determina la prima teórica a partir de la volatilidad implícita del subyacente optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-111",
+      "text": "El diferencial de crédito credit spread en bonos corporativos estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-112",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias, para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-113",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III cuantifica la variación porcentual del precio ante un cambio en la curva de tipos, durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-114",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable compensa al inversor institucional por el riesgo intrínseco de impago, con el fin de salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-115",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil refleja las expectativas del mercado sobre la trayectoria de tipos de interés en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-116",
+      "text": "El colchón de conservación de capital bancario contracíclico descuenta flujos de caja futuros ponderando la estructura temporal del dinero mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-117",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente, minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-118",
+      "text": "La duración modificada de una cartera de renta fija obliga a mantener activos líquidos de alta calidad frente a salidas netas, con el fin de optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-119",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana permite transformar pasivos a tipo variable en compromisos a tipo fijo, con el fin de conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-120",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados explota desalineaciones temporales entre activos con alta correlación histórica para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-121",
+      "text": "La permuta financiera de tipos de interés swap inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-122",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias obliga a mantener activos líquidos de alta calidad frente a salidas netas conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-123",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto permite transformar pasivos a tipo variable en compromisos a tipo fijo, para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-124",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes explota desalineaciones temporales entre activos con alta correlación histórica, durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-125",
+      "text": "El margen de garantía exigido por la cámara de compensación central ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor, con el fin de salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-126",
+      "text": "El diferencial de crédito credit spread en bonos corporativos mide la sensibilidad del activo frente a movimientos del mercado general en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-127",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario inyecta liquidez al sistema bancario para estimular el crédito y la inversión mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-128",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III absorbe pérdidas no previstas durante fases de severo estrés macroeconómico, minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-129",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable determina la prima teórica a partir de la volatilidad implícita del subyacente, con el fin de optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-130",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado, con el fin de conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-131",
+      "text": "El colchón de conservación de capital bancario contracíclico mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-132",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica cuantifica la variación porcentual del precio ante un cambio en la curva de tipos durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-133",
+      "text": "La duración modificada de una cartera de renta fija compensa al inversor institucional por el riesgo intrínseco de impago, salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-134",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana refleja las expectativas del mercado sobre la trayectoria de tipos de interés, con el fin de en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-135",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados descuenta flujos de caja futuros ponderando la estructura temporal del dinero, con el fin de mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-136",
+      "text": "La permuta financiera de tipos de interés swap cuantifica la variación porcentual del precio ante un cambio en la curva de tipos, con el fin de salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-137",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias compensa al inversor institucional por el riesgo intrínseco de impago en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-138",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto refleja las expectativas del mercado sobre la trayectoria de tipos de interés mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-139",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes descuenta flujos de caja futuros ponderando la estructura temporal del dinero, minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-140",
+      "text": "El margen de garantía exigido por la cámara de compensación central inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente, con el fin de optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-141",
+      "text": "El diferencial de crédito credit spread en bonos corporativos obliga a mantener activos líquidos de alta calidad frente a salidas netas, con el fin de conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-142",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario permite transformar pasivos a tipo variable en compromisos a tipo fijo para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-143",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III explota desalineaciones temporales entre activos con alta correlación histórica durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-144",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor, salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-145",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil mide la sensibilidad del activo frente a movimientos del mercado general, con el fin de en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-146",
+      "text": "El colchón de conservación de capital bancario contracíclico inyecta liquidez al sistema bancario para estimular el crédito y la inversión, con el fin de mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-147",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica absorbe pérdidas no previstas durante fases de severo estrés macroeconómico minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-148",
+      "text": "La duración modificada de una cartera de renta fija determina la prima teórica a partir de la volatilidad implícita del subyacente, optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-149",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado, conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-150",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias, con el fin de para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-151",
+      "text": "La permuta financiera de tipos de interés swap absorbe pérdidas no previstas durante fases de severo estrés macroeconómico, con el fin de optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-152",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias determina la prima teórica a partir de la volatilidad implícita del subyacente, con el fin de conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-153",
+      "text": "La política monetaria expansiva de operaciones de mercado abierto estima la pérdida patrimonial máxima esperada bajo un nivel de confianza dado para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-154",
+      "text": "La valoración de opciones europeas mediante la fórmula Black-Scholes mitiga el riesgo de contraparte mediante liquidaciones de pérdidas y ganancias durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-155",
+      "text": "El margen de garantía exigido por la cámara de compensación central cuantifica la variación porcentual del precio ante un cambio en la curva de tipos, salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-156",
+      "text": "El diferencial de crédito credit spread en bonos corporativos compensa al inversor institucional por el riesgo intrínseco de impago, con el fin de en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-157",
+      "text": "La tasa interna de retorno corregida por riesgo inflacionario refleja las expectativas del mercado sobre la trayectoria de tipos de interés, con el fin de mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-158",
+      "text": "La ratio de cobertura de liquidez según la normativa Basilea III descuenta flujos de caja futuros ponderando la estructura temporal del dinero minimizando la exposición neta a perturbaciones imprevistas en los tipos de cambio.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-159",
+      "text": "El arbitraje estadístico de pares en mercados de renta variable inmuniza la posición frente a pequeñas oscilaciones en el precio del subyacente, optimizando la gestión del balance en entidades financieras internacionales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-160",
+      "text": "El coeficiente beta de volatilidad respecto al índice bursátil obliga a mantener activos líquidos de alta calidad frente a salidas netas, conforme a las directrices de supervisión prudencial de los bancos centrales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-161",
+      "text": "El colchón de conservación de capital bancario contracíclico permite transformar pasivos a tipo variable en compromisos a tipo fijo, con el fin de para preservar la rentabilidad ajustada por riesgo de los fondos de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-162",
+      "text": "El cálculo del valor en riesgo mediante simulación histórica explota desalineaciones temporales entre activos con alta correlación histórica, con el fin de durante períodos de alta volatilidad en los mercados de capitales globales.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-163",
+      "text": "La duración modificada de una cartera de renta fija ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-164",
+      "text": "La curva de rendimientos cupón cero de la deuda soberana mide la sensibilidad del activo frente a movimientos del mercado general, en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-165",
+      "text": "La estrategia de cobertura delta neutral en mesas de derivados inyecta liquidez al sistema bancario para estimular el crédito y la inversión, mediante modelos cuantitativos de optimización de carteras de inversión.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-166",
+      "text": "La permuta financiera de tipos de interés swap explota desalineaciones temporales entre activos con alta correlación histórica, salvaguardando la estabilidad del sistema financiero frente a riesgos sistémicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-es-167",
+      "text": "La emisión de obligaciones convertibles en acciones ordinarias ofrece al tenedor la facultad de canje ante escenarios alcistas del emisor, con el fin de en estricto cumplimiento de los estándares regulatorios de solvencia bancaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-001",
+      "text": "The plain vanilla interest rate swap agreement exchanges floating cash flows for fixed commitments across maturities, optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-002",
+      "text": "The convertible bond issuance featuring embedded call options captures mean-reverting alpha from temporary market pricing dislocations, calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-003",
+      "text": "Central bank quantitative easing through open market purchases grants bondholders equity upside participation while preserving yield floors, in order to preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-004",
+      "text": "The Black-Scholes valuation formula for European options estimates systematic market risk exposure across diversified equity holdings, in order to enhancing portfolio sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-005",
+      "text": "Initial margin requirements posted at central clearing counterparties expands central bank balance sheet reserves to suppress long-term yield curves safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-006",
+      "text": "The credit default swap spread on investment-grade debt strengthens banking sector resilience during systemic downturns and stress, in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-007",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows prices contract premia using underlying asset volatility and risk-free rates, adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-008",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations quantifies extreme downside portfolio exposure at defined confidence limits, in order to mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-009",
+      "text": "Statistical pairs trading strategies across liquid equities insulates clearinghouse participants against bilateral counterparty defaults optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-010",
+      "text": "The equity beta coefficient relative to the market index measures bond price elasticity relative to instantaneous interest rate shifts calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-011",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital reflects the market-implied probability of default and loss recovery rates, preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-012",
+      "text": "The parametric Value-at-Risk computation model derives forward interest rates from instantaneous discount factors, enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-013",
+      "text": "The modified duration metric for fixed-income bond portfolios discounts expected future cash flows using weighted average cost of capital, in order to safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-014",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks continuously balances option delta exposures against underlying equity shifts in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-015",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks mandates unencumbered high-quality liquid asset reserves against runoffs adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-016",
+      "text": "The plain vanilla interest rate swap agreement derives forward interest rates from instantaneous discount factors safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-017",
+      "text": "The convertible bond issuance featuring embedded call options discounts expected future cash flows using weighted average cost of capital, in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-018",
+      "text": "Central bank quantitative easing through open market purchases continuously balances option delta exposures against underlying equity shifts, adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-019",
+      "text": "The Black-Scholes valuation formula for European options mandates unencumbered high-quality liquid asset reserves against runoffs, in order to mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-020",
+      "text": "Initial margin requirements posted at central clearing counterparties exchanges floating cash flows for fixed commitments across maturities optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-021",
+      "text": "The credit default swap spread on investment-grade debt captures mean-reverting alpha from temporary market pricing dislocations calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-022",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows grants bondholders equity upside participation while preserving yield floors, preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-023",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations estimates systematic market risk exposure across diversified equity holdings, enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-024",
+      "text": "Statistical pairs trading strategies across liquid equities expands central bank balance sheet reserves to suppress long-term yield curves, in order to safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-025",
+      "text": "The equity beta coefficient relative to the market index strengthens banking sector resilience during systemic downturns and stress in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-026",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital prices contract premia using underlying asset volatility and risk-free rates adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-027",
+      "text": "The parametric Value-at-Risk computation model quantifies extreme downside portfolio exposure at defined confidence limits, mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-028",
+      "text": "The modified duration metric for fixed-income bond portfolios insulates clearinghouse participants against bilateral counterparty defaults, in order to optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-029",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks measures bond price elasticity relative to instantaneous interest rate shifts, in order to calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-030",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks reflects the market-implied probability of default and loss recovery rates preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-031",
+      "text": "The plain vanilla interest rate swap agreement quantifies extreme downside portfolio exposure at defined confidence limits optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-032",
+      "text": "The convertible bond issuance featuring embedded call options insulates clearinghouse participants against bilateral counterparty defaults calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-033",
+      "text": "Central bank quantitative easing through open market purchases measures bond price elasticity relative to instantaneous interest rate shifts, preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-034",
+      "text": "The Black-Scholes valuation formula for European options reflects the market-implied probability of default and loss recovery rates, enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-035",
+      "text": "Initial margin requirements posted at central clearing counterparties derives forward interest rates from instantaneous discount factors, in order to safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-036",
+      "text": "The credit default swap spread on investment-grade debt discounts expected future cash flows using weighted average cost of capital in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-037",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows continuously balances option delta exposures against underlying equity shifts adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-038",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations mandates unencumbered high-quality liquid asset reserves against runoffs, mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-039",
+      "text": "Statistical pairs trading strategies across liquid equities exchanges floating cash flows for fixed commitments across maturities, in order to optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-040",
+      "text": "The equity beta coefficient relative to the market index captures mean-reverting alpha from temporary market pricing dislocations, in order to calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-041",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital grants bondholders equity upside participation while preserving yield floors preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-042",
+      "text": "The parametric Value-at-Risk computation model estimates systematic market risk exposure across diversified equity holdings enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-043",
+      "text": "The modified duration metric for fixed-income bond portfolios expands central bank balance sheet reserves to suppress long-term yield curves, safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-044",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks strengthens banking sector resilience during systemic downturns and stress, in order to in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-045",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks prices contract premia using underlying asset volatility and risk-free rates, in order to adhering to rigorous capital adequacy guidelines mandated by basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-046",
+      "text": "The plain vanilla interest rate swap agreement estimates systematic market risk exposure across diversified equity holdings, in order to safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-047",
+      "text": "The convertible bond issuance featuring embedded call options expands central bank balance sheet reserves to suppress long-term yield curves in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-048",
+      "text": "Central bank quantitative easing through open market purchases strengthens banking sector resilience during systemic downturns and stress adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-049",
+      "text": "The Black-Scholes valuation formula for European options prices contract premia using underlying asset volatility and risk-free rates, mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-050",
+      "text": "Initial margin requirements posted at central clearing counterparties quantifies extreme downside portfolio exposure at defined confidence limits, in order to optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-051",
+      "text": "The credit default swap spread on investment-grade debt insulates clearinghouse participants against bilateral counterparty defaults, in order to calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-052",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows measures bond price elasticity relative to instantaneous interest rate shifts preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-053",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations reflects the market-implied probability of default and loss recovery rates enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-054",
+      "text": "Statistical pairs trading strategies across liquid equities derives forward interest rates from instantaneous discount factors, safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-055",
+      "text": "The equity beta coefficient relative to the market index discounts expected future cash flows using weighted average cost of capital, in order to in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-056",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital continuously balances option delta exposures against underlying equity shifts, in order to adhering to rigorous capital adequacy guidelines mandated by basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-057",
+      "text": "The parametric Value-at-Risk computation model mandates unencumbered high-quality liquid asset reserves against runoffs mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-058",
+      "text": "The modified duration metric for fixed-income bond portfolios exchanges floating cash flows for fixed commitments across maturities, optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-059",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks captures mean-reverting alpha from temporary market pricing dislocations, calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-060",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks grants bondholders equity upside participation while preserving yield floors, in order to preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-061",
+      "text": "The plain vanilla interest rate swap agreement mandates unencumbered high-quality liquid asset reserves against runoffs, in order to optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-062",
+      "text": "The convertible bond issuance featuring embedded call options exchanges floating cash flows for fixed commitments across maturities, in order to calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-063",
+      "text": "Central bank quantitative easing through open market purchases captures mean-reverting alpha from temporary market pricing dislocations preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-064",
+      "text": "The Black-Scholes valuation formula for European options grants bondholders equity upside participation while preserving yield floors enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-065",
+      "text": "Initial margin requirements posted at central clearing counterparties estimates systematic market risk exposure across diversified equity holdings, safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-066",
+      "text": "The credit default swap spread on investment-grade debt expands central bank balance sheet reserves to suppress long-term yield curves, in order to in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-067",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows strengthens banking sector resilience during systemic downturns and stress, in order to adhering to rigorous capital adequacy guidelines mandated by basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-068",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations prices contract premia using underlying asset volatility and risk-free rates mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-069",
+      "text": "Statistical pairs trading strategies across liquid equities quantifies extreme downside portfolio exposure at defined confidence limits, optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-070",
+      "text": "The equity beta coefficient relative to the market index insulates clearinghouse participants against bilateral counterparty defaults, calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-071",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital measures bond price elasticity relative to instantaneous interest rate shifts, in order to preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-072",
+      "text": "The parametric Value-at-Risk computation model reflects the market-implied probability of default and loss recovery rates, in order to enhancing portfolio sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-073",
+      "text": "The modified duration metric for fixed-income bond portfolios derives forward interest rates from instantaneous discount factors safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-074",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks discounts expected future cash flows using weighted average cost of capital, in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-075",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks continuously balances option delta exposures against underlying equity shifts, adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-076",
+      "text": "The plain vanilla interest rate swap agreement reflects the market-implied probability of default and loss recovery rates, safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-077",
+      "text": "The convertible bond issuance featuring embedded call options derives forward interest rates from instantaneous discount factors, in order to in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-078",
+      "text": "Central bank quantitative easing through open market purchases discounts expected future cash flows using weighted average cost of capital, in order to adhering to rigorous capital adequacy guidelines mandated by basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-079",
+      "text": "The Black-Scholes valuation formula for European options continuously balances option delta exposures against underlying equity shifts mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-080",
+      "text": "Initial margin requirements posted at central clearing counterparties mandates unencumbered high-quality liquid asset reserves against runoffs, optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-081",
+      "text": "The credit default swap spread on investment-grade debt exchanges floating cash flows for fixed commitments across maturities, calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-082",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows captures mean-reverting alpha from temporary market pricing dislocations, in order to preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-083",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations grants bondholders equity upside participation while preserving yield floors, in order to enhancing portfolio sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-084",
+      "text": "Statistical pairs trading strategies across liquid equities estimates systematic market risk exposure across diversified equity holdings safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-085",
+      "text": "The equity beta coefficient relative to the market index expands central bank balance sheet reserves to suppress long-term yield curves, in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-086",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital strengthens banking sector resilience during systemic downturns and stress, adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-087",
+      "text": "The parametric Value-at-Risk computation model prices contract premia using underlying asset volatility and risk-free rates, in order to mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-088",
+      "text": "The modified duration metric for fixed-income bond portfolios quantifies extreme downside portfolio exposure at defined confidence limits optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-089",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks insulates clearinghouse participants against bilateral counterparty defaults calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-090",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks measures bond price elasticity relative to instantaneous interest rate shifts, preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-091",
+      "text": "The plain vanilla interest rate swap agreement prices contract premia using underlying asset volatility and risk-free rates, optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-092",
+      "text": "The convertible bond issuance featuring embedded call options quantifies extreme downside portfolio exposure at defined confidence limits, calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-093",
+      "text": "Central bank quantitative easing through open market purchases insulates clearinghouse participants against bilateral counterparty defaults, in order to preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-094",
+      "text": "The Black-Scholes valuation formula for European options measures bond price elasticity relative to instantaneous interest rate shifts, in order to enhancing portfolio sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-095",
+      "text": "Initial margin requirements posted at central clearing counterparties reflects the market-implied probability of default and loss recovery rates safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-096",
+      "text": "The credit default swap spread on investment-grade debt derives forward interest rates from instantaneous discount factors, in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-097",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows discounts expected future cash flows using weighted average cost of capital, adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-098",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations continuously balances option delta exposures against underlying equity shifts, in order to mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-099",
+      "text": "Statistical pairs trading strategies across liquid equities mandates unencumbered high-quality liquid asset reserves against runoffs optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-100",
+      "text": "The equity beta coefficient relative to the market index exchanges floating cash flows for fixed commitments across maturities calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-101",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital captures mean-reverting alpha from temporary market pricing dislocations, preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-102",
+      "text": "The parametric Value-at-Risk computation model grants bondholders equity upside participation while preserving yield floors, enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-103",
+      "text": "The modified duration metric for fixed-income bond portfolios estimates systematic market risk exposure across diversified equity holdings, in order to safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-104",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks expands central bank balance sheet reserves to suppress long-term yield curves in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-105",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks strengthens banking sector resilience during systemic downturns and stress adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-106",
+      "text": "The plain vanilla interest rate swap agreement grants bondholders equity upside participation while preserving yield floors safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-107",
+      "text": "The convertible bond issuance featuring embedded call options estimates systematic market risk exposure across diversified equity holdings, in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-108",
+      "text": "Central bank quantitative easing through open market purchases expands central bank balance sheet reserves to suppress long-term yield curves, adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-109",
+      "text": "The Black-Scholes valuation formula for European options strengthens banking sector resilience during systemic downturns and stress, in order to mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-110",
+      "text": "Initial margin requirements posted at central clearing counterparties prices contract premia using underlying asset volatility and risk-free rates optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-111",
+      "text": "The credit default swap spread on investment-grade debt quantifies extreme downside portfolio exposure at defined confidence limits calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-112",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows insulates clearinghouse participants against bilateral counterparty defaults, preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-113",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations measures bond price elasticity relative to instantaneous interest rate shifts, enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-114",
+      "text": "Statistical pairs trading strategies across liquid equities reflects the market-implied probability of default and loss recovery rates, in order to safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-115",
+      "text": "The equity beta coefficient relative to the market index derives forward interest rates from instantaneous discount factors in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-116",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital discounts expected future cash flows using weighted average cost of capital adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-117",
+      "text": "The parametric Value-at-Risk computation model continuously balances option delta exposures against underlying equity shifts, mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-118",
+      "text": "The modified duration metric for fixed-income bond portfolios mandates unencumbered high-quality liquid asset reserves against runoffs, in order to optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-119",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks exchanges floating cash flows for fixed commitments across maturities, in order to calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-120",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks captures mean-reverting alpha from temporary market pricing dislocations preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-121",
+      "text": "The plain vanilla interest rate swap agreement continuously balances option delta exposures against underlying equity shifts optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-122",
+      "text": "The convertible bond issuance featuring embedded call options mandates unencumbered high-quality liquid asset reserves against runoffs calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-123",
+      "text": "Central bank quantitative easing through open market purchases exchanges floating cash flows for fixed commitments across maturities, preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-124",
+      "text": "The Black-Scholes valuation formula for European options captures mean-reverting alpha from temporary market pricing dislocations, enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-125",
+      "text": "Initial margin requirements posted at central clearing counterparties grants bondholders equity upside participation while preserving yield floors, in order to safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-126",
+      "text": "The credit default swap spread on investment-grade debt estimates systematic market risk exposure across diversified equity holdings in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-127",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows expands central bank balance sheet reserves to suppress long-term yield curves adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-128",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations strengthens banking sector resilience during systemic downturns and stress, mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-129",
+      "text": "Statistical pairs trading strategies across liquid equities prices contract premia using underlying asset volatility and risk-free rates, in order to optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-130",
+      "text": "The equity beta coefficient relative to the market index quantifies extreme downside portfolio exposure at defined confidence limits, in order to calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-131",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital insulates clearinghouse participants against bilateral counterparty defaults preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-132",
+      "text": "The parametric Value-at-Risk computation model measures bond price elasticity relative to instantaneous interest rate shifts enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-133",
+      "text": "The modified duration metric for fixed-income bond portfolios reflects the market-implied probability of default and loss recovery rates, safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-134",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks derives forward interest rates from instantaneous discount factors, in order to in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-135",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks discounts expected future cash flows using weighted average cost of capital, in order to adhering to rigorous capital adequacy guidelines mandated by basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-136",
+      "text": "The plain vanilla interest rate swap agreement measures bond price elasticity relative to instantaneous interest rate shifts, in order to safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-137",
+      "text": "The convertible bond issuance featuring embedded call options reflects the market-implied probability of default and loss recovery rates in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-138",
+      "text": "Central bank quantitative easing through open market purchases derives forward interest rates from instantaneous discount factors adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-139",
+      "text": "The Black-Scholes valuation formula for European options discounts expected future cash flows using weighted average cost of capital, mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-140",
+      "text": "Initial margin requirements posted at central clearing counterparties continuously balances option delta exposures against underlying equity shifts, in order to optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-141",
+      "text": "The credit default swap spread on investment-grade debt mandates unencumbered high-quality liquid asset reserves against runoffs, in order to calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-142",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows exchanges floating cash flows for fixed commitments across maturities preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-143",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations captures mean-reverting alpha from temporary market pricing dislocations enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-144",
+      "text": "Statistical pairs trading strategies across liquid equities grants bondholders equity upside participation while preserving yield floors, safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-145",
+      "text": "The equity beta coefficient relative to the market index estimates systematic market risk exposure across diversified equity holdings, in order to in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-146",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital expands central bank balance sheet reserves to suppress long-term yield curves, in order to adhering to rigorous capital adequacy guidelines mandated by basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-147",
+      "text": "The parametric Value-at-Risk computation model strengthens banking sector resilience during systemic downturns and stress mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-148",
+      "text": "The modified duration metric for fixed-income bond portfolios prices contract premia using underlying asset volatility and risk-free rates, optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-149",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks quantifies extreme downside portfolio exposure at defined confidence limits, calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-150",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks insulates clearinghouse participants against bilateral counterparty defaults, in order to preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-151",
+      "text": "The plain vanilla interest rate swap agreement strengthens banking sector resilience during systemic downturns and stress, in order to optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-152",
+      "text": "The convertible bond issuance featuring embedded call options prices contract premia using underlying asset volatility and risk-free rates, in order to calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-153",
+      "text": "Central bank quantitative easing through open market purchases quantifies extreme downside portfolio exposure at defined confidence limits preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-154",
+      "text": "The Black-Scholes valuation formula for European options insulates clearinghouse participants against bilateral counterparty defaults enhancing portfolio Sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-155",
+      "text": "Initial margin requirements posted at central clearing counterparties measures bond price elasticity relative to instantaneous interest rate shifts, safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-156",
+      "text": "The credit default swap spread on investment-grade debt reflects the market-implied probability of default and loss recovery rates, in order to in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-157",
+      "text": "The risk-adjusted net present value of capital budgeting cash flows derives forward interest rates from instantaneous discount factors, in order to adhering to rigorous capital adequacy guidelines mandated by basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-158",
+      "text": "The Liquidity Coverage Ratio mandate under Basel III regulations discounts expected future cash flows using weighted average cost of capital mitigating direct credit contagion across global interbank wholesale markets.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-159",
+      "text": "Statistical pairs trading strategies across liquid equities continuously balances option delta exposures against underlying equity shifts, optimizing balance-sheet asset-liability management in commercial banking.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-160",
+      "text": "The equity beta coefficient relative to the market index mandates unencumbered high-quality liquid asset reserves against runoffs, calibrating stochastic volatility surfaces against observed market quotes.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-161",
+      "text": "The countercyclical capital buffer requirement for Tier 1 capital exchanges floating cash flows for fixed commitments across maturities, in order to preserving risk-adjusted returns across institutional multi-asset funds.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-162",
+      "text": "The parametric Value-at-Risk computation model captures mean-reverting alpha from temporary market pricing dislocations, in order to enhancing portfolio sharpe ratios under adverse macroeconomic interest environments.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-163",
+      "text": "The modified duration metric for fixed-income bond portfolios grants bondholders equity upside participation while preserving yield floors safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-164",
+      "text": "The zero-coupon yield curve for sovereign treasury benchmarks estimates systematic market risk exposure across diversified equity holdings, in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-165",
+      "text": "The dynamic delta-hedging protocol on derivatives trading desks expands central bank balance sheet reserves to suppress long-term yield curves, adhering to rigorous capital adequacy guidelines mandated by Basel accords.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-166",
+      "text": "The plain vanilla interest rate swap agreement captures mean-reverting alpha from temporary market pricing dislocations, safeguarding macroeconomic liquidity throughout severe market downturns.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-en-167",
+      "text": "The convertible bond issuance featuring embedded call options grants bondholders equity upside participation while preserving yield floors, in order to in compliance with international prudential financial regulatory frameworks.",
+      "lang": "en",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-001",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung wandelt variable Verbindlichkeiten in feste Zinszahlungen um, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-002",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-003",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-004",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-005",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-006",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-007",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung ermittelt den theoretischen Optionswert aus der impliziten Volatilität, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-008",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-009",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-010",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-011",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-012",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-013",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-014",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-015",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-016",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-017",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-018",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-019",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-020",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin wandelt variable Verbindlichkeiten in feste Zinszahlungen um zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-021",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-022",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-023",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-024",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-025",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-026",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute ermittelt den theoretischen Optionswert aus der impliziten Volatilität unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-027",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-028",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-029",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-030",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-031",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-032",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-033",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-034",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-035",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-036",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-037",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-038",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-039",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren wandelt variable Verbindlichkeiten in feste Zinszahlungen um, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-040",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-041",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-042",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-043",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-044",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-045",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel ermittelt den theoretischen Optionswert aus der impliziten Volatilität, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-046",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-047",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-048",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-049",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen ermittelt den theoretischen Optionswert aus der impliziten Volatilität, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-050",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-051",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-052",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-053",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-054",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-055",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-056",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-057",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-058",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios wandelt variable Verbindlichkeiten in feste Zinszahlungen um, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-059",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-060",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-061",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-062",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht wandelt variable Verbindlichkeiten in feste Zinszahlungen um, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-063",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-064",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-065",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-066",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-067",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-068",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien ermittelt den theoretischen Optionswert aus der impliziten Volatilität zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-069",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-070",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-071",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-072",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-073",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-074",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-075",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-076",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-077",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-078",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-079",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-080",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-081",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen wandelt variable Verbindlichkeiten in feste Zinszahlungen um, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-082",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-083",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-084",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-085",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-086",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-087",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation ermittelt den theoretischen Optionswert aus der impliziten Volatilität, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-088",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-089",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-090",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-091",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung ermittelt den theoretischen Optionswert aus der impliziten Volatilität, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-092",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-093",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-094",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-095",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-096",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-097",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-098",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-099",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-100",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie wandelt variable Verbindlichkeiten in feste Zinszahlungen um gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-101",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-102",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-103",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-104",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-105",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-106",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-107",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-108",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-109",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-110",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin ermittelt den theoretischen Optionswert aus der impliziten Volatilität zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-111",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-112",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-113",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-114",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-115",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-116",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-117",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-118",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-119",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen wandelt variable Verbindlichkeiten in feste Zinszahlungen um, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-120",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-121",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-122",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-123",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank wandelt variable Verbindlichkeiten in feste Zinszahlungen um, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-124",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-125",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-126",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-127",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-128",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-129",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren ermittelt den theoretischen Optionswert aus der impliziten Volatilität, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-130",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-131",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-132",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-133",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-134",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-135",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-136",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-137",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-138",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-139",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten, zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-140",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-141",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-142",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung wandelt variable Verbindlichkeiten in feste Zinszahlungen um zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-143",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-144",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-145",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-146",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-147",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-148",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios ermittelt den theoretischen Optionswert aus der impliziten Volatilität, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-149",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-150",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-151",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung dämpft prozyklische Kreditvergaben in Phasen übermäßigen Wachstums, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-152",
+      "text": "Die Ausgabe von Wandelschuldverschreibungen mit Umtauschrecht ermittelt den theoretischen Optionswert aus der impliziten Volatilität, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-153",
+      "text": "Die expansive Offenmarktpolitik der Europäischen Zentralbank beziffert das maximale Verlustrisiko bei gegebenem Konfidenzniveau zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-154",
+      "text": "Das Black-Scholes-Optionspreismodell für europäische Optionen schützt Marktteilnehmer vor dem Ausfall bilateraler Handelspartner während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-155",
+      "text": "Die von zentralen Gegenparteien erhobene Initial-Margin quantifiziert die Zinssensitivität des Portfolios bei Zinsänderungen, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-156",
+      "text": "Der Credit-Default-Swap-Spread auf Unternehmensanleihen kompensiert institutionelle Investoren für das Ausfallrisiko des Emittenten, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-157",
+      "text": "Die risikoadjustierte Kapitalrendite im Rahmen der Projektbewertung bildet die Markterwartungen bezüglich künftiger Zinsniveaus präzise ab, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-158",
+      "text": "Die Liquiditätsdeckungsquote gemäß den Basel-III-Richtlinien diskontiert zukünftige Zahlungsströme mit den gewichteten Kapitalkosten zur verlässlichen Absicherung gegen unvorhergesehene Währungsschwankungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-159",
+      "text": "Das statistische Arbitrage-Trading mit korrelierten Aktienpaaren neutralisiert Richtungsrisiken des Basiswerts durch stetige Anpassung, zur Optimierung des Zins- und Liquiditätsmanagements von Geschäftsbanken.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-160",
+      "text": "Das Beta-Maß für das systematische Marktrisiko der Aktie verpflichtet Kreditinstitute zur Haltung erstklassiger liquider Aktiva, gemäß den Vorgaben der internationalen Ausschüsse für Bankenaufsicht.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-161",
+      "text": "Der antizyklische Kapitalpuffer für systemrelevante Kreditinstitute wandelt variable Verbindlichkeiten in feste Zinszahlungen um, zur Erzielung attraktiver risikobereinigter Renditen im Fondsmanagement.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-162",
+      "text": "Der Value-at-Risk unter Verwendung historischer Simulation nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel, während Phasen ausgeprägter Marktvolatilität an den globalen Wertpapierbörsen.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-163",
+      "text": "Die modifizierte Duration festverzinslicher Rentenportfolios bietet Anlegern eine feste Verzinsung mit partizipativer Aktienoption zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-164",
+      "text": "Die Nullkupon-Zinsstrukturkurve für Staatsanleihen misst die relative Schwankungsbreite im Vergleich zum Gesamtmarkt, in strikter Erfüllung der bankenaufsichtsrechtlichen Eigenkapitalvorschriften.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-165",
+      "text": "Die dynamische Delta-Hedging-Strategie im Derivatehandel versorgt den Bankensektor mit zusätzlicher Liquidität zur Zinsstabilisierung, unter Einsatz mathematisch-statistischer Risikomodelle an den Kapitalmärkten.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    },
+    {
+      "id": "finanzas-de-166",
+      "text": "Der Zinsswap mit quartalsweiser Zinsanpassung nutzt kurzfristige Bewertungsanomalien historisch eng verbundener Titel, zur Gewährleistung der Stabilität des europäischen Finanzsystems.",
+      "lang": "de",
+      "source": "corpus-trilingue-finanzas"
+    }
+  ]
+}

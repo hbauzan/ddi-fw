@@ -1,0 +1,3007 @@
+{
+  "alma": "filosofia",
+  "n": 500,
+  "description": "Mazo trilingüe de filosofia (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "filosofia-es-001",
+      "text": "El imperativo categórico formulado por Kant exige obrar según máximas universalizables sin contradicción racional, fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-002",
+      "text": "El utilitarismo de reglas formulado en la ética analítica concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje, vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-003",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario juzga la corrección moral en base a normas que maximizan el bienestar general, con el fin de para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-004",
+      "text": "La teoría coherentista de la justificación epistémica evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados, con el fin de articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-005",
+      "text": "La ética del discurso y la acción comunicativa de Habermas deduce la existencia real de Dios a partir del concepto de perfección suprema enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-006",
+      "text": "El falsacionismo metodológico de Karl Popper afirma que ningún hecho puede ser verdadero sin una explicación suficiente, en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-007",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume sostiene que una creencia es racional si encaja armónicamente en el sistema, cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-008",
+      "text": "La ontología fundamental del Dasein en Heidegger describe el surgimiento de la autoconciencia a través del reconocimiento ajeno, con el fin de clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-009",
+      "text": "La hermenéutica de la distancia temporal en Gadamer fundamenta la validez de las normas en consensos logrados en diálogo libre fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-010",
+      "text": "La semántica de mundos posibles en la lógica modal sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-011",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz establece que una teoría solo es científica si admite refutación empírica, para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-012",
+      "text": "La dialéctica del amo y el esclavo en Hegel suspende el juicio dogmático sobre la realidad empírica del mundo exterior, articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-013",
+      "text": "La doctrina platónica de las formas e ideas inteligibles reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo, con el fin de enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-014",
+      "text": "La reducción fenomenológica o epojé de Husserl propone descartar los conceptos de la psicología popular a favor de la neurociencia en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-015",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo revela la temporalidad finita como horizonte de comprensión del ser cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-016",
+      "text": "El imperativo categórico formulado por Kant suspende el juicio dogmático sobre la realidad empírica del mundo exterior enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-017",
+      "text": "El utilitarismo de reglas formulado en la ética analítica reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo, en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-018",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario propone descartar los conceptos de la psicología popular a favor de la neurociencia, cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-019",
+      "text": "La teoría coherentista de la justificación epistémica revela la temporalidad finita como horizonte de comprensión del ser, con el fin de clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-020",
+      "text": "La ética del discurso y la acción comunicativa de Habermas exige obrar según máximas universalizables sin contradicción racional fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-021",
+      "text": "El falsacionismo metodológico de Karl Popper concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-022",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume juzga la corrección moral en base a normas que maximizan el bienestar general, para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-023",
+      "text": "La ontología fundamental del Dasein en Heidegger evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados, articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-024",
+      "text": "La hermenéutica de la distancia temporal en Gadamer deduce la existencia real de Dios a partir del concepto de perfección suprema, con el fin de enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-025",
+      "text": "La semántica de mundos posibles en la lógica modal afirma que ningún hecho puede ser verdadero sin una explicación suficiente en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-026",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz sostiene que una creencia es racional si encaja armónicamente en el sistema cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-027",
+      "text": "La dialéctica del amo y el esclavo en Hegel describe el surgimiento de la autoconciencia a través del reconocimiento ajeno, clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-028",
+      "text": "La doctrina platónica de las formas e ideas inteligibles fundamenta la validez de las normas en consensos logrados en diálogo libre, con el fin de fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-029",
+      "text": "La reducción fenomenológica o epojé de Husserl sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto, con el fin de vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-030",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo establece que una teoría solo es científica si admite refutación empírica para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-031",
+      "text": "El imperativo categórico formulado por Kant describe el surgimiento de la autoconciencia a través del reconocimiento ajeno fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-032",
+      "text": "El utilitarismo de reglas formulado en la ética analítica fundamenta la validez de las normas en consensos logrados en diálogo libre vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-033",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto, para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-034",
+      "text": "La teoría coherentista de la justificación epistémica establece que una teoría solo es científica si admite refutación empírica, articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-035",
+      "text": "La ética del discurso y la acción comunicativa de Habermas suspende el juicio dogmático sobre la realidad empírica del mundo exterior, con el fin de enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-036",
+      "text": "El falsacionismo metodológico de Karl Popper reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-037",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume propone descartar los conceptos de la psicología popular a favor de la neurociencia cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-038",
+      "text": "La ontología fundamental del Dasein en Heidegger revela la temporalidad finita como horizonte de comprensión del ser, clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-039",
+      "text": "La hermenéutica de la distancia temporal en Gadamer exige obrar según máximas universalizables sin contradicción racional, con el fin de fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-040",
+      "text": "La semántica de mundos posibles en la lógica modal concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje, con el fin de vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-041",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz juzga la corrección moral en base a normas que maximizan el bienestar general para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-042",
+      "text": "La dialéctica del amo y el esclavo en Hegel evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-043",
+      "text": "La doctrina platónica de las formas e ideas inteligibles deduce la existencia real de Dios a partir del concepto de perfección suprema, enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-044",
+      "text": "La reducción fenomenológica o epojé de Husserl afirma que ningún hecho puede ser verdadero sin una explicación suficiente, con el fin de en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-045",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo sostiene que una creencia es racional si encaja armónicamente en el sistema, con el fin de cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-046",
+      "text": "El imperativo categórico formulado por Kant evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados, con el fin de enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-047",
+      "text": "El utilitarismo de reglas formulado en la ética analítica deduce la existencia real de Dios a partir del concepto de perfección suprema en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-048",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario afirma que ningún hecho puede ser verdadero sin una explicación suficiente cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-049",
+      "text": "La teoría coherentista de la justificación epistémica sostiene que una creencia es racional si encaja armónicamente en el sistema, clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-050",
+      "text": "La ética del discurso y la acción comunicativa de Habermas describe el surgimiento de la autoconciencia a través del reconocimiento ajeno, con el fin de fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-051",
+      "text": "El falsacionismo metodológico de Karl Popper fundamenta la validez de las normas en consensos logrados en diálogo libre, con el fin de vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-052",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-053",
+      "text": "La ontología fundamental del Dasein en Heidegger establece que una teoría solo es científica si admite refutación empírica articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-054",
+      "text": "La hermenéutica de la distancia temporal en Gadamer suspende el juicio dogmático sobre la realidad empírica del mundo exterior, enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-055",
+      "text": "La semántica de mundos posibles en la lógica modal reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo, con el fin de en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-056",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz propone descartar los conceptos de la psicología popular a favor de la neurociencia, con el fin de cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-057",
+      "text": "La dialéctica del amo y el esclavo en Hegel revela la temporalidad finita como horizonte de comprensión del ser clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-058",
+      "text": "La doctrina platónica de las formas e ideas inteligibles exige obrar según máximas universalizables sin contradicción racional, fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-059",
+      "text": "La reducción fenomenológica o epojé de Husserl concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje, vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-060",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo juzga la corrección moral en base a normas que maximizan el bienestar general, con el fin de para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-061",
+      "text": "El imperativo categórico formulado por Kant revela la temporalidad finita como horizonte de comprensión del ser, con el fin de fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-062",
+      "text": "El utilitarismo de reglas formulado en la ética analítica exige obrar según máximas universalizables sin contradicción racional, con el fin de vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-063",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-064",
+      "text": "La teoría coherentista de la justificación epistémica juzga la corrección moral en base a normas que maximizan el bienestar general articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-065",
+      "text": "La ética del discurso y la acción comunicativa de Habermas evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados, enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-066",
+      "text": "El falsacionismo metodológico de Karl Popper deduce la existencia real de Dios a partir del concepto de perfección suprema, con el fin de en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-067",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume afirma que ningún hecho puede ser verdadero sin una explicación suficiente, con el fin de cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-068",
+      "text": "La ontología fundamental del Dasein en Heidegger sostiene que una creencia es racional si encaja armónicamente en el sistema clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-069",
+      "text": "La hermenéutica de la distancia temporal en Gadamer describe el surgimiento de la autoconciencia a través del reconocimiento ajeno, fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-070",
+      "text": "La semántica de mundos posibles en la lógica modal fundamenta la validez de las normas en consensos logrados en diálogo libre, vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-071",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto, con el fin de para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-072",
+      "text": "La dialéctica del amo y el esclavo en Hegel establece que una teoría solo es científica si admite refutación empírica, con el fin de articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-073",
+      "text": "La doctrina platónica de las formas e ideas inteligibles suspende el juicio dogmático sobre la realidad empírica del mundo exterior enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-074",
+      "text": "La reducción fenomenológica o epojé de Husserl reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo, en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-075",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo propone descartar los conceptos de la psicología popular a favor de la neurociencia, cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-076",
+      "text": "El imperativo categórico formulado por Kant establece que una teoría solo es científica si admite refutación empírica, enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-077",
+      "text": "El utilitarismo de reglas formulado en la ética analítica suspende el juicio dogmático sobre la realidad empírica del mundo exterior, con el fin de en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-078",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo, con el fin de cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-079",
+      "text": "La teoría coherentista de la justificación epistémica propone descartar los conceptos de la psicología popular a favor de la neurociencia clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-080",
+      "text": "La ética del discurso y la acción comunicativa de Habermas revela la temporalidad finita como horizonte de comprensión del ser, fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-081",
+      "text": "El falsacionismo metodológico de Karl Popper exige obrar según máximas universalizables sin contradicción racional, vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-082",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje, con el fin de para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-083",
+      "text": "La ontología fundamental del Dasein en Heidegger juzga la corrección moral en base a normas que maximizan el bienestar general, con el fin de articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-084",
+      "text": "La hermenéutica de la distancia temporal en Gadamer evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-085",
+      "text": "La semántica de mundos posibles en la lógica modal deduce la existencia real de Dios a partir del concepto de perfección suprema, en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-086",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz afirma que ningún hecho puede ser verdadero sin una explicación suficiente, cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-087",
+      "text": "La dialéctica del amo y el esclavo en Hegel sostiene que una creencia es racional si encaja armónicamente en el sistema, con el fin de clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-088",
+      "text": "La doctrina platónica de las formas e ideas inteligibles describe el surgimiento de la autoconciencia a través del reconocimiento ajeno fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-089",
+      "text": "La reducción fenomenológica o epojé de Husserl fundamenta la validez de las normas en consensos logrados en diálogo libre vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-090",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto, para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-091",
+      "text": "El imperativo categórico formulado por Kant sostiene que una creencia es racional si encaja armónicamente en el sistema, fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-092",
+      "text": "El utilitarismo de reglas formulado en la ética analítica describe el surgimiento de la autoconciencia a través del reconocimiento ajeno, vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-093",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario fundamenta la validez de las normas en consensos logrados en diálogo libre, con el fin de para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-094",
+      "text": "La teoría coherentista de la justificación epistémica sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto, con el fin de articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-095",
+      "text": "La ética del discurso y la acción comunicativa de Habermas establece que una teoría solo es científica si admite refutación empírica enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-096",
+      "text": "El falsacionismo metodológico de Karl Popper suspende el juicio dogmático sobre la realidad empírica del mundo exterior, en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-097",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo, cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-098",
+      "text": "La ontología fundamental del Dasein en Heidegger propone descartar los conceptos de la psicología popular a favor de la neurociencia, con el fin de clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-099",
+      "text": "La hermenéutica de la distancia temporal en Gadamer revela la temporalidad finita como horizonte de comprensión del ser fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-100",
+      "text": "La semántica de mundos posibles en la lógica modal exige obrar según máximas universalizables sin contradicción racional vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-101",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje, para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-102",
+      "text": "La dialéctica del amo y el esclavo en Hegel juzga la corrección moral en base a normas que maximizan el bienestar general, articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-103",
+      "text": "La doctrina platónica de las formas e ideas inteligibles evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados, con el fin de enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-104",
+      "text": "La reducción fenomenológica o epojé de Husserl deduce la existencia real de Dios a partir del concepto de perfección suprema en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-105",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo afirma que ningún hecho puede ser verdadero sin una explicación suficiente cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-106",
+      "text": "El imperativo categórico formulado por Kant juzga la corrección moral en base a normas que maximizan el bienestar general enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-107",
+      "text": "El utilitarismo de reglas formulado en la ética analítica evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados, en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-108",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario deduce la existencia real de Dios a partir del concepto de perfección suprema, cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-109",
+      "text": "La teoría coherentista de la justificación epistémica afirma que ningún hecho puede ser verdadero sin una explicación suficiente, con el fin de clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-110",
+      "text": "La ética del discurso y la acción comunicativa de Habermas sostiene que una creencia es racional si encaja armónicamente en el sistema fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-111",
+      "text": "El falsacionismo metodológico de Karl Popper describe el surgimiento de la autoconciencia a través del reconocimiento ajeno vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-112",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume fundamenta la validez de las normas en consensos logrados en diálogo libre, para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-113",
+      "text": "La ontología fundamental del Dasein en Heidegger sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto, articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-114",
+      "text": "La hermenéutica de la distancia temporal en Gadamer establece que una teoría solo es científica si admite refutación empírica, con el fin de enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-115",
+      "text": "La semántica de mundos posibles en la lógica modal suspende el juicio dogmático sobre la realidad empírica del mundo exterior en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-116",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-117",
+      "text": "La dialéctica del amo y el esclavo en Hegel propone descartar los conceptos de la psicología popular a favor de la neurociencia, clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-118",
+      "text": "La doctrina platónica de las formas e ideas inteligibles revela la temporalidad finita como horizonte de comprensión del ser, con el fin de fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-119",
+      "text": "La reducción fenomenológica o epojé de Husserl exige obrar según máximas universalizables sin contradicción racional, con el fin de vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-120",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-121",
+      "text": "El imperativo categórico formulado por Kant propone descartar los conceptos de la psicología popular a favor de la neurociencia fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-122",
+      "text": "El utilitarismo de reglas formulado en la ética analítica revela la temporalidad finita como horizonte de comprensión del ser vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-123",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario exige obrar según máximas universalizables sin contradicción racional, para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-124",
+      "text": "La teoría coherentista de la justificación epistémica concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje, articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-125",
+      "text": "La ética del discurso y la acción comunicativa de Habermas juzga la corrección moral en base a normas que maximizan el bienestar general, con el fin de enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-126",
+      "text": "El falsacionismo metodológico de Karl Popper evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-127",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume deduce la existencia real de Dios a partir del concepto de perfección suprema cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-128",
+      "text": "La ontología fundamental del Dasein en Heidegger afirma que ningún hecho puede ser verdadero sin una explicación suficiente, clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-129",
+      "text": "La hermenéutica de la distancia temporal en Gadamer sostiene que una creencia es racional si encaja armónicamente en el sistema, con el fin de fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-130",
+      "text": "La semántica de mundos posibles en la lógica modal describe el surgimiento de la autoconciencia a través del reconocimiento ajeno, con el fin de vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-131",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz fundamenta la validez de las normas en consensos logrados en diálogo libre para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-132",
+      "text": "La dialéctica del amo y el esclavo en Hegel sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-133",
+      "text": "La doctrina platónica de las formas e ideas inteligibles establece que una teoría solo es científica si admite refutación empírica, enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-134",
+      "text": "La reducción fenomenológica o epojé de Husserl suspende el juicio dogmático sobre la realidad empírica del mundo exterior, con el fin de en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-135",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo, con el fin de cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-136",
+      "text": "El imperativo categórico formulado por Kant sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto, con el fin de enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-137",
+      "text": "El utilitarismo de reglas formulado en la ética analítica establece que una teoría solo es científica si admite refutación empírica en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-138",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario suspende el juicio dogmático sobre la realidad empírica del mundo exterior cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-139",
+      "text": "La teoría coherentista de la justificación epistémica reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo, clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-140",
+      "text": "La ética del discurso y la acción comunicativa de Habermas propone descartar los conceptos de la psicología popular a favor de la neurociencia, con el fin de fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-141",
+      "text": "El falsacionismo metodológico de Karl Popper revela la temporalidad finita como horizonte de comprensión del ser, con el fin de vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-142",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume exige obrar según máximas universalizables sin contradicción racional para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-143",
+      "text": "La ontología fundamental del Dasein en Heidegger concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-144",
+      "text": "La hermenéutica de la distancia temporal en Gadamer juzga la corrección moral en base a normas que maximizan el bienestar general, enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-145",
+      "text": "La semántica de mundos posibles en la lógica modal evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados, con el fin de en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-146",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz deduce la existencia real de Dios a partir del concepto de perfección suprema, con el fin de cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-147",
+      "text": "La dialéctica del amo y el esclavo en Hegel afirma que ningún hecho puede ser verdadero sin una explicación suficiente clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-148",
+      "text": "La doctrina platónica de las formas e ideas inteligibles sostiene que una creencia es racional si encaja armónicamente en el sistema, fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-149",
+      "text": "La reducción fenomenológica o epojé de Husserl describe el surgimiento de la autoconciencia a través del reconocimiento ajeno, vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-150",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo fundamenta la validez de las normas en consensos logrados en diálogo libre, con el fin de para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-151",
+      "text": "El imperativo categórico formulado por Kant afirma que ningún hecho puede ser verdadero sin una explicación suficiente, con el fin de fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-152",
+      "text": "El utilitarismo de reglas formulado en la ética analítica sostiene que una creencia es racional si encaja armónicamente en el sistema, con el fin de vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-153",
+      "text": "El argumento ontológico de Anselmo sobre el ser necesario describe el surgimiento de la autoconciencia a través del reconocimiento ajeno para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-154",
+      "text": "La teoría coherentista de la justificación epistémica fundamenta la validez de las normas en consensos logrados en diálogo libre articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-155",
+      "text": "La ética del discurso y la acción comunicativa de Habermas sitúa la auténtica realidad en arquetipos inmutables accesibles al intelecto, enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-156",
+      "text": "El falsacionismo metodológico de Karl Popper establece que una teoría solo es científica si admite refutación empírica, con el fin de en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-157",
+      "text": "El empirismo radical y la crítica de la causalidad en Hume suspende el juicio dogmático sobre la realidad empírica del mundo exterior, con el fin de cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-158",
+      "text": "La ontología fundamental del Dasein en Heidegger reduce la conexión necesaria entre causa y efecto a un hábito psicológico asociativo clarificando las condiciones de posibilidad del juicio sintético a priori.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-159",
+      "text": "La hermenéutica de la distancia temporal en Gadamer propone descartar los conceptos de la psicología popular a favor de la neurociencia, fundamentando el debate contemporáneo sobre los límites del conocimiento humano.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-160",
+      "text": "La semántica de mundos posibles en la lógica modal revela la temporalidad finita como horizonte de comprensión del ser, vinculando el rigor analítico conceptual con la fenomenología de la experiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-161",
+      "text": "El principio de razón suficiente en la metafísica de Leibniz exige obrar según máximas universalizables sin contradicción racional, con el fin de para superar las aporías del escepticismo radical y el relativismo epistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-162",
+      "text": "La dialéctica del amo y el esclavo en Hegel concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje, con el fin de articulando una comprensión sistemática del sentido de la existencia y la verdad.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-163",
+      "text": "La doctrina platónica de las formas e ideas inteligibles juzga la corrección moral en base a normas que maximizan el bienestar general enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-164",
+      "text": "La reducción fenomenológica o epojé de Husserl evalúa la verdad de proposiciones necesarias mediante accesibilidad entre estados, en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-165",
+      "text": "El problema mente-cuerpo en el materialismo eliminativo deduce la existencia real de Dios a partir del concepto de perfección suprema, cuestionando los supuestos metafísicos no examinados del pensamiento occidental.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-166",
+      "text": "El imperativo categórico formulado por Kant concibe la comprensión como una fusión de horizontes históricos mediada por lenguaje, enriqueciendo la reflexión sobre la ética normativa y la justicia distributiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-es-167",
+      "text": "El utilitarismo de reglas formulado en la ética analítica juzga la corrección moral en base a normas que maximizan el bienestar general, con el fin de en el marco de la tradición filosófica clásica y la hermenéutica crítica.",
+      "lang": "es",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-001",
+      "text": "The Kantian categorical imperative formulation demands acting only according to universalizable rational maxims, advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-002",
+      "text": "Rule utilitarianism in contemporary analytical ethics articulates historical understanding as the linguistic fusion of distinct horizons, interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-003",
+      "text": "Anselmian modal ontological arguments for necessary existence derives moral obligatoriness from adherence to welfare-maximizing social rules, in order to addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-004",
+      "text": "The coherentist theory of epistemic justification formalizes necessity and possibility across relational model structures, in order to informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-005",
+      "text": "Habermasian communicative action and discourse ethics infers necessary objective existence directly from the concept of supreme perfection illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-006",
+      "text": "Popperian falsificationism in scientific methodology stipulates that every contingent fact must possess an intelligible explanation, situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-007",
+      "text": "Humean radical skepticism concerning necessary causation locates epistemic entitlement within the global coherence of belief webs, reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-008",
+      "text": "The fundamental ontology of Dasein in Being and Time demonstrates that self-consciousness requires dialectical reciprocal mediation, in order to delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-009",
+      "text": "Gadamerian philosophical hermeneutics of prejudice grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-010",
+      "text": "Kripkean possible-worlds semantics in modal logic posits eternal immutable archetypes beyond the imperfect sensible world interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-011",
+      "text": "The Leibnizian principle of sufficient reason distinguishes empirical science from non-falsifiable metaphysical dogma, addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-012",
+      "text": "The Hegelian master-slave dialectic of recognition brackets the natural attitude regarding the objective external reality, informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-013",
+      "text": "The Platonic theory of transcendent intelligible forms deconstructs causal necessity into subjective mental habits of associative expectation, in order to illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-014",
+      "text": "The Husserlian phenomenological epoché technique asserts that folk-psychological states will be eliminated by cognitive neuroscience situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-015",
+      "text": "Eliminative materialism regarding mental propositions uncovers temporal finitude as the primordial horizon of human existence reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-016",
+      "text": "The Kantian categorical imperative formulation brackets the natural attitude regarding the objective external reality illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-017",
+      "text": "Rule utilitarianism in contemporary analytical ethics deconstructs causal necessity into subjective mental habits of associative expectation, situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-018",
+      "text": "Anselmian modal ontological arguments for necessary existence asserts that folk-psychological states will be eliminated by cognitive neuroscience, reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-019",
+      "text": "The coherentist theory of epistemic justification uncovers temporal finitude as the primordial horizon of human existence, in order to delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-020",
+      "text": "Habermasian communicative action and discourse ethics demands acting only according to universalizable rational maxims advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-021",
+      "text": "Popperian falsificationism in scientific methodology articulates historical understanding as the linguistic fusion of distinct horizons interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-022",
+      "text": "Humean radical skepticism concerning necessary causation derives moral obligatoriness from adherence to welfare-maximizing social rules, addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-023",
+      "text": "The fundamental ontology of Dasein in Being and Time formalizes necessity and possibility across relational model structures, informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-024",
+      "text": "Gadamerian philosophical hermeneutics of prejudice infers necessary objective existence directly from the concept of supreme perfection, in order to illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-025",
+      "text": "Kripkean possible-worlds semantics in modal logic stipulates that every contingent fact must possess an intelligible explanation situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-026",
+      "text": "The Leibnizian principle of sufficient reason locates epistemic entitlement within the global coherence of belief webs reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-027",
+      "text": "The Hegelian master-slave dialectic of recognition demonstrates that self-consciousness requires dialectical reciprocal mediation, delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-028",
+      "text": "The Platonic theory of transcendent intelligible forms grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue, in order to advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-029",
+      "text": "The Husserlian phenomenological epoché technique posits eternal immutable archetypes beyond the imperfect sensible world, in order to interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-030",
+      "text": "Eliminative materialism regarding mental propositions distinguishes empirical science from non-falsifiable metaphysical dogma addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-031",
+      "text": "The Kantian categorical imperative formulation demonstrates that self-consciousness requires dialectical reciprocal mediation advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-032",
+      "text": "Rule utilitarianism in contemporary analytical ethics grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-033",
+      "text": "Anselmian modal ontological arguments for necessary existence posits eternal immutable archetypes beyond the imperfect sensible world, addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-034",
+      "text": "The coherentist theory of epistemic justification distinguishes empirical science from non-falsifiable metaphysical dogma, informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-035",
+      "text": "Habermasian communicative action and discourse ethics brackets the natural attitude regarding the objective external reality, in order to illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-036",
+      "text": "Popperian falsificationism in scientific methodology deconstructs causal necessity into subjective mental habits of associative expectation situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-037",
+      "text": "Humean radical skepticism concerning necessary causation asserts that folk-psychological states will be eliminated by cognitive neuroscience reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-038",
+      "text": "The fundamental ontology of Dasein in Being and Time uncovers temporal finitude as the primordial horizon of human existence, delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-039",
+      "text": "Gadamerian philosophical hermeneutics of prejudice demands acting only according to universalizable rational maxims, in order to advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-040",
+      "text": "Kripkean possible-worlds semantics in modal logic articulates historical understanding as the linguistic fusion of distinct horizons, in order to interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-041",
+      "text": "The Leibnizian principle of sufficient reason derives moral obligatoriness from adherence to welfare-maximizing social rules addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-042",
+      "text": "The Hegelian master-slave dialectic of recognition formalizes necessity and possibility across relational model structures informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-043",
+      "text": "The Platonic theory of transcendent intelligible forms infers necessary objective existence directly from the concept of supreme perfection, illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-044",
+      "text": "The Husserlian phenomenological epoché technique stipulates that every contingent fact must possess an intelligible explanation, in order to situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-045",
+      "text": "Eliminative materialism regarding mental propositions locates epistemic entitlement within the global coherence of belief webs, in order to reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-046",
+      "text": "The Kantian categorical imperative formulation formalizes necessity and possibility across relational model structures, in order to illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-047",
+      "text": "Rule utilitarianism in contemporary analytical ethics infers necessary objective existence directly from the concept of supreme perfection situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-048",
+      "text": "Anselmian modal ontological arguments for necessary existence stipulates that every contingent fact must possess an intelligible explanation reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-049",
+      "text": "The coherentist theory of epistemic justification locates epistemic entitlement within the global coherence of belief webs, delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-050",
+      "text": "Habermasian communicative action and discourse ethics demonstrates that self-consciousness requires dialectical reciprocal mediation, in order to advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-051",
+      "text": "Popperian falsificationism in scientific methodology grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue, in order to interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-052",
+      "text": "Humean radical skepticism concerning necessary causation posits eternal immutable archetypes beyond the imperfect sensible world addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-053",
+      "text": "The fundamental ontology of Dasein in Being and Time distinguishes empirical science from non-falsifiable metaphysical dogma informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-054",
+      "text": "Gadamerian philosophical hermeneutics of prejudice brackets the natural attitude regarding the objective external reality, illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-055",
+      "text": "Kripkean possible-worlds semantics in modal logic deconstructs causal necessity into subjective mental habits of associative expectation, in order to situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-056",
+      "text": "The Leibnizian principle of sufficient reason asserts that folk-psychological states will be eliminated by cognitive neuroscience, in order to reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-057",
+      "text": "The Hegelian master-slave dialectic of recognition uncovers temporal finitude as the primordial horizon of human existence delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-058",
+      "text": "The Platonic theory of transcendent intelligible forms demands acting only according to universalizable rational maxims, advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-059",
+      "text": "The Husserlian phenomenological epoché technique articulates historical understanding as the linguistic fusion of distinct horizons, interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-060",
+      "text": "Eliminative materialism regarding mental propositions derives moral obligatoriness from adherence to welfare-maximizing social rules, in order to addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-061",
+      "text": "The Kantian categorical imperative formulation uncovers temporal finitude as the primordial horizon of human existence, in order to advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-062",
+      "text": "Rule utilitarianism in contemporary analytical ethics demands acting only according to universalizable rational maxims, in order to interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-063",
+      "text": "Anselmian modal ontological arguments for necessary existence articulates historical understanding as the linguistic fusion of distinct horizons addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-064",
+      "text": "The coherentist theory of epistemic justification derives moral obligatoriness from adherence to welfare-maximizing social rules informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-065",
+      "text": "Habermasian communicative action and discourse ethics formalizes necessity and possibility across relational model structures, illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-066",
+      "text": "Popperian falsificationism in scientific methodology infers necessary objective existence directly from the concept of supreme perfection, in order to situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-067",
+      "text": "Humean radical skepticism concerning necessary causation stipulates that every contingent fact must possess an intelligible explanation, in order to reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-068",
+      "text": "The fundamental ontology of Dasein in Being and Time locates epistemic entitlement within the global coherence of belief webs delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-069",
+      "text": "Gadamerian philosophical hermeneutics of prejudice demonstrates that self-consciousness requires dialectical reciprocal mediation, advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-070",
+      "text": "Kripkean possible-worlds semantics in modal logic grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue, interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-071",
+      "text": "The Leibnizian principle of sufficient reason posits eternal immutable archetypes beyond the imperfect sensible world, in order to addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-072",
+      "text": "The Hegelian master-slave dialectic of recognition distinguishes empirical science from non-falsifiable metaphysical dogma, in order to informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-073",
+      "text": "The Platonic theory of transcendent intelligible forms brackets the natural attitude regarding the objective external reality illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-074",
+      "text": "The Husserlian phenomenological epoché technique deconstructs causal necessity into subjective mental habits of associative expectation, situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-075",
+      "text": "Eliminative materialism regarding mental propositions asserts that folk-psychological states will be eliminated by cognitive neuroscience, reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-076",
+      "text": "The Kantian categorical imperative formulation distinguishes empirical science from non-falsifiable metaphysical dogma, illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-077",
+      "text": "Rule utilitarianism in contemporary analytical ethics brackets the natural attitude regarding the objective external reality, in order to situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-078",
+      "text": "Anselmian modal ontological arguments for necessary existence deconstructs causal necessity into subjective mental habits of associative expectation, in order to reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-079",
+      "text": "The coherentist theory of epistemic justification asserts that folk-psychological states will be eliminated by cognitive neuroscience delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-080",
+      "text": "Habermasian communicative action and discourse ethics uncovers temporal finitude as the primordial horizon of human existence, advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-081",
+      "text": "Popperian falsificationism in scientific methodology demands acting only according to universalizable rational maxims, interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-082",
+      "text": "Humean radical skepticism concerning necessary causation articulates historical understanding as the linguistic fusion of distinct horizons, in order to addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-083",
+      "text": "The fundamental ontology of Dasein in Being and Time derives moral obligatoriness from adherence to welfare-maximizing social rules, in order to informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-084",
+      "text": "Gadamerian philosophical hermeneutics of prejudice formalizes necessity and possibility across relational model structures illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-085",
+      "text": "Kripkean possible-worlds semantics in modal logic infers necessary objective existence directly from the concept of supreme perfection, situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-086",
+      "text": "The Leibnizian principle of sufficient reason stipulates that every contingent fact must possess an intelligible explanation, reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-087",
+      "text": "The Hegelian master-slave dialectic of recognition locates epistemic entitlement within the global coherence of belief webs, in order to delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-088",
+      "text": "The Platonic theory of transcendent intelligible forms demonstrates that self-consciousness requires dialectical reciprocal mediation advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-089",
+      "text": "The Husserlian phenomenological epoché technique grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-090",
+      "text": "Eliminative materialism regarding mental propositions posits eternal immutable archetypes beyond the imperfect sensible world, addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-091",
+      "text": "The Kantian categorical imperative formulation locates epistemic entitlement within the global coherence of belief webs, advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-092",
+      "text": "Rule utilitarianism in contemporary analytical ethics demonstrates that self-consciousness requires dialectical reciprocal mediation, interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-093",
+      "text": "Anselmian modal ontological arguments for necessary existence grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue, in order to addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-094",
+      "text": "The coherentist theory of epistemic justification posits eternal immutable archetypes beyond the imperfect sensible world, in order to informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-095",
+      "text": "Habermasian communicative action and discourse ethics distinguishes empirical science from non-falsifiable metaphysical dogma illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-096",
+      "text": "Popperian falsificationism in scientific methodology brackets the natural attitude regarding the objective external reality, situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-097",
+      "text": "Humean radical skepticism concerning necessary causation deconstructs causal necessity into subjective mental habits of associative expectation, reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-098",
+      "text": "The fundamental ontology of Dasein in Being and Time asserts that folk-psychological states will be eliminated by cognitive neuroscience, in order to delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-099",
+      "text": "Gadamerian philosophical hermeneutics of prejudice uncovers temporal finitude as the primordial horizon of human existence advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-100",
+      "text": "Kripkean possible-worlds semantics in modal logic demands acting only according to universalizable rational maxims interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-101",
+      "text": "The Leibnizian principle of sufficient reason articulates historical understanding as the linguistic fusion of distinct horizons, addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-102",
+      "text": "The Hegelian master-slave dialectic of recognition derives moral obligatoriness from adherence to welfare-maximizing social rules, informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-103",
+      "text": "The Platonic theory of transcendent intelligible forms formalizes necessity and possibility across relational model structures, in order to illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-104",
+      "text": "The Husserlian phenomenological epoché technique infers necessary objective existence directly from the concept of supreme perfection situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-105",
+      "text": "Eliminative materialism regarding mental propositions stipulates that every contingent fact must possess an intelligible explanation reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-106",
+      "text": "The Kantian categorical imperative formulation derives moral obligatoriness from adherence to welfare-maximizing social rules illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-107",
+      "text": "Rule utilitarianism in contemporary analytical ethics formalizes necessity and possibility across relational model structures, situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-108",
+      "text": "Anselmian modal ontological arguments for necessary existence infers necessary objective existence directly from the concept of supreme perfection, reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-109",
+      "text": "The coherentist theory of epistemic justification stipulates that every contingent fact must possess an intelligible explanation, in order to delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-110",
+      "text": "Habermasian communicative action and discourse ethics locates epistemic entitlement within the global coherence of belief webs advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-111",
+      "text": "Popperian falsificationism in scientific methodology demonstrates that self-consciousness requires dialectical reciprocal mediation interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-112",
+      "text": "Humean radical skepticism concerning necessary causation grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue, addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-113",
+      "text": "The fundamental ontology of Dasein in Being and Time posits eternal immutable archetypes beyond the imperfect sensible world, informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-114",
+      "text": "Gadamerian philosophical hermeneutics of prejudice distinguishes empirical science from non-falsifiable metaphysical dogma, in order to illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-115",
+      "text": "Kripkean possible-worlds semantics in modal logic brackets the natural attitude regarding the objective external reality situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-116",
+      "text": "The Leibnizian principle of sufficient reason deconstructs causal necessity into subjective mental habits of associative expectation reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-117",
+      "text": "The Hegelian master-slave dialectic of recognition asserts that folk-psychological states will be eliminated by cognitive neuroscience, delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-118",
+      "text": "The Platonic theory of transcendent intelligible forms uncovers temporal finitude as the primordial horizon of human existence, in order to advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-119",
+      "text": "The Husserlian phenomenological epoché technique demands acting only according to universalizable rational maxims, in order to interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-120",
+      "text": "Eliminative materialism regarding mental propositions articulates historical understanding as the linguistic fusion of distinct horizons addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-121",
+      "text": "The Kantian categorical imperative formulation asserts that folk-psychological states will be eliminated by cognitive neuroscience advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-122",
+      "text": "Rule utilitarianism in contemporary analytical ethics uncovers temporal finitude as the primordial horizon of human existence interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-123",
+      "text": "Anselmian modal ontological arguments for necessary existence demands acting only according to universalizable rational maxims, addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-124",
+      "text": "The coherentist theory of epistemic justification articulates historical understanding as the linguistic fusion of distinct horizons, informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-125",
+      "text": "Habermasian communicative action and discourse ethics derives moral obligatoriness from adherence to welfare-maximizing social rules, in order to illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-126",
+      "text": "Popperian falsificationism in scientific methodology formalizes necessity and possibility across relational model structures situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-127",
+      "text": "Humean radical skepticism concerning necessary causation infers necessary objective existence directly from the concept of supreme perfection reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-128",
+      "text": "The fundamental ontology of Dasein in Being and Time stipulates that every contingent fact must possess an intelligible explanation, delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-129",
+      "text": "Gadamerian philosophical hermeneutics of prejudice locates epistemic entitlement within the global coherence of belief webs, in order to advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-130",
+      "text": "Kripkean possible-worlds semantics in modal logic demonstrates that self-consciousness requires dialectical reciprocal mediation, in order to interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-131",
+      "text": "The Leibnizian principle of sufficient reason grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-132",
+      "text": "The Hegelian master-slave dialectic of recognition posits eternal immutable archetypes beyond the imperfect sensible world informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-133",
+      "text": "The Platonic theory of transcendent intelligible forms distinguishes empirical science from non-falsifiable metaphysical dogma, illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-134",
+      "text": "The Husserlian phenomenological epoché technique brackets the natural attitude regarding the objective external reality, in order to situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-135",
+      "text": "Eliminative materialism regarding mental propositions deconstructs causal necessity into subjective mental habits of associative expectation, in order to reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-136",
+      "text": "The Kantian categorical imperative formulation posits eternal immutable archetypes beyond the imperfect sensible world, in order to illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-137",
+      "text": "Rule utilitarianism in contemporary analytical ethics distinguishes empirical science from non-falsifiable metaphysical dogma situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-138",
+      "text": "Anselmian modal ontological arguments for necessary existence brackets the natural attitude regarding the objective external reality reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-139",
+      "text": "The coherentist theory of epistemic justification deconstructs causal necessity into subjective mental habits of associative expectation, delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-140",
+      "text": "Habermasian communicative action and discourse ethics asserts that folk-psychological states will be eliminated by cognitive neuroscience, in order to advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-141",
+      "text": "Popperian falsificationism in scientific methodology uncovers temporal finitude as the primordial horizon of human existence, in order to interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-142",
+      "text": "Humean radical skepticism concerning necessary causation demands acting only according to universalizable rational maxims addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-143",
+      "text": "The fundamental ontology of Dasein in Being and Time articulates historical understanding as the linguistic fusion of distinct horizons informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-144",
+      "text": "Gadamerian philosophical hermeneutics of prejudice derives moral obligatoriness from adherence to welfare-maximizing social rules, illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-145",
+      "text": "Kripkean possible-worlds semantics in modal logic formalizes necessity and possibility across relational model structures, in order to situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-146",
+      "text": "The Leibnizian principle of sufficient reason infers necessary objective existence directly from the concept of supreme perfection, in order to reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-147",
+      "text": "The Hegelian master-slave dialectic of recognition stipulates that every contingent fact must possess an intelligible explanation delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-148",
+      "text": "The Platonic theory of transcendent intelligible forms locates epistemic entitlement within the global coherence of belief webs, advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-149",
+      "text": "The Husserlian phenomenological epoché technique demonstrates that self-consciousness requires dialectical reciprocal mediation, interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-150",
+      "text": "Eliminative materialism regarding mental propositions grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue, in order to addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-151",
+      "text": "The Kantian categorical imperative formulation stipulates that every contingent fact must possess an intelligible explanation, in order to advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-152",
+      "text": "Rule utilitarianism in contemporary analytical ethics locates epistemic entitlement within the global coherence of belief webs, in order to interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-153",
+      "text": "Anselmian modal ontological arguments for necessary existence demonstrates that self-consciousness requires dialectical reciprocal mediation addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-154",
+      "text": "The coherentist theory of epistemic justification grounds normative democratic legitimacy in ideal uncoerced deliberative dialogue informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-155",
+      "text": "Habermasian communicative action and discourse ethics posits eternal immutable archetypes beyond the imperfect sensible world, illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-156",
+      "text": "Popperian falsificationism in scientific methodology distinguishes empirical science from non-falsifiable metaphysical dogma, in order to situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-157",
+      "text": "Humean radical skepticism concerning necessary causation brackets the natural attitude regarding the objective external reality, in order to reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-158",
+      "text": "The fundamental ontology of Dasein in Being and Time deconstructs causal necessity into subjective mental habits of associative expectation delineating the structural boundary between analytic and synthetic assertions.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-159",
+      "text": "Gadamerian philosophical hermeneutics of prejudice asserts that folk-psychological states will be eliminated by cognitive neuroscience, advancing modern metaethical inquiry and epistemological foundation theories.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-160",
+      "text": "Kripkean possible-worlds semantics in modal logic uncovers temporal finitude as the primordial horizon of human existence, interrogating classical metaphysical assumptions through rigorous conceptual critique.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-161",
+      "text": "The Leibnizian principle of sufficient reason demands acting only according to universalizable rational maxims, in order to addressing foundational paradoxes regarding moral duty and rational agency.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-162",
+      "text": "The Hegelian master-slave dialectic of recognition articulates historical understanding as the linguistic fusion of distinct horizons, in order to informing contemporary debates on philosophy of mind and normative ethics.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-163",
+      "text": "The Platonic theory of transcendent intelligible forms derives moral obligatoriness from adherence to welfare-maximizing social rules illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-164",
+      "text": "The Husserlian phenomenological epoché technique formalizes necessity and possibility across relational model structures, situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-165",
+      "text": "Eliminative materialism regarding mental propositions infers necessary objective existence directly from the concept of supreme perfection, reconciling ontological realism with the subjective phenomenology of consciousness.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-166",
+      "text": "The Kantian categorical imperative formulation articulates historical understanding as the linguistic fusion of distinct horizons, illuminating the existential preconditions of linguistic intersubjectivity.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-en-167",
+      "text": "Rule utilitarianism in contemporary analytical ethics derives moral obligatoriness from adherence to welfare-maximizing social rules, in order to situated within the continuous evolution of western philosophical discourse.",
+      "lang": "en",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-001",
+      "text": "Der kategorische Imperativ der Kantischen Ethik fordert das Handeln nach Maximen, die allgemeines Gesetz werden können, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-002",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-003",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-004",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-005",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-006",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-007",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-008",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-009",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-010",
+      "text": "Die Semantik möglicher Welten in der Modallogik verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-011",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-012",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel klammert das unhinterfragte Urteil über die äußere Realität vollständig ein, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-013",
+      "text": "Die Ideenlehre Platons über das intelligible Sein führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-014",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-015",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-016",
+      "text": "Der kategorische Imperativ der Kantischen Ethik klammert das unhinterfragte Urteil über die äußere Realität vollständig ein zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-017",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-018",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-019",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-020",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas fordert das Handeln nach Maximen, die allgemeines Gesetz werden können zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-021",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-022",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-023",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-024",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-025",
+      "text": "Die Semantik möglicher Welten in der Modallogik besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-026",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-027",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-028",
+      "text": "Die Ideenlehre Platons über das intelligible Sein legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-029",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-030",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-031",
+      "text": "Der kategorische Imperativ der Kantischen Ethik beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-032",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-033",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-034",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-035",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas klammert das unhinterfragte Urteil über die äußere Realität vollständig ein, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-036",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-037",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-038",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-039",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung fordert das Handeln nach Maximen, die allgemeines Gesetz werden können, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-040",
+      "text": "Die Semantik möglicher Welten in der Modallogik versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-041",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-042",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-043",
+      "text": "Die Ideenlehre Platons über das intelligible Sein leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-044",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-045",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-046",
+      "text": "Der kategorische Imperativ der Kantischen Ethik definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-047",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-048",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-049",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-050",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-051",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-052",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-053",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-054",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung klammert das unhinterfragte Urteil über die äußere Realität vollständig ein, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-055",
+      "text": "Die Semantik möglicher Welten in der Modallogik führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-056",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-057",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-058",
+      "text": "Die Ideenlehre Platons über das intelligible Sein fordert das Handeln nach Maximen, die allgemeines Gesetz werden können, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-059",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-060",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-061",
+      "text": "Der kategorische Imperativ der Kantischen Ethik bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-062",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie fordert das Handeln nach Maximen, die allgemeines Gesetz werden können, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-063",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-064",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-065",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-066",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-067",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-068",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-069",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-070",
+      "text": "Die Semantik möglicher Welten in der Modallogik legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-071",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-072",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-073",
+      "text": "Die Ideenlehre Platons über das intelligible Sein klammert das unhinterfragte Urteil über die äußere Realität vollständig ein zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-074",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-075",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-076",
+      "text": "Der kategorische Imperativ der Kantischen Ethik erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-077",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie klammert das unhinterfragte Urteil über die äußere Realität vollständig ein, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-078",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-079",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-080",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-081",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus fordert das Handeln nach Maximen, die allgemeines Gesetz werden können, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-082",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-083",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-084",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-085",
+      "text": "Die Semantik möglicher Welten in der Modallogik leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-086",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-087",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-088",
+      "text": "Die Ideenlehre Platons über das intelligible Sein beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-089",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-090",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-091",
+      "text": "Der kategorische Imperativ der Kantischen Ethik begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-092",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-093",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-094",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-095",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-096",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus klammert das unhinterfragte Urteil über die äußere Realität vollständig ein, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-097",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-098",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-099",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-100",
+      "text": "Die Semantik möglicher Welten in der Modallogik fordert das Handeln nach Maximen, die allgemeines Gesetz werden können im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-101",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-102",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-103",
+      "text": "Die Ideenlehre Platons über das intelligible Sein definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-104",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-105",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-106",
+      "text": "Der kategorische Imperativ der Kantischen Ethik beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-107",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-108",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-109",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-110",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-111",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-112",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-113",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-114",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-115",
+      "text": "Die Semantik möglicher Welten in der Modallogik klammert das unhinterfragte Urteil über die äußere Realität vollständig ein im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-116",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-117",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-118",
+      "text": "Die Ideenlehre Platons über das intelligible Sein bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-119",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl fordert das Handeln nach Maximen, die allgemeines Gesetz werden können, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-120",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-121",
+      "text": "Der kategorische Imperativ der Kantischen Ethik erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-122",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-123",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury fordert das Handeln nach Maximen, die allgemeines Gesetz werden können, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-124",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-125",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-126",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-127",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-128",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-129",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-130",
+      "text": "Die Semantik möglicher Welten in der Modallogik beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-131",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-132",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-133",
+      "text": "Die Ideenlehre Platons über das intelligible Sein erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-134",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl klammert das unhinterfragte Urteil über die äußere Realität vollständig ein, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-135",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-136",
+      "text": "Der kategorische Imperativ der Kantischen Ethik verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-137",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-138",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury klammert das unhinterfragte Urteil über die äußere Realität vollständig ein zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-139",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück, zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-140",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-141",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-142",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität fordert das Handeln nach Maximen, die allgemeines Gesetz werden können zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-143",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-144",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-145",
+      "text": "Die Semantik möglicher Welten in der Modallogik definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-146",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-147",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-148",
+      "text": "Die Ideenlehre Platons über das intelligible Sein begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-149",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-150",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-151",
+      "text": "Der kategorische Imperativ der Kantischen Ethik besagt, dass kein Phänomen ohne hinreichende Ursache existieren kann, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-152",
+      "text": "Der Regelutilitarismus in der modernen Moralphilosophie begründet Wissen durch den widerspruchsfreien Zusammenhang des Systems, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-153",
+      "text": "Der ontologische Gottesbeweis des Anselm von Canterbury beschreibt das Selbstbewusstsein als Resultat gegenseitiger Anerkennung zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-154",
+      "text": "Die Kohärenztheorie der epistemischen Rechtfertigung legitimiert moralische Normen durch zwanglosen rationalen Argumentationskonsens gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-155",
+      "text": "Die Diskursethik des kommunikativen Handelns nach Habermas verortet die eigentliche Wahrheit in übergeordneten ewigen Urformen, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-156",
+      "text": "Das Falsifikationsprinzip des Kritischen Rationalismus erhebt die prinzipielle Widerlegbarkeit zum Abgrenzungskriterium der Wissenschaft, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-157",
+      "text": "Der Humesche Skeptizismus bezüglich der Kausalität klammert das unhinterfragte Urteil über die äußere Realität vollständig ein, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-158",
+      "text": "Die Fundamentalontologie des Daseins bei Heidegger führt den Kausalbegriff rein auf psychologische Gewohnheitsassoziationen zurück zur Klärung der Bedingungen der Möglichkeit objektiver Erkenntnis.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-159",
+      "text": "Die philosophische Hermeneutik der Horizontverschmelzung erklärt mentale Zustände für überflüssig im Lichte der Neurobiologie, zur Vertiefung erkenntnistheoretischer Grundfragen in der Gegenwart.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-160",
+      "text": "Die Semantik möglicher Welten in der Modallogik bestimmt die Zeitlichkeit als den ursprünglichen Sinn des In-der-Welt-Seins, im Schnittfeld von Sprachphilosophie, Logik und praktischer Philosophie.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-161",
+      "text": "Der Satz vom zureichenden Grunde bei Leibniz fordert das Handeln nach Maximen, die allgemeines Gesetz werden können, zur Überwindung metaphysischer Aporien und skeptizistischer Einwände.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-162",
+      "text": "Die Dialektik von Herrschaft und Knechtschaft bei Hegel versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser, gemäß den Maßstäben strenger systematischer Begriffsanalyse.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-163",
+      "text": "Die Ideenlehre Platons über das intelligible Sein beurteilt Handlungen nach allgemeinen Regeln, die den Gesamtnutzen maximieren zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-164",
+      "text": "Die phänomenologische Epoché nach Edmund Husserl definiert Notwendigkeit als Wahrheit in allen zugänglichen Welten, im Kontext der klassischen Tradition der europäischen Geistesgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-165",
+      "text": "Der eliminative Materialismus in der Philosophie des Geistes leitet die tatsächliche Existenz des Höchsten aus dessen Begriff logisch ab, zur kritischen Reflexion über das Verhältnis von Bewusstsein und Wirklichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    },
+    {
+      "id": "filosofia-de-166",
+      "text": "Der kategorische Imperativ der Kantischen Ethik versteht Auslegung als geschichtlich vermittelte Begegnung von Text und Leser, zur Weiterentwicklung normativer ethischer und politischer Theorien.",
+      "lang": "de",
+      "source": "corpus-trilingue-filosofia"
+    }
+  ]
+}

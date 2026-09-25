@@ -1,0 +1,3007 @@
+{
+  "alma": "medicina",
+  "n": 500,
+  "description": "Mazo trilingüe de medicina (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "medicina-es-001",
+      "text": "La administración intravenosa de fibrinolíticos específicos en infarto agudo de miocardio reduce la mortalidad coronaria precoz en pacientes hospitalizados.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-002",
+      "text": "El análisis nosológico de la meningitis bacteriana aguda requiere punción lumbar urgente con estudio citoquímico y microbiológico del líquido cefalorraquídeo purulento.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-003",
+      "text": "La farmacocinética de los aminoglucósidos parenterales presenta escasa permeabilidad digestiva y una eliminación urinaria predominante por filtración glomerular renal.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-004",
+      "text": "La cetoacidosis diabética descompensada cursa con deshidratación hídrica severa, acidosis metabólica con anión gap ensanchado y presencia abundante de cetoácidos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-005",
+      "text": "El abordaje quirúrgico reconstructivo del aneurisma aórtico abdominal infrarrenal previene la rotura vascular mediante implante de endoprótesis vascular flexible.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-006",
+      "text": "La insuficiencia cardíaca congestiva con fracción de eyección deprimida mejora el pronóstico clínico con inhibidores selectivos del cotransportador renal.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-007",
+      "text": "El shock séptico distributivo refractario a resucitación hidroelectrolítica requiere soporte vasopresor precoz con noradrenalina para sostener la perfusión tisular sistémica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-008",
+      "text": "La biopsia hepática percutánea ecoguiada permite evaluar con rigor histológico el grado de necroinflamación y el estadio de fibrosis avanzada.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-009",
+      "text": "La videoendoscopia digestiva alta corrobora la etiología de la hemorragia gastrointestinal y posibilita aplicar hemostasia endoscópica mecánica o esclerosante.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-010",
+      "text": "La elevación persistente de troponinas cardíacas ultrasensibles orienta el diagnóstico certero de injuria miocárdica aguda en el síndrome coronario.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-011",
+      "text": "El trasplante alogénico de precursores hematopoyéticos erradica la clona leucémica residual mediante acondicionamiento mieloablativo e inmunidad injerto contra leucemia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-012",
+      "text": "La ventilación mecánica invasiva con parámetros de protección alveolar en distrés respiratorio agudo emplea volumen corriente bajo y presión teleespiratoria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-013",
+      "text": "La hemodiálisis extracorpórea depura toxinas urémicas acumuladas y remueve el excedente hídrico intravascular en la uremia terminal avanzada.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-014",
+      "text": "La preeclampsia atípica cursa con hipertensión arterial severa, proteinuria patológica cuantificada y signos analíticos evidentes de disfunción endotelial materna.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-015",
+      "text": "El tratamiento oncológico adyuvante con esquemas quimioterápicos basados en sales de platino prolonga la sobrevida global en carcinomas pulmonares.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-016",
+      "text": "La punción aspirativa con aguja fina de nódulos tiroideos guiada por ecografía distingue neoplasias malignas según criterios citopatológicos estandarizados.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-017",
+      "text": "El bloqueo inmunológico del receptor soluble de interleucina seis atenúa la cascada hiperinflamatoria sistémica en patologías autoinmunes graves.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-018",
+      "text": "La trombectomía endovascular percutánea combinada con fibrinólisis mejora la recuperación funcional neurológica en el infarto cerebral isquémico agudo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-019",
+      "text": "La monitorización continua de la presión intracraneana en traumatismo encefalocraneano severo guía la osmoterapia para prevenir herniación cerebral irreversible.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-020",
+      "text": "El tratamiento empírico inicial de la neumonía bacteriana adquirida en la comunidad combina betalactámicos bactericidas con macrólidos orales seleccionados.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-021",
+      "text": "La detección serológica de autoanticuerpos antinucleares y anti-ADN nativo de doble cadena fundamenta el diagnóstico serológico del lupus eritematoso sistémico.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-022",
+      "text": "La colecistectomía laparoscópica reglada de la vesícula biliar litiásica disminuye las complicaciones de pared y acelera la recuperación postoperatoria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-023",
+      "text": "La ecocardiografía Doppler transtorácica cuantifica la severidad hemodinámica de la estenosis aórtica calculando el orificio valvular efectivo funcional.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-024",
+      "text": "El reemplazo hormonal sustitutivo con levotiroxina sódica sintética normaliza los niveles plasmáticos basales de tirotropina en hipotiroidismo primario.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-025",
+      "text": "La laparotomía exploradora de urgencia está formalmente indicada ante peritonitis purulenta secundaria a perforación de víscera hueca intraabdominal.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-026",
+      "text": "La fisiopatología del shock cardiogénico involucra un colapso brusco del gasto sistólico ventricular con hipoperfusión celular periférica generalizada.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-027",
+      "text": "La profilaxis endoscópica primaria del sangrado variceal esofágico en hepatopatía cirrótica incluye ligadura elástica con bandas de goma hemostáticas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-028",
+      "text": "La citometría de flujo multiparamétrica identifica inmunofenotipos celulares patológicos esenciales para tipificar leucemias agudas y linfomas no hodgkinianos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-029",
+      "text": "El control farmacológico de la hipertensión arterial con bloqueantes cálcicos dihidropiridínicos induce vasodilatación periférica por relajación miocítica arteriolar.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-030",
+      "text": "La neuroimagen por resonancia magnética con quelato de gadolinio evidencia lesiones desmielinizantes hiperintensas encefalomedulares en esclerosis múltiple remitente recurrente.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-031",
+      "text": "La resucitación hidroelectrolítica vigorosa con soluciones cristaloides isotónicas amortigua la necrosis pancreática y el fracaso multiorgánico en pancreatitis.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-032",
+      "text": "El toracostomía con tubo pleural subacuático desobstruye el neumotórax hipertensivo y reinstaura la presión negativa fisiológica intrapleural.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-033",
+      "text": "La farmacovigilancia sérica terapéutica de vancomicina previene la toxicidad tubulointersticial renal ajustando la posología a concentraciones valle específicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-034",
+      "text": "El trasplante hepático ortotópico con donante cadavérico proporciona sobrevida prolongada en pacientes con cirrosis descompensada o falla hepática aguda.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-035",
+      "text": "La biopsia de arteria temporal revela panarteritis granulomatosa transmural con infiltrado linfohistiocitario en la arteritis craneal de Horton.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-036",
+      "text": "El bloqueo de la placa motora neuromuscular con bromuro de rocuronio asegura relajación muscular óptima durante intervenciones quirúrgicas laparoscópicas complejas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-037",
+      "text": "La inmunooncología con anticuerpos monoclonales anti-PD-1 potencia la citotoxicidad de linfocitos CD8 reactivos contra antígenos tumorales mutados.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-038",
+      "text": "La tomografía por emisión de positrones integrada evalúa con máxima exactitud la estadificación nodular ganglionar regional de neoplasias malignas sólidas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-039",
+      "text": "La fibrobroncoscopia flexible diagnóstica con cepillado bronquial y lavado alveolar confirma etiologías infecciosas oportunistas en neumonías complejas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-040",
+      "text": "La anticoagulación preventiva con inhibidores directos del factor diez activado disminuye accidentes cerebrovasculares embólicos en fibrilación auricular persistente.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-041",
+      "text": "La administración intramuscular de betametasona antenatal estimula la síntesis de surfactante pulmonar alveolar en gestaciones con amenaza de parto prematuro.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-042",
+      "text": "La descompresión laminectómica descompresiva emergente previene parálisis vesical y déficits motores permanentes en el síndrome de cola de caballo agudo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-043",
+      "text": "La hipercalemia extrema con ensanchamiento del complejo QRS exige infusión intravenosa rápida de gluconato cálcico estabilizador miocárdico directo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-044",
+      "text": "La punción biopsia renal percutánea precisa el patrón glomerulonefrítico proliferativo o membranoso orientando protocolos terapéuticos inmunosupresores agresivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-045",
+      "text": "El implante endocavitario de marcapasos bicameral definitivo erradica las pausas sinusales patológicas y las crisis sincopales de Stokes-Adams.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-046",
+      "text": "El desbridamiento quirúrgico precoz y radical de fascias necróticas infectadas constituye el pilar terapéutico insustituible en fascitis necrotizante bacteriana.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-047",
+      "text": "El dosaje sérico cuantitativo de procalcitonina guía la interrupción prudente de esquemas antibacterianos en sepsis bacteriana grave hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-048",
+      "text": "La infusión parenteral de nitroprusiato sódico ejerce vasodilatación arteriovenosa equilibrada inmediata para controlar crisis hipertensivas con edema agudo pulmonar.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-049",
+      "text": "La gastrostomía endoscópica percutánea provee vía nutricional enteral segura y duradera en pacientes con disfagia orofaríngea por daño encefálico.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-050",
+      "text": "El abordaje terapéutico del dolor crónico oncológico terminal requiere analgesia escalonada con agonistas opioides mayores y coadyuvantes neuromoduladores específicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-051",
+      "text": "El cateterismo cardíaco derecho con catéter arterial flotante evalúa la hipertensión precapilar cuantificando las resistencias vasculares pulmonares totales.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-052",
+      "text": "La antibioticoterapia profiláctica intravenosa administrada treinta minutos antes de iniciar la incisión quirúrgica previene la sepsis de sitio operatorio.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-053",
+      "text": "La plasmaféresis de recambio terapéutico depura complejos inmunes y anticuerpos IgG patógenos circulantes en crisis miasténicas y síndrome desmielinizante.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-054",
+      "text": "La determinación del aclaramiento de creatinina en orina de veinticuatro horas proporciona un cálculo analítico validado de filtración glomerular.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-055",
+      "text": "La termoablación percutánea por radiofrecuencia induce coagulación térmica focalizada en hepatocarcinomas unifocales menores a tres centímetros de diámetro.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-056",
+      "text": "La hipertrofia ventricular izquierda concéntrica refleja sobrecarga crónica de presión en pacientes hipertensos, conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-057",
+      "text": "La resistencia bacteriana mediada por betalactamasas de espectro extendido promueve la formación de placas de ateroma vulnerables a rotura, garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-058",
+      "text": "La respuesta inmune celular mediada por linfocitos T citotóxicos inactiva antibióticos carbapenémicos comprometiendo el pronóstico clínico, con el fin de en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-059",
+      "text": "El monitoreo hemodinámico mediante catéter arterial pulmonar indica oclusión coronaria transmural aguda que exige reperfusión, con el fin de bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-060",
+      "text": "La taquicardia ventricular sostenida con inestabilidad hemodinámica reconoce antígenos tumorales presentados en moléculas HLA clase uno para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-061",
+      "text": "La tormenta de citoquinas proinflamatorias interleucina seis distingue lesiones foliculares benignas de carcinomas papilares, reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-062",
+      "text": "El filtrado glomerular estimado por la fórmula CKD-EPI mide presiones de llenado ventricular y gasto cardíaco en tiempo real, minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-063",
+      "text": "El diagnóstico histopatológico de necrosis coagulativa depende del metabolismo hepático de primer paso microsomal, con el fin de optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-064",
+      "text": "La disfunción endotelial inducida por aterosclerosis coronaria requiere cardioversión eléctrica sincronizada de emergencia médica conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-065",
+      "text": "La elevación patológica del segmento ST en el electrocardiograma restablece la perfusión cerebral dentro de la ventana terapéutica garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-066",
+      "text": "La biopsia por punción con aguja fina de nódulos tiroideos desencadena vasodilatación sistémica y choque séptico refractario, en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-067",
+      "text": "La biodisponibilidad plasmática de fármacos liposolubles evalúa con precisión la tasa de filtración glomerular basal, bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-068",
+      "text": "El tratamiento trombolítico en el accidente cerebrovascular isquémico estratifica el estadio de la enfermedad renal crónica progresiva, con el fin de para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-069",
+      "text": "El aclaramiento renal de creatinina endógena revela hipoxemia severa con acidosis respiratoria descompensada reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-070",
+      "text": "La gasometría arterial en insuficiencia respiratoria aguda demuestra desnaturalización proteica irreversible tras isquemia tisular minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-071",
+      "text": "La hipertrofia ventricular izquierda concéntrica evalúa con precisión la tasa de filtración glomerular basal para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-072",
+      "text": "La resistencia bacteriana mediada por betalactamasas de espectro extendido estratifica el estadio de la enfermedad renal crónica progresiva, reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-073",
+      "text": "La respuesta inmune celular mediada por linfocitos T citotóxicos revela hipoxemia severa con acidosis respiratoria descompensada, minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-074",
+      "text": "El monitoreo hemodinámico mediante catéter arterial pulmonar demuestra desnaturalización proteica irreversible tras isquemia tisular, con el fin de optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-075",
+      "text": "La taquicardia ventricular sostenida con inestabilidad hemodinámica refleja sobrecarga crónica de presión en pacientes hipertensos conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-076",
+      "text": "La tormenta de citoquinas proinflamatorias interleucina seis promueve la formación de placas de ateroma vulnerables a rotura garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-077",
+      "text": "El filtrado glomerular estimado por la fórmula CKD-EPI inactiva antibióticos carbapenémicos comprometiendo el pronóstico clínico, en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-078",
+      "text": "El diagnóstico histopatológico de necrosis coagulativa indica oclusión coronaria transmural aguda que exige reperfusión, bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-079",
+      "text": "La disfunción endotelial inducida por aterosclerosis coronaria reconoce antígenos tumorales presentados en moléculas HLA clase uno, con el fin de para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-080",
+      "text": "La elevación patológica del segmento ST en el electrocardiograma distingue lesiones foliculares benignas de carcinomas papilares reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-081",
+      "text": "La biopsia por punción con aguja fina de nódulos tiroideos mide presiones de llenado ventricular y gasto cardíaco en tiempo real minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-082",
+      "text": "La biodisponibilidad plasmática de fármacos liposolubles depende del metabolismo hepático de primer paso microsomal, optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-083",
+      "text": "El tratamiento trombolítico en el accidente cerebrovascular isquémico requiere cardioversión eléctrica sincronizada de emergencia médica, con el fin de conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-084",
+      "text": "El aclaramiento renal de creatinina endógena restablece la perfusión cerebral dentro de la ventana terapéutica, con el fin de garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-085",
+      "text": "La gasometría arterial en insuficiencia respiratoria aguda desencadena vasodilatación sistémica y choque séptico refractario en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-086",
+      "text": "La hipertrofia ventricular izquierda concéntrica depende del metabolismo hepático de primer paso microsomal conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-087",
+      "text": "La resistencia bacteriana mediada por betalactamasas de espectro extendido requiere cardioversión eléctrica sincronizada de emergencia médica garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-088",
+      "text": "La respuesta inmune celular mediada por linfocitos T citotóxicos restablece la perfusión cerebral dentro de la ventana terapéutica, en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-089",
+      "text": "El monitoreo hemodinámico mediante catéter arterial pulmonar desencadena vasodilatación sistémica y choque séptico refractario, bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-090",
+      "text": "La taquicardia ventricular sostenida con inestabilidad hemodinámica evalúa con precisión la tasa de filtración glomerular basal, con el fin de para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-091",
+      "text": "La tormenta de citoquinas proinflamatorias interleucina seis estratifica el estadio de la enfermedad renal crónica progresiva reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-092",
+      "text": "El filtrado glomerular estimado por la fórmula CKD-EPI revela hipoxemia severa con acidosis respiratoria descompensada minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-093",
+      "text": "El diagnóstico histopatológico de necrosis coagulativa demuestra desnaturalización proteica irreversible tras isquemia tisular, optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-094",
+      "text": "La disfunción endotelial inducida por aterosclerosis coronaria refleja sobrecarga crónica de presión en pacientes hipertensos, con el fin de conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-095",
+      "text": "La elevación patológica del segmento ST en el electrocardiograma promueve la formación de placas de ateroma vulnerables a rotura, con el fin de garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-096",
+      "text": "La biopsia por punción con aguja fina de nódulos tiroideos inactiva antibióticos carbapenémicos comprometiendo el pronóstico clínico en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-097",
+      "text": "La biodisponibilidad plasmática de fármacos liposolubles indica oclusión coronaria transmural aguda que exige reperfusión bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-098",
+      "text": "El tratamiento trombolítico en el accidente cerebrovascular isquémico reconoce antígenos tumorales presentados en moléculas HLA clase uno, para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-099",
+      "text": "El aclaramiento renal de creatinina endógena distingue lesiones foliculares benignas de carcinomas papilares, con el fin de reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-100",
+      "text": "La gasometría arterial en insuficiencia respiratoria aguda mide presiones de llenado ventricular y gasto cardíaco en tiempo real, con el fin de minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-101",
+      "text": "La hipertrofia ventricular izquierda concéntrica indica oclusión coronaria transmural aguda que exige reperfusión, con el fin de para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-102",
+      "text": "La resistencia bacteriana mediada por betalactamasas de espectro extendido reconoce antígenos tumorales presentados en moléculas HLA clase uno reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-103",
+      "text": "La respuesta inmune celular mediada por linfocitos T citotóxicos distingue lesiones foliculares benignas de carcinomas papilares minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-104",
+      "text": "El monitoreo hemodinámico mediante catéter arterial pulmonar mide presiones de llenado ventricular y gasto cardíaco en tiempo real, optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-105",
+      "text": "La taquicardia ventricular sostenida con inestabilidad hemodinámica depende del metabolismo hepático de primer paso microsomal, con el fin de conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-106",
+      "text": "La tormenta de citoquinas proinflamatorias interleucina seis requiere cardioversión eléctrica sincronizada de emergencia médica, con el fin de garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-107",
+      "text": "El filtrado glomerular estimado por la fórmula CKD-EPI restablece la perfusión cerebral dentro de la ventana terapéutica en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-108",
+      "text": "El diagnóstico histopatológico de necrosis coagulativa desencadena vasodilatación sistémica y choque séptico refractario bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-109",
+      "text": "La disfunción endotelial inducida por aterosclerosis coronaria evalúa con precisión la tasa de filtración glomerular basal, para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-110",
+      "text": "La elevación patológica del segmento ST en el electrocardiograma estratifica el estadio de la enfermedad renal crónica progresiva, con el fin de reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-111",
+      "text": "La biopsia por punción con aguja fina de nódulos tiroideos revela hipoxemia severa con acidosis respiratoria descompensada, con el fin de minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-112",
+      "text": "La biodisponibilidad plasmática de fármacos liposolubles demuestra desnaturalización proteica irreversible tras isquemia tisular optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-113",
+      "text": "El tratamiento trombolítico en el accidente cerebrovascular isquémico refleja sobrecarga crónica de presión en pacientes hipertensos, conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-114",
+      "text": "El aclaramiento renal de creatinina endógena promueve la formación de placas de ateroma vulnerables a rotura, garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-115",
+      "text": "La gasometría arterial en insuficiencia respiratoria aguda inactiva antibióticos carbapenémicos comprometiendo el pronóstico clínico, con el fin de en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-116",
+      "text": "La hipertrofia ventricular izquierda concéntrica demuestra desnaturalización proteica irreversible tras isquemia tisular, con el fin de conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-117",
+      "text": "La resistencia bacteriana mediada por betalactamasas de espectro extendido refleja sobrecarga crónica de presión en pacientes hipertensos, con el fin de garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-118",
+      "text": "La respuesta inmune celular mediada por linfocitos T citotóxicos promueve la formación de placas de ateroma vulnerables a rotura en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-119",
+      "text": "El monitoreo hemodinámico mediante catéter arterial pulmonar inactiva antibióticos carbapenémicos comprometiendo el pronóstico clínico bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-120",
+      "text": "La taquicardia ventricular sostenida con inestabilidad hemodinámica indica oclusión coronaria transmural aguda que exige reperfusión, para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-121",
+      "text": "La tormenta de citoquinas proinflamatorias interleucina seis reconoce antígenos tumorales presentados en moléculas HLA clase uno, con el fin de reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-122",
+      "text": "El filtrado glomerular estimado por la fórmula CKD-EPI distingue lesiones foliculares benignas de carcinomas papilares, con el fin de minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-123",
+      "text": "El diagnóstico histopatológico de necrosis coagulativa mide presiones de llenado ventricular y gasto cardíaco en tiempo real optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-124",
+      "text": "La disfunción endotelial inducida por aterosclerosis coronaria depende del metabolismo hepático de primer paso microsomal, conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-125",
+      "text": "La elevación patológica del segmento ST en el electrocardiograma requiere cardioversión eléctrica sincronizada de emergencia médica, garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-126",
+      "text": "La biopsia por punción con aguja fina de nódulos tiroideos restablece la perfusión cerebral dentro de la ventana terapéutica, con el fin de en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-127",
+      "text": "La biodisponibilidad plasmática de fármacos liposolubles desencadena vasodilatación sistémica y choque séptico refractario, con el fin de bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-128",
+      "text": "El tratamiento trombolítico en el accidente cerebrovascular isquémico evalúa con precisión la tasa de filtración glomerular basal para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-129",
+      "text": "El aclaramiento renal de creatinina endógena estratifica el estadio de la enfermedad renal crónica progresiva, reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-130",
+      "text": "La gasometría arterial en insuficiencia respiratoria aguda revela hipoxemia severa con acidosis respiratoria descompensada, minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-131",
+      "text": "La hipertrofia ventricular izquierda concéntrica desencadena vasodilatación sistémica y choque séptico refractario, para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-132",
+      "text": "La resistencia bacteriana mediada por betalactamasas de espectro extendido evalúa con precisión la tasa de filtración glomerular basal, con el fin de reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-133",
+      "text": "La respuesta inmune celular mediada por linfocitos T citotóxicos estratifica el estadio de la enfermedad renal crónica progresiva, con el fin de minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-134",
+      "text": "El monitoreo hemodinámico mediante catéter arterial pulmonar revela hipoxemia severa con acidosis respiratoria descompensada optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-135",
+      "text": "La taquicardia ventricular sostenida con inestabilidad hemodinámica demuestra desnaturalización proteica irreversible tras isquemia tisular, conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-136",
+      "text": "La tormenta de citoquinas proinflamatorias interleucina seis refleja sobrecarga crónica de presión en pacientes hipertensos, garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-137",
+      "text": "El filtrado glomerular estimado por la fórmula CKD-EPI promueve la formación de placas de ateroma vulnerables a rotura, con el fin de en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-138",
+      "text": "El diagnóstico histopatológico de necrosis coagulativa inactiva antibióticos carbapenémicos comprometiendo el pronóstico clínico, con el fin de bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-139",
+      "text": "La disfunción endotelial inducida por aterosclerosis coronaria indica oclusión coronaria transmural aguda que exige reperfusión para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-140",
+      "text": "La elevación patológica del segmento ST en el electrocardiograma reconoce antígenos tumorales presentados en moléculas HLA clase uno, reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-141",
+      "text": "La biopsia por punción con aguja fina de nódulos tiroideos distingue lesiones foliculares benignas de carcinomas papilares, minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-142",
+      "text": "La biodisponibilidad plasmática de fármacos liposolubles mide presiones de llenado ventricular y gasto cardíaco en tiempo real, con el fin de optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-143",
+      "text": "El tratamiento trombolítico en el accidente cerebrovascular isquémico depende del metabolismo hepático de primer paso microsomal conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-144",
+      "text": "El aclaramiento renal de creatinina endógena requiere cardioversión eléctrica sincronizada de emergencia médica garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-145",
+      "text": "La gasometría arterial en insuficiencia respiratoria aguda restablece la perfusión cerebral dentro de la ventana terapéutica, en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-146",
+      "text": "La hipertrofia ventricular izquierda concéntrica mide presiones de llenado ventricular y gasto cardíaco en tiempo real, conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-147",
+      "text": "La resistencia bacteriana mediada por betalactamasas de espectro extendido depende del metabolismo hepático de primer paso microsomal, garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-148",
+      "text": "La respuesta inmune celular mediada por linfocitos T citotóxicos requiere cardioversión eléctrica sincronizada de emergencia médica, con el fin de en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-149",
+      "text": "El monitoreo hemodinámico mediante catéter arterial pulmonar restablece la perfusión cerebral dentro de la ventana terapéutica, con el fin de bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-150",
+      "text": "La taquicardia ventricular sostenida con inestabilidad hemodinámica desencadena vasodilatación sistémica y choque séptico refractario para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-151",
+      "text": "La tormenta de citoquinas proinflamatorias interleucina seis evalúa con precisión la tasa de filtración glomerular basal, reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-152",
+      "text": "El filtrado glomerular estimado por la fórmula CKD-EPI estratifica el estadio de la enfermedad renal crónica progresiva, minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-153",
+      "text": "El diagnóstico histopatológico de necrosis coagulativa revela hipoxemia severa con acidosis respiratoria descompensada, con el fin de optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-154",
+      "text": "La disfunción endotelial inducida por aterosclerosis coronaria demuestra desnaturalización proteica irreversible tras isquemia tisular conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-155",
+      "text": "La elevación patológica del segmento ST en el electrocardiograma refleja sobrecarga crónica de presión en pacientes hipertensos garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-156",
+      "text": "La biopsia por punción con aguja fina de nódulos tiroideos promueve la formación de placas de ateroma vulnerables a rotura, en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-157",
+      "text": "La biodisponibilidad plasmática de fármacos liposolubles inactiva antibióticos carbapenémicos comprometiendo el pronóstico clínico, bajo estricto control hemodinámico y de constantes vitales en quirófano.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-158",
+      "text": "El tratamiento trombolítico en el accidente cerebrovascular isquémico indica oclusión coronaria transmural aguda que exige reperfusión, con el fin de para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-159",
+      "text": "El aclaramiento renal de creatinina endógena reconoce antígenos tumorales presentados en moléculas HLA clase uno reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-160",
+      "text": "La gasometría arterial en insuficiencia respiratoria aguda distingue lesiones foliculares benignas de carcinomas papilares minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-161",
+      "text": "La hipertrofia ventricular izquierda concéntrica inactiva antibióticos carbapenémicos comprometiendo el pronóstico clínico para prevenir secuelas neurológicas irreversibles a largo plazo.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-162",
+      "text": "La resistencia bacteriana mediada por betalactamasas de espectro extendido indica oclusión coronaria transmural aguda que exige reperfusión, reduciendo significativamente la tasa de morbimortalidad hospitalaria.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-163",
+      "text": "La respuesta inmune celular mediada por linfocitos T citotóxicos reconoce antígenos tumorales presentados en moléculas HLA clase uno, minimizando el riesgo de efectos adversos y toxicidad farmacológica.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-164",
+      "text": "El monitoreo hemodinámico mediante catéter arterial pulmonar distingue lesiones foliculares benignas de carcinomas papilares, con el fin de optimizando la titulación posológica en pacientes nefropáticos.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-165",
+      "text": "La taquicardia ventricular sostenida con inestabilidad hemodinámica mide presiones de llenado ventricular y gasto cardíaco en tiempo real conforme a las guías de práctica clínica de las sociedades médicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-166",
+      "text": "La tormenta de citoquinas proinflamatorias interleucina seis depende del metabolismo hepático de primer paso microsomal garantizando un enfoque diagnóstico oportuno basado en evidencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-es-167",
+      "text": "El filtrado glomerular estimado por la fórmula CKD-EPI requiere cardioversión eléctrica sincronizada de emergencia médica, en el marco de protocolos estandarizados de terapia intensiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-001",
+      "text": "Intravenous recombinant alteplase administration achieves rapid pharmacological thrombolysis and markedly enhances long-term functional neurological outcomes following ischemic cerebral infarction.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-002",
+      "text": "Systematic differential diagnosis for acute abdominal emergencies in geriatric patients warrants urgent contrast-enhanced abdominopelvic computed tomography to confirm mesenteric vascular ischemia.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-003",
+      "text": "Pharmacokinetic disposition of liposomal amphotericin formulations demonstrates significantly reduced renal accumulation, conferring superior nephrotoxic safety margins in invasive candidiasis.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-004",
+      "text": "Diabetic ketoacidosis resuscitation requires prompt intravenous infusion of balanced electrolyte crystalloids, steady regular insulin administration, and rigorous serum potassium titration.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-005",
+      "text": "Surgical reconstructive bypass grafting across obstructed peripheral arteries restores vital arterial perfusion and effectively relieves disabling intermittent limb claudication symptoms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-006",
+      "text": "Chronic congestive cardiomyopathy characterized by severely depressed ventricular systolic performance requires neurohormonal blockade incorporating mineralocorticoid receptor antagonists and gliflozin therapies.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-007",
+      "text": "Septic shock resuscitation protocols prioritize prompt empiric antimicrobial infusion alongside norepinephrine vasopressor therapy targeting physiological mean arterial pressure benchmarks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-008",
+      "text": "Percutaneous ultrasound-guided core needle biopsy retrieves organized histological tissue ribbons suitable for immunohistochemical profiling of aggressive malignant mammary carcinomas.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-009",
+      "text": "Urgent flexible gastrointestinal endoscopy reliably pinpoints bleeding mucosal ulcerations, enabling immediate deployment of dual endoscopic hemoclip and epinephrine therapies.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-010",
+      "text": "Serial quantitative cardiac troponin assays establish acute cardiomyocyte injury thresholds, accelerating risk stratification for prospective acute coronary syndrome patients.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-011",
+      "text": "Allogeneic hematopoietic stem cell engraftment offers potential curative remissions for high-risk myeloid hematological neoplasias refractory to induction regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-012",
+      "text": "Lung-protective invasive ventilator strategies employing low physiological tidal volumes attenuate mechanical barotrauma in acute respiratory distress syndrome.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-013",
+      "text": "Intermittent extracorporeal hemodialysis removes toxic nitrogenous solutes and corrects marked electrolyte imbalances in chronic end-stage kidney failure.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-014",
+      "text": "Severe hypertensive preeclampsia clinical management necessitates neuroprotective magnesium sulfate infusions alongside prompt labetalol administration to mitigate eclamptic seizure hazards.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-015",
+      "text": "Adjuvant systemic chemotherapy incorporating cisplatin doublets markedly reduces distant relapse risk and improves overall survival following curative lung resection.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-016",
+      "text": "Ultrasound-directed fine-needle aspiration of suspicious thyroid nodules enables standardized cytological categorization according to established Bethesda reporting guidelines.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-017",
+      "text": "Monoclonal antibody neutralization targeting tumor necrosis factor alpha suppresses persistent chronic synovitis and progressive articular destruction in rheumatoid disease.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-018",
+      "text": "Endovascular catheter thrombectomy achieves complete arterial recanalization, substantially reducing persistent neurological disability in proximal intracranial anterior circulation occlusions.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-019",
+      "text": "Invasive monitoring of intracranial cerebrospinal pressures guides targeted hyperosmolar therapy to mitigate fatal brain herniation following severe contusional trauma.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-020",
+      "text": "Empiric antimicrobial coverage for severe community-acquired pulmonary consolidation incorporates broad-spectrum beta-lactam bactericidal agents combined with advanced respiratory quinolones.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-021",
+      "text": "Elevated circulating antinuclear antibody and anti-double-stranded DNA titers confirm underlying systemic lupus erythematosus in patients with multisystem clinical involvement.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-022",
+      "text": "Laparoscopic surgical extirpation of the gallbladder remains the definitive operative approach for recurrent acute calculous biliary cholecystitis.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-023",
+      "text": "Transthoracic echocardiographic examinations quantify anatomical aortic valvular stenosis severity by calculating transvalvular jet gradients and functional orifice dimensions.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-024",
+      "text": "Synthetic sodium levothyroxine hormonal replacement therapy completely normalizes aberrant pituitary thyroid-stimulating hormone concentrations in symptomatic primary autoimmune hypothyroidism.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-025",
+      "text": "Urgent surgical exploratory laparotomy remains imperative for septic peritoneal peritonitis secondary to acute perforated gastrointestinal hollow viscus lesions.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-026",
+      "text": "Cardiogenic circulatory collapse involves critical forward ejection volume deficits resulting in widespread tissue hypoxia despite adequate ventricular diastolic filling.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-027",
+      "text": "Elective endoscopic elastic band ligation represents established primary prophylactic therapy against catastrophic gastrointestinal bleeding from enlarged esophageal varices.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-028",
+      "text": "Multicolor flow cytometric immunophenotyping identifies aberrant antigen expression patterns necessary for accurate lineage classification of acute undifferentiated leukemias.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-029",
+      "text": "Dihydropyridine calcium channel antagonizing medications decrease peripheral arterial tonus through smooth muscle relaxation, effectively treating essential systemic vascular hypertension.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-030",
+      "text": "Contrast-enhanced cranial magnetic resonance neuroimaging reveals distinctive periventricular white matter demyelinating plaques characteristic of relapsing-remitting multiple sclerosis.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-031",
+      "text": "Vigorous early intravenous volume replacement utilizing balanced Hartmann solutions preserves microvascular perfusion, preventing necrotizing complications in acute biliary pancreatitis.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-032",
+      "text": "Tube thoracostomy intercostal tube placement evacuated pneumothorax tension, instantly re-establishing negative intrapleural vacuum mechanics and pulmonary aeration.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-033",
+      "text": "Therapeutic drug monitoring of vancomycin trough concentrations guides individualized dosage titrations, averting nephrotoxicity while assuring bactericidal pharmacodynamic efficacy.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-034",
+      "text": "Orthotopic deceased-donor liver transplantation provides long-term survival for candidates suffering end-stage cirrhosis complicated by refractory portal hypertension.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-035",
+      "text": "Histopathological confirmation of temporal Horton arteritis demonstrates transmural mononuclear inflammatory infiltrates with multinucleated giant cells destroying arterial elastic laminae.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-036",
+      "text": "Nondepolarizing neuromuscular blocking drugs provide profound muscle flaccidity, facilitating atraumatic endotracheal intubation during extensive reconstructive abdominal surgical operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-037",
+      "text": "Immune checkpoint blockade using anti-PD-1 monoclonal antibodies reinvigorates tumor-infiltrating cytotoxic T lymphocytes against resistant metastatic melanoma neoplastic antigens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-038",
+      "text": "Positron emission computerized imaging accurately pinpoints hypermetabolic regional lymphatic involvement and occult metastases in advanced systemic oncological presentations.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-039",
+      "text": "Diagnostic video-assisted flexible bronchoscopy enables transbronchial parenchymal sampling and cytologic washings in immunocompromised individuals presenting diffuse interstitial infiltrates.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-040",
+      "text": "Direct factor Xa inhibitory anticoagulants provide reliable stroke prevention without requiring frequent coagulation monitoring in nonvalvular chronic atrial fibrillation.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-041",
+      "text": "Antenatal intramuscular glucocorticoid therapy significantly stimulates pulmonary surfactant synthesis, mitigating neonatal hyaline membrane respiratory distress incidence.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-042",
+      "text": "Emergent surgical decompressive spine surgery averts irreversible sensorimotor loss and permanent paraplegia in traumatic acute cauda equina compression.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-043",
+      "text": "Electrocardiographic signs of lethal hyperkalemia dictate emergency intravenous calcium infusion to stabilize cardiomyocyte excitable membranes against dysrhythmias.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-044",
+      "text": "Percutaneous renal biopsy provides indispensable histological grading of proliferative glomerulonephritis, directing aggressive targeted corticosteroid immunosuppressive protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-045",
+      "text": "Transvenous permanent dual-chamber cardiac pacemaker implantation permanently eliminates life-threatening syncopal episodes in symptomatic high-grade atrioventricular heart blocks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-046",
+      "text": "Early radical operative excision of devitalized cutaneous tissues constitutes mandatory life-saving therapy in acute bacterial necrotizing soft tissue fasciitis.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-047",
+      "text": "Serial quantitative serum procalcitonin determinations facilitate rational antimicrobial de-escalation decisions in critically ill septic intensive care patients.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-048",
+      "text": "Continuous parenteral sodium nitroprusside titrations induce balanced arterial vasodilatation, promptly relieving acute hypertensive pulmonary hydrostatic capillary edema.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-049",
+      "text": "Percutaneous endoscopic gastrostomy placement secures permanent enteral caloric delivery access in patients experiencing neurogenic pharyngeal dysphagia.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-050",
+      "text": "Multimodal oncological palliative analgesia utilizes titrated sustained-release opioid analgesics coupled with adjuvant gabapentinoids for debilitating neuropathic cancer pain.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-051",
+      "text": "Swan-Ganz catheterization accurately quantifies pulmonary artery wedge hemodynamics, facilitating hemodynamic differentiation of precapillary from postcapillary pulmonary vascular hypertension.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-052",
+      "text": "Preoperative prophylactic intravenous cephalosporin administration administered half an hour prior to surgical skin incision reduces subsequent postoperative surgical infection.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-053",
+      "text": "Therapeutic plasma exchange physically washes out pathogenic circulating anti-acetylcholine receptor autoantibodies in acute life-threatening myasthenic crises.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-054",
+      "text": "Quantitative twenty-four-hour urinary creatinine clearance measurements yield an accurate physiological appraisal of filtration kinetics in progressive renal impairment.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-055",
+      "text": "Percutaneous radiofrequency probe ablation induces complete coagulative thermal necrosis of solitary small focal hepatocellular carcinomas in non-surgical patients.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-056",
+      "text": "Concentric left ventricular hypertrophy on echocardiography indicates chronic hemodynamic pressure overload in severe hypertension, improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-057",
+      "text": "Plasmid-mediated extended-spectrum beta-lactamase resistance impairs nitric oxide bioavailability across the coronary microvasculature, tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-058",
+      "text": "Cell-mediated cytotoxic T-cell immune responses against viral pathogens hydrolyzes third-generation cephalosporins in nosocomial infections, in order to mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-059",
+      "text": "Invasive hemodynamic monitoring via pulmonary artery catheters signals transmural epicardial ischemia mandating urgent reperfusion, in order to facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-060",
+      "text": "Sustained monomorphic ventricular tachycardia with hypotension induces apoptotic lysis of infected cells presenting MHC class I peptides preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-061",
+      "text": "The systemic cytokine storm driven by interleukin-6 elevation differentiates benign follicular adenomas from malignant carcinomas, in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-062",
+      "text": "Estimated glomerular filtration rate determined by CKD-EPI quantifies cardiac output and pulmonary capillary wedge pressure, ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-063",
+      "text": "Histopathological evidence of myocardial coagulative necrosis is constrained by hepatic cytochrome P450 first-pass clearance, in order to optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-064",
+      "text": "Coronary endothelial dysfunction induced by systemic atherosclerosis necessitates immediate synchronized DC cardioversion in resuscitation improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-065",
+      "text": "Acute ST-segment elevation on twelve-lead electrocardiograms recanalizes occluded cerebral vessels within the narrow therapeutic window tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-066",
+      "text": "Fine-needle aspiration cytology of indeterminate thyroid nodules induces systemic capillary leakage and refractory distributive shock, mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-067",
+      "text": "The systemic bioavailability of orally administered drugs provides an accurate clinical estimate of baseline filtration capacity, facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-068",
+      "text": "Intravenous thrombolysis in acute ischemic stroke management stages progression across chronic kidney disease classifications, in order to preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-069",
+      "text": "The endogenous creatinine clearance rate calculation reveals severe uncompensated hypoxemia and metabolic acidosis in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-070",
+      "text": "Arterial blood gas analysis in acute respiratory distress syndrome confirms irreversible cellular injury following prolonged tissue hypoxia ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-071",
+      "text": "Concentric left ventricular hypertrophy on echocardiography provides an accurate clinical estimate of baseline filtration capacity preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-072",
+      "text": "Plasmid-mediated extended-spectrum beta-lactamase resistance stages progression across chronic kidney disease classifications, in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-073",
+      "text": "Cell-mediated cytotoxic T-cell immune responses against viral pathogens reveals severe uncompensated hypoxemia and metabolic acidosis, ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-074",
+      "text": "Invasive hemodynamic monitoring via pulmonary artery catheters confirms irreversible cellular injury following prolonged tissue hypoxia, in order to optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-075",
+      "text": "Sustained monomorphic ventricular tachycardia with hypotension indicates chronic hemodynamic pressure overload in severe hypertension improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-076",
+      "text": "The systemic cytokine storm driven by interleukin-6 elevation impairs nitric oxide bioavailability across the coronary microvasculature tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-077",
+      "text": "Estimated glomerular filtration rate determined by CKD-EPI hydrolyzes third-generation cephalosporins in nosocomial infections, mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-078",
+      "text": "Histopathological evidence of myocardial coagulative necrosis signals transmural epicardial ischemia mandating urgent reperfusion, facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-079",
+      "text": "Coronary endothelial dysfunction induced by systemic atherosclerosis induces apoptotic lysis of infected cells presenting MHC class I peptides, in order to preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-080",
+      "text": "Acute ST-segment elevation on twelve-lead electrocardiograms differentiates benign follicular adenomas from malignant carcinomas in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-081",
+      "text": "Fine-needle aspiration cytology of indeterminate thyroid nodules quantifies cardiac output and pulmonary capillary wedge pressure ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-082",
+      "text": "The systemic bioavailability of orally administered drugs is constrained by hepatic cytochrome P450 first-pass clearance, optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-083",
+      "text": "Intravenous thrombolysis in acute ischemic stroke management necessitates immediate synchronized DC cardioversion in resuscitation, in order to improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-084",
+      "text": "The endogenous creatinine clearance rate calculation recanalizes occluded cerebral vessels within the narrow therapeutic window, in order to tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-085",
+      "text": "Arterial blood gas analysis in acute respiratory distress syndrome induces systemic capillary leakage and refractory distributive shock mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-086",
+      "text": "Concentric left ventricular hypertrophy on echocardiography is constrained by hepatic cytochrome P450 first-pass clearance improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-087",
+      "text": "Plasmid-mediated extended-spectrum beta-lactamase resistance necessitates immediate synchronized DC cardioversion in resuscitation tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-088",
+      "text": "Cell-mediated cytotoxic T-cell immune responses against viral pathogens recanalizes occluded cerebral vessels within the narrow therapeutic window, mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-089",
+      "text": "Invasive hemodynamic monitoring via pulmonary artery catheters induces systemic capillary leakage and refractory distributive shock, facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-090",
+      "text": "Sustained monomorphic ventricular tachycardia with hypotension provides an accurate clinical estimate of baseline filtration capacity, in order to preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-091",
+      "text": "The systemic cytokine storm driven by interleukin-6 elevation stages progression across chronic kidney disease classifications in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-092",
+      "text": "Estimated glomerular filtration rate determined by CKD-EPI reveals severe uncompensated hypoxemia and metabolic acidosis ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-093",
+      "text": "Histopathological evidence of myocardial coagulative necrosis confirms irreversible cellular injury following prolonged tissue hypoxia, optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-094",
+      "text": "Coronary endothelial dysfunction induced by systemic atherosclerosis indicates chronic hemodynamic pressure overload in severe hypertension, in order to improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-095",
+      "text": "Acute ST-segment elevation on twelve-lead electrocardiograms impairs nitric oxide bioavailability across the coronary microvasculature, in order to tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-096",
+      "text": "Fine-needle aspiration cytology of indeterminate thyroid nodules hydrolyzes third-generation cephalosporins in nosocomial infections mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-097",
+      "text": "The systemic bioavailability of orally administered drugs signals transmural epicardial ischemia mandating urgent reperfusion facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-098",
+      "text": "Intravenous thrombolysis in acute ischemic stroke management induces apoptotic lysis of infected cells presenting MHC class I peptides, preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-099",
+      "text": "The endogenous creatinine clearance rate calculation differentiates benign follicular adenomas from malignant carcinomas, in order to in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-100",
+      "text": "Arterial blood gas analysis in acute respiratory distress syndrome quantifies cardiac output and pulmonary capillary wedge pressure, in order to ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-101",
+      "text": "Concentric left ventricular hypertrophy on echocardiography signals transmural epicardial ischemia mandating urgent reperfusion, in order to preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-102",
+      "text": "Plasmid-mediated extended-spectrum beta-lactamase resistance induces apoptotic lysis of infected cells presenting MHC class I peptides in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-103",
+      "text": "Cell-mediated cytotoxic T-cell immune responses against viral pathogens differentiates benign follicular adenomas from malignant carcinomas ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-104",
+      "text": "Invasive hemodynamic monitoring via pulmonary artery catheters quantifies cardiac output and pulmonary capillary wedge pressure, optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-105",
+      "text": "Sustained monomorphic ventricular tachycardia with hypotension is constrained by hepatic cytochrome P450 first-pass clearance, in order to improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-106",
+      "text": "The systemic cytokine storm driven by interleukin-6 elevation necessitates immediate synchronized DC cardioversion in resuscitation, in order to tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-107",
+      "text": "Estimated glomerular filtration rate determined by CKD-EPI recanalizes occluded cerebral vessels within the narrow therapeutic window mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-108",
+      "text": "Histopathological evidence of myocardial coagulative necrosis induces systemic capillary leakage and refractory distributive shock facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-109",
+      "text": "Coronary endothelial dysfunction induced by systemic atherosclerosis provides an accurate clinical estimate of baseline filtration capacity, preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-110",
+      "text": "Acute ST-segment elevation on twelve-lead electrocardiograms stages progression across chronic kidney disease classifications, in order to in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-111",
+      "text": "Fine-needle aspiration cytology of indeterminate thyroid nodules reveals severe uncompensated hypoxemia and metabolic acidosis, in order to ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-112",
+      "text": "The systemic bioavailability of orally administered drugs confirms irreversible cellular injury following prolonged tissue hypoxia optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-113",
+      "text": "Intravenous thrombolysis in acute ischemic stroke management indicates chronic hemodynamic pressure overload in severe hypertension, improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-114",
+      "text": "The endogenous creatinine clearance rate calculation impairs nitric oxide bioavailability across the coronary microvasculature, tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-115",
+      "text": "Arterial blood gas analysis in acute respiratory distress syndrome hydrolyzes third-generation cephalosporins in nosocomial infections, in order to mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-116",
+      "text": "Concentric left ventricular hypertrophy on echocardiography confirms irreversible cellular injury following prolonged tissue hypoxia, in order to improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-117",
+      "text": "Plasmid-mediated extended-spectrum beta-lactamase resistance indicates chronic hemodynamic pressure overload in severe hypertension, in order to tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-118",
+      "text": "Cell-mediated cytotoxic T-cell immune responses against viral pathogens impairs nitric oxide bioavailability across the coronary microvasculature mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-119",
+      "text": "Invasive hemodynamic monitoring via pulmonary artery catheters hydrolyzes third-generation cephalosporins in nosocomial infections facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-120",
+      "text": "Sustained monomorphic ventricular tachycardia with hypotension signals transmural epicardial ischemia mandating urgent reperfusion, preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-121",
+      "text": "The systemic cytokine storm driven by interleukin-6 elevation induces apoptotic lysis of infected cells presenting MHC class I peptides, in order to in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-122",
+      "text": "Estimated glomerular filtration rate determined by CKD-EPI differentiates benign follicular adenomas from malignant carcinomas, in order to ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-123",
+      "text": "Histopathological evidence of myocardial coagulative necrosis quantifies cardiac output and pulmonary capillary wedge pressure optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-124",
+      "text": "Coronary endothelial dysfunction induced by systemic atherosclerosis is constrained by hepatic cytochrome P450 first-pass clearance, improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-125",
+      "text": "Acute ST-segment elevation on twelve-lead electrocardiograms necessitates immediate synchronized DC cardioversion in resuscitation, tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-126",
+      "text": "Fine-needle aspiration cytology of indeterminate thyroid nodules recanalizes occluded cerebral vessels within the narrow therapeutic window, in order to mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-127",
+      "text": "The systemic bioavailability of orally administered drugs induces systemic capillary leakage and refractory distributive shock, in order to facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-128",
+      "text": "Intravenous thrombolysis in acute ischemic stroke management provides an accurate clinical estimate of baseline filtration capacity preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-129",
+      "text": "The endogenous creatinine clearance rate calculation stages progression across chronic kidney disease classifications, in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-130",
+      "text": "Arterial blood gas analysis in acute respiratory distress syndrome reveals severe uncompensated hypoxemia and metabolic acidosis, ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-131",
+      "text": "Concentric left ventricular hypertrophy on echocardiography induces systemic capillary leakage and refractory distributive shock, preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-132",
+      "text": "Plasmid-mediated extended-spectrum beta-lactamase resistance provides an accurate clinical estimate of baseline filtration capacity, in order to in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-133",
+      "text": "Cell-mediated cytotoxic T-cell immune responses against viral pathogens stages progression across chronic kidney disease classifications, in order to ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-134",
+      "text": "Invasive hemodynamic monitoring via pulmonary artery catheters reveals severe uncompensated hypoxemia and metabolic acidosis optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-135",
+      "text": "Sustained monomorphic ventricular tachycardia with hypotension confirms irreversible cellular injury following prolonged tissue hypoxia, improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-136",
+      "text": "The systemic cytokine storm driven by interleukin-6 elevation indicates chronic hemodynamic pressure overload in severe hypertension, tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-137",
+      "text": "Estimated glomerular filtration rate determined by CKD-EPI impairs nitric oxide bioavailability across the coronary microvasculature, in order to mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-138",
+      "text": "Histopathological evidence of myocardial coagulative necrosis hydrolyzes third-generation cephalosporins in nosocomial infections, in order to facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-139",
+      "text": "Coronary endothelial dysfunction induced by systemic atherosclerosis signals transmural epicardial ischemia mandating urgent reperfusion preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-140",
+      "text": "Acute ST-segment elevation on twelve-lead electrocardiograms induces apoptotic lysis of infected cells presenting MHC class I peptides, in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-141",
+      "text": "Fine-needle aspiration cytology of indeterminate thyroid nodules differentiates benign follicular adenomas from malignant carcinomas, ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-142",
+      "text": "The systemic bioavailability of orally administered drugs quantifies cardiac output and pulmonary capillary wedge pressure, in order to optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-143",
+      "text": "Intravenous thrombolysis in acute ischemic stroke management is constrained by hepatic cytochrome P450 first-pass clearance improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-144",
+      "text": "The endogenous creatinine clearance rate calculation necessitates immediate synchronized DC cardioversion in resuscitation tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-145",
+      "text": "Arterial blood gas analysis in acute respiratory distress syndrome recanalizes occluded cerebral vessels within the narrow therapeutic window, mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-146",
+      "text": "Concentric left ventricular hypertrophy on echocardiography quantifies cardiac output and pulmonary capillary wedge pressure, improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-147",
+      "text": "Plasmid-mediated extended-spectrum beta-lactamase resistance is constrained by hepatic cytochrome P450 first-pass clearance, tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-148",
+      "text": "Cell-mediated cytotoxic T-cell immune responses against viral pathogens necessitates immediate synchronized DC cardioversion in resuscitation, in order to mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-149",
+      "text": "Invasive hemodynamic monitoring via pulmonary artery catheters recanalizes occluded cerebral vessels within the narrow therapeutic window, in order to facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-150",
+      "text": "Sustained monomorphic ventricular tachycardia with hypotension induces systemic capillary leakage and refractory distributive shock preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-151",
+      "text": "The systemic cytokine storm driven by interleukin-6 elevation provides an accurate clinical estimate of baseline filtration capacity, in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-152",
+      "text": "Estimated glomerular filtration rate determined by CKD-EPI stages progression across chronic kidney disease classifications, ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-153",
+      "text": "Histopathological evidence of myocardial coagulative necrosis reveals severe uncompensated hypoxemia and metabolic acidosis, in order to optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-154",
+      "text": "Coronary endothelial dysfunction induced by systemic atherosclerosis confirms irreversible cellular injury following prolonged tissue hypoxia improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-155",
+      "text": "Acute ST-segment elevation on twelve-lead electrocardiograms indicates chronic hemodynamic pressure overload in severe hypertension tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-156",
+      "text": "Fine-needle aspiration cytology of indeterminate thyroid nodules impairs nitric oxide bioavailability across the coronary microvasculature, mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-157",
+      "text": "The systemic bioavailability of orally administered drugs hydrolyzes third-generation cephalosporins in nosocomial infections, facilitating rapid clinical decision-making in hospital emergency rooms.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-158",
+      "text": "Intravenous thrombolysis in acute ischemic stroke management signals transmural epicardial ischemia mandating urgent reperfusion, in order to preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-159",
+      "text": "The endogenous creatinine clearance rate calculation induces apoptotic lysis of infected cells presenting MHC class I peptides in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-160",
+      "text": "Arterial blood gas analysis in acute respiratory distress syndrome differentiates benign follicular adenomas from malignant carcinomas ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-161",
+      "text": "Concentric left ventricular hypertrophy on echocardiography hydrolyzes third-generation cephalosporins in nosocomial infections preventing multi-organ dysfunction syndrome in critical care scenarios.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-162",
+      "text": "Plasmid-mediated extended-spectrum beta-lactamase resistance signals transmural epicardial ischemia mandating urgent reperfusion, in compliance with established medical consensus guidelines and protocols.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-163",
+      "text": "Cell-mediated cytotoxic T-cell immune responses against viral pathogens induces apoptotic lysis of infected cells presenting MHC class I peptides, ensuring high diagnostic precision through evidence-based medicine.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-164",
+      "text": "Invasive hemodynamic monitoring via pulmonary artery catheters differentiates benign follicular adenomas from malignant carcinomas, in order to optimizing patient-specific antimicrobial stewardship regimens.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-165",
+      "text": "Sustained monomorphic ventricular tachycardia with hypotension quantifies cardiac output and pulmonary capillary wedge pressure improving survival outcomes in multidisciplinary clinical care units.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-166",
+      "text": "The systemic cytokine storm driven by interleukin-6 elevation is constrained by hepatic cytochrome P450 first-pass clearance tailoring individualized pharmacotherapy based on organ function.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-en-167",
+      "text": "Estimated glomerular filtration rate determined by CKD-EPI necessitates immediate synchronized DC cardioversion in resuscitation, mitigating long-term neurological and cardiovascular morbidity risks.",
+      "lang": "en",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-001",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm belegt eine chronische Druckbelastung bei arterieller Hypertonie, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-002",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-003",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten zerstört Cephalosporine und erschwert die antibiotische Therapie, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-004",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-005",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-006",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln ermöglicht die zytologische Differenzierung von Schilddrüsentumoren, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-007",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-008",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-009",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit erfordert eine unverzügliche synchrone elektrische Kardioversion zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-010",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-011",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten führt zur generalisierten Vasodilatation und zum septischen Schock, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-012",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-013",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt dient der Stadieneinteilung chronischer Nierenerkrankungen, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-014",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-015",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-016",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-017",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen dient der Stadieneinteilung chronischer Nierenerkrankungen, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-018",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-019",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-020",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall belegt eine chronische Druckbelastung bei arterieller Hypertonie zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-021",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-022",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung zerstört Cephalosporine und erschwert die antibiotische Therapie, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-023",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-024",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-025",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG ermöglicht die zytologische Differenzierung von Schilddrüsentumoren unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-026",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-027",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-028",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt erfordert eine unverzügliche synchrone elektrische Kardioversion, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-029",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-030",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz führt zur generalisierten Vasodilatation und zum septischen Schock zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-031",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-032",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen erfordert eine unverzügliche synchrone elektrische Kardioversion zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-033",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-034",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter führt zur generalisierten Vasodilatation und zum septischen Schock, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-035",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-036",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln dient der Stadieneinteilung chronischer Nierenerkrankungen unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-037",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-038",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-039",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit belegt eine chronische Druckbelastung bei arterieller Hypertonie, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-040",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-041",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten zerstört Cephalosporine und erschwert die antibiotische Therapie zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-042",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-043",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-044",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance ermöglicht die zytologische Differenzierung von Schilddrüsentumoren, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-045",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-046",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-047",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-048",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten ermöglicht die zytologische Differenzierung von Schilddrüsentumoren unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-049",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-050",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-051",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln erfordert eine unverzügliche synchrone elektrische Kardioversion, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-052",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-053",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe führt zur generalisierten Vasodilatation und zum septischen Schock gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-054",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-055",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG dient der Stadieneinteilung chronischer Nierenerkrankungen, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-056",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-057",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-058",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt belegt eine chronische Druckbelastung bei arterieller Hypertonie, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-059",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-060",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz zerstört Cephalosporine und erschwert die antibiotische Therapie, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-061",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-062",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen belegt eine chronische Druckbelastung bei arterieller Hypertonie, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-063",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-064",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter zerstört Cephalosporine und erschwert die antibiotische Therapie gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-065",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-066",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-067",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung ermöglicht die zytologische Differenzierung von Schilddrüsentumoren, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-068",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-069",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-070",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG erfordert eine unverzügliche synchrone elektrische Kardioversion, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-071",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-072",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe führt zur generalisierten Vasodilatation und zum septischen Schock, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-073",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-074",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance dient der Stadieneinteilung chronischer Nierenerkrankungen, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-075",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-076",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm führt zur generalisierten Vasodilatation und zum septischen Schock, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-077",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-078",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten dient der Stadieneinteilung chronischer Nierenerkrankungen, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-079",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-080",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-081",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln belegt eine chronische Druckbelastung bei arterieller Hypertonie, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-082",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-083",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe zerstört Cephalosporine und erschwert die antibiotische Therapie, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-084",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-085",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-086",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten ermöglicht die zytologische Differenzierung von Schilddrüsentumoren, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-087",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-088",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-089",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance erfordert eine unverzügliche synchrone elektrische Kardioversion zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-090",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-091",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-092",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-093",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten erfordert eine unverzügliche synchrone elektrische Kardioversion, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-094",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-095",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall führt zur generalisierten Vasodilatation und zum septischen Schock für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-096",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-097",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung dient der Stadieneinteilung chronischer Nierenerkrankungen, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-098",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-099",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-100",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG belegt eine chronische Druckbelastung bei arterieller Hypertonie zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-101",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-102",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe zerstört Cephalosporine und erschwert die antibiotische Therapie, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-103",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-104",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-105",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz ermöglicht die zytologische Differenzierung von Schilddrüsentumoren unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-106",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm zerstört Cephalosporine und erschwert die antibiotische Therapie für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-107",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-108",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-109",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter ermöglicht die zytologische Differenzierung von Schilddrüsentumoren, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-110",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-111",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-112",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung erfordert eine unverzügliche synchrone elektrische Kardioversion, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-113",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-114",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit führt zur generalisierten Vasodilatation und zum septischen Schock, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-115",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-116",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten dient der Stadieneinteilung chronischer Nierenerkrankungen unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-117",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-118",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-119",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance belegt eine chronische Druckbelastung bei arterieller Hypertonie, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-120",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-121",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-122",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-123",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten belegt eine chronische Druckbelastung bei arterieller Hypertonie, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-124",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-125",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall zerstört Cephalosporine und erschwert die antibiotische Therapie, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-126",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-127",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-128",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe ermöglicht die zytologische Differenzierung von Schilddrüsentumoren, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-129",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-130",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-131",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten erfordert eine unverzügliche synchrone elektrische Kardioversion zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-132",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-133",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt führt zur generalisierten Vasodilatation und zum septischen Schock, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-134",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-135",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz dient der Stadieneinteilung chronischer Nierenerkrankungen, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-136",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-137",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen führt zur generalisierten Vasodilatation und zum septischen Schock unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-138",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-139",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter dient der Stadieneinteilung chronischer Nierenerkrankungen, im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-140",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-141",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-142",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung belegt eine chronische Druckbelastung bei arterieller Hypertonie zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-143",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-144",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit zerstört Cephalosporine und erschwert die antibiotische Therapie, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-145",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-146",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-147",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe ermöglicht die zytologische Differenzierung von Schilddrüsentumoren im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-148",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-149",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-150",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz erfordert eine unverzügliche synchrone elektrische Kardioversion, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-151",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm ermöglicht die zytologische Differenzierung von Schilddrüsentumoren, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-152",
+      "text": "Die Resistenzbildung durch plasmidkodierte Betalaktamasen erfasst Herzzeitvolumen und pulmonalkapillären Verschlussdruck direkt, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-153",
+      "text": "Die zelluläre Immunantwort durch zytotoxische CD8-T-Lymphozyten unterliegt einem ausgeprägten hepatischen First-Pass-Metabolismus zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-154",
+      "text": "Das invasive hämodynamische Monitoring mit dem Pulmonaliskatheter erfordert eine unverzügliche synchrone elektrische Kardioversion gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-155",
+      "text": "Die anhaltende ventrikuläre Tachykardie mit Blutdruckabfall eröffnet verschlossene Hirnarterien innerhalb des Zeitfensters, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-156",
+      "text": "Der systemische Zytokinsturm mit erhöhten Interleukin-6-Spiegeln führt zur generalisierten Vasodilatation und zum septischen Schock, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-157",
+      "text": "Die Berechnung der Nierenfunktion nach der CKD-EPI-Gleichung erlaubt eine präzise Beurteilung der renalen Ausscheidungsleistung, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-158",
+      "text": "Der histologische Nachweis von Koagulationsnekrosen im Gewebe dient der Stadieneinteilung chronischer Nierenerkrankungen im Rahmen interdisziplinärer notfallmedizinischer Behandlungspfade.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-159",
+      "text": "Die endotheliale Dysfunktion bei koronarer Herzkrankheit zeigt eine schwere Hypoxämie mit dekompensierter metabolischer Azidose, zur Senkung der Morbidität und Mortalität auf Intensivstationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-160",
+      "text": "Die pathologische ST-Streckenhebung im Zwölf-Kanal-EKG bestätigt den irreversiblen Zelltod infolge akuter Gewebehypoxie, zur frühzeitigen Erkennung potenziell lebensbedrohlicher Komplikationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-161",
+      "text": "Die Feinnadelaspirationsbiopsie verdächtiger Schilddrüsenknoten belegt eine chronische Druckbelastung bei arterieller Hypertonie, zur Vermeidung irreversibler neurologischer Spätschäden.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-162",
+      "text": "Die orale Bioverfügbarkeit lipophiler Arzneistoffe begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques, gemäß den aktuellen Richtlinien der Fachgesellschaften für Kardiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-163",
+      "text": "Die systemische Thrombolysetherapie beim akuten ischämischen Hirninfarkt zerstört Cephalosporine und erschwert die antibiotische Therapie für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-164",
+      "text": "Die glomeruläre Filtrationsrate berechnet mittels Kreatinin-Clearance zeigt einen transmuralen Myokardinfarkt mit sofortiger Katheterindikation, unter strikter Beachtung evidenzbasierter klinischer Leitlinien.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-165",
+      "text": "Die arterielle Blutgasanalyse bei respiratorischer Insuffizienz zerstört virusinfizierte Zellen über Perforin- und Granzym-Freisetzung, unter kontinuierlicher engmaschiger Überwachung der Vitalparameter.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    },
+    {
+      "id": "medicina-de-166",
+      "text": "Die konzentrische linksventrikuläre Hypertrophie im Echokardiogramm begünstigt die Bildung instabiler lipidreicher atherosklerotischer Plaques, für eine zielgerichtete Anpassung der individuellen Medikamentendosis.",
+      "lang": "de",
+      "source": "corpus-trilingue-medicina"
+    }
+  ]
+}

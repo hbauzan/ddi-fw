@@ -104,9 +104,23 @@ def run_protocolo_04(
     out_file: Path = DEFAULT_OUT_FILE,
     run_live_drift: bool = True,
     cached_deriva_max: float | None = None,
+    almas: tuple[str, ...] | list[str] | None = None,
+    pares: list[tuple[str, str]] | tuple[tuple[str, str], ...] | None = None,
 ) -> dict[str, Any]:
     """Ejecuta la auditoría de profundidad decimal y deriva de hardware."""
+    import itertools
+
+    from ddi_fw.ecualizador import ALMAS_ECUALIZADOR
+
     out_file.parent.mkdir(parents=True, exist_ok=True)
+
+    almas_to_process = tuple(almas) if almas is not None else ALMAS_ECUALIZADOR
+    if pares is not None:
+        pares_to_process = tuple(pares)
+    elif almas is not None:
+        pares_to_process = tuple(itertools.combinations(almas_to_process, 2))
+    else:
+        pares_to_process = PARES_CANONICOS
 
     # 1. Cargar catálogo de paja para filtrar dimensiones de trigo
     cat_path = paja_dir / "catalogo_paja_estructural.json"
@@ -117,10 +131,9 @@ def run_protocolo_04(
         r["dimension"] for r in cat_meta["dimensiones"] if r["etiqueta"] == "TRIGO_CANDIDATO"
     ]
 
-    # 2. Cargar perfiles intrínsecos de las 5 almas
-    almas = ("python", "receta", "legal", "medicina", "astronomia")
+    # 2. Cargar perfiles intrínsecos de las almas
     mus_por_alma: dict[str, dict[int, float]] = {}
-    for a in almas:
+    for a in almas_to_process:
         prof_path = intrinseco_dir / f"{a}_perfil_intrinseco_1024d.json"
         data = json.loads(prof_path.read_text(encoding="utf-8"))
         mus_por_alma[a] = {rec["dimension"]: rec["mu"] for rec in data["dimensiones"]}
@@ -130,7 +143,7 @@ def run_protocolo_04(
     deltas_por_par: dict[str, list[float]] = {}
     metricas_por_par: dict[str, Any] = {}
 
-    for a, b in PARES_CANONICOS:
+    for a, b in pares_to_process:
         pair_key = f"{a}_{b}"
         pair_deltas: list[float] = []
         for d in trigo_dims:
@@ -245,8 +258,13 @@ def run_protocolo_04(
     return {
         "protocolo": "04-auditoria-profundidad-decimal",
         "out_file": str(out_file),
+        "total_comparaciones": len(todos_deltas),
         "delta_min": delta_min_global,
+        "delta_max": delta_max_global,
+        "delta_avg": delta_avg_global,
         "n_dec_min": n_dec_min,
+        "n_dec_max": n_dec_max,
+        "n_dec_avg": n_dec_avg,
         "deriva_max": deriva_max,
         "ratio_inmunidad": ratio_inmunidad,
         "inmunidad_confirmada": criterio_inmunidad_cumplido,

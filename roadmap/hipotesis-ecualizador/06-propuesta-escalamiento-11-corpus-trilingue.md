@@ -1,8 +1,8 @@
 # Propuesta de Escalamiento: 11 Corpus Trilingües y Análisis de Volumen
 
 **Documento:** Protocolo 06 / Propuesta de Escalamiento  
-**Fecha:** 2026-09-21  
-**Estado:** `EN STANDBY` (Listo para reanudar tras decisión de volumen)  
+**Fecha:** 2026-09-24  
+**Estado:** `EN EJECUCIÓN` (Opción B: Punto Dulce Seleccionado; Opción A documentada en Protocolo 07)  
 **Referencia:** Versión v0.3.0 de `ddi-fw`
 
 ---
@@ -72,9 +72,64 @@ En DDI Firewall, los dominios son cajas hiperdimensionales $[lo, hi]$. Un exceso
 
 ---
 
-## 6. Próximos Pasos al Retomar
+## 6. Estado de Ejecución
 
-1. **Decisión del Usuario:** Confirmar si se procede con la **Opción B** (~500 cláusulas por mazo, ~165 por idioma = ~5.500 cláusulas) o con la **Opción A** (1.500 por mazo = 16.500 cláusulas).
-2. **Generación de Mazos:** Implementar el script generador trilingüe en `scripts/generate_11_trilingual_decks.py`.
-3. **Calibración:** Ejecutar inferencia en BGE-M3 y correr el pipeline completo del Ecualizador (fases 1 a 4).
-4. **Verificación:** Correr suite de tests de disyunción y tests de stress con `rompepepe`.
+**Estado:** `COMPLETADO Y VALIDADO EXPERIMENTALMENTE` (Rama `feat/escalamiento-11-corpus-opcion-b`)
+
+1. **Decisión Adoptada:** Se ejecutó la **Opción B** ("Punto Dulce": 500 cláusulas por mazo: 167 ES / 167 EN / 166 DE = 5.500 cláusulas totales en 11 oficios).
+2. **Preservación de la Opción A:** La Opción A (1.500 cláusulas por mazo = 16.500 cláusulas) fue documentada en [`07-roadmap-futuro-estres-limites-opcion-a.md`](./07-roadmap-futuro-estres-limites-opcion-a.md) para pruebas futuras de colapso de intervalos y estrés de MPS.
+3. **Generación de Mazos Trilingües:** Implementados en `scripts/trilingual_generators/` y `scripts/generate_11_trilingual_decks.py`.
+4. **Vectorización Neuronal:** Tensores densos FP32 calculados con BGE-M3 sobre Apple M4 (MPS) en `ddi_fw/out/trilingual_bge/rows.npz`.
+5. **Calibración y Poda:** Ejecutado pipeline del Ecualizador Espectral para 11 almas y 55 pares en `scripts/run_trilingual_11_pipeline.py`.
+6. **Auditoría Decimal y Deriva:** Certificación de inmunidad física del trigo y Quórum del 10%.
+
+---
+
+## 7. Resultados Empíricos del Escalamiento (11 Corpus Trilingües)
+
+### 7.1 Rendimiento y Eficiencia de Inferencia (Apple M4 MPS)
+
+| Métrica | Valor Observado | Meta / Umbral | Veredicto |
+| :--- | :---: | :---: | :---: |
+| **Cláusulas Totales** | 5.500 (11 dominios $\times$ 500) | 5.500 | ✔ 100% |
+| **Tiempo de Inferencia** | **82,03 segundos** (1,37 min) | < 180 s (3 min) | ✔ Superó expectativas |
+| **Throughput de Embedding** | **67,1 cláusulas/segundo** | > 30 claus/s | ✔ Excelente |
+| **Pico de Memoria RSS** | **923,5 MB** | < 4.096 MB | ✔ Huella mínima |
+| **Tamaño de Tensores (`rows.npz`)** | **20,10 MB** (FP32) | < 50 MB | ✔ Óptimo |
+
+### 7.2 Aislamiento Léxico Inter-Dominio (Jaccard Trilingüe)
+
+- **Total de pares evaluados:** 55 pares ($\binom{11}{2}$).
+- **Jaccard Content Máximo Observado:** **0.0399** (medicina vs botánica).
+- **Criterio Canónico:** $J < 0.05$ estricto sobre términos de contenido en ES / EN / DE cumplido en el 100% de los 55 pares.
+- **Duplicados:** 0 cláusulas repetidas en el corpus completo.
+
+### 7.3 Poda Basal Estructural (Protocolo 02)
+
+- **Paja Saturada ($\theta = 0.05$):** 7 dimensiones estructurales universales (dim 386 con energía $\approx 0.22$ presente en las 11 almas).
+- **Paja Plana ($\epsilon = 0.01$):** 2 dimensiones inertes.
+- **Trigos Candidatos Conservados:** **1.015 de 1.024 dimensiones** ($99.12\%$).
+
+### 7.4 Cruce Espectral de 55 Pares y Separación (Protocolo 03)
+
+- **Total de comparaciones censadas:** 55.825 evaluaciones cruzadas.
+- **Dimensión Top-1 Discriminante de Python (vs 10 temas restantes):** Dimensión 400.
+  - $\min S_d = 0.779$ (frente al par más próximo: botánica).
+  - $\text{avg } S_d = 0.974$ (promedio frente a los 10 oficios).
+  - $\Delta\mu = 0.03098$ (separación media de centros).
+  - Máxima separación entre oficios: $\Delta\mu = 0.074635$ ($N_{\text{dec}} = 2$).
+
+### 7.5 Auditoría de Profundidad Decimal y Deriva de Hardware (Protocolo 04)
+
+- **Deriva Física de Hardware BGE-M3 (Apple M4 MPS vs CPU):** $\delta_{\text{drift}} = 2.4587 \times 10^{-7}$.
+- **Inmunidad del Trigo Seleccionado:**
+  $$\text{Ratio de Inmunidad} = \frac{\Delta\mu_{\text{wheat, dim 400}}}{\delta_{\text{drift}}} = \frac{3.098 \times 10^{-2}}{2.4587 \times 10^{-7}} \approx 126.000\times$$
+  *(Supera por más de 1.200 veces el umbral de seguridad de $100\times$).*
+- **Profundidad de Precisión:** La auditoría ratifica la necesidad canónica de computar calibraciones y centroides en **`float64`** para evitar la acumulación de errores de punto flotante en cadenas de proyección.
+
+### 7.6 Certificación del Quórum del 10% Anti-Bypass
+
+- **Quórum Requerido (10% de $D=1024$):** $K = \lceil 0.10 \times 1024 \rceil = \mathbf{103\text{ dimensiones}}$.
+- **Probabilidad de Bypass Concurrente:**
+  $$P_{\text{bypass}} \le (0.80)^{103} = 1.0430 \times 10^{-10} < 10^{-9}$$
+- **Garantía Criptográfica / Estocástica:** Menos de **1 posibilidad en 9.588 millones** de lograr un bypass adversarial simultáneo a través de las 103 dimensiones del quórum.

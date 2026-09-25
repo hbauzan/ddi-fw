@@ -1,0 +1,3007 @@
+{
+  "alma": "musica",
+  "n": 500,
+  "description": "Mazo trilingüe de musica (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "musica-es-001",
+      "text": "La conducción de voces en el contrapunto riguroso por especies evita movimientos paralelos de quintas y octavas prohibidas por la norma, garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-002",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica transforma células temáticas mediante inversión, retrogradación y aumentación, integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-003",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas distribuye la coma sintónica dividiendo la octava en doce semitonos iguales, con el fin de enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-004",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama funciona como puente enarmónico facilitando modulaciones a tonos lejanos, con el fin de logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-005",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-006",
+      "text": "El bajo continuo cifrado en la música instrumental barroca explota los registros dinámicos y colorísticos de las familias orquestales, siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-007",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto desplaza la acentuación métrica natural generando tensión rítmica constante, respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-008",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos proporciona una sensación conclusiva definitiva de reposo armónico tonal, con el fin de conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-009",
+      "text": "El desarrollo motívico temático en la forma sonata clásica distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-010",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace introduce un grado rebajado que intensifica la atracción hacia la dominante integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-011",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta suministra la base armónica improvisada sobre una línea melódica grave, enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-012",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos, logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-013",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante mantiene una nota disonante sobre el cambio de armonía antes de resolver, con el fin de para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-014",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina repite el sujeto melódico principal manteniendo relaciones canónicas estrictas siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-015",
+      "text": "La polifonía imitativa en el canon a la quinta justa determina las relaciones interválicas fundamentales de octava, quinta y tercera respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-016",
+      "text": "La conducción de voces en el contrapunto riguroso por especies establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-017",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica mantiene una nota disonante sobre el cambio de armonía antes de resolver, siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-018",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas repite el sujeto melódico principal manteniendo relaciones canónicas estrictas, respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-019",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama determina las relaciones interválicas fundamentales de octava, quinta y tercera, con el fin de conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-020",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos evita movimientos paralelos de quintas y octavas prohibidas por la norma garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-021",
+      "text": "El bajo continuo cifrado en la música instrumental barroca transforma células temáticas mediante inversión, retrogradación y aumentación integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-022",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto distribuye la coma sintónica dividiendo la octava en doce semitonos iguales, enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-023",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos funciona como puente enarmónico facilitando modulaciones a tonos lejanos, logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-024",
+      "text": "El desarrollo motívico temático en la forma sonata clásica elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos, con el fin de para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-025",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace explota los registros dinámicos y colorísticos de las familias orquestales siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-026",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta desplaza la acentuación métrica natural generando tensión rítmica constante respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-027",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta proporciona una sensación conclusiva definitiva de reposo armónico tonal, conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-028",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental, con el fin de garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-029",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina introduce un grado rebajado que intensifica la atracción hacia la dominante, con el fin de integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-030",
+      "text": "La polifonía imitativa en el canon a la quinta justa suministra la base armónica improvisada sobre una línea melódica grave enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-031",
+      "text": "La conducción de voces en el contrapunto riguroso por especies proporciona una sensación conclusiva definitiva de reposo armónico tonal garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-032",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-033",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas introduce un grado rebajado que intensifica la atracción hacia la dominante, enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-034",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama suministra la base armónica improvisada sobre una línea melódica grave, logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-035",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos, con el fin de para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-036",
+      "text": "El bajo continuo cifrado en la música instrumental barroca mantiene una nota disonante sobre el cambio de armonía antes de resolver siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-037",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto repite el sujeto melódico principal manteniendo relaciones canónicas estrictas respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-038",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos determina las relaciones interválicas fundamentales de octava, quinta y tercera, conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-039",
+      "text": "El desarrollo motívico temático en la forma sonata clásica evita movimientos paralelos de quintas y octavas prohibidas por la norma, con el fin de garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-040",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace transforma células temáticas mediante inversión, retrogradación y aumentación, con el fin de integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-041",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta distribuye la coma sintónica dividiendo la octava en doce semitonos iguales enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-042",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta funciona como puente enarmónico facilitando modulaciones a tonos lejanos logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-043",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos, para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-044",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina explota los registros dinámicos y colorísticos de las familias orquestales, con el fin de siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-045",
+      "text": "La polifonía imitativa en el canon a la quinta justa desplaza la acentuación métrica natural generando tensión rítmica constante, con el fin de respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-046",
+      "text": "La conducción de voces en el contrapunto riguroso por especies funciona como puente enarmónico facilitando modulaciones a tonos lejanos, con el fin de para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-047",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-048",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas explota los registros dinámicos y colorísticos de las familias orquestales respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-049",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama desplaza la acentuación métrica natural generando tensión rítmica constante, conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-050",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos proporciona una sensación conclusiva definitiva de reposo armónico tonal, con el fin de garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-051",
+      "text": "El bajo continuo cifrado en la música instrumental barroca distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental, con el fin de integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-052",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto introduce un grado rebajado que intensifica la atracción hacia la dominante enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-053",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos suministra la base armónica improvisada sobre una línea melódica grave logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-054",
+      "text": "El desarrollo motívico temático en la forma sonata clásica establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos, para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-055",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace mantiene una nota disonante sobre el cambio de armonía antes de resolver, con el fin de siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-056",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta repite el sujeto melódico principal manteniendo relaciones canónicas estrictas, con el fin de respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-057",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta determina las relaciones interválicas fundamentales de octava, quinta y tercera conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-058",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante evita movimientos paralelos de quintas y octavas prohibidas por la norma, garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-059",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina transforma células temáticas mediante inversión, retrogradación y aumentación, integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-060",
+      "text": "La polifonía imitativa en el canon a la quinta justa distribuye la coma sintónica dividiendo la octava en doce semitonos iguales, con el fin de enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-061",
+      "text": "La conducción de voces en el contrapunto riguroso por especies determina las relaciones interválicas fundamentales de octava, quinta y tercera, con el fin de garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-062",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica evita movimientos paralelos de quintas y octavas prohibidas por la norma, con el fin de integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-063",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas transforma células temáticas mediante inversión, retrogradación y aumentación enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-064",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama distribuye la coma sintónica dividiendo la octava en doce semitonos iguales logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-065",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos funciona como puente enarmónico facilitando modulaciones a tonos lejanos, para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-066",
+      "text": "El bajo continuo cifrado en la música instrumental barroca elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos, con el fin de siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-067",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto explota los registros dinámicos y colorísticos de las familias orquestales, con el fin de respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-068",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos desplaza la acentuación métrica natural generando tensión rítmica constante conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-069",
+      "text": "El desarrollo motívico temático en la forma sonata clásica proporciona una sensación conclusiva definitiva de reposo armónico tonal, garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-070",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental, integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-071",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta introduce un grado rebajado que intensifica la atracción hacia la dominante, con el fin de enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-072",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta suministra la base armónica improvisada sobre una línea melódica grave, con el fin de logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-073",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-074",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina mantiene una nota disonante sobre el cambio de armonía antes de resolver, siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-075",
+      "text": "La polifonía imitativa en el canon a la quinta justa repite el sujeto melódico principal manteniendo relaciones canónicas estrictas, respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-076",
+      "text": "La conducción de voces en el contrapunto riguroso por especies suministra la base armónica improvisada sobre una línea melódica grave, para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-077",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos, con el fin de siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-078",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas mantiene una nota disonante sobre el cambio de armonía antes de resolver, con el fin de respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-079",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama repite el sujeto melódico principal manteniendo relaciones canónicas estrictas conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-080",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos determina las relaciones interválicas fundamentales de octava, quinta y tercera, garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-081",
+      "text": "El bajo continuo cifrado en la música instrumental barroca evita movimientos paralelos de quintas y octavas prohibidas por la norma, integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-082",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto transforma células temáticas mediante inversión, retrogradación y aumentación, con el fin de enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-083",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos distribuye la coma sintónica dividiendo la octava en doce semitonos iguales, con el fin de logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-084",
+      "text": "El desarrollo motívico temático en la forma sonata clásica funciona como puente enarmónico facilitando modulaciones a tonos lejanos para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-085",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos, siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-086",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta explota los registros dinámicos y colorísticos de las familias orquestales, respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-087",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta desplaza la acentuación métrica natural generando tensión rítmica constante, con el fin de conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-088",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante proporciona una sensación conclusiva definitiva de reposo armónico tonal garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-089",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-090",
+      "text": "La polifonía imitativa en el canon a la quinta justa introduce un grado rebajado que intensifica la atracción hacia la dominante, enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-091",
+      "text": "La conducción de voces en el contrapunto riguroso por especies desplaza la acentuación métrica natural generando tensión rítmica constante, garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-092",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica proporciona una sensación conclusiva definitiva de reposo armónico tonal, integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-093",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental, con el fin de enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-094",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama introduce un grado rebajado que intensifica la atracción hacia la dominante, con el fin de logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-095",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos suministra la base armónica improvisada sobre una línea melódica grave para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-096",
+      "text": "El bajo continuo cifrado en la música instrumental barroca establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos, siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-097",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto mantiene una nota disonante sobre el cambio de armonía antes de resolver, respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-098",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos repite el sujeto melódico principal manteniendo relaciones canónicas estrictas, con el fin de conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-099",
+      "text": "El desarrollo motívico temático en la forma sonata clásica determina las relaciones interválicas fundamentales de octava, quinta y tercera garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-100",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace evita movimientos paralelos de quintas y octavas prohibidas por la norma integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-101",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta transforma células temáticas mediante inversión, retrogradación y aumentación, enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-102",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta distribuye la coma sintónica dividiendo la octava en doce semitonos iguales, logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-103",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante funciona como puente enarmónico facilitando modulaciones a tonos lejanos, con el fin de para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-104",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-105",
+      "text": "La polifonía imitativa en el canon a la quinta justa explota los registros dinámicos y colorísticos de las familias orquestales respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-106",
+      "text": "La conducción de voces en el contrapunto riguroso por especies distribuye la coma sintónica dividiendo la octava en doce semitonos iguales para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-107",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica funciona como puente enarmónico facilitando modulaciones a tonos lejanos, siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-108",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos, respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-109",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama explota los registros dinámicos y colorísticos de las familias orquestales, con el fin de conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-110",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos desplaza la acentuación métrica natural generando tensión rítmica constante garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-111",
+      "text": "El bajo continuo cifrado en la música instrumental barroca proporciona una sensación conclusiva definitiva de reposo armónico tonal integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-112",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental, enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-113",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos introduce un grado rebajado que intensifica la atracción hacia la dominante, logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-114",
+      "text": "El desarrollo motívico temático en la forma sonata clásica suministra la base armónica improvisada sobre una línea melódica grave, con el fin de para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-115",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-116",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta mantiene una nota disonante sobre el cambio de armonía antes de resolver respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-117",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta repite el sujeto melódico principal manteniendo relaciones canónicas estrictas, conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-118",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante determina las relaciones interválicas fundamentales de octava, quinta y tercera, con el fin de garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-119",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina evita movimientos paralelos de quintas y octavas prohibidas por la norma, con el fin de integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-120",
+      "text": "La polifonía imitativa en el canon a la quinta justa transforma células temáticas mediante inversión, retrogradación y aumentación enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-121",
+      "text": "La conducción de voces en el contrapunto riguroso por especies repite el sujeto melódico principal manteniendo relaciones canónicas estrictas garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-122",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica determina las relaciones interválicas fundamentales de octava, quinta y tercera integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-123",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas evita movimientos paralelos de quintas y octavas prohibidas por la norma, enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-124",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama transforma células temáticas mediante inversión, retrogradación y aumentación, logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-125",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos distribuye la coma sintónica dividiendo la octava en doce semitonos iguales, con el fin de para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-126",
+      "text": "El bajo continuo cifrado en la música instrumental barroca funciona como puente enarmónico facilitando modulaciones a tonos lejanos siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-127",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-128",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos explota los registros dinámicos y colorísticos de las familias orquestales, conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-129",
+      "text": "El desarrollo motívico temático en la forma sonata clásica desplaza la acentuación métrica natural generando tensión rítmica constante, con el fin de garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-130",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace proporciona una sensación conclusiva definitiva de reposo armónico tonal, con el fin de integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-131",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-132",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta introduce un grado rebajado que intensifica la atracción hacia la dominante logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-133",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante suministra la base armónica improvisada sobre una línea melódica grave, para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-134",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos, con el fin de siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-135",
+      "text": "La polifonía imitativa en el canon a la quinta justa mantiene una nota disonante sobre el cambio de armonía antes de resolver, con el fin de respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-136",
+      "text": "La conducción de voces en el contrapunto riguroso por especies introduce un grado rebajado que intensifica la atracción hacia la dominante, con el fin de para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-137",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica suministra la base armónica improvisada sobre una línea melódica grave siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-138",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-139",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama mantiene una nota disonante sobre el cambio de armonía antes de resolver, conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-140",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos repite el sujeto melódico principal manteniendo relaciones canónicas estrictas, con el fin de garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-141",
+      "text": "El bajo continuo cifrado en la música instrumental barroca determina las relaciones interválicas fundamentales de octava, quinta y tercera, con el fin de integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-142",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto evita movimientos paralelos de quintas y octavas prohibidas por la norma enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-143",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos transforma células temáticas mediante inversión, retrogradación y aumentación logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-144",
+      "text": "El desarrollo motívico temático en la forma sonata clásica distribuye la coma sintónica dividiendo la octava en doce semitonos iguales, para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-145",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace funciona como puente enarmónico facilitando modulaciones a tonos lejanos, con el fin de siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-146",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos, con el fin de respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-147",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta explota los registros dinámicos y colorísticos de las familias orquestales conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-148",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante desplaza la acentuación métrica natural generando tensión rítmica constante, garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-149",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina proporciona una sensación conclusiva definitiva de reposo armónico tonal, integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-150",
+      "text": "La polifonía imitativa en el canon a la quinta justa distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental, con el fin de enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-151",
+      "text": "La conducción de voces en el contrapunto riguroso por especies explota los registros dinámicos y colorísticos de las familias orquestales, con el fin de garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-152",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica desplaza la acentuación métrica natural generando tensión rítmica constante, con el fin de integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-153",
+      "text": "La escala pentatónica menor empleada en melodías folclóricas proporciona una sensación conclusiva definitiva de reposo armónico tonal enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-154",
+      "text": "El uso de síncopas y contratiempos en compases de amalgama distingue un clarinete de un oboe aun cuando interpreten la misma frecuencia fundamental logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-155",
+      "text": "El timbre acústico determinado por la envolvente espectral de armónicos introduce un grado rebajado que intensifica la atracción hacia la dominante, para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-156",
+      "text": "El bajo continuo cifrado en la música instrumental barroca suministra la base armónica improvisada sobre una línea melódica grave, con el fin de siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-157",
+      "text": "La disonancia de retardo con resolución descendente por grado conjunto establece un nuevo centro tonal sin saltos auditivos abruptos o bruscos, con el fin de respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-158",
+      "text": "La serie armónica natural de sobretonos en tubos sonoros abiertos mantiene una nota disonante sobre el cambio de armonía antes de resolver conforme a las convenciones estilísticas de las grandes escuelas sinfónicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-159",
+      "text": "El desarrollo motívico temático en la forma sonata clásica repite el sujeto melódico principal manteniendo relaciones canónicas estrictas, garantizando la coherencia estructural y el equilibrio formal de la obra.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-160",
+      "text": "El acorde de séptima disminuida como recurso cromático de enlace determina las relaciones interválicas fundamentales de octava, quinta y tercera, integrando la tradición contrapuntística con la innovación armónica tonal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-161",
+      "text": "La tesitura de los instrumentos de viento madera en la orquesta evita movimientos paralelos de quintas y octavas prohibidas por la norma, con el fin de enriqueciendo la expresividad melódica y la densidad polifónica coral.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-162",
+      "text": "La resolución de la sensible sobre la tónica en la cadencia perfecta transforma células temáticas mediante inversión, retrogradación y aumentación, con el fin de logrando un impacto estético refinado y conmovedor en la audiencia.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-163",
+      "text": "El acorde de sexta napolitana que precede a la cadencia dominante distribuye la coma sintónica dividiendo la octava en doce semitonos iguales para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-164",
+      "text": "La modulación armónica mediante acorde pivote a la tonalidad vecina funciona como puente enarmónico facilitando modulaciones a tonos lejanos, siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-165",
+      "text": "La polifonía imitativa en el canon a la quinta justa elimina tensiones de semitono facilitando giros melódicos diáfanos y fluidos, respetando el fraseo musical y la dinámica de ejecución orquestal.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-166",
+      "text": "La conducción de voces en el contrapunto riguroso por especies transforma células temáticas mediante inversión, retrogradación y aumentación, para maximizar la claridad acústica en salas de concierto especializadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-es-167",
+      "text": "La afinación por temperamento igual frente a la entonación pitagórica distribuye la coma sintónica dividiendo la octava en doce semitonos iguales, con el fin de siguiendo las reglas de la teoría musical y la armonía funcional clásica.",
+      "lang": "es",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-001",
+      "text": "Voice leading principles in strict species counterpoint strictly forbids parallel fifths and octaves to preserve voice independence, preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-002",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones develops fundamental thematic material via melodic inversion and retrograde, synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-003",
+      "text": "The minor pentatonic scale structuring modal folk melodies equalizes frequency ratios to enable unrestricted modulation across all keys, in order to enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-004",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters enables enharmonic reinterpretation facilitating distant tonal excursions, in order to creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-005",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay avoids half-step dissonances allowing open consonant melodic contours optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-006",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo blends distinct instrumental colors across rich orchestral tutti textures, adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-007",
+      "text": "Suspension dissonance resolving downward by step onto consonance shifts metric accentuation creating deliberate rhythmic tension and momentum, guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-008",
+      "text": "The acoustic overtone series in vibrating open air columns provides definitive harmonic closure within classical cadential formulas, in order to fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-009",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form distinguishes clarinet from flute through overtone harmonic distribution preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-010",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge lowers the supertonic pitch degree to dramatically intensify dominant arrival synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-011",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants provides improvised chordal realization above an unadorned bass contour, enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-012",
+      "text": "The melodic resolution of the leading tone to the tonic pitch establishes new tonal polarity smoothly without disorienting listener ear, creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-013",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences prolongs harmonic tension across the barline before falling to stable rest, in order to optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-014",
+      "text": "Harmonic modulation to related keys via common pivot chords repeats primary musical subjects across contrasting contrapuntal voices adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-015",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth governs physical intervals of octaves, fifths, and natural major thirds guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-016",
+      "text": "Voice leading principles in strict species counterpoint establishes new tonal polarity smoothly without disorienting listener ear optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-017",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones prolongs harmonic tension across the barline before falling to stable rest, adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-018",
+      "text": "The minor pentatonic scale structuring modal folk melodies repeats primary musical subjects across contrasting contrapuntal voices, guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-019",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters governs physical intervals of octaves, fifths, and natural major thirds, in order to fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-020",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay strictly forbids parallel fifths and octaves to preserve voice independence preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-021",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo develops fundamental thematic material via melodic inversion and retrograde synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-022",
+      "text": "Suspension dissonance resolving downward by step onto consonance equalizes frequency ratios to enable unrestricted modulation across all keys, enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-023",
+      "text": "The acoustic overtone series in vibrating open air columns enables enharmonic reinterpretation facilitating distant tonal excursions, creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-024",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form avoids half-step dissonances allowing open consonant melodic contours, in order to optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-025",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge blends distinct instrumental colors across rich orchestral tutti textures adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-026",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants shifts metric accentuation creating deliberate rhythmic tension and momentum guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-027",
+      "text": "The melodic resolution of the leading tone to the tonic pitch provides definitive harmonic closure within classical cadential formulas, fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-028",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences distinguishes clarinet from flute through overtone harmonic distribution, in order to preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-029",
+      "text": "Harmonic modulation to related keys via common pivot chords lowers the supertonic pitch degree to dramatically intensify dominant arrival, in order to synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-030",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth provides improvised chordal realization above an unadorned bass contour enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-031",
+      "text": "Voice leading principles in strict species counterpoint provides definitive harmonic closure within classical cadential formulas preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-032",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones distinguishes clarinet from flute through overtone harmonic distribution synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-033",
+      "text": "The minor pentatonic scale structuring modal folk melodies lowers the supertonic pitch degree to dramatically intensify dominant arrival, enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-034",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters provides improvised chordal realization above an unadorned bass contour, creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-035",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay establishes new tonal polarity smoothly without disorienting listener ear, in order to optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-036",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo prolongs harmonic tension across the barline before falling to stable rest adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-037",
+      "text": "Suspension dissonance resolving downward by step onto consonance repeats primary musical subjects across contrasting contrapuntal voices guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-038",
+      "text": "The acoustic overtone series in vibrating open air columns governs physical intervals of octaves, fifths, and natural major thirds, fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-039",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form strictly forbids parallel fifths and octaves to preserve voice independence, in order to preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-040",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge develops fundamental thematic material via melodic inversion and retrograde, in order to synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-041",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants equalizes frequency ratios to enable unrestricted modulation across all keys enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-042",
+      "text": "The melodic resolution of the leading tone to the tonic pitch enables enharmonic reinterpretation facilitating distant tonal excursions creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-043",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences avoids half-step dissonances allowing open consonant melodic contours, optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-044",
+      "text": "Harmonic modulation to related keys via common pivot chords blends distinct instrumental colors across rich orchestral tutti textures, in order to adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-045",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth shifts metric accentuation creating deliberate rhythmic tension and momentum, in order to guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-046",
+      "text": "Voice leading principles in strict species counterpoint enables enharmonic reinterpretation facilitating distant tonal excursions, in order to optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-047",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones avoids half-step dissonances allowing open consonant melodic contours adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-048",
+      "text": "The minor pentatonic scale structuring modal folk melodies blends distinct instrumental colors across rich orchestral tutti textures guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-049",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters shifts metric accentuation creating deliberate rhythmic tension and momentum, fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-050",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay provides definitive harmonic closure within classical cadential formulas, in order to preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-051",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo distinguishes clarinet from flute through overtone harmonic distribution, in order to synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-052",
+      "text": "Suspension dissonance resolving downward by step onto consonance lowers the supertonic pitch degree to dramatically intensify dominant arrival enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-053",
+      "text": "The acoustic overtone series in vibrating open air columns provides improvised chordal realization above an unadorned bass contour creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-054",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form establishes new tonal polarity smoothly without disorienting listener ear, optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-055",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge prolongs harmonic tension across the barline before falling to stable rest, in order to adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-056",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants repeats primary musical subjects across contrasting contrapuntal voices, in order to guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-057",
+      "text": "The melodic resolution of the leading tone to the tonic pitch governs physical intervals of octaves, fifths, and natural major thirds fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-058",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences strictly forbids parallel fifths and octaves to preserve voice independence, preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-059",
+      "text": "Harmonic modulation to related keys via common pivot chords develops fundamental thematic material via melodic inversion and retrograde, synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-060",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth equalizes frequency ratios to enable unrestricted modulation across all keys, in order to enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-061",
+      "text": "Voice leading principles in strict species counterpoint governs physical intervals of octaves, fifths, and natural major thirds, in order to preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-062",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones strictly forbids parallel fifths and octaves to preserve voice independence, in order to synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-063",
+      "text": "The minor pentatonic scale structuring modal folk melodies develops fundamental thematic material via melodic inversion and retrograde enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-064",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters equalizes frequency ratios to enable unrestricted modulation across all keys creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-065",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay enables enharmonic reinterpretation facilitating distant tonal excursions, optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-066",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo avoids half-step dissonances allowing open consonant melodic contours, in order to adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-067",
+      "text": "Suspension dissonance resolving downward by step onto consonance blends distinct instrumental colors across rich orchestral tutti textures, in order to guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-068",
+      "text": "The acoustic overtone series in vibrating open air columns shifts metric accentuation creating deliberate rhythmic tension and momentum fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-069",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form provides definitive harmonic closure within classical cadential formulas, preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-070",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge distinguishes clarinet from flute through overtone harmonic distribution, synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-071",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants lowers the supertonic pitch degree to dramatically intensify dominant arrival, in order to enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-072",
+      "text": "The melodic resolution of the leading tone to the tonic pitch provides improvised chordal realization above an unadorned bass contour, in order to creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-073",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences establishes new tonal polarity smoothly without disorienting listener ear optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-074",
+      "text": "Harmonic modulation to related keys via common pivot chords prolongs harmonic tension across the barline before falling to stable rest, adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-075",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth repeats primary musical subjects across contrasting contrapuntal voices, guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-076",
+      "text": "Voice leading principles in strict species counterpoint provides improvised chordal realization above an unadorned bass contour, optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-077",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones establishes new tonal polarity smoothly without disorienting listener ear, in order to adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-078",
+      "text": "The minor pentatonic scale structuring modal folk melodies prolongs harmonic tension across the barline before falling to stable rest, in order to guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-079",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters repeats primary musical subjects across contrasting contrapuntal voices fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-080",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay governs physical intervals of octaves, fifths, and natural major thirds, preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-081",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo strictly forbids parallel fifths and octaves to preserve voice independence, synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-082",
+      "text": "Suspension dissonance resolving downward by step onto consonance develops fundamental thematic material via melodic inversion and retrograde, in order to enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-083",
+      "text": "The acoustic overtone series in vibrating open air columns equalizes frequency ratios to enable unrestricted modulation across all keys, in order to creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-084",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form enables enharmonic reinterpretation facilitating distant tonal excursions optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-085",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge avoids half-step dissonances allowing open consonant melodic contours, adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-086",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants blends distinct instrumental colors across rich orchestral tutti textures, guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-087",
+      "text": "The melodic resolution of the leading tone to the tonic pitch shifts metric accentuation creating deliberate rhythmic tension and momentum, in order to fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-088",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences provides definitive harmonic closure within classical cadential formulas preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-089",
+      "text": "Harmonic modulation to related keys via common pivot chords distinguishes clarinet from flute through overtone harmonic distribution synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-090",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth lowers the supertonic pitch degree to dramatically intensify dominant arrival, enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-091",
+      "text": "Voice leading principles in strict species counterpoint shifts metric accentuation creating deliberate rhythmic tension and momentum, preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-092",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones provides definitive harmonic closure within classical cadential formulas, synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-093",
+      "text": "The minor pentatonic scale structuring modal folk melodies distinguishes clarinet from flute through overtone harmonic distribution, in order to enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-094",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters lowers the supertonic pitch degree to dramatically intensify dominant arrival, in order to creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-095",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay provides improvised chordal realization above an unadorned bass contour optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-096",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo establishes new tonal polarity smoothly without disorienting listener ear, adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-097",
+      "text": "Suspension dissonance resolving downward by step onto consonance prolongs harmonic tension across the barline before falling to stable rest, guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-098",
+      "text": "The acoustic overtone series in vibrating open air columns repeats primary musical subjects across contrasting contrapuntal voices, in order to fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-099",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form governs physical intervals of octaves, fifths, and natural major thirds preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-100",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge strictly forbids parallel fifths and octaves to preserve voice independence synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-101",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants develops fundamental thematic material via melodic inversion and retrograde, enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-102",
+      "text": "The melodic resolution of the leading tone to the tonic pitch equalizes frequency ratios to enable unrestricted modulation across all keys, creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-103",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences enables enharmonic reinterpretation facilitating distant tonal excursions, in order to optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-104",
+      "text": "Harmonic modulation to related keys via common pivot chords avoids half-step dissonances allowing open consonant melodic contours adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-105",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth blends distinct instrumental colors across rich orchestral tutti textures guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-106",
+      "text": "Voice leading principles in strict species counterpoint equalizes frequency ratios to enable unrestricted modulation across all keys optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-107",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones enables enharmonic reinterpretation facilitating distant tonal excursions, adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-108",
+      "text": "The minor pentatonic scale structuring modal folk melodies avoids half-step dissonances allowing open consonant melodic contours, guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-109",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters blends distinct instrumental colors across rich orchestral tutti textures, in order to fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-110",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay shifts metric accentuation creating deliberate rhythmic tension and momentum preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-111",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo provides definitive harmonic closure within classical cadential formulas synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-112",
+      "text": "Suspension dissonance resolving downward by step onto consonance distinguishes clarinet from flute through overtone harmonic distribution, enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-113",
+      "text": "The acoustic overtone series in vibrating open air columns lowers the supertonic pitch degree to dramatically intensify dominant arrival, creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-114",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form provides improvised chordal realization above an unadorned bass contour, in order to optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-115",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge establishes new tonal polarity smoothly without disorienting listener ear adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-116",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants prolongs harmonic tension across the barline before falling to stable rest guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-117",
+      "text": "The melodic resolution of the leading tone to the tonic pitch repeats primary musical subjects across contrasting contrapuntal voices, fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-118",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences governs physical intervals of octaves, fifths, and natural major thirds, in order to preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-119",
+      "text": "Harmonic modulation to related keys via common pivot chords strictly forbids parallel fifths and octaves to preserve voice independence, in order to synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-120",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth develops fundamental thematic material via melodic inversion and retrograde enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-121",
+      "text": "Voice leading principles in strict species counterpoint repeats primary musical subjects across contrasting contrapuntal voices preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-122",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones governs physical intervals of octaves, fifths, and natural major thirds synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-123",
+      "text": "The minor pentatonic scale structuring modal folk melodies strictly forbids parallel fifths and octaves to preserve voice independence, enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-124",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters develops fundamental thematic material via melodic inversion and retrograde, creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-125",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay equalizes frequency ratios to enable unrestricted modulation across all keys, in order to optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-126",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo enables enharmonic reinterpretation facilitating distant tonal excursions adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-127",
+      "text": "Suspension dissonance resolving downward by step onto consonance avoids half-step dissonances allowing open consonant melodic contours guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-128",
+      "text": "The acoustic overtone series in vibrating open air columns blends distinct instrumental colors across rich orchestral tutti textures, fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-129",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form shifts metric accentuation creating deliberate rhythmic tension and momentum, in order to preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-130",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge provides definitive harmonic closure within classical cadential formulas, in order to synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-131",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants distinguishes clarinet from flute through overtone harmonic distribution enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-132",
+      "text": "The melodic resolution of the leading tone to the tonic pitch lowers the supertonic pitch degree to dramatically intensify dominant arrival creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-133",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences provides improvised chordal realization above an unadorned bass contour, optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-134",
+      "text": "Harmonic modulation to related keys via common pivot chords establishes new tonal polarity smoothly without disorienting listener ear, in order to adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-135",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth prolongs harmonic tension across the barline before falling to stable rest, in order to guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-136",
+      "text": "Voice leading principles in strict species counterpoint lowers the supertonic pitch degree to dramatically intensify dominant arrival, in order to optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-137",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones provides improvised chordal realization above an unadorned bass contour adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-138",
+      "text": "The minor pentatonic scale structuring modal folk melodies establishes new tonal polarity smoothly without disorienting listener ear guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-139",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters prolongs harmonic tension across the barline before falling to stable rest, fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-140",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay repeats primary musical subjects across contrasting contrapuntal voices, in order to preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-141",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo governs physical intervals of octaves, fifths, and natural major thirds, in order to synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-142",
+      "text": "Suspension dissonance resolving downward by step onto consonance strictly forbids parallel fifths and octaves to preserve voice independence enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-143",
+      "text": "The acoustic overtone series in vibrating open air columns develops fundamental thematic material via melodic inversion and retrograde creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-144",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form equalizes frequency ratios to enable unrestricted modulation across all keys, optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-145",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge enables enharmonic reinterpretation facilitating distant tonal excursions, in order to adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-146",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants avoids half-step dissonances allowing open consonant melodic contours, in order to guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-147",
+      "text": "The melodic resolution of the leading tone to the tonic pitch blends distinct instrumental colors across rich orchestral tutti textures fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-148",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences shifts metric accentuation creating deliberate rhythmic tension and momentum, preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-149",
+      "text": "Harmonic modulation to related keys via common pivot chords provides definitive harmonic closure within classical cadential formulas, synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-150",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth distinguishes clarinet from flute through overtone harmonic distribution, in order to enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-151",
+      "text": "Voice leading principles in strict species counterpoint blends distinct instrumental colors across rich orchestral tutti textures, in order to preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-152",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones shifts metric accentuation creating deliberate rhythmic tension and momentum, in order to synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-153",
+      "text": "The minor pentatonic scale structuring modal folk melodies provides definitive harmonic closure within classical cadential formulas enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-154",
+      "text": "Syncopated rhythmic patterns across asymmetrical complex meters distinguishes clarinet from flute through overtone harmonic distribution creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-155",
+      "text": "Instrumental timbre determined by harmonic envelope spectral decay lowers the supertonic pitch degree to dramatically intensify dominant arrival, optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-156",
+      "text": "Figured bass realization in Baroque chamber ensemble continuo provides improvised chordal realization above an unadorned bass contour, in order to adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-157",
+      "text": "Suspension dissonance resolving downward by step onto consonance establishes new tonal polarity smoothly without disorienting listener ear, in order to guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-158",
+      "text": "The acoustic overtone series in vibrating open air columns prolongs harmonic tension across the barline before falling to stable rest fulfilling stylistic requirements of classical and baroque compositional schools.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-159",
+      "text": "Motivic development and fragmentation in classical sonata-allegro form repeats primary musical subjects across contrasting contrapuntal voices, preserving structural coherence throughout multi-movement symphonic works.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-160",
+      "text": "The fully diminished seventh chord functioning as a chromatic hinge governs physical intervals of octaves, fifths, and natural major thirds, synthesizing strict contrapuntal discipline with free melodic invention.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-161",
+      "text": "Orchestral woodwind instrument tessituras and spectral formants strictly forbids parallel fifths and octaves to preserve voice independence, in order to enhancing polyphonic clarity and emotional expression across vocal choirs.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-162",
+      "text": "The melodic resolution of the leading tone to the tonic pitch develops fundamental thematic material via melodic inversion and retrograde, in order to creating compelling dramatic tension across classical sonata expositions.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-163",
+      "text": "The Neapolitan sixth chord preceding final authentic cadences equalizes frequency ratios to enable unrestricted modulation across all keys optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-164",
+      "text": "Harmonic modulation to related keys via common pivot chords enables enharmonic reinterpretation facilitating distant tonal excursions, adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-165",
+      "text": "Imitative polyphonic counterpoint in strict canon at the fifth avoids half-step dissonances allowing open consonant melodic contours, guiding nuanced expressive phrasing and dynamic shaping during performance.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-166",
+      "text": "Voice leading principles in strict species counterpoint develops fundamental thematic material via melodic inversion and retrograde, optimizing acoustic resonance and blend in dedicated orchestral halls.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-en-167",
+      "text": "Equal temperament tuning dividing the octave into twelve semitones equalizes frequency ratios to enable unrestricted modulation across all keys, in order to adhering to canonical treatises on functional harmony and voice leading.",
+      "lang": "en",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-001",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-002",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-003",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-004",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-005",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-006",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-007",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-008",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-009",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-010",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-011",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-012",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-013",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-014",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-015",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-016",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-017",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-018",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-019",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-020",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-021",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-022",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-023",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-024",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-025",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-026",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-027",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-028",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-029",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-030",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-031",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-032",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-033",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-034",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-035",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-036",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-037",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-038",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-039",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-040",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-041",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-042",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-043",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-044",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-045",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-046",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-047",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-048",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-049",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-050",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-051",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-052",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-053",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-054",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-055",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-056",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-057",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-058",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-059",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-060",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-061",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-062",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-063",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-064",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-065",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-066",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-067",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-068",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-069",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-070",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-071",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-072",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-073",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-074",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-075",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-076",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-077",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-078",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-079",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-080",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-081",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-082",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-083",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-084",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-085",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-086",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-087",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-088",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-089",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-090",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-091",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-092",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-093",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-094",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-095",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-096",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-097",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-098",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-099",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-100",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-101",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-102",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-103",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-104",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-105",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-106",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-107",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-108",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-109",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-110",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-111",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-112",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-113",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-114",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-115",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-116",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-117",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-118",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-119",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-120",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-121",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-122",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-123",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-124",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-125",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-126",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-127",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-128",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-129",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-130",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-131",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-132",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-133",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-134",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-135",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-136",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-137",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-138",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-139",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst, gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-140",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-141",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-142",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-143",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-144",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-145",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-146",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-147",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-148",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-149",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-150",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-151",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux bereichert das orchestrale Klangbild um fein abgestimmte Farbnuancen, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-152",
+      "text": "Die gleichstufige Stimmung der zwölf chromatischen Halbtöne erzeugt reizvolle rhythmische Spannungen gegen das starre Taktgerüst, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-153",
+      "text": "Die pentatonische Tonleiter in traditionellen Volksmelodien verleiht der Phrase einen klaren harmonischen und formalen Ruhepunkt zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-154",
+      "text": "Synkopische Rhythmen und Taktverschiebungen in ungeraden Metren unterscheidet Instrumente selbst bei identischer Tonhöhe und Lautstärke zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-155",
+      "text": "Die akustische Klangfarbe geformt durch das Obertoneinspektrum vertieft die Moll-Charakteristik vor der abschließenden dominanten Kadenz, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-156",
+      "text": "Die Generalbassbegleitung in der barocken Kammermusik liefert das harmonische Fundament für improvisierte Auszierungen des Cembalos, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-157",
+      "text": "Die Dissonanz des Vorhalts mit stufenweiser Auflösung nach unten ermöglicht einen nahtlosen Übergang in eine neue Tonart ohne Bruch, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-158",
+      "text": "Die physikalische Obertonreihe schwingender Luftsäulen und Saiten erzeugt harmonische Reibung, die sich sanft in die Konsonanz auflöst gemäß den stilistischen Kriterien der westeuropäischen Musiktradition.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-159",
+      "text": "Die thematische Durchführung in der klassischen Sonatenhauptsatzform führt das Thema zeitversetzt in exakten Intervallabständen polyphon durch, zur Erzielung vollendeter formaler Geschlossenheit im musikalischen Werk.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-160",
+      "text": "Der verminderte Septakkord als enharmonisches Modulationswerkzeug bestimmt die physikalischen Frequenzverhältnisse von Oktave, Quinte und Quarte, zur kunstvollen Verbindung von Formdisziplin und emotionalem Ausdruck.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-161",
+      "text": "Die klangliche Farbpalette und der Tonumfang der Holzblasinstrumente verbietet verdeckte und offene Quintenparallelen zur Wahrung der Selbständigkeit, zur Steigerung der kontrapunktischen Dichte und klanglichen Transparenz.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-162",
+      "text": "Die Auflösung des Leittons in den Grundton bei der Ganzschlusskadenz zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch, zur Entfaltung eines reichen und dynamisch ausgewogenen Klangraums.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-163",
+      "text": "Der neapolitanische Sextakkord vor dem dominanten Halbschluss macht alle Tonarten ohne störende Schwebungen der Wolfsquinte spielbar für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-164",
+      "text": "Die harmonische Modulation in Nachbartonarten über Zwischendominanten eröffnet durch vieldeutige Schreibweisen Wege in weit entfernte Tonbereiche, unter Beachtung der historischen Regeln der klassischen Tonsatzlehre.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-165",
+      "text": "Die polyphone Imitation im strengen Quintkanon für Vokalstimmen verzichtet auf leittönige Halbtöne und wirkt dadurch besonders schwebend, unter Berücksichtigung historischer Aufführungspraxis alter Musik.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    },
+    {
+      "id": "musica-de-166",
+      "text": "Die Stimmführung im strengen Kontrapunkt nach Johann Joseph Fux zerlegt Hauptmotive in kleinste Bruchstücke und verarbeitet sie kontrapunktisch, für ein optimales Zusammenspiel von Orchester, Chor und Solisten.",
+      "lang": "de",
+      "source": "corpus-trilingue-musica"
+    }
+  ]
+}

@@ -100,8 +100,9 @@ def compute_intrinsic_profile(
 def run_protocolo_01(
     rows_path: Path = DEFAULT_ROWS_PATH,
     out_dir: Path = DEFAULT_OUT_DIR,
+    almas: tuple[str, ...] | list[str] | None = None,
 ) -> dict[str, Any]:
-    """Ejecuta el Protocolo 01 sobre los 5 corpus canónicos y guarda resultados."""
+    """Ejecuta el Protocolo 01 sobre los corpus canónicos y guarda resultados."""
     if not rows_path.exists():
         raise FileNotFoundError(f"No se encontró archivo de datos: {rows_path}")
 
@@ -117,7 +118,9 @@ def run_protocolo_01(
         "almas": {},
     }
 
-    for alma in ALMAS_ECUALIZADOR:
+    almas_to_process = tuple(almas) if almas is not None else ALMAS_ECUALIZADOR
+
+    for alma in almas_to_process:
         if alma not in data:
             raise KeyError(f"Corpus '{alma}' no encontrado en {rows_path}")
 

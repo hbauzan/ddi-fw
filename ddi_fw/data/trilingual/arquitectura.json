@@ -1,0 +1,3007 @@
+{
+  "alma": "arquitectura",
+  "n": 500,
+  "description": "Mazo trilingüe de arquitectura (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "arquitectura-es-001",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón distribuye los esfuerzos internos optimizando la sección geométrica resistente, en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-002",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas evita fallos catastróficos por inestabilidad elástica de segundo orden, coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-003",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada asegura la transmisión integral de momentos sin plastificaciones locales, con el fin de optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-004",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte garantiza el confort de los usuarios y previene fisuras en tabiquerías, con el fin de respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-005",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-006",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas uniformiza las presiones de contacto sobre suelos de baja capacidad portante, garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-007",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar previene la rotura frágil por tensión diagonal en las almas de las vigas, garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-008",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales transfiere las cargas estructurales a estratos portantes profundos del terreno, con el fin de para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-009",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos absorbe movimientos dimensionales evitando tensiones térmicas destructivas en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-010",
+      "text": "La verificación del estado límite de deformación y flecha elástica determina las solicitaciones pésimas para la combinación de hipótesis de carga coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-011",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos, optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-012",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado introduce compresiones previas que contrarrestan las tracciones por flexión, respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-013",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso optimiza la ganancia solar pasiva y la ventilación natural cruzada, con el fin de mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-014",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia reduce la transmitancia térmica minimizando condensaciones intersticiales garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-015",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos disipa energía cinética mediante deformaciones dúctiles de los pórticos garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-016",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón introduce compresiones previas que contrarrestan las tracciones por flexión mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-017",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas optimiza la ganancia solar pasiva y la ventilación natural cruzada, garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-018",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada reduce la transmitancia térmica minimizando condensaciones intersticiales, garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-019",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte disipa energía cinética mediante deformaciones dúctiles de los pórticos, con el fin de para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-020",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud distribuye los esfuerzos internos optimizando la sección geométrica resistente en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-021",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas evita fallos catastróficos por inestabilidad elástica de segundo orden coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-022",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar asegura la transmisión integral de momentos sin plastificaciones locales, optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-023",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales garantiza el confort de los usuarios y previene fisuras en tabiquerías, respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-024",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia, con el fin de mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-025",
+      "text": "La verificación del estado límite de deformación y flecha elástica uniformiza las presiones de contacto sobre suelos de baja capacidad portante garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-026",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado previene la rotura frágil por tensión diagonal en las almas de las vigas garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-027",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado transfiere las cargas estructurales a estratos portantes profundos del terreno, para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-028",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso absorbe movimientos dimensionales evitando tensiones térmicas destructivas, con el fin de en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-029",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia determina las solicitaciones pésimas para la combinación de hipótesis de carga, con el fin de coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-030",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-031",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón transfiere las cargas estructurales a estratos portantes profundos del terreno en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-032",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas absorbe movimientos dimensionales evitando tensiones térmicas destructivas coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-033",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada determina las solicitaciones pésimas para la combinación de hipótesis de carga, optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-034",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos, respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-035",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud introduce compresiones previas que contrarrestan las tracciones por flexión, con el fin de mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-036",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas optimiza la ganancia solar pasiva y la ventilación natural cruzada garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-037",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar reduce la transmitancia térmica minimizando condensaciones intersticiales garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-038",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales disipa energía cinética mediante deformaciones dúctiles de los pórticos, para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-039",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos distribuye los esfuerzos internos optimizando la sección geométrica resistente, con el fin de en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-040",
+      "text": "La verificación del estado límite de deformación y flecha elástica evita fallos catastróficos por inestabilidad elástica de segundo orden, con el fin de coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-041",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado asegura la transmisión integral de momentos sin plastificaciones locales optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-042",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado garantiza el confort de los usuarios y previene fisuras en tabiquerías respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-043",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia, mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-044",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia uniformiza las presiones de contacto sobre suelos de baja capacidad portante, con el fin de garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-045",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos previene la rotura frágil por tensión diagonal en las almas de las vigas, con el fin de garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-046",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón garantiza el confort de los usuarios y previene fisuras en tabiquerías, con el fin de mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-047",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-048",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada uniformiza las presiones de contacto sobre suelos de baja capacidad portante garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-049",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte previene la rotura frágil por tensión diagonal en las almas de las vigas, para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-050",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud transfiere las cargas estructurales a estratos portantes profundos del terreno, con el fin de en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-051",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas absorbe movimientos dimensionales evitando tensiones térmicas destructivas, con el fin de coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-052",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar determina las solicitaciones pésimas para la combinación de hipótesis de carga optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-053",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-054",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos introduce compresiones previas que contrarrestan las tracciones por flexión, mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-055",
+      "text": "La verificación del estado límite de deformación y flecha elástica optimiza la ganancia solar pasiva y la ventilación natural cruzada, con el fin de garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-056",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado reduce la transmitancia térmica minimizando condensaciones intersticiales, con el fin de garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-057",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado disipa energía cinética mediante deformaciones dúctiles de los pórticos para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-058",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso distribuye los esfuerzos internos optimizando la sección geométrica resistente, en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-059",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia evita fallos catastróficos por inestabilidad elástica de segundo orden, coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-060",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos asegura la transmisión integral de momentos sin plastificaciones locales, con el fin de optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-061",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón disipa energía cinética mediante deformaciones dúctiles de los pórticos, con el fin de en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-062",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas distribuye los esfuerzos internos optimizando la sección geométrica resistente, con el fin de coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-063",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada evita fallos catastróficos por inestabilidad elástica de segundo orden optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-064",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte asegura la transmisión integral de momentos sin plastificaciones locales respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-065",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud garantiza el confort de los usuarios y previene fisuras en tabiquerías, mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-066",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia, con el fin de garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-067",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar uniformiza las presiones de contacto sobre suelos de baja capacidad portante, con el fin de garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-068",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales previene la rotura frágil por tensión diagonal en las almas de las vigas para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-069",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos transfiere las cargas estructurales a estratos portantes profundos del terreno, en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-070",
+      "text": "La verificación del estado límite de deformación y flecha elástica absorbe movimientos dimensionales evitando tensiones térmicas destructivas, coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-071",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado determina las solicitaciones pésimas para la combinación de hipótesis de carga, con el fin de optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-072",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos, con el fin de respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-073",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso introduce compresiones previas que contrarrestan las tracciones por flexión mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-074",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia optimiza la ganancia solar pasiva y la ventilación natural cruzada, garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-075",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos reduce la transmitancia térmica minimizando condensaciones intersticiales, garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-076",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos, mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-077",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas introduce compresiones previas que contrarrestan las tracciones por flexión, con el fin de garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-078",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada optimiza la ganancia solar pasiva y la ventilación natural cruzada, con el fin de garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-079",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte reduce la transmitancia térmica minimizando condensaciones intersticiales para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-080",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud disipa energía cinética mediante deformaciones dúctiles de los pórticos, en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-081",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas distribuye los esfuerzos internos optimizando la sección geométrica resistente, coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-082",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar evita fallos catastróficos por inestabilidad elástica de segundo orden, con el fin de optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-083",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales asegura la transmisión integral de momentos sin plastificaciones locales, con el fin de respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-084",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos garantiza el confort de los usuarios y previene fisuras en tabiquerías mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-085",
+      "text": "La verificación del estado límite de deformación y flecha elástica desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia, garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-086",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado uniformiza las presiones de contacto sobre suelos de baja capacidad portante, garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-087",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado previene la rotura frágil por tensión diagonal en las almas de las vigas, con el fin de para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-088",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso transfiere las cargas estructurales a estratos portantes profundos del terreno en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-089",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia absorbe movimientos dimensionales evitando tensiones térmicas destructivas coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-090",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos determina las solicitaciones pésimas para la combinación de hipótesis de carga, optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-091",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón previene la rotura frágil por tensión diagonal en las almas de las vigas, en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-092",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas transfiere las cargas estructurales a estratos portantes profundos del terreno, coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-093",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada absorbe movimientos dimensionales evitando tensiones térmicas destructivas, con el fin de optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-094",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte determina las solicitaciones pésimas para la combinación de hipótesis de carga, con el fin de respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-095",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-096",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas introduce compresiones previas que contrarrestan las tracciones por flexión, garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-097",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar optimiza la ganancia solar pasiva y la ventilación natural cruzada, garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-098",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales reduce la transmitancia térmica minimizando condensaciones intersticiales, con el fin de para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-099",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos disipa energía cinética mediante deformaciones dúctiles de los pórticos en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-100",
+      "text": "La verificación del estado límite de deformación y flecha elástica distribuye los esfuerzos internos optimizando la sección geométrica resistente coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-101",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado evita fallos catastróficos por inestabilidad elástica de segundo orden, optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-102",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado asegura la transmisión integral de momentos sin plastificaciones locales, respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-103",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso garantiza el confort de los usuarios y previene fisuras en tabiquerías, con el fin de mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-104",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-105",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos uniformiza las presiones de contacto sobre suelos de baja capacidad portante garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-106",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón asegura la transmisión integral de momentos sin plastificaciones locales mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-107",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas garantiza el confort de los usuarios y previene fisuras en tabiquerías, garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-108",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia, garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-109",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte uniformiza las presiones de contacto sobre suelos de baja capacidad portante, con el fin de para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-110",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud previene la rotura frágil por tensión diagonal en las almas de las vigas en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-111",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas transfiere las cargas estructurales a estratos portantes profundos del terreno coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-112",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar absorbe movimientos dimensionales evitando tensiones térmicas destructivas, optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-113",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales determina las solicitaciones pésimas para la combinación de hipótesis de carga, respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-114",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos, con el fin de mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-115",
+      "text": "La verificación del estado límite de deformación y flecha elástica introduce compresiones previas que contrarrestan las tracciones por flexión garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-116",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado optimiza la ganancia solar pasiva y la ventilación natural cruzada garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-117",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado reduce la transmitancia térmica minimizando condensaciones intersticiales, para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-118",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso disipa energía cinética mediante deformaciones dúctiles de los pórticos, con el fin de en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-119",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia distribuye los esfuerzos internos optimizando la sección geométrica resistente, con el fin de coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-120",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos evita fallos catastróficos por inestabilidad elástica de segundo orden optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-121",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón reduce la transmitancia térmica minimizando condensaciones intersticiales en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-122",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas disipa energía cinética mediante deformaciones dúctiles de los pórticos coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-123",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada distribuye los esfuerzos internos optimizando la sección geométrica resistente, optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-124",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte evita fallos catastróficos por inestabilidad elástica de segundo orden, respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-125",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud asegura la transmisión integral de momentos sin plastificaciones locales, con el fin de mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-126",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas garantiza el confort de los usuarios y previene fisuras en tabiquerías garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-127",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-128",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales uniformiza las presiones de contacto sobre suelos de baja capacidad portante, para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-129",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos previene la rotura frágil por tensión diagonal en las almas de las vigas, con el fin de en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-130",
+      "text": "La verificación del estado límite de deformación y flecha elástica transfiere las cargas estructurales a estratos portantes profundos del terreno, con el fin de coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-131",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado absorbe movimientos dimensionales evitando tensiones térmicas destructivas optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-132",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado determina las solicitaciones pésimas para la combinación de hipótesis de carga respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-133",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos, mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-134",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia introduce compresiones previas que contrarrestan las tracciones por flexión, con el fin de garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-135",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos optimiza la ganancia solar pasiva y la ventilación natural cruzada, con el fin de garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-136",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón determina las solicitaciones pésimas para la combinación de hipótesis de carga, con el fin de mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-137",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-138",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada introduce compresiones previas que contrarrestan las tracciones por flexión garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-139",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte optimiza la ganancia solar pasiva y la ventilación natural cruzada, para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-140",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud reduce la transmitancia térmica minimizando condensaciones intersticiales, con el fin de en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-141",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas disipa energía cinética mediante deformaciones dúctiles de los pórticos, con el fin de coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-142",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar distribuye los esfuerzos internos optimizando la sección geométrica resistente optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-143",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales evita fallos catastróficos por inestabilidad elástica de segundo orden respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-144",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos asegura la transmisión integral de momentos sin plastificaciones locales, mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-145",
+      "text": "La verificación del estado límite de deformación y flecha elástica garantiza el confort de los usuarios y previene fisuras en tabiquerías, con el fin de garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-146",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia, con el fin de garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-147",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado uniformiza las presiones de contacto sobre suelos de baja capacidad portante para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-148",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso previene la rotura frágil por tensión diagonal en las almas de las vigas, en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-149",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia transfiere las cargas estructurales a estratos portantes profundos del terreno, coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-150",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos absorbe movimientos dimensionales evitando tensiones térmicas destructivas, con el fin de optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-151",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón uniformiza las presiones de contacto sobre suelos de baja capacidad portante, con el fin de en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-152",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas previene la rotura frágil por tensión diagonal en las almas de las vigas, con el fin de coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-153",
+      "text": "El anclaje de barras corrugadas por longitud de solape en zona confinada transfiere las cargas estructurales a estratos portantes profundos del terreno optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-154",
+      "text": "La armadura de refuerzo transversal para absorber esfuerzos de corte absorbe movimientos dimensionales evitando tensiones térmicas destructivas respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-155",
+      "text": "La colocación de juntas de dilatación térmica en edificios de gran longitud determina las solicitaciones pésimas para la combinación de hipótesis de carga, mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-156",
+      "text": "El dimensionamiento de losas macizas bidireccionales apoyadas sobre columnas resiste punzonamiento mediante refuerzos radiales alrededor de los apoyos, con el fin de garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-157",
+      "text": "El diseño bioclimático de fachadas ventiladas con protección solar introduce compresiones previas que contrarrestan las tracciones por flexión, con el fin de garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-158",
+      "text": "El arriostramiento estructural frente a acciones sísmicas horizontales optimiza la ganancia solar pasiva y la ventilación natural cruzada para asegurar el cumplimiento de los estados límites últimos y de servicio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-159",
+      "text": "La estabilidad frente al pandeo de pilares esbeltos comprimidos reduce la transmitancia térmica minimizando condensaciones intersticiales, en estricto apego a las normas de seguridad estructural y códigos de edificación.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-160",
+      "text": "La verificación del estado límite de deformación y flecha elástica disipa energía cinética mediante deformaciones dúctiles de los pórticos, coordinando el proyecto arquitectónico con la ingeniería estructural de detalle.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-161",
+      "text": "La cimentación superficial mediante losa continua de hormigón armado distribuye los esfuerzos internos optimizando la sección geométrica resistente, con el fin de optimizando la eficiencia energética y la sostenibilidad ambiental del edificio.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-162",
+      "text": "El diseño de cimentaciones profundas mediante pilotes de hormigón armado evita fallos catastróficos por inestabilidad elástica de segundo orden, con el fin de respetando las condiciones de habitabilidad y funcionalidad arquitectónica.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-163",
+      "text": "El cálculo de cargas gravitatorias permanentes y sobrecargas de uso asegura la transmisión integral de momentos sin plastificaciones locales mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-164",
+      "text": "El pretensado de vigas maestras mediante cordones de acero de alta resistencia garantiza el confort de los usuarios y previene fisuras en tabiquerías, garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-165",
+      "text": "La física de la envolvente edilicia y el aislamiento de puentes térmicos desarrolla la adherencia mecánica necesaria para alcanzar la tensión de fluencia, garantizando un factor de seguridad adecuado frente al colapso estructural.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-166",
+      "text": "El cálculo de momentos flectores en pórticos hiperestáticos de hormigón evita fallos catastróficos por inestabilidad elástica de segundo orden, mediante modelos numéricos avanzados de análisis por elementos finitos.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-es-167",
+      "text": "El análisis de tensiones en nudos rígidos de estructuras metálicas asegura la transmisión integral de momentos sin plastificaciones locales, con el fin de garantizando la integridad sismorresistente y la durabilidad de la obra civil.",
+      "lang": "es",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-001",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames redistributes internal forces to optimize cross-sectional concrete efficiency, complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-002",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints prevents sudden catastrophic second-order elastic bifurcation failures, harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-003",
+      "text": "Deformed rebar development length anchorage in heavily congested joints guarantees full moment transmission without localized plate yield buckling, in order to optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-004",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs prevents cosmetic cracking in non-structural masonry partitions and finishes, in order to elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-005",
+      "text": "Structural expansion joint placement across large continuous building footprints ensures steel rebar yields prior to localized mechanical concrete pullout validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-006",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses mitigates differential settlement across heterogeneous compressible clay layers, ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-007",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades resists diagonal tension stresses preventing sudden diagonal shear cracking, providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-008",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces transfers heavy superstructure loads into competent deep bedrock strata, in order to fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-009",
+      "text": "Euler buckling analysis for slender vertical structural compression columns accommodates cyclical thermal expansion preventing secondary tensile stress complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-010",
+      "text": "Verification of serviceability limit state for maximum elastic deflection defines governing load cases for ultimate structural limit state checks harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-011",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity prevents brittle punching shear failure around internal column perimeters, optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-012",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles imparts pre-compressive stress to cancel anticipated tensile tensile stresses, elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-013",
+      "text": "Gravitational dead load and live occupancy load combination calculations maximizes daylighting while mitigating excessive summer solar cooling loads, in order to validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-014",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands minimizes interstitial moisture condensation and reduces heating demand ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-015",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation dissipates seismic kinetic energy through controlled plastic ductile yielding providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-016",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames imparts pre-compressive stress to cancel anticipated tensile tensile stresses validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-017",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints maximizes daylighting while mitigating excessive summer solar cooling loads, ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-018",
+      "text": "Deformed rebar development length anchorage in heavily congested joints minimizes interstitial moisture condensation and reduces heating demand, providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-019",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs dissipates seismic kinetic energy through controlled plastic ductile yielding, in order to fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-020",
+      "text": "Structural expansion joint placement across large continuous building footprints redistributes internal forces to optimize cross-sectional concrete efficiency complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-021",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses prevents sudden catastrophic second-order elastic bifurcation failures harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-022",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades guarantees full moment transmission without localized plate yield buckling, optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-023",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces prevents cosmetic cracking in non-structural masonry partitions and finishes, elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-024",
+      "text": "Euler buckling analysis for slender vertical structural compression columns ensures steel rebar yields prior to localized mechanical concrete pullout, in order to validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-025",
+      "text": "Verification of serviceability limit state for maximum elastic deflection mitigates differential settlement across heterogeneous compressible clay layers ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-026",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity resists diagonal tension stresses preventing sudden diagonal shear cracking providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-027",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles transfers heavy superstructure loads into competent deep bedrock strata, fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-028",
+      "text": "Gravitational dead load and live occupancy load combination calculations accommodates cyclical thermal expansion preventing secondary tensile stress, in order to complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-029",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands defines governing load cases for ultimate structural limit state checks, in order to harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-030",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation prevents brittle punching shear failure around internal column perimeters optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-031",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames transfers heavy superstructure loads into competent deep bedrock strata complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-032",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints accommodates cyclical thermal expansion preventing secondary tensile stress harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-033",
+      "text": "Deformed rebar development length anchorage in heavily congested joints defines governing load cases for ultimate structural limit state checks, optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-034",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs prevents brittle punching shear failure around internal column perimeters, elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-035",
+      "text": "Structural expansion joint placement across large continuous building footprints imparts pre-compressive stress to cancel anticipated tensile tensile stresses, in order to validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-036",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses maximizes daylighting while mitigating excessive summer solar cooling loads ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-037",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades minimizes interstitial moisture condensation and reduces heating demand providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-038",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces dissipates seismic kinetic energy through controlled plastic ductile yielding, fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-039",
+      "text": "Euler buckling analysis for slender vertical structural compression columns redistributes internal forces to optimize cross-sectional concrete efficiency, in order to complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-040",
+      "text": "Verification of serviceability limit state for maximum elastic deflection prevents sudden catastrophic second-order elastic bifurcation failures, in order to harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-041",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity guarantees full moment transmission without localized plate yield buckling optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-042",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles prevents cosmetic cracking in non-structural masonry partitions and finishes elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-043",
+      "text": "Gravitational dead load and live occupancy load combination calculations ensures steel rebar yields prior to localized mechanical concrete pullout, validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-044",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands mitigates differential settlement across heterogeneous compressible clay layers, in order to ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-045",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation resists diagonal tension stresses preventing sudden diagonal shear cracking, in order to providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-046",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames prevents cosmetic cracking in non-structural masonry partitions and finishes, in order to validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-047",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints ensures steel rebar yields prior to localized mechanical concrete pullout ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-048",
+      "text": "Deformed rebar development length anchorage in heavily congested joints mitigates differential settlement across heterogeneous compressible clay layers providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-049",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs resists diagonal tension stresses preventing sudden diagonal shear cracking, fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-050",
+      "text": "Structural expansion joint placement across large continuous building footprints transfers heavy superstructure loads into competent deep bedrock strata, in order to complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-051",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses accommodates cyclical thermal expansion preventing secondary tensile stress, in order to harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-052",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades defines governing load cases for ultimate structural limit state checks optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-053",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces prevents brittle punching shear failure around internal column perimeters elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-054",
+      "text": "Euler buckling analysis for slender vertical structural compression columns imparts pre-compressive stress to cancel anticipated tensile tensile stresses, validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-055",
+      "text": "Verification of serviceability limit state for maximum elastic deflection maximizes daylighting while mitigating excessive summer solar cooling loads, in order to ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-056",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity minimizes interstitial moisture condensation and reduces heating demand, in order to providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-057",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles dissipates seismic kinetic energy through controlled plastic ductile yielding fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-058",
+      "text": "Gravitational dead load and live occupancy load combination calculations redistributes internal forces to optimize cross-sectional concrete efficiency, complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-059",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands prevents sudden catastrophic second-order elastic bifurcation failures, harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-060",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation guarantees full moment transmission without localized plate yield buckling, in order to optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-061",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames dissipates seismic kinetic energy through controlled plastic ductile yielding, in order to complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-062",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints redistributes internal forces to optimize cross-sectional concrete efficiency, in order to harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-063",
+      "text": "Deformed rebar development length anchorage in heavily congested joints prevents sudden catastrophic second-order elastic bifurcation failures optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-064",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs guarantees full moment transmission without localized plate yield buckling elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-065",
+      "text": "Structural expansion joint placement across large continuous building footprints prevents cosmetic cracking in non-structural masonry partitions and finishes, validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-066",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses ensures steel rebar yields prior to localized mechanical concrete pullout, in order to ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-067",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades mitigates differential settlement across heterogeneous compressible clay layers, in order to providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-068",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces resists diagonal tension stresses preventing sudden diagonal shear cracking fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-069",
+      "text": "Euler buckling analysis for slender vertical structural compression columns transfers heavy superstructure loads into competent deep bedrock strata, complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-070",
+      "text": "Verification of serviceability limit state for maximum elastic deflection accommodates cyclical thermal expansion preventing secondary tensile stress, harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-071",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity defines governing load cases for ultimate structural limit state checks, in order to optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-072",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles prevents brittle punching shear failure around internal column perimeters, in order to elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-073",
+      "text": "Gravitational dead load and live occupancy load combination calculations imparts pre-compressive stress to cancel anticipated tensile tensile stresses validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-074",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands maximizes daylighting while mitigating excessive summer solar cooling loads, ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-075",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation minimizes interstitial moisture condensation and reduces heating demand, providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-076",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames prevents brittle punching shear failure around internal column perimeters, validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-077",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints imparts pre-compressive stress to cancel anticipated tensile tensile stresses, in order to ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-078",
+      "text": "Deformed rebar development length anchorage in heavily congested joints maximizes daylighting while mitigating excessive summer solar cooling loads, in order to providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-079",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs minimizes interstitial moisture condensation and reduces heating demand fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-080",
+      "text": "Structural expansion joint placement across large continuous building footprints dissipates seismic kinetic energy through controlled plastic ductile yielding, complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-081",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses redistributes internal forces to optimize cross-sectional concrete efficiency, harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-082",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades prevents sudden catastrophic second-order elastic bifurcation failures, in order to optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-083",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces guarantees full moment transmission without localized plate yield buckling, in order to elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-084",
+      "text": "Euler buckling analysis for slender vertical structural compression columns prevents cosmetic cracking in non-structural masonry partitions and finishes validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-085",
+      "text": "Verification of serviceability limit state for maximum elastic deflection ensures steel rebar yields prior to localized mechanical concrete pullout, ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-086",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity mitigates differential settlement across heterogeneous compressible clay layers, providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-087",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles resists diagonal tension stresses preventing sudden diagonal shear cracking, in order to fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-088",
+      "text": "Gravitational dead load and live occupancy load combination calculations transfers heavy superstructure loads into competent deep bedrock strata complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-089",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands accommodates cyclical thermal expansion preventing secondary tensile stress harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-090",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation defines governing load cases for ultimate structural limit state checks, optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-091",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames resists diagonal tension stresses preventing sudden diagonal shear cracking, complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-092",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints transfers heavy superstructure loads into competent deep bedrock strata, harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-093",
+      "text": "Deformed rebar development length anchorage in heavily congested joints accommodates cyclical thermal expansion preventing secondary tensile stress, in order to optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-094",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs defines governing load cases for ultimate structural limit state checks, in order to elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-095",
+      "text": "Structural expansion joint placement across large continuous building footprints prevents brittle punching shear failure around internal column perimeters validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-096",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses imparts pre-compressive stress to cancel anticipated tensile tensile stresses, ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-097",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades maximizes daylighting while mitigating excessive summer solar cooling loads, providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-098",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces minimizes interstitial moisture condensation and reduces heating demand, in order to fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-099",
+      "text": "Euler buckling analysis for slender vertical structural compression columns dissipates seismic kinetic energy through controlled plastic ductile yielding complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-100",
+      "text": "Verification of serviceability limit state for maximum elastic deflection redistributes internal forces to optimize cross-sectional concrete efficiency harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-101",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity prevents sudden catastrophic second-order elastic bifurcation failures, optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-102",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles guarantees full moment transmission without localized plate yield buckling, elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-103",
+      "text": "Gravitational dead load and live occupancy load combination calculations prevents cosmetic cracking in non-structural masonry partitions and finishes, in order to validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-104",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands ensures steel rebar yields prior to localized mechanical concrete pullout ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-105",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation mitigates differential settlement across heterogeneous compressible clay layers providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-106",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames guarantees full moment transmission without localized plate yield buckling validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-107",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints prevents cosmetic cracking in non-structural masonry partitions and finishes, ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-108",
+      "text": "Deformed rebar development length anchorage in heavily congested joints ensures steel rebar yields prior to localized mechanical concrete pullout, providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-109",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs mitigates differential settlement across heterogeneous compressible clay layers, in order to fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-110",
+      "text": "Structural expansion joint placement across large continuous building footprints resists diagonal tension stresses preventing sudden diagonal shear cracking complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-111",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses transfers heavy superstructure loads into competent deep bedrock strata harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-112",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades accommodates cyclical thermal expansion preventing secondary tensile stress, optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-113",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces defines governing load cases for ultimate structural limit state checks, elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-114",
+      "text": "Euler buckling analysis for slender vertical structural compression columns prevents brittle punching shear failure around internal column perimeters, in order to validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-115",
+      "text": "Verification of serviceability limit state for maximum elastic deflection imparts pre-compressive stress to cancel anticipated tensile tensile stresses ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-116",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity maximizes daylighting while mitigating excessive summer solar cooling loads providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-117",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles minimizes interstitial moisture condensation and reduces heating demand, fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-118",
+      "text": "Gravitational dead load and live occupancy load combination calculations dissipates seismic kinetic energy through controlled plastic ductile yielding, in order to complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-119",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands redistributes internal forces to optimize cross-sectional concrete efficiency, in order to harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-120",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation prevents sudden catastrophic second-order elastic bifurcation failures optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-121",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames minimizes interstitial moisture condensation and reduces heating demand complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-122",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints dissipates seismic kinetic energy through controlled plastic ductile yielding harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-123",
+      "text": "Deformed rebar development length anchorage in heavily congested joints redistributes internal forces to optimize cross-sectional concrete efficiency, optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-124",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs prevents sudden catastrophic second-order elastic bifurcation failures, elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-125",
+      "text": "Structural expansion joint placement across large continuous building footprints guarantees full moment transmission without localized plate yield buckling, in order to validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-126",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses prevents cosmetic cracking in non-structural masonry partitions and finishes ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-127",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades ensures steel rebar yields prior to localized mechanical concrete pullout providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-128",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces mitigates differential settlement across heterogeneous compressible clay layers, fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-129",
+      "text": "Euler buckling analysis for slender vertical structural compression columns resists diagonal tension stresses preventing sudden diagonal shear cracking, in order to complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-130",
+      "text": "Verification of serviceability limit state for maximum elastic deflection transfers heavy superstructure loads into competent deep bedrock strata, in order to harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-131",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity accommodates cyclical thermal expansion preventing secondary tensile stress optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-132",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles defines governing load cases for ultimate structural limit state checks elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-133",
+      "text": "Gravitational dead load and live occupancy load combination calculations prevents brittle punching shear failure around internal column perimeters, validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-134",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands imparts pre-compressive stress to cancel anticipated tensile tensile stresses, in order to ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-135",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation maximizes daylighting while mitigating excessive summer solar cooling loads, in order to providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-136",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames defines governing load cases for ultimate structural limit state checks, in order to validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-137",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints prevents brittle punching shear failure around internal column perimeters ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-138",
+      "text": "Deformed rebar development length anchorage in heavily congested joints imparts pre-compressive stress to cancel anticipated tensile tensile stresses providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-139",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs maximizes daylighting while mitigating excessive summer solar cooling loads, fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-140",
+      "text": "Structural expansion joint placement across large continuous building footprints minimizes interstitial moisture condensation and reduces heating demand, in order to complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-141",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses dissipates seismic kinetic energy through controlled plastic ductile yielding, in order to harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-142",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades redistributes internal forces to optimize cross-sectional concrete efficiency optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-143",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces prevents sudden catastrophic second-order elastic bifurcation failures elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-144",
+      "text": "Euler buckling analysis for slender vertical structural compression columns guarantees full moment transmission without localized plate yield buckling, validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-145",
+      "text": "Verification of serviceability limit state for maximum elastic deflection prevents cosmetic cracking in non-structural masonry partitions and finishes, in order to ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-146",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity ensures steel rebar yields prior to localized mechanical concrete pullout, in order to providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-147",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles mitigates differential settlement across heterogeneous compressible clay layers fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-148",
+      "text": "Gravitational dead load and live occupancy load combination calculations resists diagonal tension stresses preventing sudden diagonal shear cracking, complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-149",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands transfers heavy superstructure loads into competent deep bedrock strata, harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-150",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation accommodates cyclical thermal expansion preventing secondary tensile stress, in order to optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-151",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames mitigates differential settlement across heterogeneous compressible clay layers, in order to complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-152",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints resists diagonal tension stresses preventing sudden diagonal shear cracking, in order to harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-153",
+      "text": "Deformed rebar development length anchorage in heavily congested joints transfers heavy superstructure loads into competent deep bedrock strata optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-154",
+      "text": "Transverse shear stirrup reinforcement within slender beam webs accommodates cyclical thermal expansion preventing secondary tensile stress elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-155",
+      "text": "Structural expansion joint placement across large continuous building footprints defines governing load cases for ultimate structural limit state checks, validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-156",
+      "text": "Two-way reinforced concrete flat slab design under punch shear stresses prevents brittle punching shear failure around internal column perimeters, in order to ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-157",
+      "text": "Passive solar bioclimatic architecture and natural cross-ventilation facades imparts pre-compressive stress to cancel anticipated tensile tensile stresses, in order to providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-158",
+      "text": "Cross-bracing structural systems designed to resist horizontal wind and seismic forces maximizes daylighting while mitigating excessive summer solar cooling loads fulfilling ultimate strength and serviceability limit state requirements.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-159",
+      "text": "Euler buckling analysis for slender vertical structural compression columns minimizes interstitial moisture condensation and reduces heating demand, complying strictly with modern international structural building codes.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-160",
+      "text": "Verification of serviceability limit state for maximum elastic deflection dissipates seismic kinetic energy through controlled plastic ductile yielding, harmonizing architectural spatial intent with rigorous structural mechanics.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-161",
+      "text": "Mat foundation design over soils exhibiting low bearing capacity redistributes internal forces to optimize cross-sectional concrete efficiency, in order to optimizing structural efficiency alongside sustainable environmental design.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-162",
+      "text": "Deep foundation engineering utilizing reinforced concrete cast-in-place piles prevents sudden catastrophic second-order elastic bifurcation failures, in order to elevating energy efficiency standards across contemporary civic architectures.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-163",
+      "text": "Gravitational dead load and live occupancy load combination calculations guarantees full moment transmission without localized plate yield buckling validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-164",
+      "text": "Prestressing of primary bridge girders using high-tensile steel strands prevents cosmetic cracking in non-structural masonry partitions and finishes, ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-165",
+      "text": "Building envelope thermal envelope physics and thermal bridge mitigation ensures steel rebar yields prior to localized mechanical concrete pullout, providing adequate structural safety margins under extreme environmental events.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-166",
+      "text": "Calculation of bending moment diagrams in indeterminate concrete frames prevents sudden catastrophic second-order elastic bifurcation failures, validated through three-dimensional finite element computational simulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-en-167",
+      "text": "Finite element stress analysis of moment-resisting steel beam-column joints guarantees full moment transmission without localized plate yield buckling, in order to ensuring long-term structural durability and catastrophic collapse resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-001",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-002",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau schützt das Tragwerk vor Versagen durch Theorie II. Ordnung, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-003",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-004",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-005",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-006",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-007",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-008",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-009",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen kompensiert temperaturbedingte Längenänderungen ohne Rissbildung unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-010",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-011",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-012",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-013",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-014",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-015",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-016",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-017",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-018",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-019",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-020",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-021",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen schützt das Tragwerk vor Versagen durch Theorie II. Ordnung in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-022",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-023",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-024",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-025",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-026",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-027",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-028",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten kompensiert temperaturbedingte Längenänderungen ohne Rissbildung, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-029",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-030",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-031",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-032",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau kompensiert temperaturbedingte Längenänderungen ohne Rissbildung in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-033",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-034",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-035",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-036",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-037",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-038",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-039",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-040",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung schützt das Tragwerk vor Versagen durch Theorie II. Ordnung, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-041",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-042",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-043",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-044",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-045",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-046",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-047",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-048",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-049",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-050",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-051",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen kompensiert temperaturbedingte Längenänderungen ohne Rissbildung, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-052",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-053",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-054",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-055",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-056",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-057",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-058",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-059",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen schützt das Tragwerk vor Versagen durch Theorie II. Ordnung, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-060",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-061",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-062",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-063",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten schützt das Tragwerk vor Versagen durch Theorie II. Ordnung im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-064",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-065",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-066",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-067",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-068",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-069",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-070",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung kompensiert temperaturbedingte Längenänderungen ohne Rissbildung, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-071",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-072",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-073",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-074",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-075",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-076",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-077",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-078",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-079",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-080",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-081",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-082",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung schützt das Tragwerk vor Versagen durch Theorie II. Ordnung, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-083",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-084",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-085",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-086",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-087",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-088",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-089",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen kompensiert temperaturbedingte Längenänderungen ohne Rissbildung in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-090",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-091",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-092",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-093",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten kompensiert temperaturbedingte Längenänderungen ohne Rissbildung, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-094",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-095",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-096",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-097",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-098",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-099",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-100",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-101",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund schützt das Tragwerk vor Versagen durch Theorie II. Ordnung, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-102",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-103",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-104",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-105",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-106",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-107",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-108",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-109",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-110",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-111",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-112",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung kompensiert temperaturbedingte Längenänderungen ohne Rissbildung, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-113",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-114",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-115",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-116",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-117",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-118",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-119",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-120",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken schützt das Tragwerk vor Versagen durch Theorie II. Ordnung im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-121",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-122",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-123",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-124",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg schützt das Tragwerk vor Versagen durch Theorie II. Ordnung, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-125",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-126",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-127",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-128",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-129",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-130",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-131",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund kompensiert temperaturbedingte Längenänderungen ohne Rissbildung im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-132",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-133",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-134",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-135",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-136",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-137",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-138",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-139",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz, zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-140",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-141",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-142",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-143",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten schützt das Tragwerk vor Versagen durch Theorie II. Ordnung unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-144",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-145",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-146",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-147",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-148",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-149",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-150",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken kompensiert temperaturbedingte Längenänderungen ohne Rissbildung, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-151",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen egalisiert ungleichmäßige Setzungen im heterogenen Bodenprofil, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-152",
+      "text": "Die Spannungsanalyse biegesteifer Rahmenknoten im Stahlbau sichert das Bauteil gegen spröden Schubbruch infolge von Querkräften, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-153",
+      "text": "Die Verankerungslänge von Betonrippenstählen im hochbewehrten Knoten leitet hohe Bauwerkslasten in tief liegende tragfähige Erdschichten ab im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-154",
+      "text": "Die Bügelbewehrung zur Aufnahme von Querkräften im Trägersteg kompensiert temperaturbedingte Längenänderungen ohne Rissbildung unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-155",
+      "text": "Die Anordnung von Dehnungsfugen in langgestreckten Baukörpern liefert die maßgebenden Bemessungsschnittgrößen für den Grenzzustand, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-156",
+      "text": "Die Bemessung punktgestützter Flachdecken gegen Durchstanzen verhindert das schlagartige Durchstanzen der Decke an den Stützenköpfen, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-157",
+      "text": "Die Planung vorgehängter hinterlüfteter Fassaden zur Energieeinsparung überdrückt Zugspannungen im Beton zur Rissvermeidung im Nutzungszustand, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-158",
+      "text": "Die statische Aussteifung gegen horizontale Wind- und Erdbebenlasten reguliert das Raumklima durch optimierten sommerlichen Wärmeschutz zur Erfüllung aller Anforderungen an Tragfähigkeit und Gebrauchstauglichkeit.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-159",
+      "text": "Der Stabilitätsnachweis gegen Knicken für schlanke Druckstützen senkt den Transmissionswärmeverlust und verhindert Tauwasserausfall, unter strikter Einhaltung der geltenden Eurocodes für den konstruktiven Ingenieurbau.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-160",
+      "text": "Der Nachweis der Gebrauchstauglichkeit gegen unzulässige Durchbiegung leitet Horizontalkräfte über aussteifende Wandscheiben in das Fundament, in enger Abstimmung zwischen Architekturentwurf und Tragwerksplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-161",
+      "text": "Die durchgehende Gründungsplatte auf setzungsempfindlichem Baugrund optimiert den inneren Kräfteverlauf und die Querschnittsabmessungen, im Sinne einer ressourceneffizienten und nachhaltigen Gebäudeplanung.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-162",
+      "text": "Die Pfahlgründung mit Großbohrpfählen in wenig tragfähigen Böden schützt das Tragwerk vor Versagen durch Theorie II. Ordnung, unter Beachtung zeitgemäßer bauphysikalischer und energetischer Standards.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-163",
+      "text": "Die Überlagerung von ständigen Eigenlasten und veränderlichen Verkehrslasten stellt die volle Momentenübertragung zwischen Riegel und Stütze sicher gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-164",
+      "text": "Das Vorspannen von Spannbetonbrücken mit hochfesten Stahllitzen gewährleistet die Rissfreiheit und den optischen Komfort des Bauwerks, zur Gewährleistung höchster Standsicherheit und Dauerhaftigkeit von Tragwerken.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-165",
+      "text": "Die bauphysikalische Dämmung zur Vermeidung von Wärmebrücken gewährleistet den sicheren Kraftschluss zwischen Bewehrungsstahl und Beton, zur Gewährleistung ausreichender Sicherheitsbeiwerte gegen Strukturversagen.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    },
+    {
+      "id": "arquitectura-de-166",
+      "text": "Die Biegemomentenberechnung in statisch unbestimmten Stahlbetonrahmen schützt das Tragwerk vor Versagen durch Theorie II. Ordnung, gestützt auf dreidimensionale Finite-Elemente-Berechnungen der Statik.",
+      "lang": "de",
+      "source": "corpus-trilingue-arquitectura"
+    }
+  ]
+}

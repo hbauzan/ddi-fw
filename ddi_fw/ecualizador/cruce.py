@@ -56,9 +56,22 @@ def run_protocolo_03(
     paja_dir: Path = DEFAULT_PAJA_DIR,
     out_dir: Path = DEFAULT_CRUCE_DIR,
     sd_umbral_firma: float = 1.5,
+    almas: tuple[str, ...] | list[str] | None = None,
+    pares: list[tuple[str, str]] | tuple[tuple[str, str], ...] | None = None,
 ) -> dict[str, Any]:
-    """Ejecuta el cruce de los 10 pares sobre los trigos depurados."""
+    """Ejecuta el cruce de pares sobre los trigos depurados."""
+    import itertools
+
     out_dir.mkdir(parents=True, exist_ok=True)
+    from ddi_fw.ecualizador import ALMAS_ECUALIZADOR
+
+    almas_to_process = tuple(almas) if almas is not None else ALMAS_ECUALIZADOR
+    if pares is not None:
+        pares_to_process = tuple(pares)
+    elif almas is not None:
+        pares_to_process = tuple(itertools.combinations(almas_to_process, 2))
+    else:
+        pares_to_process = PARES_CANONICOS
 
     # 1. Cargar el catálogo de paja para conocer las dimensiones de trigo candidato
     cat_path = paja_dir / "catalogo_paja_estructural.json"
@@ -70,16 +83,15 @@ def run_protocolo_03(
     }
 
     # 2. Cargar perfiles intrínsecos de cada alma
-    almas = ("python", "receta", "legal", "medicina", "astronomia")
     perfiles: dict[str, dict[int, dict[str, float]]] = {}
-    for a in almas:
+    for a in almas_to_process:
         prof_path = intrinseco_dir / f"{a}_perfil_intrinseco_1024d.json"
         data = json.loads(prof_path.read_text(encoding="utf-8"))
         perfiles[a] = {rec["dimension"]: rec for rec in data["dimensiones"]}
 
     hardware_info = get_hardware_profile()
 
-    # 3. Calcular Delta_mu y S_d para los 10 pares en cada dimensión de trigo
+    # 3. Calcular Delta_mu y S_d para todos los pares en cada dimensión de trigo
     sorted_trigo_dims = sorted(trigo_dims.keys())
     cruce_records: list[dict[str, Any]] = []
 
@@ -89,7 +101,7 @@ def run_protocolo_03(
 
     for d in sorted_trigo_dims:
         row: dict[str, Any] = {"dimension": d}
-        for a, b in PARES_CANONICOS:
+        for a, b in pares_to_process:
             pair_key = f"{a}_{b}"
             rec_a = perfiles[a][d]
             rec_b = perfiles[b][d]
@@ -102,16 +114,18 @@ def run_protocolo_03(
         cruce_records.append(row)
 
     # Contabilizar paja secundaria (Sd < 0.5) y excelentes (Sd > 2.0)
-    for a, b in PARES_CANONICOS:
+    for a, b in pares_to_process:
         pair_key = f"{a}_{b}"
         sds = [r[f"sd_{pair_key}"] for r in cruce_records]
         paja_secundaria_por_par[pair_key] = sum(1 for s in sds if s < 0.5)
         excelentes_por_par[pair_key] = sum(1 for s in sds if s >= 2.0)
 
-    # 4. Exportar cruce_ranking_10_pares.csv
-    csv_path = out_dir / "cruce_ranking_10_pares.csv"
+    # 4. Exportar cruce_ranking_{N}_pares.csv
+    num_pares = len(pares_to_process)
+    csv_filename = f"cruce_ranking_{num_pares}_pares.csv" if num_pares != 10 else "cruce_ranking_10_pares.csv"
+    csv_path = out_dir / csv_filename
     headers = ["dimension"]
-    for a, b in PARES_CANONICOS:
+    for a, b in pares_to_process:
         pair_key = f"{a}_{b}"
         headers.extend([f"delta_mu_{pair_key}", f"sd_{pair_key}"])
 
@@ -120,47 +134,36 @@ def run_protocolo_03(
         writer.writerow(headers)
         for r in cruce_records:
             row_vals: list[Any] = [r["dimension"]]
-            for a, b in PARES_CANONICOS:
+            for a, b in pares_to_process:
                 pair_key = f"{a}_{b}"
                 row_vals.append(fmt_float(r[f"delta_mu_{pair_key}"]))
                 row_vals.append(fmt_float(r[f"sd_{pair_key}"]))
             writer.writerow(row_vals)
 
-    # 5. Extracción de la Firma Espectral Exclusiva de Python frente a los 4 temas
-    pares_python = (
-        ("python", "receta"),
-        ("python", "legal"),
-        ("python", "medicina"),
-        ("python", "astronomia"),
-    )
+    # 5. Extracción de la Firma Espectral Exclusiva de Python (si python está en los almas)
+    pares_python = [
+        (a, b) for a, b in pares_to_process if a == "python" or b == "python"
+    ]
     python_candidates: list[dict[str, Any]] = []
 
-    for r in cruce_records:
-        d = r["dimension"]
-        sds_py = [r[f"sd_{a}_{b}"] for a, b in pares_python]
-        deltas_py = [r[f"delta_mu_{a}_{b}"] for a, b in pares_python]
+    if "python" in almas_to_process and pares_python:
+        for r in cruce_records:
+            d = r["dimension"]
+            sds_py = [r[f"sd_{a}_{b}"] for a, b in pares_python]
+            deltas_py = [r[f"delta_mu_{a}_{b}"] for a, b in pares_python]
 
-        min_sd_py = min(sds_py)
-        min_delta_py = min(deltas_py)
-        avg_sd_py = sum(sds_py) / len(sds_py)
-        avg_delta_py = sum(deltas_py) / len(deltas_py)
+            min_sd_py = min(sds_py)
+            min_delta_py = min(deltas_py)
+            avg_sd_py = sum(sds_py) / len(sds_py)
+            avg_delta_py = sum(deltas_py) / len(deltas_py)
 
-        py_profile = perfiles["python"][d]
-        python_candidates.append(
-            {
+            py_profile = perfiles["python"][d]
+            c_entry: dict[str, Any] = {
                 "dimension": d,
                 "min_sd": min_sd_py,
                 "avg_sd": avg_sd_py,
                 "min_delta_mu": min_delta_py,
                 "avg_delta_mu": avg_delta_py,
-                "sd_vs_receta": r["sd_python_receta"],
-                "sd_vs_legal": r["sd_python_legal"],
-                "sd_vs_medicina": r["sd_python_medicina"],
-                "sd_vs_astronomia": r["sd_python_astronomia"],
-                "delta_mu_vs_receta": r["delta_mu_python_receta"],
-                "delta_mu_vs_legal": r["delta_mu_python_legal"],
-                "delta_mu_vs_medicina": r["delta_mu_python_medicina"],
-                "delta_mu_vs_astronomia": r["delta_mu_python_astronomia"],
                 "mu_python": py_profile["mu"],
                 "sigma_python": py_profile["sigma"],
                 "lo_python": py_profile["lo"],
@@ -170,7 +173,12 @@ def run_protocolo_03(
                 "coherencia_python": py_profile["coherencia_signo"],
                 "cumple_umbral_1_5": bool(min_sd_py >= sd_umbral_firma),
             }
-        )
+            for a, b in pares_python:
+                other = b if a == "python" else a
+                c_entry[f"sd_vs_{other}"] = r[f"sd_{a}_{b}"]
+                c_entry[f"delta_mu_vs_{other}"] = r[f"delta_mu_{a}_{b}"]
+
+            python_candidates.append(c_entry)
 
     # Ordenar candidatos de Python por min_sd descendente
     python_candidates.sort(key=lambda c: c["min_sd"], reverse=True)

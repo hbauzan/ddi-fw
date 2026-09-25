@@ -1,0 +1,3007 @@
+{
+  "alma": "legal",
+  "n": 500,
+  "description": "Mazo trilingüe de legal (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "legal-es-001",
+      "text": "El presente contrato de prestación de servicios profesionales se celebra entre las partes signatarias con plena capacidad jurídica para obligarse.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-002",
+      "text": "Las partes convienen expresamente que cualquier controversia derivada del cumplimiento o interpretación será resuelta mediante arbitraje vinculante.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-003",
+      "text": "El contratista se obliga a mantener estricta confidencialidad respecto a toda información técnica, comercial o financiera recibida del cliente.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-004",
+      "text": "La vigencia de las obligaciones de secreto y confidencialidad subsistirá durante un período ininterrumpido de cinco años tras la rescisión contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-005",
+      "text": "Queda expresamente prohibida la cesión total o parcial de los derechos u obligaciones emergentes del presente acuerdo sin consentimiento previo por escrito.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-006",
+      "text": "El cliente abonará los honorarios devengados dentro de los treinta días corridos contados a partir de la recepción formal de la factura correspondiente.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-007",
+      "text": "La mora en el cumplimiento de las obligaciones dinerarias operará de pleno derecho por el mero vencimiento de los plazos sin necesidad de interpelación.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-008",
+      "text": "El incumplimiento material de cualquiera de las cláusulas esenciales facultará a la parte cumplidora a resolver el vínculo mediante notificación fehaciente.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-009",
+      "text": "La parte afectada por un supuesto de fuerza mayor o caso fortuito quedará eximida de responsabilidad durante el lapso que persista el impedimento.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-010",
+      "text": "El contratista declara y garantiza que todos los entregables desarrollados constituyen obras originales y no infringen derechos de propiedad ajenos.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-011",
+      "text": "Todos los derechos patrimoniales de autor sobre las creaciones resultantes se considerarán transferidos al cliente en forma exclusiva y definitiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-012",
+      "text": "El contratista mantendrá indemne al cliente frente a cualquier reclamo, demanda o acción judicial promovida por terceros fundada en infracción de marcas.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-013",
+      "text": "La invalidez o nulidad de alguna de las disposiciones del presente instrumento no afectará la validez y exigibilidad de las restantes estipulaciones.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-014",
+      "text": "Las notificaciones judiciales o extrajudiciales serán cursadas por medio fehaciente a los domicilios especiales constituidos en el encabezado.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-015",
+      "text": "Las partes se someten a la jurisdicción exclusiva de los tribunales ordinarios competentes renunciando expresamente a cualquier otro fuero que pudiere corresponder.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-016",
+      "text": "El contratista actuará en todo momento como un profesional independiente sin que exista relación de subordinación jurídica o dependencia laboral alguna.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-017",
+      "text": "La renuncia por alguna de las partes al ejercicio de una acción judicial derivada de un incumplimiento no implicará renuncia a reclamar incumplimientos futuros.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-018",
+      "text": "Cualquier modificación o enmienda a los términos estipulados en el presente acuerdo requerirá de adenda escrita debidamente suscripta por apoderados.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-019",
+      "text": "El presente instrumento constituye el acuerdo íntegro y definitivo entre las partes, derogando cualesquiera entendimientos preliminares previos.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-020",
+      "text": "Las partes acuerdan que las firmas digitales o electrónicas estampadas en el presente gozarán de idéntica validez jurídica que las firmas ológrafas.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-021",
+      "text": "El contratista responderá por los daños y perjuicios directos ocasionados al cliente que sean consecuencia inmediata y comprobable de dolo o culpa grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-022",
+      "text": "La indemnización por daños emergentes pactada bajo el presente contrato no comprenderá bajo ninguna circunstancia el lucro cesante ni daños punitivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-023",
+      "text": "El cliente podrá auditar periódicamente los libros contables y registros vinculados al cumplimiento de los hitos de entrega previa notificación razonable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-024",
+      "text": "Los tributos, tasas y contribuciones que graven el ejercicio de la actividad profesional correrán por cuenta exclusiva de la parte designada por ley.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-025",
+      "text": "En caso de rescisión anticipada sin causa imputable, el cliente abonará exclusivamente los servicios efectivamente prestados hasta la fecha de cese.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-026",
+      "text": "El contratista se compromete a devolver de inmediato todo material sensible, soporte magnético o documentación confidencial en su poder.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-027",
+      "text": "Las cláusulas relativas a indemnidad, confidencialidad, propiedad intelectual y resolución de disputas sobrevivirán a la expiración del contrato.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-028",
+      "text": "El plazo pactado para la subsanación de cualquier intimación por incumplimiento será de quince días hábiles a computar desde la recepción fehaciente.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-029",
+      "text": "El contratista declara contar con las habilitaciones administrativas, matrículas profesionales y seguros de responsabilidad civil pertinentes.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-030",
+      "text": "Ninguna de las partes incurrirá en mora si el retraso en la prestación obedece a demoras injustificadas en las aprobaciones debidas por la contraparte.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-031",
+      "text": "La suscripción del presente documento implica la plena aceptación de los anexos técnicos que forman parte integrante e inescindible del convenio.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-032",
+      "text": "El retraso en el pago devengará un interés compensatorio y punitorio equivalente a la tasa activa fijada por la autoridad bancaria nacional.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-033",
+      "text": "La parte perjudicada por revelación indebida de secretos industriales tendrá derecho a solicitar medidas cautelares urgentes sin fianza previa.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-034",
+      "text": "El contratista no podrá subcontratar la ejecución material de las tareas comprometidas sin autorización escrita y expresa emanada del comitente.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-035",
+      "text": "Ambas partes declaran bajo juramento que sus respectivos firmantes ostentan facultades representativas suficientes que no les han sido revocadas ni limitadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-036",
+      "text": "Las obligaciones de no competencia comercial mantendrán plena vigencia dentro del territorio geográfico pactado por un lapso no inferior a dos años.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-037",
+      "text": "Los costos y costas judiciales derivados de litigios necesarios para exigir el cobro forzado de sumas adeudadas serán asumidos por la parte deudora.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-038",
+      "text": "El presente contrato se redacta en dos ejemplares de un mismo tenor y a un solo efecto, recibiendo cada parte signataria su copia correspondiente.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-039",
+      "text": "Las partes acuerdan interpretar armónicamente las cláusulas atendiendo a la verdadera intención de los contratantes y a la buena fe comercial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-040",
+      "text": "La quiebra, liquidación o concurso preventivo de acreedores de cualquiera de las partes habilitará la resolución inmediata de pleno derecho.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-041",
+      "text": "El contratista se obliga a cumplir rigurosamente con todas las normas vigentes en materia de seguridad social y previsión laboral respecto a sus dependientes.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-042",
+      "text": "Las partes declaran que las penalidades pactadas en la cláusula penal representan una liquidación previa, razonable y equitativa de los perjuicios estimados.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-043",
+      "text": "La omisión de exigir el cumplimiento estricto de cualquier término no constituirá una novación de las obligaciones contractualmente asumidas.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-044",
+      "text": "El cliente mantendrá indemne al contratista frente a reclamaciones derivadas de datos o materiales suministrados directamente por el cliente que infrinjan derechos.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-045",
+      "text": "Todo conflicto derivado de la titularidad de patentes de invención será sometido a peritaje técnico vinculante designado por el centro arbitral.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-046",
+      "text": "El presente contrato se regirá e interpretará de conformidad con las leyes comerciales y civiles aplicables en la jurisdicción acordada.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-047",
+      "text": "Las partes convienen fijar domicilio legal en las direcciones consignadas donde tendrán plena validez todas las comunicaciones y emplazamientos cursados.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-048",
+      "text": "El contrato entrará en vigencia a partir de la fecha de suscripción de la última de las firmas requeridas en el pliego contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-049",
+      "text": "El contratista garantiza que los servicios serán ejecutados con los más altos estándares profesionales de diligencia y pericia técnica exigibles.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-050",
+      "text": "Cualquier cesión de posición contractual efectuada en contravención a lo aquí previsto será considerada nula y sin ningún efecto legal entre partes.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-051",
+      "text": "Las sumas retenidas en concepto de fondo de reparo serán reintegradas transcurridos noventa días desde la recepción provisoria satisfactoria.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-052",
+      "text": "El cliente se reserva el derecho de rechazar entregables que no satisfagan los criterios objetivos de aceptación plasmados en los anexos.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-053",
+      "text": "El acuerdo no confiere ningún beneficio, derecho o acción a terceros ajenos que no revistan la calidad de partes contratantes legítimas.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-054",
+      "text": "En caso de contradicción entre las cláusulas del cuerpo principal y los términos de las órdenes de compra, prevalecerá el contrato marco.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-055",
+      "text": "Las partes se comprometen a negociar de buena fe cualquier adaptación contractual requerida por modificaciones sobrevinientes en el marco regulatorio.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-056",
+      "text": "La cláusula de indemnidad e inmunidad patrimonial obliga a mantener indemne a la parte afectada frente a terceros, salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-057",
+      "text": "El régimen de responsabilidad civil extracontractual solidaria suspende válidamente la exigibilidad de la prestación correlativa, para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-058",
+      "text": "El deber de diligencia exigible a los administradores societarios exige la acreditación de nexo causal adecuado y factor de atribución, con el fin de sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-059",
+      "text": "La fijación de cláusula penal por mora en el cumplimiento opera de pleno derecho previa intimación fehaciente por plazo legal, con el fin de en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-060",
+      "text": "La extinción de obligaciones por novación subjetiva u objetiva impone responder con el patrimonio personal ante omisiones culposas conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-061",
+      "text": "La renuncia expresa a la interposición de recursos ordinarios impide adoptar conductas procesales contradictorias con pactos previos, de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-062",
+      "text": "El derecho de retención legal sobre bienes muebles en depósito determina anticipadamente la cuantía líquida de los daños y perjuicios, respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-063",
+      "text": "El pacto de confidencialidad y no divulgación de secretos industriales somete las controversias a tribunales arbitrales de derecho, con el fin de garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-064",
+      "text": "La excepción de contrato no cumplido interpuesta por la demandada sustituye el vínculo originario liberando al primitivo deudor salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-065",
+      "text": "La rescisión unilateral por incumplimiento grave de obligaciones otorga plena eficacia jurídica equivalente a la firma ológrafa para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-066",
+      "text": "La doctrina de los actos propios en sede contenciosa precluye la posibilidad de revisar el laudo en segunda instancia, sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-067",
+      "text": "La estipulación de arbitraje comercial internacional transfiere la titularidad exclusiva con efectos erga omnes, en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-068",
+      "text": "La validez probatoria de documentos firmados digitalmente faculta a conservar la posesión hasta la cancelación del crédito debido, con el fin de conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-069",
+      "text": "La cesión de derechos de explotación sobre patentes de invención restringe la modificación y distribución del código objeto compilado de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-070",
+      "text": "La limitación temporal de las licencias de software propietario subsiste con posterioridad a la terminación del contrato principal respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-071",
+      "text": "La cláusula de indemnidad e inmunidad patrimonial transfiere la titularidad exclusiva con efectos erga omnes conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-072",
+      "text": "El régimen de responsabilidad civil extracontractual solidaria faculta a conservar la posesión hasta la cancelación del crédito debido, de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-073",
+      "text": "El deber de diligencia exigible a los administradores societarios restringe la modificación y distribución del código objeto compilado, respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-074",
+      "text": "La fijación de cláusula penal por mora en el cumplimiento subsiste con posterioridad a la terminación del contrato principal, con el fin de garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-075",
+      "text": "La extinción de obligaciones por novación subjetiva u objetiva obliga a mantener indemne a la parte afectada frente a terceros salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-076",
+      "text": "La renuncia expresa a la interposición de recursos ordinarios suspende válidamente la exigibilidad de la prestación correlativa para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-077",
+      "text": "El derecho de retención legal sobre bienes muebles en depósito exige la acreditación de nexo causal adecuado y factor de atribución, sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-078",
+      "text": "El pacto de confidencialidad y no divulgación de secretos industriales opera de pleno derecho previa intimación fehaciente por plazo legal, en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-079",
+      "text": "La excepción de contrato no cumplido interpuesta por la demandada impone responder con el patrimonio personal ante omisiones culposas, con el fin de conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-080",
+      "text": "La rescisión unilateral por incumplimiento grave de obligaciones impide adoptar conductas procesales contradictorias con pactos previos de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-081",
+      "text": "La doctrina de los actos propios en sede contenciosa determina anticipadamente la cuantía líquida de los daños y perjuicios respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-082",
+      "text": "La estipulación de arbitraje comercial internacional somete las controversias a tribunales arbitrales de derecho, garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-083",
+      "text": "La validez probatoria de documentos firmados digitalmente sustituye el vínculo originario liberando al primitivo deudor, con el fin de salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-084",
+      "text": "La cesión de derechos de explotación sobre patentes de invención otorga plena eficacia jurídica equivalente a la firma ológrafa, con el fin de para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-085",
+      "text": "La limitación temporal de las licencias de software propietario precluye la posibilidad de revisar el laudo en segunda instancia sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-086",
+      "text": "La cláusula de indemnidad e inmunidad patrimonial somete las controversias a tribunales arbitrales de derecho salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-087",
+      "text": "El régimen de responsabilidad civil extracontractual solidaria sustituye el vínculo originario liberando al primitivo deudor para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-088",
+      "text": "El deber de diligencia exigible a los administradores societarios otorga plena eficacia jurídica equivalente a la firma ológrafa, sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-089",
+      "text": "La fijación de cláusula penal por mora en el cumplimiento precluye la posibilidad de revisar el laudo en segunda instancia, en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-090",
+      "text": "La extinción de obligaciones por novación subjetiva u objetiva transfiere la titularidad exclusiva con efectos erga omnes, con el fin de conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-091",
+      "text": "La renuncia expresa a la interposición de recursos ordinarios faculta a conservar la posesión hasta la cancelación del crédito debido de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-092",
+      "text": "El derecho de retención legal sobre bienes muebles en depósito restringe la modificación y distribución del código objeto compilado respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-093",
+      "text": "El pacto de confidencialidad y no divulgación de secretos industriales subsiste con posterioridad a la terminación del contrato principal, garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-094",
+      "text": "La excepción de contrato no cumplido interpuesta por la demandada obliga a mantener indemne a la parte afectada frente a terceros, con el fin de salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-095",
+      "text": "La rescisión unilateral por incumplimiento grave de obligaciones suspende válidamente la exigibilidad de la prestación correlativa, con el fin de para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-096",
+      "text": "La doctrina de los actos propios en sede contenciosa exige la acreditación de nexo causal adecuado y factor de atribución sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-097",
+      "text": "La estipulación de arbitraje comercial internacional opera de pleno derecho previa intimación fehaciente por plazo legal en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-098",
+      "text": "La validez probatoria de documentos firmados digitalmente impone responder con el patrimonio personal ante omisiones culposas, conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-099",
+      "text": "La cesión de derechos de explotación sobre patentes de invención impide adoptar conductas procesales contradictorias con pactos previos, con el fin de de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-100",
+      "text": "La limitación temporal de las licencias de software propietario determina anticipadamente la cuantía líquida de los daños y perjuicios, con el fin de respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-101",
+      "text": "La cláusula de indemnidad e inmunidad patrimonial opera de pleno derecho previa intimación fehaciente por plazo legal, con el fin de conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-102",
+      "text": "El régimen de responsabilidad civil extracontractual solidaria impone responder con el patrimonio personal ante omisiones culposas de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-103",
+      "text": "El deber de diligencia exigible a los administradores societarios impide adoptar conductas procesales contradictorias con pactos previos respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-104",
+      "text": "La fijación de cláusula penal por mora en el cumplimiento determina anticipadamente la cuantía líquida de los daños y perjuicios, garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-105",
+      "text": "La extinción de obligaciones por novación subjetiva u objetiva somete las controversias a tribunales arbitrales de derecho, con el fin de salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-106",
+      "text": "La renuncia expresa a la interposición de recursos ordinarios sustituye el vínculo originario liberando al primitivo deudor, con el fin de para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-107",
+      "text": "El derecho de retención legal sobre bienes muebles en depósito otorga plena eficacia jurídica equivalente a la firma ológrafa sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-108",
+      "text": "El pacto de confidencialidad y no divulgación de secretos industriales precluye la posibilidad de revisar el laudo en segunda instancia en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-109",
+      "text": "La excepción de contrato no cumplido interpuesta por la demandada transfiere la titularidad exclusiva con efectos erga omnes, conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-110",
+      "text": "La rescisión unilateral por incumplimiento grave de obligaciones faculta a conservar la posesión hasta la cancelación del crédito debido, con el fin de de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-111",
+      "text": "La doctrina de los actos propios en sede contenciosa restringe la modificación y distribución del código objeto compilado, con el fin de respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-112",
+      "text": "La estipulación de arbitraje comercial internacional subsiste con posterioridad a la terminación del contrato principal garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-113",
+      "text": "La validez probatoria de documentos firmados digitalmente obliga a mantener indemne a la parte afectada frente a terceros, salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-114",
+      "text": "La cesión de derechos de explotación sobre patentes de invención suspende válidamente la exigibilidad de la prestación correlativa, para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-115",
+      "text": "La limitación temporal de las licencias de software propietario exige la acreditación de nexo causal adecuado y factor de atribución, con el fin de sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-116",
+      "text": "La cláusula de indemnidad e inmunidad patrimonial subsiste con posterioridad a la terminación del contrato principal, con el fin de salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-117",
+      "text": "El régimen de responsabilidad civil extracontractual solidaria obliga a mantener indemne a la parte afectada frente a terceros, con el fin de para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-118",
+      "text": "El deber de diligencia exigible a los administradores societarios suspende válidamente la exigibilidad de la prestación correlativa sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-119",
+      "text": "La fijación de cláusula penal por mora en el cumplimiento exige la acreditación de nexo causal adecuado y factor de atribución en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-120",
+      "text": "La extinción de obligaciones por novación subjetiva u objetiva opera de pleno derecho previa intimación fehaciente por plazo legal, conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-121",
+      "text": "La renuncia expresa a la interposición de recursos ordinarios impone responder con el patrimonio personal ante omisiones culposas, con el fin de de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-122",
+      "text": "El derecho de retención legal sobre bienes muebles en depósito impide adoptar conductas procesales contradictorias con pactos previos, con el fin de respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-123",
+      "text": "El pacto de confidencialidad y no divulgación de secretos industriales determina anticipadamente la cuantía líquida de los daños y perjuicios garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-124",
+      "text": "La excepción de contrato no cumplido interpuesta por la demandada somete las controversias a tribunales arbitrales de derecho, salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-125",
+      "text": "La rescisión unilateral por incumplimiento grave de obligaciones sustituye el vínculo originario liberando al primitivo deudor, para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-126",
+      "text": "La doctrina de los actos propios en sede contenciosa otorga plena eficacia jurídica equivalente a la firma ológrafa, con el fin de sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-127",
+      "text": "La estipulación de arbitraje comercial internacional precluye la posibilidad de revisar el laudo en segunda instancia, con el fin de en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-128",
+      "text": "La validez probatoria de documentos firmados digitalmente transfiere la titularidad exclusiva con efectos erga omnes conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-129",
+      "text": "La cesión de derechos de explotación sobre patentes de invención faculta a conservar la posesión hasta la cancelación del crédito debido, de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-130",
+      "text": "La limitación temporal de las licencias de software propietario restringe la modificación y distribución del código objeto compilado, respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-131",
+      "text": "La cláusula de indemnidad e inmunidad patrimonial precluye la posibilidad de revisar el laudo en segunda instancia, conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-132",
+      "text": "El régimen de responsabilidad civil extracontractual solidaria transfiere la titularidad exclusiva con efectos erga omnes, con el fin de de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-133",
+      "text": "El deber de diligencia exigible a los administradores societarios faculta a conservar la posesión hasta la cancelación del crédito debido, con el fin de respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-134",
+      "text": "La fijación de cláusula penal por mora en el cumplimiento restringe la modificación y distribución del código objeto compilado garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-135",
+      "text": "La extinción de obligaciones por novación subjetiva u objetiva subsiste con posterioridad a la terminación del contrato principal, salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-136",
+      "text": "La renuncia expresa a la interposición de recursos ordinarios obliga a mantener indemne a la parte afectada frente a terceros, para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-137",
+      "text": "El derecho de retención legal sobre bienes muebles en depósito suspende válidamente la exigibilidad de la prestación correlativa, con el fin de sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-138",
+      "text": "El pacto de confidencialidad y no divulgación de secretos industriales exige la acreditación de nexo causal adecuado y factor de atribución, con el fin de en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-139",
+      "text": "La excepción de contrato no cumplido interpuesta por la demandada opera de pleno derecho previa intimación fehaciente por plazo legal conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-140",
+      "text": "La rescisión unilateral por incumplimiento grave de obligaciones impone responder con el patrimonio personal ante omisiones culposas, de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-141",
+      "text": "La doctrina de los actos propios en sede contenciosa impide adoptar conductas procesales contradictorias con pactos previos, respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-142",
+      "text": "La estipulación de arbitraje comercial internacional determina anticipadamente la cuantía líquida de los daños y perjuicios, con el fin de garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-143",
+      "text": "La validez probatoria de documentos firmados digitalmente somete las controversias a tribunales arbitrales de derecho salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-144",
+      "text": "La cesión de derechos de explotación sobre patentes de invención sustituye el vínculo originario liberando al primitivo deudor para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-145",
+      "text": "La limitación temporal de las licencias de software propietario otorga plena eficacia jurídica equivalente a la firma ológrafa, sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-146",
+      "text": "La cláusula de indemnidad e inmunidad patrimonial determina anticipadamente la cuantía líquida de los daños y perjuicios, salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-147",
+      "text": "El régimen de responsabilidad civil extracontractual solidaria somete las controversias a tribunales arbitrales de derecho, para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-148",
+      "text": "El deber de diligencia exigible a los administradores societarios sustituye el vínculo originario liberando al primitivo deudor, con el fin de sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-149",
+      "text": "La fijación de cláusula penal por mora en el cumplimiento otorga plena eficacia jurídica equivalente a la firma ológrafa, con el fin de en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-150",
+      "text": "La extinción de obligaciones por novación subjetiva u objetiva precluye la posibilidad de revisar el laudo en segunda instancia conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-151",
+      "text": "La renuncia expresa a la interposición de recursos ordinarios transfiere la titularidad exclusiva con efectos erga omnes, de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-152",
+      "text": "El derecho de retención legal sobre bienes muebles en depósito faculta a conservar la posesión hasta la cancelación del crédito debido, respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-153",
+      "text": "El pacto de confidencialidad y no divulgación de secretos industriales restringe la modificación y distribución del código objeto compilado, con el fin de garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-154",
+      "text": "La excepción de contrato no cumplido interpuesta por la demandada subsiste con posterioridad a la terminación del contrato principal salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-155",
+      "text": "La rescisión unilateral por incumplimiento grave de obligaciones obliga a mantener indemne a la parte afectada frente a terceros para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-156",
+      "text": "La doctrina de los actos propios en sede contenciosa suspende válidamente la exigibilidad de la prestación correlativa, sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-157",
+      "text": "La estipulación de arbitraje comercial internacional exige la acreditación de nexo causal adecuado y factor de atribución, en cumplimiento de las regulaciones sobre protección de datos personales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-158",
+      "text": "La validez probatoria de documentos firmados digitalmente opera de pleno derecho previa intimación fehaciente por plazo legal, con el fin de conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-159",
+      "text": "La cesión de derechos de explotación sobre patentes de invención impone responder con el patrimonio personal ante omisiones culposas de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-160",
+      "text": "La limitación temporal de las licencias de software propietario impide adoptar conductas procesales contradictorias con pactos previos respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-161",
+      "text": "La cláusula de indemnidad e inmunidad patrimonial exige la acreditación de nexo causal adecuado y factor de atribución conforme a las disposiciones imperativas del ordenamiento jurídico aplicable.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-162",
+      "text": "El régimen de responsabilidad civil extracontractual solidaria opera de pleno derecho previa intimación fehaciente por plazo legal, de conformidad con los principios generales del derecho contractual.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-163",
+      "text": "El deber de diligencia exigible a los administradores societarios impone responder con el patrimonio personal ante omisiones culposas, respetando las normas de orden público internacional y buena fe negocial.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-164",
+      "text": "La fijación de cláusula penal por mora en el cumplimiento impide adoptar conductas procesales contradictorias con pactos previos, con el fin de garantizando el derecho fundamental a la tutela judicial efectiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-165",
+      "text": "La extinción de obligaciones por novación subjetiva u objetiva determina anticipadamente la cuantía líquida de los daños y perjuicios salvaguardando la seguridad jurídica en las transacciones comerciales.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-166",
+      "text": "La renuncia expresa a la interposición de recursos ordinarios somete las controversias a tribunales arbitrales de derecho para evitar situaciones de enriquecimiento sin causa en perjuicio ajeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-es-167",
+      "text": "El derecho de retención legal sobre bienes muebles en depósito sustituye el vínculo originario liberando al primitivo deudor, sin perjuicio de las acciones resarcitorias por dolo o negligencia grave.",
+      "lang": "es",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-001",
+      "text": "This master professional services agreement is executed between the undersigned corporate entities with full legal capacity to contract.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-002",
+      "text": "The contracting parties mutually agree that any legal dispute arising from this contract shall be settled by binding confidential arbitration.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-003",
+      "text": "The independent contractor agrees to hold in strictest confidence all proprietary, financial, and technical documentation disclosed by the client.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-004",
+      "text": "The restrictive covenants regarding confidentiality and trade secrets shall endure for five consecutive years following agreement expiration.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-005",
+      "text": "Neither party may assign, delegate, or transfer its rights or duties under this agreement without prior written authorization from the other party.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-006",
+      "text": "Client covenants to remit payment for approved professional fees within thirty calendar days from receipt of an undisputed itemized invoice.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-007",
+      "text": "Any default in monetary obligations shall trigger automatic default interest penalties without requiring prior formal demand or judicial notice.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-008",
+      "text": "Material breach of any essential contractual condition entitles the aggrieved non-breaching party to terminate the covenant upon written notice.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-009",
+      "text": "Neither contracting party shall be held legally liable for delay in performance caused by unforeseeable events of force majeure or government decrees.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-010",
+      "text": "Contractor warrants and represents that all deliverable materials are entirely original and do not infringe upon any third-party intellectual property.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-011",
+      "text": "All worldwide copyright, patent rights, and proprietary rights in the bespoke deliverables are hereby assigned exclusively to the corporate client.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-012",
+      "text": "Contractor shall defend, indemnify, and hold harmless the client against any third-party claims, liabilities, or losses alleging patent infringement.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-013",
+      "text": "If any clause or provision of this contract is held invalid or unenforceable by a competent tribunal, the remainder shall continue in full force.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-014",
+      "text": "Formal legal notices must be delivered in writing via certified mail with recorded delivery to the registered principal offices specified herein.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-015",
+      "text": "The parties submit exclusively to the personal jurisdiction and venue of the federal and state courts located within the state of Delaware.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-016",
+      "text": "Contractor performs all duties as an independent contractor, and nothing herein shall create an employer-employee or agency relationship.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-017",
+      "text": "Failure or delay by either party in exercising any statutory or contractual remedy shall not operate as an overarching waiver of such rights.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-018",
+      "text": "No amendment, addendum, or variation of this contractual document shall take legal effect unless executed in written instruments signed by officers.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-019",
+      "text": "This executed document embodies the entire agreement between the parties superseding all prior oral negotiations, memoranda, or proposals.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-020",
+      "text": "The parties confirm that counterpart signatures exchanged by authenticated digital or electronic means shall constitute legally binding originals.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-021",
+      "text": "Contractor liability for direct damages arising out of gross negligence or willful misconduct shall be capped at total fees paid under this agreement.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-022",
+      "text": "Under no circumstances shall either contracting party be held liable for indirect, incidental, consequential, punitive, or lost profit damages.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-023",
+      "text": "Client reserves the audit right to inspect operational logs and billing records relevant to deliverable milestones upon reasonable advance notice.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-024",
+      "text": "All statutory corporate taxes, income withholdings, and commercial levies applicable to service fees shall be satisfied by the statutory taxpayer.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-025",
+      "text": "In the event of termination for convenience, client shall tender compensation solely for validated services performed up to the termination date.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-026",
+      "text": "Upon expiration or cancellation of this covenant, contractor shall immediately return or securely destroy all confidential records and media.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-027",
+      "text": "Survival of legal covenants: provisions governing indemnification, confidentiality, dispute resolution, and governing law shall survive termination.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-028",
+      "text": "The contractual cure period for any remediable default shall be fifteen consecutive business days following receipt of written cure demand.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-029",
+      "text": "Contractor certifies maintenance of comprehensive commercial general liability insurance, professional indemnity coverage, and regulatory licenses.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-030",
+      "text": "Neither party shall be in breach where delay in project milestone execution is attributable to unjustified withholding of client approvals.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-031",
+      "text": "The execution of this master contract incorporates all appended schedules, exhibits, and technical statements of work by express reference.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-032",
+      "text": "Past due balances shall accrue compounded interest at the rate of one and one-half percent per month or the statutory legal maximum permitted.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-033",
+      "text": "The non-breaching party shall be entitled to seek immediate injunctive relief and equitable decrees to restrain unauthorized trade secret disclosure.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-034",
+      "text": "Contractor shall not subcontract the core execution of milestone duties to third-party vendors without express prior written client consent.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-035",
+      "text": "The authorized signatories expressly warrant that they possess corporate power and authorized board delegations to execute this binding contract.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-036",
+      "text": "Non-solicitation covenants prohibiting the active recruitment of client engineering or managerial personnel shall survive for twenty-four months.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-037",
+      "text": "In any contentious proceeding brought to enforce unpaid fee obligations, the prevailing litigant shall recover reasonable attorney fees and costs.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-038",
+      "text": "This agreement is executed in duplicate identical counterparts, each of which shall be deemed an authentic original binding both signing parties.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-039",
+      "text": "The contractual provisions shall be construed reasonably in accordance with mutual good faith dealing and customary commercial business practices.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-040",
+      "text": "The filing of voluntary bankruptcy petitions or insolvency proceedings by either contracting party shall authorize instantaneous contract termination.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-041",
+      "text": "Contractor warrants compliance with applicable anti-corruption statutes including the Foreign Corrupt Practices Act and statutory labor standards.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-042",
+      "text": "Liquidated damages specified herein represent a genuine pre-estimate of loss and not a contractual penalty intended to deter lawful termination.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-043",
+      "text": "Waiver of jury trial: each contracting party knowingly, voluntarily, and irrevocably waives any constitutional right to trial by jury in disputes.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-044",
+      "text": "Client shall indemnify and hold contractor harmless against liabilities arising out of client-supplied specifications that infringe proprietary rights.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-045",
+      "text": "Any technological patent dispute arising under this agreement shall be submitted to binding expert appraisal administered by the arbitration institute.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-046",
+      "text": "This contract shall be construed, interpreted, and governed under the substantive commercial laws of the chosen governing jurisdiction.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-047",
+      "text": "Formal process service and notices delivered to designated legal addresses shall constitute sufficient service for all evidentiary purposes.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-048",
+      "text": "This agreement shall take legal effect immediately upon the date of mutual execution by authorized executive signatories of both corporations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-049",
+      "text": "Contractor represents that contractual milestone services shall be executed with ordinary professional care, diligence, and customary skill.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-050",
+      "text": "Any purported assignment or delegation executed in violation of the anti-assignment provisions shall be void ab initio and unenforceable.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-051",
+      "text": "Retainage deductions withheld by client shall be released within ninety days following issuance of the final certificate of milestone completion.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-052",
+      "text": "Client retains the contractual right to reject deliverable items failing to satisfy objective verification criteria enumerated in work schedules.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-053",
+      "text": "Nothing herein express or implied is intended or shall be construed to confer upon any third party any statutory rights or causes of action.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-054",
+      "text": "In the event of irreconcilable conflict between terms of this master contract and individual purchase orders, master contract terms prevail.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-055",
+      "text": "The parties agree to renegotiate in good faith contractual provisions rendered obsolete or unlawful by subsequent governmental regulatory shifts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-056",
+      "text": "The indemnification and defense covenant holds the harmless party indemnified against third-party claims, ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-057",
+      "text": "The statutory joint and several liability doctrine excuses contract non-performance during unprecedented market disruptions, preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-058",
+      "text": "The fiduciary duty of care owed by corporate directors requires proof of proximate causation and proximate foreseeability, in order to without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-059",
+      "text": "The liquidated damages clause for delayed performance authorizes contract cancellation upon written notice without penalty, in order to subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-060",
+      "text": "The contractual novation substituting the primary debtor imposes civil liability for reckless mismanagement of corporate assets in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-061",
+      "text": "The express waiver of consequential and punitive damages bars a party from taking positions contrary to prior explicit assertions, consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-062",
+      "text": "The common law possessory lien on commercial bailments establishes a pre-agreed financial remedy representing actual loss, upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-063",
+      "text": "The nondisclosure agreement governing trade secrets submits all disputes exclusively to administered arbitral tribunals, in order to safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-064",
+      "text": "The affirmative defense of force majeure and impossibility extinguishes prior obligations in exchange for newly executed covenants ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-065",
+      "text": "The unilateral termination clause for material breach confers prima facie authenticity under evidentiary statutory rules preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-066",
+      "text": "The doctrine of equitable promissory estoppel precludes recovery of indirect losses beyond specified contract caps, without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-067",
+      "text": "The binding commercial arbitration agreement transfers title and copyright ownership free and clear of encumbrances, subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-068",
+      "text": "The evidentiary admissibility of digital audit logs entitles retention of custody until outstanding balances are discharged, in order to in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-069",
+      "text": "The assignment of proprietary intellectual property rights prohibits reverse engineering and unauthorized sublicensing to competitors consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-070",
+      "text": "The grant of non-exclusive software licensing rights survives the expiration or termination of the master agreement upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-071",
+      "text": "The indemnification and defense covenant transfers title and copyright ownership free and clear of encumbrances in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-072",
+      "text": "The statutory joint and several liability doctrine entitles retention of custody until outstanding balances are discharged, consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-073",
+      "text": "The fiduciary duty of care owed by corporate directors prohibits reverse engineering and unauthorized sublicensing to competitors, upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-074",
+      "text": "The liquidated damages clause for delayed performance survives the expiration or termination of the master agreement, in order to safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-075",
+      "text": "The contractual novation substituting the primary debtor holds the harmless party indemnified against third-party claims ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-076",
+      "text": "The express waiver of consequential and punitive damages excuses contract non-performance during unprecedented market disruptions preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-077",
+      "text": "The common law possessory lien on commercial bailments requires proof of proximate causation and proximate foreseeability, without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-078",
+      "text": "The nondisclosure agreement governing trade secrets authorizes contract cancellation upon written notice without penalty, subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-079",
+      "text": "The affirmative defense of force majeure and impossibility imposes civil liability for reckless mismanagement of corporate assets, in order to in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-080",
+      "text": "The unilateral termination clause for material breach bars a party from taking positions contrary to prior explicit assertions consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-081",
+      "text": "The doctrine of equitable promissory estoppel establishes a pre-agreed financial remedy representing actual loss upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-082",
+      "text": "The binding commercial arbitration agreement submits all disputes exclusively to administered arbitral tribunals, safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-083",
+      "text": "The evidentiary admissibility of digital audit logs extinguishes prior obligations in exchange for newly executed covenants, in order to ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-084",
+      "text": "The assignment of proprietary intellectual property rights confers prima facie authenticity under evidentiary statutory rules, in order to preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-085",
+      "text": "The grant of non-exclusive software licensing rights precludes recovery of indirect losses beyond specified contract caps without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-086",
+      "text": "The indemnification and defense covenant submits all disputes exclusively to administered arbitral tribunals ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-087",
+      "text": "The statutory joint and several liability doctrine extinguishes prior obligations in exchange for newly executed covenants preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-088",
+      "text": "The fiduciary duty of care owed by corporate directors confers prima facie authenticity under evidentiary statutory rules, without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-089",
+      "text": "The liquidated damages clause for delayed performance precludes recovery of indirect losses beyond specified contract caps, subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-090",
+      "text": "The contractual novation substituting the primary debtor transfers title and copyright ownership free and clear of encumbrances, in order to in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-091",
+      "text": "The express waiver of consequential and punitive damages entitles retention of custody until outstanding balances are discharged consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-092",
+      "text": "The common law possessory lien on commercial bailments prohibits reverse engineering and unauthorized sublicensing to competitors upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-093",
+      "text": "The nondisclosure agreement governing trade secrets survives the expiration or termination of the master agreement, safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-094",
+      "text": "The affirmative defense of force majeure and impossibility holds the harmless party indemnified against third-party claims, in order to ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-095",
+      "text": "The unilateral termination clause for material breach excuses contract non-performance during unprecedented market disruptions, in order to preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-096",
+      "text": "The doctrine of equitable promissory estoppel requires proof of proximate causation and proximate foreseeability without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-097",
+      "text": "The binding commercial arbitration agreement authorizes contract cancellation upon written notice without penalty subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-098",
+      "text": "The evidentiary admissibility of digital audit logs imposes civil liability for reckless mismanagement of corporate assets, in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-099",
+      "text": "The assignment of proprietary intellectual property rights bars a party from taking positions contrary to prior explicit assertions, in order to consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-100",
+      "text": "The grant of non-exclusive software licensing rights establishes a pre-agreed financial remedy representing actual loss, in order to upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-101",
+      "text": "The indemnification and defense covenant authorizes contract cancellation upon written notice without penalty, in order to in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-102",
+      "text": "The statutory joint and several liability doctrine imposes civil liability for reckless mismanagement of corporate assets consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-103",
+      "text": "The fiduciary duty of care owed by corporate directors bars a party from taking positions contrary to prior explicit assertions upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-104",
+      "text": "The liquidated damages clause for delayed performance establishes a pre-agreed financial remedy representing actual loss, safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-105",
+      "text": "The contractual novation substituting the primary debtor submits all disputes exclusively to administered arbitral tribunals, in order to ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-106",
+      "text": "The express waiver of consequential and punitive damages extinguishes prior obligations in exchange for newly executed covenants, in order to preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-107",
+      "text": "The common law possessory lien on commercial bailments confers prima facie authenticity under evidentiary statutory rules without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-108",
+      "text": "The nondisclosure agreement governing trade secrets precludes recovery of indirect losses beyond specified contract caps subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-109",
+      "text": "The affirmative defense of force majeure and impossibility transfers title and copyright ownership free and clear of encumbrances, in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-110",
+      "text": "The unilateral termination clause for material breach entitles retention of custody until outstanding balances are discharged, in order to consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-111",
+      "text": "The doctrine of equitable promissory estoppel prohibits reverse engineering and unauthorized sublicensing to competitors, in order to upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-112",
+      "text": "The binding commercial arbitration agreement survives the expiration or termination of the master agreement safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-113",
+      "text": "The evidentiary admissibility of digital audit logs holds the harmless party indemnified against third-party claims, ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-114",
+      "text": "The assignment of proprietary intellectual property rights excuses contract non-performance during unprecedented market disruptions, preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-115",
+      "text": "The grant of non-exclusive software licensing rights requires proof of proximate causation and proximate foreseeability, in order to without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-116",
+      "text": "The indemnification and defense covenant survives the expiration or termination of the master agreement, in order to ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-117",
+      "text": "The statutory joint and several liability doctrine holds the harmless party indemnified against third-party claims, in order to preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-118",
+      "text": "The fiduciary duty of care owed by corporate directors excuses contract non-performance during unprecedented market disruptions without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-119",
+      "text": "The liquidated damages clause for delayed performance requires proof of proximate causation and proximate foreseeability subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-120",
+      "text": "The contractual novation substituting the primary debtor authorizes contract cancellation upon written notice without penalty, in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-121",
+      "text": "The express waiver of consequential and punitive damages imposes civil liability for reckless mismanagement of corporate assets, in order to consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-122",
+      "text": "The common law possessory lien on commercial bailments bars a party from taking positions contrary to prior explicit assertions, in order to upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-123",
+      "text": "The nondisclosure agreement governing trade secrets establishes a pre-agreed financial remedy representing actual loss safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-124",
+      "text": "The affirmative defense of force majeure and impossibility submits all disputes exclusively to administered arbitral tribunals, ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-125",
+      "text": "The unilateral termination clause for material breach extinguishes prior obligations in exchange for newly executed covenants, preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-126",
+      "text": "The doctrine of equitable promissory estoppel confers prima facie authenticity under evidentiary statutory rules, in order to without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-127",
+      "text": "The binding commercial arbitration agreement precludes recovery of indirect losses beyond specified contract caps, in order to subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-128",
+      "text": "The evidentiary admissibility of digital audit logs transfers title and copyright ownership free and clear of encumbrances in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-129",
+      "text": "The assignment of proprietary intellectual property rights entitles retention of custody until outstanding balances are discharged, consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-130",
+      "text": "The grant of non-exclusive software licensing rights prohibits reverse engineering and unauthorized sublicensing to competitors, upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-131",
+      "text": "The indemnification and defense covenant precludes recovery of indirect losses beyond specified contract caps, in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-132",
+      "text": "The statutory joint and several liability doctrine transfers title and copyright ownership free and clear of encumbrances, in order to consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-133",
+      "text": "The fiduciary duty of care owed by corporate directors entitles retention of custody until outstanding balances are discharged, in order to upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-134",
+      "text": "The liquidated damages clause for delayed performance prohibits reverse engineering and unauthorized sublicensing to competitors safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-135",
+      "text": "The contractual novation substituting the primary debtor survives the expiration or termination of the master agreement, ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-136",
+      "text": "The express waiver of consequential and punitive damages holds the harmless party indemnified against third-party claims, preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-137",
+      "text": "The common law possessory lien on commercial bailments excuses contract non-performance during unprecedented market disruptions, in order to without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-138",
+      "text": "The nondisclosure agreement governing trade secrets requires proof of proximate causation and proximate foreseeability, in order to subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-139",
+      "text": "The affirmative defense of force majeure and impossibility authorizes contract cancellation upon written notice without penalty in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-140",
+      "text": "The unilateral termination clause for material breach imposes civil liability for reckless mismanagement of corporate assets, consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-141",
+      "text": "The doctrine of equitable promissory estoppel bars a party from taking positions contrary to prior explicit assertions, upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-142",
+      "text": "The binding commercial arbitration agreement establishes a pre-agreed financial remedy representing actual loss, in order to safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-143",
+      "text": "The evidentiary admissibility of digital audit logs submits all disputes exclusively to administered arbitral tribunals ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-144",
+      "text": "The assignment of proprietary intellectual property rights extinguishes prior obligations in exchange for newly executed covenants preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-145",
+      "text": "The grant of non-exclusive software licensing rights confers prima facie authenticity under evidentiary statutory rules, without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-146",
+      "text": "The indemnification and defense covenant establishes a pre-agreed financial remedy representing actual loss, ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-147",
+      "text": "The statutory joint and several liability doctrine submits all disputes exclusively to administered arbitral tribunals, preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-148",
+      "text": "The fiduciary duty of care owed by corporate directors extinguishes prior obligations in exchange for newly executed covenants, in order to without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-149",
+      "text": "The liquidated damages clause for delayed performance confers prima facie authenticity under evidentiary statutory rules, in order to subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-150",
+      "text": "The contractual novation substituting the primary debtor precludes recovery of indirect losses beyond specified contract caps in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-151",
+      "text": "The express waiver of consequential and punitive damages transfers title and copyright ownership free and clear of encumbrances, consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-152",
+      "text": "The common law possessory lien on commercial bailments entitles retention of custody until outstanding balances are discharged, upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-153",
+      "text": "The nondisclosure agreement governing trade secrets prohibits reverse engineering and unauthorized sublicensing to competitors, in order to safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-154",
+      "text": "The affirmative defense of force majeure and impossibility survives the expiration or termination of the master agreement ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-155",
+      "text": "The unilateral termination clause for material breach holds the harmless party indemnified against third-party claims preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-156",
+      "text": "The doctrine of equitable promissory estoppel excuses contract non-performance during unprecedented market disruptions, without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-157",
+      "text": "The binding commercial arbitration agreement requires proof of proximate causation and proximate foreseeability, subject to the exclusive jurisdiction of the designated state courts.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-158",
+      "text": "The evidentiary admissibility of digital audit logs authorizes contract cancellation upon written notice without penalty, in order to in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-159",
+      "text": "The assignment of proprietary intellectual property rights imposes civil liability for reckless mismanagement of corporate assets consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-160",
+      "text": "The grant of non-exclusive software licensing rights bars a party from taking positions contrary to prior explicit assertions upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-161",
+      "text": "The indemnification and defense covenant requires proof of proximate causation and proximate foreseeability in compliance with mandatory consumer protection and privacy regulations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-162",
+      "text": "The statutory joint and several liability doctrine authorizes contract cancellation upon written notice without penalty, consistent with established principles of governing commercial jurisprudence.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-163",
+      "text": "The fiduciary duty of care owed by corporate directors imposes civil liability for reckless mismanagement of corporate assets, upholding the fundamental canon of good faith and fair dealing.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-164",
+      "text": "The liquidated damages clause for delayed performance bars a party from taking positions contrary to prior explicit assertions, in order to safeguarding intellectual property integrity during cross-border operations.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-165",
+      "text": "The contractual novation substituting the primary debtor establishes a pre-agreed financial remedy representing actual loss ensuring robust risk allocation across international enterprise agreements.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-166",
+      "text": "The express waiver of consequential and punitive damages submits all disputes exclusively to administered arbitral tribunals preventing unjust enrichment and maintaining contractual balance.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-en-167",
+      "text": "The common law possessory lien on commercial bailments extinguishes prior obligations in exchange for newly executed covenants, without prejudice to statutory remedies available under antitrust law.",
+      "lang": "en",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-001",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-002",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-003",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-004",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-005",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-006",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-007",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-008",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-009",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-010",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund begründet den vollen Beweis der formellen Echtheit der Erklärung zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-011",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-012",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-013",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-014",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-015",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-016",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-017",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-018",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-019",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-020",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-021",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-022",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-023",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-024",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-025",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-026",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-027",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-028",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-029",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten begründet den vollen Beweis der formellen Echtheit der Erklärung, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-030",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-031",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-032",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-033",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern begründet den vollen Beweis der formellen Echtheit der Erklärung, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-034",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-035",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-036",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-037",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-038",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-039",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-040",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-041",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-042",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-043",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-044",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-045",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-046",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-047",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-048",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-049",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-050",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-051",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-052",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren begründet den vollen Beweis der formellen Echtheit der Erklärung unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-053",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-054",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-055",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-056",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-057",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-058",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-059",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-060",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-061",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-062",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-063",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-064",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-065",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-066",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-067",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-068",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-069",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-070",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-071",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB begründet den vollen Beweis der formellen Echtheit der Erklärung, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-072",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-073",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-074",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-075",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-076",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-077",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-078",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-079",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-080",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-081",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-082",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-083",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-084",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-085",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-086",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-087",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-088",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-089",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-090",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software begründet den vollen Beweis der formellen Echtheit der Erklärung, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-091",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-092",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-093",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-094",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe begründet den vollen Beweis der formellen Echtheit der Erklärung, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-095",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-096",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-097",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-098",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-099",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-100",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-101",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-102",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-103",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-104",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-105",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-106",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-107",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-108",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-109",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-110",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-111",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-112",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-113",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse begründet den vollen Beweis der formellen Echtheit der Erklärung, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-114",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-115",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-116",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-117",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-118",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-119",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-120",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-121",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-122",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-123",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-124",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-125",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-126",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-127",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-128",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-129",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-130",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-131",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-132",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln begründet den vollen Beweis der formellen Echtheit der Erklärung unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-133",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-134",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-135",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-136",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel begründet den vollen Beweis der formellen Echtheit der Erklärung, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-137",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-138",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-139",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich, zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-140",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-141",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-142",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-143",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-144",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-145",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-146",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-147",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-148",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-149",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-150",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-151",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel verbietet widersprüchliches und treuwidriges Verhalten im Rechtsverkehr, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-152",
+      "text": "Die gesamtschuldnerische Haftung mehrerer Vertragspartner sichert die rechtzeitige Leistungserbringung durch feste Pauschalen ab, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-153",
+      "text": "Die organschaftliche Sorgfaltspflicht von Vorstandsmitgliedern schließt den ordentlichen Rechtsweg zu den staatlichen Gerichten aus unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-154",
+      "text": "Die Vereinbarung einer verschuldensunabhängigen Vertragsstrafe entlässt den bisherigen Schuldner vollständig aus seiner Verbindlichkeit unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-155",
+      "text": "Die befreiende Schuldübernahme durch dreiseitigen Vertrag begründet den vollen Beweis der formellen Echtheit der Erklärung, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-156",
+      "text": "Der Haftungsausschluss für leichte Fahrlässigkeit und Mangelfolgeschäden begrenzt die finanzielle Ersatzpflicht auf die vorhersehbaren Schäden, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-157",
+      "text": "Das kaufmännische Zurückbehaltungsrecht an gelagerten Waren überträgt die ausschließlichen Verwertungsrechte mit dinglicher Wirkung, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-158",
+      "text": "Die Geheimhaltungsvereinbarung bezüglich geschützter Betriebsgeheimnisse berechtigt zur Verweigerung der Herausgabe bis zum vollständigen Ausgleich zur verlässlichen Risikominimierung bei komplexen Unternehmenskäufen.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-159",
+      "text": "Die Einrede des nicht erfüllten Vertrags im Zivilprozess untersagt die unbefugte Weitergabe und Dekompilierung des Quellcodes, zur Gewährleistung maximaler Rechtssicherheit im grenzüberschreitenden Handel.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-160",
+      "text": "Die außerordentliche fristlose Kündigung aus wichtigem Grund bleibt auch nach vollständiger Vertragsabwicklung dauerhaft in Kraft, zur Verhinderung ungerechtfertigter Bereicherungen im Wirtschaftsverkehr.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-161",
+      "text": "Der Grundsatz von Treu und Glauben nach Paragraph 242 BGB schützt die begünstigte Partei vor Ansprüchen und Klagen Dritter, unbeschadet gesetzlicher Schadensersatzansprüche wegen vorsätzlicher Täuschung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-162",
+      "text": "Die verbindliche Schiedsgerichtsvereinbarung nach UNCITRAL-Regeln hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung, unter Wahrung des rechtlichen Gehörs im Zivil- und Schiedsverfahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-163",
+      "text": "Der Beweiswert qualifizierter elektronischer Signaturen ermöglicht dem Gläubiger den vollen Regress bei jedem Einzelschuldner unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-164",
+      "text": "Die Abtretung von Rechten an gewerblichen Schutzrechten beendet das Vertragsverhältnis sofort nach Zugang der Kündigungserklärung, in strikter Übereinstimmung mit den zwingenden Bestimmungen des BGB.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-165",
+      "text": "Die Einräumung einfacher Nutzungsrechte an proprietärer Software führt bei schuldhafter Pflichtverletzung zur persönlichen Schadensersatzpflicht, gemäß den anerkannten Grundsätzen ordnungsgemäßer Unternehmensführung.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    },
+    {
+      "id": "legal-de-166",
+      "text": "Die Freistellungs- und Schadloshaltungsklausel hemmt den Verzugseintritt bis zur Erbringung der geschuldeten Gegenleistung, unter Beachtung der europäischen Datenschutz-Grundverordnung DSGVO.",
+      "lang": "de",
+      "source": "corpus-trilingue-legal"
+    }
+  ]
+}
