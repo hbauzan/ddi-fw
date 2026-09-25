@@ -1,0 +1,3007 @@
+{
+  "alma": "botanica",
+  "n": 500,
+  "description": "Mazo trilingüe de botanica (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "botanica-es-001",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión moviliza sacarosa desde las hojas fuente hacia los órganos sumidero, optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-002",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima impide la germinación precoz en condiciones ambientales desfavorables, revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-003",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos confiere rigidez mecánica y resistencia a la compresión estructural, con el fin de esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-004",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo controla la turgencia de las células oclusivas cerrando los poros estomáticos, con el fin de integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-005",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos redistribuye auxinas hacia la cara inferior promoviendo la curvatura conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-006",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal eleva los cotiledones por encima de la superficie del suelo agrícola, en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-007",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos estimula la elongación celular y la dominancia apical del tallo, mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-008",
+      "text": "La actividad mitótica en el meristemo apical de la raíz minimiza la pérdida de agua por transpiración en ambientes áridos, con el fin de garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-009",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA mantiene la continuidad citoplasmática mediante placas cribosas perforadas optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-010",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio sincroniza el desarrollo reproductivo con las estaciones climáticas del año revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-011",
+      "text": "La germinación epígea con elongación marcada del hipocótilo facilita la absorción de fósforo y micronutrientes del sustrato edáfico, esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-012",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono conduce agua y solutos inorgánicos bajo tensión y presión negativa, integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-013",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración resuelve relaciones evolutivas entre familias de plantas vasculares, con el fin de conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-014",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema origina simultáneamente el embrión diploide y el endosperma triploide en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-015",
+      "text": "La fecundación doble característica de las plantas angiospermas genera células precursoras protegidas por la caliptra o cofia radical mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-016",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión conduce agua y solutos inorgánicos bajo tensión y presión negativa conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-017",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima resuelve relaciones evolutivas entre familias de plantas vasculares, en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-018",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos origina simultáneamente el embrión diploide y el endosperma triploide, mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-019",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo genera células precursoras protegidas por la caliptra o cofia radical, con el fin de garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-020",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos moviliza sacarosa desde las hojas fuente hacia los órganos sumidero optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-021",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal impide la germinación precoz en condiciones ambientales desfavorables revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-022",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos confiere rigidez mecánica y resistencia a la compresión estructural, esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-023",
+      "text": "La actividad mitótica en el meristemo apical de la raíz controla la turgencia de las células oclusivas cerrando los poros estomáticos, integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-024",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA redistribuye auxinas hacia la cara inferior promoviendo la curvatura, con el fin de conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-025",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio eleva los cotiledones por encima de la superficie del suelo agrícola en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-026",
+      "text": "La germinación epígea con elongación marcada del hipocótilo estimula la elongación celular y la dominancia apical del tallo mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-027",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono minimiza la pérdida de agua por transpiración en ambientes áridos, garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-028",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración mantiene la continuidad citoplasmática mediante placas cribosas perforadas, con el fin de optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-029",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema sincroniza el desarrollo reproductivo con las estaciones climáticas del año, con el fin de revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-030",
+      "text": "La fecundación doble característica de las plantas angiospermas facilita la absorción de fósforo y micronutrientes del sustrato edáfico esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-031",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión minimiza la pérdida de agua por transpiración en ambientes áridos optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-032",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima mantiene la continuidad citoplasmática mediante placas cribosas perforadas revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-033",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos sincroniza el desarrollo reproductivo con las estaciones climáticas del año, esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-034",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo facilita la absorción de fósforo y micronutrientes del sustrato edáfico, integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-035",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos conduce agua y solutos inorgánicos bajo tensión y presión negativa, con el fin de conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-036",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal resuelve relaciones evolutivas entre familias de plantas vasculares en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-037",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos origina simultáneamente el embrión diploide y el endosperma triploide mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-038",
+      "text": "La actividad mitótica en el meristemo apical de la raíz genera células precursoras protegidas por la caliptra o cofia radical, garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-039",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA moviliza sacarosa desde las hojas fuente hacia los órganos sumidero, con el fin de optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-040",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio impide la germinación precoz en condiciones ambientales desfavorables, con el fin de revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-041",
+      "text": "La germinación epígea con elongación marcada del hipocótilo confiere rigidez mecánica y resistencia a la compresión estructural esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-042",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono controla la turgencia de las células oclusivas cerrando los poros estomáticos integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-043",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración redistribuye auxinas hacia la cara inferior promoviendo la curvatura, conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-044",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema eleva los cotiledones por encima de la superficie del suelo agrícola, con el fin de en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-045",
+      "text": "La fecundación doble característica de las plantas angiospermas estimula la elongación celular y la dominancia apical del tallo, con el fin de mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-046",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión controla la turgencia de las células oclusivas cerrando los poros estomáticos, con el fin de conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-047",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima redistribuye auxinas hacia la cara inferior promoviendo la curvatura en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-048",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos eleva los cotiledones por encima de la superficie del suelo agrícola mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-049",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo estimula la elongación celular y la dominancia apical del tallo, garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-050",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos minimiza la pérdida de agua por transpiración en ambientes áridos, con el fin de optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-051",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal mantiene la continuidad citoplasmática mediante placas cribosas perforadas, con el fin de revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-052",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos sincroniza el desarrollo reproductivo con las estaciones climáticas del año esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-053",
+      "text": "La actividad mitótica en el meristemo apical de la raíz facilita la absorción de fósforo y micronutrientes del sustrato edáfico integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-054",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA conduce agua y solutos inorgánicos bajo tensión y presión negativa, conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-055",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio resuelve relaciones evolutivas entre familias de plantas vasculares, con el fin de en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-056",
+      "text": "La germinación epígea con elongación marcada del hipocótilo origina simultáneamente el embrión diploide y el endosperma triploide, con el fin de mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-057",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono genera células precursoras protegidas por la caliptra o cofia radical garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-058",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración moviliza sacarosa desde las hojas fuente hacia los órganos sumidero, optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-059",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema impide la germinación precoz en condiciones ambientales desfavorables, revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-060",
+      "text": "La fecundación doble característica de las plantas angiospermas confiere rigidez mecánica y resistencia a la compresión estructural, con el fin de esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-061",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión genera células precursoras protegidas por la caliptra o cofia radical, con el fin de optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-062",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima moviliza sacarosa desde las hojas fuente hacia los órganos sumidero, con el fin de revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-063",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos impide la germinación precoz en condiciones ambientales desfavorables esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-064",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo confiere rigidez mecánica y resistencia a la compresión estructural integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-065",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos controla la turgencia de las células oclusivas cerrando los poros estomáticos, conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-066",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal redistribuye auxinas hacia la cara inferior promoviendo la curvatura, con el fin de en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-067",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos eleva los cotiledones por encima de la superficie del suelo agrícola, con el fin de mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-068",
+      "text": "La actividad mitótica en el meristemo apical de la raíz estimula la elongación celular y la dominancia apical del tallo garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-069",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA minimiza la pérdida de agua por transpiración en ambientes áridos, optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-070",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio mantiene la continuidad citoplasmática mediante placas cribosas perforadas, revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-071",
+      "text": "La germinación epígea con elongación marcada del hipocótilo sincroniza el desarrollo reproductivo con las estaciones climáticas del año, con el fin de esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-072",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono facilita la absorción de fósforo y micronutrientes del sustrato edáfico, con el fin de integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-073",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración conduce agua y solutos inorgánicos bajo tensión y presión negativa conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-074",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema resuelve relaciones evolutivas entre familias de plantas vasculares, en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-075",
+      "text": "La fecundación doble característica de las plantas angiospermas origina simultáneamente el embrión diploide y el endosperma triploide, mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-076",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión facilita la absorción de fósforo y micronutrientes del sustrato edáfico, conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-077",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima conduce agua y solutos inorgánicos bajo tensión y presión negativa, con el fin de en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-078",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos resuelve relaciones evolutivas entre familias de plantas vasculares, con el fin de mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-079",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo origina simultáneamente el embrión diploide y el endosperma triploide garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-080",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos genera células precursoras protegidas por la caliptra o cofia radical, optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-081",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal moviliza sacarosa desde las hojas fuente hacia los órganos sumidero, revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-082",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos impide la germinación precoz en condiciones ambientales desfavorables, con el fin de esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-083",
+      "text": "La actividad mitótica en el meristemo apical de la raíz confiere rigidez mecánica y resistencia a la compresión estructural, con el fin de integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-084",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA controla la turgencia de las células oclusivas cerrando los poros estomáticos conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-085",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio redistribuye auxinas hacia la cara inferior promoviendo la curvatura, en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-086",
+      "text": "La germinación epígea con elongación marcada del hipocótilo eleva los cotiledones por encima de la superficie del suelo agrícola, mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-087",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono estimula la elongación celular y la dominancia apical del tallo, con el fin de garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-088",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración minimiza la pérdida de agua por transpiración en ambientes áridos optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-089",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema mantiene la continuidad citoplasmática mediante placas cribosas perforadas revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-090",
+      "text": "La fecundación doble característica de las plantas angiospermas sincroniza el desarrollo reproductivo con las estaciones climáticas del año, esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-091",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión estimula la elongación celular y la dominancia apical del tallo, optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-092",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima minimiza la pérdida de agua por transpiración en ambientes áridos, revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-093",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos mantiene la continuidad citoplasmática mediante placas cribosas perforadas, con el fin de esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-094",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo sincroniza el desarrollo reproductivo con las estaciones climáticas del año, con el fin de integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-095",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos facilita la absorción de fósforo y micronutrientes del sustrato edáfico conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-096",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal conduce agua y solutos inorgánicos bajo tensión y presión negativa, en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-097",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos resuelve relaciones evolutivas entre familias de plantas vasculares, mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-098",
+      "text": "La actividad mitótica en el meristemo apical de la raíz origina simultáneamente el embrión diploide y el endosperma triploide, con el fin de garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-099",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA genera células precursoras protegidas por la caliptra o cofia radical optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-100",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio moviliza sacarosa desde las hojas fuente hacia los órganos sumidero revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-101",
+      "text": "La germinación epígea con elongación marcada del hipocótilo impide la germinación precoz en condiciones ambientales desfavorables, esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-102",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono confiere rigidez mecánica y resistencia a la compresión estructural, integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-103",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración controla la turgencia de las células oclusivas cerrando los poros estomáticos, con el fin de conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-104",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema redistribuye auxinas hacia la cara inferior promoviendo la curvatura en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-105",
+      "text": "La fecundación doble característica de las plantas angiospermas eleva los cotiledones por encima de la superficie del suelo agrícola mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-106",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión confiere rigidez mecánica y resistencia a la compresión estructural conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-107",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima controla la turgencia de las células oclusivas cerrando los poros estomáticos, en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-108",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos redistribuye auxinas hacia la cara inferior promoviendo la curvatura, mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-109",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo eleva los cotiledones por encima de la superficie del suelo agrícola, con el fin de garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-110",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos estimula la elongación celular y la dominancia apical del tallo optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-111",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal minimiza la pérdida de agua por transpiración en ambientes áridos revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-112",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos mantiene la continuidad citoplasmática mediante placas cribosas perforadas, esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-113",
+      "text": "La actividad mitótica en el meristemo apical de la raíz sincroniza el desarrollo reproductivo con las estaciones climáticas del año, integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-114",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA facilita la absorción de fósforo y micronutrientes del sustrato edáfico, con el fin de conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-115",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio conduce agua y solutos inorgánicos bajo tensión y presión negativa en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-116",
+      "text": "La germinación epígea con elongación marcada del hipocótilo resuelve relaciones evolutivas entre familias de plantas vasculares mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-117",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono origina simultáneamente el embrión diploide y el endosperma triploide, garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-118",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración genera células precursoras protegidas por la caliptra o cofia radical, con el fin de optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-119",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema moviliza sacarosa desde las hojas fuente hacia los órganos sumidero, con el fin de revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-120",
+      "text": "La fecundación doble característica de las plantas angiospermas impide la germinación precoz en condiciones ambientales desfavorables esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-121",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión origina simultáneamente el embrión diploide y el endosperma triploide optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-122",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima genera células precursoras protegidas por la caliptra o cofia radical revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-123",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos moviliza sacarosa desde las hojas fuente hacia los órganos sumidero, esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-124",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo impide la germinación precoz en condiciones ambientales desfavorables, integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-125",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos confiere rigidez mecánica y resistencia a la compresión estructural, con el fin de conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-126",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal controla la turgencia de las células oclusivas cerrando los poros estomáticos en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-127",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos redistribuye auxinas hacia la cara inferior promoviendo la curvatura mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-128",
+      "text": "La actividad mitótica en el meristemo apical de la raíz eleva los cotiledones por encima de la superficie del suelo agrícola, garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-129",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA estimula la elongación celular y la dominancia apical del tallo, con el fin de optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-130",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio minimiza la pérdida de agua por transpiración en ambientes áridos, con el fin de revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-131",
+      "text": "La germinación epígea con elongación marcada del hipocótilo mantiene la continuidad citoplasmática mediante placas cribosas perforadas esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-132",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono sincroniza el desarrollo reproductivo con las estaciones climáticas del año integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-133",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración facilita la absorción de fósforo y micronutrientes del sustrato edáfico, conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-134",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema conduce agua y solutos inorgánicos bajo tensión y presión negativa, con el fin de en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-135",
+      "text": "La fecundación doble característica de las plantas angiospermas resuelve relaciones evolutivas entre familias de plantas vasculares, con el fin de mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-136",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión sincroniza el desarrollo reproductivo con las estaciones climáticas del año, con el fin de conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-137",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima facilita la absorción de fósforo y micronutrientes del sustrato edáfico en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-138",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos conduce agua y solutos inorgánicos bajo tensión y presión negativa mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-139",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo resuelve relaciones evolutivas entre familias de plantas vasculares, garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-140",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos origina simultáneamente el embrión diploide y el endosperma triploide, con el fin de optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-141",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal genera células precursoras protegidas por la caliptra o cofia radical, con el fin de revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-142",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos moviliza sacarosa desde las hojas fuente hacia los órganos sumidero esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-143",
+      "text": "La actividad mitótica en el meristemo apical de la raíz impide la germinación precoz en condiciones ambientales desfavorables integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-144",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA confiere rigidez mecánica y resistencia a la compresión estructural, conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-145",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio controla la turgencia de las células oclusivas cerrando los poros estomáticos, con el fin de en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-146",
+      "text": "La germinación epígea con elongación marcada del hipocótilo redistribuye auxinas hacia la cara inferior promoviendo la curvatura, con el fin de mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-147",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono eleva los cotiledones por encima de la superficie del suelo agrícola garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-148",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración estimula la elongación celular y la dominancia apical del tallo, optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-149",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema minimiza la pérdida de agua por transpiración en ambientes áridos, revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-150",
+      "text": "La fecundación doble característica de las plantas angiospermas mantiene la continuidad citoplasmática mediante placas cribosas perforadas, con el fin de esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-151",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión eleva los cotiledones por encima de la superficie del suelo agrícola, con el fin de optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-152",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima estimula la elongación celular y la dominancia apical del tallo, con el fin de revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-153",
+      "text": "El gravitropismo radical coordinado por estatolitos amiloplásticos minimiza la pérdida de agua por transpiración en ambientes áridos esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-154",
+      "text": "La síntesis de auxinas y su transporte polar basipétalo mantiene la continuidad citoplasmática mediante placas cribosas perforadas integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-155",
+      "text": "La exudación de savia elaborada a través de los tubos cribosos sincroniza el desarrollo reproductivo con las estaciones climáticas del año, conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-156",
+      "text": "La simbiosis micorrízica arbuscular en la rizosfera vegetal facilita la absorción de fósforo y micronutrientes del sustrato edáfico, con el fin de en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-157",
+      "text": "La taxonomía filogenética basada en secuencias de cloroplastos conduce agua y solutos inorgánicos bajo tensión y presión negativa, con el fin de mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-158",
+      "text": "La actividad mitótica en el meristemo apical de la raíz resuelve relaciones evolutivas entre familias de plantas vasculares garantizando la supervivencia y reproducción en ecosistemas terrestres diversos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-159",
+      "text": "La dormición de semillas regulada por el equilibrio giberelina-ABA origina simultáneamente el embrión diploide y el endosperma triploide, optimizando la adaptación fisiológica de las especies vegetales al estrés.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-160",
+      "text": "La regulación estomática mediada por ácido abscísico y flujo de potasio genera células precursoras protegidas por la caliptra o cofia radical, revelando la complejidad de las interacciones bióticas en el suelo.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-161",
+      "text": "La germinación epígea con elongación marcada del hipocótilo moviliza sacarosa desde las hojas fuente hacia los órganos sumidero, con el fin de esencial para la comprensión del rendimiento agronómico de los cultivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-162",
+      "text": "La vía fotosintética CAM con fijación nocturna de dióxido de carbono impide la germinación precoz en condiciones ambientales desfavorables, con el fin de integrando la ecología vegetal con la conservación de la biodiversidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-163",
+      "text": "El fotoperiodismo inducido por el fitocromo en la floración confiere rigidez mecánica y resistencia a la compresión estructural conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-164",
+      "text": "La diferenciación de traqueidas y elementos de los vasos en el xilema controla la turgencia de las células oclusivas cerrando los poros estomáticos, en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-165",
+      "text": "La fecundación doble característica de las plantas angiospermas redistribuye auxinas hacia la cara inferior promoviendo la curvatura, mediante estudios histológicos de microscopía electrónica de transmisión.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-166",
+      "text": "El transporte floemático de fotoasimilados por flujo de presión impide la germinación precoz en condiciones ambientales desfavorables, conforme a los modelos mecanicistas de transporte y desarrollo vegetal.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-es-167",
+      "text": "La lignificación de las paredes celulares secundarias en el esclerénquima confiere rigidez mecánica y resistencia a la compresión estructural, con el fin de en el marco de la botánica estructural y la fisiología vegetal moderna.",
+      "lang": "es",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-001",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure translocates sucrose from photosynthesizing sources to storage sinks, optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-002",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues ensures seed emergence occurs only during favorable seasonal conditions, shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-003",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths provides essential tensile strength and vertical compressive support, in order to critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-004",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins deflates guard cells to prevent fatal desiccation during drought stress, in order to informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-005",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements induces asymmetric auxin accumulation on the lower organ flank advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-006",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells lifts photosynthetic cotyledons above the soil level into ambient light, consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-007",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci maintains primary shoot apical dominance and directs vascular patterning, elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-008",
+      "text": "Mitotic division in the root apical meristem and quiescent center drastically suppresses daytime evapotranspirational water loss in succulents, in order to governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-009",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio sustains nutrient streaming through callose-lined plasmodesmatal pores optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-010",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux entrains flowering time to seasonal day-length shifts via systemic florigen shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-011",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation enhances inorganic phosphate and nitrogen uptake from depleted soils, critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-012",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation conducts water and dissolved inorganic ions under negative xylem tensions, informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-013",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways clarifies evolutionary branching orders across basal angiosperm lineages, in order to advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-014",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem initiates coordinated seed development following compatible pollination consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-015",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm supplies continuous cell lineages protected by the protective root cap elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-016",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure conducts water and dissolved inorganic ions under negative xylem tensions advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-017",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues clarifies evolutionary branching orders across basal angiosperm lineages, consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-018",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths initiates coordinated seed development following compatible pollination, elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-019",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins supplies continuous cell lineages protected by the protective root cap, in order to governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-020",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements translocates sucrose from photosynthesizing sources to storage sinks optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-021",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells ensures seed emergence occurs only during favorable seasonal conditions shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-022",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci provides essential tensile strength and vertical compressive support, critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-023",
+      "text": "Mitotic division in the root apical meristem and quiescent center deflates guard cells to prevent fatal desiccation during drought stress, informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-024",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio induces asymmetric auxin accumulation on the lower organ flank, in order to advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-025",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux lifts photosynthetic cotyledons above the soil level into ambient light consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-026",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation maintains primary shoot apical dominance and directs vascular patterning elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-027",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation drastically suppresses daytime evapotranspirational water loss in succulents, governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-028",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways sustains nutrient streaming through callose-lined plasmodesmatal pores, in order to optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-029",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem entrains flowering time to seasonal day-length shifts via systemic florigen, in order to shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-030",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm enhances inorganic phosphate and nitrogen uptake from depleted soils critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-031",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure drastically suppresses daytime evapotranspirational water loss in succulents optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-032",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues sustains nutrient streaming through callose-lined plasmodesmatal pores shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-033",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths entrains flowering time to seasonal day-length shifts via systemic florigen, critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-034",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins enhances inorganic phosphate and nitrogen uptake from depleted soils, informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-035",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements conducts water and dissolved inorganic ions under negative xylem tensions, in order to advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-036",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells clarifies evolutionary branching orders across basal angiosperm lineages consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-037",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci initiates coordinated seed development following compatible pollination elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-038",
+      "text": "Mitotic division in the root apical meristem and quiescent center supplies continuous cell lineages protected by the protective root cap, governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-039",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio translocates sucrose from photosynthesizing sources to storage sinks, in order to optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-040",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux ensures seed emergence occurs only during favorable seasonal conditions, in order to shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-041",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation provides essential tensile strength and vertical compressive support critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-042",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation deflates guard cells to prevent fatal desiccation during drought stress informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-043",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways induces asymmetric auxin accumulation on the lower organ flank, advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-044",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem lifts photosynthetic cotyledons above the soil level into ambient light, in order to consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-045",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm maintains primary shoot apical dominance and directs vascular patterning, in order to elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-046",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure deflates guard cells to prevent fatal desiccation during drought stress, in order to advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-047",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues induces asymmetric auxin accumulation on the lower organ flank consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-048",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths lifts photosynthetic cotyledons above the soil level into ambient light elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-049",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins maintains primary shoot apical dominance and directs vascular patterning, governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-050",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements drastically suppresses daytime evapotranspirational water loss in succulents, in order to optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-051",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells sustains nutrient streaming through callose-lined plasmodesmatal pores, in order to shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-052",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci entrains flowering time to seasonal day-length shifts via systemic florigen critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-053",
+      "text": "Mitotic division in the root apical meristem and quiescent center enhances inorganic phosphate and nitrogen uptake from depleted soils informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-054",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio conducts water and dissolved inorganic ions under negative xylem tensions, advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-055",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux clarifies evolutionary branching orders across basal angiosperm lineages, in order to consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-056",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation initiates coordinated seed development following compatible pollination, in order to elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-057",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation supplies continuous cell lineages protected by the protective root cap governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-058",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways translocates sucrose from photosynthesizing sources to storage sinks, optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-059",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem ensures seed emergence occurs only during favorable seasonal conditions, shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-060",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm provides essential tensile strength and vertical compressive support, in order to critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-061",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure supplies continuous cell lineages protected by the protective root cap, in order to optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-062",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues translocates sucrose from photosynthesizing sources to storage sinks, in order to shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-063",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths ensures seed emergence occurs only during favorable seasonal conditions critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-064",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins provides essential tensile strength and vertical compressive support informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-065",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements deflates guard cells to prevent fatal desiccation during drought stress, advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-066",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells induces asymmetric auxin accumulation on the lower organ flank, in order to consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-067",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci lifts photosynthetic cotyledons above the soil level into ambient light, in order to elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-068",
+      "text": "Mitotic division in the root apical meristem and quiescent center maintains primary shoot apical dominance and directs vascular patterning governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-069",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio drastically suppresses daytime evapotranspirational water loss in succulents, optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-070",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux sustains nutrient streaming through callose-lined plasmodesmatal pores, shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-071",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation entrains flowering time to seasonal day-length shifts via systemic florigen, in order to critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-072",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation enhances inorganic phosphate and nitrogen uptake from depleted soils, in order to informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-073",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways conducts water and dissolved inorganic ions under negative xylem tensions advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-074",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem clarifies evolutionary branching orders across basal angiosperm lineages, consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-075",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm initiates coordinated seed development following compatible pollination, elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-076",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure enhances inorganic phosphate and nitrogen uptake from depleted soils, advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-077",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues conducts water and dissolved inorganic ions under negative xylem tensions, in order to consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-078",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths clarifies evolutionary branching orders across basal angiosperm lineages, in order to elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-079",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins initiates coordinated seed development following compatible pollination governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-080",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements supplies continuous cell lineages protected by the protective root cap, optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-081",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells translocates sucrose from photosynthesizing sources to storage sinks, shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-082",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci ensures seed emergence occurs only during favorable seasonal conditions, in order to critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-083",
+      "text": "Mitotic division in the root apical meristem and quiescent center provides essential tensile strength and vertical compressive support, in order to informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-084",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio deflates guard cells to prevent fatal desiccation during drought stress advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-085",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux induces asymmetric auxin accumulation on the lower organ flank, consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-086",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation lifts photosynthetic cotyledons above the soil level into ambient light, elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-087",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation maintains primary shoot apical dominance and directs vascular patterning, in order to governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-088",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways drastically suppresses daytime evapotranspirational water loss in succulents optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-089",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem sustains nutrient streaming through callose-lined plasmodesmatal pores shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-090",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm entrains flowering time to seasonal day-length shifts via systemic florigen, critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-091",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure maintains primary shoot apical dominance and directs vascular patterning, optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-092",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues drastically suppresses daytime evapotranspirational water loss in succulents, shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-093",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths sustains nutrient streaming through callose-lined plasmodesmatal pores, in order to critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-094",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins entrains flowering time to seasonal day-length shifts via systemic florigen, in order to informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-095",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements enhances inorganic phosphate and nitrogen uptake from depleted soils advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-096",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells conducts water and dissolved inorganic ions under negative xylem tensions, consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-097",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci clarifies evolutionary branching orders across basal angiosperm lineages, elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-098",
+      "text": "Mitotic division in the root apical meristem and quiescent center initiates coordinated seed development following compatible pollination, in order to governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-099",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio supplies continuous cell lineages protected by the protective root cap optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-100",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux translocates sucrose from photosynthesizing sources to storage sinks shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-101",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation ensures seed emergence occurs only during favorable seasonal conditions, critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-102",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation provides essential tensile strength and vertical compressive support, informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-103",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways deflates guard cells to prevent fatal desiccation during drought stress, in order to advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-104",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem induces asymmetric auxin accumulation on the lower organ flank consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-105",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm lifts photosynthetic cotyledons above the soil level into ambient light elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-106",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure provides essential tensile strength and vertical compressive support advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-107",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues deflates guard cells to prevent fatal desiccation during drought stress, consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-108",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths induces asymmetric auxin accumulation on the lower organ flank, elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-109",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins lifts photosynthetic cotyledons above the soil level into ambient light, in order to governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-110",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements maintains primary shoot apical dominance and directs vascular patterning optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-111",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells drastically suppresses daytime evapotranspirational water loss in succulents shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-112",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci sustains nutrient streaming through callose-lined plasmodesmatal pores, critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-113",
+      "text": "Mitotic division in the root apical meristem and quiescent center entrains flowering time to seasonal day-length shifts via systemic florigen, informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-114",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio enhances inorganic phosphate and nitrogen uptake from depleted soils, in order to advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-115",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux conducts water and dissolved inorganic ions under negative xylem tensions consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-116",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation clarifies evolutionary branching orders across basal angiosperm lineages elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-117",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation initiates coordinated seed development following compatible pollination, governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-118",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways supplies continuous cell lineages protected by the protective root cap, in order to optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-119",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem translocates sucrose from photosynthesizing sources to storage sinks, in order to shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-120",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm ensures seed emergence occurs only during favorable seasonal conditions critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-121",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure initiates coordinated seed development following compatible pollination optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-122",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues supplies continuous cell lineages protected by the protective root cap shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-123",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths translocates sucrose from photosynthesizing sources to storage sinks, critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-124",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins ensures seed emergence occurs only during favorable seasonal conditions, informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-125",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements provides essential tensile strength and vertical compressive support, in order to advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-126",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells deflates guard cells to prevent fatal desiccation during drought stress consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-127",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci induces asymmetric auxin accumulation on the lower organ flank elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-128",
+      "text": "Mitotic division in the root apical meristem and quiescent center lifts photosynthetic cotyledons above the soil level into ambient light, governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-129",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio maintains primary shoot apical dominance and directs vascular patterning, in order to optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-130",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux drastically suppresses daytime evapotranspirational water loss in succulents, in order to shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-131",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation sustains nutrient streaming through callose-lined plasmodesmatal pores critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-132",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation entrains flowering time to seasonal day-length shifts via systemic florigen informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-133",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways enhances inorganic phosphate and nitrogen uptake from depleted soils, advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-134",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem conducts water and dissolved inorganic ions under negative xylem tensions, in order to consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-135",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm clarifies evolutionary branching orders across basal angiosperm lineages, in order to elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-136",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure entrains flowering time to seasonal day-length shifts via systemic florigen, in order to advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-137",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues enhances inorganic phosphate and nitrogen uptake from depleted soils consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-138",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths conducts water and dissolved inorganic ions under negative xylem tensions elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-139",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins clarifies evolutionary branching orders across basal angiosperm lineages, governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-140",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements initiates coordinated seed development following compatible pollination, in order to optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-141",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells supplies continuous cell lineages protected by the protective root cap, in order to shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-142",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci translocates sucrose from photosynthesizing sources to storage sinks critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-143",
+      "text": "Mitotic division in the root apical meristem and quiescent center ensures seed emergence occurs only during favorable seasonal conditions informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-144",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio provides essential tensile strength and vertical compressive support, advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-145",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux deflates guard cells to prevent fatal desiccation during drought stress, in order to consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-146",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation induces asymmetric auxin accumulation on the lower organ flank, in order to elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-147",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation lifts photosynthetic cotyledons above the soil level into ambient light governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-148",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways maintains primary shoot apical dominance and directs vascular patterning, optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-149",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem drastically suppresses daytime evapotranspirational water loss in succulents, shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-150",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm sustains nutrient streaming through callose-lined plasmodesmatal pores, in order to critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-151",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure lifts photosynthetic cotyledons above the soil level into ambient light, in order to optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-152",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues maintains primary shoot apical dominance and directs vascular patterning, in order to shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-153",
+      "text": "Root gravitropism directed by sedimentation of amyloplast statoliths drastically suppresses daytime evapotranspirational water loss in succulents critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-154",
+      "text": "Polar auxin transport mediated by PIN-formed efflux carrier proteins sustains nutrient streaming through callose-lined plasmodesmatal pores informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-155",
+      "text": "Pressure-driven bulk flow through perforated sieve tube elements entrains flowering time to seasonal day-length shifts via systemic florigen, advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-156",
+      "text": "Arbuscular mycorrhizal symbiosis established within root cortical cells enhances inorganic phosphate and nitrogen uptake from depleted soils, in order to consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-157",
+      "text": "Angiosperm molecular phylogenetics based on plastid gene loci conducts water and dissolved inorganic ions under negative xylem tensions, in order to elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-158",
+      "text": "Mitotic division in the root apical meristem and quiescent center clarifies evolutionary branching orders across basal angiosperm lineages governing growth and development across diverse terrestrial botanical clades.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-159",
+      "text": "Seed dormancy breaking regulated by the gibberellin-to-ABA ratio initiates coordinated seed development following compatible pollination, optimizing plant physiological adaptations across varying microclimates.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-160",
+      "text": "Stomatal closure modulated by abscisic acid and potassium ion efflux supplies continuous cell lineages protected by the protective root cap, shedding light on intricate plant-rhizosphere microbial mutualisms.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-161",
+      "text": "Epigeal seed germination characterized by rapid hypocotyl elongation translocates sucrose from photosynthesizing sources to storage sinks, in order to critical for enhancing crop agricultural productivity and drought resilience.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-162",
+      "text": "Crassulacean acid metabolism with nocturnal carbon dioxide fixation ensures seed emergence occurs only during favorable seasonal conditions, in order to informing global plant conservation biology and ecological restoration.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-163",
+      "text": "Phytochrome-mediated photoperiodic floral induction pathways provides essential tensile strength and vertical compressive support advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-164",
+      "text": "Differentiation of tracheids and vessel elements in secondary xylem deflates guard cells to prevent fatal desiccation during drought stress, consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-165",
+      "text": "Double fertilization producing a diploid zygote and triploid endosperm induces asymmetric auxin accumulation on the lower organ flank, elucidated through high-resolution confocal laser scanning microscopy.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-166",
+      "text": "Phloem transport of photoassimilates driven by hydrostatic pressure ensures seed emergence occurs only during favorable seasonal conditions, advancing mechanical understanding of long-distance vascular fluid transport.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-en-167",
+      "text": "Secondary cell wall lignification in sclerenchyma fiber tissues provides essential tensile strength and vertical compressive support, in order to consistent with foundational principles of modern plant physiology.",
+      "lang": "en",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-001",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten transportiert Saccharose von den photosynthetischen Quellen zu den Senken, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-002",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-003",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-004",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-005",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-006",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-007",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA steuert die apikale Dominanz und das gerichtete Sprosswachstum, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-008",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-009",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-010",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-011",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-012",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-013",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-014",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-015",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-016",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-017",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-018",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-019",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-020",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder transportiert Saccharose von den photosynthetischen Quellen zu den Senken zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-021",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-022",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-023",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-024",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-025",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-026",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls steuert die apikale Dominanz und das gerichtete Sprosswachstum gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-027",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-028",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-029",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-030",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-031",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-032",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-033",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-034",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-035",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-036",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-037",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-038",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-039",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline transportiert Saccharose von den photosynthetischen Quellen zu den Senken, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-040",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-041",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-042",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-043",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-044",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-045",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen steuert die apikale Dominanz und das gerichtete Sprosswachstum, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-046",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-047",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-048",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-049",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier steuert die apikale Dominanz und das gerichtete Sprosswachstum, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-050",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-051",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-052",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-053",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-054",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-055",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-056",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-057",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-058",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion transportiert Saccharose von den photosynthetischen Quellen zu den Senken, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-059",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-060",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-061",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-062",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe transportiert Saccharose von den photosynthetischen Quellen zu den Senken, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-063",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-064",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-065",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-066",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-067",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-068",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem steuert die apikale Dominanz und das gerichtete Sprosswachstum zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-069",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-070",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-071",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-072",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-073",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-074",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-075",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-076",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-077",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-078",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-079",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-080",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-081",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex transportiert Saccharose von den photosynthetischen Quellen zu den Senken, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-082",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-083",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-084",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-085",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-086",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-087",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung steuert die apikale Dominanz und das gerichtete Sprosswachstum, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-088",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-089",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-090",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-091",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten steuert die apikale Dominanz und das gerichtete Sprosswachstum, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-092",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-093",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-094",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-095",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-096",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-097",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-098",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-099",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-100",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss transportiert Saccharose von den photosynthetischen Quellen zu den Senken zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-101",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-102",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-103",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-104",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-105",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-106",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-107",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-108",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-109",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-110",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder steuert die apikale Dominanz und das gerichtete Sprosswachstum zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-111",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-112",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-113",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-114",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-115",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-116",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-117",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-118",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-119",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem transportiert Saccharose von den photosynthetischen Quellen zu den Senken, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-120",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-121",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-122",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-123",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten transportiert Saccharose von den photosynthetischen Quellen zu den Senken, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-124",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-125",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-126",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-127",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-128",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-129",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline steuert die apikale Dominanz und das gerichtete Sprosswachstum, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-130",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-131",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-132",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-133",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-134",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-135",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-136",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-137",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-138",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-139",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung, zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-140",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-141",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-142",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA transportiert Saccharose von den photosynthetischen Quellen zu den Senken von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-143",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-144",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-145",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-146",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-147",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-148",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion steuert die apikale Dominanz und das gerichtete Sprosswachstum, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-149",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-150",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-151",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten hebt die Speicherkeimblätter zur frühen Photosynthese über die Erde, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-152",
+      "text": "Die Lignifizierung sekundärer Zellwände im Festigungsgewebe steuert die apikale Dominanz und das gerichtete Sprosswachstum, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-153",
+      "text": "Der Wurzelgravitropismus gesteuert durch sedimentierende Amyloplasten reduziert den transpiratorischen Wasserverlust bei extremer Trockenheit von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-154",
+      "text": "Der polare Auxintransport durch zelluläre PIN-Efflux-Carrier gewährleistet den kontinuierlichen Stoffaustausch über durchbrochene Siebplatten zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-155",
+      "text": "Der Massenstrom gelöster Nährstoffe durch die Siebröhrenglieder synchronisiert den Blühzeitpunkt mit den jahreszeitlichen Tageslängen, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-156",
+      "text": "Die arbuskuläre Mykorrhiza-Symbiose im Wurzelkortex verbessert die Aufnahme von schwer löslichem Phosphat aus dem Boden, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-157",
+      "text": "Die molekulare Pflanzensystematik anhand von Chloroplasten-DNA leitet Wasser und Mineralstoffe unter negativem hydrostatischem Druck, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-158",
+      "text": "Die mitotische Zellteilung im Wurzelspitzenmeristem rekonstruiert die Stammesgeschichte Höherer Pflanzen mit hoher Auflösung zur Aufklärung grundlegender biophysikalischer Stofftransportprozesse.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-159",
+      "text": "Die Samenruhe und Dormanzbrechung durch Gibberelline erzeugt gleichzeitig den diploiden Embryo und das triploide Nährgewebe, zur Erforschung pflanzlicher Anpassungsmechanismen an Umweltstress.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-160",
+      "text": "Der durch Abscisinsäure gesteuerte Spaltöffnungsverschluss liefert neue Zellschichten unter dem Schutz der schützenden Wurzelhaube, zur Vertiefung des Verständnisses biotischer Interaktionen im Boden.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-161",
+      "text": "Die epigäische Keimung mit starker Streckung des Hypokotyls transportiert Saccharose von den photosynthetischen Quellen zu den Senken, von zentraler Bedeutung für die Züchtung ertragreicher und robuster Nutzpflanzen.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-162",
+      "text": "Der CAM-Photosyntheseweg mit nächtlicher CO2-Vorfixierung verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen, zur Förderung des weltweiten Schutzes der pflanzlichen Biodiversität.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-163",
+      "text": "Die phytochromgesteuerte Photoperiodik bei der Blüteninduktion verleiht den Zellwänden hohe mechanische Druck- und Biegefestigkeit im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-164",
+      "text": "Die Differenzierung von Tracheen und Tracheiden im sekundären Xylem senkt den Turgordruck der Schließzellen zur Vermeidung von Welkeschäden, gemäß den aktuellen Erkenntnissen der pflanzlichen Zell- und Entwicklungsbiologie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-165",
+      "text": "Die doppelte Befruchtung bei bedecktsamigen Blütenpflanzen lenkt das Wurzelwachstum durch asymmetrische Auxinverteilung erdnah, gestützt auf histologische Untersuchungen und Fluoreszenzmikroskopie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    },
+    {
+      "id": "botanica-de-166",
+      "text": "Der Phloemtransport von Assimilaten über hydrostatische Druckgradienten verhindert das vorzeitige Auskeimen unter ungünstigen Witterungsbedingungen, im Einklang mit den Modellen der pflanzlichen Morphologie und Anatomie.",
+      "lang": "de",
+      "source": "corpus-trilingue-botanica"
+    }
+  ]
+}

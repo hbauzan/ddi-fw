@@ -1,0 +1,3007 @@
+{
+  "alma": "geologia",
+  "n": 500,
+  "description": "Mazo trilingüe de geologia (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "geologia-es-001",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales induce la fusión parcial del manto superior generando arcos volcánicos, reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-002",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo produce coladas basálticas fluidas de gran extensión y baja viscosidad, revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-003",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias determina con exactitud cronológica la cristalización de rocas ígneas, con el fin de proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-004",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero reduce la porosidad intergranular mediante precipitación de sílice y calcita, con el fin de integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-005",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical reactiva antiguas fallas normales transformándolas en fallas inversas en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-006",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales deforma intensamente los granos de cuarzo y feldespato por flujo plástico, de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-007",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas, utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-008",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas refleja discontinuidades composicionales y reológicas en el interior terrestre, con el fin de mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-009",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes libera iones de magnesio y hierro formando minerales secundarios de arcilla reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-010",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís deposita secuencias granocrecientes con estratificación gradada típica revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-011",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas, proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-012",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado, integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-013",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos conecta vértices de oxígeno compartidos determinando su clivaje y dureza, con el fin de en el marco del ciclo de wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-014",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes engrosa la corteza continental generando relieve montañoso escarpado de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-015",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento enriquece progresivamente el magma residual en sílice, sodio y potasio utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-016",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-017",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo conecta vértices de oxígeno compartidos determinando su clivaje y dureza, de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-018",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias engrosa la corteza continental generando relieve montañoso escarpado, utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-019",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero enriquece progresivamente el magma residual en sílice, sodio y potasio, con el fin de mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-020",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical induce la fusión parcial del manto superior generando arcos volcánicos reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-021",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales produce coladas basálticas fluidas de gran extensión y baja viscosidad revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-022",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos determina con exactitud cronológica la cristalización de rocas ígneas, proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-023",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas reduce la porosidad intergranular mediante precipitación de sílice y calcita, integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-024",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes reactiva antiguas fallas normales transformándolas en fallas inversas, con el fin de en el marco del ciclo de wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-025",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís deforma intensamente los granos de cuarzo y feldespato por flujo plástico de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-026",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-027",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto refleja discontinuidades composicionales y reológicas en el interior terrestre, mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-028",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos libera iones de magnesio y hierro formando minerales secundarios de arcilla, con el fin de reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-029",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes deposita secuencias granocrecientes con estratificación gradada típica, con el fin de revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-030",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-031",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales refleja discontinuidades composicionales y reológicas en el interior terrestre reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-032",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo libera iones de magnesio y hierro formando minerales secundarios de arcilla revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-033",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias deposita secuencias granocrecientes con estratificación gradada típica, proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-034",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas, integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-035",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado, con el fin de en el marco del ciclo de wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-036",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales conecta vértices de oxígeno compartidos determinando su clivaje y dureza de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-037",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos engrosa la corteza continental generando relieve montañoso escarpado utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-038",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas enriquece progresivamente el magma residual en sílice, sodio y potasio, mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-039",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes induce la fusión parcial del manto superior generando arcos volcánicos, con el fin de reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-040",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís produce coladas basálticas fluidas de gran extensión y baja viscosidad, con el fin de revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-041",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda determina con exactitud cronológica la cristalización de rocas ígneas proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-042",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto reduce la porosidad intergranular mediante precipitación de sílice y calcita integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-043",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos reactiva antiguas fallas normales transformándolas en fallas inversas, en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-044",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes deforma intensamente los granos de cuarzo y feldespato por flujo plástico, con el fin de de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-045",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas, con el fin de utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-046",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales reduce la porosidad intergranular mediante precipitación de sílice y calcita, con el fin de en el marco del ciclo de wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-047",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo reactiva antiguas fallas normales transformándolas en fallas inversas de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-048",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias deforma intensamente los granos de cuarzo y feldespato por flujo plástico utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-049",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas, mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-050",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical refleja discontinuidades composicionales y reológicas en el interior terrestre, con el fin de reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-051",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales libera iones de magnesio y hierro formando minerales secundarios de arcilla, con el fin de revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-052",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos deposita secuencias granocrecientes con estratificación gradada típica proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-053",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-054",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado, en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-055",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís conecta vértices de oxígeno compartidos determinando su clivaje y dureza, con el fin de de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-056",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda engrosa la corteza continental generando relieve montañoso escarpado, con el fin de utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-057",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto enriquece progresivamente el magma residual en sílice, sodio y potasio mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-058",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos induce la fusión parcial del manto superior generando arcos volcánicos, reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-059",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes produce coladas basálticas fluidas de gran extensión y baja viscosidad, revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-060",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento determina con exactitud cronológica la cristalización de rocas ígneas, con el fin de proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-061",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales enriquece progresivamente el magma residual en sílice, sodio y potasio, con el fin de reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-062",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo induce la fusión parcial del manto superior generando arcos volcánicos, con el fin de revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-063",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias produce coladas basálticas fluidas de gran extensión y baja viscosidad proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-064",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero determina con exactitud cronológica la cristalización de rocas ígneas integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-065",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical reduce la porosidad intergranular mediante precipitación de sílice y calcita, en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-066",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales reactiva antiguas fallas normales transformándolas en fallas inversas, con el fin de de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-067",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos deforma intensamente los granos de cuarzo y feldespato por flujo plástico, con el fin de utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-068",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-069",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes refleja discontinuidades composicionales y reológicas en el interior terrestre, reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-070",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís libera iones de magnesio y hierro formando minerales secundarios de arcilla, revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-071",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda deposita secuencias granocrecientes con estratificación gradada típica, con el fin de proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-072",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas, con el fin de integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-073",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-074",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes conecta vértices de oxígeno compartidos determinando su clivaje y dureza, de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-075",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento engrosa la corteza continental generando relieve montañoso escarpado, utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-076",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas, en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-077",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado, con el fin de de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-078",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias conecta vértices de oxígeno compartidos determinando su clivaje y dureza, con el fin de utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-079",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero engrosa la corteza continental generando relieve montañoso escarpado mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-080",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical enriquece progresivamente el magma residual en sílice, sodio y potasio, reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-081",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales induce la fusión parcial del manto superior generando arcos volcánicos, revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-082",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos produce coladas basálticas fluidas de gran extensión y baja viscosidad, con el fin de proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-083",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas determina con exactitud cronológica la cristalización de rocas ígneas, con el fin de integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-084",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes reduce la porosidad intergranular mediante precipitación de sílice y calcita en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-085",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís reactiva antiguas fallas normales transformándolas en fallas inversas, de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-086",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda deforma intensamente los granos de cuarzo y feldespato por flujo plástico, utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-087",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas, con el fin de mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-088",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos refleja discontinuidades composicionales y reológicas en el interior terrestre reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-089",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes libera iones de magnesio y hierro formando minerales secundarios de arcilla revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-090",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento deposita secuencias granocrecientes con estratificación gradada típica, proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-091",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas, reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-092",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo refleja discontinuidades composicionales y reológicas en el interior terrestre, revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-093",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias libera iones de magnesio y hierro formando minerales secundarios de arcilla, con el fin de proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-094",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero deposita secuencias granocrecientes con estratificación gradada típica, con el fin de integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-095",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-096",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado, de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-097",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos conecta vértices de oxígeno compartidos determinando su clivaje y dureza, utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-098",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas engrosa la corteza continental generando relieve montañoso escarpado, con el fin de mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-099",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes enriquece progresivamente el magma residual en sílice, sodio y potasio reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-100",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís induce la fusión parcial del manto superior generando arcos volcánicos revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-101",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda produce coladas basálticas fluidas de gran extensión y baja viscosidad, proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-102",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto determina con exactitud cronológica la cristalización de rocas ígneas, integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-103",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos reduce la porosidad intergranular mediante precipitación de sílice y calcita, con el fin de en el marco del ciclo de wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-104",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes reactiva antiguas fallas normales transformándolas en fallas inversas de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-105",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento deforma intensamente los granos de cuarzo y feldespato por flujo plástico utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-106",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales determina con exactitud cronológica la cristalización de rocas ígneas en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-107",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo reduce la porosidad intergranular mediante precipitación de sílice y calcita, de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-108",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias reactiva antiguas fallas normales transformándolas en fallas inversas, utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-109",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero deforma intensamente los granos de cuarzo y feldespato por flujo plástico, con el fin de mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-110",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-111",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales refleja discontinuidades composicionales y reológicas en el interior terrestre revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-112",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos libera iones de magnesio y hierro formando minerales secundarios de arcilla, proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-113",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas deposita secuencias granocrecientes con estratificación gradada típica, integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-114",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas, con el fin de en el marco del ciclo de wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-115",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-116",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda conecta vértices de oxígeno compartidos determinando su clivaje y dureza utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-117",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto engrosa la corteza continental generando relieve montañoso escarpado, mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-118",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos enriquece progresivamente el magma residual en sílice, sodio y potasio, con el fin de reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-119",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes induce la fusión parcial del manto superior generando arcos volcánicos, con el fin de revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-120",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento produce coladas basálticas fluidas de gran extensión y baja viscosidad proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-121",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales engrosa la corteza continental generando relieve montañoso escarpado reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-122",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo enriquece progresivamente el magma residual en sílice, sodio y potasio revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-123",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias induce la fusión parcial del manto superior generando arcos volcánicos, proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-124",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero produce coladas basálticas fluidas de gran extensión y baja viscosidad, integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-125",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical determina con exactitud cronológica la cristalización de rocas ígneas, con el fin de en el marco del ciclo de wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-126",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales reduce la porosidad intergranular mediante precipitación de sílice y calcita de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-127",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos reactiva antiguas fallas normales transformándolas en fallas inversas utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-128",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas deforma intensamente los granos de cuarzo y feldespato por flujo plástico, mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-129",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas, con el fin de reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-130",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís refleja discontinuidades composicionales y reológicas en el interior terrestre, con el fin de revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-131",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda libera iones de magnesio y hierro formando minerales secundarios de arcilla proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-132",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto deposita secuencias granocrecientes con estratificación gradada típica integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-133",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas, en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-134",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado, con el fin de de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-135",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento conecta vértices de oxígeno compartidos determinando su clivaje y dureza, con el fin de utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-136",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales deposita secuencias granocrecientes con estratificación gradada típica, con el fin de en el marco del ciclo de wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-137",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-138",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-139",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero conecta vértices de oxígeno compartidos determinando su clivaje y dureza, mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-140",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical engrosa la corteza continental generando relieve montañoso escarpado, con el fin de reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-141",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales enriquece progresivamente el magma residual en sílice, sodio y potasio, con el fin de revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-142",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos induce la fusión parcial del manto superior generando arcos volcánicos proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-143",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas produce coladas basálticas fluidas de gran extensión y baja viscosidad integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-144",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes determina con exactitud cronológica la cristalización de rocas ígneas, en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-145",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís reduce la porosidad intergranular mediante precipitación de sílice y calcita, con el fin de de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-146",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda reactiva antiguas fallas normales transformándolas en fallas inversas, con el fin de utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-147",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto deforma intensamente los granos de cuarzo y feldespato por flujo plástico mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-148",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas, reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-149",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes refleja discontinuidades composicionales y reológicas en el interior terrestre, revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-150",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento libera iones de magnesio y hierro formando minerales secundarios de arcilla, con el fin de proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-151",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales deforma intensamente los granos de cuarzo y feldespato por flujo plástico, con el fin de reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-152",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo precipita sulfuros metálicos de cobre y molibdeno en redes de vetillas, con el fin de revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-153",
+      "text": "La inversión tectónica positiva de cuencas de rift sedimentarias refleja discontinuidades composicionales y reológicas en el interior terrestre proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-154",
+      "text": "La alteración hidrotermal de depósitos minerales de pórfido cuprífero libera iones de magnesio y hierro formando minerales secundarios de arcilla integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-155",
+      "text": "La meteorización química de basaltos olivínicos bajo clima tropical deposita secuencias granocrecientes con estratificación gradada típica, en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-156",
+      "text": "El desplazamiento transcurrente a lo largo de fallas de rumbo dextrales acumula esfuerzos tectónicos elásticos hasta provocar rupturas cosísmicas, con el fin de de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-157",
+      "text": "La estructura cristalina tetraédrica de los minerales nesosilicatos recristaliza minerales arcillosos en clorita, moscovita y cuarzo orientado, con el fin de utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-158",
+      "text": "La cristalización fraccionada en cámaras magmáticas félsicas conecta vértices de oxígeno compartidos determinando su clivaje y dureza mitigando el riesgo geológico de terremotos, tsunamis y erupciones volcánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-159",
+      "text": "El vulcanismo intraplaca asociado a plumas del manto y puntos calientes engrosa la corteza continental generando relieve montañoso escarpado, reconstruyendo la evolución geodinámica de las placas tectónicas terrestres.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-160",
+      "text": "La diagénesis y cementación química de areniscas en cuencas de antepaís enriquece progresivamente el magma residual en sílice, sodio y potasio, revelando la historia paleoambiental y climática de eras geológicas pasadas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-161",
+      "text": "La foliación milonítica en zonas de cizalla dúctil profunda induce la fusión parcial del manto superior generando arcos volcánicos, con el fin de proporcionando claves esenciales para la prospección de recursos minerales.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-162",
+      "text": "La propagación de ondas sísmicas primarias y secundarias por el manto produce coladas basálticas fluidas de gran extensión y baja viscosidad, con el fin de integrando datos geofísicos de gravimetría, magnetometría y reflexión sísmica.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-163",
+      "text": "La sedimentación turbidítica en taludes y cañones submarinos determina con exactitud cronológica la cristalización de rocas ígneas en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-164",
+      "text": "El metamorfismo regional dinamotérmico en facies de esquistos verdes reduce la porosidad intergranular mediante precipitación de sílice y calcita, de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-165",
+      "text": "La orogenia compresiva y el apilamiento de mantos de corrimiento reactiva antiguas fallas normales transformándolas en fallas inversas, utilizando técnicas analíticas avanzadas de microscopía petrográfica y difracción.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-166",
+      "text": "La subducción de la litosfera oceánica densa en fosas abisales produce coladas basálticas fluidas de gran extensión y baja viscosidad, en el marco del ciclo de Wilson de apertura y cierre de cuencas oceánicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-es-167",
+      "text": "La datación radiométrica de circones mediante series de uranio y plomo determina con exactitud cronológica la cristalización de rocas ígneas, con el fin de de acuerdo con los principios de la estratigrafía y la petrología ígnea.",
+      "lang": "es",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-001",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches triggers partial melting of the asthenospheric mantle wedge above, reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-002",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows, deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-003",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures yields concordant absolute crystallization ages for igneous host rocks, in order to guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-004",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits occludes primary porosity through secondary quartz overgrowth precipitation, in order to integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-005",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes converts sedimentary basins into elevated compressional fold-thrust belts within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-006",
+      "text": "Strike-slip displacement along active dextral transform faults records ductile crystal-plastic deformation under elevated metamorphic grades, consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-007",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems, synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-008",
+      "text": "Fractional crystallization within shallow felsic magma chambers reveals structural discontinuities across the lithosphere-asthenosphere boundary, in order to mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-009",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes leaches soluble cations yielding deep bauxitic and lateritic residual soils reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-010",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins deposits characteristic Bouma sequences with rhythmic graded bedding units deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-011",
+      "text": "Mylonitic foliation developed within deep ductile shear zones accumulates elastic strain culminating in periodic coseismic slip events, guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-012",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle realigns platy phyllosilicates into distinct metamorphic foliation planes, integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-013",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains determines hardness, chemical durability, and fracture habits of rock-forming minerals, in order to within the global framework of oceanic opening and closing wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-014",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies accretes exotic terranes while thickening continental crustal roots consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-015",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking progressively enriches residual silicate melts in incompatible elements synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-016",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches realigns platy phyllosilicates into distinct metamorphic foliation planes within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-017",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay determines hardness, chemical durability, and fracture habits of rock-forming minerals, consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-018",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures accretes exotic terranes while thickening continental crustal roots, synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-019",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits progressively enriches residual silicate melts in incompatible elements, in order to mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-020",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes triggers partial melting of the asthenospheric mantle wedge above reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-021",
+      "text": "Strike-slip displacement along active dextral transform faults erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-022",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages yields concordant absolute crystallization ages for igneous host rocks, guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-023",
+      "text": "Fractional crystallization within shallow felsic magma chambers occludes primary porosity through secondary quartz overgrowth precipitation, integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-024",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes converts sedimentary basins into elevated compressional fold-thrust belts, in order to within the global framework of oceanic opening and closing wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-025",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins records ductile crystal-plastic deformation under elevated metamorphic grades consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-026",
+      "text": "Mylonitic foliation developed within deep ductile shear zones precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-027",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle reveals structural discontinuities across the lithosphere-asthenosphere boundary, mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-028",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains leaches soluble cations yielding deep bauxitic and lateritic residual soils, in order to reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-029",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies deposits characteristic Bouma sequences with rhythmic graded bedding units, in order to deciphering paleotectonic regimes and earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-030",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking accumulates elastic strain culminating in periodic coseismic slip events guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-031",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches reveals structural discontinuities across the lithosphere-asthenosphere boundary reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-032",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay leaches soluble cations yielding deep bauxitic and lateritic residual soils deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-033",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures deposits characteristic Bouma sequences with rhythmic graded bedding units, guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-034",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits accumulates elastic strain culminating in periodic coseismic slip events, integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-035",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes realigns platy phyllosilicates into distinct metamorphic foliation planes, in order to within the global framework of oceanic opening and closing wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-036",
+      "text": "Strike-slip displacement along active dextral transform faults determines hardness, chemical durability, and fracture habits of rock-forming minerals consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-037",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages accretes exotic terranes while thickening continental crustal roots synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-038",
+      "text": "Fractional crystallization within shallow felsic magma chambers progressively enriches residual silicate melts in incompatible elements, mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-039",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes triggers partial melting of the asthenospheric mantle wedge above, in order to reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-040",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows, in order to deciphering paleotectonic regimes and earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-041",
+      "text": "Mylonitic foliation developed within deep ductile shear zones yields concordant absolute crystallization ages for igneous host rocks guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-042",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle occludes primary porosity through secondary quartz overgrowth precipitation integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-043",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains converts sedimentary basins into elevated compressional fold-thrust belts, within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-044",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies records ductile crystal-plastic deformation under elevated metamorphic grades, in order to consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-045",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems, in order to synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-046",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches occludes primary porosity through secondary quartz overgrowth precipitation, in order to within the global framework of oceanic opening and closing wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-047",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay converts sedimentary basins into elevated compressional fold-thrust belts consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-048",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures records ductile crystal-plastic deformation under elevated metamorphic grades synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-049",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems, mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-050",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes reveals structural discontinuities across the lithosphere-asthenosphere boundary, in order to reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-051",
+      "text": "Strike-slip displacement along active dextral transform faults leaches soluble cations yielding deep bauxitic and lateritic residual soils, in order to deciphering paleotectonic regimes and earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-052",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages deposits characteristic Bouma sequences with rhythmic graded bedding units guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-053",
+      "text": "Fractional crystallization within shallow felsic magma chambers accumulates elastic strain culminating in periodic coseismic slip events integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-054",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes realigns platy phyllosilicates into distinct metamorphic foliation planes, within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-055",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins determines hardness, chemical durability, and fracture habits of rock-forming minerals, in order to consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-056",
+      "text": "Mylonitic foliation developed within deep ductile shear zones accretes exotic terranes while thickening continental crustal roots, in order to synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-057",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle progressively enriches residual silicate melts in incompatible elements mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-058",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains triggers partial melting of the asthenospheric mantle wedge above, reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-059",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows, deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-060",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking yields concordant absolute crystallization ages for igneous host rocks, in order to guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-061",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches progressively enriches residual silicate melts in incompatible elements, in order to reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-062",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay triggers partial melting of the asthenospheric mantle wedge above, in order to deciphering paleotectonic regimes and earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-063",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-064",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits yields concordant absolute crystallization ages for igneous host rocks integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-065",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes occludes primary porosity through secondary quartz overgrowth precipitation, within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-066",
+      "text": "Strike-slip displacement along active dextral transform faults converts sedimentary basins into elevated compressional fold-thrust belts, in order to consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-067",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages records ductile crystal-plastic deformation under elevated metamorphic grades, in order to synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-068",
+      "text": "Fractional crystallization within shallow felsic magma chambers precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-069",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes reveals structural discontinuities across the lithosphere-asthenosphere boundary, reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-070",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins leaches soluble cations yielding deep bauxitic and lateritic residual soils, deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-071",
+      "text": "Mylonitic foliation developed within deep ductile shear zones deposits characteristic Bouma sequences with rhythmic graded bedding units, in order to guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-072",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle accumulates elastic strain culminating in periodic coseismic slip events, in order to integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-073",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains realigns platy phyllosilicates into distinct metamorphic foliation planes within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-074",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies determines hardness, chemical durability, and fracture habits of rock-forming minerals, consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-075",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking accretes exotic terranes while thickening continental crustal roots, synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-076",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches accumulates elastic strain culminating in periodic coseismic slip events, within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-077",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay realigns platy phyllosilicates into distinct metamorphic foliation planes, in order to consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-078",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures determines hardness, chemical durability, and fracture habits of rock-forming minerals, in order to synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-079",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits accretes exotic terranes while thickening continental crustal roots mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-080",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes progressively enriches residual silicate melts in incompatible elements, reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-081",
+      "text": "Strike-slip displacement along active dextral transform faults triggers partial melting of the asthenospheric mantle wedge above, deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-082",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows, in order to guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-083",
+      "text": "Fractional crystallization within shallow felsic magma chambers yields concordant absolute crystallization ages for igneous host rocks, in order to integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-084",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes occludes primary porosity through secondary quartz overgrowth precipitation within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-085",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins converts sedimentary basins into elevated compressional fold-thrust belts, consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-086",
+      "text": "Mylonitic foliation developed within deep ductile shear zones records ductile crystal-plastic deformation under elevated metamorphic grades, synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-087",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems, in order to mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-088",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains reveals structural discontinuities across the lithosphere-asthenosphere boundary reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-089",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies leaches soluble cations yielding deep bauxitic and lateritic residual soils deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-090",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking deposits characteristic Bouma sequences with rhythmic graded bedding units, guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-091",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems, reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-092",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay reveals structural discontinuities across the lithosphere-asthenosphere boundary, deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-093",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures leaches soluble cations yielding deep bauxitic and lateritic residual soils, in order to guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-094",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits deposits characteristic Bouma sequences with rhythmic graded bedding units, in order to integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-095",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes accumulates elastic strain culminating in periodic coseismic slip events within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-096",
+      "text": "Strike-slip displacement along active dextral transform faults realigns platy phyllosilicates into distinct metamorphic foliation planes, consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-097",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages determines hardness, chemical durability, and fracture habits of rock-forming minerals, synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-098",
+      "text": "Fractional crystallization within shallow felsic magma chambers accretes exotic terranes while thickening continental crustal roots, in order to mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-099",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes progressively enriches residual silicate melts in incompatible elements reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-100",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins triggers partial melting of the asthenospheric mantle wedge above deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-101",
+      "text": "Mylonitic foliation developed within deep ductile shear zones erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows, guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-102",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle yields concordant absolute crystallization ages for igneous host rocks, integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-103",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains occludes primary porosity through secondary quartz overgrowth precipitation, in order to within the global framework of oceanic opening and closing wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-104",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies converts sedimentary basins into elevated compressional fold-thrust belts consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-105",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking records ductile crystal-plastic deformation under elevated metamorphic grades synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-106",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches yields concordant absolute crystallization ages for igneous host rocks within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-107",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay occludes primary porosity through secondary quartz overgrowth precipitation, consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-108",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures converts sedimentary basins into elevated compressional fold-thrust belts, synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-109",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits records ductile crystal-plastic deformation under elevated metamorphic grades, in order to mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-110",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-111",
+      "text": "Strike-slip displacement along active dextral transform faults reveals structural discontinuities across the lithosphere-asthenosphere boundary deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-112",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages leaches soluble cations yielding deep bauxitic and lateritic residual soils, guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-113",
+      "text": "Fractional crystallization within shallow felsic magma chambers deposits characteristic Bouma sequences with rhythmic graded bedding units, integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-114",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes accumulates elastic strain culminating in periodic coseismic slip events, in order to within the global framework of oceanic opening and closing wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-115",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins realigns platy phyllosilicates into distinct metamorphic foliation planes consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-116",
+      "text": "Mylonitic foliation developed within deep ductile shear zones determines hardness, chemical durability, and fracture habits of rock-forming minerals synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-117",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle accretes exotic terranes while thickening continental crustal roots, mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-118",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains progressively enriches residual silicate melts in incompatible elements, in order to reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-119",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies triggers partial melting of the asthenospheric mantle wedge above, in order to deciphering paleotectonic regimes and earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-120",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-121",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches accretes exotic terranes while thickening continental crustal roots reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-122",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay progressively enriches residual silicate melts in incompatible elements deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-123",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures triggers partial melting of the asthenospheric mantle wedge above, guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-124",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows, integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-125",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes yields concordant absolute crystallization ages for igneous host rocks, in order to within the global framework of oceanic opening and closing wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-126",
+      "text": "Strike-slip displacement along active dextral transform faults occludes primary porosity through secondary quartz overgrowth precipitation consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-127",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages converts sedimentary basins into elevated compressional fold-thrust belts synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-128",
+      "text": "Fractional crystallization within shallow felsic magma chambers records ductile crystal-plastic deformation under elevated metamorphic grades, mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-129",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems, in order to reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-130",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins reveals structural discontinuities across the lithosphere-asthenosphere boundary, in order to deciphering paleotectonic regimes and earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-131",
+      "text": "Mylonitic foliation developed within deep ductile shear zones leaches soluble cations yielding deep bauxitic and lateritic residual soils guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-132",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle deposits characteristic Bouma sequences with rhythmic graded bedding units integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-133",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains accumulates elastic strain culminating in periodic coseismic slip events, within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-134",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies realigns platy phyllosilicates into distinct metamorphic foliation planes, in order to consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-135",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking determines hardness, chemical durability, and fracture habits of rock-forming minerals, in order to synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-136",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches deposits characteristic Bouma sequences with rhythmic graded bedding units, in order to within the global framework of oceanic opening and closing wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-137",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay accumulates elastic strain culminating in periodic coseismic slip events consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-138",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures realigns platy phyllosilicates into distinct metamorphic foliation planes synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-139",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits determines hardness, chemical durability, and fracture habits of rock-forming minerals, mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-140",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes accretes exotic terranes while thickening continental crustal roots, in order to reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-141",
+      "text": "Strike-slip displacement along active dextral transform faults progressively enriches residual silicate melts in incompatible elements, in order to deciphering paleotectonic regimes and earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-142",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages triggers partial melting of the asthenospheric mantle wedge above guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-143",
+      "text": "Fractional crystallization within shallow felsic magma chambers erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-144",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes yields concordant absolute crystallization ages for igneous host rocks, within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-145",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins occludes primary porosity through secondary quartz overgrowth precipitation, in order to consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-146",
+      "text": "Mylonitic foliation developed within deep ductile shear zones converts sedimentary basins into elevated compressional fold-thrust belts, in order to synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-147",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle records ductile crystal-plastic deformation under elevated metamorphic grades mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-148",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems, reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-149",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies reveals structural discontinuities across the lithosphere-asthenosphere boundary, deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-150",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking leaches soluble cations yielding deep bauxitic and lateritic residual soils, in order to guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-151",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches records ductile crystal-plastic deformation under elevated metamorphic grades, in order to reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-152",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay precipitates chalcopyrite and molybdenite in dense stockwork veinlet systems, in order to deciphering paleotectonic regimes and earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-153",
+      "text": "Tectonic inversion reactivating ancient extensional graben structures reveals structural discontinuities across the lithosphere-asthenosphere boundary guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-154",
+      "text": "Hydrothermal alteration in porphyry copper and molybdenum deposits leaches soluble cations yielding deep bauxitic and lateritic residual soils integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-155",
+      "text": "Chemical weathering of olivine-bearing basalt under humid tropical regimes deposits characteristic Bouma sequences with rhythmic graded bedding units, within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-156",
+      "text": "Strike-slip displacement along active dextral transform faults accumulates elastic strain culminating in periodic coseismic slip events, in order to consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-157",
+      "text": "Silicate tetrahedra polymerization governing igneous mineral cleavages realigns platy phyllosilicates into distinct metamorphic foliation planes, in order to synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-158",
+      "text": "Fractional crystallization within shallow felsic magma chambers determines hardness, chemical durability, and fracture habits of rock-forming minerals mitigating geohazards associated with active faulting and volcanic eruptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-159",
+      "text": "Intraplate hotspot volcanism fueled by deep mantle upwelling plumes accretes exotic terranes while thickening continental crustal roots, reconstructing the long-term geodynamic evolution of tectonic plates.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-160",
+      "text": "Diagenetic cementation of quartz arenite in sedimentary foreland basins progressively enriches residual silicate melts in incompatible elements, deciphering paleotectonic regimes and Earth's dynamic thermal history.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-161",
+      "text": "Mylonitic foliation developed within deep ductile shear zones triggers partial melting of the asthenospheric mantle wedge above, in order to guiding economic mineral exploration across deformed metamorphic terranes.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-162",
+      "text": "Propagation of seismic P-waves and S-waves through the mantle erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows, in order to integrating gravity, magnetic, and seismic reflection imaging surveys.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-163",
+      "text": "Turbidite sequence deposition across continental slopes and abyssal plains yields concordant absolute crystallization ages for igneous host rocks within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-164",
+      "text": "Regional dynamothermal metamorphism in greenschist and amphibolite facies occludes primary porosity through secondary quartz overgrowth precipitation, consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-165",
+      "text": "Compressional orogeny resulting in extensive thrust sheet stacking converts sedimentary basins into elevated compressional fold-thrust belts, synthesizing field mapping data with microstructural and petrographic analysis.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-166",
+      "text": "Subduction of dense oceanic lithosphere into deep oceanic trenches erupts voluminous flood basalts characterized by low-viscosity pahoehoe flows, within the global framework of oceanic opening and closing Wilson cycles.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-en-167",
+      "text": "Radiometric dating of zircon crystals via uranium-lead isotope decay yields concordant absolute crystallization ages for igneous host rocks, in order to consistent with core paradigms of structural geology and petrology.",
+      "lang": "en",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-001",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-002",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen fördert dünnflüssige basaltische Laven über riesige Flächen zutage, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-003",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben liefert verlässliche radiometrische Alter für Erstarrungsgesteine, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-004",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten verringert das Porenvolumen durch Abscheidung von sekundärem Quarz, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-005",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-006",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen zeugt von plastischer Verformung bei hohen Temperaturen und Drücken, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-007",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-008",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-009",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-010",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-011",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-012",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-013",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-014",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-015",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-016",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-017",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-018",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-019",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-020",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-021",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen fördert dünnflüssige basaltische Laven über riesige Flächen zutage zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-022",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien liefert verlässliche radiometrische Alter für Erstarrungsgesteine, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-023",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen verringert das Porenvolumen durch Abscheidung von sekundärem Quarz, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-024",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-025",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente zeugt von plastischer Verformung bei hohen Temperaturen und Drücken in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-026",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-027",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-028",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-029",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-030",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-031",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-032",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-033",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-034",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-035",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-036",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-037",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-038",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-039",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-040",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente fördert dünnflüssige basaltische Laven über riesige Flächen zutage, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-041",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste liefert verlässliche radiometrische Alter für Erstarrungsgesteine als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-042",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel verringert das Porenvolumen durch Abscheidung von sekundärem Quarz durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-043",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-044",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen zeugt von plastischer Verformung bei hohen Temperaturen und Drücken, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-045",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-046",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen verringert das Porenvolumen durch Abscheidung von sekundärem Quarz, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-047",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-048",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben zeugt von plastischer Verformung bei hohen Temperaturen und Drücken unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-049",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-050",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-051",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-052",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-053",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-054",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-055",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-056",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-057",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-058",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-059",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen fördert dünnflüssige basaltische Laven über riesige Flächen zutage, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-060",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik liefert verlässliche radiometrische Alter für Erstarrungsgesteine, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-061",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-062",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-063",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben fördert dünnflüssige basaltische Laven über riesige Flächen zutage als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-064",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten liefert verlässliche radiometrische Alter für Erstarrungsgesteine durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-065",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima verringert das Porenvolumen durch Abscheidung von sekundärem Quarz, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-066",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-067",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien zeugt von plastischer Verformung bei hohen Temperaturen und Drücken, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-068",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-069",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-070",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-071",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-072",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-073",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-074",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-075",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-076",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-077",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-078",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-079",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-080",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-081",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-082",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien fördert dünnflüssige basaltische Laven über riesige Flächen zutage, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-083",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen liefert verlässliche radiometrische Alter für Erstarrungsgesteine, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-084",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes verringert das Porenvolumen durch Abscheidung von sekundärem Quarz im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-085",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-086",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste zeugt von plastischer Verformung bei hohen Temperaturen und Drücken, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-087",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-088",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-089",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-090",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-091",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-092",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-093",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-094",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-095",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-096",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-097",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-098",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-099",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-100",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-101",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste fördert dünnflüssige basaltische Laven über riesige Flächen zutage, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-102",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel liefert verlässliche radiometrische Alter für Erstarrungsgesteine, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-103",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich verringert das Porenvolumen durch Abscheidung von sekundärem Quarz, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-104",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-105",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik zeugt von plastischer Verformung bei hohen Temperaturen und Drücken unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-106",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen liefert verlässliche radiometrische Alter für Erstarrungsgesteine im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-107",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen verringert das Porenvolumen durch Abscheidung von sekundärem Quarz, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-108",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-109",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten zeugt von plastischer Verformung bei hohen Temperaturen und Drücken, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-110",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-111",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-112",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-113",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-114",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-115",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-116",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-117",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-118",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-119",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-120",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik fördert dünnflüssige basaltische Laven über riesige Flächen zutage als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-121",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-122",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-123",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-124",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten fördert dünnflüssige basaltische Laven über riesige Flächen zutage, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-125",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima liefert verlässliche radiometrische Alter für Erstarrungsgesteine, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-126",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen verringert das Porenvolumen durch Abscheidung von sekundärem Quarz in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-127",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-128",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen zeugt von plastischer Verformung bei hohen Temperaturen und Drücken, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-129",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-130",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-131",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-132",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-133",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-134",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-135",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-136",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-137",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-138",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-139",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate, zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-140",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-141",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-142",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-143",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen fördert dünnflüssige basaltische Laven über riesige Flächen zutage durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-144",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes liefert verlässliche radiometrische Alter für Erstarrungsgesteine, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-145",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente verringert das Porenvolumen durch Abscheidung von sekundärem Quarz, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-146",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-147",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel zeugt von plastischer Verformung bei hohen Temperaturen und Drücken zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-148",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-149",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-150",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-151",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen zeugt von plastischer Verformung bei hohen Temperaturen und Drücken, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-152",
+      "text": "Die Uran-Blei-Datierung an akzessorischen Zirkonkristallen scheidet Erzminerale wie Chalkopyrit in fein verzweigten Adernetzwerken ab, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-153",
+      "text": "Die tektonische Inversion ehemaliger Dehnungsbecken und Gräben liefert präzise Tomographiebilder von Dichteanomalien im Erdinneren als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-154",
+      "text": "Die hydrothermale Alteration in porphyrischen Kupferlagerstätten zerlegt Olivin und Plagioklas in sekundäre Tonminerale und Eisenoxide durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-155",
+      "text": "Die chemische Verwitterung basaltischer Gesteine im warmen Klima lagert charakteristische Bouma-Zyklen mit gradierten Schichtungen ab, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-156",
+      "text": "Die Horizontalverschiebung an aktiven dextralen Blattverschiebungen baut elastische Spannungen auf, die sich in Erdbeben schlagartig entladen, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-157",
+      "text": "Die räumliche Vernetzung von Silikat-Tetraedern in Mineralien transformiert Tonminerale in Chlorit, Epidot und ausgerichteten Glimmer, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-158",
+      "text": "Die fraktionierte Kristallisation in magmatischen Plutonen bestimmt die physikalischen Eigenschaften und Spaltbarkeiten der Silikate zur präzisen Erfassung und Minderung seismischer Naturgefahren.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-159",
+      "text": "Der Intraplattenvulkanismus über tief sitzenden Mantelplumes führt zur Krustenverdickung und zur Entstehung mächtiger Hochgebirge, zur Rekonstruktion der großräumigen plattentektonischen Erdgeschichte.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-160",
+      "text": "Die chemische Diagenese und Zementation klastischer Sedimente reichert die Restschmelze kontinuierlich an Kieselsäure und Alkalien an, zur Aufklärung paläoklimatischer und paläogeographischer Bedingungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-161",
+      "text": "Die mylonitische Foliation in duktilen Scherzonen der Unterkruste führt zur partiellen Aufschmelzung des Mantelkeils und Inselbogenvulkanismus, als wissenschaftliche Grundlage für die Erkundung von Rohstoffvorkommen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-162",
+      "text": "Die Ausbreitung von seismischen P- und S-Wellen durch den Erdmantel fördert dünnflüssige basaltische Laven über riesige Flächen zutage, durch Kombination geologischer Geländekartierungen mit geophysikalischen Messungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-163",
+      "text": "Die turbiditische Sedimentation im marinen Tiefwasserbereich liefert verlässliche radiometrische Alter für Erstarrungsgesteine im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-164",
+      "text": "Die Regionalmetamorphose unter Grünschiefer- und Blauschieferbedingungen verringert das Porenvolumen durch Abscheidung von sekundärem Quarz, in Übereinstimmung mit den Grundgesetzen der Geochemie und Geophysik.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-165",
+      "text": "Die kompressive Gebirgsbildung mit Überschiebungstektonik reaktiviert alte Abschiebungen zu steil stehenden inversen Verwerfungen, unter Einsatz moderner polarisationsmikroskopischer Dünnschliffanalysen.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    },
+    {
+      "id": "geologia-de-166",
+      "text": "Die Subduktion ozeanischer Lithosphäre an konvergenten Plattengrenzen fördert dünnflüssige basaltische Laven über riesige Flächen zutage, im Kontext globaler Wilson-Zyklen der Ozeanbeckenentwicklung.",
+      "lang": "de",
+      "source": "corpus-trilingue-geologia"
+    }
+  ]
+}

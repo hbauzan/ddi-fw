@@ -1,0 +1,3007 @@
+{
+  "alma": "astronomia",
+  "n": 500,
+  "description": "Mazo trilingüe de astronomia (ES/EN/DE) de alta pureza terminológica y densidad conceptual para el Ecualizador Espectral.",
+  "clauses": [
+    {
+      "id": "astronomia-es-001",
+      "text": "La espectroscopía de alta resolución determina la abundancia química de elementos pesados en la fotosfera de gigantes rojas.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-002",
+      "text": "El colapso gravitacional de núcleos estelares masivos que superan el límite de Chandrasekhar origina estrellas de neutrones densas.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-003",
+      "text": "La detección de velocidades radiales periódicas mediante espectrógrafos estables evidencia la atracción gravitatoria ejercida por exoplanetas invisibles.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-004",
+      "text": "La radiación cósmica de fondo de microondas muestra fluctuaciones térmicas primordiales que revelan la geometría plana del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-005",
+      "text": "La teoría general de la relatividad predice la curvatura geodésica del espacio-tiempo en las proximidades del horizonte de sucesos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-006",
+      "text": "La paralaje trigonométrica anual medida por telescopios espaciales proporciona distancias estelares geométricas libres de modelos astrofísicos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-007",
+      "text": "La fotometría de tránsitos planetarios mide la disminución fraccional del brillo estelar cuando el planeta cruza el disco celeste.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-008",
+      "text": "La nucleosíntesis estelar primordial sintetizó helio y litio durante los primeros minutos de la expansión térmica del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-009",
+      "text": "La explosión cataclísmica de una supernova termonuclear de tipo uno a proporciona candelas estándar para medir distancias cosmológicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-010",
+      "text": "La coalescencia de dos estrellas de neutrones emite ondas gravitacionales precursoras y contrapartes electromagnéticas de tipo kilonova.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-011",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes se produce por la expansión métrica del propio tejido espacial interestelar.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-012",
+      "text": "Las leyes keplerianas de la mecánica orbital describen con exactitud trayectorias elípticas de asteroides y cometas alrededor del Sol.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-013",
+      "text": "La luminosidad estelar absoluta depende de la cuarta potencia de la temperatura superficial según la ley física de Stefan-Boltzmann.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-014",
+      "text": "Los chorros relativistas colimados emergen a velocidades cercanas a la luz desde el disco de acreción del quasar.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-015",
+      "text": "La fotoionización del gas nebular interestelar por radiación ultravioleta extrema genera líneas espectrales de emisión de hidrógeno.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-016",
+      "text": "La curva de rotación plana en galaxias espirales constituye evidencia empírica directa de la presencia de halos de materia oscura.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-017",
+      "text": "La precesión anómala del perihelio de Mercurio confirmó por primera vez las correcciones relativistas a la gravitación newtoniana.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-018",
+      "text": "El colapso de nubes moleculares interestelares gigantes conduce a la fragmentación térmica y al nacimiento de cúmulos estelares.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-019",
+      "text": "El diagrama de Hertzsprung-Russell correlaciona la luminosidad de las estrellas con su temperatura superficial en la secuencia principal.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-020",
+      "text": "Las resonancias de movimientos medios entre satélites jovianos generan calor interno por mareas gravitatorias periódicas en Europa.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-021",
+      "text": "Las lentes gravitacionales fuertes desvían la trayectoria luminosa produciendo imágenes múltiples y arcos de galaxias de fondo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-022",
+      "text": "La aceleración centrípeta orbital mantiene a los satélites artificiales en trayectorias geoestacionarias sincronizadas con la rotación terrestre.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-023",
+      "text": "La pérdida de masa por vientos estelares intensos modula la evolución final de estrellas masivas de tipo Wolf-Rayet.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-024",
+      "text": "La dispersión de velocidades en cúmulos galácticos masivos permite estimar la masa gravitacional total mediante el teorema del virial.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-025",
+      "text": "La recombinación primordial de electrones y protones desacopló la radiación de la materia cuando el universo se enfrió suficientemente.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-026",
+      "text": "La fotometría infrarroja de estrellas variables cefeidas calibra la escala de distancias extragalácticas mediante su relación período-luminosidad.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-027",
+      "text": "La polarización de la radiación cósmica de fondo revela modos de tensión inducidos por ondas gravitacionales primordiales cosmológicas.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-028",
+      "text": "La magnetohidrodinámica estelar gobierna la formación de manchas magnéticas y erupciones energéticas en la corona solar caliente.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-029",
+      "text": "La eyección de envolturas gaseosas en estrellas de masa intermedia genera nebulosas planetarias con una enana blanca residual.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-030",
+      "text": "La acreción de materia sobre una enana blanca en sistemas binarios compactos puede desencadenar una nova recurrente explosiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-031",
+      "text": "El efecto Sunyaev-Zel'dovich dispersa fotones cósmicos al interactuar con el plasma electrónico caliente del gas intracúmulo galáctico.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-032",
+      "text": "La interferometría de muy larga base sintetiza aperturas gigantescas para resolver la silueta oscura de agujeros negros supermasivos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-033",
+      "text": "La presión de degeneración electrónica sostiene a las enanas blancas frente al colapso gravitatorio originado por su propia masa.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-034",
+      "text": "Las perturbaciones seculares en los elementos orbitales de planetas extrasolares evidencian la interacción gravitatoria mutua entre cuerpos celestes.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-035",
+      "text": "La velocidad de escape de un objeto astronómico compacto depende directamente de su masa y del radio de su superficie.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-036",
+      "text": "La nucleosíntesis por captura neutrónica rápida en fusiones estelares crea elementos pesados como oro, platino y uranio.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-037",
+      "text": "El límite de Roche delimita la distancia mínima en la que un satélite celeste orbita sin ser disgregado por mareas.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-038",
+      "text": "La radiación sincrotrón generada por electrones relativistas en campos magnéticos intensos delinea los lóbulos de radiogalaxias gigantes.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-039",
+      "text": "La oscilación acústica de bariones imprinted en la distribución galáctica a gran escala actúa como una regla cósmica estándar.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-040",
+      "text": "La velocidad orbital circular disminuye con la distancia radial al centro de atracción gravitatoria según la dinámica orbital.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-041",
+      "text": "El arrastre inercial del espacio-tiempo predicho por Lense-Thirring afecta a giroscopios en órbita alrededor de cuerpos astronómicos giratorios.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-042",
+      "text": "La fotodisociación molecular provocada por radiación interestelar dura confina el polvo cósmico a las regiones densas opacas.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-043",
+      "text": "La tasa de formación estelar en galaxias con brote estelar excede ampliamente el ritmo de consumo típico del gas interestelar.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-044",
+      "text": "La absorción interestelar provocada por granos de polvo submicrónicos enrojece y atenúa la luz de estrellas galácticas lejanas.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-045",
+      "text": "La determinación de órbitas de estrellas próximas al centro galáctico confirma la masa concentrada del agujero negro supermasivo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-046",
+      "text": "La emisión de máseres astronómicos de vapor de agua traza el movimiento orbital en discos protoplanetarios densos en rotación.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-047",
+      "text": "La inclinación orbital y la excentricidad determinan la insolación solar recibida y los ciclos climáticos astronómicos planetarios de Milankovitch.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-048",
+      "text": "La presión de radiación estelar frena la acumulación gaseosa sobre protoestrellas masivas limitando su masa final máxima alcanzable.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-049",
+      "text": "El efecto Doppler relativista modifica la intensidad luminosa percibida de chorros astrofísicos que apuntan hacia el observador terrestre.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-050",
+      "text": "La masa de Jeans define el umbral crítico por encima del cual una nube molecular colapsa gravitatoriamente de forma inevitable.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-051",
+      "text": "Las estrellas de población dos presentan bajas metalicidades reflejando la composición primordial del gas galáctico en épocas tempranas.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-052",
+      "text": "La rotación diferencial de la zona convectiva solar amplifica los campos magnéticos toroidales mediante un mecanismo de dinamo astrofísica.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-053",
+      "text": "La detección de púlsares de milisegundos proporciona relojes cósmicos de precisión extrema para sondear el fondo estocástico gravitacional.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-054",
+      "text": "La dispersión cromática de señales de radio interestelares revela la densidad columnar de electrones libres en el medio interestelar.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-055",
+      "text": "El horizonte cosmológico de partículas delimita la región máxima del espacio desde la cual la luz ha alcanzado la Tierra.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-056",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes evidencia la expansión métrica acelerada del tejido espaciotemporal, confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-057",
+      "text": "La paralaje trigonométrica medida por el telescopio espacial fija las abundancias químicas de elementos livianos en el universo temprano, contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-058",
+      "text": "La emisión en ondas de radio de chorros relativistas extragalácticos determina distancias geométricas precisas sin depender de modelos cósmicos, con el fin de revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-059",
+      "text": "El colapso del núcleo de hierro en supernovas tipo dos marca el umbral de degeneración electrónica antes del colapso gravitatorio, con el fin de a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-060",
+      "text": "La dispersión de velocidad en el halo de materia oscura galáctico colima plasma magnetizado a velocidades cercanas a la de la luz en el vacío para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-061",
+      "text": "La detección interferométrica de ondas gravitacionales calibra la edad isócrona mediante el punto de desvío de la secuencia principal, de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-062",
+      "text": "La constante de Hubble calculada a partir de supernovas tipo Ia desencadena la expulsión explosiva de las capas estelares externas, ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-063",
+      "text": "La radiación cósmica de fondo de microondas a tres Kelvin permite determinar la temperatura cinética y densidad electrónica nebular, con el fin de utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-064",
+      "text": "La nucleosíntesis primordial de helio y deuterio ligero mantiene la estabilidad virial en cúmulos densos de galaxias elípticas confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-065",
+      "text": "El límite de masa de Chandrasekhar para enanas blancas acelera partículas cargadas emitiendo haces coherentes de radiación sincrotrón contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-066",
+      "text": "El diagrama de Hertzsprung-Russell para cúmulos estelares globulares registra fusiones de pares de agujeros negros de masa estelar binaria, revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-067",
+      "text": "El espectro de líneas de emisión del hidrógeno ionizado sugiere la presencia masiva de componentes de materia oscura no bariónica, a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-068",
+      "text": "El campo magnético toroidal de los púlsares de milisegundos mide la tasa de expansión cósmica local con baja incertidumbre estadística, con el fin de para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-069",
+      "text": "La curva de rotación galáctica de las nebulosas espirales genera intensos flujos de rayos X en el disco de plasma circundante de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-070",
+      "text": "La acreción de materia en torno al horizonte de sucesos preserva fluctuaciones térmicas primordiales de la era de recombinación ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-071",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes sugiere la presencia masiva de componentes de materia oscura no bariónica para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-072",
+      "text": "La paralaje trigonométrica medida por el telescopio espacial mide la tasa de expansión cósmica local con baja incertidumbre estadística, de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-073",
+      "text": "La emisión en ondas de radio de chorros relativistas extragalácticos genera intensos flujos de rayos X en el disco de plasma circundante, ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-074",
+      "text": "El colapso del núcleo de hierro en supernovas tipo dos preserva fluctuaciones térmicas primordiales de la era de recombinación, con el fin de utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-075",
+      "text": "La dispersión de velocidad en el halo de materia oscura galáctico evidencia la expansión métrica acelerada del tejido espaciotemporal confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-076",
+      "text": "La detección interferométrica de ondas gravitacionales fija las abundancias químicas de elementos livianos en el universo temprano contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-077",
+      "text": "La constante de Hubble calculada a partir de supernovas tipo Ia determina distancias geométricas precisas sin depender de modelos cósmicos, revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-078",
+      "text": "La radiación cósmica de fondo de microondas a tres Kelvin marca el umbral de degeneración electrónica antes del colapso gravitatorio, a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-079",
+      "text": "La nucleosíntesis primordial de helio y deuterio ligero colima plasma magnetizado a velocidades cercanas a la de la luz en el vacío, con el fin de para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-080",
+      "text": "El límite de masa de Chandrasekhar para enanas blancas calibra la edad isócrona mediante el punto de desvío de la secuencia principal de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-081",
+      "text": "El diagrama de Hertzsprung-Russell para cúmulos estelares globulares desencadena la expulsión explosiva de las capas estelares externas ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-082",
+      "text": "El espectro de líneas de emisión del hidrógeno ionizado permite determinar la temperatura cinética y densidad electrónica nebular, utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-083",
+      "text": "El campo magnético toroidal de los púlsares de milisegundos mantiene la estabilidad virial en cúmulos densos de galaxias elípticas, con el fin de confirmando las predicciones teóricas de la relatividad general de einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-084",
+      "text": "La curva de rotación galáctica de las nebulosas espirales acelera partículas cargadas emitiendo haces coherentes de radiación sincrotrón, con el fin de contrastando modelos analíticos con simulaciones numéricas de n cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-085",
+      "text": "La acreción de materia en torno al horizonte de sucesos registra fusiones de pares de agujeros negros de masa estelar binaria revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-086",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes permite determinar la temperatura cinética y densidad electrónica nebular confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-087",
+      "text": "La paralaje trigonométrica medida por el telescopio espacial mantiene la estabilidad virial en cúmulos densos de galaxias elípticas contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-088",
+      "text": "La emisión en ondas de radio de chorros relativistas extragalácticos acelera partículas cargadas emitiendo haces coherentes de radiación sincrotrón, revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-089",
+      "text": "El colapso del núcleo de hierro en supernovas tipo dos registra fusiones de pares de agujeros negros de masa estelar binaria, a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-090",
+      "text": "La dispersión de velocidad en el halo de materia oscura galáctico sugiere la presencia masiva de componentes de materia oscura no bariónica, con el fin de para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-091",
+      "text": "La detección interferométrica de ondas gravitacionales mide la tasa de expansión cósmica local con baja incertidumbre estadística de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-092",
+      "text": "La constante de Hubble calculada a partir de supernovas tipo Ia genera intensos flujos de rayos X en el disco de plasma circundante ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-093",
+      "text": "La radiación cósmica de fondo de microondas a tres Kelvin preserva fluctuaciones térmicas primordiales de la era de recombinación, utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-094",
+      "text": "La nucleosíntesis primordial de helio y deuterio ligero evidencia la expansión métrica acelerada del tejido espaciotemporal, con el fin de confirmando las predicciones teóricas de la relatividad general de einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-095",
+      "text": "El límite de masa de Chandrasekhar para enanas blancas fija las abundancias químicas de elementos livianos en el universo temprano, con el fin de contrastando modelos analíticos con simulaciones numéricas de n cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-096",
+      "text": "El diagrama de Hertzsprung-Russell para cúmulos estelares globulares determina distancias geométricas precisas sin depender de modelos cósmicos revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-097",
+      "text": "El espectro de líneas de emisión del hidrógeno ionizado marca el umbral de degeneración electrónica antes del colapso gravitatorio a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-098",
+      "text": "El campo magnético toroidal de los púlsares de milisegundos colima plasma magnetizado a velocidades cercanas a la de la luz en el vacío, para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-099",
+      "text": "La curva de rotación galáctica de las nebulosas espirales calibra la edad isócrona mediante el punto de desvío de la secuencia principal, con el fin de de acuerdo con el modelo cosmológico estándar lambda-cdm.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-100",
+      "text": "La acreción de materia en torno al horizonte de sucesos desencadena la expulsión explosiva de las capas estelares externas, con el fin de ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-101",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes marca el umbral de degeneración electrónica antes del colapso gravitatorio, con el fin de para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-102",
+      "text": "La paralaje trigonométrica medida por el telescopio espacial colima plasma magnetizado a velocidades cercanas a la de la luz en el vacío de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-103",
+      "text": "La emisión en ondas de radio de chorros relativistas extragalácticos calibra la edad isócrona mediante el punto de desvío de la secuencia principal ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-104",
+      "text": "El colapso del núcleo de hierro en supernovas tipo dos desencadena la expulsión explosiva de las capas estelares externas, utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-105",
+      "text": "La dispersión de velocidad en el halo de materia oscura galáctico permite determinar la temperatura cinética y densidad electrónica nebular, con el fin de confirmando las predicciones teóricas de la relatividad general de einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-106",
+      "text": "La detección interferométrica de ondas gravitacionales mantiene la estabilidad virial en cúmulos densos de galaxias elípticas, con el fin de contrastando modelos analíticos con simulaciones numéricas de n cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-107",
+      "text": "La constante de Hubble calculada a partir de supernovas tipo Ia acelera partículas cargadas emitiendo haces coherentes de radiación sincrotrón revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-108",
+      "text": "La radiación cósmica de fondo de microondas a tres Kelvin registra fusiones de pares de agujeros negros de masa estelar binaria a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-109",
+      "text": "La nucleosíntesis primordial de helio y deuterio ligero sugiere la presencia masiva de componentes de materia oscura no bariónica, para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-110",
+      "text": "El límite de masa de Chandrasekhar para enanas blancas mide la tasa de expansión cósmica local con baja incertidumbre estadística, con el fin de de acuerdo con el modelo cosmológico estándar lambda-cdm.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-111",
+      "text": "El diagrama de Hertzsprung-Russell para cúmulos estelares globulares genera intensos flujos de rayos X en el disco de plasma circundante, con el fin de ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-112",
+      "text": "El espectro de líneas de emisión del hidrógeno ionizado preserva fluctuaciones térmicas primordiales de la era de recombinación utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-113",
+      "text": "El campo magnético toroidal de los púlsares de milisegundos evidencia la expansión métrica acelerada del tejido espaciotemporal, confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-114",
+      "text": "La curva de rotación galáctica de las nebulosas espirales fija las abundancias químicas de elementos livianos en el universo temprano, contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-115",
+      "text": "La acreción de materia en torno al horizonte de sucesos determina distancias geométricas precisas sin depender de modelos cósmicos, con el fin de revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-116",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes preserva fluctuaciones térmicas primordiales de la era de recombinación, con el fin de confirmando las predicciones teóricas de la relatividad general de einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-117",
+      "text": "La paralaje trigonométrica medida por el telescopio espacial evidencia la expansión métrica acelerada del tejido espaciotemporal, con el fin de contrastando modelos analíticos con simulaciones numéricas de n cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-118",
+      "text": "La emisión en ondas de radio de chorros relativistas extragalácticos fija las abundancias químicas de elementos livianos en el universo temprano revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-119",
+      "text": "El colapso del núcleo de hierro en supernovas tipo dos determina distancias geométricas precisas sin depender de modelos cósmicos a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-120",
+      "text": "La dispersión de velocidad en el halo de materia oscura galáctico marca el umbral de degeneración electrónica antes del colapso gravitatorio, para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-121",
+      "text": "La detección interferométrica de ondas gravitacionales colima plasma magnetizado a velocidades cercanas a la de la luz en el vacío, con el fin de de acuerdo con el modelo cosmológico estándar lambda-cdm.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-122",
+      "text": "La constante de Hubble calculada a partir de supernovas tipo Ia calibra la edad isócrona mediante el punto de desvío de la secuencia principal, con el fin de ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-123",
+      "text": "La radiación cósmica de fondo de microondas a tres Kelvin desencadena la expulsión explosiva de las capas estelares externas utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-124",
+      "text": "La nucleosíntesis primordial de helio y deuterio ligero permite determinar la temperatura cinética y densidad electrónica nebular, confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-125",
+      "text": "El límite de masa de Chandrasekhar para enanas blancas mantiene la estabilidad virial en cúmulos densos de galaxias elípticas, contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-126",
+      "text": "El diagrama de Hertzsprung-Russell para cúmulos estelares globulares acelera partículas cargadas emitiendo haces coherentes de radiación sincrotrón, con el fin de revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-127",
+      "text": "El espectro de líneas de emisión del hidrógeno ionizado registra fusiones de pares de agujeros negros de masa estelar binaria, con el fin de a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-128",
+      "text": "El campo magnético toroidal de los púlsares de milisegundos sugiere la presencia masiva de componentes de materia oscura no bariónica para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-129",
+      "text": "La curva de rotación galáctica de las nebulosas espirales mide la tasa de expansión cósmica local con baja incertidumbre estadística, de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-130",
+      "text": "La acreción de materia en torno al horizonte de sucesos genera intensos flujos de rayos X en el disco de plasma circundante, ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-131",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes registra fusiones de pares de agujeros negros de masa estelar binaria, para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-132",
+      "text": "La paralaje trigonométrica medida por el telescopio espacial sugiere la presencia masiva de componentes de materia oscura no bariónica, con el fin de de acuerdo con el modelo cosmológico estándar lambda-cdm.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-133",
+      "text": "La emisión en ondas de radio de chorros relativistas extragalácticos mide la tasa de expansión cósmica local con baja incertidumbre estadística, con el fin de ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-134",
+      "text": "El colapso del núcleo de hierro en supernovas tipo dos genera intensos flujos de rayos X en el disco de plasma circundante utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-135",
+      "text": "La dispersión de velocidad en el halo de materia oscura galáctico preserva fluctuaciones térmicas primordiales de la era de recombinación, confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-136",
+      "text": "La detección interferométrica de ondas gravitacionales evidencia la expansión métrica acelerada del tejido espaciotemporal, contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-137",
+      "text": "La constante de Hubble calculada a partir de supernovas tipo Ia fija las abundancias químicas de elementos livianos en el universo temprano, con el fin de revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-138",
+      "text": "La radiación cósmica de fondo de microondas a tres Kelvin determina distancias geométricas precisas sin depender de modelos cósmicos, con el fin de a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-139",
+      "text": "La nucleosíntesis primordial de helio y deuterio ligero marca el umbral de degeneración electrónica antes del colapso gravitatorio para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-140",
+      "text": "El límite de masa de Chandrasekhar para enanas blancas colima plasma magnetizado a velocidades cercanas a la de la luz en el vacío, de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-141",
+      "text": "El diagrama de Hertzsprung-Russell para cúmulos estelares globulares calibra la edad isócrona mediante el punto de desvío de la secuencia principal, ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-142",
+      "text": "El espectro de líneas de emisión del hidrógeno ionizado desencadena la expulsión explosiva de las capas estelares externas, con el fin de utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-143",
+      "text": "El campo magnético toroidal de los púlsares de milisegundos permite determinar la temperatura cinética y densidad electrónica nebular confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-144",
+      "text": "La curva de rotación galáctica de las nebulosas espirales mantiene la estabilidad virial en cúmulos densos de galaxias elípticas contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-145",
+      "text": "La acreción de materia en torno al horizonte de sucesos acelera partículas cargadas emitiendo haces coherentes de radiación sincrotrón, revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-146",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes desencadena la expulsión explosiva de las capas estelares externas, confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-147",
+      "text": "La paralaje trigonométrica medida por el telescopio espacial permite determinar la temperatura cinética y densidad electrónica nebular, contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-148",
+      "text": "La emisión en ondas de radio de chorros relativistas extragalácticos mantiene la estabilidad virial en cúmulos densos de galaxias elípticas, con el fin de revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-149",
+      "text": "El colapso del núcleo de hierro en supernovas tipo dos acelera partículas cargadas emitiendo haces coherentes de radiación sincrotrón, con el fin de a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-150",
+      "text": "La dispersión de velocidad en el halo de materia oscura galáctico registra fusiones de pares de agujeros negros de masa estelar binaria para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-151",
+      "text": "La detección interferométrica de ondas gravitacionales sugiere la presencia masiva de componentes de materia oscura no bariónica, de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-152",
+      "text": "La constante de Hubble calculada a partir de supernovas tipo Ia mide la tasa de expansión cósmica local con baja incertidumbre estadística, ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-153",
+      "text": "La radiación cósmica de fondo de microondas a tres Kelvin genera intensos flujos de rayos X en el disco de plasma circundante, con el fin de utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-154",
+      "text": "La nucleosíntesis primordial de helio y deuterio ligero preserva fluctuaciones térmicas primordiales de la era de recombinación confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-155",
+      "text": "El límite de masa de Chandrasekhar para enanas blancas evidencia la expansión métrica acelerada del tejido espaciotemporal contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-156",
+      "text": "El diagrama de Hertzsprung-Russell para cúmulos estelares globulares fija las abundancias químicas de elementos livianos en el universo temprano, revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-157",
+      "text": "El espectro de líneas de emisión del hidrógeno ionizado determina distancias geométricas precisas sin depender de modelos cósmicos, a partir de relevamientos astronómicos satelitales en longitudes de onda múltiples.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-158",
+      "text": "El campo magnético toroidal de los púlsares de milisegundos marca el umbral de degeneración electrónica antes del colapso gravitatorio, con el fin de para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-159",
+      "text": "La curva de rotación galáctica de las nebulosas espirales colima plasma magnetizado a velocidades cercanas a la de la luz en el vacío de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-160",
+      "text": "La acreción de materia en torno al horizonte de sucesos calibra la edad isócrona mediante el punto de desvío de la secuencia principal ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-161",
+      "text": "El corrimiento al rojo cosmológico de galaxias distantes determina distancias geométricas precisas sin depender de modelos cósmicos para restringir la ecuación de estado de la energía oscura repulsiva.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-162",
+      "text": "La paralaje trigonométrica medida por el telescopio espacial marca el umbral de degeneración electrónica antes del colapso gravitatorio, de acuerdo con el modelo cosmológico estándar Lambda-CDM.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-163",
+      "text": "La emisión en ondas de radio de chorros relativistas extragalácticos colima plasma magnetizado a velocidades cercanas a la de la luz en el vacío, ampliando el horizonte observacional hacia las primeras estrellas del cosmos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-164",
+      "text": "El colapso del núcleo de hierro en supernovas tipo dos calibra la edad isócrona mediante el punto de desvío de la secuencia principal, con el fin de utilizando observaciones fotométricas y espectroscópicas de alta resolución.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-165",
+      "text": "La dispersión de velocidad en el halo de materia oscura galáctico desencadena la expulsión explosiva de las capas estelares externas confirmando las predicciones teóricas de la relatividad general de Einstein.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-166",
+      "text": "La detección interferométrica de ondas gravitacionales permite determinar la temperatura cinética y densidad electrónica nebular contrastando modelos analíticos con simulaciones numéricas de N cuerpos.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-es-167",
+      "text": "La constante de Hubble calculada a partir de supernovas tipo Ia mantiene la estabilidad virial en cúmulos densos de galaxias elípticas, revelando la evolución física de las estructuras a gran escala del universo.",
+      "lang": "es",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-001",
+      "text": "High-resolution stellar spectroscopy accurately measures atmospheric chemical abundances and isotopic ratios within distant asymptotic giant branch stars.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-002",
+      "text": "Gravitational collapse of degenerate stellar cores exceeding the Chandrasekhar mass limit triggers catastrophic thermonuclear or core-collapse supernova detonations.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-003",
+      "text": "Periodic Doppler radial velocity shifts observed in stellar spectra confirm the gravitational perturbation exerted by orbiting sub-stellar exoplanetary companions.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-004",
+      "text": "The cosmic microwave background radiation preserves primordial temperature anisotropies that establish the spatial flatness of the observable cosmological universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-005",
+      "text": "General relativistic spacetime curvature dictates the geodesic trajectories of photons grazing the photon sphere surrounding rotating Kerr black holes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-006",
+      "text": "Precision trigonometric parallax measurements obtained by astrometric space observatories calibrate the fundamental galactic distance ladder without empirical assumptions.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-007",
+      "text": "Transit photometry determines exoplanetary orbital inclination and planetary radius by detecting periodic fractional dips in host stellar flux.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-008",
+      "text": "Primordial Big Bang nucleosynthesis produced light element isotopes during the initial relativistic expansion phase of the early universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-009",
+      "text": "Thermonuclear type one a supernovae exhibit uniform peak absolute magnitudes, providing essential cosmological standard candles for dark energy measurements.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-010",
+      "text": "Gravitational radiation emitted during binary neutron star inspiral precedes luminous electromagnetic kilonova emissions powered by radioactive heavy element decay.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-011",
+      "text": "Cosmological redshift observed in extragalactic spectra results directly from the metric expansion of spacetime stretching propagating electromagnetic wavelengths.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-012",
+      "text": "Keplerian orbital dynamics accurately predict orbital periods and semi-major axes for gravitational two-body systems throughout the solar neighborhood.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-013",
+      "text": "Bolometric stellar luminosity scales with the fourth power of effective surface temperature according to the Stefan-Boltzmann radiation law.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-014",
+      "text": "Relativistic astrophysical plasma jets emerge along rotation axes from magnetized accretion disks surrounding supermassive active galactic nucleus black holes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-015",
+      "text": "Ultraviolet photoionization of interstellar neutral hydrogen gas generates prominent Balmer recombination emission lines across star-forming emission nebulae.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-016",
+      "text": "Flat galactic rotational velocity curves observed at large galactocentric radii provide compelling dynamical evidence for extended non-baryonic dark matter halos.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-017",
+      "text": "Anomalous perihelion precession of planetary orbits provided the earliest empirical confirmation of post-Newtonian relativistic gravitational field equations.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-018",
+      "text": "Gravitational fragmentation of dense giant molecular clouds initiates protostellar core collapse and subsequent formation of bound stellar clusters.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-019",
+      "text": "The Hertzsprung-Russell diagram organizes stellar luminosity against effective spectral temperature, delineating clear evolutionary sequences for stellar populations.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-020",
+      "text": "Mean motion orbital resonances among Jovian satellites induce cyclic tidal dissipation that sustains internal subsurface oceanic heating on Europa.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-021",
+      "text": "Strong gravitational lensing by massive galaxy clusters magnifies and distorts background galaxies into elongated luminous giant arcs.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-022",
+      "text": "Orbital velocity along circular Keplerian trajectories decreases monotonically with increasing orbital radius around the central gravitational mass.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-023",
+      "text": "Radiative wind mass loss rates significantly alter stellar evolutionary trajectories in luminous blue variables and massive Wolf-Rayet stars.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-024",
+      "text": "Velocity dispersion measurements of galaxies residing within massive virialized clusters constrain total gravitational cluster mass via the virial theorem.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-025",
+      "text": "Cosmological recombination decoupled primeval photons from baryonic matter as cooling plasma allowed stable neutral hydrogen formation.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-026",
+      "text": "Infrared photometry of Classical Cepheid pulsating variables calibrates extragalactic distances through well-defined empirical period-luminosity relations.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-027",
+      "text": "Primordial B-mode cosmic microwave background polarization patterns carry signatures of relic tensor perturbations generated during early cosmic inflation.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-028",
+      "text": "Magnetohydrodynamic dynamos operating within stellar convective zones generate intense toroidal magnetic fields that drive violent coronal mass ejections.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-029",
+      "text": "Planetary nebulae represent expanding circumstellar shells of ionized gas ejected during asymptotic giant branch thermal pulses, exposing white dwarfs.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-030",
+      "text": "Cataclysmic variable systems transfer matter via accretion streams toward degenerate white dwarfs, occasionally triggering explosive runaway thermonuclear novae.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-031",
+      "text": "The thermal Sunyaev-Zel'dovich effect distorts cosmic microwave background spectra through inverse Compton scattering off hot intra-cluster gas electrons.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-032",
+      "text": "Very-long-baseline radio interferometry achieves micro-arcsecond angular resolution, reconstructing shadowed event horizons of supermassive black holes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-033",
+      "text": "Quantum electron degeneracy pressure prevents further gravitational contraction in cooling white dwarf stars beneath the Chandrasekhar limiting mass.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-034",
+      "text": "Secular planetary orbital perturbations produce cyclic variations in orbital eccentricity and orbital inclination over million-year astronomical timescales.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-035",
+      "text": "Gravitational escape velocity from compact astronomical bodies depends strictly upon enclosed mass and exterior radial surface distance.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-036",
+      "text": "Rapid neutron-capture nucleosynthesis occurring within binary compact merger ejecta synthesizes heavy actinide and lanthanide elements.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-037",
+      "text": "The astronomical Roche limit defines the critical distance inside which tidal forces overcome self-gravitational cohesion, destroying orbiting bodies.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-038",
+      "text": "Relativistic synchrotron radiation produced by ultra-relativistic electrons gyrating in magnetic fields illuminates extended radio galaxy lobes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-039",
+      "text": "Baryon acoustic oscillations imprinted onto large-scale galactic spatial distributions serve as cosmological standard rulers measuring expansion history.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-040",
+      "text": "Orbital transfer maneuvers between coplanar circular orbits utilize elliptical Hohmann trajectories to minimize required orbital propellant expenditure.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-041",
+      "text": "Frame dragging induced by rotating astronomical masses perturbs the orientation of orbiting gyroscopes via the gravitomagnetic Lense-Thirring effect.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-042",
+      "text": "Far-ultraviolet photodissociation regions govern the thermal equilibrium and chemistry between diffuse interstellar gas and dense molecular clouds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-043",
+      "text": "Starburst galaxies exhibit extraordinarily high star formation rates that deplete available cold molecular gas reservoirs on rapid astronomical timescales.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-044",
+      "text": "Interstellar dust grain scattering causes wavelength-dependent interstellar extinction, reddening observed optical spectra of distant galactic stars.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-045",
+      "text": "Precise astrometric orbital tracking of stars surrounding the galactic center confirms the existence of a four-million-solar-mass supermassive black hole.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-046",
+      "text": "Circumnuclear water megamaser emissions trace Keplerian rotation in thin accretion disks, yielding direct geometric distances to active galaxies.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-047",
+      "text": "Milankovitch orbital cycles alter seasonal solar irradiance distributions across planetary hemispheres, driving long-term astronomical paleoclimatic shifts.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-048",
+      "text": "Stellar radiation pressure on dust grains expels circumstellar envelopes around luminous protostars, setting an upper limit to stellar masses.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-049",
+      "text": "Relativistic Doppler beaming dramatically enhances observed flux from relativistic astrophysical jets oriented toward the observer line of sight.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-050",
+      "text": "The classical Jeans mass threshold dictates when internal gas thermal pressure fails to balance inward gravitational forces within molecular clouds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-051",
+      "text": "Low-metallicity Population Two halo stars preserve chemical fingerprints reflecting early galactic nucleosynthetic enrichment by primordial hypernovae.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-052",
+      "text": "Differential rotation across the solar interior tachocline shears poloidal magnetic field lines, driving the cyclic eleven-year solar dynamo.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-053",
+      "text": "High-precision millisecond pulsar timing arrays monitor subtle pulse arrival variations to detect stochastic nanohertz gravitational wave backgrounds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-054",
+      "text": "Frequency-dependent chromatic dispersion of astrophysical radio pulses measures line-of-sight free electron column densities across interstellar space.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-055",
+      "text": "The particle cosmological horizon demarcates the boundary of the observable universe from which photons have had time to reach Earth.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-056",
+      "text": "The cosmological redshift of distant high-z galaxies demonstrates the accelerated metric expansion of the spacetime fabric, reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-057",
+      "text": "The trigonometric parallax measured by astrometric space observatories constrains baryon-to-photon ratios in the early inflationary cosmos, benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-058",
+      "text": "Synchrotron emission from collimated extragalactic relativistic jets provides direct geometric distance anchors across the Milky Way disc, in order to probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-059",
+      "text": "The iron core-collapse mechanism in core-collapse supernovae sets the boundary beyond which electron degeneracy pressure collapses, in order to deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-060",
+      "text": "The velocity dispersion tensor within virialized dark matter halos transports magnetized energy out to megaparsec-scale intergalactic lobes constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-061",
+      "text": "The interferometric detection of transient gravitational waves constrains cluster age through the main-sequence turnoff point, consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-062",
+      "text": "The Hubble expansion rate derived from type Ia standard candles drives explosive ejection of outer stellar envelopes into the ISM, advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-063",
+      "text": "The cosmic microwave background radiation temperature anisotropy diagnoses local kinetic temperatures and nebular electron densities, in order to utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-064",
+      "text": "The primordial nucleosynthesis yields of deuterium and helium isotopes balances gravitational attraction against kinetic velocity dispersions reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-065",
+      "text": "The Chandrasekhar mass limit for electron-degenerate dwarfs directs beamed synchrotron radiation along rotating magnetic poles benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-066",
+      "text": "The color-magnitude diagram for dense globular stellar clusters characterizes the inspiral and coalescence of binary compact remnants, probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-067",
+      "text": "The forbidden line emission spectrum of ionized hydrogen necessitates substantial components of non-baryonic cold dark matter, deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-068",
+      "text": "The toroidal magnetic field topology of millisecond pulsars calibrates the extragalactic distance ladder with high fidelity, in order to constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-069",
+      "text": "The flat galactic rotation curve of spiral nebulae dissipates angular momentum through magnetohydrodynamic turbulence consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-070",
+      "text": "Relativistic plasma accretion onto the event horizon of black holes encodes primordial density fluctuations from the recombination epoch advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-071",
+      "text": "The cosmological redshift of distant high-z galaxies necessitates substantial components of non-baryonic cold dark matter constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-072",
+      "text": "The trigonometric parallax measured by astrometric space observatories calibrates the extragalactic distance ladder with high fidelity, consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-073",
+      "text": "Synchrotron emission from collimated extragalactic relativistic jets dissipates angular momentum through magnetohydrodynamic turbulence, advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-074",
+      "text": "The iron core-collapse mechanism in core-collapse supernovae encodes primordial density fluctuations from the recombination epoch, in order to utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-075",
+      "text": "The velocity dispersion tensor within virialized dark matter halos demonstrates the accelerated metric expansion of the spacetime fabric reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-076",
+      "text": "The interferometric detection of transient gravitational waves constrains baryon-to-photon ratios in the early inflationary cosmos benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-077",
+      "text": "The Hubble expansion rate derived from type Ia standard candles provides direct geometric distance anchors across the Milky Way disc, probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-078",
+      "text": "The cosmic microwave background radiation temperature anisotropy sets the boundary beyond which electron degeneracy pressure collapses, deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-079",
+      "text": "The primordial nucleosynthesis yields of deuterium and helium isotopes transports magnetized energy out to megaparsec-scale intergalactic lobes, in order to constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-080",
+      "text": "The Chandrasekhar mass limit for electron-degenerate dwarfs constrains cluster age through the main-sequence turnoff point consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-081",
+      "text": "The color-magnitude diagram for dense globular stellar clusters drives explosive ejection of outer stellar envelopes into the ISM advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-082",
+      "text": "The forbidden line emission spectrum of ionized hydrogen diagnoses local kinetic temperatures and nebular electron densities, utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-083",
+      "text": "The toroidal magnetic field topology of millisecond pulsars balances gravitational attraction against kinetic velocity dispersions, in order to reinforcing the observational framework of the standard lambda-cdm model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-084",
+      "text": "The flat galactic rotation curve of spiral nebulae directs beamed synchrotron radiation along rotating magnetic poles, in order to benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-085",
+      "text": "Relativistic plasma accretion onto the event horizon of black holes characterizes the inspiral and coalescence of binary compact remnants probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-086",
+      "text": "The cosmological redshift of distant high-z galaxies diagnoses local kinetic temperatures and nebular electron densities reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-087",
+      "text": "The trigonometric parallax measured by astrometric space observatories balances gravitational attraction against kinetic velocity dispersions benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-088",
+      "text": "Synchrotron emission from collimated extragalactic relativistic jets directs beamed synchrotron radiation along rotating magnetic poles, probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-089",
+      "text": "The iron core-collapse mechanism in core-collapse supernovae characterizes the inspiral and coalescence of binary compact remnants, deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-090",
+      "text": "The velocity dispersion tensor within virialized dark matter halos necessitates substantial components of non-baryonic cold dark matter, in order to constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-091",
+      "text": "The interferometric detection of transient gravitational waves calibrates the extragalactic distance ladder with high fidelity consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-092",
+      "text": "The Hubble expansion rate derived from type Ia standard candles dissipates angular momentum through magnetohydrodynamic turbulence advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-093",
+      "text": "The cosmic microwave background radiation temperature anisotropy encodes primordial density fluctuations from the recombination epoch, utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-094",
+      "text": "The primordial nucleosynthesis yields of deuterium and helium isotopes demonstrates the accelerated metric expansion of the spacetime fabric, in order to reinforcing the observational framework of the standard lambda-cdm model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-095",
+      "text": "The Chandrasekhar mass limit for electron-degenerate dwarfs constrains baryon-to-photon ratios in the early inflationary cosmos, in order to benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-096",
+      "text": "The color-magnitude diagram for dense globular stellar clusters provides direct geometric distance anchors across the Milky Way disc probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-097",
+      "text": "The forbidden line emission spectrum of ionized hydrogen sets the boundary beyond which electron degeneracy pressure collapses deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-098",
+      "text": "The toroidal magnetic field topology of millisecond pulsars transports magnetized energy out to megaparsec-scale intergalactic lobes, constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-099",
+      "text": "The flat galactic rotation curve of spiral nebulae constrains cluster age through the main-sequence turnoff point, in order to consistent with the rigorous predictions of einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-100",
+      "text": "Relativistic plasma accretion onto the event horizon of black holes drives explosive ejection of outer stellar envelopes into the ISM, in order to advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-101",
+      "text": "The cosmological redshift of distant high-z galaxies sets the boundary beyond which electron degeneracy pressure collapses, in order to constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-102",
+      "text": "The trigonometric parallax measured by astrometric space observatories transports magnetized energy out to megaparsec-scale intergalactic lobes consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-103",
+      "text": "Synchrotron emission from collimated extragalactic relativistic jets constrains cluster age through the main-sequence turnoff point advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-104",
+      "text": "The iron core-collapse mechanism in core-collapse supernovae drives explosive ejection of outer stellar envelopes into the ISM, utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-105",
+      "text": "The velocity dispersion tensor within virialized dark matter halos diagnoses local kinetic temperatures and nebular electron densities, in order to reinforcing the observational framework of the standard lambda-cdm model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-106",
+      "text": "The interferometric detection of transient gravitational waves balances gravitational attraction against kinetic velocity dispersions, in order to benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-107",
+      "text": "The Hubble expansion rate derived from type Ia standard candles directs beamed synchrotron radiation along rotating magnetic poles probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-108",
+      "text": "The cosmic microwave background radiation temperature anisotropy characterizes the inspiral and coalescence of binary compact remnants deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-109",
+      "text": "The primordial nucleosynthesis yields of deuterium and helium isotopes necessitates substantial components of non-baryonic cold dark matter, constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-110",
+      "text": "The Chandrasekhar mass limit for electron-degenerate dwarfs calibrates the extragalactic distance ladder with high fidelity, in order to consistent with the rigorous predictions of einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-111",
+      "text": "The color-magnitude diagram for dense globular stellar clusters dissipates angular momentum through magnetohydrodynamic turbulence, in order to advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-112",
+      "text": "The forbidden line emission spectrum of ionized hydrogen encodes primordial density fluctuations from the recombination epoch utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-113",
+      "text": "The toroidal magnetic field topology of millisecond pulsars demonstrates the accelerated metric expansion of the spacetime fabric, reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-114",
+      "text": "The flat galactic rotation curve of spiral nebulae constrains baryon-to-photon ratios in the early inflationary cosmos, benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-115",
+      "text": "Relativistic plasma accretion onto the event horizon of black holes provides direct geometric distance anchors across the Milky Way disc, in order to probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-116",
+      "text": "The cosmological redshift of distant high-z galaxies encodes primordial density fluctuations from the recombination epoch, in order to reinforcing the observational framework of the standard lambda-cdm model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-117",
+      "text": "The trigonometric parallax measured by astrometric space observatories demonstrates the accelerated metric expansion of the spacetime fabric, in order to benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-118",
+      "text": "Synchrotron emission from collimated extragalactic relativistic jets constrains baryon-to-photon ratios in the early inflationary cosmos probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-119",
+      "text": "The iron core-collapse mechanism in core-collapse supernovae provides direct geometric distance anchors across the Milky Way disc deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-120",
+      "text": "The velocity dispersion tensor within virialized dark matter halos sets the boundary beyond which electron degeneracy pressure collapses, constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-121",
+      "text": "The interferometric detection of transient gravitational waves transports magnetized energy out to megaparsec-scale intergalactic lobes, in order to consistent with the rigorous predictions of einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-122",
+      "text": "The Hubble expansion rate derived from type Ia standard candles constrains cluster age through the main-sequence turnoff point, in order to advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-123",
+      "text": "The cosmic microwave background radiation temperature anisotropy drives explosive ejection of outer stellar envelopes into the ISM utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-124",
+      "text": "The primordial nucleosynthesis yields of deuterium and helium isotopes diagnoses local kinetic temperatures and nebular electron densities, reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-125",
+      "text": "The Chandrasekhar mass limit for electron-degenerate dwarfs balances gravitational attraction against kinetic velocity dispersions, benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-126",
+      "text": "The color-magnitude diagram for dense globular stellar clusters directs beamed synchrotron radiation along rotating magnetic poles, in order to probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-127",
+      "text": "The forbidden line emission spectrum of ionized hydrogen characterizes the inspiral and coalescence of binary compact remnants, in order to deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-128",
+      "text": "The toroidal magnetic field topology of millisecond pulsars necessitates substantial components of non-baryonic cold dark matter constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-129",
+      "text": "The flat galactic rotation curve of spiral nebulae calibrates the extragalactic distance ladder with high fidelity, consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-130",
+      "text": "Relativistic plasma accretion onto the event horizon of black holes dissipates angular momentum through magnetohydrodynamic turbulence, advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-131",
+      "text": "The cosmological redshift of distant high-z galaxies characterizes the inspiral and coalescence of binary compact remnants, constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-132",
+      "text": "The trigonometric parallax measured by astrometric space observatories necessitates substantial components of non-baryonic cold dark matter, in order to consistent with the rigorous predictions of einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-133",
+      "text": "Synchrotron emission from collimated extragalactic relativistic jets calibrates the extragalactic distance ladder with high fidelity, in order to advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-134",
+      "text": "The iron core-collapse mechanism in core-collapse supernovae dissipates angular momentum through magnetohydrodynamic turbulence utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-135",
+      "text": "The velocity dispersion tensor within virialized dark matter halos encodes primordial density fluctuations from the recombination epoch, reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-136",
+      "text": "The interferometric detection of transient gravitational waves demonstrates the accelerated metric expansion of the spacetime fabric, benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-137",
+      "text": "The Hubble expansion rate derived from type Ia standard candles constrains baryon-to-photon ratios in the early inflationary cosmos, in order to probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-138",
+      "text": "The cosmic microwave background radiation temperature anisotropy provides direct geometric distance anchors across the Milky Way disc, in order to deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-139",
+      "text": "The primordial nucleosynthesis yields of deuterium and helium isotopes sets the boundary beyond which electron degeneracy pressure collapses constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-140",
+      "text": "The Chandrasekhar mass limit for electron-degenerate dwarfs transports magnetized energy out to megaparsec-scale intergalactic lobes, consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-141",
+      "text": "The color-magnitude diagram for dense globular stellar clusters constrains cluster age through the main-sequence turnoff point, advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-142",
+      "text": "The forbidden line emission spectrum of ionized hydrogen drives explosive ejection of outer stellar envelopes into the ISM, in order to utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-143",
+      "text": "The toroidal magnetic field topology of millisecond pulsars diagnoses local kinetic temperatures and nebular electron densities reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-144",
+      "text": "The flat galactic rotation curve of spiral nebulae balances gravitational attraction against kinetic velocity dispersions benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-145",
+      "text": "Relativistic plasma accretion onto the event horizon of black holes directs beamed synchrotron radiation along rotating magnetic poles, probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-146",
+      "text": "The cosmological redshift of distant high-z galaxies drives explosive ejection of outer stellar envelopes into the ISM, reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-147",
+      "text": "The trigonometric parallax measured by astrometric space observatories diagnoses local kinetic temperatures and nebular electron densities, benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-148",
+      "text": "Synchrotron emission from collimated extragalactic relativistic jets balances gravitational attraction against kinetic velocity dispersions, in order to probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-149",
+      "text": "The iron core-collapse mechanism in core-collapse supernovae directs beamed synchrotron radiation along rotating magnetic poles, in order to deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-150",
+      "text": "The velocity dispersion tensor within virialized dark matter halos characterizes the inspiral and coalescence of binary compact remnants constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-151",
+      "text": "The interferometric detection of transient gravitational waves necessitates substantial components of non-baryonic cold dark matter, consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-152",
+      "text": "The Hubble expansion rate derived from type Ia standard candles calibrates the extragalactic distance ladder with high fidelity, advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-153",
+      "text": "The cosmic microwave background radiation temperature anisotropy dissipates angular momentum through magnetohydrodynamic turbulence, in order to utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-154",
+      "text": "The primordial nucleosynthesis yields of deuterium and helium isotopes encodes primordial density fluctuations from the recombination epoch reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-155",
+      "text": "The Chandrasekhar mass limit for electron-degenerate dwarfs demonstrates the accelerated metric expansion of the spacetime fabric benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-156",
+      "text": "The color-magnitude diagram for dense globular stellar clusters constrains baryon-to-photon ratios in the early inflationary cosmos, probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-157",
+      "text": "The forbidden line emission spectrum of ionized hydrogen provides direct geometric distance anchors across the Milky Way disc, deepening understanding of cosmic reionization epochs and early galaxy seeds.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-158",
+      "text": "The toroidal magnetic field topology of millisecond pulsars sets the boundary beyond which electron degeneracy pressure collapses, in order to constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-159",
+      "text": "The flat galactic rotation curve of spiral nebulae transports magnetized energy out to megaparsec-scale intergalactic lobes consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-160",
+      "text": "Relativistic plasma accretion onto the event horizon of black holes constrains cluster age through the main-sequence turnoff point advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-161",
+      "text": "The cosmological redshift of distant high-z galaxies provides direct geometric distance anchors across the Milky Way disc constraining the equation of state of repulsive cosmological dark energy.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-162",
+      "text": "The trigonometric parallax measured by astrometric space observatories sets the boundary beyond which electron degeneracy pressure collapses, consistent with the rigorous predictions of Einstein's general relativity.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-163",
+      "text": "Synchrotron emission from collimated extragalactic relativistic jets transports magnetized energy out to megaparsec-scale intergalactic lobes, advancing multi-messenger astrophysics across electromagnetic spectrums.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-164",
+      "text": "The iron core-collapse mechanism in core-collapse supernovae constrains cluster age through the main-sequence turnoff point, in order to utilizing high-resolution submillimeter and infrared space telescopes.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-165",
+      "text": "The velocity dispersion tensor within virialized dark matter halos drives explosive ejection of outer stellar envelopes into the ISM reinforcing the observational framework of the standard Lambda-CDM model.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-166",
+      "text": "The interferometric detection of transient gravitational waves diagnoses local kinetic temperatures and nebular electron densities benchmarking theoretical stellar interior models against observational data.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-en-167",
+      "text": "The Hubble expansion rate derived from type Ia standard candles balances gravitational attraction against kinetic velocity dispersions, probing the thermodynamic history of the early expanding universe.",
+      "lang": "en",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-001",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-002",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-003",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-004",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-005",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-006",
+      "text": "Der interferometrische Nachweis von Gravitationswellen bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-007",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae schleudert schwere synthetisierte Elemente in das interstellare Medium, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-008",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-009",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-010",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-011",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-012",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-013",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-014",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-015",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-016",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-017",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-018",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-019",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-020",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-021",
+      "text": "Der interferometrische Nachweis von Gravitationswellen bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-022",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-023",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-024",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-025",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-026",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen schleudert schwere synthetisierte Elemente in das interstellare Medium im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-027",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-028",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-029",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-030",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-031",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-032",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-033",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-034",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-035",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-036",
+      "text": "Der interferometrische Nachweis von Gravitationswellen kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-037",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-038",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-039",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-040",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-041",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-042",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-043",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-044",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-045",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont schleudert schwere synthetisierte Elemente in das interstellare Medium, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-046",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-047",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-048",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-049",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae schleudert schwere synthetisierte Elemente in das interstellare Medium, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-050",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-051",
+      "text": "Der interferometrische Nachweis von Gravitationswellen stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-052",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-053",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-054",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-055",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-056",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-057",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-058",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-059",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-060",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-061",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-062",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-063",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-064",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-065",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-066",
+      "text": "Der interferometrische Nachweis von Gravitationswellen transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-067",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-068",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin schleudert schwere synthetisierte Elemente in das interstellare Medium zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-069",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-070",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-071",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-072",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-073",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-074",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-075",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-076",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-077",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-078",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-079",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-080",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-081",
+      "text": "Der interferometrische Nachweis von Gravitationswellen belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-082",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-083",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-084",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-085",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-086",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-087",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen schleudert schwere synthetisierte Elemente in das interstellare Medium, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-088",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-089",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-090",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-091",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien schleudert schwere synthetisierte Elemente in das interstellare Medium, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-092",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-093",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-094",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-095",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-096",
+      "text": "Der interferometrische Nachweis von Gravitationswellen erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-097",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-098",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-099",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-100",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-101",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-102",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-103",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-104",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-105",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-106",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-107",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-108",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-109",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-110",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo schleudert schwere synthetisierte Elemente in das interstellare Medium in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-111",
+      "text": "Der interferometrische Nachweis von Gravitationswellen liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-112",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-113",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-114",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-115",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-116",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-117",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-118",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-119",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-120",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-121",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-122",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-123",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-124",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-125",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-126",
+      "text": "Der interferometrische Nachweis von Gravitationswellen definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-127",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-128",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-129",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall schleudert schwere synthetisierte Elemente in das interstellare Medium, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-130",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-131",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-132",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-133",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-134",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-135",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-136",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-137",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-138",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-139",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit, zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-140",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-141",
+      "text": "Der interferometrische Nachweis von Gravitationswellen konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-142",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-143",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-144",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-145",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-146",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-147",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-148",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare schleudert schwere synthetisierte Elemente in das interstellare Medium, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-149",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-150",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-151",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien bestimmt das stellare Alter anhand des Hauptreihenabknickpunkts präzise, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-152",
+      "text": "Die trigonometrische Parallaxenmessung der Astrometriesatelliten schleudert schwere synthetisierte Elemente in das interstellare Medium, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-153",
+      "text": "Die Synchrotronstrahlung relativistischer extragalaktischer Radio-Jets liefert Aufschluss über Elektronendichte und Gastemperatur im Nebel unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-154",
+      "text": "Der gravitative Kollaps des Eisenkerns bei Typ-II-Supernovae stabilisiert die Raumdichte großer elliptischer Galaxienhaufen gravitationsdynamisch zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-155",
+      "text": "Die Geschwindigkeitsdispersion im virialisierten Dunkle-Materie-Halo bündelt geladene relativistische Teilchen zu schmalen Strahlungskegeln, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-156",
+      "text": "Der interferometrische Nachweis von Gravitationswellen bestätigt die Verschmelzung stellarer und intermediärer Schwarzer Löcher, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-157",
+      "text": "Die lokale Hubble-Konstante gemessen an Typ-Ia-Supernovae erfordert die Existenz großer Mengen nicht-baryonischer Dunkler Materie, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-158",
+      "text": "Die kosmische Mikrowellen-Hintergrundstrahlung bei 2,7 Kelvin kalibriert die extragalaktische Entfernungsleiter mit hoher Genauigkeit zur Erforschung der physikalischen Natur der Dunklen Energie im Universum.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-159",
+      "text": "Die primordiale Nukleosynthese leichter Elemente nach dem Urknall erzeugt intensive hochenergetische Röntgenstrahlung im Plasmascheibenbereich, in Übereinstimmung mit den Gesetzen der Allgemeinen Relativitätstheorie.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-160",
+      "text": "Die Chandrasekhar-Massegrenze für Weiße Zwerge konserviert Dichtefluktuationen aus der Epoche der kosmischen Rekombination, zur Rekonstruktion der chemischen Entwicklungsgeschichte früher Sternpopulationen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-161",
+      "text": "Das Hertzsprung-Russell-Diagramm für alte Kugelsternhaufen belegt die beschleunigte Expansion des metrischen Raumes zweifelsfrei, unter Verwendung moderner satellitengestützter Weltraumteleskope.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-162",
+      "text": "Das Emissionslinienspektrum ionisierter H-II-Regionen bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos, zur Bestimmung fundamentaler astrophysikalischer Konstanten im Kosmos.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-163",
+      "text": "Das extrem starke Dipol-Magnetfeld rotierender Millisekundenpulsare erlaubt eine modellunabhängige direkte geometrische Distanzbestimmung durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-164",
+      "text": "Die flache Rotationskurve von Spiralgalaxien im Halo definiert die maximale Stabilitätsgrenze des Elektronenentartungsdrucks, zur Überprüfung des modernen kosmologischen Lambda-CDM-Standardmodells.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-165",
+      "text": "Die Akkretion heißer Materie um den Ereignishorizont transportiert magnetisiertes Plasma über kosmische Distanzen ins Vakuum, im Rahmen internationaler Multi-Messenger-Beobachtungskampagnen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    },
+    {
+      "id": "astronomia-de-166",
+      "text": "Die kosmologische Rotverschiebung ferner Galaxien bestimmt die relative Häufigkeit von Deuterium und Helium-4 im Kosmos, durch hochauflösende spektroskopische und photometrische Himmelsdurchmusterungen.",
+      "lang": "de",
+      "source": "corpus-trilingue-astronomia"
+    }
+  ]
+}
