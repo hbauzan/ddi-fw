@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Literal
+from typing import Any, Literal
 
 import numpy as np
 import numpy.typing as npt
@@ -36,6 +36,7 @@ class Decision:
     published: bool
     reason: str
     clause: str | None = None
+    spectral_metrics: dict[str, Any] | None = None
 
 
 @dataclass
@@ -48,17 +49,18 @@ class IngressResult:
     def audit(self) -> list[dict[str, object]]:
         rows: list[dict[str, object]] = []
         for decision in self.decisions:
-            rows.append(
-                {
-                    "verdict": decision.verdict,
-                    "alma_asignada": decision.alma_asignada,
-                    "pair_labels": decision.pair_labels,
-                    "vote_counts": decision.vote_counts,
-                    "disjoint_count": decision.disjoint_count,
-                    "published": decision.published,
-                    "reason": decision.reason,
-                }
-            )
+            row: dict[str, object] = {
+                "verdict": decision.verdict,
+                "alma_asignada": decision.alma_asignada,
+                "pair_labels": decision.pair_labels,
+                "vote_counts": decision.vote_counts,
+                "disjoint_count": decision.disjoint_count,
+                "published": decision.published,
+                "reason": decision.reason,
+            }
+            if decision.spectral_metrics is not None:
+                row["spectral_metrics"] = decision.spectral_metrics
+            rows.append(row)
         return rows
 
 
@@ -94,6 +96,7 @@ def decide(
     pair_labels: dict[str, str] = {}
     assigned: list[str] = []
     vote_counts: dict[str, int] = {}
+    spectral_metrics: dict[str, Any] = {}
     disjoint_total = 0
     for candado in required:
         if not candado.published:
@@ -111,6 +114,18 @@ def decide(
         disjoint_total += candado.disjoint_count
         if not vote_counts:
             vote_counts = recuento_votos(votos)
+
+        if candado.is_spectral:
+            from ddi_fw.corte import evaluar_corte_espectral
+
+            _, met = evaluar_corte_espectral(
+                votos,
+                ejes_trigo=candado.ejes_trigo,
+                quorum_min=candado.quorum_min,
+                paja_indices=candado.hoja.paja_indices,
+            )
+            spectral_metrics[candado.pair_id] = met
+
         if label in {"split", "out"}:
             return Decision(
                 verdict="BREACH",
@@ -120,6 +135,7 @@ def decide(
                 disjoint_count=disjoint_total,
                 published=True,
                 reason=f"cut:{candado.pair_id}:{label}",
+                spectral_metrics=spectral_metrics or None,
             )
         alma = _alma_from_label(candado, label)
         if alma is None:
@@ -131,6 +147,7 @@ def decide(
                 disjoint_count=disjoint_total,
                 published=True,
                 reason="unassigned",
+                spectral_metrics=spectral_metrics or None,
             )
         assigned.append(alma)
 
@@ -144,6 +161,7 @@ def decide(
             disjoint_count=disjoint_total,
             published=True,
             reason=f"forbidden:{forbidden_hit}",
+            spectral_metrics=spectral_metrics or None,
         )
     if assigned and all(alma == politica.allowed for alma in assigned):
         return Decision(
@@ -154,6 +172,7 @@ def decide(
             disjoint_count=disjoint_total,
             published=True,
             reason="allowed",
+            spectral_metrics=spectral_metrics or None,
         )
     return Decision(
         verdict="BREACH",
@@ -163,6 +182,7 @@ def decide(
         disjoint_count=disjoint_total,
         published=True,
         reason="contradictory_pairs",
+        spectral_metrics=spectral_metrics or None,
     )
 
 

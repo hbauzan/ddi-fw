@@ -51,8 +51,24 @@ def create_app(
     policy = Policy(allowed=cfg.allowed_alma, forbidden=cfg.forbidden_set())
     worker = embedder or FakeEmbedder()
     locks = candados
-    if locks is None and cfg.rows_path.is_file():
-        locks = candados_canonicos(rows_matrices(load_rows(cfg.rows_path)))
+    if locks is None:
+        target_rows = None
+        if cfg.trilingual_rows_path.is_file():
+            target_rows = cfg.trilingual_rows_path
+        elif cfg.rows_path.is_file():
+            target_rows = cfg.rows_path
+
+        if target_rows is not None:
+            from ddi_fw.hoja import PAJA_UNIVERSAL_BGE_M3
+
+            matrices = rows_matrices(load_rows(target_rows))
+            paja = PAJA_UNIVERSAL_BGE_M3 if cfg.prune_paja else None
+            locks = candados_canonicos(
+                matrices,
+                paja_indices=paja,
+                modo_espectral=cfg.spectral_mode,
+                quorum_ratio=cfg.quorum_ratio,
+            )
     locks = locks or {}
 
     app = FastAPI(title="ddi-fw", version="0.1.0")
@@ -64,7 +80,12 @@ def create_app(
     @app.get("/healthz")
     def healthz() -> dict[str, Any]:
         lock_view = {
-            key: {"published": lock.published, "disjoint_count": lock.disjoint_count}
+            key: {
+                "published": lock.published,
+                "disjoint_count": lock.disjoint_count,
+                "is_spectral": lock.is_spectral,
+                "quorum_min": lock.quorum_min,
+            }
             for key, lock in app.state.candados.items()
         }
         required_ok = all(
@@ -76,6 +97,7 @@ def create_app(
         return {
             "status": status,
             "embedder": worker.model_id,
+            "spectral_mode": cfg.spectral_mode,
             "locks": lock_view,
         }
 

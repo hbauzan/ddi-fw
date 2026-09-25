@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 — 2026-09-25
+
+- **Integración de la Arquitectura del Ecualizador Espectral al Runtime**:
+  - **Motor de Corte Dual-Gate (`ddi_fw/corte.py`)**: Implementado `evaluar_corte_espectral` que combina la poda de paja basal con la votación por Quórum del 10% ($K = \lceil 0.10 \times D \rceil = 103$ dimensiones en BGE-M3 1024D). Garantía matemática anti-bypass $P < 10^{-9}$.
+  - **Candados y Hojas Espectrales (`ddi_fw/hoja.py`)**: `HojaDimensional` y `Candado` ahora soportan `trigo_indices`, `paja_indices` y `quorum_min`. Publicación de candados gobernada por la disponibilidad de trigo suficiente para quórum. Soporte para los 55 pares combinatorios ($\binom{11}{2}$).
+  - **Soporte Multi-Dominio Dinámico (`ddi_fw/embedder.py`)**: `rows_matrices` deserializa dinámicamente cualquier cantidad de almas en `rows.npz` sin depender de la lista fija de 5 dominios.
+  - **Ingress con Trazabilidad Espectral (`ddi_fw/ingress.py`)**: `Decision` e `IngressResult` ahora registran `spectral_metrics` con el desglose de votos por trigo, votos de paja y quórum alcanzado.
+  - **Proxy FastAPI en Caliente (`ddi_fw/proxy.py` & `ddi_fw/config.py`)**: Carga automática en caliente de tensores trilingües (`ddi_fw/out/trilingual_bge/rows.npz`) con reporte de 55 candados espectrales y modo en `/healthz`.
+
 ## 0.3.0 — 2026-09-21
 
 - **Hipótesis del Ecualizador Espectral**:

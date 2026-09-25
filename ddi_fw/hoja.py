@@ -24,6 +24,9 @@ CANONICAL_PAIRS: tuple[tuple[str, str], ...] = (
 )
 
 
+PAJA_UNIVERSAL_BGE_M3: tuple[int, ...] = (292, 297, 308, 386, 404, 577, 780, 329, 616)
+
+
 def pair_id(alma_a: str, alma_b: str) -> str:
     return f"{alma_a}_{alma_b}"
 
@@ -38,6 +41,9 @@ class HojaDimensional:
     hi_b: FloatArray
     gap: FloatArray
     disjoint: BoolArray
+    trigo_indices: tuple[int, ...] | None = None
+    paja_indices: tuple[int, ...] | None = None
+    quorum_min: int | None = None
 
     @property
     def dimension(self) -> int:
@@ -47,8 +53,17 @@ class HojaDimensional:
     def pair_id(self) -> str:
         return pair_id(self.alma_a, self.alma_b)
 
+    @property
+    def is_spectral(self) -> bool:
+        return self.trigo_indices is not None or self.quorum_min is not None
+
     def ejes_disjuntos(self) -> list[int]:
         return np.flatnonzero(self.disjoint).astype(int).tolist()
+
+    def ejes_trigo(self) -> list[int]:
+        if self.trigo_indices is not None:
+            return list(self.trigo_indices)
+        return self.ejes_disjuntos()
 
 
 @dataclass(frozen=True)
@@ -60,7 +75,19 @@ class Candado:
         return self.hoja.pair_id
 
     @property
+    def is_spectral(self) -> bool:
+        return self.hoja.is_spectral
+
+    @property
+    def quorum_min(self) -> int:
+        if self.hoja.quorum_min is not None:
+            return self.hoja.quorum_min
+        return max(int(np.ceil(0.10 * self.hoja.dimension)), 1)
+
+    @property
     def published(self) -> bool:
+        if self.is_spectral:
+            return len(self.hoja.ejes_trigo()) >= self.quorum_min
         return bool(np.any(self.hoja.disjoint))
 
     @property
@@ -68,7 +95,13 @@ class Candado:
         return self.hoja.ejes_disjuntos()
 
     @property
+    def ejes_trigo(self) -> list[int]:
+        return self.hoja.ejes_trigo()
+
+    @property
     def disjoint_count(self) -> int:
+        if self.is_spectral:
+            return len(self.hoja.ejes_trigo())
         return int(np.count_nonzero(self.hoja.disjoint))
 
 
@@ -98,17 +131,35 @@ def calcular_hoja(
     matriz_b: npt.NDArray[np.floating],
     alma_a: str = "a",
     alma_b: str = "b",
+    trigo_indices: list[int] | tuple[int, ...] | None = None,
+    paja_indices: list[int] | tuple[int, ...] | None = None,
+    quorum_min: int | None = None,
+    quorum_ratio: float = 0.10,
+    modo_espectral: bool = False,
 ) -> HojaDimensional:
     rows_a = _as_matrix(matriz_a, "matriz_a")
     rows_b = _as_matrix(matriz_b, "matriz_b")
     if rows_a.shape[1] != rows_b.shape[1]:
         raise ValueError("las almas deben compartir dimensión")
+    dim = rows_a.shape[1]
     lo_a = rows_a.min(axis=0)
     hi_a = rows_a.max(axis=0)
     lo_b = rows_b.min(axis=0)
     hi_b = rows_b.max(axis=0)
     gap = calcular_brecha(lo_a, hi_a, lo_b, hi_b)
     disjoint = gap > 0
+
+    paja_tup = tuple(paja_indices) if paja_indices is not None else None
+    trigo_tup = tuple(trigo_indices) if trigo_indices is not None else None
+    q_min = quorum_min
+
+    if modo_espectral or trigo_tup is not None or paja_tup is not None or q_min is not None:
+        if q_min is None:
+            q_min = max(int(np.ceil(quorum_ratio * dim)), 1)
+        if trigo_tup is None:
+            paja_set = set(paja_tup or ())
+            trigo_tup = tuple(i for i in range(dim) if i not in paja_set)
+
     return HojaDimensional(
         alma_a=alma_a,
         alma_b=alma_b,
@@ -118,6 +169,9 @@ def calcular_hoja(
         hi_b=hi_b,
         gap=gap,
         disjoint=disjoint,
+        trigo_indices=trigo_tup,
+        paja_indices=paja_tup,
+        quorum_min=q_min,
     )
 
 
@@ -129,12 +183,38 @@ def publicar_candado(hoja: HojaDimensional) -> Candado:
     return Candado(hoja=hoja)
 
 
-def candados_canonicos(matrices: dict[str, npt.NDArray[np.floating]]) -> dict[str, Candado]:
+def candados_canonicos(
+    matrices: dict[str, npt.NDArray[np.floating]],
+    pairs: list[tuple[str, str]] | tuple[tuple[str, str], ...] | None = None,
+    paja_indices: list[int] | tuple[int, ...] | None = None,
+    modo_espectral: bool = False,
+    quorum_ratio: float = 0.10,
+) -> dict[str, Candado]:
     locks: dict[str, Candado] = {}
-    for alma_a, alma_b in CANONICAL_PAIRS:
+    names = list(matrices.keys())
+    if pairs is not None:
+        active_pairs = pairs
+    elif len(names) <= 5 and all(
+        a in {p[0] for p in CANONICAL_PAIRS} | {p[1] for p in CANONICAL_PAIRS} for a in names
+    ):
+        active_pairs = [p for p in CANONICAL_PAIRS if p[0] in matrices and p[1] in matrices]
+    else:
+        import itertools
+
+        active_pairs = list(itertools.combinations(names, 2))
+
+    for alma_a, alma_b in active_pairs:
         if alma_a not in matrices or alma_b not in matrices:
             continue
-        hoja = calcular_hoja(matrices[alma_a], matrices[alma_b], alma_a, alma_b)
+        hoja = calcular_hoja(
+            matrices[alma_a],
+            matrices[alma_b],
+            alma_a,
+            alma_b,
+            paja_indices=paja_indices,
+            modo_espectral=modo_espectral,
+            quorum_ratio=quorum_ratio,
+        )
         locks[pair_id(alma_a, alma_b)] = publicar_candado(hoja)
     return locks
 
