@@ -24,7 +24,7 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
 - **403 sin echo**: ingress/egreso BREACH no reimprimen el prompt ni la generación bloqueada.
 - **Seam de embedder**: todo vector pasa por `BaseEmbedder`. Tests default usan `FakeEmbedder` o matrices sintéticas. Live lleva marker `live`.
 - **`mean_gap` es diagnóstico D07**: vive solo en `benchmark_models.json`. No entra a `press.json` ni a `decide()`.
-- **Mazos chicos y estereotipados**: paredes gordas matan la disyunción. Vetos de `roadmap/almas.md` son código, no prosa.
+- **Densidad de Variedad vs. Paredes Gordas (Protocolo 08)**: La consigna original de 'mazos chicos' respondía al riesgo de incorporar términos polisémicos o interdisciplinarios ($Jaccard > 0.05$) que ensanchan espuriamente las cajas. La Tesis de Alta Densidad de Manifold (Protocolo 08) formaliza que dentro del mismo oficio hiper-específico, mayor volumen (miles de cláusulas) aporta resolución topológica, reduce drásticamente el falso rechazo en código legítimo y preserva la separabilidad en 1024D sin degradar la cota $P < 10^{-9}$. Vetos de `roadmap/almas.md` son código, no prosa.
 - **Artefactos en `ddi_fw/out/`**: gitignored. Fixtures textuales en `ddi_fw/data/` sí se commitean.
 - **Secrets**: solo `.env`. El ejemplo commiteado es `.env.example`.
 - **Modos de agente:** `release` vs `research` — ver `SKILL.md` y `roadmap/skill_checkout/`. No tratar el proceso TDD/debug como axioma de geometría.
