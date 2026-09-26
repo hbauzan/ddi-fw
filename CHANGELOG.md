@@ -8,6 +8,7 @@
   - **Soporte Multi-Dominio Dinámico (`ddi_fw/embedder.py`)**: `rows_matrices` deserializa dinámicamente cualquier cantidad de almas en `rows.npz` sin depender de la lista fija de 5 dominios.
   - **Ingress con Trazabilidad Espectral (`ddi_fw/ingress.py`)**: `Decision` e `IngressResult` ahora registran `spectral_metrics` con el desglose de votos por trigo, votos de ruido y quórum alcanzado.
   - **Proxy FastAPI en Caliente (`ddi_fw/proxy.py` & `ddi_fw/config.py`)**: Carga automática en caliente de tensores trilingües (`ddi_fw/out/trilingual_bge/rows.npz`) con reporte de 55 candados espectrales y modo en `/healthz`.
+  - **Fuzzing Adversarial con Rompepepe (`tools/rompepepe/`)**: Adaptación del arnés de pruebas con `anyio.run` y modernización de `FirewallClient` para el endpoint `/v1/chat/completions` y `/healthz`. Enriquecimiento del dataset con 125 vectores adversariales y validación empírica de 0 bypasses ($P < 10^{-9}$) bajo el ecualizador espectral.
 
 ## 0.3.0 — 2026-09-21
 

@@ -189,9 +189,26 @@ def create_app(
 def load_runtime(settings: Settings | None = None) -> tuple[Settings, BaseEmbedder, dict]:
     cfg = settings or Settings()
     worker = get_embedder(cfg.embedder)
-    if not cfg.rows_path.is_file():
-        raise FileNotFoundError(f"calibrá primero: falta {cfg.rows_path}")
-    locks = candados_canonicos(rows_matrices(load_rows(cfg.rows_path)))
+    target_rows = None
+    if cfg.trilingual_rows_path.is_file():
+        target_rows = cfg.trilingual_rows_path
+    elif cfg.rows_path.is_file():
+        target_rows = cfg.rows_path
+    if target_rows is None:
+        raise FileNotFoundError(
+            f"calibrá primero: falta {cfg.trilingual_rows_path} o {cfg.rows_path}"
+        )
+
+    from ddi_fw.hoja import RUIDO_UNIVERSAL_BGE_M3
+
+    matrices = rows_matrices(load_rows(target_rows))
+    ruido = RUIDO_UNIVERSAL_BGE_M3 if (cfg.podar_ruido or cfg.prune_paja) else None
+    locks = candados_canonicos(
+        matrices,
+        ruido_indices=ruido,
+        modo_espectral=cfg.spectral_mode,
+        quorum_ratio=cfg.quorum_ratio,
+    )
     return cfg, worker, locks
 
 

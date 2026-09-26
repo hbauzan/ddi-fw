@@ -126,7 +126,9 @@ def run_protocolo_03(
 
     # 4. Exportar cruce_ranking_{N}_pares.csv
     num_pares = len(pares_to_process)
-    csv_filename = f"cruce_ranking_{num_pares}_pares.csv" if num_pares != 10 else "cruce_ranking_10_pares.csv"
+    csv_filename = (
+        f"cruce_ranking_{num_pares}_pares.csv" if num_pares != 10 else "cruce_ranking_10_pares.csv"
+    )
     csv_path = out_dir / csv_filename
     headers = ["dimension"]
     for a, b in pares_to_process:
@@ -145,9 +147,7 @@ def run_protocolo_03(
             writer.writerow(row_vals)
 
     # 5. Extracción de la Firma Espectral Exclusiva de Python (si python está en los almas)
-    pares_python = [
-        (a, b) for a, b in pares_to_process if a == "python" or b == "python"
-    ]
+    pares_python = [(a, b) for a, b in pares_to_process if a == "python" or b == "python"]
     python_candidates: list[dict[str, Any]] = []
 
     if "python" in almas_to_process and pares_python:
