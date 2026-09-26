@@ -210,6 +210,37 @@ async def run_adaptive_fuzzing(
     print(f"[+] QA Report saved to: {report_path}")
 
 
+async def run_sensitivity_sweep(config):
+    from ddi_fw.config import Settings
+    from rompepepe.engines.sensitivity import SensitivityAnalysisEngine
+    from rompepepe.reports.sensitivity_generator import SensitivityReportGenerator
+    from rompepepe.test_dataset import get_categorized_dataset
+
+    fw_settings = Settings()
+    rows_path = (
+        fw_settings.trilingual_rows_path
+        if fw_settings.trilingual_rows_path.is_file()
+        else fw_settings.rows_path
+    )
+
+    print("\n=======================================================")
+    print("   ROMPEPEPE: SENSITIVITY & THRESHOLD BOUNDARY SWEEP")
+    print("=======================================================")
+    print(f" Target rows: {rows_path}")
+    print(" Loading dataset (categorized prompts)...")
+    dataset = get_categorized_dataset()
+    print(f" Loaded {len(dataset)} prompts.")
+
+    engine = SensitivityAnalysisEngine(rows_path=rows_path)
+    print("\n[+] Running systematic K-sweep and Cosine baseline comparison...")
+    result = engine.run_sweep(dataset)
+
+    report_gen = SensitivityReportGenerator(config.vault_storage_path / "reports")
+    report_path = report_gen.generate_report(result)
+    print(f"\n[+] Sensitivity Report Generated: {report_path}")
+    return report_path
+
+
 def view_reports(vault_path: Path):
     reports_dir = vault_path / "reports"
     reports = sorted(reports_dir.glob("*.md"), reverse=True)
@@ -276,6 +307,7 @@ async def main_async():
     parser.add_argument("--build-pack", "--pack", action="store_true", help="Build agent handoff pack (rompepepe_context.txt)")
     parser.add_argument("--non-interactive", action="store_true", help="Skip preflight confirmation prompt")
     parser.add_argument("--view-reports", action="store_true", help="View past QA reports")
+    parser.add_argument("--sensitivity", action="store_true", help="Run sensitivity analysis and cosine baseline comparison")
 
     args = parser.parse_args()
 
@@ -296,6 +328,10 @@ async def main_async():
         update_env_file(updates)
 
     config = get_config()
+
+    if args.sensitivity:
+        await run_sensitivity_sweep(config)
+        return
 
     fw_client = FirewallClient(
         base_url=config.firewall_api_base_url,

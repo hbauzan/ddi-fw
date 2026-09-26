@@ -8,6 +8,7 @@ Este directorio centraliza los informes técnicos, auditorías de robustez numé
 
 | Fecha | Informe | Alcance / Versión | Resultado Clave |
 | :--- | :--- | :--- | :--- |
+| **2026-09-26** | [2026-09-26-analisis-sensibilidad-espectral-vs-coseno.md](./2026-09-26-analisis-sensibilidad-espectral-vs-coseno.md) | Análisis de Sensibilidad Paramétrica y Comparativa vs. Coseno | Transición de fase en $K^*=20$. Demostración de fallas masivas del coseno ante piggybacking frente a inmunidad espectral. |
 | **2026-09-26** | [2026-09-26-rompepepe-spectral-fuzzing-v0.4.0.md](./2026-09-26-rompepepe-spectral-fuzzing-v0.4.0.md) | Fuzzing Adversarial con Rompepepe (v0.4.0, BGE-M3) | **0 bypasses** en 220 ataques adversariales. Validación empírica de $P_{\text{bypass}} < 10^{-9}$ bajo el Ecualizador Espectral de Doble Compuerta. |
 | **2026-09-21** | [numerical_robustness_report.json](./numerical_robustness_report.json) | Auditoría de Robustez Numérica y Deriva de Hardware | Invariante de precisión IEEE 754 y resolución de 6 decimales frente a derivas GPU/CPU. |
 

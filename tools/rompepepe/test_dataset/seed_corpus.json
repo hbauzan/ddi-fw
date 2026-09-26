@@ -134,7 +134,22 @@
       "from typing import Callable\ndef retry_decorator(max_retries: int = 3) -> Callable:\n    def decorator(func: Callable) -> Callable:\n        def wrapper(*args, **kwargs):\n            for attempt in range(max_retries):\n                try: return func(*args, **kwargs)\n                except Exception: pass\n            return None\n        return wrapper\n    return decorator",
       "def parse_query_params(url_query: str) -> dict[str, str]:\n    params = {}\n    for pair in url_query.split(\"&\"):\n        if \"=\" in pair:\n            k, v = pair.split(\"=\", 1)\n            params[k] = v\n    return params",
       "def create_matrix(rows: int, cols: int, fill: float = 0.0) -> list[list[float]]:\n    return [[fill for _ in range(cols)] for _ in range(rows)]",
-      "def reverse_linked_list(head):\n    prev = None\n    curr = head\n    while curr:\n        next_node = curr.next\n        curr.next = prev\n        prev = curr\n        curr = next_node\n    return prev"
+      "def reverse_linked_list(head):\n    prev = None\n    curr = head\n    while curr:\n        next_node = curr.next\n        curr.next = prev\n        prev = curr\n        curr = next_node\n    return prev",
+      "import functools\n@functools.lru_cache(maxsize=128)\ndef cached_factorial(n: int) -> int:\n    if n <= 1: return 1\n    return n * cached_factorial(n - 1)",
+      "from contextlib import contextmanager\n@contextmanager\ndef open_resource(name: str):\n    resource = {'name': name, 'status': 'open'}\n    try:\n        yield resource\n    finally:\n        resource['status'] = 'closed'",
+      "from typing import Protocol, runtime_checkable\n@runtime_checkable\nclass Serializable(Protocol):\n    def to_dict(self) -> dict:\n        ...\n    def from_dict(self, data: dict) -> None:\n        ...",
+      "import itertools\ndef chunked_iterable(iterable, size: int):\n    it = iter(iterable)\n    while True:\n        chunk = tuple(itertools.islice(it, size))\n        if not chunk:\n            break\n        yield chunk",
+      "from enum import Enum, auto\nclass TaskStatus(Enum):\n    PENDING = auto()\n    RUNNING = auto()\n    COMPLETED = auto()\n    FAILED = auto()\n    def is_terminal(self) -> bool:\n        return self in (TaskStatus.COMPLETED, TaskStatus.FAILED)",
+      "import re\ndef sanitize_identifier(raw: str) -> str:\n    pattern = re.compile(r'[^a-zA-Z0-9_]')\n    return pattern.sub('_', raw).lower()",
+      "import concurrent.futures\ndef parallel_map_items(fn, items, max_workers: int = 4):\n    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:\n        return list(executor.map(fn, items))",
+      "class SingletonMeta(type):\n    _instances = {}\n    def __call__(cls, *args, **kwargs):\n        if cls not in cls._instances:\n            cls._instances[cls] = super().__call__(*args, **kwargs)\n        return cls._instances[cls]",
+      "async def stream_data_generator(items: list[int]):\n    for item in items:\n        await asyncio.sleep(0.001)\n        yield item * 2",
+      "class CustomDomainException(Exception):\n    def __init__(self, code: int, message: str):\n        super().__init__(f'[{code}] {message}')\n        self.code = code",
+      "from dataclasses import dataclass, field\n@dataclass\nclass PipelineConfig:\n    name: str\n    batch_size: int = 64\n    tags: list[str] = field(default_factory=list)\n    enabled: bool = True",
+      "import inspect\ndef get_function_signature_params(fn) -> list[str]:\n    sig = inspect.signature(fn)\n    return list(sig.parameters.keys())",
+      "class TemperatureSensor:\n    def __init__(self, celsius: float = 0.0):\n        self._celsius = celsius\n    @property\n    def fahrenheit(self) -> float:\n        return self._celsius * 9 / 5 + 32\n    @fahrenheit.setter\n    def fahrenheit(self, value: float):\n        self._celsius = (value - 32) * 5 / 9",
+      "def unpack_bitwise_flags(flags: int) -> dict[str, bool]:\n    return {'read': bool(flags & 1), 'write': bool(flags & 2), 'exec': bool(flags & 4)}",
+      "import base64\ndef encode_binary_data(raw_bytes: bytes) -> str:\n    return base64.b64encode(raw_bytes).decode('ascii')"
     ]
   },
   "positive_queries": [
