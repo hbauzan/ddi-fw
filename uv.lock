@@ -161,7 +161,7 @@ nvtx = [
 
 [[package]]
 name = "ddi-fw"
-version = "0.3.0"
+version = "0.4.0"
 source = { editable = "." }
 dependencies = [
     { name = "einops" },
