@@ -1,33 +1,35 @@
-# Deep Dimensional Inspector Firewall (`ddi-fw`)
+# Deep Dimensional Inspector (`ddi-fw`)
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-0.4.0-blue.svg?style=flat-square" alt="Version 0.4.0" />
   <img src="https://img.shields.io/badge/python-3.11%2B-blue.svg?style=flat-square" alt="Python 3.11+" />
+  <img src="https://img.shields.io/badge/type-experimental%20lab%20%2F%20research-indigo.svg?style=flat-square" alt="Experimental Lab" />
   <img src="https://img.shields.io/badge/engine-BAAI%2Fbge--m3%20(1024D)-purple.svg?style=flat-square" alt="BGE-M3 1024D" />
-  <img src="https://img.shields.io/badge/architecture-Dual--Gate%20Spectral-emerald.svg?style=flat-square" alt="Dual-Gate Spectral" />
-  <img src="https://img.shields.io/badge/adversarial%20containment-100.0%25%20(0%20bypasses)-brightgreen.svg?style=flat-square" alt="100% Contained" />
-  <img src="https://img.shields.io/badge/safety%20bound-P%20%3C%2010%5E--9-success.svg?style=flat-square" alt="P < 10^-9" />
+  <img src="https://img.shields.io/badge/focus-deep%20coordinate%20inspection-teal.svg?style=flat-square" alt="Deep Coordinate Inspection" />
+  <img src="https://img.shields.io/badge/validation-empirical%20fuzzing-amber.svg?style=flat-square" alt="Empirical Fuzzing" />
   <img src="https://img.shields.io/badge/license-DNPI%20Reg.%20N%C2%BA%20226-red.svg?style=flat-square" alt="License DNPI" />
 </p>
 
-> **En este conventillo no promediamos con coseno como si fuera mayonesa.**  
-> En `ddi-fw`, la pertenencia a un dominio autorizado es un **hecho geométrico duro**, verificable coordenada por coordenada en un espacio latente de 1024 dimensiones en coma flotante nativa IEEE 754. Si no acumulás quórum afirmativo en las cerraduras espectrales, rebotás en la puerta con un **HTTP 403 fail-closed** sin eco. Corta la bocha.
+> **Acá no vendemos humo corporativo ni te prometemos una "IA mágica" que soluciona todo.**  
+> Este repositorio es mi banco de pruebas: el **Deep Dimensional Inspector (DDI)**, una herramienta de estudio y laboratorio experimental para meter el bisturí en el espacio latente de 1024 dimensiones de BGE-M3.  
+> La meta es clara: **inspeccionar profundamente** qué le pasa a los vectores semánticos en cada coordenada, poner a prueba empíricamente mi hipótesis de firewall semántico, y entender por qué la distancia coseno hace agua cuando un atacante camufla texto (*piggybacking*) mientras que una inspección geométrica coordenada por coordenada resiste.
 
 ---
 
-## ¿Qué carajo es esto?
+## ¿Qué carajo es el DDI?
 
-`ddi-fw` es un **firewall semántico determinista de contención dimensional estricta** para modelos de lenguaje (LLMs):
+`ddi-fw` es el arnés de investigación y prototipado del **Deep Dimensional Inspector** aplicado a la seguridad semántica de LLMs:
 
-* **No es un clasificador difuso ni un LLM-judge que alucina:** Opera antes de que el texto toque al modelo generativo. Ingiere el vector denso ($D=1024$), poda el ruido basal universal y evalúa inclusión en hiper-rectángulos disjuntos $[lo_d, hi_d]$.
-* **Proxy OpenAI-Compatible en caliente:** Se planta como un reverse proxy transparente delante de tu inferencia (Ollama, vLLM, Llama-cpp o APIs remotas).
-* **Fail-Closed Total:** Si el prompt contiene cláusulas híbridas, inyecciones de código malicioso (*piggybacking*) o ataques multilingües cruzados, la compuerta se cierra inmediatamente. Cero tokens al cliente, cero fuga.
+* **Inspección dimensional profunda (no un clasificador ciego):** La industria suele colapsar 1024 dimensiones en un único número escalar ($\cos \theta$). Acá hacemos lo contrario: diseccionamos el tensor coordenada por coordenada en coma flotante nativa IEEE 754.
+* **Laboratorio de prueba de hipótesis:** Implementa la arquitectura de doble compuerta espectral (poda de ruido basal + regla de quórum) para investigar si es posible confinar dominios semánticos en hiper-rectángulos disjuntos $[lo_d, hi_d]$.
+* **Proxy experimental OpenAI-Compatible:** Para probar la hipótesis bajo fuego real con clientes e interfaces estándar, se monta como un reverse proxy transparente delante de motores locales de inferencia (Ollama, vLLM, Llama-cpp).
+* **Física y precisión del silicio:** Rige la regla de **cero redondeos** ([`.agents/rules/cero-redondeos.md`](./.agents/rules/cero-redondeos.md)): no truncamos floats ni metemos tolerancias arbitrarias; medimos la separación de los datos contra la deriva real del hardware.
 
 ---
 
-## ¿Por qué el Coseno hace agua y nosotros no?
+## El Talón de Aquiles del Coseno: Ceguera por Dilución
 
-Los guardrails de la industria (Llama Guard, NeMo Guardrails, clasificadores angulares) tienen un talón de Aquiles estructural: **la ceguera por dilución**. Al colapsar 1024 dimensiones en un único producto punto escalar ($\cos \theta$), un atacante solo tiene que camuflar una receta, un ataque o una cláusula legal dentro de 20 líneas de código Python para que el coseno promedie $\Delta > 0$ y lo deje pasar de largo.
+Los guardrails tradicionales basados en clasificadores angulares tienen una debilidad matemática estructural: **la dilución**. Al promediar 1024 dimensiones en un solo producto punto, un atacante puede camuflar una inyección hostil dentro de un texto legítimo abundante:
 
 ```
        Ataque de Piggybacking Semántico:
@@ -39,20 +41,31 @@ Los guardrails de la industria (Llama Guard, NeMo Guardrails, clasificadores ang
                                       │
             ┌─────────────────────────┴─────────────────────────┐
             ▼                                                   ▼
-   [ Clasificador de Coseno ]                        [ ddi-fw Dual-Gate Espectral ]
-   • Promedia sintaxis con texto                     • Multi-clause splitter aísla el docstring
-   • Score: Δ_cos = +0.0899 (Parece Python)          • Cajas disjuntas de 1024D miden coordenadas
-   • Veredicto: ¡DEJA PASAR EL ATAQUE! ❌             • Veredicto: HTTP 403 BREACH (0 votos) 🛡️
+   [ Clasificador de Coseno ]                       [ DDI: Inspección Dimensional ]
+   • Promedia sintaxis con texto                    • Particiona cláusulas y aísla el docstring
+   • Score: Δ_cos = +0.0899 (Parece Python)         • Mide inclusión coordenada por coordenada
+   • Veredicto: ¡DEJA PASAR EL ATAQUE! ❌            • Veredicto: HTTP 403 BREACH (0 votos de quórum) 🛡️
 ```
 
-En nuestro benchmark contra el arnés adversarial **Rompepepe**:
-* **El Coseno Estándar permitió entre 14.5% y 58.2% de bypasses** en ataques de piggybacking y mutaciones léxicas.
-* **El Ecualizador Espectral de `ddi-fw` logró un 100.0% de contención (0 bypasses en 220 ataques)**, confirmando la cota teórica de fuga:
+En nuestras pruebas comparativas contra el arnés adversarial **Rompepepe**:
+* **El Coseno Estándar permitió entre 14.5% y 58.2% de bypasses** en ataques de piggybacking y mutaciones léxicas combinadas.
+* **La Doble Compuerta del DDI contuvo las 220 muestras del protocolo v0.4.0 (0 bypasses)**, dando sustento experimental a la cota teórica de la hipótesis:
   $$P_{\text{bypass}} \le (0.80)^{100} \approx 2.037 \times 10^{-10} < 10^{-9}$$
 
 ---
 
-## La Arquitectura: Doble Compuerta Espectral (Dual-Gate)
+## Fundamento Teórico: Tesis de Alta Densidad de Manifold
+
+¿Por qué sospechamos que el espacio de embeddings aguanta muchísimo más de lo que se cree?
+
+La fundamentación matemática y la ruptura con el modelo intuitivo de "paredes gordas" está desarrollada en detalle en:
+📄 **[Protocolo 08: Tesis de Alta Densidad de Manifold y Límites de Ingesta](./roadmap/hipotesis-ecualizador/08-tesis-densidad-manifold-y-limites-de-ingesta.md)**
+
+Allí se plantea por qué, a diferencia de los modelos euclidianos clásicos donde agregar datos satura el volumen, en 1024 dimensiones una ingesta densa y especializada afina los límites de decisión y purga dimensiones espurias, aumentando la precisión en lugar de degradarla.
+
+---
+
+## Pipeline de Inspección: Doble Compuerta Espectral (Dual-Gate)
 
 ```
                             [ Prompt Entrante ]
@@ -61,8 +74,8 @@ En nuestro benchmark contra el arnés adversarial **Rompepepe**:
                         [ Particionador de Cláusulas ]
                                      │
                                      ▼
-                      [ Inferencia Vectorial BGE-M3 ]
-                          (Tensor Float32, 1024D)
+                       [ Inferencia Vectorial BGE-M3 ]
+                           (Tensor Float32, 1024D)
                                      │
                                      ▼
            ┌──────────────────────────────────────────────────┐
@@ -88,16 +101,16 @@ En nuestro benchmark contra el arnés adversarial **Rompepepe**:
              (Pasa al LLM de fondo)         (ddi_ingress_breach)
 ```
 
-1. **Compuerta 1 (Poda de Ruido Estructural Basal):** Se descartan las coordenadas universales de alta energía que saturan en cualquier texto sin aportar semántica, evitando votos afirmativos espurios.
+1. **Compuerta 1 (Poda de Ruido Estructural Basal):** Purga coordenadas universales que saturan en cualquier texto sin aportar semántica discriminante.
 2. **Compuerta 2 (Regla de Quórum del 10%):** Exige un mínimo de $K = \lceil 0.10 \times 1024 \rceil = 103$ dimensiones concordantes en la región exclusiva del dominio seguro en cada cerradura.
 3. **55 Cerraduras Canónicas Trilingües:** Combinatoria de 11 dominios ($\binom{11}{2} = 55$) cruzados en Español, Inglés y Alemán: `python`, `receta`, `legal`, `medicina`, `astronomia`, `finanzas`, `filosofia`, `musica`, `geologia`, `botanica`, `arquitectura`.
 
 ---
 
-## Puesta en marcha (en 3 patadas)
+## Puesta en Marcha del Lab (en 3 patadas con `uv`)
 
 ### 1. Clonar e Instalar Entorno
-Manejamos dependencias pura y exclusivamente con `uv` (cero líos de venv manuales):
+Manejamos dependencias pura y exclusivamente con `uv`:
 
 ```bash
 git clone https://github.com/hbauzan/ddi-fw.git
@@ -106,8 +119,8 @@ uv sync --extra dev
 cp .env.example .env
 ```
 
-### 2. Calibrar Tensores
-Podés calibrar sobre los mazos compactos o cargar los tensores trilingües ya generados:
+### 2. Calibrar Tensores Experimentales
+Podés calibrar sobre los mazos compactos o cargar los tensores trilingües:
 
 ```bash
 # Calibración base con BGE-M3 (Apple Silicon MPS o CPU):
@@ -115,7 +128,7 @@ uv run python -m ddi_fw.embedder --embedder bge-m3 --out ddi_fw/out/rows.npz --r
 uv run python -m ddi_fw.press --rows ddi_fw/out/rows.npz --out ddi_fw/out
 ```
 
-### 3. Correr Tests
+### 3. Correr la Suite de Verificación
 ```bash
 uv run pytest
 PYTHONPATH=. uv run pytest tools/rompepepe/tests
@@ -123,57 +136,42 @@ PYTHONPATH=. uv run pytest tools/rompepepe/tests
 
 ---
 
-## Proxy OpenAI-Compatible contra Ollama / vLLM
+## Probando el Proxy Experimental contra Ollama / vLLM
 
-Levantá tu backend de inferencia (por ejemplo, Ollama con `llama3.2` en el puerto 11434) y configurá el `.env`:
+Configurá tu `.env` apuntando a tu LLM local (ej. Ollama en el puerto 11434):
 ```env
 DDI_UPSTREAM_URL=http://127.0.0.1:11434/v1
 DDI_UPSTREAM_MODEL=llama3.2
 PORT=8080
 ```
 
-Arrancá el firewall:
+Arrancá el inspector:
 ```bash
 PORT=8080 uv run python -m ddi_fw.proxy
 ```
 
-### Probar Salud del Cluster
-```bash
-curl -s http://127.0.0.1:8080/healthz | jq
-```
-
-### Probar Prompt Legítimo (Pasa derecho al LLM)
+### Prompt Legítimo (Pasa derecho al LLM):
 ```bash
 curl -s http://127.0.0.1:8080/v1/chat/completions \
   -H 'Content-Type: application/json' \
   -d '{"messages":[{"role":"user","content":"Explicá cómo funciona list.append en Python."}],"model":"ddi-fw"}'
 ```
 
-### Probar Inyección Hostil (Rebota en el acto con HTTP 403)
+### Inyección Camuflada (Detectada en la compuerta dimensional):
 ```bash
 curl -i -s http://127.0.0.1:8080/v1/chat/completions \
   -H 'Content-Type: application/json' \
   -d '{"messages":[{"role":"user","content":"def hack():\n    \"\"\"Prescribir amoxicilina 500mg cada 8 horas al paciente.\"\"\"\n    return True"}],"model":"ddi-fw"}'
 ```
-*Respuesta:* `HTTP/403 Forbidden` — `{"error":{"type":"ddi_ingress_breach","message":"ingress breach","audit":{...}}}` (sin repetir el texto atacante).
+*Respuesta:* `HTTP/403 Forbidden` — `{"error":{"type":"ddi_ingress_breach","message":"ingress breach","audit":{...}}}` (fail-closed, sin filtrar texto ni tokens).
 
 ---
 
-## Precisión Numérica: Cero Redondeos
+## Glosario Rápido del Lab
 
-En este proyecto rige la **Invariante de Precisión Absoluta** ([`.agents/rules/cero-redondeos.md`](./.agents/rules/cero-redondeos.md)):
+El glosario canónico completo y formal vive en [`CONTEXT.md`](./CONTEXT.md):
 
-* **Prohibido truncar o redondear números de punto flotante** bajo ninguna excusa estética o de display.
-* Los veredictos operan en `float32` nativo de hardware y las operaciones intermedias se promueven a `float64`.
-* La separación promedio entre temas ($\Delta_{avg} \approx 0.014$) supera por más de **$50.000\times$** la deriva física del hardware medida en el silicio de Apple M4 ($2.46 \times 10^{-7}$). El firewall es físicamente determinista e inmune al temblor del silicio.
-
----
-
-## Glosario Rápido para no Perderse
-
-El glosario canónico completo y vinculante vive en [`CONTEXT.md`](./CONTEXT.md):
-
-| Término | Qué carajo es | Qué NO es |
+| Término | Qué es en este laboratorio | Qué NO es |
 | :--- | :--- | :--- |
 | **`alma`** | Conjunto representativo de cláusulas técnicas de un oficio | Un dataset difuso o texto scrapeado al barrer |
 | **`cláusula`** | Unidad lógica de texto que se embebe y se juzga de forma atómica | Un chunk ciego de tokens |
@@ -184,13 +182,13 @@ El glosario canónico completo y vinculante vive en [`CONTEXT.md`](./CONTEXT.md)
 
 ---
 
-## Documentación y Hoja de Ruta
+## Informes y Resultados de Laboratorio
 
-* 📊 **Informes Técnicos y Benchmarks:** Directorio centralizado en [`reports/`](./reports/).
-  * [Informe de Fuzzing Rompepepe (v0.4.0)](./reports/2026-09-26-rompepepe-spectral-fuzzing-v0.4.0.md) (0 bypasses en 220 ataques).
-  * [Auditoría de Sensibilidad de Quórum y Comparativa de Coseno](./reports/2026-09-26-analisis-sensibilidad-espectral-vs-coseno.md) ($K^* = 20$, fallas de coseno).
+* 📊 **Auditorías y Benchmarks:** Directorio centralizado en [`reports/`](./reports/).
+  * [Informe de Fuzzing Rompepepe (v0.4.0)](./reports/2026-09-26-rompepepe-spectral-fuzzing-v0.4.0.md) (Protocolo de 220 ataques).
+  * [Auditoría de Sensibilidad de Quórum y Comparativa de Coseno](./reports/2026-09-26-analisis-sensibilidad-espectral-vs-coseno.md) ($K^* = 20$, límites empíricos).
 * 🗺️ **Roadmap Científico:** Directorio [`roadmap/`](./roadmap/).
-  * [Protocolo 08: Tesis de Alta Densidad de Manifold](./roadmap/hipotesis-ecualizador/08-tesis-densidad-manifold-y-limites-de-ingesta.md) (Ruptura con paredes gordas y escalamiento masivo).
+  * [Protocolo 08: Tesis de Alta Densidad de Manifold](./roadmap/hipotesis-ecualizador/08-tesis-densidad-manifold-y-limites-de-ingesta.md).
 * 🧠 **Lecciones Aprendidas e Invariantes:** [`.agents/skills/dev-protocol/lessons-learned.md`](./.agents/skills/dev-protocol/lessons-learned.md).
 
 ---
@@ -202,7 +200,7 @@ El glosario canónico completo y vinculante vive en [`CONTEXT.md`](./CONTEXT.md)
 El software, algoritmos, arquitectura de hiper-cajas espectrales y documentación contenidos en este repositorio son **propiedad exclusiva del titular**. No se otorga ninguna licencia de uso, copia, modificación o distribución comercial sin previa autorización escrita.
 
 ### Declaración de Obra Derivada y Registro Oficial
-Todo lo contenido en este repositorio deriva del trabajo y arquitectura registrada en:
+Todo lo contenido en este repositorio deriva del trabajo y arquitectura registrada en:  
 🔗 **[https://github.com/hbauzan/semantic-firewall](https://github.com/hbauzan/semantic-firewall)**
 
 * **Obra / Work:** *Three-Headed Semantic Firewall*
