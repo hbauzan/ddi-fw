@@ -1,0 +1,26 @@
+{
+  "model_id": "BAAI/bge-m3",
+  "n1_batch_padding": {
+    "max_abs": "1.2817326933145523e-07",
+    "mae": "3.2589571929975136e-08",
+    "bitwise_equal": false,
+    "eps": "1.1920928955078125e-07",
+    "status": "FAIL",
+    "device": "mps:0"
+  },
+  "n2_mps_cpu": {
+    "delta_max": "2.4586915969848633e-07",
+    "l2": "2.2066446945245843e-06",
+    "status": "PASS"
+  },
+  "n3_concurrency": {
+    "status": "SKIP",
+    "reason": "excluida: no se corre carga térmica ni hilos"
+  },
+  "n4_margin": {
+    "status": "IMMUNE",
+    "min_gap": "0.0005808807909488678",
+    "floor": "2.4586915969848633e-07",
+    "factor": "2362.560606060606"
+  }
+}
