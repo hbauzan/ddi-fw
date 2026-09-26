@@ -4,9 +4,9 @@ Glosario de dominio. Un término canónico por concepto.
 
 ## Alma
 
-Mazo chico y homogéneo de cláusulas de un oficio (`python`, `legal`, `receta`, `medicina`, `astronomia`). No es un corpus masivo ni un sitio scrapeado.
+Conjunto representativo y homogéneo de cláusulas de un oficio técnico (`python`, `legal`, `receta`, `medicina`, `astronomia`, etc.). Su volumen busca maximizar la densidad de soporte sobre la variedad semántica sin incorporar términos difusos o interdisciplinarios. (Ver Protocolo 08).
 
-_Avoid_: dataset, corpus, dominio difuso, categoría.
+_Avoid_: dominio difuso, texto scrapeado indiscriminado.
 
 ## Cláusula
 

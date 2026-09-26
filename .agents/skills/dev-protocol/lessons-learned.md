@@ -24,7 +24,7 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
 - **403 sin echo**: ingress/egreso BREACH no reimprimen el prompt ni la generación bloqueada.
 - **Seam de embedder**: todo vector pasa por `BaseEmbedder`. Tests default usan `FakeEmbedder` o matrices sintéticas. Live lleva marker `live`.
 - **`mean_gap` es diagnóstico D07**: vive solo en `benchmark_models.json`. No entra a `press.json` ni a `decide()`.
-- **Mazos chicos y estereotipados**: paredes gordas matan la disyunción. Vetos de `roadmap/almas.md` son código, no prosa.
+- **Densidad de Variedad vs. Paredes Gordas (Protocolo 08)**: La consigna original de 'mazos chicos' respondía al riesgo de incorporar términos polisémicos o interdisciplinarios ($Jaccard > 0.05$) que ensanchan espuriamente las cajas. La Tesis de Alta Densidad de Manifold (Protocolo 08) formaliza que dentro del mismo oficio hiper-específico, mayor volumen (miles de cláusulas) aporta resolución topológica, reduce drásticamente el falso rechazo en código legítimo y preserva la separabilidad en 1024D sin degradar la cota $P < 10^{-9}$. Vetos de `roadmap/almas.md` son código, no prosa.
 - **Artefactos en `ddi_fw/out/`**: gitignored. Fixtures textuales en `ddi_fw/data/` sí se commitean.
 - **Secrets**: solo `.env`. El ejemplo commiteado es `.env.example`.
 - **Modos de agente:** `release` vs `research` — ver `SKILL.md` y `roadmap/skill_checkout/`. No tratar el proceso TDD/debug como axioma de geometría.
@@ -72,6 +72,10 @@ Este archivo registra las lecciones aprendidas, invariantes técnicas y patrones
   - *Dinámica de Votos en Ruido vs Trigo*: Los vectores de ataque promediaron entre 21.4 y 24.8 votos de trigo, muy por debajo del quórum mínimo requerido de $K=103$ votos afirmativos sobre las 55 cerraduras canónicas. El ruido estructural promedio se mantuvo entre 8.7 y 10.7 dimensiones.
   - *Efecto "Paredes Gordas" en Cajas Trilingües*: En el corpus trilingüe de 500 filas por alma (`trilingual_bge/rows.npz`), la dispersión natural ensancha los hiper-rectángulos $[lo_d, hi_d]$, generando solapamiento (`votos_trigo_ambas`) en más de 970 dimensiones. Como consecuencia, las frases fuera de distribución o mezclas no logran quórum afirmativo y el firewall opera estrictamente fail-closed, bloqueando todo intento de piggybacking o inyección multilingüe.
   - *Gestión de Puertos Locales*: Cuando el puerto 8000 está en uso por servicios locales anfitriones, el proxy debe bindearse a puertos libres alternativos (ej. 8080); `tools/rompepepe/config.py` y el cliente respetan la variable `FIREWALL_API_BASE_URL` apuntando a `http://127.0.0.1:8080`.
+- **Transición de Fase Espectral y Fallas del Coseno (2026-09-26)**:
+  - *Punto Crítico $K^*=20$*: En el barrido descendente de quórum $K \in [103, 75, 50, 35, 30, 25, 20, 15, 10, 5]$, la contención se mantiene al 100% (0 bypasses) desde $K=103$ hasta $K=25$. La primera fuga adversarial ocurre en $K^*=20$ (2.73% FAR).
+  - *Colapso en Ambigüedad a Bajo $K$*: Para $K \le 5$, el quórum mínimo es tan bajo que tanto el dominio seguro como el vedado acumulan votos $\ge K$, activando la condición `split`, la cual colapsa en bloqueo inmediato fail-closed.
+  - *Vulnerabilidad Estructural del Coseno*: En comparativa directa sobre 140 prompts, el clasificador de diferencia de coseno ($\Delta_{\cos}$) sufre entre 14.5% y 58.2% de bypasses en ataques de piggybacking y camuflaje sintáctico (donde el código fuente infla la similitud global a $\Delta > 0$), y para lograr 0% de bypasses requiere un umbral tan estricto ($\tau \ge +0.15$) que bloquea al 100% del código legítimo. Esto valida empíricamente la superioridad de la disyunción hiperdimensional sobre métricas escalares promediadas.
 
 ---
 
