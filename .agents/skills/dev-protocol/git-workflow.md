@@ -19,7 +19,7 @@ Murray/sarcasm flavor is **optional**, never required. Do **not** append a YAML 
 - `fix(postgres): aniquilar fuga en el pool de conexiones porque estos mortales ineptos olvidaron cerrar cursores transaccionales`
 - `refactor(n8n): purgar workflows espagueti y levantar barricada vudú con validación estricta de ChatID`
 
-If this repo’s recent commits already use a `Co-authored-by: Cursor <cursoragent@cursor.com>` trailer, keep it on commits the human requested. Do not invent a new trailer policy.
+Do NOT add any `Co-authored-by` trailer or AI attribution (e.g. Cursor, Copilot, or any agent). All commits belong exclusively to the human author.
 
 ---
 
