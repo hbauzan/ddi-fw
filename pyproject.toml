@@ -43,6 +43,7 @@ packages = ["ddi_fw"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+pythonpath = [".", "tools"]
 markers = [
     "live: tests that load a real embedding model",
 ]

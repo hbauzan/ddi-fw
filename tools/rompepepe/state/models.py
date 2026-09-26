@@ -22,6 +22,11 @@ class TelemetryTrace(BaseModel):
     cosine_delta: float | None = None
     excitation_level: float | None = None
     noise_entropy: float | None = None
+    trigo_votes: int = 0
+    ruido_votes: int = 0
+    quorum_reached: bool = False
+    quorum_min: int = 103
+    attack_category: str | None = None
 
 
 class TestResult(BaseModel):
@@ -36,6 +41,7 @@ class TestResult(BaseModel):
     duration_ms: float
     is_boundary_transition: bool = False
     notes: str = ""
+    attack_category: str | None = None
 
 
 class BoundaryTrace(BaseModel):
