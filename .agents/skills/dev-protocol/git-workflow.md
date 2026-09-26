@@ -60,7 +60,7 @@ Default remote integration when `origin` is GitHub:
 
 1. `git checkout -b <type>/<short-name>` — if not already on a dedicated task branch.
 2. Stage **only files relevant to the task**. Leave unrelated untracked/modified files alone; if scope is unclear, ask (see §3.3).
-3. `git commit` using Conventional Commits from §1 (include the existing `Co-authored-by` trailer if this repo already uses it).
+3. `git commit` using Conventional Commits from §1 (never include `Co-authored-by` trailers or AI attribution).
 4. `git push -u origin HEAD`.
 5. `gh pr create` (do **not** merge `main` unless the human asked to merge `main`).
 
