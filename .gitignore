@@ -29,5 +29,5 @@ ddi_fw/out/
 tools/rompepepe/vault/
 
 # Corrida local de la auditoría numérica
-reports/
+/reports/
 

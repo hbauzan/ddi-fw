@@ -64,6 +64,9 @@ def generate_config_grid(
                         for cos_ord, exc_ord, noise_ord in order_list:
                             grid.append({
                                 "firewall_mode": mode,
+                                "spectral_mode": True,
+                                "quorum_min": 103,
+                                "podar_ruido": True,
                                 "cosine_threshold": cos,
                                 "excitation_threshold": exc,
                                 "global_noise_limit": noise,
@@ -72,7 +75,7 @@ def generate_config_grid(
                                 "excitation_enabled": exc_en,
                                 "cosine_order": cos_ord,
                                 "excitation_order": exc_ord,
-                                "noise_order": noise_ord,
+                                "noise_order": noise_order if 'noise_order' in locals() else noise_ord,
                             })
     return grid
 
@@ -113,7 +116,14 @@ class GridSearchEngine:
             "formatted_eta": f"~{int(estimated_seconds // 60)}m {int(estimated_seconds % 60)}s",
         }
 
-    async def _audit_single_query(self, query: str, config_cell: dict[str, Any], current_step: int, sem: asyncio.Semaphore) -> TestResult:
+    async def _audit_single_query(
+        self,
+        query: str,
+        config_cell: dict[str, Any],
+        current_step: int,
+        sem: asyncio.Semaphore,
+        attack_category: str | None = None,
+    ) -> TestResult:
         async with sem:
             t0 = time.perf_counter()
             telemetry = None
@@ -126,6 +136,8 @@ class GridSearchEngine:
                     duration_ms = (time.perf_counter() - t0) * 1000.0
                     passed = telemetry.passed
                     breach_reason = telemetry.breach_reason
+                    if attack_category and telemetry:
+                        telemetry.attack_category = attack_category
                     break
                 except Exception as e:
                     duration_ms = (time.perf_counter() - t0) * 1000.0
@@ -134,7 +146,12 @@ class GridSearchEngine:
                     if "429" in str(e) and retry < 2:
                         await asyncio.sleep(1.0 * (retry + 1))
                     else:
-                        telemetry = TelemetryTrace(passed=False, breach_reason=breach_reason, text="HTTP Error")
+                        telemetry = TelemetryTrace(
+                            passed=False,
+                            breach_reason=breach_reason,
+                            text="HTTP Error",
+                            attack_category=attack_category,
+                        )
 
             return TestResult(
                 step=current_step,
@@ -142,8 +159,9 @@ class GridSearchEngine:
                 config=config_cell,
                 passed=passed,
                 breach_reason=breach_reason,
-                telemetry=telemetry or TelemetryTrace(passed=False, breach_reason="HTTP Error"),
+                telemetry=telemetry or TelemetryTrace(passed=False, breach_reason="HTTP Error", attack_category=attack_category),
                 duration_ms=duration_ms,
+                attack_category=attack_category,
             )
 
     async def run(
@@ -158,13 +176,15 @@ class GridSearchEngine:
         self.concurrency = concurrency
         sem = asyncio.Semaphore(concurrency)
 
-        # Load test dataset
-        corpus_data = load_seed_corpus()
+        # Load test dataset with category mapping
+        from rompepepe.test_dataset import build_adapted_corpus, get_categorized_dataset
+        cat_ds = get_categorized_dataset()
+        prompt_to_category = {item["prompt"]: item["category"] for item in cat_ds}
+
         if custom_dataset:
             test_queries = custom_dataset
         else:
-            from rompepepe.test_dataset import build_adapted_corpus
-            test_queries = await build_adapted_corpus(self.client)
+            test_queries = [item["prompt"] for item in cat_ds] if cat_ds else await build_adapted_corpus(self.client)
 
         if not grid:
             grid = generate_config_grid(tier=tier)
@@ -217,7 +237,8 @@ class GridSearchEngine:
                     current_step = cell_start_step + query_idx + 1
                     if current_step <= completed_step:
                         continue
-                    tasks.append(self._audit_single_query(query, config_cell, current_step, sem))
+                    category = prompt_to_category.get(query, "semantic_piggybacking")
+                    tasks.append(self._audit_single_query(query, config_cell, current_step, sem, attack_category=category))
                     steps_to_run.append(current_step)
 
                 if tasks:
