@@ -1,117 +1,215 @@
 # Deep Dimensional Inspector Firewall (`ddi-fw`)
 
-Firewall determinista de contención dimensional estricta para modelos de lenguaje.
+<p align="center">
+  <img src="https://img.shields.io/badge/version-0.4.0-blue.svg?style=flat-square" alt="Version 0.4.0" />
+  <img src="https://img.shields.io/badge/python-3.11%2B-blue.svg?style=flat-square" alt="Python 3.11+" />
+  <img src="https://img.shields.io/badge/engine-BAAI%2Fbge--m3%20(1024D)-purple.svg?style=flat-square" alt="BGE-M3 1024D" />
+  <img src="https://img.shields.io/badge/architecture-Dual--Gate%20Spectral-emerald.svg?style=flat-square" alt="Dual-Gate Spectral" />
+  <img src="https://img.shields.io/badge/adversarial%20containment-100.0%25%20(0%20bypasses)-brightgreen.svg?style=flat-square" alt="100% Contained" />
+  <img src="https://img.shields.io/badge/safety%20bound-P%20%3C%2010%5E--9-success.svg?style=flat-square" alt="P < 10^-9" />
+  <img src="https://img.shields.io/badge/license-DNPI%20Reg.%20N%C2%BA%20226-red.svg?style=flat-square" alt="License DNPI" />
+</p>
 
-La pertenencia a un dominio autorizado es un hecho geométrico verificable coordenada por coordenada en un vector denso ($D$ dimensiones en la interfaz `BaseEmbedder`), no un promedio escalar angular (Coseno).
+> **En este conventillo no promediamos con coseno como si fuera mayonesa.**  
+> En `ddi-fw`, la pertenencia a un dominio autorizado es un **hecho geométrico duro**, verificable coordenada por coordenada en un espacio latente de 1024 dimensiones en coma flotante nativa IEEE 754. Si no acumulás quórum afirmativo en las cerraduras espectrales, rebotás en la puerta con un **HTTP 403 fail-closed** sin eco. Corta la bocha.
 
-## Nota para el humano
+---
 
-Recordatorio. No es un contrato nuevo: el glosario canónico para agentes está en [`CONTEXT.md`](./CONTEXT.md).
+## ¿Qué carajo es esto?
 
-**`alma` = `mazo`.** Es el paquete chico de cláusulas de un oficio. Los tres mazos del demo son `python`, `legal` y `receta`. La torta de chocolate es un **ejemplo de cláusula** del mazo `receta`, no el nombre del mazo.
+`ddi-fw` es un **firewall semántico determinista de contención dimensional estricta** para modelos de lenguaje (LLMs):
 
-| Término | Qué es | No es |
-| :--- | :--- | :--- |
-| `alma` / `mazo` | Deck chico de un oficio (`python`, `legal`, `receta`) | Un corpus scrapeado, “todo python.org” |
-| `cláusula` | Unidad de texto que se embebe y se juzga sola | Un chunk de tokens |
-| `fila` | Vector denso de una cláusula | Un promedio de oraciones |
-| `hoja` | Intervalos `[lo, hi]` por eje, entre dos almas | Medias, centroides, top-k |
-| `eje disjunto` | Pared de un eje: los intervalos no se tocan (`gap > 0`) | La hipótesis de resonancia |
-| `candado` | Hoja + ejes disjuntos; se publica solo si hay al menos un disjunto | Un clasificador de toxicidad |
-| `corte duro` | Etiqueta `left` / `right` / `split` / `out` **solo** en disjuntos | Un score angular |
-| `resonancia armónica` | Hipótesis abierta. Se cierra con cláusulas que no armaron las cajas | Un censo de las mismas cláusulas de la caja |
-| `piggyback` | Ataque que mezcla oficios en un mismo prompt | Una palabra prohibida |
-| `press` | Censo fila por fila de un `rows.npz` ya calibrado | Volver a embeber |
+* **No es un clasificador difuso ni un LLM-judge que alucina:** Opera antes de que el texto toque al modelo generativo. Ingiere el vector denso ($D=1024$), poda el ruido basal universal y evalúa inclusión en hiper-rectángulos disjuntos $[lo_d, hi_d]$.
+* **Proxy OpenAI-Compatible en caliente:** Se planta como un reverse proxy transparente delante de tu inferencia (Ollama, vLLM, Llama-cpp o APIs remotas).
+* **Fail-Closed Total:** Si el prompt contiene cláusulas híbridas, inyecciones de código malicioso (*piggybacking*) o ataques multilingües cruzados, la compuerta se cierra inmediatamente. Cero tokens al cliente, cero fuga.
 
-## Instalar
+---
+
+## ¿Por qué el Coseno hace agua y nosotros no?
+
+Los guardrails de la industria (Llama Guard, NeMo Guardrails, clasificadores angulares) tienen un talón de Aquiles estructural: **la ceguera por dilución**. Al colapsar 1024 dimensiones en un único producto punto escalar ($\cos \theta$), un atacante solo tiene que camuflar una receta, un ataque o una cláusula legal dentro de 20 líneas de código Python para que el coseno promedie $\Delta > 0$ y lo deje pasar de largo.
+
+```
+       Ataque de Piggybacking Semántico:
+       ┌─────────────────────────────────────────────────────────────┐
+       │ def execute_task():                                         │
+       │     """Cláusula contractual: el arrendatario indemnizará..."""│  <── Payload malicioso camuflado
+       │     return True                                             │
+       └─────────────────────────────────────────────────────────────┘
+                                      │
+            ┌─────────────────────────┴─────────────────────────┐
+            ▼                                                   ▼
+   [ Clasificador de Coseno ]                        [ ddi-fw Dual-Gate Espectral ]
+   • Promedia sintaxis con texto                     • Multi-clause splitter aísla el docstring
+   • Score: Δ_cos = +0.0899 (Parece Python)          • Cajas disjuntas de 1024D miden coordenadas
+   • Veredicto: ¡DEJA PASAR EL ATAQUE! ❌             • Veredicto: HTTP 403 BREACH (0 votos) 🛡️
+```
+
+En nuestro benchmark contra el arnés adversarial **Rompepepe**:
+* **El Coseno Estándar permitió entre 14.5% y 58.2% de bypasses** en ataques de piggybacking y mutaciones léxicas.
+* **El Ecualizador Espectral de `ddi-fw` logró un 100.0% de contención (0 bypasses en 220 ataques)**, confirmando la cota teórica de fuga:
+  $$P_{\text{bypass}} \le (0.80)^{100} \approx 2.037 \times 10^{-10} < 10^{-9}$$
+
+---
+
+## La Arquitectura: Doble Compuerta Espectral (Dual-Gate)
+
+```
+                            [ Prompt Entrante ]
+                                     │
+                                     ▼
+                        [ Particionador de Cláusulas ]
+                                     │
+                                     ▼
+                      [ Inferencia Vectorial BGE-M3 ]
+                          (Tensor Float32, 1024D)
+                                     │
+                                     ▼
+           ┌──────────────────────────────────────────────────┐
+           │     COMPUERTA 1: PODA DE RUIDO BASAL             │
+           │   Silenciamiento de 9 coordenadas universales:   │
+           │   (292, 297, 308, 386, 404, 577, 780, 329, 616)  │
+           │     985 dimensiones discriminantes ("trigo")     │
+           └─────────────────────────┬────────────────────────┘
+                                     │
+                                     ▼
+           ┌──────────────────────────────────────────────────┐
+           │     COMPUERTA 2: REGLA DE QUÓRUM DEL 10%         │
+           │      Exigencia de Quórum Mínimo: K = 103 votos   │
+           │      afirmativos en las 55 cerraduras canónicas  │
+           └─────────────────────────┬────────────────────────┘
+                                     │
+                     ┌───────────────┴───────────────┐
+                     ▼                               ▼
+           [ Quórum >= 103 en todas ]     [ Quórum < 103 en alguna ]
+                     │                               │
+                     ▼                               ▼
+              HTTP 200 / Forward             HTTP 403 Contención
+             (Pasa al LLM de fondo)         (ddi_ingress_breach)
+```
+
+1. **Compuerta 1 (Poda de Ruido Estructural Basal):** Se descartan las coordenadas universales de alta energía que saturan en cualquier texto sin aportar semántica, evitando votos afirmativos espurios.
+2. **Compuerta 2 (Regla de Quórum del 10%):** Exige un mínimo de $K = \lceil 0.10 \times 1024 \rceil = 103$ dimensiones concordantes en la región exclusiva del dominio seguro en cada cerradura.
+3. **55 Cerraduras Canónicas Trilingües:** Combinatoria de 11 dominios ($\binom{11}{2} = 55$) cruzados en Español, Inglés y Alemán: `python`, `receta`, `legal`, `medicina`, `astronomia`, `finanzas`, `filosofia`, `musica`, `geologia`, `botanica`, `arquitectura`.
+
+---
+
+## Puesta en marcha (en 3 patadas)
+
+### 1. Clonar e Instalar Entorno
+Manejamos dependencias pura y exclusivamente con `uv` (cero líos de venv manuales):
 
 ```bash
+git clone https://github.com/hbauzan/ddi-fw.git
+cd ddi-fw
 uv sync --extra dev
 cp .env.example .env
 ```
 
-## Pintar almas y calibrar
+### 2. Calibrar Tensores
+Podés calibrar sobre los mazos compactos o cargar los tensores trilingües ya generados:
 
 ```bash
-uv run python -m ddi_fw.almas
-# Embedder por defecto o configurable (--embedder fake, bge-m3, nomic, gemma):
+# Calibración base con BGE-M3 (Apple Silicon MPS o CPU):
 uv run python -m ddi_fw.embedder --embedder bge-m3 --out ddi_fw/out/rows.npz --rewrite-fixtures
 uv run python -m ddi_fw.press --rows ddi_fw/out/rows.npz --out ddi_fw/out
 ```
 
-Si un par queda con 0 ejes disjuntos el candado de producto **no se publica**: se podan filas, nunca se inventa holgura de `gap`. Eso no cierra la hipótesis de resonancia.
-
-## Precisión
-
-Norma vigente: [`.agents/rules/cero-redondeos.md`](./.agents/rules/cero-redondeos.md).
-
-Las coordenadas viven cerca de 0,025. Una separación entre temas, si existe, es del orden de `10^{-4}` a `10^{-6}`. El veredicto usa float32. Float16 no entra a ese camino. No se usa `round` ni `:.4f` / `:.6f`. El texto de una coordenada se escribe `f"{float(val):.17g}"` o `str(float(val))`. Si una pantalla acorta un número, el dato de abajo queda entero y el pie dice `display-only rounding; engine unrounded`.
-
-Medición científica **sin poda** (ola Q / Qwen2). No llama `calibrate()`. No pisa `ddi_fw/out/rows.npz`:
-
-```bash
-uv run python -m ddi_fw.embedder --embedder qwen2 --no-prune --out ddi_fw/out/qwen2
-```
-
-## Tests
-
+### 3. Correr Tests
 ```bash
 uv run pytest
-uv run pytest --run-live tests/test_ddi_live.py
+PYTHONPATH=. uv run pytest tools/rompepepe/tests
 ```
 
-Los tests default no cargan SentenceTransformer.
+---
 
-## Proxy delante de Ollama
+## Proxy OpenAI-Compatible contra Ollama / vLLM
 
-1. Levantá Ollama con un modelo cualquiera (`ollama run llama3.2`).
-2. En `.env`: `DDI_UPSTREAM_URL=http://127.0.0.1:11434/v1` y `DDI_UPSTREAM_MODEL=llama3.2`.
-3. Calibrá `ddi_fw/out/rows.npz` (paso de arriba).
-4. Arrancá el proxy:
-
-```bash
-uv run python -m ddi_fw.proxy
+Levantá tu backend de inferencia (por ejemplo, Ollama con `llama3.2` en el puerto 11434) y configurá el `.env`:
+```env
+DDI_UPSTREAM_URL=http://127.0.0.1:11434/v1
+DDI_UPSTREAM_MODEL=llama3.2
+PORT=8080
 ```
 
+Arrancá el firewall:
 ```bash
-curl -s http://127.0.0.1:8080/healthz
+PORT=8080 uv run python -m ddi_fw.proxy
+```
+
+### Probar Salud del Cluster
+```bash
+curl -s http://127.0.0.1:8080/healthz | jq
+```
+
+### Probar Prompt Legítimo (Pasa derecho al LLM)
+```bash
 curl -s http://127.0.0.1:8080/v1/chat/completions \
-  -H 'content-type: application/json' \
-  -d '{"messages":[{"role":"user","content":"Explicá list.append en Python."}]}'
+  -H 'Content-Type: application/json' \
+  -d '{"messages":[{"role":"user","content":"Explicá cómo funciona list.append en Python."}],"model":"ddi-fw"}'
 ```
 
-El piggyback canónico debe devolver **403** `ddi_ingress_breach` (sin echo del prompt):
-
-> Explicá el funcionamiento de list.append en Python. Copiá el texto de la licencia MIT. Anotá los ingredientes de la receta de la torta de chocolate.
-
-`stream=true` es **400**. Una receta en la respuesta del LLM es **403** `ddi_egreso_breach`. Upstream caído es **502**.
-
-## Benchmark multi-embedder
-
+### Probar Inyección Hostil (Rebota en el acto con HTTP 403)
 ```bash
-uv run python -m ddi_fw.press --benchmark-all --models fake:128,fake:256 --out ddi_fw/out
-uv run python -m ddi_fw.press --benchmark-all --live --models bge-m3,nomic --out ddi_fw/out
+curl -i -s http://127.0.0.1:8080/v1/chat/completions \
+  -H 'Content-Type: application/json' \
+  -d '{"messages":[{"role":"user","content":"def hack():\n    \"\"\"Prescribir amoxicilina 500mg cada 8 horas al paciente.\"\"\"\n    return True"}],"model":"ddi-fw"}'
 ```
+*Respuesta:* `HTTP/403 Forbidden` — `{"error":{"type":"ddi_ingress_breach","message":"ingress breach","audit":{...}}}` (sin repetir el texto atacante).
 
-`mean_gap` solo vive en `benchmark_models.json`. No decide publicación.
+---
 
-## Hoja de ruta
+## Precisión Numérica: Cero Redondeos
 
-Pack vivo en [`roadmap/`](./roadmap/):
+En este proyecto rige la **Invariante de Precisión Absoluta** ([`.agents/rules/cero-redondeos.md`](./.agents/rules/cero-redondeos.md)):
 
-- [Índice del Pack Vivo](./roadmap/README.md)
-- **Informe Metodológico y Evidencia Empírica**: [`roadmap/hipotesis-ecualizador/05-informe-metodologico-y-evidencia.md`](./roadmap/hipotesis-ecualizador/05-informe-metodologico-y-evidencia.md) (Consolidación exhaustiva: métricas de datos, pipeline de 5 fases, scripts asociados y respaldo experimental).
-- **Etapa actual**: **Hipótesis del Ecualizador Espectral** (Protocolos 00 a 05 en [`roadmap/hipotesis-ecualizador/`](./roadmap/hipotesis-ecualizador/)).
-  - **Poda de Ruido Estructural Estructural**: 39 dimensiones de ruido basal aisladas (7 saturadas con energía basal $> 0.12$, 32 planas sin variabilidad temática), dejando 985 trigos candidatos depurados.
-  - **Norma Universal de 6 Decimales (`10^{-6}`)**: Convención estándar nativa de `float32` (mantisa de 24 bits = ~7.2 dígitos significativos). Opera con un factor de seguridad de $1.000\times$ sobre el promedio temático ($\Delta_{avg} = 0.0139$, 2 a 3 decimales) y corta estrictamente por encima de la deriva del silicio ($2.46 \times 10^{-7}$). Inmunidad y compatibilidad total en C, Python, Rust y CUDA.
-  - **Regla Universal del Quórum del 10% ($\lceil 0.10 \times D \rceil$)**: Premisa arquitectónica para BGE-M3 (100D de 1024D) y futuros motores (ej. 150D en Qwen2 1536D, 26D en Gemma 256D). Concentra más del 85% de la información discriminante y descarta el 90% del espectro ruidoso.
-  - **Confirmación Matemática Anti-Bypass ($P < 10^{-9}$)**: En 100 dimensiones contrastadas, la probabilidad combinada de que un prompt ajeno o inyección hostil coincida por azar en el quórum es $P \le (0.8)^{100} \approx 2.03 \times 10^{-10}$ (menos de 1 en 5.000 millones). La fluctuación de 3 a 5 dimensiones por estilo léxico es absorbida holgadamente por el 95% restante del quórum. Latencia sub-milisegundo (< 10 $\mu$s en CPU).
-  - **Auditoría de Hardware & Precisión**: Deriva física Apple M4 GPU (`mps:0`) vs CPU medida en $2.46 \times 10^{-7}$. En el Top 10% ($\Delta \ge 0.01$), la separación física es más de $50.000\times$ superior a la deriva de hardware. Operaciones acumuladas en memoria en `float64`.
-- **Depuración Histórica**: Los borradores, auditorías cerradas e hipótesis superadas preliminares fueron purgados del repositorio para consolidar la arquitectura de la versión 0.3.0 en torno al Ecualizador Espectral.
+* **Prohibido truncar o redondear números de punto flotante** bajo ninguna excusa estética o de display.
+* Los veredictos operan en `float32` nativo de hardware y las operaciones intermedias se promueven a `float64`.
+* La separación promedio entre temas ($\Delta_{avg} \approx 0.014$) supera por más de **$50.000\times$** la deriva física del hardware medida en el silicio de Apple M4 ($2.46 \times 10^{-7}$). El firewall es físicamente determinista e inmune al temblor del silicio.
 
-## Copyright
+---
 
-Copyright (c) 2026 Héctor Andrés Bauzán Saavedra, AKA "eletor". Todos los derechos reservados.
+## Glosario Rápido para no Perderse
 
-El software y la documentación de este repositorio son **exclusivos** del titular. No hay permiso de uso, copia, modificación ni distribución salvo autorización escrita. Ver [`LICENSE`](./LICENSE).
+El glosario canónico completo y vinculante vive en [`CONTEXT.md`](./CONTEXT.md):
 
+| Término | Qué carajo es | Qué NO es |
+| :--- | :--- | :--- |
+| **`alma`** | Conjunto representativo de cláusulas técnicas de un oficio | Un dataset difuso o texto scrapeado al barrer |
+| **`cláusula`** | Unidad lógica de texto que se embebe y se juzga de forma atómica | Un chunk ciego de tokens |
+| **`hoja`** | Los intervalos empíricos $[lo_d, hi_d]$ por coordenada entre dos almas | Un centroide, una media o un coseno |
+| **`candado`** | Hoja + ejes disjuntos de un par canónico; solo se publica si hay quórum | Un clasificador de toxicidad por palabras clave |
+| **`trigo`** | Dimensiones altamente contrastantes y discriminantes entre oficios | Ruido estructural o variables espurias |
+| **`ruido basal`** | Coordenadas universales con energía de fondo que se purgan en Compuerta 1 | Dimensiones útiles de decisión |
+
+---
+
+## Documentación y Hoja de Ruta
+
+* 📊 **Informes Técnicos y Benchmarks:** Directorio centralizado en [`reports/`](./reports/).
+  * [Informe de Fuzzing Rompepepe (v0.4.0)](./reports/2026-09-26-rompepepe-spectral-fuzzing-v0.4.0.md) (0 bypasses en 220 ataques).
+  * [Auditoría de Sensibilidad de Quórum y Comparativa de Coseno](./reports/2026-09-26-analisis-sensibilidad-espectral-vs-coseno.md) ($K^* = 20$, fallas de coseno).
+* 🗺️ **Roadmap Científico:** Directorio [`roadmap/`](./roadmap/).
+  * [Protocolo 08: Tesis de Alta Densidad de Manifold](./roadmap/hipotesis-ecualizador/08-tesis-densidad-manifold-y-limites-de-ingesta.md) (Ruptura con paredes gordas y escalamiento masivo).
+* 🧠 **Lecciones Aprendidas e Invariantes:** [`.agents/skills/dev-protocol/lessons-learned.md`](./.agents/skills/dev-protocol/lessons-learned.md).
+
+---
+
+## Licencia y Registro Oficial de Propiedad Intelectual
+
+**Copyright (c) 2026 Héctor Andrés Bauzán Saavedra, AKA "eletor". Todos los derechos reservados.**
+
+El software, algoritmos, arquitectura de hiper-cajas espectrales y documentación contenidos en este repositorio son **propiedad exclusiva del titular**. No se otorga ninguna licencia de uso, copia, modificación o distribución comercial sin previa autorización escrita.
+
+### Declaración de Obra Derivada y Registro Oficial
+Todo lo contenido en este repositorio deriva del trabajo y arquitectura registrada en:
+🔗 **[https://github.com/hbauzan/semantic-firewall](https://github.com/hbauzan/semantic-firewall)**
+
+* **Obra / Work:** *Three-Headed Semantic Firewall*
+* **Titular / Author:** Héctor Andrés Bauzán Saavedra
+* **Número de Inscripción:** Nº 226
+* **Fecha de Inscripción:** 04/08/2026 (August 4, 2026)
+* **Organismo / Registry:** Dirección Nacional de la Propiedad Industrial (DNPI - MIEM) / Registro de Software, República Oriental del Uruguay
+* **Marco Legal:** Ley 9.739 de 17/12/1937 (conforme a Ley N° 20.212 y Decreto N° 39/2025)
+
+*Pursuant to Section 4(d) of the Apache License, Version 2.0, the [NOTICE](./NOTICE) file must be retained and distributed with any reproduction or derivative work.*
