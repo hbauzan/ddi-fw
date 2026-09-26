@@ -4,7 +4,7 @@
 **Título en Inglés:** *High-Density Semantic Manifold Reconstruction and Empirical Capacity Limits in Transformer Latent Spaces*  
 **Fecha:** 2026-09-26  
 **Sistema:** Deep Dimensional Inspector Firewall (`ddi-fw`)  
-**Autor:** Héctor Bauzán (Arquitecto Fundador) & Antigravity (Principal Systems Architect)  
+**Autor:** Héctor Andrés Bauzán Saavedra  
 **Estado:** SELLADO / BASELINE CONCEPTUAL PERMANENTE  
 
 ---
