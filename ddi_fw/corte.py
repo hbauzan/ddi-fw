@@ -148,6 +148,8 @@ def etiquetar_fila(
         ejes = hoja.ejes_trigo() if hasattr(hoja, "ejes_trigo") else hoja.ejes_disjuntos()
         quorum = getattr(hoja, "quorum_min", None)
         ruido = getattr(hoja, "ruido_indices", getattr(hoja, "paja_indices", None))
-        label, _ = evaluar_corte_espectral(votos, ejes_trigo=ejes, quorum_min=quorum, ruido_indices=ruido)
+        label, _ = evaluar_corte_espectral(
+            votos, ejes_trigo=ejes, quorum_min=quorum, ruido_indices=ruido
+        )
         return label, votos
     return evaluar_corte_duro(votos, hoja.ejes_disjuntos()), votos

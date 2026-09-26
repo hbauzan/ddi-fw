@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 
 class RompepepeConfig(BaseModel):
-    firewall_api_base_url: str = Field(default="http://localhost:8000")
+    firewall_api_base_url: str = Field(default="http://127.0.0.1:8080")
     firewall_x_api_key: str | None = Field(default=None)
     explorer_provider: str = Field(default="google")
     explorer_api_key: str | None = Field(default=None)
@@ -79,7 +79,7 @@ def get_config(base_dir: Path | None = None) -> RompepepeConfig:
         rpm_limit = 15
 
     return RompepepeConfig(
-        firewall_api_base_url=get_var("FIREWALL_API_BASE_URL", "http://localhost:8000").rstrip("/"),
+        firewall_api_base_url=get_var("FIREWALL_API_BASE_URL", "http://127.0.0.1:8080").rstrip("/"),
         firewall_x_api_key=os.getenv("FIREWALL_X_API_KEY", merged_vars.get("FIREWALL_X_API_KEY")) or None,
         explorer_provider=provider,
         explorer_api_key=explorer_key or None,

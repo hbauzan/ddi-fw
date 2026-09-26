@@ -1,5 +1,4 @@
-"""Unit tests for rompepepe engines and report generator.
-"""
+import anyio
 from pathlib import Path
 import tempfile
 from unittest.mock import AsyncMock, MagicMock
@@ -35,19 +34,21 @@ def test_generate_config_grid_tiers():
     assert len(heavy_grid) > 100
 
 
-@pytest.mark.asyncio
-async def test_grid_search_engine_preflight():
-    fw_client = MagicMock()
-    fw_client.audit = AsyncMock(return_value=TelemetryTrace(passed=True))
-    session_mgr = MagicMock()
+def test_grid_search_engine_preflight():
+    async def _test():
+        fw_client = MagicMock()
+        fw_client.audit = AsyncMock(return_value=TelemetryTrace(passed=True))
+        session_mgr = MagicMock()
 
-    engine = GridSearchEngine(fw_client, session_mgr)
-    grid = [{"cosine_threshold": 0.5315}]
-    preflight = await engine.estimate_preflight(grid, dataset_size=5)
+        engine = GridSearchEngine(fw_client, session_mgr)
+        grid = [{"cosine_threshold": 0.5315}]
+        preflight = await engine.estimate_preflight(grid, dataset_size=5)
 
-    assert preflight["total_grid_cells"] == 1
-    assert preflight["total_tests"] == 5
-    assert "formatted_eta" in preflight
+        assert preflight["total_grid_cells"] == 1
+        assert preflight["total_tests"] == 5
+        assert "formatted_eta" in preflight
+
+    anyio.run(_test)
 
 
 def test_report_generator():
