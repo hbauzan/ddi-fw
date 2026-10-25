@@ -36,3 +36,10 @@ Carpeta: [`hipotesis-ecualizador/`](./hipotesis-ecualizador/)
 
 Los ciclos preliminares e hipótesis superadas (resonancia armónica cerrada, auditorías numéricas previas y tickets legacy) fueron completamente eliminados en la versión 0.3.0 para mantener el árbol de trabajo enfocado exclusivamente en la arquitectura vigente.
 
+---
+
+## 4. Notas de Futuro y Backlog Teórico (Inactivo)
+
+> **Nota para agentes:** Esta sección archiva notas de investigación periférica y referencias cruzadas. No forma parte del ciclo de ejecución activo ni debe priorizarse frente al pack activo a menos que se consulte expresamente por nuevas ideas, backlog o líneas futuras de investigación.
+
+- [01-concept-editing-y-proyecciones-lineales.md](./future-notes/01-concept-editing-y-proyecciones-lineales.md): Análisis comparativo entre gating por coordenadas canónicas de DDI vs. proyecciones en direcciones conceptuales aprendidas (*Concept Editing*, *Linear Probes*, *LEACE*).
