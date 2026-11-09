@@ -1,0 +1,64 @@
+{
+  "task_id": "TASK-002",
+  "embedder": "BAAI/bge-m3",
+  "target_tokens": 265000,
+  "n_sessions": 16,
+  "token_range": {
+    "min": 265000,
+    "max": 265000
+  },
+  "detectors": {
+    "D1_RawCosineOnly": {
+      "fault_detection_recall": 0.3333333333333333,
+      "healthy_session_false_alarm_rate": 0.0,
+      "f1_score": 0.5,
+      "f1_shadowing": 0.0,
+      "f1_thrashing": 0.0,
+      "f1_goal_drift": 1.0,
+      "mean_turn_audit_latency_ms": 0.043623194040757575
+    },
+    "D2_WhitenedKinematicsOnly": {
+      "fault_detection_recall": 0.3333333333333333,
+      "healthy_session_false_alarm_rate": 0.0,
+      "f1_score": 0.5,
+      "f1_shadowing": 0.0,
+      "f1_thrashing": 0.0,
+      "f1_goal_drift": 1.0,
+      "mean_turn_audit_latency_ms": 0.05276803644467994
+    },
+    "D3_FullGovernor_Kinematics_Plus_AST": {
+      "fault_detection_recall": 1.0,
+      "healthy_session_false_alarm_rate": 0.0,
+      "f1_score": 1.0,
+      "f1_shadowing": 1.0,
+      "f1_thrashing": 1.0,
+      "f1_goal_drift": 1.0,
+      "mean_turn_audit_latency_ms": 0.04895680542441975
+    }
+  },
+  "compiler": {
+    "mean_original_tokens": 265000.0,
+    "mean_compiled_tokens": 35968.5,
+    "mean_token_savings_ratio": 0.8642698113207548,
+    "invariant_retention_rate": 1.0,
+    "live_signature_retention_rate": 1.0,
+    "obsolete_code_pruning_rate": 1.0,
+    "mean_compile_latency_ms": 41.66616662450906,
+    "mean_turn_audit_latency_ms": 0.04895680542441975
+  },
+  "verdict": {
+    "overall_winner": "D3_FullGovernor_Kinematics_Plus_AST",
+    "governor_beats_raw_cosine": true,
+    "compiler_meets_contract": true
+  },
+  "hardware": {
+    "dispositivo": "Apple M4",
+    "target_pytorch": "mps:0",
+    "memoria_ram": "16 GB unificada",
+    "sistema_operativo": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+    "version_python": "3.14.3",
+    "version_pytorch": "2.14.0",
+    "version_numpy": "2.5.3",
+    "timestamp_iso": "2026-11-09T19:02:33.532205-03:00"
+  }
+}

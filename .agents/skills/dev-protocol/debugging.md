@@ -80,4 +80,6 @@ Before declaring a bug resolved, complete this checklist:
 - [ ] All tagged `[DEBUG-...]` instrumentation logs are removed.
 - [ ] Throwaway prototypes/harnesses are deleted.
 - [ ] Correct hypothesis is documented in the commit/PR message.
+- [ ] **Incident Marker (1-line JSONL telemetry)**: If the bug was caused by an LLM/agent error during the session (`signature_regression`, `thrashing_loop`, `goal_drift`, `hallucinated_api`, or `user_correction`), append **one single JSON line** (never dump conversation text) to `logs/incident_markers.jsonl`:
+  `{"ts":"<ISO-8601>","kind":"<category>","symbol":"<affected_symbol_or_file>","note":"<1-sentence root cause>"}`
 - [ ] **Post-Mortem**: Ask: *What would have prevented this bug?* If it requires architectural improvements (better test seams, less coupling), log a task or report it to the user.

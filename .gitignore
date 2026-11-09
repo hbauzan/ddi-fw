@@ -28,3 +28,7 @@ ddi_fw/out/
 # Rompepepe runs and vaults
 tools/rompepepe/vault/
 
+# Telemetría local de incidentes y transcripciones recolectadas (no van a git)
+logs/
+
+
