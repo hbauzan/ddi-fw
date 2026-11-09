@@ -43,6 +43,7 @@ def compile_session_context(
     force_hygiene: bool = False,
     whiten_mean: np.ndarray | None = None,
     whiten_matrix: np.ndarray | None = None,
+    rejected_turn_indices: set[int] | None = None,
 ) -> CompiledContextResult:
     if max_budget_tokens < 1 or fresh_tail_turns < 0:
         raise ValueError("presupuesto o cola inválidos")
@@ -59,13 +60,18 @@ def compile_session_context(
         )
     index = symbol_index if symbol_index is not None else _index_from_messages(messages)
     notes = list(negative_memory or [])
-    last_def = _last_definition_index(messages)
+    last_def = _last_definition_index(messages, rejected_turn_indices)
     head, intermediate, tail = _partition(messages, fresh_tail_turns)
     pruned_blocks = 0
     pruned_traces = 0
     hygienic: list[tuple[int, dict[str, str]]] = []
     for index_in_source, message in intermediate:
-        content, blocks, traces = _hygiene(message.get("content", ""), index_in_source, last_def)
+        content, blocks, traces = _hygiene(
+            message.get("content", ""),
+            index_in_source,
+            last_def,
+            rejected_turn_indices,
+        )
         pruned_blocks += blocks
         pruned_traces += traces
         hygienic.append((index_in_source, {"role": message.get("role", "user"), "content": content}))
@@ -138,9 +144,15 @@ def _partition(
     return head, intermediate, tail
 
 
-def _last_definition_index(messages: list[dict[str, str]]) -> dict[str, int]:
+def _last_definition_index(
+    messages: list[dict[str, str]],
+    rejected_turn_indices: set[int] | None = None,
+) -> dict[str, int]:
+    rejected = rejected_turn_indices or set()
     last: dict[str, int] = {}
     for index, message in enumerate(messages):
+        if index in rejected:
+            continue
         content = message.get("content", "")
         if "```python\n" not in content and not content.lstrip().startswith(("def ", "class ", "async def", "@")):
             continue
@@ -167,7 +179,24 @@ def _defined_names(code: str) -> list[str]:
     return names
 
 
-def _hygiene(content: str, message_index: int, last_def: dict[str, int]) -> tuple[str, int, int]:
+def _hygiene(
+    content: str,
+    message_index: int,
+    last_def: dict[str, int],
+    rejected_turn_indices: set[int] | None = None,
+) -> tuple[str, int, int]:
+    rejected = rejected_turn_indices or set()
+    if message_index in rejected:
+        pruned_blocks = 0
+
+        def reject_block(_match: re.Match[str]) -> str:
+            nonlocal pruned_blocks
+            pruned_blocks += 1
+            return "[DDI-TOMBSTONE: parche rechazado en revisión previa; ver Memoria Negativa]"
+
+        rewritten = _PY_FENCE.sub(reject_block, content)
+        truncated, pruned_traces = _truncate_traces(rewritten)
+        return truncated, pruned_blocks, pruned_traces
     if "```" not in content and "Traceback (most recent call last):" not in content:
         return content, 0, 0
     pruned_blocks = 0

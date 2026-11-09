@@ -19,6 +19,7 @@ class FunctionSig:
     allowed_kwargs: frozenset[str] | None
     turn_id: int
     pos_names: tuple[str, ...] = ()
+    kwonly_names: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -105,7 +106,18 @@ class LiveSymbolIndex:
         return auditor.violations
 
     def render_signature(self, sig: FunctionSig) -> str:
-        return f"{sig.qualname}({', '.join(sig.pos_names)})"
+        parts = list(sig.pos_names)
+        if sig.kwonly_names:
+            parts.append("*")
+            parts.extend(sig.kwonly_names)
+        return f"{sig.qualname}({', '.join(parts)})"
+
+    def find_deprecated_calls(self, code: str) -> list[AstViolation]:
+        return [
+            violation
+            for violation in self.audit_candidate_code(code)
+            if violation.kind == "deprecated_signature_call"
+        ]
 
     def _store_function(
         self,
@@ -231,6 +243,7 @@ def _build_signature(
         allowed_kwargs=allowed,
         turn_id=turn_id,
         pos_names=pos_names,
+        kwonly_names=tuple(arg.arg for arg in args.kwonlyargs),
     )
 
 

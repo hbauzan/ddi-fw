@@ -16,7 +16,8 @@ Carpeta: [`duelo-v2-y-contexto-250k/`](./duelo-v2-y-contexto-250k/)
 | [01-protocolo-test-a-duelo-geometrico.md](./duelo-v2-y-contexto-250k/01-protocolo-test-a-duelo-geometrico.md) | Especificación paso a paso de `TASK-001` (Test A: `M1` Cajas v0.4.0 vs `M2` Coseno vs `M3` Subespacio Blanqueado Conformal vs `M4` Híbrido AST) |
 | [02-protocolo-test-b-context-rot-250k.md](./duelo-v2-y-contexto-250k/02-protocolo-test-b-context-rot-250k.md) | Especificación paso a paso de `TASK-002` (Test B: Telemetría cinemática >250k tokens, `LiveSymbolIndex` AST y Compilador Activo `260k -> <36k`) |
 | [04-protocolo-camino1-pulido-test-a.md](./duelo-v2-y-contexto-250k/04-protocolo-camino1-pulido-test-a.md) | *(Completado)* Especificación de `TASK-003`: higiene de payloads en `neg_piggybacking`, detector estructural `foreign_code` y calibración de `M4` (`ROC-AUC = 0.99976`, `FAR = 0.0%`) |
-| [03-protocolo-test-b-etapa2-live-api.md](./duelo-v2-y-contexto-250k/03-protocolo-test-b-etapa2-live-api.md) | *(Activo — Autorizado)* Especificación de `TASK-004`: Prueba A/B viva contra Google Gemini API (`265k` crudo vs `<36k` compilado por DDI, freno duro `MAX_SUCCESSFUL_CALLS = 20`) |
+| [03-protocolo-test-b-etapa2-live-api.md](./duelo-v2-y-contexto-250k/03-protocolo-test-b-etapa2-live-api.md) | *(Completado)* Especificación de `TASK-004`: Primera corrida A/B viva en `gemini-3.8-flash` (`-88.96%` tokens facturados, `1.43x` speedup) |
+| [05-protocolo-camino1-pulido-test-c-live.md](./duelo-v2-y-contexto-250k/05-protocolo-camino1-pulido-test-c-live.md) | *(Activo — Camino 1)* Especificación quirúrgica de `TASK-005`: Pinning de definiciones AST vivas (`last_def`) + encabezados tipados en `ContextCompiler` y revancha viva limpia (`20` llamadas) |
 
 ---
 

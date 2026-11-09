@@ -61,7 +61,8 @@ Para no saturar la ventana de contexto de modelos como Gemini 3.8 o Cursor, el t
 | **Fase 1** | `TASK-001` | `DONE` | [01-protocolo-test-a-duelo-geometrico.md](./01-protocolo-test-a-duelo-geometrico.md) | Paquete `ddi_fw/lab_v2/` (Slices A1–A4), suite `tests/lab_v2/test_a_*.py`, runner `scripts/lab_v2/run_test_a.py`, JSON crudo `reports/lab_v2_test_a_results.json` y reporte `reports/test_a_duelo_subespacio_vs_coseno.md`. |
 | **Fase 2** | `TASK-002` | `DONE` | [02-protocolo-test-b-context-rot-250k.md](./02-protocolo-test-b-context-rot-250k.md) | Módulos de sesión larga en `ddi_fw/lab_v2/` (Slices B1–B4), suite `tests/lab_v2/test_b_*.py`, runner `scripts/lab_v2/run_test_b.py`, JSON crudo `reports/lab_v2_test_b_results.json` y reporte `reports/test_b_context_rot_250k.md`. |
 | **Fase 3 *(Camino 1)*** | `TASK-003` | `DONE` | [04-protocolo-camino1-pulido-test-a.md](./04-protocolo-camino1-pulido-test-a.md) | Pulido quirúrgico de Test A: clasificación `foreign_code` para código ajeno sin fences, payloads reales de `data/trilingual/` libres de vocabulario Python en `neg_piggybacking`, penalización sintáctica `+6.0` en `M4` (`ROC-AUC = 0.99976`, `FAR = 0.0%`). |
-| **Fase 4 *(Activa — Live API)*** | `TASK-004` | `PENDING` | [03-protocolo-test-b-etapa2-live-api.md](./03-protocolo-test-b-etapa2-live-api.md) | **Autorizada por Humano:** Duelo A/B vivo contra Google Gemini API (`GEMINI_API_KEY`, freno duro `MAX_SUCCESSFUL_CALLS = 20`, `10` sesiones de `~265k` crudo vs `<36k` compilado por DDI). |
+| **Fase 4 *(Live API v1)*** | `TASK-004` | `DONE` | [03-protocolo-test-b-etapa2-live-api.md](./03-protocolo-test-b-etapa2-live-api.md) | Primera corrida viva contra `gemini-3.8-flash` (`20/20` llamadas, `-88.96%` tokens reales facturados, `1.43x` speedup; destapó bug de evicción de `last_def` en `ContextCompiler`). |
+| **Fase 5 *(Activa — Camino 1 Live v2)*** | `TASK-005` | `PENDING` | [05-protocolo-camino1-pulido-test-c-live.md](./05-protocolo-camino1-pulido-test-c-live.md) | Pinning obligatorio de definiciones AST vigentes (`last_def`) + encabezados tipados en `ContextCompiler`, limpieza de contratos/spoilers en `S01..S10` y revancha viva limpia (`20` llamadas). |
 
 ---
 
@@ -144,4 +145,7 @@ Extender `ddi_fw/lab_v2/` siguiendo al pie de la letra `roadmap/duelo-v2-y-conte
 
 ### Prompt para lanzar Fase 4 (`TASK-004` — Prueba Viva A/B contra Gemini API):
 > `Usando fabrica-de-software y transparent-dev-protocol, consolidá primero un commit local limpio de TASK-001..003 (sin git push y sin tocar roadmap/future-notes/ ni .env) y luego ejecutá de principio a fin TASK-004 definida en TASKS.md siguiendo estrictamente roadmap/duelo-v2-y-contexto-250k/00-orquestacion-fabrica-desatendida.md y roadmap/duelo-v2-y-contexto-250k/03-protocolo-test-b-etapa2-live-api.md, respetando el freno duro de 20 llamadas exitosas / 3.5M tokens contra Gemini API y frenando en el Approval Gate sin hacer git push.`
+
+### Prompt para lanzar Fase 5 (`TASK-005` — Camino 1 Pinning AST Vivo + Revancha Limpia Gemini API):
+> `Usando fabrica-de-software y transparent-dev-protocol, consolidá primero un commit local limpio de TASK-004 (sin git push y sin tocar .env, logs/ ni roadmap/future-notes/) y luego ejecutá de principio a fin TASK-005 definida en TASKS.md siguiendo estrictamente roadmap/duelo-v2-y-contexto-250k/00-orquestacion-fabrica-desatendida.md y roadmap/duelo-v2-y-contexto-250k/05-protocolo-camino1-pulido-test-c-live.md, respetando el freno duro de 20 llamadas exitosas / 3.5M tokens y frenando en el Approval Gate sin hacer git push.`
 
