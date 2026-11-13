@@ -221,9 +221,20 @@ class M3_WhitenedSpectralSubspace:
         self.shrinkage_pos: float | None = None
         self.shrinkage_neg: float | None = None
         self.subspace_rank: int | None = None
+        self.w_hat_foreign: np.ndarray | None = None
+        self.foreign_median: float | None = None
+        self.foreign_iqr: float | None = None
+        self.shrinkage_foreign: float | None = None
 
-    def fit(self, positive: np.ndarray, negative: np.ndarray, calibration: CalGroup) -> None:
-        self._fit_geometry(positive, negative)
+    def fit(
+        self,
+        positive: np.ndarray,
+        negative: np.ndarray,
+        calibration: CalGroup,
+        *,
+        foreign_negative: np.ndarray | None = None,
+    ) -> None:
+        self._fit_geometry(positive, negative, foreign_negative=foreign_negative)
         self.q_hat = conformal_threshold(self._calibration_scores(calibration), alpha=0.05)
 
     def score_sample(self, chunks: list[TextChunk], chunk_vecs: np.ndarray) -> float:
@@ -240,7 +251,13 @@ class M3_WhitenedSpectralSubspace:
     def chunk_scores(self, rows: np.ndarray) -> np.ndarray:
         return self._eeb_scores(_as_matrix(rows, "rows"))
 
-    def _fit_geometry(self, positive: np.ndarray, negative: np.ndarray) -> None:
+    def _fit_geometry(
+        self,
+        positive: np.ndarray,
+        negative: np.ndarray,
+        *,
+        foreign_negative: np.ndarray | None = None,
+    ) -> None:
         x_pos = _as_matrix(positive, "positive", min_rows=2)
         x_neg = _as_matrix(negative, "negative", min_rows=2)
         if x_pos.shape[1] != x_neg.shape[1]:
@@ -269,6 +286,25 @@ class M3_WhitenedSpectralSubspace:
         self.dimension = int(x_pos.shape[1])
         self.shrinkage_pos = float(lam_pos)
         self.shrinkage_neg = float(lam_neg)
+        self.w_hat_foreign = None
+        self.foreign_median = None
+        self.foreign_iqr = None
+        self.shrinkage_foreign = None
+        if foreign_negative is None:
+            return
+        x_for = _as_matrix(foreign_negative, "foreign_negative", min_rows=2)
+        if x_for.shape[1] != x_pos.shape[1]:
+            raise ValueError("foreign_negative y positive tienen distinta dimension")
+        mu_for, cov_for, lam_for = ledoit_wolf_covariance(x_for)
+        sigma_w_for = 0.5 * cov_pos + 0.5 * cov_for
+        w_for_raw = np.linalg.solve(sigma_w_for, mu_pos - mu_for)
+        self.w_hat_foreign = w_for_raw / max(float(np.linalg.norm(w_for_raw)), 1e-12)
+        raw_for_pos = -(x_pos @ self.w_hat_foreign)
+        self.foreign_median = float(np.percentile(raw_for_pos, 95))
+        q75_for = float(np.percentile(raw_for_pos, 75))
+        q25_for = float(np.percentile(raw_for_pos, 25))
+        self.foreign_iqr = float(max(q75_for - q25_for, 1e-6))
+        self.shrinkage_foreign = float(lam_for)
 
     def _calibration_scores(self, calibration: CalGroup) -> np.ndarray:
         if not calibration:
@@ -291,11 +327,28 @@ class M3_WhitenedSpectralSubspace:
         )
         return np.column_stack((fisher, parallel, orthogonal))
 
-    def _eeb_scores(self, rows: np.ndarray) -> np.ndarray:
+    def _eeb_scores_prose(self, rows: np.ndarray) -> np.ndarray:
         if self.medians is None or self.iqrs is None:
             raise RuntimeError("M3 no estandarizo las componentes")
         standardized = (self._raw_components(rows) - self.medians) / self.iqrs
         return 0.50 * standardized[:, 0] + 0.20 * standardized[:, 1] + 0.30 * standardized[:, 2]
+
+    def _eeb_scores(self, rows: np.ndarray) -> np.ndarray:
+        if self.medians is None or self.iqrs is None:
+            raise RuntimeError("M3 no estandarizo las componentes")
+        standardized = (self._raw_components(rows) - self.medians) / self.iqrs
+        z_fisher = standardized[:, 0]
+        if (
+            self.w_hat_foreign is not None
+            and self.foreign_median is not None
+            and self.foreign_iqr is not None
+        ):
+            matrix = np.asarray(rows, dtype=np.float64)
+            z_fisher_foreign = (
+                -(matrix @ self.w_hat_foreign) - self.foreign_median
+            ) / self.foreign_iqr
+            z_fisher = np.maximum(z_fisher, z_fisher_foreign)
+        return 0.50 * z_fisher + 0.20 * standardized[:, 1] + 0.30 * standardized[:, 2]
 
 
 class M4_HybridAstSpectral(M3_WhitenedSpectralSubspace):
@@ -305,7 +358,15 @@ class M4_HybridAstSpectral(M3_WhitenedSpectralSubspace):
         rows = _aligned_rows(chunks, chunk_vecs, self.dimension)
         if rows.shape[0] == 0:
             return 0.0
-        base = self._eeb_scores(rows)
+        prose_base = self._eeb_scores_prose(rows)
+        polytope_base = self._eeb_scores(rows)
+        base = np.array(
+            [
+                prose_base[index] if chunk.is_valid_python_ast else polytope_base[index]
+                for index, chunk in enumerate(chunks)
+            ],
+            dtype=np.float64,
+        )
         adjusted = np.array(
             [self._adjust(chunk, float(score)) for chunk, score in zip(chunks, base, strict=True)],
             dtype=np.float64,

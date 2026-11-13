@@ -87,11 +87,22 @@ def test_fit_stacks_anchors_on_negative_side_and_calibrates_seventy_two() -> Non
     assert hardened.dimension == 16
     assert hardened.q_hat is not None
     assert prose.q_hat is not None
+    assert prose.w_hat_foreign is None
+    assert prose.foreign_median is None
+    assert prose.foreign_iqr is None
+    assert prose.shrinkage_foreign is None
+    assert hardened.w_hat_foreign is not None
+    assert hardened.foreign_median is not None
+    assert hardened.foreign_iqr is not None
+    assert hardened.shrinkage_foreign is not None
     assert np.array_equal(hardened.mu_pos, prose.mu_pos)
-    assert not np.array_equal(hardened.w_hat, prose.w_hat)
-    assert hardened.shrinkage_neg != prose.shrinkage_neg or not np.array_equal(
-        hardened.w_hat, prose.w_hat
-    )
+    assert np.array_equal(hardened.w_hat, prose.w_hat)
+    assert np.array_equal(hardened.u_k, prose.u_k)
+    assert np.array_equal(hardened.gamma, prose.gamma)
+    assert np.array_equal(hardened.medians, prose.medians)
+    assert np.array_equal(hardened.iqrs, prose.iqrs)
+    assert hardened.shrinkage_pos == prose.shrinkage_pos
+    assert hardened.shrinkage_neg == prose.shrinkage_neg
 
 
 def test_npz_roundtrip_is_bitwise_and_forbids_pickle(tmp_path: Path) -> None:
@@ -107,13 +118,21 @@ def test_npz_roundtrip_is_bitwise_and_forbids_pickle(tmp_path: Path) -> None:
     assert "import pickle" not in source
     assert "allow_pickle=True" not in source
     assert "allow_pickle=False" in source
+    foreign_fields = ("w_hat_foreign", "foreign_median", "foreign_iqr", "shrinkage_foreign")
     with np.load(path, allow_pickle=False) as handle:
         assert "model_id_utf8" in handle.files
+        for key in foreign_fields:
+            assert key in handle.files
         for key in handle.files:
             assert handle[key].dtype != object
     loaded, meta = load_v2_calibration(path)
     for field in _TENSOR_FIELDS:
         assert np.array_equal(getattr(model, field), getattr(loaded, field))
+    for field in foreign_fields:
+        assert np.array_equal(
+            np.asarray(getattr(model, field), dtype=np.float64),
+            np.asarray(getattr(loaded, field), dtype=np.float64),
+        )
     assert np.array_equal(
         np.asarray(model.q_hat, dtype=np.float64),
         np.asarray(loaded.q_hat, dtype=np.float64),
@@ -128,6 +147,22 @@ def test_npz_roundtrip_is_bitwise_and_forbids_pickle(tmp_path: Path) -> None:
     chunks = extract_chunks(sample.text)
     vectors = np.asarray(embedder.embed_batch([chunk.text for chunk in chunks]), dtype=np.float64)
     assert loaded.score_sample(chunks, vectors) == model.score_sample(chunks, vectors)
+    for field in foreign_fields:
+        setattr(model, field, None)
+    legacy_path = save_v2_calibration(
+        tmp_path / "v2_spectral_ast_prose.npz",
+        model,
+        model_id="fake-roundtrip-prose",
+        alpha=0.05,
+    )
+    with np.load(legacy_path, allow_pickle=False) as handle:
+        for key in foreign_fields:
+            assert key not in handle.files
+    legacy, legacy_meta = load_v2_calibration(legacy_path)
+    for field in foreign_fields:
+        assert getattr(legacy, field) is None
+    assert legacy_meta["model_id"] == "fake-roundtrip-prose"
+    assert legacy.score_sample(chunks, vectors) == model.score_sample(chunks, vectors)
 
 
 def test_cli_fake_writes_loadable_npz(tmp_path: Path) -> None:

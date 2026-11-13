@@ -52,7 +52,7 @@ Partición del prompt en cláusulas y veredicto fail-closed: una BREACH tumba el
 
 ## Motor v2
 
-Modo `v2_spectral_ast`. El veredicto lo da `M4_HybridAstSpectral` con umbral conformal y compuerta AST. Convive con las cajas de `v1_boxes`. El default del producto sigue siendo `v1_boxes`.
+Modo `v2_spectral_ast`. El veredicto lo da `M4_HybridAstSpectral` con umbral conformal y compuerta AST. La prosa y el código ajeno son dos hiperplanos de Fisher distintos. Convive con las cajas de `v1_boxes`. El default del producto sigue siendo `v1_boxes`.
 
 _Avoid_: coseno, centroide, reemplazo de `decide()`.
 

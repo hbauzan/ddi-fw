@@ -110,7 +110,8 @@ class SpectralAstFirewall:
         if misses:
             try:
                 rows = self._embed_misses([chunks[index].text for index in misses])
-                base = self._model._eeb_scores(rows)
+                prose_base = self._model._eeb_scores_prose(rows)
+                polytope_base = self._model._eeb_scores(rows)
             except Exception as exc:
                 return V2FirewallResult(
                     verdict="BREACH",
@@ -122,7 +123,11 @@ class SpectralAstFirewall:
                     reason=f"embedder_down:{exc.__class__.__name__}",
                 )
             for local, index in enumerate(misses):
-                score = float(self._model._adjust(chunks[index], float(base[local])))
+                chunk = chunks[index]
+                base_score = (
+                    prose_base[local] if chunk.is_valid_python_ast else polytope_base[local]
+                )
+                score = float(self._model._adjust(chunk, float(base_score)))
                 scores[index] = score
                 self._remember(keys[index], score)
         audits = tuple(

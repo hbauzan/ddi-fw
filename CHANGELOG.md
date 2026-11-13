@@ -3,9 +3,10 @@
 ## 0.5.0 — 2026-11-13
 
 - **Motor `v2_spectral_ast` junto a `v1_boxes`**: `SpectralAstFirewall` inspecciona `user`, `system`, `developer` y `tool`, retiene el egreso y cachea cada chunk por SHA-256. El default sigue siendo `engine_mode="v1_boxes"`. Sin `.npz` calibrado el modo v2 responde 403 `v2_firewall_uncalibrated`.
-- **Calibración sin pickle**: `ddi-calibrate-v2` entrena `M4_HybridAstSpectral` con `FOREIGN_TRAIN_ANCHORS` (36 snippets disjuntos del holdout) y persiste tensores numéricos. `load_v2_calibration` usa `np.load(..., allow_pickle=False)`.
+- **Calibración sin pickle**: `ddi-calibrate-v2` entrena `M4_HybridAstSpectral` con `FOREIGN_TRAIN_ANCHORS` (36 snippets disjuntos del holdout) como segundo hiperplano `w_hat_foreign`, sin apilarlos al negativo de prosa, y persiste tensores numéricos. `load_v2_calibration` usa `np.load(..., allow_pickle=False)`.
 - **Compilador de contexto en el proxy**: se activa con `context_compiler_enabled` o con `ddi_compile_context: true`. La respuesta 200 adjunta `ddi_context_governor`. La clave no viaja al upstream.
-- **Auditoría `BAAI/bge-m3`**: `reports/v050_graduation_audit.json`. `M4` mantiene `far_other_language = 0` con y sin anclas (`roc_auc` prosa `0.99975633528265107`, endurecido `0.99961013645224173`). `M3` baja `far_other_language` de `1` a `0.76666666666666672`. Roundtrip bitwise y caché reutilizada. El predicado estricto de mejora de `M4` es falso porque ambos FAR ya eran `0`.
+- **Polítopo de dos hiperplanos**: `w_hat` separa Python de prosa. `w_hat_foreign` separa Python de código ajeno con covarianza intra-clase balanceada y origen en el percentil 95 de los positivos. Un chunk con AST Python válido puntúa solo la cara de prosa; el resto toma el máximo de las dos caras. El `.npz` guarda `w_hat_foreign`, `foreign_median`, `foreign_iqr` y `shrinkage_foreign`.
+- **Auditoría `BAAI/bge-m3`**: `reports/v050_graduation_audit.json` con `graduation_ready` true. `M4` mantiene `far_other_language = 0.0`, `far_total = 0.0` y `frr_business_python = 0.1111111111111111` (`2/18`) en ambas variantes. `roc_auc` de `M4` es `0.9997563352826511` con prosa sola y `0.9999756335282651` con el segundo hiperplano. `M3` baja `far_other_language` de `1.0` a `0.9833333333333333` (`59/60`) y conserva el mismo FRR. Roundtrip bitwise y caché `2/2`. `wall_clock_speedup = 364.37707101857023`. La tabla markdown usa `format(x, '.17g')`; la fuente sin redondear es el JSON.
 
 ## 0.4.0 — 2026-09-25
 

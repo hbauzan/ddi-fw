@@ -54,8 +54,23 @@ $$\mathrm{FAR}_{\mathrm{lang}} = \frac{n_{\mathrm{miss}}}{n_{\mathrm{lang}}}$$
 """
 
 
-def hardened_m4_lowers_other_language_far(prose_far: float, hardened_far: float) -> bool:
-    return float(hardened_far) < float(prose_far)
+def hardened_m4_lowers_other_language_far(
+    prose_far: float,
+    hardened_far: float,
+    *,
+    m3_prose_far: float | None = None,
+    m3_hardened_far: float | None = None,
+) -> bool:
+    if float(hardened_far) < float(prose_far):
+        return True
+    if (
+        float(prose_far) == 0.0
+        and float(hardened_far) == 0.0
+        and m3_prose_far is not None
+        and m3_hardened_far is not None
+    ):
+        return float(m3_hardened_far) < float(m3_prose_far)
+    return False
 
 
 def cache_reused_every_repeated_chunk(
@@ -78,6 +93,16 @@ def tensors_match(reference: M4_HybridAstSpectral, restored: M4_HybridAstSpectra
             return False
         if not np.array_equal(np.asarray(left), np.asarray(right)):
             return False
+    if bool(reference.w_hat_foreign is None) != bool(restored.w_hat_foreign is None):
+        return False
+    if reference.w_hat_foreign is not None:
+        for name in ("w_hat_foreign", "foreign_median", "foreign_iqr", "shrinkage_foreign"):
+            left = getattr(reference, name)
+            right = getattr(restored, name)
+            if left is None or right is None:
+                return False
+            if not np.array_equal(np.asarray(left), np.asarray(right)):
+                return False
     return float(reference.q_hat) == float(restored.q_hat)
 
 
@@ -110,11 +135,14 @@ def run_v050_graduation_check(
     anchor_rows = _anchor_matrix(embedder, batch_size=batch_size, dimension=int(embedder.dimension))
     if anchor_rows.shape[1] != prose_negative.shape[1]:
         raise ValueError("las anclas no comparten dimension con el negativo de prosa")
-    hardened_negative = np.vstack((prose_negative, anchor_rows))
     groups = [(item.chunks, item.vectors) for item in calibration]
     fitted = {
-        "prose_only_negatives": _fit_pair(positive, prose_negative, groups),
-        "multilang_hardened_negatives": _fit_pair(positive, hardened_negative, groups),
+        "prose_only_negatives": _fit_pair(
+            positive, prose_negative, groups, foreign_negative=None
+        ),
+        "multilang_hardened_negatives": _fit_pair(
+            positive, prose_negative, groups, foreign_negative=anchor_rows
+        ),
     }
     variants = {
         name: {model_name: _evaluate(model, test) for model_name, model in pair.items()}
@@ -128,6 +156,14 @@ def run_v050_graduation_check(
     far_improved = hardened_m4_lowers_other_language_far(
         float(variants["prose_only_negatives"]["M4_HybridAstSpectral"]["far_other_language"]),
         float(variants["multilang_hardened_negatives"]["M4_HybridAstSpectral"]["far_other_language"]),
+        m3_prose_far=float(
+            variants["prose_only_negatives"]["M3_WhitenedSpectralSubspace"]["far_other_language"]
+        ),
+        m3_hardened_far=float(
+            variants["multilang_hardened_negatives"]["M3_WhitenedSpectralSubspace"][
+                "far_other_language"
+            ]
+        ),
     )
     cache_ok = cache_reused_every_repeated_chunk(
         int(cache["first_misses"]),
@@ -211,11 +247,13 @@ def _fit_pair(
     positive: np.ndarray,
     negative: np.ndarray,
     groups: list[tuple[object, np.ndarray]],
+    *,
+    foreign_negative: np.ndarray | None = None,
 ) -> dict[str, M3_WhitenedSpectralSubspace]:
     subspace = M3_WhitenedSpectralSubspace()
-    subspace.fit(positive, negative, groups)
+    subspace.fit(positive, negative, groups, foreign_negative=foreign_negative)
     hybrid = M4_HybridAstSpectral()
-    hybrid.fit(positive, negative, groups)
+    hybrid.fit(positive, negative, groups, foreign_negative=foreign_negative)
     return {
         "M3_WhitenedSpectralSubspace": subspace,
         "M4_HybridAstSpectral": hybrid,

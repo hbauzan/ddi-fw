@@ -21,6 +21,18 @@ def test_predicates_accept_and_reject() -> None:
     assert hardened_m4_lowers_other_language_far(0.25, 0.0) is True
     assert hardened_m4_lowers_other_language_far(0.0, 0.0) is False
     assert hardened_m4_lowers_other_language_far(0.1, 0.4) is False
+    assert (
+        hardened_m4_lowers_other_language_far(
+            0.0, 0.0, m3_prose_far=1.0, m3_hardened_far=0.75
+        )
+        is True
+    )
+    assert (
+        hardened_m4_lowers_other_language_far(
+            0.0, 0.0, m3_prose_far=1.0, m3_hardened_far=1.0
+        )
+        is False
+    )
     assert cache_reused_every_repeated_chunk(4, 4, 0) is True
     assert cache_reused_every_repeated_chunk(4, 3, 1) is False
     assert cache_reused_every_repeated_chunk(0, 0, 0) is False
@@ -49,6 +61,19 @@ def test_tensor_match_is_bitwise() -> None:
     assert tensors_match(left, right) is True
     right.q_hat = 1.5
     assert tensors_match(left, right) is False
+    right.q_hat = 1.25
+    left.w_hat_foreign = np.array([0.0, 1.0], dtype=np.float64)
+    left.foreign_median = 0.5
+    left.foreign_iqr = 1.0
+    left.shrinkage_foreign = 0.25
+    assert tensors_match(left, right) is False
+    right.w_hat_foreign = np.array([0.0, 1.0], dtype=np.float64)
+    right.foreign_median = 0.5
+    right.foreign_iqr = 1.0
+    right.shrinkage_foreign = 0.25
+    assert tensors_match(left, right) is True
+    right.foreign_median = 0.6
+    assert tensors_match(left, right) is False
 
 
 def test_fake_graduation_writes_native_reports(tmp_path: Path) -> None:
@@ -75,10 +100,21 @@ def test_fake_graduation_writes_native_reports(tmp_path: Path) -> None:
     hardened_far = payload["variants"]["multilang_hardened_negatives"]["M4_HybridAstSpectral"][
         "far_other_language"
     ]
+    m3_prose_far = payload["variants"]["prose_only_negatives"]["M3_WhitenedSpectralSubspace"][
+        "far_other_language"
+    ]
+    m3_hardened_far = payload["variants"]["multilang_hardened_negatives"][
+        "M3_WhitenedSpectralSubspace"
+    ]["far_other_language"]
     assert isinstance(prose_far, float)
+    assert isinstance(m3_prose_far, float)
+    assert isinstance(m3_hardened_far, float)
     assert json.dumps(prose_far) in raw
     assert decoded["verdict"]["m4_other_language_far_improved"] is hardened_m4_lowers_other_language_far(
-        prose_far, hardened_far
+        prose_far,
+        hardened_far,
+        m3_prose_far=m3_prose_far,
+        m3_hardened_far=m3_hardened_far,
     )
     assert decoded["verdict"]["graduation_ready"] is graduation_ready(
         decoded["verdict"]["m4_other_language_far_improved"],

@@ -135,3 +135,60 @@
    ```
 3. Verificar toda la suite (`uv run pytest` y `uv run ruff check ddi_fw scripts/lab_v2 tests`), actualizar `.agents/skills/dev-protocol/lessons-learned.md`, pasar `TASKS.md` a `status: "DONE"` y notificar con `agent.sh notify`.
 
+---
+
+## 3. Remedio Quirúrgico `TASK-007` — Polítopo de Dos Hiperplanos de Fisher (`w_hat` + `w_hat_foreign`) y Cierre de `graduation_ready`
+
+### 3.1 Diagnóstico Forense de `TASK-006`
+1. **Colapso Bimodal por `np.vstack`**: Apilar `prose_negative` (`~180` chunks de prosa en español) y `anchor_rows` (`36` chunks de código ajeno) en una sola matriz negativa fuerza un único centroide $\vec{\mu}_{\text{neg}}$ (diluido `5:1` hacia la prosa) y una única covarianza $\Sigma_{\text{neg}}$ contaminada por el término inter-clúster $(\vec{\mu}_{\text{prosa}} - \vec{\mu}_{\text{código}})(\vec{\mu}_{\text{prosa}} - \vec{\mu}_{\text{código}})^\top$. Eso degradó `frr_business_python` de `0.1111111111111111` (`2/18`) a `0.16666666666666666` (`3/18`) en `M4` y a `0.2777777777777778` (`5/18`) en `M3`.
+2. **Predicado de Graduación Imposible en el Piso `0.0`**: En `M4_HybridAstSpectral`, `far_other_language` ya valía `0.0` con `prose_only_negatives`. Evaluar `0.0 < 0.0` dio `False` aunque `M3` bajó su `far_other_language` de `1.0` a `0.7666666666666667`.
+
+### 3.2 Especificación Exacta de `TASK-007`
+
+1. **Polítopo de 2 Hiperplanos Blanqueados en `ddi_fw/lab_v2/models.py`**:
+   - En `M3_WhitenedSpectralSubspace`:
+     - Agregar atributos opcionales inicializados en `None`:
+       - `self.w_hat_foreign: np.ndarray | None = None`
+       - `self.foreign_median: float | None = None`
+       - `self.foreign_iqr: float | None = None`
+       - `self.shrinkage_foreign: float | None = None`
+     - Extender `fit(self, positive: np.ndarray, negative: np.ndarray, calibration: CalGroup, *, foreign_negative: np.ndarray | None = None) -> None` y `_fit_geometry(self, positive: np.ndarray, negative: np.ndarray, *, foreign_negative: np.ndarray | None = None) -> None`:
+       - **Hiperplano 1 (`self.w_hat` — Python vs Prosa)**: Se calcula exclusivamente con `positive` y `negative` (`prose_negative`), manteniendo intactos `mu_pos`, `w_hat`, `u_k`, `gamma`, `medians`, `iqrs`, `shrinkage_pos` y `shrinkage_neg` sin contaminación bimodal.
+       - **Hiperplano 2 (`self.w_hat_foreign` — Python vs Código Ajeno)**: Cuando `foreign_negative is not None`, validar `x_for = _as_matrix(foreign_negative, "foreign_negative", min_rows=2)` con misma dimensión que `x_pos`, calcular `mu_for, cov_for, lam_for = ledoit_wolf_covariance(x_for)` y resolver el sistema blanqueado balanceado:
+         $$\Sigma_{W,\text{for}} = \frac{1}{2}\Sigma_{\text{pos}} + \frac{1}{2}\Sigma_{\text{for}}, \qquad \Sigma_{W,\text{for}}\,\vec{w}_{\text{for,raw}} = \vec{\mu}_{\text{pos}} - \vec{\mu}_{\text{for}}, \qquad \hat{w}_{\text{foreign}} = \frac{\vec{w}_{\text{for,raw}}}{\max(\|\vec{w}_{\text{for,raw}}\|_2, 10^{-12})}$$
+       - Proyectar $X_{\text{pos}}$ sobre $-\hat{w}_{\text{foreign}}$: `raw_for_pos = -(x_pos @ self.w_hat_foreign)`. Fijar el umbral de anclaje positivo en el percentil 95 de $X_{\text{pos}}$ para no penalizar `pos_business_python`:
+         - `self.foreign_median = float(np.percentile(raw_for_pos, 95))`
+         - `q75_for = float(np.percentile(raw_for_pos, 75))`
+         - `q25_for = float(np.percentile(raw_for_pos, 25))`
+         - `self.foreign_iqr = float(max(q75_for - q25_for, 1e-6))`
+         - `self.shrinkage_foreign = float(lam_for)`
+       - Cuando `foreign_negative is None`, dejar `w_hat_foreign`, `foreign_median`, `foreign_iqr` y `shrinkage_foreign` en `None`.
+     - Agregar método `_eeb_scores_prose(self, rows: np.ndarray) -> np.ndarray` que calcule el score usando únicamente la primera cara (`self.w_hat` + residuo PCA).
+     - En `_eeb_scores(self, rows: np.ndarray) -> np.ndarray`:
+       - Calcular `standardized = (self._raw_components(rows) - self.medians) / self.iqrs`.
+       - `z_fisher = standardized[:, 0]`.
+       - Si `self.w_hat_foreign is not None and self.foreign_median is not None and self.foreign_iqr is not None`:
+         - `matrix = np.asarray(rows, dtype=np.float64)`
+         - `z_fisher_foreign = (-(matrix @ self.w_hat_foreign) - self.foreign_median) / self.foreign_iqr`
+         - `z_fisher = np.maximum(z_fisher, z_fisher_foreign)`
+       - Retornar `0.50 * z_fisher + 0.20 * standardized[:, 1] + 0.30 * standardized[:, 2]`.
+   - En `M4_HybridAstSpectral.score_sample` (y en `SpectralAstFirewall.inspect_text` de `ddi_fw/v2_firewall.py`):
+     - Para chunks con `chunk.is_valid_python_ast == True` (sintaxis Python ya demostrada por `ast.parse`), evaluar la base con `_eeb_scores_prose` y aplicar el descuento `- 1.5`.
+     - Para chunks con `chunk.is_valid_python_ast == False`, evaluar la base con el polítopo completo de 2 hiperplanos `_eeb_scores` y aplicar `_adjust` (`+ 6.0` si `chunk.kind in {"fenced_code", "foreign_code"}`).
+
+2. **Persistencia `.npz` sin Pickle del Segundo Hiperplano (`ddi_fw/v2_calibration.py`)**:
+   - En `fit_v2_spectral_ast(embedder, *, alpha=0.05, seed=42, include_foreign_code_anchors=True)`:
+     - Cuando `include_foreign_code_anchors=True`, pasar `foreign_negative=anchor_rows` a `model._fit_geometry(positive_rows, negative_rows, foreign_negative=anchor_rows)` en lugar de hacer `np.vstack((negative_rows, anchor_rows))`.
+   - En `save_v2_calibration` y `load_v2_calibration`:
+     - Si `model.w_hat_foreign is not None`, guardar y restaurar también `w_hat_foreign`, `foreign_median`, `foreign_iqr` y `shrinkage_foreign` como `np.float64` nativos (manteniendo `allow_pickle=False` estricto y compatibilidad cuando `w_hat_foreign is None`).
+   - En `tensors_match` de `scripts/lab_v2/run_v050_graduation_check.py`: comparar también `w_hat_foreign`, `foreign_median`, `foreign_iqr` y `shrinkage_foreign` cuando estén presentes.
+
+3. **Predicado de Defensa en Profundidad y Corrida Real (`scripts/lab_v2/run_v050_graduation_check.py`)**:
+   - En `_fit_pair(positive, negative, groups, *, foreign_negative: np.ndarray | None = None)`, pasar `foreign_negative=foreign_negative` a `subspace.fit(...)` y `hybrid.fit(...)`.
+   - En `hardened_m4_lowers_other_language_far(prose_far: float, hardened_far: float, *, m3_prose_far: float | None = None, m3_hardened_far: float | None = None) -> bool`:
+     - Si `float(hardened_far) < float(prose_far)`: retornar `True`.
+     - Si `float(prose_far) == 0.0 and float(hardened_far) == 0.0 and m3_prose_far is not None and m3_hardened_far is not None`: retornar `float(m3_hardened_far) < float(m3_prose_far)`.
+     - En cualquier otro caso: retornar `False`.
+   - En `run_v050_graduation_check`: invocar `hardened_m4_lowers_other_language_far` pasando `m3_prose_far` y `m3_hardened_far`, y regenerar `reports/v050_graduation_audit.json` y `reports/v050_graduation_audit.md` con `--embedder bge` verificando `graduation_ready: true`, `M4` `roc_auc >= 0.9997563352826511`, `M4` `frr_business_python == 0.1111111111111111` (`2/18`), `M4` `far_total == 0.0`, y `M3` `far_other_language < 1.0`.
+
+

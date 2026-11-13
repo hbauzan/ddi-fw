@@ -101,6 +101,67 @@ def _firewall(
     return firewall, embedder, benign_chunks[0].text, attack_chunks[0].text
 
 
+def test_ast_gate_keeps_prose_plane_and_firewall_matches_sample() -> None:
+    rng = np.random.default_rng(11)
+    dimension = 8
+    positive = rng.normal(scale=0.05, size=(30, dimension))
+    positive[:, 0] += 3.0
+    negative = rng.normal(scale=0.05, size=(30, dimension))
+    negative[:, 1] += 3.0
+    foreign = rng.normal(scale=0.05, size=(20, dimension))
+    foreign[:, 2] += 4.0
+    groups: list[tuple[list[TextChunk], np.ndarray]] = []
+    for index in range(12):
+        chunk = TextChunk(
+            text=f"Calibracion {index} del muelle con texto plano suficiente.",
+            kind="prose_window",
+            is_valid_python_ast=False,
+            start_line=1,
+            end_line=1,
+        )
+        groups.append(([chunk], positive[index : index + 1].copy()))
+    model = M4_HybridAstSpectral()
+    model.fit(positive, negative, groups, foreign_negative=foreign)
+    prose_rows = model._eeb_scores_prose(foreign)
+    poly_rows = model._eeb_scores(foreign)
+    gap = np.abs(poly_rows - prose_rows)
+    chosen = int(np.argmax(gap))
+    assert float(gap[chosen]) > 0.0
+    probe = np.asarray(foreign[chosen], dtype=np.float64).reshape(1, -1)
+    python_text = "def v050_pallet(units):\n    return units + 1\n"
+    foreign_text = "function v050AnchorOnly() { return units + 1; }\n"
+    python_chunks = extract_chunks(python_text)
+    foreign_chunks = extract_chunks(foreign_text)
+    assert len(python_chunks) == 1
+    assert python_chunks[0].is_valid_python_ast is True
+    assert len(foreign_chunks) == 1
+    assert foreign_chunks[0].is_valid_python_ast is False
+    assert foreign_chunks[0].kind == "foreign_code"
+    prose_score = float(model._adjust(python_chunks[0], float(model._eeb_scores_prose(probe)[0])))
+    poly_score = float(model._adjust(python_chunks[0], float(model._eeb_scores(probe)[0])))
+    assert prose_score != poly_score
+    assert model.score_sample(python_chunks, probe) == prose_score
+    foreign_poly = float(
+        model._adjust(foreign_chunks[0], float(model._eeb_scores(probe)[0]))
+    )
+    assert model.score_sample(foreign_chunks, probe) == foreign_poly
+    assert foreign_poly != prose_score
+    table = {
+        python_chunks[0].text: probe.reshape(-1).astype(np.float32),
+        foreign_chunks[0].text: probe.reshape(-1).astype(np.float32),
+    }
+    embedder = _TableEmbedder(table, dimension=dimension)
+    firewall = SpectralAstFirewall(model, embedder)
+    python_rows = np.asarray(embedder.embed_batch([python_chunks[0].text]), dtype=np.float64)
+    foreign_rows = np.asarray(embedder.embed_batch([foreign_chunks[0].text]), dtype=np.float64)
+    python_result = firewall.inspect_text(python_text)
+    foreign_result = firewall.inspect_text(foreign_text)
+    assert python_result.chunks[0].score == model.score_sample(python_chunks, python_rows)
+    assert foreign_result.chunks[0].score == model.score_sample(foreign_chunks, foreign_rows)
+    assert python_result.max_score == python_result.chunks[0].score
+    assert foreign_result.max_score == foreign_result.chunks[0].score
+
+
 def test_cache_key_binds_kind_ast_flag_and_text() -> None:
     prose = TextChunk("mismo", "prose_window", False, 1, 1)
     foreign = TextChunk("mismo", "foreign_code", False, 1, 1)

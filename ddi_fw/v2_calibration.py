@@ -490,14 +490,14 @@ def fit_v2_spectral_ast(
         raise ValueError(f"calibracion positiva esperada=72, recibida={len(calibration)}")
     positive_rows = _matrix_for_samples(positives, embedder, dimension)
     negative_rows = _matrix_for_samples(negatives, embedder, dimension)
+    foreign_negative = None
     if include_foreign_code_anchors:
-        anchor_rows = _matrix_for_anchors(embedder, dimension)
-        negative_rows = np.vstack((negative_rows, anchor_rows))
+        foreign_negative = _matrix_for_anchors(embedder, dimension)
     groups = _groups_for_samples(calibration, embedder, dimension)
     if len(groups) != 72:
         raise ValueError(f"grupos de calibracion={len(groups)} != 72")
     model = M4_HybridAstSpectral()
-    model._fit_geometry(positive_rows, negative_rows)
+    model._fit_geometry(positive_rows, negative_rows, foreign_negative=foreign_negative)
     scores = np.asarray(
         [model.score_sample(chunks, vectors) for chunks, vectors in groups],
         dtype=np.float64,
@@ -544,6 +544,17 @@ def save_v2_calibration(
             copy=True,
         ),
     }
+    if model.w_hat_foreign is not None:
+        if (
+            model.foreign_median is None
+            or model.foreign_iqr is None
+            or model.shrinkage_foreign is None
+        ):
+            raise ValueError("w_hat_foreign sin anclaje foreign_median/foreign_iqr/shrinkage_foreign")
+        payload["w_hat_foreign"] = np.asarray(model.w_hat_foreign, dtype=np.float64)
+        payload["foreign_median"] = np.asarray(model.foreign_median, dtype=np.float64)
+        payload["foreign_iqr"] = np.asarray(model.foreign_iqr, dtype=np.float64)
+        payload["shrinkage_foreign"] = np.asarray(model.shrinkage_foreign, dtype=np.float64)
     for key, value in payload.items():
         if value.dtype == object:
             raise ValueError(f"{key} no puede ser dtype=object")
@@ -575,6 +586,24 @@ def load_v2_calibration(path: Path) -> tuple[M4_HybridAstSpectral, dict[str, obj
     model.shrinkage_neg = float(np.asarray(stored["shrinkage_neg"], dtype=np.float64).reshape(-1)[0])
     model.dimension = int(np.asarray(stored["dimension"], dtype=np.int64).reshape(-1)[0])
     model.subspace_rank = int(np.asarray(stored["subspace_rank"], dtype=np.int64).reshape(-1)[0])
+    foreign_keys = ("w_hat_foreign", "foreign_median", "foreign_iqr", "shrinkage_foreign")
+    present = [key for key in foreign_keys if key in stored]
+    if present and len(present) != len(foreign_keys):
+        raise ValueError(f"npz con hiperplano ajeno incompleto: {present}")
+    if len(present) == len(foreign_keys):
+        model.w_hat_foreign = np.asarray(stored["w_hat_foreign"], dtype=np.float64)
+        model.foreign_median = float(
+            np.asarray(stored["foreign_median"], dtype=np.float64).reshape(-1)[0]
+        )
+        model.foreign_iqr = float(np.asarray(stored["foreign_iqr"], dtype=np.float64).reshape(-1)[0])
+        model.shrinkage_foreign = float(
+            np.asarray(stored["shrinkage_foreign"], dtype=np.float64).reshape(-1)[0]
+        )
+    else:
+        model.w_hat_foreign = None
+        model.foreign_median = None
+        model.foreign_iqr = None
+        model.shrinkage_foreign = None
     model_id = bytes(np.asarray(stored["model_id_utf8"], dtype=np.uint8)).decode("utf-8")
     alpha = float(np.asarray(stored["alpha"], dtype=np.float64).reshape(-1)[0])
     meta: dict[str, object] = {

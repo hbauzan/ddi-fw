@@ -24,9 +24,9 @@
         "far_piggybacking": 0.3333333333333333,
         "frr_total": 0.018518518518518517,
         "far_total": 0.23684210526315788,
-        "latency_ms_p50": 0.017687503714114428,
-        "latency_ms_p95": 0.03216600453015417,
-        "latency_ms_p99": 0.03738532454008236
+        "latency_ms_p50": 0.017750004190020263,
+        "latency_ms_p95": 0.03073354891967028,
+        "latency_ms_p99": 0.034902172919828445
       },
       "M4_HybridAstSpectral": {
         "roc_auc": 0.9997563352826511,
@@ -41,66 +41,66 @@
         "far_piggybacking": 0.0,
         "frr_total": 0.018518518518518517,
         "far_total": 0.0,
-        "latency_ms_p50": 0.01814550341805443,
-        "latency_ms_p95": 0.03204164167982526,
-        "latency_ms_p99": 0.03590345993870869
+        "latency_ms_p50": 0.03279200609540567,
+        "latency_ms_p95": 0.06263740287977268,
+        "latency_ms_p99": 0.07159345521358773
       }
     },
     "multilang_hardened_negatives": {
       "M3_WhitenedSpectralSubspace": {
-        "roc_auc": 0.9525828460038986,
-        "pr_auc": 0.9870809572965198,
-        "far_at_frr_01": 0.24210526315789474,
-        "far_at_frr_05": 0.1736842105263158,
+        "roc_auc": 0.9500487329434698,
+        "pr_auc": 0.9861154553240316,
+        "far_at_frr_01": 0.23684210526315788,
+        "far_at_frr_05": 0.2131578947368421,
         "frr_stdlib_python": 0.0,
-        "frr_business_python": 0.2777777777777778,
+        "frr_business_python": 0.1111111111111111,
         "far_seen_domain": 0.0,
         "far_unseen_domain_ood": 0.0,
-        "far_other_language": 0.7666666666666667,
-        "far_piggybacking": 0.23333333333333334,
-        "frr_total": 0.046296296296296294,
-        "far_total": 0.1763157894736842,
-        "latency_ms_p50": 0.016584002878516912,
-        "latency_ms_p95": 0.029941555840196084,
-        "latency_ms_p99": 0.03230278554838151
+        "far_other_language": 0.9833333333333333,
+        "far_piggybacking": 0.32222222222222224,
+        "frr_total": 0.018518518518518517,
+        "far_total": 0.23157894736842105,
+        "latency_ms_p50": 0.020332998246885836,
+        "latency_ms_p95": 0.03369189726072363,
+        "latency_ms_p99": 0.03745274982065893
       },
       "M4_HybridAstSpectral": {
-        "roc_auc": 0.9996101364522417,
-        "pr_auc": 0.9998880961866584,
-        "far_at_frr_01": 0.005263157894736842,
+        "roc_auc": 0.9999756335282651,
+        "pr_auc": 0.999993092968642,
+        "far_at_frr_01": 0.0,
         "far_at_frr_05": 0.0,
         "frr_stdlib_python": 0.0,
-        "frr_business_python": 0.16666666666666666,
+        "frr_business_python": 0.1111111111111111,
         "far_seen_domain": 0.0,
         "far_unseen_domain_ood": 0.0,
         "far_other_language": 0.0,
         "far_piggybacking": 0.0,
-        "frr_total": 0.027777777777777776,
+        "frr_total": 0.018518518518518517,
         "far_total": 0.0,
-        "latency_ms_p50": 0.017707992810755968,
-        "latency_ms_p95": 0.03162324501317926,
-        "latency_ms_p99": 0.03410012475796975
+        "latency_ms_p50": 0.036375000490807,
+        "latency_ms_p95": 0.0635415548458695,
+        "latency_ms_p99": 0.06853620405308902
       }
     }
   },
   "checks": {
-    "m4_other_language_far_improved": false,
+    "m4_other_language_far_improved": true,
     "npz_roundtrip_bitwise": true,
     "cache_reused": true,
     "cache": {
       "first_misses": 2,
       "second_hits": 2,
       "second_misses": 0,
-      "elapsed_first_s": 0.058432624995475635,
-      "elapsed_second_s": 0.0001552079920656979,
-      "wall_clock_speedup": 376.4794854812742
+      "elapsed_first_s": 0.05895329199847765,
+      "elapsed_second_s": 0.00016179199155885726,
+      "wall_clock_speedup": 364.37707101857023
     }
   },
   "verdict": {
-    "m4_other_language_far_improved": false,
+    "m4_other_language_far_improved": true,
     "npz_roundtrip_bitwise": true,
     "cache_reused": true,
-    "graduation_ready": false
+    "graduation_ready": true
   },
   "hardware": {
     "dispositivo": "Apple M4",
@@ -110,6 +110,6 @@
     "version_python": "3.14.3",
     "version_pytorch": "2.14.0",
     "version_numpy": "2.5.3",
-    "timestamp_iso": "2026-11-13T16:53:14.922562-03:00"
+    "timestamp_iso": "2026-11-13T17:49:24.045634-03:00"
   }
 }
