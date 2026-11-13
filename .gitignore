@@ -28,3 +28,11 @@ ddi_fw/out/
 # Rompepepe runs and vaults
 tools/rompepepe/vault/
 
+# Telemetría local de incidentes, estado efímero de fábrica y bóveda de arquitectura (no van a git)
+logs/
+TASKS.md
+roadmap/future-notes/02-boveda-*
+roadmap/handsoff*
+
+
+

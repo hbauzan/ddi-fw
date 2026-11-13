@@ -79,7 +79,7 @@ Invocada así, el agente corre el **ciclo estándar** end-to-end por su cuenta, 
 3. **Branch**: creá una rama `<type>/<short-name>` desde la base antes de tocar código.
 4. **Implementar**: vertical slices, TDD donde aplique ([code-design.md](./code-design.md)); para bugs, el loop de 6 fases ([debugging.md](./debugging.md)).
 5. **Auto-verificar**: corré tests / lint / el servicio localmente y confirmá que realmente funciona. Dejalo en verde antes de involucrar al usuario.
-6. **Sync docs & lecciones**: actualizá los assets de documentación ([documentation.md](./documentation.md)) y **registrá** cualquier nueva invariante técnica en [lessons-learned.md](./lessons-learned.md).
+6. **Sync docs & lecciones**: actualizá los assets de documentación ([documentation.md](./documentation.md)), **registrá** cualquier nueva invariante técnica en [lessons-learned.md](./lessons-learned.md) y, si en la sesión hubo regresión de firmas, bucle de parches o corrección humana, agregá 1 línea JSON en `logs/incident_markers.jsonl` ([debugging.md](./debugging.md) Phase 6 — nunca vuelques transcripciones completas).
 7. **Hand off — APPROVAL GATE**: reportá qué cambió y cómo se verificó, decile al usuario exactamente cómo probarlo, y **ESPERÁ**. No hagas push ni merge todavía.
 8. **Con el "OK" explícito del usuario**: corré la entrega git completa según [git-workflow.md](./git-workflow.md) §3.
 9. **Pará y preguntá si se complica**: si algo del paso 8 no es trivial (conflicto de merge, hook/CI rojo, rama divergida o protegida, scope ambiguo), **DETENTE y preguntá** ([git-workflow.md](./git-workflow.md) §3.3).

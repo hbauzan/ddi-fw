@@ -1,0 +1,97 @@
+{
+  "task_id": "TASK-001",
+  "embedder": "BAAI/bge-m3",
+  "seed": 42,
+  "counts": {
+    "train": 300,
+    "cal": 72,
+    "test": 488,
+    "chunks": 1589
+  },
+  "hardware": {
+    "dispositivo": "Apple M4",
+    "target_pytorch": "mps:0",
+    "memoria_ram": "16 GB unificada",
+    "sistema_operativo": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+    "version_python": "3.14.3",
+    "version_pytorch": "2.14.0",
+    "version_numpy": "2.5.3",
+    "timestamp_iso": "2026-11-09T19:32:57.955216-03:00"
+  },
+  "models": {
+    "M1_DDI_v040": {
+      "roc_auc": 0.7973196881091618,
+      "pr_auc": 0.9415141833159086,
+      "far_at_frr_01": 0.6973684210526315,
+      "far_at_frr_05": 0.49473684210526314,
+      "frr_stdlib_python": 0.022222222222222223,
+      "frr_business_python": 0.3333333333333333,
+      "far_seen_domain": 0.125,
+      "far_unseen_domain_ood": 0.4066666666666667,
+      "far_other_language": 1.0,
+      "far_piggybacking": 0.45555555555555555,
+      "frr_total": 0.07407407407407407,
+      "far_total": 0.45263157894736844,
+      "latency_ms_p50": 0.5621250020340085,
+      "latency_ms_p95": 2.398350551811736,
+      "latency_ms_p99": 3.7943411305604946
+    },
+    "M2_Cosine": {
+      "roc_auc": 0.8952363547758284,
+      "pr_auc": 0.9695234465327623,
+      "far_at_frr_01": 0.4868421052631579,
+      "far_at_frr_05": 0.25526315789473686,
+      "frr_stdlib_python": 0.0,
+      "frr_business_python": 0.2777777777777778,
+      "far_seen_domain": 0.0,
+      "far_unseen_domain_ood": 0.06,
+      "far_other_language": 1.0,
+      "far_piggybacking": 0.3333333333333333,
+      "frr_total": 0.046296296296296294,
+      "far_total": 0.26052631578947366,
+      "latency_ms_p50": 0.010583004041109234,
+      "latency_ms_p95": 0.03884595353156328,
+      "latency_ms_p99": 0.06604659065487795
+    },
+    "M3_EEB_Pure": {
+      "roc_auc": 0.8945297270955166,
+      "pr_auc": 0.9725141546867344,
+      "far_at_frr_01": 0.23684210526315788,
+      "far_at_frr_05": 0.23421052631578948,
+      "frr_stdlib_python": 0.0,
+      "frr_business_python": 0.1111111111111111,
+      "far_seen_domain": 0.0,
+      "far_unseen_domain_ood": 0.0,
+      "far_other_language": 1.0,
+      "far_piggybacking": 0.3333333333333333,
+      "frr_total": 0.018518518518518517,
+      "far_total": 0.23684210526315788,
+      "latency_ms_p50": 0.017207996279466897,
+      "latency_ms_p95": 0.030651650376967154,
+      "latency_ms_p99": 0.03631903702626005
+    },
+    "M4_Hybrid_AST_EEB": {
+      "roc_auc": 0.9997563352826511,
+      "pr_auc": 0.9999304696610019,
+      "far_at_frr_01": 0.005263157894736842,
+      "far_at_frr_05": 0.0,
+      "frr_stdlib_python": 0.0,
+      "frr_business_python": 0.1111111111111111,
+      "far_seen_domain": 0.0,
+      "far_unseen_domain_ood": 0.0,
+      "far_other_language": 0.0,
+      "far_piggybacking": 0.0,
+      "frr_total": 0.018518518518518517,
+      "far_total": 0.0,
+      "latency_ms_p50": 0.01808399974834174,
+      "latency_ms_p95": 0.03224550164304673,
+      "latency_ms_p99": 0.035792170529020936
+    }
+  },
+  "verdict": {
+    "overall_winner": "M4_Hybrid_AST_EEB",
+    "pure_embedding_winner": "M2_Cosine",
+    "m3_beats_cosine_empirically": false,
+    "m1_ddi_v040_viable": false
+  }
+}

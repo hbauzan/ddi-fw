@@ -1,0 +1,263 @@
+{
+  "task_id": "TASK-005",
+  "mode": "live",
+  "model": "gemini-3.8-flash",
+  "successful_api_calls": 20,
+  "http_attempts": 20,
+  "accumulated_input_tokens": 3301210,
+  "summary": {
+    "pass_at_1_raw_265k": 1.0,
+    "pass_at_1_ddi_compiled": 1.0,
+    "pass_at_1_gain": 0.0,
+    "shadowing_pass_at_1_raw": 1.0,
+    "shadowing_pass_at_1_ddi": 1.0,
+    "thrashing_pass_at_1_raw": 1.0,
+    "thrashing_pass_at_1_ddi": 1.0,
+    "ast_signature_ok_rate_raw": 1.0,
+    "ast_signature_ok_rate_ddi": 1.0,
+    "paired_outcomes": {
+      "ddi_wins": 0,
+      "raw_wins": 0,
+      "both_pass": 10,
+      "both_fail": 0
+    },
+    "total_prompt_tokens_raw": 2926009,
+    "total_prompt_tokens_ddi": 375201,
+    "real_input_token_savings_ratio": 0.8717703875825399,
+    "total_output_tokens_raw": 5296,
+    "total_output_tokens_ddi": 5233,
+    "latency_ms_p50_raw": 9965.492875002383,
+    "latency_ms_p95_raw": 16945.119389952735,
+    "latency_ms_p50_ddi": 5477.464083000086,
+    "latency_ms_p95_ddi": 6222.825871199893,
+    "latency_speedup_p50": 1.8193625232397943
+  },
+  "verdict": {
+    "accuracy_winner": "Tie",
+    "ddi_improves_or_preserves_pass_at_1": true,
+    "ddi_strictly_beats_raw_pass_at_1": false,
+    "token_savings_exceeds_80pct": true
+  },
+  "scenarios": [
+    {
+      "scenario_id": "S01_ledger_settlement",
+      "family": "multi_refactor_shadowing",
+      "raw_265k": {
+        "prompt_tokens": 293226,
+        "output_tokens": 585,
+        "latency_ms": 9878.624584001955,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37595,
+        "output_tokens": 603,
+        "latency_ms": 5660.68941699632,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S02_infusion_dosing",
+      "family": "multi_refactor_shadowing",
+      "raw_265k": {
+        "prompt_tokens": 293593,
+        "output_tokens": 603,
+        "latency_ms": 20684.04033400293,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37525,
+        "output_tokens": 627,
+        "latency_ms": 5820.759875001386,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S03_orbital_window",
+      "family": "multi_refactor_shadowing",
+      "raw_265k": {
+        "prompt_tokens": 293422,
+        "output_tokens": 583,
+        "latency_ms": 9354.54149999714,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37487,
+        "output_tokens": 604,
+        "latency_ms": 6247.894959000405,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S04_contract_indexation",
+      "family": "multi_refactor_shadowing",
+      "raw_265k": {
+        "prompt_tokens": 293373,
+        "output_tokens": 660,
+        "latency_ms": 10426.579999999376,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37551,
+        "output_tokens": 594,
+        "latency_ms": 6192.185874999268,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S05_coldchain_allocation",
+      "family": "multi_refactor_shadowing",
+      "raw_265k": {
+        "prompt_tokens": 293652,
+        "output_tokens": 544,
+        "latency_ms": 9990.723875002004,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37767,
+        "output_tokens": 547,
+        "latency_ms": 4863.6583750048885,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S06_token_bucket",
+      "family": "rejected_patch_thrashing",
+      "raw_265k": {
+        "prompt_tokens": 291550,
+        "output_tokens": 473,
+        "latency_ms": 9940.261875002761,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37255,
+        "output_tokens": 487,
+        "latency_ms": 5490.436791005777,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S07_audit_chain",
+      "family": "rejected_patch_thrashing",
+      "raw_265k": {
+        "prompt_tokens": 291604,
+        "output_tokens": 385,
+        "latency_ms": 8461.888290999923,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37492,
+        "output_tokens": 349,
+        "latency_ms": 4346.528207999654,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S08_fx_netting",
+      "family": "rejected_patch_thrashing",
+      "raw_265k": {
+        "prompt_tokens": 291872,
+        "output_tokens": 462,
+        "latency_ms": 12172.058334006579,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37499,
+        "output_tokens": 448,
+        "latency_ms": 5464.491374994395,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S09_triage_queue",
+      "family": "rejected_patch_thrashing",
+      "raw_265k": {
+        "prompt_tokens": 291600,
+        "output_tokens": 450,
+        "latency_ms": 8794.65320899908,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37447,
+        "output_tokens": 417,
+        "latency_ms": 5443.817125007627,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S10_retry_planner",
+      "family": "rejected_patch_thrashing",
+      "raw_265k": {
+        "prompt_tokens": 292117,
+        "output_tokens": 551,
+        "latency_ms": 12375.327125002514,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37583,
+        "output_tokens": 557,
+        "latency_ms": 5158.566500002053,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    }
+  ]
+}
