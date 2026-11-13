@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.0 — 2026-11-13
+
+- **Motor `v2_spectral_ast` junto a `v1_boxes`**: `SpectralAstFirewall` inspecciona `user`, `system`, `developer` y `tool`, retiene el egreso y cachea cada chunk por SHA-256. El default sigue siendo `engine_mode="v1_boxes"`. Sin `.npz` calibrado el modo v2 responde 403 `v2_firewall_uncalibrated`.
+- **Calibración sin pickle**: `ddi-calibrate-v2` entrena `M4_HybridAstSpectral` con `FOREIGN_TRAIN_ANCHORS` (36 snippets disjuntos del holdout) y persiste tensores numéricos. `load_v2_calibration` usa `np.load(..., allow_pickle=False)`.
+- **Compilador de contexto en el proxy**: se activa con `context_compiler_enabled` o con `ddi_compile_context: true`. La respuesta 200 adjunta `ddi_context_governor`. La clave no viaja al upstream.
+- **Auditoría `BAAI/bge-m3`**: `reports/v050_graduation_audit.json`. `M4` mantiene `far_other_language = 0` con y sin anclas (`roc_auc` prosa `0.99975633528265107`, endurecido `0.99961013645224173`). `M3` baja `far_other_language` de `1` a `0.76666666666666672`. Roundtrip bitwise y caché reutilizada. El predicado estricto de mejora de `M4` es falso porque ambos FAR ya eran `0`.
+
 ## 0.4.0 — 2026-09-25
 
 - **Integración de la Arquitectura del Ecualizador Espectral al Runtime**:

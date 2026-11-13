@@ -1,6 +1,6 @@
 [project]
 name = "ddi-fw"
-version = "0.4.0"
+version = "0.5.0"
 description = "Firewall determinista de contención dimensional estricta para modelos de lenguaje."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -32,6 +32,7 @@ dev = [
 ddi-almas = "ddi_fw.almas:main"
 ddi-press = "ddi_fw.press:main"
 ddi-proxy = "ddi_fw.proxy:main"
+ddi-calibrate-v2 = "ddi_fw.v2_calibration:main"
 
 [build-system]
 requires = ["hatchling"]

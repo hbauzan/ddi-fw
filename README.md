@@ -1,7 +1,7 @@
 # Deep Dimensional Inspector (`ddi-fw`)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/versi%C3%B3n-0.4.0-slate.svg?style=flat-square" alt="Versión 0.4.0" />
+  <img src="https://img.shields.io/badge/versi%C3%B3n-0.5.0-slate.svg?style=flat-square" alt="Versión 0.5.0" />
   <img src="https://img.shields.io/badge/entorno-Python%203.11%2B-steelblue.svg?style=flat-square" alt="Python 3.11+" />
   <img src="https://img.shields.io/badge/car%C3%A1cter-banco%20de%20pruebas%20experimental-dimgray.svg?style=flat-square" alt="Banco de pruebas" />
   <img src="https://img.shields.io/badge/motor-BAAI%2Fbge--m3%20(1024D)-555555.svg?style=flat-square" alt="BGE-M3 1024D" />
@@ -189,10 +189,21 @@ Para no enredarse con los términos de trabajo (documentados formalmente en [`CO
 
 ---
 
+## Motor v0.5.0
+
+El default del proxy sigue siendo `engine_mode=v1_boxes`. `v2_spectral_ast` juzga con `M4_HybridAstSpectral` cargado desde `ddi_fw/out/v2_spectral_ast.npz` (`allow_pickle=False`). Si `context_compiler_enabled` está activo, o el payload trae `"ddi_compile_context": true`, el historial se compila antes de llamar al upstream y la respuesta 200 incluye `ddi_context_governor`.
+
+```bash
+uv run ddi-calibrate-v2 --embedder bge-m3 --out ddi_fw/out/v2_spectral_ast.npz
+```
+
+La auditoría con `BAAI/bge-m3` está en [`reports/v050_graduation_audit.md`](./reports/v050_graduation_audit.md). `M4` dejó `far_other_language` en `0` con y sin anclas multilenguaje. `M3` lo bajó de `1` a `0.76666666666666672`. El predicado estricto de mejora de `M4` es falso. El roundtrip `.npz` y la caché SHA-256 salieron verdaderos.
+
 ## Informes y documentación de campo
 
 * 📊 **Registros de pruebas:** Carpeta [`reports/`](./reports/).
   * [Informe de Fuzzing Rompepepe (v0.4.0)](./reports/2026-09-26-rompepepe-spectral-fuzzing-v0.4.0.md) (Lote de 220 casos de prueba).
+  * [Auditoría de graduación v0.5.0](./reports/v050_graduation_audit.md) (`BAAI/bge-m3`, anclas multilenguaje, roundtrip `.npz` y caché SHA-256).
   * [Auditoría de Sensibilidad de Quórum y Comparativa de Coseno](./reports/2026-09-26-analisis-sensibilidad-espectral-vs-coseno.md) ($K^* = 20$, límites medidos).
 * 🗺️ **Roadmap de trabajo:** Carpeta [`roadmap/`](./roadmap/).
   * [Protocolo 08: Tesis de Alta Densidad de Manifold](./roadmap/hipotesis-ecualizador/08-tesis-densidad-manifold-y-limites-de-ingesta.md).

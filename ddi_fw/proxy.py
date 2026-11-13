@@ -15,6 +15,9 @@ from ddi_fw.egreso import hold
 from ddi_fw.embedder import BaseEmbedder, FakeEmbedder, get_embedder, load_rows, rows_matrices
 from ddi_fw.hoja import candados_canonicos
 from ddi_fw.ingress import Policy, decide, inspect_prompt
+from ddi_fw.lab_v2.context_compiler import compile_session_context
+from ddi_fw.v2_calibration import load_v2_calibration
+from ddi_fw.v2_firewall import SpectralAstFirewall
 
 
 def _last_user_text(messages: list[dict[str, Any]]) -> str | None:
@@ -40,11 +43,35 @@ def _error(
     return JSONResponse(status_code=status, content=body)
 
 
+def _content_text(message: dict[str, Any]) -> str:
+    content = message.get("content")
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        parts: list[str] = []
+        for part in content:
+            if isinstance(part, str):
+                parts.append(part)
+            elif isinstance(part, dict) and "text" in part:
+                parts.append(str(part.get("text", "")))
+        return "".join(parts)
+    return ""
+
+
+def _normalized_messages(messages: list[dict[str, Any]]) -> list[dict[str, str]]:
+    return [
+        {"role": str(message.get("role", "user")), "content": _content_text(message)}
+        for message in messages
+        if isinstance(message, dict)
+    ]
+
+
 def create_app(
     settings: Settings | None = None,
     *,
     embedder: BaseEmbedder | None = None,
     candados: dict | None = None,
+    v2_firewall: SpectralAstFirewall | None = None,
     transport: httpx.BaseTransport | None = None,
 ) -> FastAPI:
     cfg = settings or Settings()
@@ -70,12 +97,21 @@ def create_app(
                 quorum_ratio=cfg.quorum_ratio,
             )
     locks = locks or {}
+    firewall = v2_firewall
+    active_engine_mode = "v1_boxes"
+    if firewall is not None or cfg.engine_mode == "v2_spectral_ast":
+        active_engine_mode = "v2_spectral_ast"
+        if firewall is None and cfg.v2_calibration_path.is_file():
+            model, _meta = load_v2_calibration(cfg.v2_calibration_path)
+            firewall = SpectralAstFirewall(model, worker)
 
-    app = FastAPI(title="ddi-fw", version="0.1.0")
+    app = FastAPI(title="ddi-fw", version="0.5.0")
     app.state.settings = cfg
     app.state.embedder = worker
     app.state.candados = locks
     app.state.policy = policy
+    app.state.v2_firewall = firewall
+    app.state.engine_mode = active_engine_mode
 
     @app.get("/healthz")
     def healthz() -> dict[str, Any]:
@@ -93,12 +129,18 @@ def create_app(
             for lock in app.state.candados.values()
             if cfg.allowed_alma in {lock.hoja.alma_a, lock.hoja.alma_b}
         )
-        status = "ok" if lock_view and required_ok else "degraded"
+        if app.state.engine_mode == "v2_spectral_ast":
+            status = "ok" if app.state.v2_firewall is not None else "degraded"
+        else:
+            status = "ok" if lock_view and required_ok else "degraded"
         return {
             "status": status,
             "embedder": worker.model_id,
             "spectral_mode": cfg.spectral_mode,
             "locks": lock_view,
+            "version": "0.5.0",
+            "engine_mode": app.state.engine_mode,
+            "context_compiler_enabled": bool(cfg.context_compiler_enabled),
         }
 
     def decide_clause(clause: str):
@@ -139,11 +181,34 @@ def create_app(
         if user_text is None:
             return _error(400, "ddi_bad_request", "falta mensaje de usuario")
 
-        ingress = inspect_prompt(user_text, worker, app.state.candados, policy)
-        if ingress.verdict == "BREACH":
-            return _error(403, "ddi_ingress_breach", "contención de entrada", ingress.audit)
+        if app.state.engine_mode == "v2_spectral_ast":
+            if app.state.v2_firewall is None:
+                return _error(
+                    403,
+                    "ddi_ingress_breach",
+                    "v2_firewall_uncalibrated",
+                    [{"reason": "v2_firewall_uncalibrated"}],
+                )
+            ingress_v2 = app.state.v2_firewall.inspect_messages(messages)
+            if ingress_v2.verdict == "BREACH":
+                return _error(403, "ddi_ingress_breach", ingress_v2.reason, ingress_v2.audit)
+        else:
+            ingress = inspect_prompt(user_text, worker, app.state.candados, policy)
+            if ingress.verdict == "BREACH":
+                return _error(403, "ddi_ingress_breach", "contención de entrada", ingress.audit)
 
-        status, upstream, reason = await call_upstream(payload)
+        outbound = dict(payload)
+        outbound.pop("ddi_compile_context", None)
+        compiled = None
+        if cfg.context_compiler_enabled or payload.get("ddi_compile_context") is True:
+            compiled = compile_session_context(
+                _normalized_messages(messages),
+                max_budget_tokens=cfg.context_max_budget_tokens,
+                fresh_tail_turns=cfg.context_fresh_tail_turns,
+            )
+            outbound["messages"] = compiled.messages
+
+        status, upstream, reason = await call_upstream(outbound)
         if status != 200 or upstream is None:
             return _error(502, "ddi_upstream_error", reason or "upstream")
 
@@ -154,18 +219,25 @@ def create_app(
         if not isinstance(generated, str):
             return _error(502, "ddi_upstream_error", "upstream_content")
 
-        held = hold(generated, decide_clause)
-        if held.status == "BLOCKED":
-            audit = [
-                {
-                    "verdict": decision.verdict,
-                    "alma_asignada": decision.alma_asignada,
-                    "reason": decision.reason,
-                    "pair_labels": decision.pair_labels,
-                }
-                for decision in held.decisions
-            ]
-            return _error(403, "ddi_egreso_breach", "contención de salida", audit)
+        if app.state.engine_mode == "v2_spectral_ast":
+            egress_v2 = app.state.v2_firewall.inspect_text(generated, role="assistant")
+            if egress_v2.verdict == "BREACH":
+                return _error(403, "ddi_egreso_breach", egress_v2.reason, egress_v2.audit)
+            visible = generated
+        else:
+            held = hold(generated, decide_clause)
+            if held.status == "BLOCKED":
+                audit = [
+                    {
+                        "verdict": decision.verdict,
+                        "alma_asignada": decision.alma_asignada,
+                        "reason": decision.reason,
+                        "pair_labels": decision.pair_labels,
+                    }
+                    for decision in held.decisions
+                ]
+                return _error(403, "ddi_egreso_breach", "contención de salida", audit)
+            visible = held.text
 
         completion = {
             "id": f"ddi-{uuid.uuid4().hex}",
@@ -175,12 +247,20 @@ def create_app(
             "choices": [
                 {
                     "index": 0,
-                    "message": {"role": "assistant", "content": held.text},
+                    "message": {"role": "assistant", "content": visible},
                     "finish_reason": "stop",
                 }
             ],
             "usage": upstream.get("usage", {}),
         }
+        if compiled is not None:
+            completion["ddi_context_governor"] = {
+                "original_tokens": compiled.original_tokens,
+                "compiled_tokens": compiled.compiled_tokens,
+                "compression_ratio": float(compiled.compression_ratio),
+                "superseded_blocks_pruned": compiled.superseded_blocks_pruned,
+                "stale_traces_pruned": compiled.stale_traces_pruned,
+            }
         return JSONResponse(status_code=200, content=completion)
 
     return app

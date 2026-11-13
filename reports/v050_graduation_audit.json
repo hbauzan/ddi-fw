@@ -1,0 +1,115 @@
+{
+  "task_id": "TASK-006",
+  "embedder": "BAAI/bge-m3",
+  "seed": 42,
+  "test_sample_count": 488,
+  "foreign_train_anchor_count": 36,
+  "counts": {
+    "train": 300,
+    "cal": 72,
+    "test": 488
+  },
+  "variants": {
+    "prose_only_negatives": {
+      "M3_WhitenedSpectralSubspace": {
+        "roc_auc": 0.8945297270955166,
+        "pr_auc": 0.9725141546867344,
+        "far_at_frr_01": 0.23684210526315788,
+        "far_at_frr_05": 0.23421052631578948,
+        "frr_stdlib_python": 0.0,
+        "frr_business_python": 0.1111111111111111,
+        "far_seen_domain": 0.0,
+        "far_unseen_domain_ood": 0.0,
+        "far_other_language": 1.0,
+        "far_piggybacking": 0.3333333333333333,
+        "frr_total": 0.018518518518518517,
+        "far_total": 0.23684210526315788,
+        "latency_ms_p50": 0.017687503714114428,
+        "latency_ms_p95": 0.03216600453015417,
+        "latency_ms_p99": 0.03738532454008236
+      },
+      "M4_HybridAstSpectral": {
+        "roc_auc": 0.9997563352826511,
+        "pr_auc": 0.9999304696610019,
+        "far_at_frr_01": 0.005263157894736842,
+        "far_at_frr_05": 0.0,
+        "frr_stdlib_python": 0.0,
+        "frr_business_python": 0.1111111111111111,
+        "far_seen_domain": 0.0,
+        "far_unseen_domain_ood": 0.0,
+        "far_other_language": 0.0,
+        "far_piggybacking": 0.0,
+        "frr_total": 0.018518518518518517,
+        "far_total": 0.0,
+        "latency_ms_p50": 0.01814550341805443,
+        "latency_ms_p95": 0.03204164167982526,
+        "latency_ms_p99": 0.03590345993870869
+      }
+    },
+    "multilang_hardened_negatives": {
+      "M3_WhitenedSpectralSubspace": {
+        "roc_auc": 0.9525828460038986,
+        "pr_auc": 0.9870809572965198,
+        "far_at_frr_01": 0.24210526315789474,
+        "far_at_frr_05": 0.1736842105263158,
+        "frr_stdlib_python": 0.0,
+        "frr_business_python": 0.2777777777777778,
+        "far_seen_domain": 0.0,
+        "far_unseen_domain_ood": 0.0,
+        "far_other_language": 0.7666666666666667,
+        "far_piggybacking": 0.23333333333333334,
+        "frr_total": 0.046296296296296294,
+        "far_total": 0.1763157894736842,
+        "latency_ms_p50": 0.016584002878516912,
+        "latency_ms_p95": 0.029941555840196084,
+        "latency_ms_p99": 0.03230278554838151
+      },
+      "M4_HybridAstSpectral": {
+        "roc_auc": 0.9996101364522417,
+        "pr_auc": 0.9998880961866584,
+        "far_at_frr_01": 0.005263157894736842,
+        "far_at_frr_05": 0.0,
+        "frr_stdlib_python": 0.0,
+        "frr_business_python": 0.16666666666666666,
+        "far_seen_domain": 0.0,
+        "far_unseen_domain_ood": 0.0,
+        "far_other_language": 0.0,
+        "far_piggybacking": 0.0,
+        "frr_total": 0.027777777777777776,
+        "far_total": 0.0,
+        "latency_ms_p50": 0.017707992810755968,
+        "latency_ms_p95": 0.03162324501317926,
+        "latency_ms_p99": 0.03410012475796975
+      }
+    }
+  },
+  "checks": {
+    "m4_other_language_far_improved": false,
+    "npz_roundtrip_bitwise": true,
+    "cache_reused": true,
+    "cache": {
+      "first_misses": 2,
+      "second_hits": 2,
+      "second_misses": 0,
+      "elapsed_first_s": 0.058432624995475635,
+      "elapsed_second_s": 0.0001552079920656979,
+      "wall_clock_speedup": 376.4794854812742
+    }
+  },
+  "verdict": {
+    "m4_other_language_far_improved": false,
+    "npz_roundtrip_bitwise": true,
+    "cache_reused": true,
+    "graduation_ready": false
+  },
+  "hardware": {
+    "dispositivo": "Apple M4",
+    "target_pytorch": "mps:0",
+    "memoria_ram": "16 GB unificada",
+    "sistema_operativo": "macOS-26.7.1-arm64-arm-64bit-Mach-O",
+    "version_python": "3.14.3",
+    "version_pytorch": "2.14.0",
+    "version_numpy": "2.5.3",
+    "timestamp_iso": "2026-11-13T16:53:14.922562-03:00"
+  }
+}

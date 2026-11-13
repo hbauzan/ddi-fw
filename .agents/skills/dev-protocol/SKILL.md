@@ -40,7 +40,7 @@ Nombres canónicos en inglés: `release` y `research`.
 ### Siempre (ambos modos)
 
 - Toolchain Python: `uv`. Secrets en `.env`.
-- `decide()` y la publicación del candado: intervalos + corte duro. Prohibido cosine / centroides / `mean` de filas / top-k / `gap >= epsilon` como criterio de veredicto o publicación.
+- `decide()` y la publicación del candado `v1_boxes` (`ddi_fw/ingress.py`, `ddi_fw/hoja.py`): intervalos + corte duro. Para el motor graduado `v0.5.0` (`engine_mode="v2_spectral_ast"` en `ddi_fw/v2_calibration.py`, `ddi_fw/v2_firewall.py` y `ddi_fw/proxy.py`), usar exclusivamente `M4_HybridAstSpectral` (subespacio blanqueado Ledoit-Wolf + dirección de Fisher + residuo ortogonal PCA + compuerta AST + Split Conformal) y `ContextCompiler`.
 - Precisión nativa en exportaciones científicas (ver `.agents/rules/cero-redondeos.md`).
 - Proxy de producto: fail-closed, `hold()` sin yield, `stream=true` → 400, 403 sin echo.
 - Tests default: `FakeEmbedder`. Live es explícito.
