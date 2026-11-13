@@ -66,3 +66,76 @@ def test_large_session_compiles_under_budget_and_keeps_the_contract() -> None:
     assert elapsed < 0.250
     assert estimate_tokens("") == 0
     assert estimate_tokens("abcd") == 1
+
+
+def _text_with_token_count(seed: str, tokens: int) -> str:
+    desired = tokens * 4 - 3
+    unit = seed.strip() + ".\n"
+    parts: list[str] = []
+    used = 0
+    while used + len(unit) <= desired:
+        parts.append(unit)
+        used += len(unit)
+    parts.append("a" * (desired - used))
+    text = "".join(parts)
+    if estimate_tokens(text) != tokens:
+        raise RuntimeError(f"no pude construir {tokens} tokens")
+    return text
+
+
+def _turn_with_live_def(definition: str, tokens: int) -> str:
+    block = f"```python\n{definition}```\n"
+    desired = tokens * 4 - 3
+    if len(block) >= desired:
+        raise RuntimeError("la definicion no entra en el turno")
+    padding = _text_with_token_count("oscilador termico del sensor radial", tokens)
+    # El presupuesto se mide sobre el texto final, no sobre el relleno suelto.
+    body = block + padding
+    if len(body) > desired:
+        body = block + padding[: desired - len(block)]
+    else:
+        body = body + ("b" * (desired - len(body)))
+    if estimate_tokens(body) != tokens or definition not in body:
+        raise RuntimeError("el turno vivo no conserva la definicion")
+    return body
+
+
+def test_live_definitions_are_pinned_against_high_similarity_filler() -> None:
+    def_alpha = "def alpha(x: int) -> int:\n    return x + 1\n"
+    def_beta = "def beta(y: int) -> int:\n    return y + 2\n"
+    filler = _text_with_token_count(
+        "liquidacion centavos impuesto moneda lote comercio retencion",
+        4000,
+    )
+    messages: list[dict[str, str]] = [
+        {"role": "system", "content": "INVARIANTE modulo de liquidacion en centavos."},
+        {"role": "user", "content": "Defini las auxiliares vivas del modulo."},
+        {"role": "assistant", "content": _turn_with_live_def(def_alpha, 7000)},
+        {"role": "user", "content": "Siguiente auxiliar vigente."},
+        {"role": "assistant", "content": _turn_with_live_def(def_beta, 7000)},
+    ]
+    for _ in range(30):
+        messages.append({"role": "user", "content": filler})
+    result = compile_session_context(messages, max_budget_tokens=28000, fresh_tail_turns=1)
+    joined = "\n".join(message["content"] for message in result.messages)
+    assert def_alpha in joined
+    assert def_beta in joined
+    assert "Encabezados tipados vigentes:" in joined
+    typed = joined.split("Encabezados tipados vigentes:", 1)[1]
+    assert "alpha(x: int) -> int" in typed
+    assert "beta(y: int) -> int" in typed
+
+
+def test_oversized_pinned_turn_keeps_only_the_live_python_block() -> None:
+    definition = "def alpha(x: int) -> int:\n    return x + 1\n"
+    messages: list[dict[str, str]] = [
+        {"role": "system", "content": "INVARIANTE modulo de liquidacion."},
+        {"role": "user", "content": "Defini la auxiliar viva."},
+        {"role": "assistant", "content": _turn_with_live_def(definition, 12000)},
+        {"role": "user", "content": _text_with_token_count("liquidacion centavos impuesto moneda", 3000)},
+    ]
+    result = compile_session_context(messages, max_budget_tokens=8000, fresh_tail_turns=1)
+    joined = "\n".join(message["content"] for message in result.messages)
+    assert definition in joined
+    assert "oscilador termico" not in joined
+    assert result.compiled_tokens <= 8000

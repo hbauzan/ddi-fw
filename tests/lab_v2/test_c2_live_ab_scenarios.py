@@ -7,6 +7,7 @@ from ddi_fw.lab_v2.live_ab_scenarios import (
     build_live_ab_scenarios,
     compile_scenario_for_ddi,
     evaluar_lote_peticiones,
+    shadow_expected,
     verify_scenario_code,
 )
 
@@ -30,6 +31,27 @@ def test_ten_scenarios_compile_and_the_oracle_separates_solutions() -> None:
         "consumidas": 4,
         "disponible": 6,
     }
+    assert shadow_expected(
+        [("a", 100000), ("a", 1), ("b", 40000)],
+        rate_a=250,
+        floor=100,
+        rate_b=5000,
+        cap=80,
+        label="ARS",
+        divisor_a=10000,
+        divisor_b=10000,
+        label_key="moneda",
+        left_key="cargos_centavos",
+        right_key="retenciones_centavos",
+        net_key="neto_centavos",
+        count_key="operaciones",
+    ) == {
+        "moneda": "ARS",
+        "cargos_centavos": 3500,
+        "retenciones_centavos": 160,
+        "neto_centavos": 3340,
+        "operaciones": 2,
+    }
     for scenario in scenarios:
         assert len(scenario.turns) == 96
         assert 255_000 <= scenario.raw_tokens <= 275_000
@@ -42,17 +64,31 @@ def test_ten_scenarios_compile_and_the_oracle_separates_solutions() -> None:
             if "[DDI-CONTEXT-GOVERNOR]" in message["content"]
         )
         assert governor
+        joined = "\n".join(message["content"] for message in compiled.messages)
         for signature in scenario.live_signature_texts:
             assert signature in governor
+        assert "Encabezados tipados vigentes:" in governor
+        assert "-> int" in governor.split("Encabezados tipados vigentes:", 1)[1]
+        for name in scenario.helper_names:
+            assert f"def {name}" in joined
         if scenario.family == "multi_refactor_shadowing":
             assert "*," in governor
+            assert scenario.exclusive_kw_names
+            turn_74 = scenario.turns[74].content
+            for name in scenario.exclusive_kw_names:
+                assert name in turn_74
+                for turn_id in (0, 1, 95):
+                    assert name not in scenario.turns[turn_id].content
+                assert sum(name in turn.content for turn in scenario.turns) == 1
         else:
             later = sum(
                 estimate_tokens(turn.content) for turn in scenario.turns if turn.turn_id > 56
             )
             assert later > 150_000
-            assert [turn.turn_id for turn in scenario.turns if not turn.accepted] == [20, 38, 56]
-        joined = "\n".join(message["content"] for message in compiled.messages)
+            assert [turn.turn_id for turn in scenario.turns if not turn.accepted] == [18, 36, 54]
+        for turn in scenario.turns:
+            assert "xxxx" not in turn.content
+            assert estimate_tokens(turn.content) <= 6_000
         assert "MARCA-PARCHE-RECHAZADO" not in joined
         assert "total = 0.0" not in joined
         reference = verify_scenario_code(scenario, scenario.reference_solution)

@@ -1,41 +1,41 @@
 {
-  "task_id": "TASK-004",
+  "task_id": "TASK-005",
   "mode": "live",
   "model": "gemini-3.8-flash",
   "successful_api_calls": 20,
   "http_attempts": 20,
-  "accumulated_input_tokens": 2383583,
+  "accumulated_input_tokens": 3301210,
   "summary": {
-    "pass_at_1_raw_265k": 0.1,
-    "pass_at_1_ddi_compiled": 0.2,
-    "pass_at_1_gain": 0.1,
-    "shadowing_pass_at_1_raw": 0.0,
-    "shadowing_pass_at_1_ddi": 0.0,
-    "thrashing_pass_at_1_raw": 0.2,
-    "thrashing_pass_at_1_ddi": 0.4,
+    "pass_at_1_raw_265k": 1.0,
+    "pass_at_1_ddi_compiled": 1.0,
+    "pass_at_1_gain": 0.0,
+    "shadowing_pass_at_1_raw": 1.0,
+    "shadowing_pass_at_1_ddi": 1.0,
+    "thrashing_pass_at_1_raw": 1.0,
+    "thrashing_pass_at_1_ddi": 1.0,
     "ast_signature_ok_rate_raw": 1.0,
     "ast_signature_ok_rate_ddi": 1.0,
     "paired_outcomes": {
-      "ddi_wins": 1,
+      "ddi_wins": 0,
       "raw_wins": 0,
-      "both_pass": 1,
-      "both_fail": 8
+      "both_pass": 10,
+      "both_fail": 0
     },
-    "total_prompt_tokens_raw": 2146589,
-    "total_prompt_tokens_ddi": 236994,
-    "real_input_token_savings_ratio": 0.8895950738590387,
-    "total_output_tokens_raw": 5708,
-    "total_output_tokens_ddi": 6110,
-    "latency_ms_p50_raw": 9056.021478994808,
-    "latency_ms_p95_raw": 11490.963985047347,
-    "latency_ms_p50_ddi": 6334.324270999787,
-    "latency_ms_p95_ddi": 8234.684516851117,
-    "latency_speedup_p50": 1.4296744359071845
+    "total_prompt_tokens_raw": 2926009,
+    "total_prompt_tokens_ddi": 375201,
+    "real_input_token_savings_ratio": 0.8717703875825399,
+    "total_output_tokens_raw": 5296,
+    "total_output_tokens_ddi": 5233,
+    "latency_ms_p50_raw": 9965.492875002383,
+    "latency_ms_p95_raw": 16945.119389952735,
+    "latency_ms_p50_ddi": 5477.464083000086,
+    "latency_ms_p95_ddi": 6222.825871199893,
+    "latency_speedup_p50": 1.8193625232397943
   },
   "verdict": {
-    "accuracy_winner": "DDI_Compiled",
+    "accuracy_winner": "Tie",
     "ddi_improves_or_preserves_pass_at_1": true,
-    "ddi_strictly_beats_raw_pass_at_1": true,
+    "ddi_strictly_beats_raw_pass_at_1": false,
     "token_savings_exceeds_80pct": true
   },
   "scenarios": [
@@ -43,128 +43,128 @@
       "scenario_id": "S01_ledger_settlement",
       "family": "multi_refactor_shadowing",
       "raw_265k": {
-        "prompt_tokens": 214596,
-        "output_tokens": 504,
-        "latency_ms": 8454.817208003078,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AssertionError: piso: {'moneda': 'ARS', 'cargos_centavos': 100, 'retenciones_centavos': 1, 'neto_centavos': 99, 'operaciones': 1} != {'moneda': 'ARS', 'cargos_centavos': 100, 'retenciones_centavos': 50, 'neto_centavos': 50, 'operaciones': 1}"
-      },
-      "ddi_compiled": {
-        "prompt_tokens": 18627,
-        "output_tokens": 635,
-        "latency_ms": 6680.552500001795,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AssertionError: piso: {'moneda': 'ARS', 'cargos_centavos': 100, 'retenciones_centavos': 1, 'neto_centavos': 99, 'operaciones': 1} != {'moneda': 'ARS', 'cargos_centavos': 100, 'retenciones_centavos': 50, 'neto_centavos': 50, 'operaciones': 1}"
-      }
-    },
-    {
-      "scenario_id": "S02_infusion_dosing",
-      "family": "multi_refactor_shadowing",
-      "raw_265k": {
-        "prompt_tokens": 214750,
-        "output_tokens": 584,
-        "latency_ms": 8380.601958000625,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "TypeError: tuple indices must be integers or slices, not str"
-      },
-      "ddi_compiled": {
-        "prompt_tokens": 18764,
-        "output_tokens": 676,
-        "latency_ms": 6821.051625003747,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AttributeError: 'tuple' object has no attribute 'get'"
-      }
-    },
-    {
-      "scenario_id": "S03_orbital_window",
-      "family": "multi_refactor_shadowing",
-      "raw_265k": {
-        "prompt_tokens": 214708,
-        "output_tokens": 719,
-        "latency_ms": 12136.804791000031,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "TypeError: '<' not supported between instances of 'str' and 'int'"
-      },
-      "ddi_compiled": {
-        "prompt_tokens": 18751,
-        "output_tokens": 618,
-        "latency_ms": 6407.348542001273,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "TypeError: '<' not supported between instances of 'str' and 'int'"
-      }
-    },
-    {
-      "scenario_id": "S04_contract_indexation",
-      "family": "multi_refactor_shadowing",
-      "raw_265k": {
-        "prompt_tokens": 214669,
+        "prompt_tokens": 293226,
         "output_tokens": 585,
-        "latency_ms": 8539.010499996948,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "ValueError: Formato de cuota invalido"
-      },
-      "ddi_compiled": {
-        "prompt_tokens": 18718,
-        "output_tokens": 654,
-        "latency_ms": 6202.166292001493,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "ValueError: entrada invalida"
-      }
-    },
-    {
-      "scenario_id": "S05_coldchain_allocation",
-      "family": "multi_refactor_shadowing",
-      "raw_265k": {
-        "prompt_tokens": 214789,
-        "output_tokens": 641,
-        "latency_ms": 10701.602999994066,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AssertionError: lote: {'deposito': 'farmacia', 'unidades_netas': 1750000, 'reserva_unidades': 160, 'despacho_unidades': 160, 'lineas': [80, 80]} != {'deposito': 'farmacia', 'unidades_netas': 1750000, 'reserva_unidades': 160, 'despacho_unidades': 1749840, 'lineas': 2}"
-      },
-      "ddi_compiled": {
-        "prompt_tokens": 18849,
-        "output_tokens": 1154,
-        "latency_ms": 9291.543792001903,
-        "syntax_ok": true,
-        "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "TypeError: '<' not supported between instances of 'str' and 'int'"
-      }
-    },
-    {
-      "scenario_id": "S06_token_bucket",
-      "family": "rejected_patch_thrashing",
-      "raw_265k": {
-        "prompt_tokens": 214512,
-        "output_tokens": 527,
-        "latency_ms": 9074.342958003399,
+        "latency_ms": 9878.624584001955,
         "syntax_ok": true,
         "ast_signature_ok": true,
         "passed": true,
         "failure_reason": null
       },
       "ddi_compiled": {
-        "prompt_tokens": 28580,
-        "output_tokens": 493,
-        "latency_ms": 5927.977291998104,
+        "prompt_tokens": 37595,
+        "output_tokens": 603,
+        "latency_ms": 5660.68941699632,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S02_infusion_dosing",
+      "family": "multi_refactor_shadowing",
+      "raw_265k": {
+        "prompt_tokens": 293593,
+        "output_tokens": 603,
+        "latency_ms": 20684.04033400293,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37525,
+        "output_tokens": 627,
+        "latency_ms": 5820.759875001386,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S03_orbital_window",
+      "family": "multi_refactor_shadowing",
+      "raw_265k": {
+        "prompt_tokens": 293422,
+        "output_tokens": 583,
+        "latency_ms": 9354.54149999714,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37487,
+        "output_tokens": 604,
+        "latency_ms": 6247.894959000405,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S04_contract_indexation",
+      "family": "multi_refactor_shadowing",
+      "raw_265k": {
+        "prompt_tokens": 293373,
+        "output_tokens": 660,
+        "latency_ms": 10426.579999999376,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37551,
+        "output_tokens": 594,
+        "latency_ms": 6192.185874999268,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S05_coldchain_allocation",
+      "family": "multi_refactor_shadowing",
+      "raw_265k": {
+        "prompt_tokens": 293652,
+        "output_tokens": 544,
+        "latency_ms": 9990.723875002004,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37767,
+        "output_tokens": 547,
+        "latency_ms": 4863.6583750048885,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      }
+    },
+    {
+      "scenario_id": "S06_token_bucket",
+      "family": "rejected_patch_thrashing",
+      "raw_265k": {
+        "prompt_tokens": 291550,
+        "output_tokens": 473,
+        "latency_ms": 9940.261875002761,
+        "syntax_ok": true,
+        "ast_signature_ok": true,
+        "passed": true,
+        "failure_reason": null
+      },
+      "ddi_compiled": {
+        "prompt_tokens": 37255,
+        "output_tokens": 487,
+        "latency_ms": 5490.436791005777,
         "syntax_ok": true,
         "ast_signature_ok": true,
         "passed": true,
@@ -175,18 +175,18 @@
       "scenario_id": "S07_audit_chain",
       "family": "rejected_patch_thrashing",
       "raw_265k": {
-        "prompt_tokens": 214521,
-        "output_tokens": 484,
-        "latency_ms": 7534.759499991196,
+        "prompt_tokens": 291604,
+        "output_tokens": 385,
+        "latency_ms": 8461.888290999923,
         "syntax_ok": true,
         "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AssertionError: cadena: {'canal': 'audit', 'eventos': [(3, 1, 4), (8, 2, 5)], 'huella': 2602802402, 'primero': (3, 1, 4), 'ultimo': (8, 2, 5)} != {'canal': 'audit', 'eventos': 2, 'huella': 2602802402, 'primero': 3, 'ultimo': 8}"
+        "passed": true,
+        "failure_reason": null
       },
       "ddi_compiled": {
-        "prompt_tokens": 28577,
-        "output_tokens": 458,
-        "latency_ms": 6942.967625000165,
+        "prompt_tokens": 37492,
+        "output_tokens": 349,
+        "latency_ms": 4346.528207999654,
         "syntax_ok": true,
         "ast_signature_ok": true,
         "passed": true,
@@ -197,66 +197,66 @@
       "scenario_id": "S08_fx_netting",
       "family": "rejected_patch_thrashing",
       "raw_265k": {
-        "prompt_tokens": 214702,
-        "output_tokens": 605,
-        "latency_ms": 9758.604667003965,
+        "prompt_tokens": 291872,
+        "output_tokens": 462,
+        "latency_ms": 12172.058334006579,
         "syntax_ok": true,
         "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "ValueError: sentido desconocido: a"
+        "passed": true,
+        "failure_reason": null
       },
       "ddi_compiled": {
-        "prompt_tokens": 28710,
-        "output_tokens": 568,
-        "latency_ms": 6261.2999999983,
+        "prompt_tokens": 37499,
+        "output_tokens": 448,
+        "latency_ms": 5464.491374994395,
         "syntax_ok": true,
         "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AttributeError: 'tuple' object has no attribute 'get'"
+        "passed": true,
+        "failure_reason": null
       }
     },
     {
       "scenario_id": "S09_triage_queue",
       "family": "rejected_patch_thrashing",
       "raw_265k": {
-        "prompt_tokens": 214592,
-        "output_tokens": 624,
-        "latency_ms": 9037.699999986216,
+        "prompt_tokens": 291600,
+        "output_tokens": 450,
+        "latency_ms": 8794.65320899908,
         "syntax_ok": true,
         "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AssertionError: orden: {'sala': 'guardia', 'orden': ['b', 'a'], 'puntaje_maximo': 87, 'pacientes': [('b', 5, 70, 80), ('a', 2, 40, 10)], 'espera_primera': 80} != {'sala': 'guardia', 'orden': ('b', 'a'), 'puntaje_maximo': 87, 'pacientes': 2, 'espera_primera': 80}"
+        "passed": true,
+        "failure_reason": null
       },
       "ddi_compiled": {
-        "prompt_tokens": 28604,
-        "output_tokens": 483,
-        "latency_ms": 5274.218041988206,
+        "prompt_tokens": 37447,
+        "output_tokens": 417,
+        "latency_ms": 5443.817125007627,
         "syntax_ok": true,
         "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AttributeError: 'tuple' object has no attribute 'get'"
+        "passed": true,
+        "failure_reason": null
       }
     },
     {
       "scenario_id": "S10_retry_planner",
       "family": "rejected_patch_thrashing",
       "raw_265k": {
-        "prompt_tokens": 214750,
-        "output_tokens": 435,
-        "latency_ms": 9995.079916989198,
+        "prompt_tokens": 292117,
+        "output_tokens": 551,
+        "latency_ms": 12375.327125002514,
         "syntax_ok": true,
         "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AssertionError: negativo: no lanzo ValueError"
+        "passed": true,
+        "failure_reason": null
       },
       "ddi_compiled": {
-        "prompt_tokens": 28814,
-        "output_tokens": 371,
-        "latency_ms": 5245.960457992624,
+        "prompt_tokens": 37583,
+        "output_tokens": 557,
+        "latency_ms": 5158.566500002053,
         "syntax_ok": true,
         "ast_signature_ok": true,
-        "passed": false,
-        "failure_reason": "AssertionError: negativo: no lanzo ValueError"
+        "passed": true,
+        "failure_reason": null
       }
     }
   ]

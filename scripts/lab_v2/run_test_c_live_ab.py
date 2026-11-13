@@ -88,7 +88,7 @@ def run_test_c_live_ab(
         client.close()
     summary = _summarize(rows)
     payload: dict[str, object] = {
-        "task_id": "TASK-004",
+        "task_id": "TASK-005",
         "mode": mode,
         "model": model,
         "successful_api_calls": guard.successful_calls,

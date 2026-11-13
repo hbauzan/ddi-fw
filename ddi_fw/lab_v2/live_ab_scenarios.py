@@ -84,6 +84,7 @@ class LiveAbScenario:
     live_signature_texts: tuple[str, ...]
     symbol_index: LiveSymbolIndex
     check_fn: Callable[[Callable[..., object]], None]
+    exclusive_kw_names: tuple[str, ...] = ()
 
     @property
     def messages(self) -> list[dict[str, str]]:
@@ -110,6 +111,8 @@ class _ShadowDomain:
     diff_label_kw: str
     target_name: str
     target_items: str
+    tuple_id: str
+    tuple_value: str
     target_kws: tuple[str, str, str, str, str]
     divisor_a: int
     divisor_b: int
@@ -207,14 +210,21 @@ def shadow_expected(
     count_key: str,
 ) -> dict[str, object]:
     """Oráculo independiente del texto generado para la familia de refactor."""
-    if not items or not label:
+    if not items or not label or rate_a < 0 or floor < 0 or rate_b < 0 or cap < 0:
         raise ValueError("entrada invalida")
+    seen: list[str] = []
+    unique: list[tuple[str, int]] = []
+    for item in items:
+        ident, amount = item
+        if not ident or amount < 0:
+            raise ValueError("entrada invalida")
+        if ident in seen:
+            continue
+        seen.append(ident)
+        unique.append((ident, amount))
     produced: list[int] = []
     withheld: list[int] = []
-    for item in items:
-        amount = item[1]
-        if amount < 0:
-            raise ValueError("entrada invalida")
+    for _ident, amount in unique:
         left = (amount * rate_a) // divisor_a
         if left < floor:
             left = floor
@@ -228,7 +238,7 @@ def shadow_expected(
         left_key: sum(produced),
         right_key: sum(withheld),
         net_key: sum(produced) - sum(withheld),
-        count_key: len(items),
+        count_key: len(unique),
     }
 
 
@@ -524,23 +534,19 @@ def _build_shadow(domain: _ShadowDomain, target_tokens: int) -> LiveAbScenario:
     )
     if broken_invariant == reference:
         raise RuntimeError(f"no pude romper el invariante de {domain.scenario_id}")
-    final = _objective_prompt(
-        story=domain.story,
-        signature=sources["signature"],
-        helpers=helpers,
-        keys=(domain.label_key, domain.left_key, domain.right_key, domain.net_key, domain.count_key),
-        extra="Usá la version v4 de cada auxiliar, con argumentos keyword-only vigentes.",
-    )
+    exclusive = _exclusive_names(domain)
+    final = _objective_shadow(domain, sources["signature"], helpers)
     fixed = {
-        0: ("system", _system_text(domain.story, final), True, None),
-        1: ("user", _user_contract(domain.story, helpers, sources["signature"]), True, None),
+        0: ("system", _system_text(domain.story, domain.target_name), True, None),
+        1: ("user", _user_contract(domain.story, helpers, domain.target_name), True, None),
         4: ("assistant", _fenced("Version v1, ya superada.", sources["v1"]), True, None),
-        24: ("assistant", _fenced("Version v2, ya superada.", sources["v2"]), True, None),
-        52: ("assistant", _fenced("Version v3, ya superada.", sources["v3"]), True, None),
-        78: ("assistant", _fenced("Version v4 definitiva.", live_helpers), True, None),
+        22: ("assistant", _fenced("Version v2, ya superada.", sources["v2"]), True, None),
+        48: ("assistant", _fenced("Version v3, ya superada.", sources["v3"]), True, None),
+        74: ("assistant", _fenced("Version v4 definitiva.", live_helpers), True, None),
         95: ("user", final, True, None),
     }
-    turns = _materialize("shadowing", fixed, target_tokens, helpers)
+    turns = _materialize("shadowing", fixed, target_tokens, domain, exclusive)
+    _assert_exclusive_isolation(domain.scenario_id, turns, exclusive, only_turn=74)
     return _finish(
         scenario_id=domain.scenario_id,
         family="multi_refactor_shadowing",
@@ -552,6 +558,7 @@ def _build_shadow(domain: _ShadowDomain, target_tokens: int) -> LiveAbScenario:
         broken_deprecated=broken_deprecated,
         broken_invariant=broken_invariant,
         check_fn=_shadow_check(domain),
+        exclusive_kw_names=exclusive,
     )
 
 
@@ -561,46 +568,27 @@ def _build_thrash(spec: _ThrashSpec, target_tokens: int) -> LiveAbScenario:
     reference = _source_of(spec.target_fn)
     names = tuple(_function_name(fn) for fn in spec.helper_fns)
     rejected = _thrash_rejected(spec.target_name, names)
-    final = _objective_prompt(
-        story=spec.story,
-        signature=spec.final_signature,
-        helpers=names,
-        keys=spec.result_keys,
-        extra=(
-            "Respetá las firmas aceptadas en los turnos 2 a 8. "
-            "Ignorá los parches rechazados por float, mutacion o argumentos invalidos."
-        ),
-    )
+    final = _objective_thrash(spec, names)
     fixed = {
-        0: ("system", _system_text(spec.story, final), True, None),
-        1: ("user", _user_contract(spec.story, names, spec.final_signature), True, None),
+        0: ("system", _system_text(spec.story, spec.target_name), True, None),
+        1: ("user", _user_contract(spec.story, names, spec.target_name), True, None),
         2: ("assistant", _fenced("Auxiliar aceptada.", helper_sources[0]), True, None),
         4: ("assistant", _fenced("Auxiliar aceptada.", helper_sources[1]), True, None),
-        6: (
-            "assistant",
-            "Ejemplo aceptado de llamada vigente, sin redefinir auxiliares.\n"
-            f"Las funciones {names[0]} y {names[1]} quedan congeladas.\n",
-            True,
-            None,
-        ),
-        8: (
-            "user",
-            "Code review: firmas aceptadas. No cambiar la aridad ni introducir float.",
-            True,
-            None,
-        ),
-        20: ("assistant", rejected[0][0], False, rejected[0][1]),
-        21: ("user", f"Code review: rechazo el parche. {rejected[0][1]}", True, None),
-        38: ("assistant", rejected[1][0], False, rejected[1][1]),
-        39: ("user", f"Code review: rechazo el parche. {rejected[1][1]}", True, None),
-        56: ("assistant", rejected[2][0], False, rejected[2][1]),
-        57: ("user", f"Code review: rechazo el parche. {rejected[2][1]}", True, None),
+        18: ("assistant", rejected[0][0], False, rejected[0][1]),
+        19: ("user", f"Code review: rechazo el parche. {rejected[0][1]}", True, None),
+        36: ("assistant", rejected[1][0], False, rejected[1][1]),
+        37: ("user", f"Code review: rechazo el parche. {rejected[1][1]}", True, None),
+        54: ("assistant", rejected[2][0], False, rejected[2][1]),
+        55: ("user", f"Code review: rechazo el parche. {rejected[2][1]}", True, None),
         95: ("user", final, True, None),
     }
-    turns = _materialize("thrashing", fixed, target_tokens, names)
+    turns = _materialize("thrashing", fixed, target_tokens, spec, ())
     later = sum(estimate_tokens(turn.content) for turn in turns if turn.turn_id > 56)
     if later <= 150_000:
         raise RuntimeError(f"{spec.scenario_id} no deja mas de 150000 tokens posteriores")
+    spanned = sum(estimate_tokens(turn.content) for turn in turns if 56 <= turn.turn_id <= 94)
+    if spanned <= 150_000:
+        raise RuntimeError(f"{spec.scenario_id} no distribuye 150000 tokens en 56..94")
     return _finish(
         scenario_id=spec.scenario_id,
         family="rejected_patch_thrashing",
@@ -627,6 +615,7 @@ def _finish(
     broken_deprecated: str,
     broken_invariant: str,
     check_fn: Callable[[Callable[..., object]], None],
+    exclusive_kw_names: tuple[str, ...] = (),
 ) -> LiveAbScenario:
     if len(turns) != _TURN_COUNT:
         raise RuntimeError(f"{scenario_id} no tiene 96 turnos")
@@ -654,6 +643,7 @@ def _finish(
         live_signature_texts=signatures,
         symbol_index=index,
         check_fn=check_fn,
+        exclusive_kw_names=exclusive_kw_names,
     )
 
 
@@ -661,7 +651,8 @@ def _materialize(
     kind: str,
     fixed: dict[int, tuple[str, str, bool, str | None]],
     target_tokens: int,
-    helper_names: tuple[str, ...],
+    subject: _ShadowDomain | _ThrashSpec,
+    forbidden: tuple[str, ...],
 ) -> tuple[ScenarioTurn, ...]:
     fixed_tokens = {index: estimate_tokens(payload[1]) for index, payload in fixed.items()}
     goals = _token_goals(kind, fixed_tokens, target_tokens)
@@ -671,14 +662,18 @@ def _materialize(
             role, content, accepted, reason = fixed[index]
         else:
             role = "assistant" if index % 2 == 0 else "user"
-            prefix = (
-                _filler_prefix(index, helper_names)
-                if goals[index] >= 120
-                else f"cierre de sesion {index}. "
+            content = _text_with_tokens(
+                _work_prefix(kind, index, subject),
+                goals[index],
+                index,
+                forbidden,
             )
-            content = _text_with_tokens(prefix, goals[index])
             accepted = True
             reason = None
+        if "xxxx" in content:
+            raise RuntimeError(f"turno {index} contiene relleno xxxx")
+        if estimate_tokens(content) > 6_000:
+            raise RuntimeError(f"turno {index} concentra demasiados tokens")
         turns.append(
             ScenarioTurn(
                 turn_id=index,
@@ -695,54 +690,164 @@ def _materialize(
 
 
 def _token_goals(kind: str, fixed_tokens: dict[int, int], target: int) -> dict[int, int]:
-    pad = 80 if kind == "thrashing" else 60
     goals = dict(fixed_tokens)
-    for index in range(_TURN_COUNT):
-        if index in goals or index == pad:
-            continue
-        if index >= 92:
-            goals[index] = 36
-        elif kind == "thrashing" and index > 56:
-            goals[index] = 4500
-        else:
-            goals[index] = 220
-    others = sum(goals.values())
-    pad_tokens = target - others
-    if pad_tokens < 80:
-        raise ValueError(f"no entra el relleno en el presupuesto: pad={pad_tokens}")
-    goals[pad] = pad_tokens
+    if kind == "shadowing":
+        late: range = range(75, 95)
+        late_each = 3000
+    elif kind == "thrashing":
+        late = range(56, 95)
+        late_each = 4000
+    else:
+        raise ValueError(kind)
+    late_ids = [index for index in late if index not in goals]
+    early_ids = [
+        index for index in range(_TURN_COUNT) if index not in goals and index not in late_ids
+    ]
+    consumed = sum(goals.values()) + late_each * len(late_ids)
+    early_budget = target - consumed
+    if not early_ids or early_budget < len(early_ids) * 200:
+        raise RuntimeError(f"presupuesto temprano insuficiente: {early_budget}")
+    base = early_budget // len(early_ids)
+    extra = early_budget - base * len(early_ids)
+    if base > 6_000 or late_each > 6_000 or base + extra > 6_000:
+        raise RuntimeError("un turno concentraria mas de 6000 tokens")
+    for index in early_ids:
+        goals[index] = base
+    goals[early_ids[-1]] += extra
+    for index in late_ids:
+        goals[index] = late_each
+    if sum(goals.values()) != target:
+        raise RuntimeError(f"suma {sum(goals.values())} != {target}")
     return goals
 
 
-def _text_with_tokens(prefix: str, tokens: int) -> str:
+_PROSE: tuple[str, ...] = (
+    "Bitacora de conciliacion: el identificador repetido se descarta y queda la primera fila.",
+    "Traza de ejecucion: la division de piso conserva cantidades enteras.",
+    "Nota de arquitectura: el modulo vecino mide latencia sin alterar el contrato.",
+    "Registro de cola: los reintentos se anotan en enteros y no mutan la entrada.",
+    "Observacion de sensores: la ocupacion del buffer sigue siendo un entero no negativo.",
+    "Comentario de revision: ninguna coleccion de entrada puede reordenarse.",
+    "Apunte de sesion: la funcion integradora se cierra recien en el ultimo turno.",
+    "Log operativo: el desempate estable respeta el orden original de llegada.",
+)
+_PAD_ALPHABET = "abcd efgh ijkl mnop qrst uvwz 0123456789."
+
+
+def _text_with_tokens(prefix: str, tokens: int, salt: int, forbidden: tuple[str, ...]) -> str:
     if tokens < 1:
         raise ValueError("tokens")
     desired = tokens * 4 - 3
     if len(prefix) > desired:
         raise ValueError("el prefijo no entra en el presupuesto del turno")
-    unit = " nota de arquitectura del modulo vecino y trazas historicas."
     parts = [prefix]
     used = len(prefix)
-    while used + len(unit) <= desired:
-        parts.append(unit)
-        used += len(unit)
-    parts.append("x" * (desired - used))
+    cursor = salt
+    while cursor <= salt + 20000:
+        sentence = _PROSE[cursor % len(_PROSE)]
+        piece = f" Registro {salt}-{cursor}: {sentence}"
+        if used + len(piece) > desired:
+            break
+        parts.append(piece)
+        used += len(piece)
+        cursor += 1
+    gap = desired - used
+    if gap:
+        parts.append((_PAD_ALPHABET * ((gap // len(_PAD_ALPHABET)) + 1))[:gap])
     text = "".join(parts)
     if estimate_tokens(text) != tokens:
         raise RuntimeError("el ajuste de tokens no fue exacto")
+    if "xxxx" in text:
+        raise RuntimeError("relleno prohibido")
+    for name in forbidden:
+        if name in text:
+            raise RuntimeError(f"el relleno filtro {name}")
     return text
 
 
-def _filler_prefix(index: int, helper_names: tuple[str, ...]) -> str:
-    helper = helper_names[index % len(helper_names)]
+def _work_prefix(kind: str, index: int, subject: _ShadowDomain | _ThrashSpec) -> str:
+    if isinstance(subject, _ShadowDomain):
+        helpers = (subject.floor_name, subject.cap_name, subject.diff_name)
+        if 5 <= index <= 21:
+            return _version_prefix(index, helpers, 1)
+        if 23 <= index <= 47:
+            return _version_prefix(index, helpers, 2)
+        if 49 <= index <= 73:
+            return _version_prefix(index, helpers, 3)
+        if 75 <= index <= 94:
+            return (
+                f"Turno {index}. Telemetria del modulo vecino.\n"
+                f"No se repite la definicion vigente de {subject.target_name}.\n"
+                "Sensores de cola, reintentos y ocupacion en enteros.\n"
+            )
+        return (
+            f"Turno {index}. Bitacora previa a la firma definitiva de {subject.target_name}.\n"
+            f"Participan {', '.join(helpers)}.\n"
+        )
+    names = tuple(fn.__name__ for fn in subject.helper_fns)
     return (
-        f"Turno {index}. Discusion de arquitectura del modulo vecino.\n"
-        "Traceback (most recent call last):\n"
-        f'  File "vecino_{index}.py", line 12, in prueba\n'
-        f"    {helper}(valor_viejo, tasa_vieja)\n"
-        "TypeError: la firma historica no coincide con la version vigente\n"
-        "El objetivo de la sesion no cambia.\n"
+        f"Turno {index}. Bitacora de {subject.target_name}.\n"
+        f"Las auxiliares {names[0]} y {names[1]} siguen aceptadas.\n"
+        "Traza de ejecucion entera, sin redefinir funciones.\n"
     )
+
+
+def _version_prefix(index: int, helpers: tuple[str, ...], version: int) -> str:
+    if version == 1:
+        calls = "\n".join(f"{name}(1200, 250)" for name in helpers)
+        label = "v1, dos argumentos posicionales monto y tasa"
+    elif version == 2:
+        calls = "\n".join(f"{name}(1200, 250)" for name in helpers)
+        label = "v2 posicional, unidades enteras monto_centavos y tasa_bps"
+    else:
+        calls = "\n".join(f"{name}(1200, 250, 80)" for name in helpers)
+        label = "v3, tres argumentos posicionales"
+    return (
+        f"Turno {index}. Llamadas historicas {label}.\n"
+        f"{calls}\n"
+        "La traza no cierra la firma definitiva.\n"
+    )
+
+
+def _exclusive_names(domain: _ShadowDomain) -> tuple[str, ...]:
+    names = (
+        *domain.floor_kws,
+        *domain.cap_kws,
+        domain.diff_right_kw,
+        domain.diff_label_kw,
+    )
+    public = {
+        domain.floor_name,
+        domain.cap_name,
+        domain.diff_name,
+        domain.target_name,
+        domain.floor_pos,
+        domain.cap_pos,
+        domain.diff_pos,
+        domain.tuple_id,
+        domain.tuple_value,
+        domain.target_items,
+        *domain.target_kws,
+    }
+    for name in names:
+        if name in domain.story or name in public:
+            raise RuntimeError(f"{domain.scenario_id} no puede filtrar {name}")
+        if any(name in other for other in public):
+            raise RuntimeError(f"{domain.scenario_id} solapa {name} con un nombre publico")
+    return names
+
+
+def _assert_exclusive_isolation(
+    scenario_id: str,
+    turns: tuple[ScenarioTurn, ...],
+    exclusive: tuple[str, ...],
+    *,
+    only_turn: int,
+) -> None:
+    for name in exclusive:
+        hits = [turn.turn_id for turn in turns if name in turn.content]
+        if hits != [only_turn]:
+            raise RuntimeError(f"{scenario_id} expone {name} en {hits}")
 
 
 def _shadow_sources(domain: _ShadowDomain) -> dict[str, str]:
@@ -750,7 +855,13 @@ def _shadow_sources(domain: _ShadowDomain) -> dict[str, str]:
     rate_b, cap_kw, label_b = domain.cap_kws
     kw_rate, kw_floor, kw_rate2, kw_cap, kw_label = domain.target_kws
     floor = (
-        f"def {domain.floor_name}({domain.floor_pos}, *, {rate_a}, {floor_kw}, {label_a}):\n"
+        f"def {domain.floor_name}(\n"
+        f"    {domain.floor_pos}: int,\n"
+        f"    *,\n"
+        f"    {rate_a}: int,\n"
+        f"    {floor_kw}: int,\n"
+        f"    {label_a}: str,\n"
+        ") -> int:\n"
         f"    if {domain.floor_pos} < 0 or {rate_a} < 0 or {floor_kw} < 0 or not {label_a}:\n"
         '        raise ValueError("entrada invalida")\n'
         f"    value = ({domain.floor_pos} * {rate_a}) // {domain.divisor_a}\n"
@@ -759,7 +870,13 @@ def _shadow_sources(domain: _ShadowDomain) -> dict[str, str]:
         "    return value\n"
     )
     cap = (
-        f"def {domain.cap_name}({domain.cap_pos}, *, {rate_b}, {cap_kw}, {label_b}):\n"
+        f"def {domain.cap_name}(\n"
+        f"    {domain.cap_pos}: int,\n"
+        f"    *,\n"
+        f"    {rate_b}: int,\n"
+        f"    {cap_kw}: int,\n"
+        f"    {label_b}: str,\n"
+        ") -> int:\n"
         f"    if {domain.cap_pos} < 0 or {rate_b} < 0 or {cap_kw} < 0 or not {label_b}:\n"
         '        raise ValueError("entrada invalida")\n'
         f"    value = ({domain.cap_pos} * {rate_b}) // {domain.divisor_b}\n"
@@ -768,7 +885,12 @@ def _shadow_sources(domain: _ShadowDomain) -> dict[str, str]:
         "    return value\n"
     )
     diff = (
-        f"def {domain.diff_name}({domain.diff_pos}, *, {domain.diff_right_kw}, {domain.diff_label_kw}):\n"
+        f"def {domain.diff_name}(\n"
+        f"    {domain.diff_pos}: list[int],\n"
+        f"    *,\n"
+        f"    {domain.diff_right_kw}: list[int],\n"
+        f"    {domain.diff_label_kw}: str,\n"
+        ") -> int:\n"
         f"    if not {domain.diff_label_kw}:\n"
         '        raise ValueError("entrada invalida")\n'
         f"    if any(item < 0 for item in {domain.diff_pos}) or "
@@ -777,33 +899,55 @@ def _shadow_sources(domain: _ShadowDomain) -> dict[str, str]:
         f"    return sum({domain.diff_pos}) - sum({domain.diff_right_kw})\n"
     )
     signature = (
-        f"{domain.target_name}({domain.target_items}, *, {kw_rate}, {kw_floor}, "
-        f"{kw_rate2}, {kw_cap}, {kw_label})"
+        f"def {domain.target_name}({domain.target_items}: list[tuple[str, int]], "
+        f"*, {kw_rate}: int, {kw_floor}: int, {kw_rate2}: int, {kw_cap}: int, "
+        f"{kw_label}: str) -> dict[str, object]:"
     )
     target = (
-        f"def {signature}:\n"
+        f"def {domain.target_name}(\n"
+        f"    {domain.target_items}: list[tuple[str, int]],\n"
+        "    *,\n"
+        f"    {kw_rate}: int,\n"
+        f"    {kw_floor}: int,\n"
+        f"    {kw_rate2}: int,\n"
+        f"    {kw_cap}: int,\n"
+        f"    {kw_label}: str,\n"
+        ") -> dict[str, object]:\n"
         f"    if not {domain.target_items} or not {kw_label}:\n"
         '        raise ValueError("entrada invalida")\n'
+        f"    if {kw_rate} < 0 or {kw_floor} < 0 or {kw_rate2} < 0 or {kw_cap} < 0:\n"
+        '        raise ValueError("entrada invalida")\n'
+        "    seen = []\n"
+        "    unique = []\n"
+        f"    for item in {domain.target_items}:\n"
+        "        ident, amount = item\n"
+        "        if not ident or amount < 0:\n"
+        '            raise ValueError("entrada invalida")\n'
+        "        if ident in seen:\n"
+        "            continue\n"
+        "        seen.append(ident)\n"
+        "        unique.append(item)\n"
         "    produced = []\n"
         "    withheld = []\n"
-        f"    for item in {domain.target_items}:\n"
+        "    for item in unique:\n"
         "        amount = item[1]\n"
-        "        if amount < 0:\n"
-        '            raise ValueError("entrada invalida")\n'
-        f"        left = {domain.floor_name}(amount, {rate_a}={kw_rate}, "
-        f"{floor_kw}={kw_floor}, {label_a}={kw_label})\n"
-        f"        right = {domain.cap_name}(left, {rate_b}={kw_rate2}, "
-        f"{cap_kw}={kw_cap}, {label_b}={kw_label})\n"
+        f"        left = {domain.floor_name}(\n"
+        f"            amount, {rate_a}={kw_rate}, {floor_kw}={kw_floor}, {label_a}={kw_label}\n"
+        "        )\n"
+        f"        right = {domain.cap_name}(\n"
+        f"            left, {rate_b}={kw_rate2}, {cap_kw}={kw_cap}, {label_b}={kw_label}\n"
+        "        )\n"
         "        produced.append(left)\n"
         "        withheld.append(right)\n"
-        f"    net = {domain.diff_name}(produced, {domain.diff_right_kw}=withheld, "
-        f"{domain.diff_label_kw}={kw_label})\n"
+        f"    net = {domain.diff_name}(\n"
+        f"        produced, {domain.diff_right_kw}=withheld, {domain.diff_label_kw}={kw_label}\n"
+        "    )\n"
         "    return {\n"
         f'        "{domain.label_key}": {kw_label},\n'
         f'        "{domain.left_key}": sum(produced),\n'
         f'        "{domain.right_key}": sum(withheld),\n'
         f'        "{domain.net_key}": net,\n'
-        f'        "{domain.count_key}": len({domain.target_items}),\n'
+        f'        "{domain.count_key}": len(unique),\n'
         "    }\n"
     )
     names = (domain.floor_name, domain.cap_name, domain.diff_name)
@@ -847,6 +991,13 @@ def _shadow_check(domain: _ShadowDomain) -> Callable[[Callable[..., object]], No
             "kwargs": kwargs,
             "raises": False,
         },
+        {
+            "name": "dedup",
+            "args": ([("a", 100000), ("a", 1), ("b", 40000)],),
+            "kwargs": kwargs,
+            "raises": False,
+        },
+        {"name": "id", "args": ([("", 10)],), "kwargs": kwargs, "raises": True},
         {"name": "piso", "args": ([("a", 3)],), "kwargs": kwargs, "raises": False},
         {"name": "tope", "args": ([("a", 5000000)],), "kwargs": kwargs, "raises": False},
     )
@@ -914,31 +1065,41 @@ def _broken_deprecated_shadow(domain: _ShadowDomain) -> str:
 
 
 def _thrash_rejected(target_name: str, helpers: tuple[str, ...]) -> tuple[tuple[str, str], ...]:
-    float_reason = "usa float"
-    mutate_reason = "muta la lista de entrada"
-    arity_reason = "llama auxiliares con argumentos viejos"
+    float_reason = "usa float y division / en vez de //"
+    negative_reason = "no valida enteros negativos dentro de cada tupla"
+    mutate_reason = "muta la lista de entrada y no deduplica identificadores"
+    noted = f"{helpers[0]}, {helpers[1]}"
     float_code = (
         f"def {target_name}(items, *args, **kwargs):\n"
+        f"    # auxiliares tentadas: {noted}\n"
         "    total = 0.0  # MARCA-PARCHE-RECHAZADO\n"
         "    for item in items:\n"
-        "        total += float(item[-1])\n"
+        "        total += item[-1] / 2\n"
         '    return {"total": total}\n'
+    )
+    negative_code = (
+        f"def {target_name}(items, *args, **kwargs):\n"
+        f"    # auxiliares tentadas: {noted}\n"
+        "    seen = []\n"
+        "    unique = []\n"
+        "    for item in items:\n"
+        "        if item[0] in seen:\n"
+        "            continue\n"
+        "        seen.append(item[0])\n"
+        "        unique.append(item)\n"
+        '    return {"items": len(unique)}\n'
     )
     mutate_code = (
         f"def {target_name}(items, *args, **kwargs):\n"
+        f"    # auxiliares tentadas: {noted}\n"
+        "    items.append(items[0])\n"
         "    items.sort()\n"
-        "    return {\"items\": list(items)}\n"
-    )
-    arity_code = (
-        f"def {target_name}(items, *args, **kwargs):\n"
-        f"    {helpers[0]}(items[0], 1)\n"
-        f"    {helpers[1]}(1, 2)\n"
-        "    return {}\n"
+        '    return {"items": list(items)}\n'
     )
     return (
         (_fenced(float_reason, float_code), float_reason),
+        (_fenced(negative_reason, negative_code), negative_reason),
         (_fenced(mutate_reason, mutate_code), mutate_reason),
-        (_fenced(arity_reason, arity_code), arity_reason),
     )
 
 
@@ -1090,47 +1251,90 @@ def _check_s10(fn: Callable[..., object]) -> None:
     )
 
 
-def _objective_prompt(
-    *,
-    story: str,
+def _objective_shadow(
+    domain: _ShadowDomain,
     signature: str,
     helpers: tuple[str, ...],
-    keys: tuple[str, ...],
-    extra: str,
 ) -> str:
-    helper_list = ", ".join(helpers)
-    key_list = ", ".join(keys)
+    kw_rate, kw_floor, kw_rate2, kw_cap, kw_label = domain.target_kws
+    ints = ", ".join((kw_rate, kw_floor, kw_rate2, kw_cap))
+    keys = (
+        (domain.label_key, "str", f"copia de {kw_label}"),
+        (domain.left_key, "int", "sum(produced)"),
+        (domain.right_key, "int", "sum(withheld)"),
+        (domain.net_key, "int", f"el entero devuelto por {domain.diff_name}"),
+        (domain.count_key, "int", "cantidad de items unicos tras deduplicar"),
+    )
+    key_lines = "\n".join(f'- "{key}": {kind}, {detail}.' for key, kind, detail in keys)
     return (
-        f"{story}\n"
-        "Implementa unicamente la funcion objetivo. "
-        "Asumi que las auxiliares vigentes ya existen en el scope global y no las redefinas.\n"
-        f"Firma exacta: {signature}\n"
-        f"Auxiliares vigentes: {helper_list}.\n"
-        "Aritmetica entera con division // . Sin float y sin redondeo. "
-        "ValueError si la entrada es negativa o vacia. "
-        "No mutar las listas de entrada. "
-        "Si hay identificadores, deduplicar conservando la primera aparicion.\n"
-        f"Claves exactas del dict: {key_list}.\n"
-        f"{extra}\n"
+        f"{domain.story}\n"
+        f"Implementa unicamente {domain.target_name}. "
+        "Asumi que las auxiliares vigentes ya existen en el scope global y no las redefinas. "
+        f"Invoca {', '.join(helpers)} con su ultima firma aceptada vigente en la sesion.\n"
+        f"Firma tipada exacta:\n{signature}\n"
+        f"Cada elemento de {domain.target_items} es una tupla "
+        f"({domain.tuple_id}: str, {domain.tuple_value}: int).\n"
+        "ValueError si la lista de entrada esta vacia, "
+        f"si {kw_label} esta vacio, si {domain.tuple_id} esta vacio, "
+        f"o si cualquier parametro int ({ints}) o {domain.tuple_value} es < 0.\n"
+        "Flujo exacto, sin constantes ocultas:\n"
+        f"1) deduplicar {domain.target_items} por el primer elemento {domain.tuple_id} "
+        "conservando solo la primera aparicion;\n"
+        f"2) para cada item unico, calcular primero left = {domain.floor_name}(...) "
+        f"sobre su valor entero {domain.tuple_value}, mapeando {kw_rate}, {kw_floor} y {kw_label} "
+        "segun la firma vigente de esa auxiliar;\n"
+        f"3) calcular right = {domain.cap_name}(...) pasando left como primer argumento, "
+        f"mapeando {kw_rate2}, {kw_cap} y {kw_label} segun la firma vigente;\n"
+        "4) acumular left en produced y right en withheld;\n"
+        f"5) calcular net = {domain.diff_name}(...) sobre las listas acumuladas produced y withheld, "
+        f"con {kw_label}, segun la firma vigente.\n"
+        "Esquema exacto del dict[str, object] de retorno:\n"
+        f"{key_lines}\n"
+        "Aritmetica entera con division // . Cero float. No mutar la lista de entrada.\n"
     )
 
 
-def _system_text(story: str, final_prompt: str) -> str:
+def _objective_thrash(spec: _ThrashSpec, helpers: tuple[str, ...]) -> str:
     return (
-        "INVARIANTES DE LA SESION. Aritmetica entera exacta, sin float. "
-        "ValueError ante entradas negativas o vacias. No mutar colecciones de entrada.\n"
-        f"{story}\n"
-        "La consigna final no se reescribe:\n"
-        f"{final_prompt}"
+        f"{spec.story}\n"
+        f"Implementa unicamente {spec.target_name}. "
+        "Asumi que las auxiliares vigentes ya existen en el scope global y no las redefinas. "
+        f"Invoca {helpers[0]} y {helpers[1]} con su ultima firma aceptada vigente en la sesion.\n"
+        f"Firma tipada exacta:\n{_typed_def_line(spec.target_fn)}\n"
+        f"{_THRASH_DETAILS[spec.scenario_id]}\n"
+        "Aritmetica entera con division // . Cero float. No mutar la lista de entrada.\n"
     )
 
 
-def _user_contract(story: str, helpers: tuple[str, ...], signature: str) -> str:
+def _typed_def_line(fn: Callable[..., object]) -> str:
+    tree = ast.parse(inspect.getsource(fn))
+    node = tree.body[0]
+    if not isinstance(node, ast.FunctionDef):
+        raise RuntimeError("la funcion objetivo no es un def")
+    rendered = f"def {node.name}({ast.unparse(node.args)})"
+    if node.returns is not None:
+        rendered = f"{rendered} -> {ast.unparse(node.returns)}"
+    return rendered + ":"
+
+
+def _system_text(story: str, target_name: str) -> str:
+    return (
+        "INVARIANTES DE LA SESION. Aritmetica entera exacta con division // . "
+        "Cero float. No mutar colecciones de entrada. "
+        "Deduplicar por identificador conservando la primera aparicion. "
+        "ValueError si un texto obligatorio esta vacio o si un entero es negativo.\n"
+        f"{story}\n"
+        f"La funcion integradora final se llama {target_name}.\n"
+    )
+
+
+def _user_contract(story: str, helpers: tuple[str, ...], target_name: str) -> str:
     return (
         f"{story}\n"
-        f"Auxiliares que van a evolucionar o quedar aceptadas: {', '.join(helpers)}.\n"
-        f"La entrega final debe cumplir: {signature}\n"
-        "No pierdas los invariantes numericos de este turno.\n"
+        f"Auxiliares del modulo: {', '.join(helpers)}. "
+        "Sus firmas pueden cambiar durante la sesion.\n"
+        f"La funcion integradora final se llama {target_name}.\n"
+        "No inventes argumentos que la sesion todavia no acepto.\n"
     )
 
 
@@ -1197,16 +1401,18 @@ _SHADOW_DOMAINS: tuple[_ShadowDomain, ...] = (
         story="Liquidacion contable de comercios en centavos y basis points.",
         floor_name="calcular_cargo_base",
         floor_pos="monto_centavos",
-        floor_kws=("tasa_bps", "minimo_centavos", "moneda"),
+        floor_kws=("gravamen_bps", "umbral_cargo_centavos", "divisa_cargo"),
         cap_name="aplicar_retencion_escalonada",
         cap_pos="base_centavos",
-        cap_kws=("tramos_bps", "tope_centavos", "moneda"),
+        cap_kws=("coeficiente_retencion_bps", "techo_retencion_centavos", "divisa_retencion"),
         diff_name="consolidar_asiento",
         diff_pos="cargos",
-        diff_right_kw="retenciones",
-        diff_label_kw="moneda",
+        diff_right_kw="retenido_asiento",
+        diff_label_kw="divisa_asiento",
         target_name="liquidar_lote_comercios",
         target_items="lote",
+        tuple_id="comercio_id",
+        tuple_value="monto_centavos",
         target_kws=("tasa_bps", "minimo_centavos", "tramo_bps", "tope_retencion", "moneda"),
         divisor_a=10000,
         divisor_b=10000,
@@ -1222,16 +1428,18 @@ _SHADOW_DOMAINS: tuple[_ShadowDomain, ...] = (
         story="Dosificacion clinica pediatrica y renal en microgramos enteros.",
         floor_name="ajustar_por_clearance",
         floor_pos="dosis_mcg",
-        floor_kws=("clearance_ml_min", "piso_mcg", "via"),
+        floor_kws=("filtrado_renal_ml", "piso_dosis_mcg", "ruta_infusion"),
         cap_name="limitar_velocidad_bomba",
         cap_pos="mcg_min",
-        cap_kws=("tope_mcg_min", "peso_g", "via"),
+        cap_kws=("caudal_bomba_mcg", "masa_corporal_g", "ruta_bomba_clinica"),
         diff_name="redondear_ampollas",
         diff_pos="ajustes",
-        diff_right_kw="restos",
-        diff_label_kw="via",
+        diff_right_kw="remanente_ampolla",
+        diff_label_kw="ruta_remanente",
         target_name="planificar_infusion_segura",
         target_items="ordenes",
+        tuple_id="paciente_id",
+        tuple_value="dosis_mcg",
         target_kws=("clearance_ml_min", "piso_mcg", "tope_mcg_min", "ampolla_mcg", "via"),
         divisor_a=100,
         divisor_b=1000,
@@ -1247,16 +1455,18 @@ _SHADOW_DOMAINS: tuple[_ShadowDomain, ...] = (
         story="Planificacion de pases satelitales en milirradianes y milisegundos enteros.",
         floor_name="elevar_horizonte_mrad",
         floor_pos="base_mrad",
-        floor_kws=("elevacion_mrad", "piso_mrad", "estacion"),
+        floor_kws=("angulo_horizonte_mrad", "umbral_mrad_piso", "nodo_pase"),
         cap_name="penalizar_eclipse_ms",
         cap_pos="ventana_ms",
-        cap_kws=("eclipse_ms", "tope_penalizacion_ms", "estacion"),
+        cap_kws=("sombra_ms_eclipse", "techo_penal_ms", "nodo_sombra"),
         diff_name="filtrar_ventana_util",
         diff_pos="ventanas",
-        diff_right_kw="penalizaciones",
-        diff_label_kw="estacion",
+        diff_right_kw="descuento_ms_neto",
+        diff_label_kw="nodo_descuento",
         target_name="seleccionar_pase_prioritario",
         target_items="pases",
+        tuple_id="pase_id",
+        tuple_value="base_mrad",
         target_kws=("elevacion_mrad", "piso_mrad", "eclipse_ms", "tope_penalizacion_ms", "estacion"),
         divisor_a=1000,
         divisor_b=250,
@@ -1272,16 +1482,18 @@ _SHADOW_DOMAINS: tuple[_ShadowDomain, ...] = (
         story="Actualizacion contractual con topes, quita y mora en basis points.",
         floor_name="indexar_capital_bps",
         floor_pos="capital_centavos",
-        floor_kws=("indice_bps", "piso_centavos", "expediente"),
+        floor_kws=("coeficiente_capital_bps", "umbral_indexado_centavos", "carpeta_indice"),
         cap_name="calcular_mora_diaria_bps",
         cap_pos="base_centavos",
-        cap_kws=("mora_bps", "tope_mora_centavos", "expediente"),
+        cap_kws=("alicuota_diaria_bps", "techo_mora_judicial", "carpeta_mora"),
         diff_name="aplicar_quita_tope",
         diff_pos="capitales",
-        diff_right_kw="moras",
-        diff_label_kw="expediente",
+        diff_right_kw="monto_quita_centavos",
+        diff_label_kw="carpeta_quita",
         target_name="liquidar_convenio_judicial",
         target_items="cuotas",
+        tuple_id="cuota_id",
+        tuple_value="capital_centavos",
         target_kws=("indice_bps", "piso_centavos", "mora_bps", "tope_mora_centavos", "expediente"),
         divisor_a=10000,
         divisor_b=100,
@@ -1297,16 +1509,18 @@ _SHADOW_DOMAINS: tuple[_ShadowDomain, ...] = (
         story="Asignacion FEFO de cadena de frio con merma termica entera.",
         floor_name="descontar_merma_termica",
         floor_pos="unidades",
-        floor_kws=("merma_bps", "piso_unidades", "deposito"),
+        floor_kws=("coeficiente_termico_bps", "umbral_merma_unidades", "camara_termica"),
         cap_name="priorizar_lotes_fefo",
         cap_pos="disponibles",
-        cap_kws=("prioridad_bps", "tope_unidades", "deposito"),
+        cap_kws=("peso_fefo_bps", "techo_despacho_unidades", "camara_fefo"),
         diff_name="calcular_reserva_critica",
         diff_pos="disponibles_netos",
-        diff_right_kw="reservas",
-        diff_label_kw="deposito",
+        diff_right_kw="cupo_critico_unidades",
+        diff_label_kw="camara_cupo",
         target_name="despachar_pedido_hospitalario",
         target_items="pedido",
+        tuple_id="linea_id",
+        tuple_value="unidades",
         target_kws=("merma_bps", "piso_unidades", "prioridad_bps", "tope_unidades", "deposito"),
         divisor_a=20,
         divisor_b=10000,
@@ -1318,6 +1532,105 @@ _SHADOW_DOMAINS: tuple[_ShadowDomain, ...] = (
         sample_label="farmacia",
     ),
 )
+
+
+_THRASH_DETAILS: dict[str, str] = {
+    "S06_token_bucket": (
+        "Cada elemento de peticiones es una tupla (peticion_id: str, costo_entero: int).\n"
+        "ValueError si peticiones esta vacio, si canal esta vacio, si recarga, tope o minimo "
+        "es < 0, si peticion_id esta vacio o si costo_entero es < 0.\n"
+        "Flujo exacto:\n"
+        "1) deduplicar peticiones por peticion_id conservando solo la primera aparicion;\n"
+        "2) el disponible inicial sale de invocar recargar_cubeta_entera con su firma vigente, "
+        "partiendo del entero 0 y usando recarga, tope y canal;\n"
+        "3) para cada item unico, el debito es costo_entero cuando supera minimo, y minimo en "
+        "caso contrario; si el debito supera el disponible, el item se rechaza; si no, el "
+        "disponible pasa a ser el resultado de consumir_rafaga con su firma vigente y el item "
+        "cuenta como aceptado. consumidas suma esos debitos.\n"
+        "Retorno dict[str, object]:\n"
+        '- "canal": str, el parametro canal.\n'
+        '- "aceptadas": int, items unicos aceptados.\n'
+        '- "rechazadas": int, unicos menos aceptadas.\n'
+        '- "consumidas": int, suma de debitos aceptados.\n'
+        '- "disponible": int, saldo final.'
+    ),
+    "S07_audit_chain": (
+        "Cada elemento de eventos es una tupla (evento_id: int, tipo_evento: int, peso_evento: int).\n"
+        "ValueError si eventos esta vacio, si canal esta vacio, si primo < 2, o si cualquier "
+        "entero del parametro o de una tupla es < 0.\n"
+        "Flujo exacto:\n"
+        "1) deduplicar eventos por evento_id conservando solo la primera aparicion;\n"
+        "2) el acumulador inicial es exactamente 2166136261 % 4294967311;\n"
+        "3) para cada evento unico, obtener el dato con normalizar_evento_canonico segun su "
+        "firma vigente y mezclarlo con mezclar_acumulador_fnv segun su firma vigente, usando "
+        "primo y canal.\n"
+        "Retorno dict[str, object]:\n"
+        '- "canal": str.\n'
+        '- "eventos": int, cantidad de eventos unicos.\n'
+        '- "huella": int, el acumulador final.\n'
+        '- "primero": int, evento_id del primer unico.\n'
+        '- "ultimo": int, evento_id del ultimo unico.'
+    ),
+    "S08_fx_netting": (
+        "Cada elemento de patas es una tupla "
+        "(pata_id: str, monto_bruto: int, bps_pata: int, comision_pata: int).\n"
+        "ValueError si patas esta vacio, si moneda_base esta vacio, si pata_id esta vacio "
+        "o si cualquier entero de la tupla es < 0.\n"
+        "Flujo exacto:\n"
+        "1) deduplicar patas por pata_id conservando solo la primera aparicion;\n"
+        "2) para cada pata unica, base = convertir_a_base_bps segun su firma vigente;\n"
+        "3) haber = base // 4;\n"
+        "4) ajustado = compensar_saldos_par segun su firma vigente, usando ese haber y la "
+        "comision de la tupla;\n"
+        "5) sumar ajustado.\n"
+        "Retorno dict[str, object]:\n"
+        '- "moneda": str, moneda_base.\n'
+        '- "patas": int, cantidad de patas unicas.\n'
+        '- "neto_centavos": int, la suma de ajustados.\n'
+        '- "primera": str, pata_id de la primera unica.\n'
+        '- "ultima": str, pata_id de la ultima unica.'
+    ),
+    "S09_triage_queue": (
+        "Cada elemento de pacientes es una tupla "
+        "(paciente_id: str, news_entero: int, edad_entera: int, espera_min: int).\n"
+        "ValueError si pacientes esta vacio, si sala esta vacio, si tope_espera < 0, "
+        "si paciente_id esta vacio o si cualquier entero de la tupla es < 0.\n"
+        "Flujo exacto:\n"
+        "1) recorrer la lista conservando el indice original y deduplicar por paciente_id, "
+        "quedandose con la primera aparicion;\n"
+        "2) el puntaje base sale de puntaje_severidad_vital segun su firma vigente;\n"
+        "3) el puntaje final sale de escalar_por_espera_min segun su firma vigente, "
+        "acotando la espera con tope_espera;\n"
+        "4) ordenar los unicos con la clave (-score, -espera, indice_original), donde "
+        "indice_original es la posicion en la lista de entrada antes de descartar duplicados.\n"
+        "Retorno dict[str, object]:\n"
+        '- "sala": str.\n'
+        '- "orden": tuple[str, ...], los paciente_id en ese orden.\n'
+        '- "puntaje_maximo": int, score del primero.\n'
+        '- "pacientes": int, cantidad de pacientes unicos.\n'
+        '- "espera_primera": int, espera del primero del orden.'
+    ),
+    "S10_retry_planner": (
+        "Cada elemento de fallos es una tupla (fallo_id: str, intento_entero: int).\n"
+        "ValueError si fallos esta vacio, si canal esta vacio, si base_ms, tope_ms, sla_ms "
+        "o minimo_ms es < 0, si fallo_id esta vacio o si intento_entero es < 0.\n"
+        "Flujo exacto:\n"
+        "1) deduplicar fallos por fallo_id conservando solo la primera aparicion;\n"
+        "2) acumulado empieza en 0;\n"
+        "3) para cada fallo unico, la demora sale de calcular_demora_cuadratica_ms segun su "
+        "firma vigente;\n"
+        "4) restante = sla_ms - acumulado, y si restante < 0 entonces restante = 0;\n"
+        "5) la demora ajustada sale de recortar_a_ventana_sla segun su firma vigente, "
+        "usando ese restante;\n"
+        "6) acumulado suma la demora ajustada. El paso guardado es (fallo_id, demora ajustada).\n"
+        "Retorno dict[str, object]:\n"
+        '- "canal": str.\n'
+        '- "pasos": tuple[tuple[str, int], ...], los pares en orden de los unicos.\n'
+        '- "total_ms": int, acumulado final.\n'
+        '- "reintentos": int, cantidad de pasos.\n'
+        '- "primero": str, fallo_id del primer paso.'
+    ),
+}
 
 
 _THRASH_SPECS: tuple[_ThrashSpec, ...] = (

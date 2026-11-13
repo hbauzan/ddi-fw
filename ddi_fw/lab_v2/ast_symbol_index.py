@@ -20,6 +20,7 @@ class FunctionSig:
     turn_id: int
     pos_names: tuple[str, ...] = ()
     kwonly_names: tuple[str, ...] = ()
+    typed_signature: str = ""
 
 
 @dataclass(frozen=True)
@@ -111,6 +112,9 @@ class LiveSymbolIndex:
             parts.append("*")
             parts.extend(sig.kwonly_names)
         return f"{sig.qualname}({', '.join(parts)})"
+
+    def render_typed_signature(self, sig: FunctionSig) -> str:
+        return sig.typed_signature or self.render_signature(sig)
 
     def find_deprecated_calls(self, code: str) -> list[AstViolation]:
         return [
@@ -244,7 +248,15 @@ def _build_signature(
         turn_id=turn_id,
         pos_names=pos_names,
         kwonly_names=tuple(arg.arg for arg in args.kwonlyargs),
+        typed_signature=_typed_signature_text(qualname, node),
     )
+
+
+def _typed_signature_text(qualname: str, node: ast.FunctionDef | ast.AsyncFunctionDef) -> str:
+    rendered = f"{qualname}({ast.unparse(node.args)})"
+    if node.returns is not None:
+        return f"{rendered} -> {ast.unparse(node.returns)}"
+    return rendered
 
 
 def _same_contract(left: FunctionSig, right: FunctionSig) -> bool:

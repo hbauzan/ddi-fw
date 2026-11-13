@@ -17,7 +17,7 @@ Carpeta: [`duelo-v2-y-contexto-250k/`](./duelo-v2-y-contexto-250k/)
 | [02-protocolo-test-b-context-rot-250k.md](./duelo-v2-y-contexto-250k/02-protocolo-test-b-context-rot-250k.md) | Especificación paso a paso de `TASK-002` (Test B: Telemetría cinemática >250k tokens, `LiveSymbolIndex` AST y Compilador Activo `260k -> <36k`) |
 | [04-protocolo-camino1-pulido-test-a.md](./duelo-v2-y-contexto-250k/04-protocolo-camino1-pulido-test-a.md) | *(Completado)* Especificación de `TASK-003`: higiene de payloads en `neg_piggybacking`, detector estructural `foreign_code` y calibración de `M4` (`ROC-AUC = 0.99976`, `FAR = 0.0%`) |
 | [03-protocolo-test-b-etapa2-live-api.md](./duelo-v2-y-contexto-250k/03-protocolo-test-b-etapa2-live-api.md) | *(Completado)* Especificación de `TASK-004`: Primera corrida A/B viva en `gemini-3.8-flash` (`-88.96%` tokens facturados, `1.43x` speedup) |
-| [05-protocolo-camino1-pulido-test-c-live.md](./duelo-v2-y-contexto-250k/05-protocolo-camino1-pulido-test-c-live.md) | *(Activo — Camino 1)* Especificación quirúrgica de `TASK-005`: Pinning de definiciones AST vivas (`last_def`) + encabezados tipados en `ContextCompiler` y revancha viva limpia (`20` llamadas) |
+| [05-protocolo-camino1-pulido-test-c-live.md](./duelo-v2-y-contexto-250k/05-protocolo-camino1-pulido-test-c-live.md) | *(Completado)* Especificación quirúrgica de `TASK-005`: Pinning de definiciones AST vivas (`last_def`) + encabezados tipados en `ContextCompiler` y revancha viva limpia (`Pass@1 = 1.0`, `-87.18%` tokens facturados, `1.82x` speedup p50) |
 
 ---
 

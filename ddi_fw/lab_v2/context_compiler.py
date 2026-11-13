@@ -79,9 +79,12 @@ def compile_session_context(
         "role": "system",
         "content": _governor_text(index, notes),
     }
+    live_def_turn_ids = set(last_def.values())
+    pinned_live = [item for item in hygienic if item[0] in live_def_turn_ids]
+    candidates = [item for item in hygienic if item[0] not in live_def_turn_ids]
     query = _query_text(messages)
     ranked = sorted(
-        hygienic,
+        candidates,
         key=lambda item: (
             -_similarity(
                 item[1]["content"],
@@ -100,15 +103,22 @@ def compile_session_context(
     base_messages.append(governor)
     base_messages.extend(dict(message) for _index, message in tail)
     used = sum(estimate_tokens(message["content"]) for message in base_messages)
+    fitted_pinned: list[tuple[int, dict[str, str]]] = []
+    for source_index, message in pinned_live:
+        fitted = _fit_pinned_message(message, source_index, last_def, max_budget_tokens - used)
+        if fitted is None:
+            continue
+        fitted_pinned.append((source_index, fitted))
+        used += estimate_tokens(fitted["content"])
     for source_index, message in ranked:
         cost = estimate_tokens(message["content"])
         if used + cost <= max_budget_tokens:
             selected.append((source_index, message))
             used += cost
-    selected.sort(key=lambda item: item[0])
+    merged = sorted([*fitted_pinned, *selected], key=lambda item: item[0])
     compiled = [dict(message) for _index, message in head]
     compiled.append(governor)
-    compiled.extend(message for _index, message in selected)
+    compiled.extend(message for _index, message in merged)
     compiled.extend(dict(message) for _index, message in tail)
     compiled_tokens = sum(estimate_tokens(message["content"]) for message in compiled)
     ratio = 1.0 if original_tokens == 0 else float(compiled_tokens) / float(original_tokens)
@@ -268,7 +278,45 @@ def _governor_text(index: LiveSymbolIndex, notes: list[object]) -> str:
         turn_id = getattr(note, "turn_id", "?")
         reason = getattr(note, "reason", "")
         lines.append(f"- turno {turn_id}: {reason}")
+    lines.append("Encabezados tipados vigentes:")
+    if not index.live_signatures:
+        lines.append("- (ninguna)")
+    for qualname in sorted(index.live_signatures):
+        lines.append(f"- {index.render_typed_signature(index.live_signatures[qualname])}")
     return "\n".join(lines)
+
+
+def _fit_pinned_message(
+    message: dict[str, str],
+    message_index: int,
+    last_def: dict[str, int],
+    remaining: int,
+) -> dict[str, str] | None:
+    if remaining < 1:
+        return None
+    content = message.get("content", "")
+    if estimate_tokens(content) <= remaining:
+        return message
+    reduced = _live_python_blocks(content, message_index, last_def)
+    if reduced and estimate_tokens(reduced) <= remaining:
+        return {"role": message.get("role", "user"), "content": reduced}
+    return None
+
+
+def _live_python_blocks(content: str, message_index: int, last_def: dict[str, int]) -> str:
+    kept: list[str] = []
+    for match in _PY_FENCE.finditer(content):
+        names = _defined_names(match.group(1))
+        if any(last_def.get(name) == message_index for name in names):
+            kept.append(match.group(0).strip())
+    if kept:
+        return "\n".join(kept)
+    for block in extract_python_blocks(content):
+        names = _defined_names(block)
+        if any(last_def.get(name) == message_index for name in names):
+            body = block if block.endswith("\n") else f"{block}\n"
+            kept.append(f"```python\n{body}```")
+    return "\n".join(kept)
 
 
 def _index_from_messages(messages: list[dict[str, str]]) -> LiveSymbolIndex:
