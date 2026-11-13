@@ -50,6 +50,18 @@ Conjunto de almas autorizadas y vedadas. El demo autoriza `python` y veta `recet
 
 Partición del prompt en cláusulas y veredicto fail-closed: una BREACH tumba el prompt entero.
 
+## Motor v2
+
+Modo `v2_spectral_ast`. El veredicto lo da `M4_HybridAstSpectral` con umbral conformal y compuerta AST. La prosa y el código ajeno son dos hiperplanos de Fisher distintos. Convive con las cajas de `v1_boxes`. El default del producto sigue siendo `v1_boxes`.
+
+_Avoid_: coseno, centroide, reemplazo de `decide()`.
+
+## Compilador de contexto
+
+Reescritura determinista de `messages[]` hacia un presupuesto de tokens, antes del upstream. No es el veredicto de ingreso ni de egreso.
+
+_Avoid_: resumen libre del modelo, prompt injection.
+
 ## Egreso hold
 
 Retención total de la respuesta del LLM. Cero tokens al cliente hasta el veredicto. Misma geometría que ingress.

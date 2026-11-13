@@ -1,6 +1,6 @@
 {
   "project": "ddi-fw",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "bootstrap_run": false,
   "state_schema": {
     "allowed_alma": "python",
@@ -9,7 +9,11 @@
     "upstream_url": "DDI_UPSTREAM_URL",
     "upstream_model": "DDI_UPSTREAM_MODEL",
     "port": 8080,
-    "request_timeout_seconds": 60
+    "request_timeout_seconds": 60,
+    "engine_mode": "v1_boxes",
+    "context_compiler_enabled": false,
+    "context_max_budget_tokens": 36000,
+    "context_fresh_tail_turns": 6
   },
   "constraints": {
     "vector_dim_default": 1024,

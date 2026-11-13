@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+from typing import Literal
 
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -26,6 +27,11 @@ class Settings(BaseSettings):
     quorum_ratio: float = 0.10
     podar_ruido: bool = True
     prune_paja: bool = True  # Deprecated alias
+    engine_mode: Literal["v1_boxes", "v2_spectral_ast"] = "v1_boxes"
+    v2_calibration_path: Path = Field(default=Path("ddi_fw/out/v2_spectral_ast.npz"))
+    context_compiler_enabled: bool = False
+    context_max_budget_tokens: int = 36000
+    context_fresh_tail_turns: int = 6
 
     def forbidden_set(self) -> frozenset[str]:
         return frozenset(item.strip() for item in self.forbidden_almas.split(",") if item.strip())
